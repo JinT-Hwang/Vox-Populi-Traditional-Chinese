@@ -7,7 +7,7 @@
 
 繁体汉化地址: https://github.com/JinT-Hwang/Vox-Populi-Traditional-Chinese
 
-
+------
 
 安装说明:
 
@@ -16,11 +16,11 @@
 2.将"Vox Populi 4.15.2 繁体汉化"文件夹中, 有对应名字的文件夹覆盖到
 C:\Users\你的电脑用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文件夹下, 即可.
 
-
+------
 
 其他说明:
 
-1.汉化文本为繁体, 只针对当前版本4.15.2.
+1.汉化文本为繁体, 只针对版本4.15.2.
 
 2.绝大部分的人物名字或艺术品名字/作者没有翻译, 只对作品描述进行翻译.
 

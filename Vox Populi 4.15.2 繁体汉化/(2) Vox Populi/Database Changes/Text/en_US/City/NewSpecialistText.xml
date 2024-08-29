@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/6/2014 9:56:48 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPECIALIST_CIVIL_SERVANT">
+			<Text>公務員|公務員</Text>
+			<Plurality>1|2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_CIVIL_SERVANT_STRATEGY">
+			<Text>公務員提供 1 [ICON_RESEARCH]科學, 1 [ICON_CULTURE]文化, 2 [ICON_GOLD]金幣, 並加速大外交官的誕生.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_CIVIL_SERVANT_SLOTS">
+			<Text>公務員席位:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_CIVIL_SERVANT_TITLE">
+			<Text>大外交官點數:</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

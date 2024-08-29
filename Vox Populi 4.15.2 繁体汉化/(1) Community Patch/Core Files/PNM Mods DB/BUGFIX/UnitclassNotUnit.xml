@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TP_FAITH_NEXT_PROPHET_PARAM">
+			<Text>{1_Num} [ICON_PEACE]信仰是你下一個 {2_UNITCLASS_PROPHET} 的最低要求.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_RO_FAITH_TOOLTIP_PARAM">
+			<Text>需要至少 {1_MinFaith} [ICON_PEACE]信仰才能有下一個 {2_UNITCLASS_PROPHET}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_AUTO_FAITH_PROPHET_PARAM">
+			<Text>為 {1_UNITCLASS_PROPHET} 而儲備</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_AUTO_FAITH_PURCHASE_PROPHET_PARAM">
+			<Text>購買 {1_UNITCLASS_PROPHET}</Text>
+		</Row>
+	</Language_en_US>
+
+	<CustomModDbUpdates>
+		<Row Name="BUGFIX_UNITCLASS_NOT_UNIT_XML" Value="1"/>
+	</CustomModDbUpdates>
+</GameData>

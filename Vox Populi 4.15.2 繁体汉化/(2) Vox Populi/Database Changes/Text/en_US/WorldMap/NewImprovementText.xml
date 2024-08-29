@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILD_FARM_HELP">
+			<Text>每 2 個與此農場相鄰的農場和/或來自淡水的農場,+1 [ICON_FOOD]食物.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FARM_REC">
+			<Text>它會增加這個單元格上[ICON_FOOD]食物的產出.鄰近兩個其他農場和/或淡水的農場會獲得 +1 [ICON_FOOD]食物.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILD_TRADING_POST_HELP">
+			<Text>如果建造在連接兩個城市的道路上, [ICON_PRODUCTION]產能和[ICON_GOLD]金幣會 +1,如果建造在鐵路上會加倍.如果貿易路線經過這個村莊,[ICON_PRODUCTION]產能和[ICON_GOLD]金幣會 +1,在工業時代後會加倍.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILD_LUMBERMILL_HELP">
+			<Text>每 2 鋸木廠與此鋸木廠相鄰 +1 [ICON_PRODUCTION]產能和[ICON_GOLD]金幣.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_CUSTOMS_HOUSE">
+			<Text>單位會被消耗. 如果建造在連接兩個城市的道路上 +2 [ICON_PRODUCTION]產能和[ICON_GOLD]金幣, 如果建造在鐵路上會加倍. 如果貿易路線經過這個村莊 +2 [ICON_PRODUCTION]產能和[ICON_GOLD]金幣, 在工業時代後會加倍.[NEWLINE][NEWLINE]偉人改良設施會將此單元格上的戰略資源連接至貿易網路. 村莊會提升大商業家的外交任務產生的金幣和敬王之日持續回合 [COLOR_POSITIVE_TEXT]25%[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_MANUFACTORY">
+			<Text>單位會被消耗.[NEWLINE][NEWLINE]偉人改良設施會將此單元格上的戰略資源連接至貿易網路. 製造廠會提升大工程師的加速產能的能力 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_ACADEMY">
+			<Text>單位會被消耗.[NEWLINE][NEWLINE]偉人改良設施會將此單元格上的戰略資源連接至貿易網路. 學院會提升大科學家的研發科技的能力 [COLOR_POSITIVE_TEXT]10%[ENDCOLOR].</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_IMPROVEMENT_EMBASSY">
+			<Text>大使館</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_EMBASSY_TEXT">
+			<Text>大使館只能由大外交官在城邦領土內建造.[NEWLINE][NEWLINE]第一位在城邦領土上建造大使館的玩家(也只能是第一位!)可以在世界大會上獲得[COLOR_POSITIVE_TEXT]一個額外的選票[ENDCOLOR].除了第一個在城邦領土上建立的大使館之外,其他玩家都不會獲得額外的選票.[NEWLINE][NEWLINE]大使館不能被掠奪 - 一旦建立,就永遠不能被移除,而且大使館永遠會將其額外的世界大會選票給予最初的建立者.但是,如果原來的建造者被征服,征服者將擁有他們的大使館和選票!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_EMBASSY">
+			<Text>建立一個[LINK=IMPROVEMENT_EMBASSY]大使館[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP_EMBASSY">
+			<Text>單位會被消耗.[NEWLINE][NEWLINE]完成建造時, 給予 [COLOR_POSITIVE_TEXT]1 世界大會選票[ENDCOLOR]. 獲得 +1 [ICON_RES_PAPER]紙張.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_IMPROVEMENT_JFD_MACHU_PICCHU">
+			<Text>山嶽城市</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

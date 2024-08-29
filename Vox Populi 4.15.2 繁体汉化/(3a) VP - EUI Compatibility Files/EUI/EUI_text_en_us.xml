@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with notepad by bc1 -->
+<GameData>
+	<Language_en_US>
+		<!-- C4DF Support-->
+		<Replace Tag="TXT_KEY_C4DF_VASSAL_OVERVIEW">
+			<Text>附庸總覽</Text>
+		</Replace>
+<!-- UI additions -->
+		<Replace Tag="TXT_KEY_POP_GREAT_PERSON_UNITS">
+			<Text>偉人單位</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_RELIGIOUS_UNITS">
+			<Text>宗教單位</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_LAND_UNITS">
+			<Text>陸上軍事單位</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_SEA_UNITS">
+			<Text>海上軍事單位</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_AIR_UNITS">
+			<Text>空中軍事單位</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_MILITARY_UNITS">
+			<Text>軍事單位</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_NATIONAL_WONDERS">
+			<Text>自然奇跡</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_WORLD_WONDERS">
+			<Text>世界奇跡</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POP_PROJECTS">
+			<Text>項目</Text>
+		</Replace>
+<!-- UNIT attributes -->
+		<Replace Tag="TXT_KEY_EUI_UNIT_MOVEAFTERPURCHASE">
+			<Text>購買後可移動</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_IMMOBILE">
+			<Text>Immobile</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_FOOD">
+			<Text>{TXT_KEY_CITYVIEW_STAGNATION_TEXT}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_NOBADGOODIES">
+			<Text>無較差遺跡</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_RIVALTERRITORY">
+			<Text>對手的領土</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_MILITARYSUPPORT">
+			<Text>Military Support</Text>
+		</Replace-->
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_MILITARYPRODUCTION">
+			<Text>Military Production</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_PILLAGE">
+			<Text>可以掠奪改良的单元格</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_FOUND">
+			<Text>可以建立一座城市</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_FOUNDABROAD">
+			<Text>可以建立一座海外城市</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_IGNOREBUILDINGDEFENSE">
+			<Text>Ignores City Fortifications</Text>
+		</Replace-->
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_MECHANIZED">
+			<Text>Mechanized</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_SUICIDE">
+			<Text>單位在攻擊过程中消耗</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_CAPTUREWHILEEMBARKED">
+			<Text>登船时攻奪</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_RUSHBUILDING">
+			<Text>{TXT_KEY_MISSION_HURRY_PRODUCTION}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_SPREADRELIGION">
+			<Text>{TXT_KEY_MISSION_SPREAD_RELIGION}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_REMOVEHERESY">
+			<Text>{TXT_KEY_MISSION_REMOVE_HERESY}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_FOUNDRELIGION">
+			<Text>{TXT_KEY_MISSION_FOUND_RELIGION}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_REQUIRESENHANCEDRELIGION">
+			<Text>需要強化宗教</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_PROHIBITSSPREAD">
+			<Text>禁止傳播</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_CANBUYCITYSTATE">
+			<Text>{TXT_KEY_MISSION_BUY_CITY_STATE}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_RANGEATTACKONLYINDOMAIN">
+			<Text>只能在領土内進行遠程攻擊</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_RANGEATTACKIGNORELOS">
+			<Text>{TXT_KEY_PROMOTION_INDIRECT_FIRE}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_TRADE">
+			<Text>{TXT_KEY_MISSION_ESTABLISH_TRADE_ROUTE}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_NOMAINTENANCE">
+			<Text>{TXT_KEY_PEDIA_MAINT_LABEL} 0</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_BASESIGHTRANGE">
+			<Text>Base Sight Range {1}</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_CULTUREBOMBRADIUS">
+			<Text>{TXT_KEY_MISSION_CULTURE_BOMB} ({1})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_GOLDENAGETURNS">
+			<Text>{TXT_KEY_MISSION_START_GOLDENAGE} ({1} {TXT_KEY_TURNS})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_FREEPOLICIES">
+			<Text>{TXT_KEY_MISSION_GIVE_POLICIES} ({1}x[ICON_CULTURE])</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_ONESHOTTOURISM">
+			<Text>{TXT_KEY_MISSION_ONE_SHOT_TOURISM} ({1}x[ICON_TOURISM])</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_ONESHOTTOURISMPERCENTOTHERS">
+			<Text>一次性旅遊占其他旅遊的百分比 {1}</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_MINAREASIZE">
+			<Text>Min Area Size {1}</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_AIRINTERCEPTRANGE">
+			<Text>{TXT_KEY_MISSION_INTERCEPT} [ICON_RANGE_STRENGTH]{1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_AIRUNITCAP">
+			<Text>空中單位上限 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_NUKEDAMAGELEVEL">
+			<Text>核彈傷害等級 {1}</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_WORKRATE">
+			<Text>Work Rate {1}</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_NUMFREETECHS">
+			<Text>{TXT_KEY_MISSION_DISCOVER_TECH} ({1})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_BASEBEAKERSTURNSTOCOUNT">
+			<Text>{TXT_KEY_MISSION_DISCOVER_TECH} ({1} {TXT_KEY_TURNS})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_BASECULTURETURNSTOCOUNT">
+			<Text>{TXT_KEY_MISSION_GIVE_POLICIES} ({1} {TXT_KEY_TURNS})</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_RELIGIONSPREADS">
+			<Text>{TXT_KEY_UPANEL_SPREAD_RELIGION_USES}: {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_RELIGIOUSSTRENGTH">
+			<Text>宗教力量 {1}</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_COMBATLIMIT">
+			<Text>Combat Limit {1}</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_NUMEXOTICGOODS">
+			<Text>{TXT_KEY_MISSION_SELL_EXOTIC_GOODS}: {1}</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_RANGEDCOMBATLIMIT">
+			<Text>Ranged Combat Limit {1}</Text>
+		</Replace-->
+		<!--Replace Tag="TXT_KEY_EUI_UNIT_CONSCRIPTION">
+			<Text>Conscription {1}</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_UNIT_EXTRAMAINTENANCECOST">
+			<Text>{TXT_KEY_PEDIA_MAINT_LABEL} {1}[ICON_GOLD]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_UNHAPPINESS">
+			<Text>{TXT_KEY_UNHAPPINESS}: {1}[ICON_HAPPINESS_3]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNIT_LEADEREXPERIENCE">
+			<Text>領袖經驗 {1}</Text>
+		</Replace>
+
+<!-- BUILDING attributes -->
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TEAMSHARE">
+			<Text>{TXT_KEY_POP_UN_TEAM}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_FOUNDSRELIGION">
+			<Text>{TXT_KEY_MISSION_FOUND_RELIGION}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ISRELIGIOUS">
+			<Text>是宗教性的</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_BORDEROBSTACLE">
+			<Text>邊界障礙</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_PLAYERBORDEROBSTACLE">
+			<Text>玩家邊界障礙</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CAPITAL">
+			<Text>首都</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GOLDENAGE">
+			<Text>{TXT_KEY_MISSION_START_GOLDENAGE}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_MAPCENTERING">
+			<Text>地圖居中</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NEVERCAPTURE">
+			<Text>從不占領</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NUKEIMMUNE">
+			<Text>免疫核彈</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ALLOWSWATERROUTES">
+			<Text>允許水上路線</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ALLOWSINDUSTRIALWATERROUTES">
+			<Text>允許工業水上路線</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ALLOWSAIRROUTES">
+			<Text>允許空中路綫</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_EXTRALUXURIES">
+			<Text>額外奢侈品</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_DIPLOMATICVOTING">
+			<Text>外交投票</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_AFFECTSPIESNOW">
+			<Text>立即影響間諜</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NULLIFYINFLUENCEMODIFIER">
+			<Text>無效影響修正</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_HOLYCITY">
+			<Text>[COLOR_WHITE]{TXT_KEY_RO_WR_HOLY_CITY}[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_AIRLIFT">
+			<Text>{TXT_KEY_MISSION_AIRLIFT}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NOOCCUPIEDUNHAPPINESS">
+			<Text>{TXT_KEY_BUILDING_COURTHOUSE_HELP}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ALLOWSRANGESTRIKE">
+			<Text>允許遠程攻擊</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ESPIONAGE">
+			<Text>{TXT_KEY_GAME_CONCEPT_SECTION_22}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ALLOWSFOODTRADEROUTES">
+			<Text>[ICON_FOOD]{TXT_KEY_TRADE_ROUTES_HEADING2_TITLE}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ALLOWSPRODUCTIONTRADEROUTES">
+			<Text>[ICON_PRODUCTION]{TXT_KEY_TRADE_ROUTES_HEADING2_TITLE}</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_BUILDING_CITYWALL">
+			<Text>City Wall</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_BUILDING_LEAGUECOST">
+			<Text>聯盟費用 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NUMCITYCOSTMOD">
+			<Text>城市數量費用修正 {1}</Text>
+		</Replace>
+		<!--Replace Tag="TXT_KEY_EUI_BUILDING_MINAREASIZE">
+			<Text>Min Area Size {1}</Text>
+		</Replace-->
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CONQUESTPROB">
+			<Text>{1}% 奪取機會</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CITIESPREREQ">
+			<Text>城市前提條件 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_LEVELPREREQ">
+			<Text>等級前提條件 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALCULTURERATEMODIFIER">
+			<Text>全局文化速率修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GREATPEOPLERATEMODIFIER">
+			<Text>+{1}%[ICON_GREAT_PEOPLE] {TXT_KEY_CITYVIEW_GREAT_PEOPLE_TEXT}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALGREATPEOPLERATEMODIFIER">
+			<Text>全局偉人速率修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GREATGENERALRATEMODIFIER">
+			<Text>大將軍速率修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GREATPERSONEXPENDGOLD">
+			<Text>偉人消耗金幣 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GOLDENAGEMODIFIER">
+			<Text>+{1}% {TXT_KEY_REPLAY_DATA_GOLDAGETURNS}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_UNITUPGRADECOSTMOD">
+			<Text>單位升級費用修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_EXPERIENCE">
+			<Text>經驗 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALEXPERIENCE">
+			<Text>全局經驗 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_FOODKEPT">
+			<Text>[ICON_CITIZEN]公民出生後 +{1}%[ICON_FOOD]食物保留</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_AIRMODIFIER">
+			<Text>空軍修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NUKEMODIFIER">
+			<Text>核彈修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NUKEEXPLOSIONRAND">
+			<Text>核彈爆炸範圍 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_HEALRATECHANGE">
+			<Text>治療效率變化 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_UNHAPPINESSMODIFIER">
+			<Text>不滿修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_HAPPINESSPERCITY">
+			<Text>每座城市快樂 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_HAPPINESSPERXPOLICIES">
+			<Text>每 {1} 政策 +1 快樂</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CITYCOUNTUNHAPPINESSMOD">
+			<Text>城市數量不滿修正 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_WORKERSPEEDMODIFIER">
+			<Text>工人速度修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_MILITARYPRODUCTIONMODIFIER">
+			<Text>軍事單位產能修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_SPACEPRODUCTIONMODIFIER">
+			<Text>太空產能修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALSPACEPRODUCTIONMODIFIER">
+			<Text>全局太空產能修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_BUILDINGPRODUCTIONMODIFIER">
+			<Text>建築產能修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_WONDERPRODUCTIONMODIFIER">
+			<Text>奇跡產能修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CITYCONNECTIONTRADEROUTEMODIFIER">
+			<Text>[ICON_CONNECTED]城市連接修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CAPTUREPLUNDERMODIFIER">
+			<Text>占領掠奪修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_POLICYCOSTMODIFIER">
+			<Text>政策成本修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_PLOTCULTURECOSTMODIFIER">
+			<Text>單元格擴張文化修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALPLOTCULTURECOSTMODIFIER">
+			<Text>全局單元格擴張文化修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_PLOTBUYCOSTMODIFIER">
+			<Text>單元格購買費用修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALPLOTBUYCOSTMODIFIER">
+			<Text>全局單元格購買費用修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALPOPULATIONCHANGE">
+			<Text>全局人口變化 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TECHSHARE">
+			<Text>科技分享 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_FREETECHS">
+			<Text>{1} 免費科技</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_FREEPOLICIES">
+			<Text>{1} 免費政策</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_FREEGREATPEOPLE">
+			<Text>{1} 免費偉人</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_MEDIANTECHPERCENTCHANGE">
+			<Text>科技中位數占比變化 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GOLD">
+			<Text>金幣 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALDEFENSEMOD">
+			<Text>全局防禦修正 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_MINORFRIENDSHIPCHANGE">
+			<Text>城邦友誼變化 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_VICTORYPOINTS">
+			<Text>勝利點數 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_EXTRAMISSIONARYSPREADS">
+			<Text>傳教士的額外傳播 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_RELIGIOUSPRESSUREMODIFIER">
+			<Text>宗教壓力修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_ESPIONAGEMODIFIER">
+			<Text>間諜修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GLOBALESPIONAGEMODIFIER">
+			<Text>全局間諜修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_EXTRASPIES">
+			<Text>額外間諜 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_SPYRANKCHANGE">
+			<Text>間諜等級變化 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_INSTANTSPYRANKCHANGE">
+			<Text>即時間諜等級變化 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTERECIPIENTBONUS">
+			<Text>[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER} +{1}[ICON_GOLD][ICON_ARROW_LEFT]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTETARGETBONUS">
+			<Text>[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER} +{1}[ICON_GOLD][ICON_ARROW_RIGHT]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_NUMTRADEROUTEBONUS">
+			<Text>+{1}[ICON_INTERNATIONAL_TRADE]{TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_LANDMARKSTOURISMPERCENT">
+			<Text>地標旅遊業績百分比 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_INSTANTMILITARYINCREASE">
+			<Text>即時軍事單位增加 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GREATWORKSTOURISMMODIFIER">
+			<Text>巨作旅遊業績修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_XBUILTTRIGGERSIDEOLOGYCHOICE">
+			<Text>XBuilt 觸發意識形態選擇 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTESEADISTANCEMODIFIER">
+			<Text>[ICON_CARGO_SHIP]貿易路綫海上距離修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTESEAGOLDBONUS">
+			<Text>[ICON_CARGO_SHIP]貿易路綫海上金幣獎勵 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTELANDDISTANCEMODIFIER">
+			<Text>[ICON_CARAVAN]貿易路綫陸上距離修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_TRADEROUTELANDGOLDBONUS">
+			<Text>[ICON_CARAVAN]貿易路綫陸上金幣獎勵 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_CITYSTATETRADEROUTEPRODUCTIONMODIFIER">
+			<Text>城邦貿易路綫產出修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GREATSCIENTISTBEAKERMODIFIER">
+			<Text>大科學家燒瓶修正 {1}%</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_SPECIALISTEXTRACULTURE">
+			<Text>專家額外文化 {1}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_EXTRALEAGUEVOTES">
+			<Text>額外的大會票數 {1}</Text>
+		</Replace>
+		<!-- Vox Populi -->
+		<Replace Tag="TXT_KEY_EUI_BUILDING_SUPPLY_CAP_LOCAL">
+			<Text>本地供應上限:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_SUPPLY_CAP_GLOBAL">
+			<Text>全局供應上限:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILDING_GRANTED_BY">
+			<Text>授權自</Text>
+		</Replace>
+		<!-- VP end -->
+<!-- MISC EUI tooltips -->
+		<Replace Tag="TXT_KEY_CBE91AF606834326BC7758BB489E509F_DESCRIPTION">
+			<Text>平面資訊 1</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_OPEN_BORDERS_YOUR">
+			<Text>您的邊境向他們開放</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_OPEN_BORDERS_THEIR">
+			<Text>他們的邊界向您開放</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_CLOSED_BORDERS_YOUR">
+			<Text>您的邊界對他們關閉</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_CLOSED_BORDERS_THEIR">
+			<Text>他們的邊界對您關閉</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_BUILT_IN_X_CITIES">
+			<Text>{1: plural  0?None built; 1?在 1 城市中建造; 2?在 {1} 城市中建造;}{2: plural 0?; 1?,1 城市正在建造; 2?,{2} 城市正在建造;}</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_WONDER_BUILT_BY">
+			<Text>由 {@1_CivName} 在 {@2_CityName} 建造</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_UNKNOWN_CITY">
+			<Text>未知城市</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_AIR_STRENGTH_DEFENSE">
+			<Text>空襲防禦:</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_GLOBAL">
+			<Text>[COLOR_HIGHLIGHT_TEXT]全局[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_EUI_EMPIRE">
+			<Text>[COLOR_HIGHLIGHT_TEXT]帝國[ENDCOLOR]</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_VP_PUPPET_CITIES">
+			<Text>[ICON_PUPPET]傀儡</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_EUI_RESOURCES_QUANTITY_TOTAL_REQUIRED">
+			<Text>獲取要求</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_EUI_RESOURCES_QUANTITY_TOTAL_REQUIRED_UNIT_PANEL">
+			<Text>資源獲取要求:</Text>
+		</Replace>
+	</Language_en_US>
+</GameData>

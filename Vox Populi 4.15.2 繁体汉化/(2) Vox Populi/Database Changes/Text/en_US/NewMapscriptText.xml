@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Mapscripts VP 版 -->
+		<Row Tag="TXT_KEY_MAP_AMAZON_XP_VP">
+			<Text>亞馬遜加强版 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ARBOREA_VP">
+			<Text>阿爾博雷亞 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_BOREAL_VP">
+			<Text>寒帶 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_EUROPE_VP">
+			<Text>歐洲 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_FOUR_CORNERS_VP">
+			<Text>四分天下 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_FRONTIER_VP">
+			<Text>邊境 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_GREAT_PLAINS_XP_VP">
+			<Text>大平原加强版 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_HIGHLANDS_VP">
+			<Text>高地 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_INLAND_SEA_VP">
+			<Text>內海 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LAKES_VP">
+			<Text>湖泊 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LARGE_ISLANDS_VP">
+			<Text>大型島嶼 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_NORTH_VS_SOUTH_VP">
+			<Text>南北對抗 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RAINFOREST_VP">
+			<Text>雨林 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RING_VP">
+			<Text>環形地帶 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CW_MAP_PACK_CHINA_VP">
+			<Text>中國 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_SKIRMISH_VP">
+			<Text>小規模戰鬥 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_TERRA_VP">
+			<Text>星球 VP 版</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_WEST_VS_EAST_VP">
+			<Text>西方與東方 VP 版</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MAP_PLAYERS_START_IN">
+			<Text>玩家開始於</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_TERRA_LARGEST_CONTINENT">
+			<Text>星球 - 最大的大陸</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_CONTINENTS_EVERYWHERE">
+			<Text>盤古大陸 - 無處不在</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OCEAN_SHAPES">
+			<Text>海洋形狀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OCEAN_SHAPES_DESCRIPTION">
+			<Text>分隔大陸的垂直海洋裂縫</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_2_ATLANTIC">
+			<Text>2 大西洋</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_PACIFIC_AND_ATLANTIC">
+			<Text>太平洋和大西洋</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_2_PACIFIC">
+			<Text>2 太平洋</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_2_RANDOM">
+			<Text>2 隨機</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_1_RANDOM">
+			<Text>1 隨機</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_NONE">
+			<Text>無</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RANDOM">
+			<Text>隨機</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RIFT_WIDTH">
+			<Text>裂谷寬度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_RIFT_WIDTH_DESCRIPTION">
+			<Text>無法穿越的海洋寬度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_NARROW">
+			<Text>狹窄</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_NORMAL">
+			<Text>正常</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_WIDE">
+			<Text>寬廣</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_CIRCUMNAVIGATION">
+			<Text>環繞</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_CIRCUMNAVIGATION_DESCRIPTION">
+			<Text>保證環繞世界的橫向水路</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ON">
+			<Text>開</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OFF">
+			<Text>關</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_FORCE_COASTAL_START">
+			<Text>強制從沿岸開始</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_FORCE_COASTAL_START_DESCRIPTION">
+			<Text>每個主權文明都從海岸開始</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_YES">
+			<Text>是</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_NO">
+			<Text>否</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LAND_SHAPES">
+			<Text>陸地形狀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LAND_SHAPES_DESCRIPTION">
+			<Text>控制大陸和島嶼的形狀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_BLOCKY">
+			<Text>塊狀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STRINGY">
+			<Text>細長</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_EXTREMELY_STRINGY">
+			<Text>極度纖細</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STARTING_RESOURCES">
+			<Text>起始資源</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STARTING_RESOURCES_DESCRIPTION">
+			<Text>為起始位置增加戰略,或者民生資源</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ADD_BOTH">
+			<Text>全部增加</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ADD_SOME_STRATEGICS">
+			<Text>增加一些戰略資源</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ADD_SOME_EXTRA_BONUS">
+			<Text>增加一些民生資源</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STRATEGIC_DEPOSIT_SIZE">
+			<Text>戰略資源規模</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STRATEGIC_DEPOSIT_SIZE_DESCRIPTION">
+			<Text>控制每個戰略資源礦床的數量規模</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_SMALL">
+			<Text>少</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LARGE">
+			<Text>多</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_BONUS_RESOURCE_DENSITY">
+			<Text>民生資源密度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_BONUS_RESOURCE_DENSITY_DESCRIPTION">
+			<Text>控制地圖上民生資源的數量</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_SPARSE">
+			<Text>稀疏</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ABUNDANT">
+			<Text>豐富</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STRATEGIC_RESOURCE_DENSITY">
+			<Text>戰略資源密度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_STRATEGIC_RESOURCE_DENSITY_DESCRIPTION">
+			<Text>控制地圖上出現的戰略資源礦藏數量</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LUXURY_RESOURCE_DENSITY">
+			<Text>奢侈資源密度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_LUXURY_RESOURCE_DENSITY_DESCRIPTION">
+			<Text>控制地圖上奢侈資源的數量</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OVERRIDE_ASSIGN_STARTING_PLOTS">
+			<Text>覆寫默認的起始地形</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OVERRIDE_ASSIGN_STARTING_PLOTS_DESCRIPTION">
+			<Text>開啟時可針對特定地圖進行額外優化.關閉可獲得標準 VP 效果.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

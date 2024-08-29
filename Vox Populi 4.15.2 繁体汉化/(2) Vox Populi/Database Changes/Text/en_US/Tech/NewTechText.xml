@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TECH_CORPORATIONS_TITLE">
+			<Text>公司</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CORPORATIONS_DESC">
+			<Text>公司一詞源自拉丁文 corpus,意指團體或一個集體.在查士丁尼(527-565 年在位)時期,羅馬法律承認一系列以 universitas、corpus 或 collegium 命名的法人實體.這些團體包括國家本身 (羅馬人民)、市政府,以及宗教崇拜贊助者、喪葬俱樂部、政治團體、工匠或商人行會等私人協會.這些團體通常有權擁有財產和訂立契約、接受餽贈和遺產、起訴和被起訴,以及透過代表執行一般法律行為.私人協會被皇帝賦予指定的特權和自由.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CORPORATIONS_HELP">
+			<Text>允許你建立[COLOR_POSITIVE_TEXT]公司[ENDCOLOR], 這些都是遊戲後期的強大機構,如果您投資擴充,它們會大大提升您的貿易路線和全球實力.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_SPLASH">
+			<Text>[NEWLINE][TAB][TAB]"我不是為了擁有客戶而建造.我是為了建造而擁有客戶."[NEWLINE][TAB][TAB]  - Howard Roark[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

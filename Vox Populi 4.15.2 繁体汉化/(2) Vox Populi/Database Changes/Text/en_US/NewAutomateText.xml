@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT">
+			<Text>外交任務(自動化)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT_HELP">
+			<Text>自動化所有[COLOR_UNIT_TEXT]外交單位[ENDCOLOR]的行動.單位會維持自動化,直到您取消它的自動化.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_DIPLOMAT_DISABLED_HELP">
+			<Text>當前無有效的外交目標.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

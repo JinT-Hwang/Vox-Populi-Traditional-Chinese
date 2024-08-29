@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_MORRIGAN">
+			<Text>獲得擊殺敵方單位的 200% [ICON_STRENGTH]戰鬥力的[ICON_GOLD]金幣, [ICON_CULTURE]文化,[ICON_GOLDEN_AGE]黃金時代點數.當你掠奪改良設施時,獲得20 [ICON_GOLD]金幣, [ICON_CULTURE]文化,[ICON_GOLDEN_AGE]黃金時代點數 ,隨時代而遞增.蓋爾宴會廳 +2 [ICON_GREAT_GENERAL]大將軍點數.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MORRIGAN_SHORT">
+			<Text>預言者 莫莉甘</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EPONA">
+			<Text>+3 [ICON_CULTURE_LOCAL]邊界成長.城市自動擴張邊界時,獲得+8 [ICON_FOOD]食物, [ICON_PRODUCTION]產能, [ICON_RESEARCH]科學,[ICON_CULTURE]文化, 隨時代而遞增.蓋爾宴會廳 +5 [ICON_CULTURE_LOCAL]邊界成長.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_EPONA_SHORT">
+			<Text>馬神 艾波娜</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_NUADA">
+			<Text>"敬王之日"期間 +15% [ICON_GOLD]金幣和[ICON_RESEARCH]科學.[ICON_CAPITAL]首都/聖城擁有或進口的每項獨特奢侈資源 +3 [ICON_GOLD]金幣,[ICON_RESEARCH]科學,[ICON_GOLDEN_AGE]黃金時代點數.每條出入城市的貿易路綫 +3 [ICON_GOLD]金幣, [ICON_RESEARCH]科學,[ICON_GOLDEN_AGE]黃金時代點數.蓋爾宴會廳 +5 [ICON_GOLD]金幣.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_NUADA_SHORT">
+			<Text>戰神 努亞達</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS">
+			<Text>森林 +1 [ICON_FOOD]食物 和[ICON_GOLD]金幣.叢林 +1 [ICON_FOOD]食物和[ICON_PRODUCTION]產能.營地和莊園 +1 [ICON_RESEARCH]科學和[ICON_CULTURE]文化.蓋爾宴會廳 +2 [ICON_CULTURE]文化.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CERNUNNOS_SHORT">
+			<Text>狩獵神 科爾努諾斯</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_LUGH">
+			<Text>城市有專家 +2 [ICON_FOOD]食物, [ICON_GOLD]金幣, [ICON_RESEARCH]科學,[ICON_CULTURE]文化.[ICON_WONDER]奇跡 +10% [ICON_PRODUCTION]產能.[ICON_WONDER]世界奇跡 +2 [ICON_CULTURE]文化 和[ICON_TOURISM]旅遊業績.蓋爾宴會廳 +3 [ICON_PRODUCTION]產能.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_LUGH_SHORT">
+			<Text>太陽神 魯格</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RHIANNON">
+			<Text>[COLOR_POSITIVE_TEXT]改良設施[ENDCOLOR]的資源 +2 [ICON_CULTURE]文化. +1 [ICON_PRODUCTION]產能 和[ICON_GOLD]金幣.蓋爾宴會廳 +5 [ICON_GOLDEN_AGE]黃金時代點數.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RHIANNON_SHORT">
+			<Text>牝馬神 里安農</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MANANNAN">
+			<Text>如果城市[COLOR_POSITIVE]沿海[ENDCOLOR] +3 [ICON_FOOD]食物, [ICON_PRODUCTION]產能,[ICON_GOLD]金幣.水面單元格 +1 [ICON_PRODUCTION]產能和漁船 +1 [ICON_GOLD]金幣.蓋爾宴會廳 +2 [ICON_GREAT_ADMIRAL]海軍上將點數.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MANANNAN_SHORT">
+			<Text>海神 馬納諾</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OGMA">
+			<Text>城市每 4 [ICON_CITIZEN]公民 +1 [ICON_RESEARCH]科學.[ICON_GREAT_WORK]巨作 +1 [ICON_RESEARCH]科學和[ICON_CULTURE]文化.宮殿 +3 [ICON_RESEARCH]科學和[ICON_CULTURE]文化.[ICON_CAPITAL]首都/聖城 +3 [ICON_GREAT_SCIENTIST]大科學家點數和[ICON_GREAT_ARTIST]大藝術家點數.蓋爾宴會廳 +5 [ICON_RESEARCH]科學.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OGMA_SHORT">
+			<Text>知識之神 奧格瑪</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAGDA">
+			<Text>+25% [ICON_FOOD]成長 +1 [ICON_HAPPINESS_1]快樂.一個[ICON_CITIZEN]公民誕生 +12 [ICON_PRODUCTION]產能, [ICON_GOLD]金幣,[ICON_CULTURE]文化, 隨時代而遞增.蓋爾宴會廳 +5 [ICON_FOOD]食物.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DAGDA_SHORT">
+			<Text>萬能神 達格達</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_BRAN">
+			<Text>宮殿 +1 [ICON_PRODUCTION]產能, [ICON_GOLD]金幣, [ICON_RESEARCH]科學, [ICON_CULTURE]文化.己方城市每 5 追隨你的萬神殿的信徒,[ICON_CAPITAL]首都/聖城 +4 [ICON_PRODUCTION]產能, [ICON_GOLD]金幣, [ICON_RESEARCH]科學,[ICON_CULTURE]文化. +25% 城市[ICON_RANGE_STRENGTH]遠程戰鬥力.己方領土内的單位每回合 +10 HP.蓋爾宴會廳 +2 [ICON_HAPPINESS_1]快樂.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_BRAN_SHORT">
+			<Text>守護神 布蘭</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CAILLEACH">
+			<Text>該城市每有 2 凍土單元格 +1 [ICON_FOOD]食物和[ICON_PRODUCTION]產能.有資源的雪原單元格 +1 [ICON_FOOD]食物, [ICON_PRODUCTION]產能, [ICON_RESEARCH]科學, [ICON_CULTURE]文化.采石場和有資源的礦場 +1 [ICON_GOLD]金幣和[ICON_CULTURE]文化.蓋爾宴會廳 +5 [ICON_TOURISM]旅遊業績.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CAILLEACH_SHORT">
+			<Text>冬日女神 凱爾萊奇</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BELIEF_GURDWARA">
+			<Text>使用[ICON_PEACE]信仰購買謁師所.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GURDWARA_SHORT">
+			<Text>謁師所</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BELIEF_TEOCALLI">
+			<Text>使用[ICON_PEACE]信仰購買(中美洲等地)古代神庙.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_TEOCALLI_SHORT">
+			<Text>(中美洲等地)古代神庙</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BELIEF_COMMUNALISM">
+			<Text>國内貿易路線的[ICON_FOOD]食物和[ICON_PRODUCTION]產能 +3 產出, 隨時代而遞增.城市有專家 +2 [ICON_PRODUCTION]產能.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_COMMUNALISM_SHORT">
+			<Text>合作</Text>
+		</Row>
+
+		<!-- Tooltips -->
+		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL_TOOLTIP">
+			<Text>+2 [ICON_PEACE]信仰[NEWLINE]+2 [ICON_GOLD]金幣[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_CATHEDRAL_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHURCH_TOOLTIP">
+			<Text>+4 [ICON_PEACE]信仰[NEWLINE]+2 [ICON_CULTURE]文化[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_CHURCH_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_TOOLTIP">
+			<Text>+2 [ICON_PEACE]信仰[NEWLINE]+3 [ICON_FOOD]食物[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_GURDWARA_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MANDIR_TOOLTIP">
+			<Text>+3 [ICON_PEACE]信仰[NEWLINE]+2 [ICON_FOOD]食物[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_MANDIR_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOSQUE_TOOLTIP">
+			<Text>+3 [ICON_PEACE]信仰[NEWLINE]+2 [ICON_RESEARCH]科學[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_MOSQUE_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ORDER_TOOLTIP">
+			<Text>+2 [ICON_PEACE]信仰[NEWLINE]+3 [ICON_GOLD]金幣[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_ORDER_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PAGODA_TOOLTIP">
+			<Text>+2 [ICON_PEACE]信仰[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_PAGODA_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STUPA_TOOLTIP">
+			<Text>+3 [ICON_PEACE]信仰[NEWLINE]+3 [ICON_GOLDEN_AGE]黃金時代點數[NEWLINE]+5 [ICON_TOURISM]旅遊業績[NEWLINE]+1 [ICON_HAPPINESS_1]快樂[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_STUPA_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_TOOLTIP">
+			<Text>+2 [ICON_PEACE]信仰[NEWLINE]+3 [ICON_PRODUCTION]產能[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_SYNAGOGUE_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_TOOLTIP">
+			<Text>+2 [ICON_PEACE]信仰[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_TEOCALLI_HELP}</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -3,6 +3,7 @@
 
 
 英文原版地址: https://github.com/LoneGazebo/Community-Patch-DLL
+
 繁体汉化地址: https://github.com/JinT-Hwang/Vox-Populi-Traditional-Chinese
 
 

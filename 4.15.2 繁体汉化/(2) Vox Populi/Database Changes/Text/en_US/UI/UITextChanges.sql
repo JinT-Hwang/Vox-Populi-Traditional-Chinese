@@ -103,12 +103,12 @@ WHERE Tag = 'TXT_KEY_TP_FAITH_FROM_RELIGION';
 
 --黃金時代 Point
 UPDATE Language_en_US
-SET Text = '[ICON_BULLET]每回合增加 {1_Num}, 來自城市產生的正數[ICON_HAPPINESS_1]快樂.'
+SET Text = '[ICON_BULLET]每回合增加 {1_Num}, 來自城市產生的正數[ICON_HAPPINESS_1]幸福度.'
 WHERE Tag = 'TXT_KEY_TP_GOLDEN_AGE_ADDITION';
 
 -- Happiness
 UPDATE Language_en_US
-SET Text = '您的支持率至少有 50%. [ICON_HAPPINESS_1]快樂的城市會[ICON_FOOD]成長的更快, 但是[ICON_HAPPINESS_3]不滿的城市的[ICON_FOOD]成長, 軍事單位成本和開拓者成本會遭受懲罰.'
+SET Text = '您的支持率至少有 50%. [ICON_HAPPINESS_1]幸福度的城市會[ICON_FOOD]成長的更快, 但是[ICON_HAPPINESS_3]不滿度的城市的[ICON_FOOD]成長, 軍事單位成本和開拓者成本會遭受懲罰.'
 WHERE Tag = 'TXT_KEY_TP_TOTAL_HAPPINESS';
 
 UPDATE Language_en_US
@@ -124,7 +124,7 @@ SET Text = '您的支持率低於 20% - 您的帝國正在分裂!叛軍(蠻族)�
 WHERE Tag = 'TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY';
 
 UPDATE Language_en_US
-SET Text = '帝國全境總[ICON_HAPPINESS_1]快樂: {1_Num}'
+SET Text = '帝國全境總[ICON_HAPPINESS_1]幸福度: {1_Num}'
 WHERE Tag = 'TXT_KEY_TP_HAPPINESS_SOURCES';
 
 UPDATE Language_en_US
@@ -132,7 +132,7 @@ SET Text = '{1_Num} 來自自然奇觀和地標.'
 WHERE Tag = 'TXT_KEY_TP_HAPPINESS_NATURAL_WONDERS';
 
 UPDATE Language_en_US
-SET Text = '帝國全境總[ICON_HAPPINESS_3]不滿: {1_Num} (以城市人口為上限)'
+SET Text = '帝國全境總[ICON_HAPPINESS_3]不滿度: {1_Num} (以城市人口為上限)'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_TOTAL';
 
 UPDATE Language_en_US
@@ -140,7 +140,7 @@ SET Text = '{1_Num} 來自意識形態壓力導致的民意.'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION';
 
 UPDATE Language_en_US
-SET Text = '{1_Num} 來自[ICON_OCCUPIED]佔領的[ICON_CITIZEN]人口, [ICON_RESISTANCE]抵抗或[ICON_RAZING]夷平城市.'
+SET Text = '{1_Num} 來自[ICON_OCCUPIED]佔領的[ICON_CITIZEN]人口, [ICON_RESISTANCE]反抗或[ICON_RAZING]夷平城市.'
 WHERE Tag = 'TXT_KEY_TP_UNHAPPINESS_OCCUPIED_POPULATION';
 
 UPDATE Language_en_US
@@ -172,7 +172,7 @@ SET Text = '{1_Num} 來自主題獎勵的[ICON_TOURISM]旅遊業績'
 WHERE Tag = 'TXT_KEY_CO_CITY_TOURISM_THEMING_BONUSES';
 
 UPDATE Language_en_US
-SET Text = '[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT][ICON_HAPPINESS_3]不滿修正: {1_Num}%[ENDCOLOR]'
+SET Text = '[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT][ICON_HAPPINESS_3]不滿度修正: {1_Num}%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_FOODMOD_UNHAPPY';
 
 UPDATE Language_en_US
@@ -180,11 +180,11 @@ SET Text = '[COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] 被[ICON_CITIZEN]公民{2_Ic
 WHERE Tag = 'TXT_KEY_YIELD_EATEN_BY_POP';
 
 UPDATE Language_en_US
-SET Text = '城市將在 {1_Num} 回合之後被[ICON_RAZING]夷為平地!當城市被夷平時,100% 的[ICON_CITIZEN]人口會產生[ICON_HAPPINESS_3]不滿,但在其範圍內的單位會更快治療!'
+SET Text = '城市將在 {1_Num} 回合之後被[ICON_RAZING]夷為平地!當城市被夷平時,100% 的[ICON_CITIZEN]人口會產生[ICON_HAPPINESS_3]不滿度,但在其範圍內的單位會更快治療!'
 WHERE Tag = 'TXT_KEY_CITY_BURNING';
 
 UPDATE Language_en_US
-SET Text = '城市進入[ICON_RESISTANCE]抵抗 {1_Num} 回合!當城市處於抵抗時,它不能做任何有用的事情,在其範圍內的單位會減慢治療速度,而且 100% 的[ICON_CITIZEN]人口會產生[ICON_HAPPINESS_3]不滿!'
+SET Text = '城市進入[ICON_RESISTANCE]反抗 {1_Num} 回合!當城市處於反抗時,它不能做任何有用的事情,在其範圍內的單位會減慢治療速度,而且 100% 的[ICON_CITIZEN]人口會產生[ICON_HAPPINESS_3]不滿度!'
 WHERE Tag = 'TXT_KEY_CITY_RESISTANCE';
 
 UPDATE Language_en_US
@@ -214,43 +214,43 @@ SET Text = '您所建造或負責維護的道路和鐵路的總成本.道路每�
 WHERE Tag = 'TXT_KEY_EO_EX_IMPROVEMENTS';
 
 UPDATE Language_en_US
-SET Text = '按不滿排序'
+SET Text = '按不滿度排序'
 WHERE Tag = 'TXT_KEY_EO_SORT_STRENGTH';
 
 UPDATE Language_en_US
-SET Text = '非佔領的城市的[ICON_CITIZEN]公民不會直接產生[ICON_HAPPINESS_3]不滿. 各城市[ICON_HAPPINESS_3]不滿的來源,請參閱下列工具提示'
+SET Text = '非佔領的城市的[ICON_CITIZEN]公民不會直接產生[ICON_HAPPINESS_3]不滿度. 各城市[ICON_HAPPINESS_3]不滿度的來源,請參閱下列工具提示'
 WHERE Tag = 'TXT_KEY_POP_UNHAPPINESS_TT';
 
 UPDATE Language_en_US
-SET Text = '每個(非佔領的)城市產生 0 [ICON_HAPPINESS_3]不滿.'
+SET Text = '每個(非佔領的)城市產生 0 [ICON_HAPPINESS_3]不滿度.'
 WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT';
 
 UPDATE Language_en_US
-SET Text = '每個(非佔領的)城市產生 0 [ICON_HAPPINESS_3]不滿 (正常情況).'
+SET Text = '每個(非佔領的)城市產生 0 [ICON_HAPPINESS_3]不滿度 (正常情況).'
 WHERE Tag = 'TXT_KEY_NUMBER_OF_CITIES_TT_NORMALLY';
 
 UPDATE Language_en_US
-SET Text = '每個[ICON_OCCUPIED]佔領的城市產生 0 [ICON_HAPPINESS_3]不滿.'
+SET Text = '每個[ICON_OCCUPIED]佔領的城市產生 0 [ICON_HAPPINESS_3]不滿度.'
 WHERE Tag = 'TXT_KEY_NUMBER_OF_OCCUPIED_CITIES_TT';
 
 UPDATE Language_en_US
-SET Text = '[ICON_OCCUPIED]佔領的城市的每個[ICON_CITIZEN]公民產生 1 [ICON_HAPPINESS_3]不滿'
+SET Text = '[ICON_OCCUPIED]佔領的城市的每個[ICON_CITIZEN]公民產生 1 [ICON_HAPPINESS_3]不滿度'
 WHERE Tag = 'TXT_KEY_OCCUPIED_POP_UNHAPPINESS_TT';
 
 UPDATE Language_en_US
-SET Text = '[ICON_PLUS]城市總不滿'
+SET Text = '[ICON_PLUS]城市總不滿度'
 WHERE Tag = 'TXT_KEY_EO_CITY_UNHAPPINESS';
 
 UPDATE Language_en_US
-SET Text = '[ICON_MINUS]城市總不滿'
+SET Text = '[ICON_MINUS]城市總不滿度'
 WHERE Tag = 'TXT_KEY_EO_CITY_UNHAPPINESS_COLLAPSE';
 
 UPDATE Language_en_US
-SET Text = '[ICON_PLUS]城市總快樂'
+SET Text = '[ICON_PLUS]城市總幸福度'
 WHERE Tag = 'TXT_KEY_EO_LOCAL_CITY';
 
 UPDATE Language_en_US
-SET Text = '[ICON_MINUS]城市總快樂'
+SET Text = '[ICON_MINUS]城市總幸福度'
 WHERE Tag = 'TXT_KEY_EO_LOCAL_CITY_COLLAPSE';
 
 UPDATE Language_en_US
@@ -267,7 +267,7 @@ WHERE Tag = 'TXT_KEY_EGI_TRADE_ROUTE_MOD_INFO';
 
 -- Tourism/happiness screen
 UPDATE Language_en_US
-SET Text = '民意的計算方式是比較有某種意識形態的文明的[ICON_TOURISM]影響力與您自己的[ICON_TOURISM]影響力, 但前提是其他文明至少對你是[COLOR_MAGENTA]流行的[ENDCOLOR], 而且其他文明的[ICON_TOURISM]影響力比您高.[NEWLINE][NEWLINE]如果兩個前提都符合, [COLOR_POSITIVE_TEXT]滿意的[ENDCOLOR]民意也可能造成[COLOR_NEGATIVE_TEXT]意識形態壓力[ENDCOLOR], 產生[ICON_HAPPINESS_4]不滿. 這有些方法可以對抗這個:[NEWLINE][ICON_BULLET]追隨者較少的意識形態對意識形態壓力有天然的抵抗力.[NEWLINE][ICON_BULLET]靜止或 [COLOR_NEGATIVE_TEXT]降低[ENDCOLOR] [ICON_TOURISM]影響力趨勢會降低外國文明的意識形態壓力.[NEWLINE][ICON_BULLET]採用或轉換意識形態會產生 30 回合(標準速度)的意識形態壓力減少期.[NEWLINE][NEWLINE]請參閱下面的摘要,瞭解造成意識形態壓力的原因.如果您的意識形態的圖示數量沒有超過所有其他意識形態的總和,那麼[COLOR_NEGATIVE_TEXT]意識形態壓力[ENDCOLOR]就會產生![NEWLINE][NEWLINE]'
+SET Text = '民意的計算方式是比較有某種意識形態的文明的[ICON_TOURISM]影響力與您自己的[ICON_TOURISM]影響力, 但前提是其他文明至少對你是[COLOR_MAGENTA]流行的[ENDCOLOR], 而且其他文明的[ICON_TOURISM]影響力比您高.[NEWLINE][NEWLINE]如果兩個前提都符合, [COLOR_POSITIVE_TEXT]滿意的[ENDCOLOR]民意也可能造成[COLOR_NEGATIVE_TEXT]意識形態壓力[ENDCOLOR], 產生[ICON_HAPPINESS_4]不滿度. 這有些方法可以對抗這個:[NEWLINE][ICON_BULLET]追隨者較少的意識形態對意識形態壓力有天然的抵抗力.[NEWLINE][ICON_BULLET]靜止或 [COLOR_NEGATIVE_TEXT]降低[ENDCOLOR] [ICON_TOURISM]影響力趨勢會降低外國文明的意識形態壓力.[NEWLINE][ICON_BULLET]採用或轉換意識形態會產生 30 回合(標準速度)的意識形態壓力減少期.[NEWLINE][NEWLINE]請參閱下面的摘要,瞭解造成意識形態壓力的原因.如果您的意識形態的圖示數量沒有超過所有其他意識形態的總和,那麼[COLOR_NEGATIVE_TEXT]意識形態壓力[ENDCOLOR]就會產生![NEWLINE][NEWLINE]'
 WHERE Tag = 'TXT_KEY_CO_OPINION_TT_OVERVIEW';
 
 UPDATE Language_en_US
@@ -287,7 +287,7 @@ SET Text = '[COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CO_PUBLIC_OPINION_UNHAPPINESS';
 
 UPDATE Language_en_US
-SET Text = '目前的帝國全境[ICON_HAPPINESS_1]快樂, 從 0-100%[NEWLINE][NEWLINE]在 50% 或以下時,文明將開始失去造反的城市,並可能轉變為大眾的偏好意識形態 (您可以在「民意」工具提示中找到該偏好設定).'
+SET Text = '目前的帝國全境[ICON_HAPPINESS_1]幸福度, 從 0-100%[NEWLINE][NEWLINE]在 50% 或以下時,文明將開始失去造反的城市,並可能轉變為大眾的偏好意識形態 (您可以在「民意」工具提示中找到該偏好設定).'
 WHERE Tag = 'TXT_KEY_CO_VICTORY_EXCESS_HAPPINESS_HEADER_TT';
 
 -- CV progress screen
@@ -680,11 +680,11 @@ SET Text = '砍伐森林/叢林: +{1_Num}[ICON_PRODUCTION]產能.'
 WHERE Tag = 'TXT_KEY_ABLTY_TECH_BOOST_CHOP';
 
 UPDATE Language_en_US
-SET Text = '在己方的城市和防禦工事登船/登岸只消耗 1 移動力.'
+SET Text = '在己方的城市和防禦工事海運/登陸只消耗 1 移動力.'
 WHERE Tag = 'TXT_KEY_ABLTY_CITY_LESS_EMBARK_COST_STRING';
 
 UPDATE Language_en_US
-SET Text = '在己方的城市和防禦工事登船/登岸只消耗 0.1 移動力.'
+SET Text = '在己方的城市和防禦工事海運/登陸只消耗 0.1 移動力.'
 WHERE Tag = 'TXT_KEY_ABLTY_CITY_NO_EMBARK_COST_STRING';
 
 UPDATE Language_en_US
@@ -757,15 +757,15 @@ WHERE Tag = 'TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPL
 -- Archaeological Dig picker
 ------------------------------------------------
 UPDATE Language_en_US
-SET Text = '當完成建造時,地標會為建造者和所有者產生 +3 帝國全境的[ICON_HAPPINESS_1]快樂.當地標有市民工作時,會根據其年代提供 [ICON_CULTURE]文化和 [ICON_GOLD]金幣.每經過一個時代,+1 [ICON_CULTURE]文化和 [ICON_GOLD]金幣.考古學家將被消耗.'
+SET Text = '當完成建造時,地標會為建造者和所有者產生 +3 帝國全境的[ICON_HAPPINESS_1]幸福度.當地標有市民工作時,會根據其年代提供 [ICON_CULTURE]文化和 [ICON_GOLD]金幣.每經過一個時代,+1 [ICON_CULTURE]文化和 [ICON_GOLD]金幣.考古學家將被消耗.'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_LANDMARK_RESULT';
 
 UPDATE Language_en_US
-SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]在其他文明的領土上建立地標,會為建造者和擁有者產生 +3 帝國全境的[ICON_HAPPINESS_1]快樂,並與該國暫時加強外交關係.[ENDCOLOR]'
+SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]在其他文明的領土上建立地標,會為建造者和擁有者產生 +3 帝國全境的[ICON_HAPPINESS_1]幸福度,並與該國暫時加強外交關係.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_LANDMARK_MAJOR_CIV';
 
 UPDATE Language_en_US
-SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]在城邦的領土內製造地標會為您產生 +3 帝國全境的[ICON_HAPPINESS_1]快樂,並會讓您與該城邦產生 10 基礎[ICON_INFLUENCE]影響力,隨著時代遞增.[ENDCOLOR]'
+SET Text = '[NEWLINE][COLOR_POSITIVE_TEXT]在城邦的領土內製造地標會為您產生 +3 帝國全境的[ICON_HAPPINESS_1]幸福度,並會讓您與該城邦產生 10 基礎[ICON_INFLUENCE]影響力,隨著時代遞增.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_LANDMARK_MINOR_CIV';
 
 UPDATE Language_en_US
@@ -780,15 +780,15 @@ WHERE Tag = 'TXT_KEY_CHOOSE_ARCH_WRITTEN_ARTIFACT_RESULT';
 -- Conquest picker
 ------------------------------------------------
 UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]吞併[ENDCOLOR]會導致以下情況:[NEWLINE][ICON_BULLET]提供等同於城市[ICON_CITIZEN]人口的[ICON_HAPPINESS_4]不滿(直到你建造了法院).[NEWLINE][ICON_BULLET]投資在城市中的法院,減少至少 50% 的建築時間 (如果在征服後立即併吞).[NEWLINE][ICON_BULLET]城市佔領後[ICON_RESISTANCE]抵抗減半(如果在征服後立即吞併).'
+SET Text = '[COLOR_POSITIVE_TEXT]吞併[ENDCOLOR]會導致以下情況:[NEWLINE][ICON_BULLET]提供等同於城市[ICON_CITIZEN]人口的[ICON_HAPPINESS_4]不滿度(直到你建造了法院).[NEWLINE][ICON_BULLET]投資在城市中的法院,減少至少 50% 的建築時間 (如果在征服後立即併吞).[NEWLINE][ICON_BULLET]城市佔領後[ICON_RESISTANCE]反抗減半(如果在征服後立即吞併).'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_ANNEX';
 
 UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]傀儡[ENDCOLOR]會導致以下情況:[NEWLINE][ICON_BULLET]產生的金幣、科學、文化、旅遊業績和信仰比一般城市少 80%.[NEWLINE][ICON_BULLET]不再產生偉人點數.[NEWLINE][ICON_BULLET]你[COLOR_POSITIVE_TEXT]無法為其選擇生產[ENDCOLOR]或者在城市中購買.[NEWLINE][ICON_BULLET]城市每 4 [ICON_CITIZEN]公民產生 1 [ICON_HAPPINESS_3]不滿.[NEWLINE][ICON_BULLET]不會增加社會政策, 科技, 或者旅遊業績的成本.[NEWLINE][NEWLINE]如果您選擇這種方式,您之後可以在任何時候將城市吞併.'
+SET Text = '[COLOR_POSITIVE_TEXT]傀儡[ENDCOLOR]會導致以下情況:[NEWLINE][ICON_BULLET]產生的金幣、科學、文化、旅遊業績和信仰比一般城市少 80%.[NEWLINE][ICON_BULLET]不再產生偉人點數.[NEWLINE][ICON_BULLET]你[COLOR_POSITIVE_TEXT]無法為其選擇生產[ENDCOLOR]或者在城市中購買.[NEWLINE][ICON_BULLET]城市每 4 [ICON_CITIZEN]公民產生 1 [ICON_HAPPINESS_3]不滿度.[NEWLINE][ICON_BULLET]不會增加社會政策, 科技, 或者旅遊業績的成本.[NEWLINE][NEWLINE]如果您選擇這種方式,您之後可以在任何時候將城市吞併.'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_PUPPET';
 
 UPDATE Language_en_US
-SET Text = '[COLOR_POSITIVE_TEXT]夷平[ENDCOLOR]會導致以下情況:[NEWLINE][ICON_BULLET]城市每回合會損失[ICON_CITIZEN]人口直到為 0, 並且會從遊戲中移除.[NEWLINE][ICON_BULLET]產生等同於城市[ICON_CITIZEN]人口的[ICON_HAPPINESS_4]不滿.[NEWLINE][ICON_BULLET]每次人口減少時, 增加你的[COLOR_POSITIVE_TEXT]戰爭分數[ENDCOLOR].[NEWLINE][ICON_BULLET]城市邊界內的友軍單位會像在城市內一樣治療(掠奪).[NEWLINE][ICON_BULLET]在夷平時,每回合可能會產生忠於前擁有者(如果你仍與此玩家交戰)或蠻族的[COLOR_NEGATIVE_TEXT]游擊隊[ENDCOLOR].'
+SET Text = '[COLOR_POSITIVE_TEXT]夷平[ENDCOLOR]會導致以下情況:[NEWLINE][ICON_BULLET]城市每回合會損失[ICON_CITIZEN]人口直到為 0, 並且會從遊戲中移除.[NEWLINE][ICON_BULLET]產生等同於城市[ICON_CITIZEN]人口的[ICON_HAPPINESS_4]不滿度.[NEWLINE][ICON_BULLET]每次人口減少時, 增加你的[COLOR_POSITIVE_TEXT]戰爭分數[ENDCOLOR].[NEWLINE][ICON_BULLET]城市邊界內的友軍單位會像在城市內一樣治療(掠奪).[NEWLINE][ICON_BULLET]在夷平時,每回合可能會產生忠於前擁有者(如果你仍與此玩家交戰)或蠻族的[COLOR_NEGATIVE_TEXT]游擊隊[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE';
 
 UPDATE Language_en_US

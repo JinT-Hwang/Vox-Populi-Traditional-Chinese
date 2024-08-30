@@ -123,7 +123,7 @@
 			<Text>雜貨店是文藝復興時代的建築,已經在城市中建造了引水渠才能建造.雜貨店可以幫助您的城市快速成長,消除貧窮,並提高香蕉的單元格產量.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GROCER_HELP">
-			<Text>此城市每 5 [ICON_CITIZEN]公民 +1 [ICON_FOOD]食物. 一個新[ICON_CITIZEN]公民誕生后 15% of [ICON_FOOD]食物保留.[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>此城市每 5 [ICON_CITIZEN]公民 +1 [ICON_FOOD]食物. 一個新[ICON_CITIZEN]公民誕生后 15% of [ICON_FOOD]食物保留.[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GROCER_TEXT">
 			<Text>早在 14 世紀開始,雜貨商(或稱「供應商」)就是香料、胡椒、糖以及(後來的)可可、茶和咖啡等可食用乾貨的經銷商.這些商品都是大量購買的,因此雜貨商一詞來自法語 "grossier" ,意思是批發商,這個詞源於中世紀拉丁語 "grossarius",我們也是從這個詞引申出 gross 一詞 (意思是 12 打或 144 的數量).隨著越來越多的主食以罐頭或其他較不易腐爛的包裝形式出現,雜貨商的業務範圍也隨之擴大.時至今日,雜貨商經營的主食種類繁多,包括肉類、農產品和乳製品等易腐爛的食品.因此,這些商品就是雜貨.</Text>
@@ -175,7 +175,7 @@
 			<Text>水雷區是現代的建築, 只有您有足夠的鐵礦才能建造, 同時此城市需要已建造港口. 水雷區就位后, 敵方船隻進入城市的領土后會立即被攔停, 同時本地海洋單元格在陸地的報復射程範圍外不再安全. 由於需要資源,水雷區最好只用在特別容易被海軍圍攻的地點.使用水雷區來阻擋海軍入侵,然後用您自己的海軍擺平它.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MINEFIELD_HELP">
-			<Text>敵方海軍單位和登船單位進入此城市的水域單元格時, 消耗所有[ICON_MOVES]移動力.單位在此城市的海洋單元格結束他們的回合時, 受到[COLOR_NEGATIVE_TEXT]5 傷害[ENDCOLOR].[NEWLINE][NEWLINE]要求 1 [ICON_RES_IRON]鐵礦. 城市必須建在海岸上和已建造港口.</Text>
+			<Text>敵方海軍單位和海運單位進入此城市的水域單元格時, 消耗所有[ICON_MOVES]移動力.單位在此城市的海洋單元格結束他們的回合時, 受到[COLOR_NEGATIVE_TEXT]5 傷害[ENDCOLOR].[NEWLINE][NEWLINE]要求 1 [ICON_RES_IRON]鐵礦. 城市必須建在海岸上和已建造港口.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MINEFIELD_TEXT">
 			<Text>水雷是一種放置在水中的自給式爆炸裝置,用以破壞或摧毀水面艦艇或潛艇.與深水炸藥不同的是,水雷是放置在水中等待敵船接近或接觸時引爆.水雷可用於攻擊性用途 - 阻礙敵方航運活動或將船隻鎖定在港口內;或用於防禦性用途 - 保護友方船隻並建立「安全」區域.</Text>
@@ -196,12 +196,12 @@
 
 		<!-- Hospital -->
 		<Row Tag="TXT_KEY_BUILDING_HOSPITAL_HELP">
-			<Text>陸地單位不管何行動, 在此城市每回合會治療 15 生命. 此城市所有專家提供 +1 [ICON_FOOD]食物, 同時此城市 2 專家不再產生來自[ICON_URBANIZATION]城市化的[ICON_HAPPINESS_3]不滿. 城市的[ICON_VP_SCIENTIST]科學家, [ICON_VP_MERCHANT]商人和[ICON_VP_ENGINEER]工程師提供 +2 基礎產出.[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>陸地單位不管何行動, 在此城市每回合會治療 15 生命. 此城市所有專家提供 +1 [ICON_FOOD]食物, 同時此城市 2 專家不再產生來自[ICON_URBANIZATION]城市化的[ICON_HAPPINESS_3]不滿度. 城市的[ICON_VP_SCIENTIST]科學家, [ICON_VP_MERCHANT]商人和[ICON_VP_ENGINEER]工程師提供 +2 基礎產出.[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 
 		<!-- Temple -->
 		<Row Tag="TXT_KEY_BUILDING_TEMPLE_HELP">
-			<Text>產生 +25% 宗教壓力. 包含 1 音樂[ICON_VP_GREATMUSIC]巨作的席位.[NEWLINE][NEWLINE]-1 來自[ICON_RELIGION]宗教動亂的[ICON_HAPPINESS_3]不滿.[NEWLINE][NEWLINE]附近[ICON_RES_INCENSE]沉香: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.[NEWLINE]附近[ICON_RES_WINE]葡萄酒: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.[NEWLINE]附近[ICON_RES_AMBER]琥珀: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.</Text>
+			<Text>產生 +25% 宗教壓力. 包含 1 音樂[ICON_VP_GREATMUSIC]巨作的席位.[NEWLINE][NEWLINE]-1 來自[ICON_RELIGION]宗教動亂的[ICON_HAPPINESS_3]不滿度.[NEWLINE][NEWLINE]附近[ICON_RES_INCENSE]沉香: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.[NEWLINE]附近[ICON_RES_WINE]葡萄酒: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.[NEWLINE]附近[ICON_RES_AMBER]琥珀: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.</Text>
 		</Row>
 
 		<!-- Amphitheater -->
@@ -216,7 +216,7 @@
 
 		<!-- Museum -->
 		<Row Tag="TXT_KEY_BUILDING_MUSEUM_HELP">
-			<Text>允許[COLOR_YELLOW]考古學家[ENDCOLOR]在此城市建造. 此城市每個 4 [ICON_CITIZEN]公民 +1 [ICON_CULTURE]文化和[ICON_TOURISM]旅遊業績. 城市的[ICON_GREAT_WORK]巨作提供 +1 [ICON_TOURISM]旅遊業績.[NEWLINE][NEWLINE]-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿.[NEWLINE][NEWLINE]包含 2 藝術[ICON_GREAT_WORK]巨作或文物的席位. 如果[COLOR_POSITIVE_TEXT]主題獎勵已啟動[ENDCOLOR] +4 [ICON_CULTURE]文化.</Text>
+			<Text>允許[COLOR_YELLOW]考古學家[ENDCOLOR]在此城市建造. 此城市每個 4 [ICON_CITIZEN]公民 +1 [ICON_CULTURE]文化和[ICON_TOURISM]旅遊業績. 城市的[ICON_GREAT_WORK]巨作提供 +1 [ICON_TOURISM]旅遊業績.[NEWLINE][NEWLINE]-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度.[NEWLINE][NEWLINE]包含 2 藝術[ICON_GREAT_WORK]巨作或文物的席位. 如果[COLOR_POSITIVE_TEXT]主題獎勵已啟動[ENDCOLOR] +4 [ICON_CULTURE]文化.</Text>
 		</Row>
 
 		<!-- Market -->
@@ -231,7 +231,7 @@
 
 		<!-- Arena -->
 		<Row Tag="TXT_KEY_BUILDING_COLOSSEUM_HELP">
-			<Text>城市每 4 [ICON_CITIZEN]公民 +1 [ICON_TOURISM]旅遊業績. 此城市的軍營, 煉冶廠和軍械庫獲得 +2 [ICON_PRODUCTION]產能. -1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿.[NEWLINE][NEWLINE]附近[ICON_RES_PERFUME]香水: +1 [ICON_GOLD]金幣, +1 [ICON_CULTURE]文化.[NEWLINE]附近[ICON_RES_OLIVE]橄欖: +1 [ICON_GOLD]金幣, +1 [ICON_FOOD]食物.</Text>
+			<Text>城市每 4 [ICON_CITIZEN]公民 +1 [ICON_TOURISM]旅遊業績. 此城市的軍營, 煉冶廠和軍械庫獲得 +2 [ICON_PRODUCTION]產能. -1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度.[NEWLINE][NEWLINE]附近[ICON_RES_PERFUME]香水: +1 [ICON_GOLD]金幣, +1 [ICON_CULTURE]文化.[NEWLINE]附近[ICON_RES_OLIVE]橄欖: +1 [ICON_GOLD]金幣, +1 [ICON_FOOD]食物.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_CHANCERY">
@@ -494,7 +494,7 @@
 			<Text>一座防禦性奇跡. 增强堡壘, 要塞, 地標的產出. 每個在戰鬥中倒下的單位,梅寧門會提供小額獎勵. 只能透過世界大會協力建造.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE_HELP">
-			<Text>只能透過世界大會協力建造. 獲得 +2 [ICON_HAPPINESS_1]快樂給它所在的城市.[NEWLINE][NEWLINE]每當己方單位被殺獲得 2 [ICON_CULTURE]文化和[ICON_GOLDEN_AGE]黃金時代點數, 隨時代遞增. 城市附近堡壘, 要塞和地標提供 +2 [ICON_CULTURE]文化和[ICON_GOLDEN_AGE]黃金時代點數.</Text>
+			<Text>只能透過世界大會協力建造. 獲得 +2 [ICON_HAPPINESS_1]幸福度給它所在的城市.[NEWLINE][NEWLINE]每當己方單位被殺獲得 2 [ICON_CULTURE]文化和[ICON_GOLDEN_AGE]黃金時代點數, 隨時代遞增. 城市附近堡壘, 要塞和地標提供 +2 [ICON_CULTURE]文化和[ICON_GOLDEN_AGE]黃金時代點數.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE_TEXT">
 			<Text>梅寧門 (Menin Gate) 失蹤者紀念碑是比利時伊普爾 (Ypres) 的一座戰爭紀念碑,用以紀念在第一次世界大戰伊普爾陣區 (Ypres Salient) 陣亡的英國和英聯邦士兵.高高的桶狀拱形通道上刻著 54,395 名英聯邦士兵的名字,這些士兵在敵對陣線中陣亡,但遺體從未尋獲.紀念碑矗立在鎮子的東部出口,標誌著前往前線的起點,衝突雙方共有超過 450,000 人在此陣亡.</Text>
@@ -510,7 +510,7 @@
 			<Text>奧運村結合酒店、體育場和埃爾米塔日博物館的優勢於一身,是游戲後期强大的文化組織. 只能透過世界大會協力建造.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_OLYMPIC_VILLAGE_HELP">
-			<Text>只能透過世界大會協力建造. 獲得 +3 [ICON_HAPPINESS_1]快樂和 +3 [ICON_CULTURE]文化給它所在的城市. 25% 來自[ICON_WONDER]世界奇跡和單元格的[ICON_CULTURE]文化添加到城市的[ICON_TOURISM]旅遊業績產出.[NEWLINE][NEWLINE]所有體育場獲得 +2 [ICON_GOLD]金幣和[ICON_TOURISM]旅遊業績.</Text>
+			<Text>只能透過世界大會協力建造. 獲得 +3 [ICON_HAPPINESS_1]幸福度和 +3 [ICON_CULTURE]文化給它所在的城市. 25% 來自[ICON_WONDER]世界奇跡和單元格的[ICON_CULTURE]文化添加到城市的[ICON_TOURISM]旅遊業績產出.[NEWLINE][NEWLINE]所有體育場獲得 +2 [ICON_GOLD]金幣和[ICON_TOURISM]旅遊業績.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_OLYMPIC_VILLAGE_TEXT">
 			<Text>奧運村是為奧運會所建造的住宿中心,通常位於奧林匹克公園內或主辦城市的其他地方.奧運村是為所有參賽選手、工作人員和運動教練而建.奧運村的概念來自 Pierre de Coubertin.在 1924 年夏季奧運會之前,各國奧委會都是在主辦城市周圍租用場地來安置參賽選手,費用昂貴.在 1924 年夏季奧運會中,主辦單位在哥倫比亞奧林匹克運動場 (Stade Olympique de Colombes) 附近興建小木屋,讓運動員能輕易抵達奧運會場地.1932 年夏季奧運會的奧運村是今日奧運村的典範;它由一組建築物組成,其中有供運動員住宿的房間,以及提供其他住宿設施的建築物.</Text>
@@ -669,7 +669,7 @@
 			<Text>當外國城市與本城市之間的[ICON_INTERNATIONAL_TRADE]貿易路綫完成時, 一個 Giorgio Armeier 特許經營權就會在該外國城市建立.[NEWLINE][NEWLINE]Giorgio Armeier 不能售出或由玩家摧毀, 同時 +2 [ICON_CULTURE]文化產出給所有的 Giorgio Armeier 辦事處.[NEWLINE][NEWLINE]你的特許經營權不能超過你的特許經營權上限 (請參閱「公司與壟斷概觀」以瞭解更多相關資訊.).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HELP">
-			<Text>每個 Giorgio Armeier 特許經營權 +2 [ICON_CULTURE]文化(取決于你的特許經營權上限). -1 來自[ICON_RESEARCH]文盲和[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿.[NEWLINE][NEWLINE]此城市每條到有 Giorgio Armeier 特許經營權的外國城市的貿易路綫, 城市的[ICON_CULTURE]文化 +10%.</Text>
+			<Text>每個 Giorgio Armeier 特許經營權 +2 [ICON_CULTURE]文化(取決于你的特許經營權上限). -1 來自[ICON_RESEARCH]文盲和[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度.[NEWLINE][NEWLINE]此城市每條到有 Giorgio Armeier 特許經營權的外國城市的貿易路綫, 城市的[ICON_CULTURE]文化 +10%.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE">
@@ -735,7 +735,7 @@
 			<Text>當外國城市與本城市之間的[ICON_INTERNATIONAL_TRADE]貿易路綫完成時, 一個 TwoKay Foods 特許經營權就會在該外國城市建立.[NEWLINE][NEWLINE]TwoKay Foods 不能售出或由玩家摧毀, 同時 +3 [ICON_FOOD]食物產出給所有的 TwoKay Foods 辦事處.[NEWLINE][NEWLINE]你的特許經營權不能超過你的特許經營權上限 (請參閱「公司與壟斷概觀」以瞭解更多相關資訊.).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HELP">
-			<Text>減少 1 來自所有需求的[ICON_HAPPINESS_3]不滿和 5% 所有城市的[ICON_CITY_STATE]帝國規模修正. 城市 +10% [ICON_FOOD]食物. 每個 TwoKay Foods 特許經營權 +3 [ICON_FOOD]食物(取決于你的特許經營權上限).[NEWLINE][NEWLINE]此城市每條到有 TwoKay Foods 特許經營權的外國城市的貿易路綫, 此城市 +10% [ICON_FOOD]成長速度.</Text>
+			<Text>減少 1 來自所有需求的[ICON_HAPPINESS_3]不滿度和 5% 所有城市的[ICON_CITY_STATE]帝國規模修正. 城市 +10% [ICON_FOOD]食物. 每個 TwoKay Foods 特許經營權 +3 [ICON_FOOD]食物(取決于你的特許經營權上限).[NEWLINE][NEWLINE]此城市每條到有 TwoKay Foods 特許經營權的外國城市的貿易路綫, 此城市 +10% [ICON_FOOD]成長速度.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE">
@@ -788,7 +788,7 @@
 			<Text>城市建造需要追隨的宗教有舍利塔信條. 通過[ICON_PEACE]信仰購買來建造它. 城市建造舍利塔以獲得信仰,黃金時代點數和旅遊業績.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STUPA_HELP">
-			<Text>提升此城市多數派產生的[ICON_RELIGION]宗教压迫 25%.[NEWLINE][NEWLINE]-1 來自[ICON_RESEARCH]文盲的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>提升此城市多數派產生的[ICON_RELIGION]宗教压迫 25%.[NEWLINE][NEWLINE]-1 來自[ICON_RESEARCH]文盲的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STUPA_TEXT">
 			<Text>舍利塔是一個土丘狀或半球形的建築物,內藏佛教舍利,通常是佛教僧侶的骨灰,佛教徒將其用作冥想的地方.</Text>
@@ -801,7 +801,7 @@
 			<Text>城市建造需要追隨的宗教有教會信條. 通過[ICON_PEACE]信仰購買來建造它. 建造教會以獲得信仰和一個被動的宗教壓力强力提升. 同時城市開始一次"敬王之日".</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_HELP">
-			<Text>城市完成建造時開始 15 回合的"敬王之日". 城市所有[ICON_GREAT_WORK]巨作 +1 [ICON_PEACE]信仰. 提升提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 40%.[NEWLINE][NEWLINE]-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>城市完成建造時開始 15 回合的"敬王之日". 城市所有[ICON_GREAT_WORK]巨作 +1 [ICON_PEACE]信仰. 提升提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 40%.[NEWLINE][NEWLINE]-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CHURCH_TEXT">
 			<Text>教會建築,通常簡稱為教會,是用於宗教活動,特別是崇拜儀式的建築.在建築學的意義上,這個詞最常被基督徒用來指他們的宗教建築,但其他宗教也可以使用.在傳統的基督教建築中,教會通常以基督教十字架的形狀排列.從平面圖來看,十字架最長的部分是走道,十字架的交界處位於祭壇區.</Text>
@@ -814,7 +814,7 @@
 			<Text>城市建造需要追隨的宗教有(印度教)寺廟信條. 通過[ICON_PEACE]信仰購買來建造它. 建造(印度教)寺廟以獲得信仰和食物. 城市成長時, 提供一個所有產出的一小部分.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_HELP">
-			<Text>當一個新[ICON_CITIZEN]公民在城市出生時, 獲得 5 [ICON_FOOD]食物, [ICON_PRODUCTION]產能, [ICON_GOLD]金幣, [ICON_CULTURE]文化, [ICON_RESEARCH]科學, 和[ICON_PEACE]信仰, 隨時代遞增.[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 15%, 并且增加城市面對[ICON_RELIGION]宗教轉化的抵抗力 10%.[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>當一個新[ICON_CITIZEN]公民在城市出生時, 獲得 5 [ICON_FOOD]食物, [ICON_PRODUCTION]產能, [ICON_GOLD]金幣, [ICON_CULTURE]文化, [ICON_RESEARCH]科學, 和[ICON_PEACE]信仰, 隨時代遞增.[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 15%, 并且增加城市面對[ICON_RELIGION]宗教轉化的抵抗力 10%.[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MANDIR_TEXT">
 			<Text>印度教寺廟是神的居所.它是為了讓人類與眾神相聚而設計的空間與結構,並注入象徵意義以表達印度教的思想與信仰.</Text>
@@ -827,7 +827,7 @@
 			<Text>城市建造需要追隨的宗教有猶太教堂信條. 通過[ICON_PEACE]信仰購買來建造它. 建造猶太教堂以獲得信仰,產能. "敬王之日"期間城市產生更多的科學.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_HELP">
-			<Text>增加城市面對[ICON_RELIGION]宗教轉化的抵抗力 15%. "敬王之日"期間, 城市[ICON_RESEARCH]科學增加 +10%.[NEWLINE][NEWLINE]-1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>增加城市面對[ICON_RELIGION]宗教轉化的抵抗力 15%. "敬王之日"期間, 城市[ICON_RESEARCH]科學增加 +10%.[NEWLINE][NEWLINE]-1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_TEXT">
 			<Text>猶太教堂(synagogue),也拼寫為synagog,是猶太人的祈禱所.猶太教堂有一個供祈禱用的大廳(主聖所),也可能有較小的房間供學習之用,有時也有社交廳和辦事處.有些猶太教堂有獨立的托拉研讀室,稱為 beth midrash.</Text>
@@ -840,7 +840,7 @@
 			<Text>城市建造需要追隨的宗教有修會信條. 通過[ICON_PEACE]信仰購買來建造它. 建造修會以獲得信仰,金幣和士氣晉升給城市訓練的所有軍事單位.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_HELP">
-			<Text>When you construct a軍事單位 in 此城市建造軍事單位, 獲得等於 10% 的單位[ICON_PRODUCTION]產能成本的[ICON_PEACE]信仰. 陸地軍事單位產生自此城市時, 獲得 [COLOR_POSITIVE_TEXT]士氣[ENDCOLOR]晉升.[NEWLINE][NEWLINE]增加城市 3 [ICON_STRENGTH]戰鬥力和 10% [ICON_RANGE_STRENGTH]轟炸力. 提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%.[NEWLINE][NEWLINE]-1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>When you construct a軍事單位 in 此城市建造軍事單位, 獲得等於 10% 的單位[ICON_PRODUCTION]產能成本的[ICON_PEACE]信仰. 陸地軍事單位產生自此城市時, 獲得 [COLOR_POSITIVE_TEXT]士氣[ENDCOLOR]晉升.[NEWLINE][NEWLINE]增加城市 3 [ICON_STRENGTH]戰鬥力和 10% [ICON_RANGE_STRENGTH]轟炸力. 提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%.[NEWLINE][NEWLINE]-1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ORDER_TEXT">
 			<Text>軍事修會是從中世紀開始為了十字軍東征而成立的各種基督教騎士團體中的任何一種,其目的是在聖地或歐洲對抗伊斯蘭教(例如,在羅克復興時期)或異教徒(主要是在波羅的海地區),傳播或捍衛信仰(最初是天主教,宗教改革後有時是新教).許多教會在十字軍東征結束和鄂圖曼入侵之後,已經世俗化,在現代通常以羅馬天主教的儀式、傳教和慈善組織為代表.</Text>
@@ -853,7 +853,7 @@
 			<Text>城市建造需要追隨的宗教有(中美洲等地)古代神庙信條. 通過[ICON_PEACE]信仰購買來建造它. (中美洲等地)古代神庙向軍事訓練和信仰產出提供獎勵.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_HELP">
-			<Text>戰鬥中擊敗敵方單位 +5 [ICON_PEACE]信仰. 增加 1 [ICON_SILVER_FIST]軍事單位供應上限. 此城市產出的所有軍事單位 +15 經驗. 提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%.[NEWLINE][NEWLINE]-1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>戰鬥中擊敗敵方單位 +5 [ICON_PEACE]信仰. 增加 1 [ICON_SILVER_FIST]軍事單位供應上限. 此城市產出的所有軍事單位 +15 經驗. 提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%.[NEWLINE][NEWLINE]-1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_PEDIA">
 			<Text>Teocalli 是阿茲台克人的神廟.Teocalli 的結構是許多中美洲民族的典型結構,在巨大的階梯式金字塔頂端有一個有點小的密閉空間,金字塔的一側有樓梯.這些金字塔中最大的一座在總規模上超過了吉薩的埃及金字塔,儘管它們沒有埃及金字塔那麼高.與美索不達米亞宗教相似,阿茲台克人將他們的 Teocalli 視為眾神的真正居所,只允許祭司在儀式和特殊場合登上金字塔.這些儀式中最臭名昭著的是每月一次的人類祭祀,用來安撫阿茲台克神,戰爭中的俘虜會被從胸腔中取出跳動的心臟,然後被斬首.祭品的頭骨會被準備好,並展示在附近稱為「tzompantli」的頭骨架上,而器官和血肉則會被供奉給神.</Text>
@@ -866,7 +866,7 @@
 			<Text>城市建造需要追隨的宗教有Gurdwara信條. 通過[ICON_PEACE]信仰購買來建造它. 謁師所向城市成長和防禦提供獎勵.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GURDWARA_HELP">
-			<Text>提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%.[NEWLINE][NEWLINE]城市 +10% [ICON_FOOD]食物和 +10% [ICON_STRENGTH]防禦. -1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%.[NEWLINE][NEWLINE]城市 +10% [ICON_FOOD]食物和 +10% [ICON_STRENGTH]防禦. -1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GURDWARA_PEDIA">
 			<Text>Gurdwara 的意思是「通往大師之門」,是錫克教徒的禮拜場所.所有的 Gurdwaras 都有放置在高台上的錫克教聖經 Guru Granth Sahib.在這個平台上,Raagis 為會眾誦讀、歌唱和解釋經文.所有 Gurdwaras 的另一個普遍特色是社區廚房,稱為 Langar.錫克教非常重視提供免費素食,讓所有社區成員,不分種族、階級、地位或宗教,都能免費用餐並擔任義工.</Text>
@@ -874,17 +874,17 @@
 
 		<!--大教堂 -->
 		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL_HELP">
-			<Text>提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%. 此城市附近的農場, 牧場和采石场 +1 [ICON_GOLD]金幣. 城市邊界擴張時, 獲得 10 [ICON_GOLD]金幣, 隨時代遞增.[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%. 此城市附近的農場, 牧場和采石场 +1 [ICON_GOLD]金幣. 城市邊界擴張時, 獲得 10 [ICON_GOLD]金幣, 隨時代遞增.[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 
 		<!-- Mosque -->
 		<Row Tag="TXT_KEY_BUILDING_MOSQUE_HELP">
-			<Text>提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%. 城市[ICON_GOLDEN_AGE]黃金時代期間 +15% [ICON_CULTURE]文化.[NEWLINE][NEWLINE]-1 來自[ICON_RESEARCH]文盲的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%. 城市[ICON_GOLDEN_AGE]黃金時代期間 +15% [ICON_CULTURE]文化.[NEWLINE][NEWLINE]-1 來自[ICON_RESEARCH]文盲的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 
 		<!-- Pagoda -->
 		<Row Tag="TXT_KEY_BUILDING_PAGODA_HELP">
-			<Text>每個在此城市至少有一位追隨者的世界宗教,所有城市產出 +1.[NEWLINE][NEWLINE]-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿和 -2 來自[ICON_RELIGION]宗教動亂的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>每個在此城市至少有一位追隨者的世界宗教,所有城市產出 +1.[NEWLINE][NEWLINE]-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度和 -2 來自[ICON_RELIGION]宗教動亂的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM">
@@ -894,7 +894,7 @@
 			<Text>建造陵墓以獲得來自戰爭中亡者的[ICON_PEACE]信仰和提升所有聖地. 建造這個國家奇跡會允許你選擇一個改革信條. 只能建造在聖城, 并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_HELP">
-			<Text>當己方單位在戰鬥中被殺時獲得 [ICON_PEACE]信仰.獎勵隨時代而遞增.[NEWLINE][NEWLINE]所有[ICON_RELIGION]聖地 +5 [ICON_PEACE]信仰.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
+			<Text>當己方單位在戰鬥中被殺時獲得 [ICON_PEACE]信仰.獎勵隨時代而遞增.[NEWLINE][NEWLINE]所有[ICON_RELIGION]聖地 +5 [ICON_PEACE]信仰.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_TEXT">
 			<Text>陵墓是一座獨立的外部建築物,作為紀念碑,圍繞著已故者的安葬空間或墓室.沒有安葬空間的紀念碑就是陵墓.陵墓可被視為墓穴的一種,或墓穴可被視為在陵墓內.基督教陵墓有時包括小教堂.</Text>
@@ -907,7 +907,7 @@
 			<Text>建造天國寶座為你聖城的基礎產出帶來巨大提升和提升所有的聖地. 建造這個國家奇跡會允許你選擇一個改革信條. 只能建造在聖城, 并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整). 減少[ICON_HAPPINESS_3]宗教動亂, 同時允許你選擇一個改革信條.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_HELP">
-			<Text>+5 [ICON_GOLDEN_AGE]黃金時代點數給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
+			<Text>+5 [ICON_GOLDEN_AGE]黃金時代點數給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_TEXT">
 			<Text>王座是君主或顯要人物的國家座位,尤其是君主在國事場合佔據的座位; 或教宗或主教在儀式上所坐的座位. 抽象意義上的"王座"也可以指君主制或王室本身,這是轉喻的一個例子,也用於許多表達,如"王座背後的權力".</Text>
@@ -920,7 +920,7 @@
 			<Text>建造大祭壇以提升軍事單位的產能和提升所有的聖地. 建造這個國家奇跡會允許你選擇一個改革信條. 只能建造在聖城, 并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整). 減少[ICON_HAPPINESS_3]宗教動亂, 同時允許你選擇一個改革信條.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_HELP">
-			<Text>此城市 +15% 軍事單位的[ICON_PRODUCTION]產能.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION]產能給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
+			<Text>此城市 +15% 軍事單位的[ICON_PRODUCTION]產能.[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION]產能給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_TEXT">
 			<Text>祭壇是為了宗教目的而在其上供奉祭品(如祭品)的任何建築物.祭壇通常設於神社,也可設於寺廟、教堂和其他宗教場所.今天,基督教、佛教、印度教、神道教、道教以及新異教派和儀式魔法都特別使用祭壇.猶太教一直使用這種結構,直到第二聖殿被毀.許多歷史上的信仰也有使用,包括希臘和北歐宗教.</Text>
@@ -946,7 +946,7 @@
 			<Text>建造神聖法庭以提升金幣產出和提升所有的聖地. 建造這個國家奇跡會允許你選擇一個改革信條. 只能建造在聖城, 并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整). 減少[ICON_HAPPINESS_3]宗教動亂, 同時允許你選擇一個改革信條.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_HELP">
-			<Text>+5 [ICON_CULTURE]文化給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
+			<Text>+5 [ICON_CULTURE]文化給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_TEXT">
 			<Text>beth din(「審判之所」或神聖法庭)是猶太教的拉比法庭.在古代,它是聖經中以色列土地上法律制度的基石.今天,在以色列和散居各地的猶太人社區中,它在許多宗教事務上(din Torah,「訴訟事務」,複數 dinei Torah)被賦予法律權力,其判決在特別與猶太人宗教生活有關的事務上具有不同程度的權威(取決於司法管轄權和事項).</Text>
@@ -959,7 +959,7 @@
 			<Text>建造聖潔花園以提升文化產出和提升所有的聖地. 建造這個國家奇跡會允許你選擇一個改革信條. 只能建造在聖城, 并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整). 減少[ICON_HAPPINESS_3]宗教動亂, 同時允許你選擇一個改革信條.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_HELP">
-			<Text>+5 [ICON_FOOD]食物給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
+			<Text>+5 [ICON_FOOD]食物給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_TEXT">
 			<Text>宗教一直是影響花園設計的重要因素.美索不達米亞和古埃及都有神殿花園.古印度、希臘、羅馬、中國和日本都有聖林.神聖的樹木在凱爾特人和日耳曼人的歐洲很重要,在印度仍然很重要.在古印度,許多小樹林或森林都是神聖的,在現代印度教的崇拜中仍然如此.佛教對園林設計有很大的影響,中國和日本的禪宗園林就是著名的例子.在基督教中,尤其是天主教和聖公會,瑪麗花園在教堂和機構中很常見.在俄羅斯作家 Vladimir Megre 的 Ringing Cedars 系列書籍中,創造神聖花園的做法被重新注入活力,並適用於現代.</Text>
@@ -972,7 +972,7 @@
 			<Text>建造神聖理事會以提升食物產出和提升所有的聖地. 建造這個國家奇跡會允許你選擇一個改革信條. 只能建造在聖城, 并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整). 減少[ICON_HAPPINESS_3]宗教動亂, 同時允許你選擇一個改革信條.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_HELP">
-			<Text>+5 [ICON_RESEARCH]科學給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
+			<Text>+5 [ICON_RESEARCH]科學給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_TEXT">
 			<Text>大公會議(或稱聖會)是由教會要人和神學專家召開的會議,目的是討論並解決教會教義和實踐的問題,有投票權的人來自全世界(oikoumene),並獲得整個教會的認可.</Text>
@@ -985,7 +985,7 @@
 			<Text>建造宗座宮殿以更快進入黃金時代和提升所有的聖地. 建造這個國家奇跡會允許你選擇一個改革信條. 只能建造在聖城, 并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整). 減少[ICON_HAPPINESS_3]宗教動亂, 同時允許你選擇一個改革信條.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_HELP">
-			<Text>+4 [ICON_GOLDEN_AGE]黃金時代點數.[NEWLINE][NEWLINE]+5 [ICON_TOURISM]旅遊業績給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
+			<Text>+4 [ICON_GOLDEN_AGE]黃金時代點數.[NEWLINE][NEWLINE]+5 [ICON_TOURISM]旅遊業績給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_TEXT">
 			<Text>拉丁文 basilica 一詞在現代英語中有三種不同的應用.該詞最初用於描述羅馬時期的開放式公共法院建築,通常位於羅馬城鎮的論壇旁邊.後來,這個詞被引申用於同樣形式的基督教建築,並繼續在建築學的意義上用於描述那些有中央中殿和過道的建築.後來,這個詞專指一座大型且重要的教堂,宗座宮殿,教宗賦予它特殊的儀式權利.</Text>
@@ -998,7 +998,7 @@
 			<Text>建造大骨灰龕以獲得大量信仰和提升所有的聖地. 建造這個國家奇跡會允許你選擇一個改革信條. 只能建造在聖城, 并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整). 減少[ICON_HAPPINESS_3]宗教動亂, 同時允許你選擇一個改革信條.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_HELP">
-			<Text>+5 [ICON_GOLD]金幣給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
+			<Text>+5 [ICON_GOLD]金幣給所有的[ICON_RELIGION]聖地.[NEWLINE][NEWLINE]只能建造在聖城, 并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整). -1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度, 同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR].[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%, 增加城市面對宗教轉化的抵抗力 20%.[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教, 獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會的[ICON_DIPLOMAT]代表.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_TEXT">
 			<Text>骨灰龕是一個箱子、盒子、建築物、井或地點,用來作為人類骸骨的最後安息之所.它們常用於埋葬空間稀少的地方.先將屍體埋葬在臨時墳墓中,若干年後再將骸骨移出並放置在骨灰龕中.骨灰甕佔用的空間大大減少,這意味著在一個墳墓中可以存放更多人的遺骸,比起原封不動的棺木更為方便.在波斯,拜火教徒從最早期(約 3,000 年前)就使用深井來實現這個功能,並稱之為 astudan(字面意思為「存放遺骨的地方」).拜火教信仰中有許多關於 Astudan 的儀式和規定.在 7 世紀前中亞地區的索格迪亞人 (Sogdians) 中,甕棺的名稱是 tanbar.</Text>
@@ -1042,7 +1042,7 @@
 			<Text>宮廷花園</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_HELP">
-			<Text>城市 +25% [ICON_GREAT_PEOPLE]偉人誕生速度. 包含 1 文學[ICON_VP_GREATWRITING]巨作的席位.[NEWLINE][NEWLINE]此城市 2 專家不再產生來自[ICON_URBANIZATION]城市化的[ICON_HAPPINESS_3]不滿.[NEWLINE][NEWLINE]建造需已采用[COLOR_MAGENTA]{TXT_KEY_POLICY_MONARCHY}[ENDCOLOR]政策.</Text>
+			<Text>城市 +25% [ICON_GREAT_PEOPLE]偉人誕生速度. 包含 1 文學[ICON_VP_GREATWRITING]巨作的席位.[NEWLINE][NEWLINE]此城市 2 專家不再產生來自[ICON_URBANIZATION]城市化的[ICON_HAPPINESS_3]不滿度.[NEWLINE][NEWLINE]建造需已采用[COLOR_MAGENTA]{TXT_KEY_POLICY_MONARCHY}[ENDCOLOR]政策.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_PEDIA">
 			<Text>花園是一個規劃好的空間,通常在戶外,是為了展示、栽培和欣賞植物及其他形式的自然而預留的.花園可以結合自然和人造材料.現今最常見的形式稱為住宅花園,但傳統上花園一詞的涵義較為廣泛.動物園是在模擬的自然棲息地展示野生動物,以前稱為動物的花園.[1][2] 西方的花園幾乎都以植物為主,花園通常表示植物園的簡稱.</Text>

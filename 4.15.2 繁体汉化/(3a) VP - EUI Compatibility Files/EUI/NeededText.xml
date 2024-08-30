@@ -6,7 +6,7 @@
 			<Text>X: {1_Num} / Y: {2_Num} / 單元格危險: {3_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CP_HAPPINESS_EXPLANATION">
-			<Text>這是全帝國的細分. [ICON_HAPPINESS_1]快樂由每個城市中的[ICON_HAPPINESS_3]不滿計算得出.不滿受限于城市規模,除了都市化政策!</Text>
+			<Text>這是全帝國的細分. [ICON_HAPPINESS_1]幸福度由每個城市中的[ICON_HAPPINESS_3]不滿度計算得出.不滿度受限于城市規模,除了都市化政策!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_LOCAL_RESOURCES_CBP">
 			<Text>本地資源</Text>

@@ -6,7 +6,7 @@
 			<Text>獨立宮</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_INDEPENDENCEHALL_HELP">
-			<Text>城市每 4 [ICON_CITIZEN]公民 +1 [ICON_CULTURE]文化. 城市 +10% [ICON_CULTURE]文化.[NEWLINE][NEWLINE]採用新政策的[ICON_CULTURE]文化成本減少 5%.[NEWLINE][NEWLINE]所有城市 -1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿.[NEWLINE][NEWLINE]包含 2 藝術[ICON_GREAT_WORK]巨作或者文物的席位. 如果[COLOR_POSITIVE_TEXT]主題獎勵已啓動[ENDCOLOR] +3 [ICON_CULTURE]文化和 +3 [ICON_GOLD]金幣.[NEWLINE][NEWLINE][ICON_PRODUCTION]產能成本的增加, 基於你擁有的城市數量.[NEWLINE][NEWLINE][COLOR_CYAN]工業時代[ENDCOLOR]時, 解鎖[COLOR_POSITIVE_TEXT]斯萊特紡織廠[ENDCOLOR], [COLOR_POSITIVE_TEXT]西點軍校[ENDCOLOR], 和[COLOR_POSITIVE_TEXT]史密森尼博物館[ENDCOLOR].</Text>
+			<Text>城市每 4 [ICON_CITIZEN]公民 +1 [ICON_CULTURE]文化. 城市 +10% [ICON_CULTURE]文化.[NEWLINE][NEWLINE]採用新政策的[ICON_CULTURE]文化成本減少 5%.[NEWLINE][NEWLINE]所有城市 -1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度.[NEWLINE][NEWLINE]包含 2 藝術[ICON_GREAT_WORK]巨作或者文物的席位. 如果[COLOR_POSITIVE_TEXT]主題獎勵已啓動[ENDCOLOR] +3 [ICON_CULTURE]文化和 +3 [ICON_GOLD]金幣.[NEWLINE][NEWLINE][ICON_PRODUCTION]產能成本的增加, 基於你擁有的城市數量.[NEWLINE][NEWLINE][COLOR_CYAN]工業時代[ENDCOLOR]時, 解鎖[COLOR_POSITIVE_TEXT]斯萊特紡織廠[ENDCOLOR], [COLOR_POSITIVE_TEXT]西點軍校[ENDCOLOR], 和[COLOR_POSITIVE_TEXT]史密森尼博物館[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_INDEPENDENCEHALL_TEXT">
 			<Text>獨立宮 (Independence Hall) 原為賓夕法尼亞州的州政府大樓,是美國《獨立宣言》和《憲法》辯論和正式通過的地方,使其成為美國國家的誕生地.今天,獨立宮是一座博物館,也是費城市中心獨立國家公園的中心.</Text>
@@ -93,7 +93,7 @@
 			<Text>拜占庭獨有, 替代 {TXT_KEY_BUILDING_TEMPLE}. 除了 {TXT_KEY_BUILDING_TEMPLE} 的加成, {TXT_KEY_BUILDING_BASILICA_DESC} 不需要 [ICON_GOLD]維護費, 提升城市的[ICON_PEACE]信仰產出, 基於城市的[ICON_CITIZEN]公民數量, 并且提升宗教壓力給與貿易路綫相連的城市.[NEWLINE][NEWLINE]這個建築提供了罕見擴大[ICON_PEACE]信仰收入來源,這與拜占庭獨有的能力有極佳的協同效果.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BASILICA_HELP">
-			<Text>城市每 3 [ICON_CITIZEN]公民 +1 [ICON_PEACE]信仰. +25% 宗教壓力和額外的 +100% 給與貿易路綫相連的城市.[NEWLINE][NEWLINE]包含 1 音樂[ICON_VP_GREATMUSIC]巨作的席位.[NEWLINE][NEWLINE]-1 來自[ICON_RELIGION]宗教動亂的[ICON_HAPPINESS_3]不滿.[NEWLINE][NEWLINE]附近的[ICON_RES_INCENSE]沉香: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.[NEWLINE]附近的[ICON_RES_WINE]葡萄酒: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.[NEWLINE]附近的[ICON_RES_AMBER]琥珀: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.</Text>
+			<Text>城市每 3 [ICON_CITIZEN]公民 +1 [ICON_PEACE]信仰. +25% 宗教壓力和額外的 +100% 給與貿易路綫相連的城市.[NEWLINE][NEWLINE]包含 1 音樂[ICON_VP_GREATMUSIC]巨作的席位.[NEWLINE][NEWLINE]-1 來自[ICON_RELIGION]宗教動亂的[ICON_HAPPINESS_3]不滿度.[NEWLINE][NEWLINE]附近的[ICON_RES_INCENSE]沉香: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.[NEWLINE]附近的[ICON_RES_WINE]葡萄酒: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.[NEWLINE]附近的[ICON_RES_AMBER]琥珀: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.</Text>
 		</Row>
 
 		<!-- Carthage -->
@@ -107,12 +107,12 @@
 			<Text>迦太基獨有, 替代 {TXT_KEY_BUILDING_EAST_INDIA}. 除了 {TXT_KEY_BUILDING_EAST_INDIA}, {TXT_KEY_BUILDING_GREAT_COTHON} 提供一個無償的 {TXT_KEY_BUILDING_HARBOR} 給你所有沿海城市, 建造的城市 +2 [ICON_INTERNATIONAL_TRADE]貿易路綫, 更多貧窮減少, 更多[ICON_GOLD]金幣給此城貿易路綫的進入和出發; 并且提升你的帝國的所有燈塔和港口. 不像 {TXT_KEY_BUILDING_EAST_INDIA}, {TXT_KEY_BUILDING_GREAT_COTHON} 在[COLOR_CYAN]古典時代[ENDCOLOR]發現[COLOR_CYAN]{TXT_KEY_TECH_CURRENCY_TITLE}[ENDCOLOR]后可用. {TXT_KEY_BUILDING_GREAT_COTHON} 沒有任何建造要求, 但是只能建造在沿海城市.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GREAT_COTHON_HELP">
-			<Text>收到此城市附近所有奢侈品資源的一個複製品和[COLOR_POSITIVE_TEXT]無償的[ENDCOLOR] {TXT_KEY_BUILDING_HARBOR} 給你所有沿海城市. 進來的[ICON_ARROW_LEFT]貿易路綫 +5 [ICON_GOLD]金幣給城市, 和 +3 [ICON_GOLD]金幣給[ICON_ARROW_RIGHT]貿易路綫的擁有者. 此城市 +25% [COLOR_POSITIVE_TEXT]貿易路綫的資源多樣性修正[ENDCOLOR].[NEWLINE][NEWLINE]所有港口獲得 +3 [ICON_PRODUCTION]產能, 并且所有燈塔獲得 +2 [ICON_CULTURE]文化.[NEWLINE][NEWLINE]獲得 2 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR][ICON_INTERNATIONAL_TRADE]貿易路綫.[NEWLINE][NEWLINE]此城市 -2 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿, 并且所有其它城市 -1.[NEWLINE][NEWLINE][ICON_PRODUCTION]產能成本的增加, 基於你擁有的城市數量.</Text>
+			<Text>收到此城市附近所有奢侈品資源的一個複製品和[COLOR_POSITIVE_TEXT]無償的[ENDCOLOR] {TXT_KEY_BUILDING_HARBOR} 給你所有沿海城市. 進來的[ICON_ARROW_LEFT]貿易路綫 +5 [ICON_GOLD]金幣給城市, 和 +3 [ICON_GOLD]金幣給[ICON_ARROW_RIGHT]貿易路綫的擁有者. 此城市 +25% [COLOR_POSITIVE_TEXT]貿易路綫的資源多樣性修正[ENDCOLOR].[NEWLINE][NEWLINE]所有港口獲得 +3 [ICON_PRODUCTION]產能, 并且所有燈塔獲得 +2 [ICON_CULTURE]文化.[NEWLINE][NEWLINE]獲得 2 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR][ICON_INTERNATIONAL_TRADE]貿易路綫.[NEWLINE][NEWLINE]此城市 -2 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度, 并且所有其它城市 -1.[NEWLINE][NEWLINE][ICON_PRODUCTION]產能成本的增加, 基於你擁有的城市數量.</Text>
 		</Row>
 
 		<!-- Celts -->
 		<Row Tag="TXT_KEY_BUILDING_CEILIDH_HALL_HELP">
-			<Text>完成時 +150 [ICON_CULTURE]文化, 并且城市開始 15 回合的 "敬王之日".[NEWLINE][NEWLINE]包含 1 音樂[ICON_VP_GREATMUSIC]巨作的席位.[NEWLINE][NEWLINE]-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿.[NEWLINE][NEWLINE]附近的[ICON_RES_IVORY]象牙: +3 [ICON_CULTURE]文化.</Text>
+			<Text>完成時 +150 [ICON_CULTURE]文化, 并且城市開始 15 回合的 "敬王之日".[NEWLINE][NEWLINE]包含 1 音樂[ICON_VP_GREATMUSIC]巨作的席位.[NEWLINE][NEWLINE]-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度.[NEWLINE][NEWLINE]附近的[ICON_RES_IVORY]象牙: +3 [ICON_CULTURE]文化.</Text>
 		</Row>
 
 		<!-- China -->
@@ -219,7 +219,7 @@
 			<Text>古代哈拉帕文明和印度河流域文明位於南亞西北部,包括巴基斯坦和印度的部分地區,在水利工程方面非常傑出,有許多供水和衛生設備都是同類中最早的.其中包括世界上已知最早的抽水馬桶系統.許多家庭都有抽水馬桶,並連接到公共排污管道.大多數房屋也有私人水井.城牆是防洪的屏障,沿著這些城牆通常建有巨大的水庫,收集洪水以備乾旱之用.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INDUS_CANAL_HELP">
-			<Text>新[ICON_CITIZEN]公民誕生時, 20% [ICON_FOOD]食物保留, 同時 25% 的城市[ICON_PRODUCTION]產能添加到城市的當前的[ICON_PRODUCTION]產能. 湖和綠洲 +2 [ICON_FOOD]食物,并且此城市附近的農場 +1 [ICON_FOOD]食物和[ICON_PRODUCTION]產能.[NEWLINE][NEWLINE]此城市的主要[ICON_RELIGION]宗教的每個追隨者 +1% [ICON_FOOD]食物.[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>新[ICON_CITIZEN]公民誕生時, 20% [ICON_FOOD]食物保留, 同時 25% 的城市[ICON_PRODUCTION]產能添加到城市的當前的[ICON_PRODUCTION]產能. 湖和綠洲 +2 [ICON_FOOD]食物,并且此城市附近的農場 +1 [ICON_FOOD]食物和[ICON_PRODUCTION]產能.[NEWLINE][NEWLINE]此城市的主要[ICON_RELIGION]宗教的每個追隨者 +1% [ICON_FOOD]食物.[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INDUS_CANAL_STRATEGY">
 			<Text>印度獨有, 替代 {TXT_KEY_BUILDING_AQUEDUCT}. 除了 {TXT_KEY_BUILDING_AQUEDUCT} 的加成, {TXT_KEY_BUILDING_INDUS_CANAL} 保留更多[ICON_FOOD]食物在[ICON_CITIZEN]人口成長上; 提升農場; 并且依據此城市的主要的[ICON_RELIGION]宗教的追隨者數量, 增加城市的[ICON_FOOD]食物的產量 .</Text>
@@ -233,7 +233,7 @@
 			<Text>道場是一個日語詞彙,字面意思是「道的地方」.最初,道場是寺廟的輔助設施.這個詞可以指任何一種日本武術的正式訓練場所,但通常它被認為是任何一種日本武術(如空手道、柔道或武士道)學生進行訓練、考試和其他相關聚會的正式場所.道場僅指專門針對亞洲武術的訓練場所是西方的概念;在日本,任何體育訓練設施,包括專業摔跤學校,都可以稱為道場,因為它與武術有密切的關係.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_HELP">
-			<Text>+25 經驗給所有單位. +2 [ICON_WAR]軍隊供應上限.[NEWLINE][NEWLINE]此城市訓練的所有近戰, 騎乘近戰, 火器和裝甲單位, 收到[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BUSHIDO}[ENDCOLOR]晉升.[NEWLINE][NEWLINE]When 由此城市建造的單位通過戰鬥獲得經驗, 收到等同於 140% 獲得的經驗的[ICON_RESEARCH]科學和[ICON_CULTURE]文化 .[NEWLINE][NEWLINE]-1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>+25 經驗給所有單位. +2 [ICON_WAR]軍隊供應上限.[NEWLINE][NEWLINE]此城市訓練的所有近戰, 騎乘近戰, 火器和裝甲單位, 收到[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BUSHIDO}[ENDCOLOR]晉升.[NEWLINE][NEWLINE]When 由此城市建造的單位通過戰鬥獲得經驗, 收到等同於 140% 獲得的經驗的[ICON_RESEARCH]科學和[ICON_CULTURE]文化 .[NEWLINE][NEWLINE]-1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_DOJO_STRATEGY">
 			<Text>Japanese獨有, 替代 {TXT_KEY_BUILDING_ARMORY}. 除了 {TXT_KEY_BUILDING_ARMORY} 的加成, {TXT_KEY_BUILDING_DOJO} 提供更多訓練經驗和更多軍隊上限; 獲得 {TXT_KEY_PROMOTION_BUSHIDO} 晉升給所有的近戰, 火器, 騎乘和裝甲單位, 在這些單位類型的第一次戰鬥後,提供八種可能的晉升方式之一,並在單位受到傷害時增加單位的強度; 并且單位在戰鬥中獲得經驗時提供[ICON_RESEARCH]科學和[ICON_CULTURE]文化.</Text>
@@ -247,7 +247,7 @@
 			<Text>书院是朝鲜中后期最常见的教育机构.它們是結合了孔教聖地和預備學校功能的私人機構.就教育而言,書院主要是為學生準備國家文官考試.在大多數情況下,書院只為貴族楊班的學生服務.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON_HELP">
-			<Text>此城市附近的叢林和雪原單元格 +1 [ICON_RESEARCH]科學. 此城市的[ICON_GREAT_WORK]巨作和附近的偉人單元格改良 +1 [ICON_PRODUCTION]產能和[ICON_RESEARCH]科學. 此城市[ICON_CITIZEN]公民誕生時, 獲得 50% 城市的[ICON_RESEARCH]科學產出用於立即提升你當前的研究.[NEWLINE][NEWLINE]-1 來自[ICON_RESEARCH]文盲的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>此城市附近的叢林和雪原單元格 +1 [ICON_RESEARCH]科學. 此城市的[ICON_GREAT_WORK]巨作和附近的偉人單元格改良 +1 [ICON_PRODUCTION]產能和[ICON_RESEARCH]科學. 此城市[ICON_CITIZEN]公民誕生時, 獲得 50% 城市的[ICON_RESEARCH]科學產出用於立即提升你當前的研究.[NEWLINE][NEWLINE]-1 來自[ICON_RESEARCH]文盲的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SEOWON_STRATEGY">
 			<Text>Korean獨有, 替代 {TXT_KEY_BUILDING_UNIVERSITY}. 除了 {TXT_KEY_BUILDING_UNIVERSITY} 的加成, {TXT_KEY_BUILDING_SEOWON} 提升[ICON_GREAT_WORK]巨作和偉人單元格改良, 并且[ICON_CITIZEN]人口成長時, 提供一個更大的[ICON_RESEARCH]科學助力.</Text>
@@ -311,10 +311,10 @@
 			<Text>它會增加[ICON_FOOD]食物, [ICON_PRODUCTION]產能和[ICON_GOLD]金幣.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_POLDER_WATER_HELP">
-			<Text>允許陸地單位未登船時穿過這個單元格. 只能建造在相鄰至少 3 陸地單元格的濕地單元格或無特徵的湖/沿海單元格 .</Text>
+			<Text>允許陸地單位未海運時穿過這個單元格. 只能建造在相鄰至少 3 陸地單元格的濕地單元格或無特徵的湖/沿海單元格 .</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_POLDER_WATER_REC">
-			<Text>它會增加[ICON_FOOD]食物, [ICON_PRODUCTION]產能和[ICON_GOLD]金幣.[NEWLINE]允許陸地單位未登船時穿過這個單元格.</Text>
+			<Text>它會增加[ICON_FOOD]食物, [ICON_PRODUCTION]產能和[ICON_GOLD]金幣.[NEWLINE]允許陸地單位未海運時穿過這個單元格.</Text>
 		</Row>
 
 		<!-- Ottoman -->
@@ -339,7 +339,7 @@
 			<Text>弗拉維亞露天劇場 (Flavian Amphitheater) 或稱斗獸場 (Colosseum),是歷史上最著名的場館之一.雖然古羅馬只有一個競技場,但其設計的變體在整個帝國都有重製,一直到現在.鬥獸場是一個戶外場館,公眾可以在此觀賞體育賽事.根據時間和地點的不同,這些活動可能是角鬥士競賽、美式足球比賽或足球比賽.在上述三種競賽中,角鬥對參賽者來說可能是最辛苦的,而足球比賽(偶爾)對參賽者來說也差不多危險.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM_HELP">
-			<Text>單位在戰鬥中擊敗敵人單位時 +5 [ICON_GOLDEN_AGE]黃金時代點數; 同時如果單位是[COLOR_POSITIVE_TEXT]由此城市建造[ENDCOLOR] +10 [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL]大將軍(若陸軍)/海軍上將(若海軍)點數, 均隨時代遞增.[NEWLINE][NEWLINE]城市每 3 [ICON_CITIZEN]公民 +1 [ICON_TOURISM]旅遊業績. 此城市軍營, 煉冶廠和軍械庫 +2 [ICON_PRODUCTION]產能.[NEWLINE][NEWLINE]所有的[ICON_CONNECTED]城市連接產出 +2% [ICON_GOLD]金幣, 并且所有[ICON_INDUSTRIAL_CONNECTED]工業城市連接獲得 +2% [ICON_PRODUCTION]產能.[NEWLINE][NEWLINE]-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿.[NEWLINE][NEWLINE]附近的[ICON_RES_PERFUME]香水: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.[NEWLINE]附近的[ICON_RES_OLIVE] Olives: +1 [ICON_FOOD]食物, +1 [ICON_GOLD]金幣.</Text>
+			<Text>單位在戰鬥中擊敗敵人單位時 +5 [ICON_GOLDEN_AGE]黃金時代點數; 同時如果單位是[COLOR_POSITIVE_TEXT]由此城市建造[ENDCOLOR] +10 [ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL]大將軍(若陸軍)/海軍上將(若海軍)點數, 均隨時代遞增.[NEWLINE][NEWLINE]城市每 3 [ICON_CITIZEN]公民 +1 [ICON_TOURISM]旅遊業績. 此城市軍營, 煉冶廠和軍械庫 +2 [ICON_PRODUCTION]產能.[NEWLINE][NEWLINE]所有的[ICON_CONNECTED]城市連接產出 +2% [ICON_GOLD]金幣, 并且所有[ICON_INDUSTRIAL_CONNECTED]工業城市連接獲得 +2% [ICON_PRODUCTION]產能.[NEWLINE][NEWLINE]-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度.[NEWLINE][NEWLINE]附近的[ICON_RES_PERFUME]香水: +1 [ICON_CULTURE]文化, +1 [ICON_GOLD]金幣.[NEWLINE]附近的[ICON_RES_OLIVE] Olives: +1 [ICON_FOOD]食物, +1 [ICON_GOLD]金幣.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM_STRATEGY">
 			<Text>羅馬獨有, 替代 {TXT_KEY_BUILDING_COLOSSEUM}. 除了 {TXT_KEY_BUILDING_COLOSSEUM} 的加成, {TXT_KEY_BUILDING_FLAVIAN_COLOSSEUM} 提供更多[ICON_PRODUCTION]產能, [ICON_CULTURE]文化和[ICON_TOURISM]旅遊業績; 當你的單位擊敗敵人單位時, 產生[ICON_GOLDEN_AGE]黃金時代點數和[ICON_GREAT_GENERAL]/[ICON_GREAT_ADMIRAL]大將軍/海軍上將點數 ; 并且全局提升來自[ICON_CONNECTED]城市連接的[ICON_GOLD]金幣和來自[ICON_INDUSTRIAL_CONNECTED]工業城市連接的[ICON_PRODUCTION]產能.[NEWLINE][NEWLINE]全局適用的能力可讓羅馬從龐大無垠的帝國中獲益.</Text>
@@ -403,7 +403,7 @@
 			<Text>瑞典獨有, 替代 {TXT_KEY_BUILDING_PUBLIC_SCHOOL}. 除了 {TXT_KEY_BUILDING_PUBLIC_SCHOOL} 的加成, {TXT_KEY_BUILDING_SKOLA} 提供更多的[ICON_RESEARCH]科學和[ICON_CULTURE]文化, 同時有 2 [ICON_VP_SCIENTIST]大科學家席位. 他也更便宜和消耗更少的[ICON_GOLD]維護費.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SKOLA_HELP">
-			<Text>城市每 2 [ICON_CITIZEN]公民 +3 [ICON_RESEARCH]科學和+1 [ICON_CULTURE]文化.[NEWLINE][NEWLINE]-1 來自[ICON_RESEARCH]文盲的[ICON_HAPPINESS_3]不滿.</Text>
+			<Text>城市每 2 [ICON_CITIZEN]公民 +3 [ICON_RESEARCH]科學和+1 [ICON_CULTURE]文化.[NEWLINE][NEWLINE]-1 來自[ICON_RESEARCH]文盲的[ICON_HAPPINESS_3]不滿度.</Text>
 		</Row>
 
 		<!-- Venice -->

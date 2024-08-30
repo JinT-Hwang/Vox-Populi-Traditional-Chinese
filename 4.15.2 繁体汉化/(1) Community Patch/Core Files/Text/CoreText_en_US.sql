@@ -12,7 +12,7 @@ VALUES		('TXT_KEY_PRODMOD_WONDER_UNITPROMOTION',						'[NEWLINE][ICON_BULLET]單
 			('TXT_KEY_PRODMOD_WONDER_IMPROVEMENT',							'[NEWLINE][ICON_BULLET]奇跡的單元格改良修正: {1_Num}%'),
 			('TXT_KEY_RELIGIOUS_PRESSURE_STRING_EXTENDED',					'({1_Pressure} 壓力, +{2_PressurePerTurn} 每回合)'),
 			('TXT_KEY_RELIGION_TOOLTIP_EXTENDED',							'{1_ReligionIcon} {2_NumFollowers} 追隨者 ({3_TotalPressure} + {4_PressurePerTurn} 壓力,來自 {5_Num} 源頭城市)'),
-			('TXT_KEY_EUPANEL_EMBARKATION_DEFENSE',							'登船防禦'),
+			('TXT_KEY_EUPANEL_EMBARKATION_DEFENSE',							'海運防禦'),
 			('TXT_KEY_EUPANEL_UNITCLASS_NEAR',								'鄰近單位'),
 			('TXT_KEY_EUPANEL_NEARBYPROMOTION_COMBAT_BONUS',				'加成來自鄰近單位'),
 			('TXT_KEY_EUPANEL_NEARBYPROMOTION_CITY_COMBAT_BONUS',			'鄰近城市'),
@@ -49,7 +49,7 @@ WHERE EXISTS (SELECT * FROM CustomModOptions WHERE Name='ALTERNATE_ASSYRIA_TRAIT
 -- Cities
 
 UPDATE Language_en_US	
-SET Text = '您想將 {@1_CityName} 傀儡城併入您的帝國嗎? 這將允許您選擇生產,但會增加[ICON_HAPPINESS_4]不滿,並減慢您取得新政策和技術的速度.您將無法扭轉這個情況.'
+SET Text = '您想將 {@1_CityName} 傀儡城併入您的帝國嗎? 這將允許您選擇生產,但會增加[ICON_HAPPINESS_4]不滿度,並減慢您取得新政策和技術的速度.您將無法扭轉這個情況.'
 WHERE Tag = 'TXT_KEY_POPUP_ANNEX_PUPPET';
 
 
@@ -59,7 +59,7 @@ WHERE Tag = 'TXT_KEY_NO_ACTION_UNIT_REQUIRES_BUILDING';
 
 -- Razing
 UPDATE Language_en_US	
-SET Text = '[COLOR_POSITIVE_TEXT]夷平[ENDCOLOR]城市會在每回合燒毀[ICON_RAZING],直到人口為 0,並從遊戲中移除.這會產生很多[ICON_HAPPINESS_4]不滿,但也會增加你對這位玩家的[COLOR_POSITIVE_TEXT]戰爭分數[ENDCOLOR].'
+SET Text = '[COLOR_POSITIVE_TEXT]夷平[ENDCOLOR]城市會在每回合燒毀[ICON_RAZING],直到人口為 0,並從遊戲中移除.這會產生很多[ICON_HAPPINESS_4]不滿度,但也會增加你對這位玩家的[COLOR_POSITIVE_TEXT]戰爭分數[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE';
 
 -- Production Queue
@@ -426,15 +426,15 @@ WHERE Tag = 'TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TECHS';
 
 -- City Revolt
 UPDATE Language_en_US
-SET Text = '因為帝國有至少34%的[ICON_HAPPINESS_4]不滿(或是因為我們的公衆輿論不滿),一個城市會在 [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR] 回合內起義.根據目前的不滿程度和文化/宗教壓力,最有可能造反的城市是 {2_CityName},它將加入 {3_CivName}.儘快讓您的帝國的「快樂」級別脫離這個範圍!'
+SET Text = '因為帝國有至少34%的[ICON_HAPPINESS_4]不滿度(或是因為我們的公衆輿論不滿度),一個城市會在 [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR] 回合內起義.根據目前的不滿度和文化/宗教壓力,最有可能造反的城市是 {2_CityName},它將加入 {3_CivName}.儘快讓您的帝國的「幸福度」級別脫離這個範圍!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT';
 
 UPDATE Language_en_US
-SET Text = '因為帝國有至少 34% [ICON_HAPPINESS_4]不滿,所以 {1_CityName} 城市起義並加入 {2_CivName}!'
+SET Text = '因為帝國有至少 34% [ICON_HAPPINESS_4]不滿度,所以 {1_CityName} 城市起義並加入 {2_CivName}!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CITY_REVOLT';
 
 UPDATE Language_en_US
-SET Text = '因為帝國有至少 34% [ICON_HAPPINESS_4]不滿,所以我們的領土發生了起義!'
+SET Text = '因為帝國有至少 34% [ICON_HAPPINESS_4]不滿度,所以我們的領土發生了起義!'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_REBELS';
 
 -- Pantheons Founded

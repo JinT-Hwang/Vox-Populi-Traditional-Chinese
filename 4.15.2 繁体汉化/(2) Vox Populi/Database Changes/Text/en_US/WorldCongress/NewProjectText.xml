@@ -54,7 +54,7 @@
 			<Text>元帥</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WARGAMES_3_HELP">
-			<Text>梅寧門奇蹟出現在[ICON_CAPITAL]首都.(在它所在的城市獲得 +2 [ICON_HAPPINESS_1]快樂.每當有己方單位被殺就會獲得 2 [ICON_CULTURE]文化和[ICON_GOLDEN_AGE]黃金時代點數,隨著時代遞增.堡壘、要塞和地標有市民工作時提供 +2 [ICON_CULTURE]文化和[ICON_GOLDEN_AGE]黃金時代點數.)</Text>
+			<Text>梅寧門奇蹟出現在[ICON_CAPITAL]首都.(在它所在的城市獲得 +2 [ICON_HAPPINESS_1]幸福度.每當有己方單位被殺就會獲得 2 [ICON_CULTURE]文化和[ICON_GOLDEN_AGE]黃金時代點數,隨著時代遞增.堡壘、要塞和地標有市民工作時提供 +2 [ICON_CULTURE]文化和[ICON_GOLDEN_AGE]黃金時代點數.)</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_UNITED_NATIONS">

@@ -68,7 +68,7 @@
 			<Text>有 Giorgio Armeier 特許經營權的所有城市, [ICON_RES_SILK]絲綢, [ICON_RES_COTTON]棉花, [ICON_RES_DYE]染料, [ICON_RES_FUR]毛皮和[ICON_RES_LAPIS]青金石 +1 [ICON_CULTURE]文化.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_GIORGIO_ARMEIER">
-			<Text>每個全球特許經營權 +2 [ICON_CULTURE]文化, 並且 -1 來自[ICON_RESEARCH]文盲和[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿 .</Text>
+			<Text>每個全球特許經營權 +2 [ICON_CULTURE]文化, 並且 -1 來自[ICON_RESEARCH]文盲和[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度 .</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_GIORGIO_ARMEIER">
 			<Text>有 Giorgio Armeier 辦事處的城市的[ICON_INTERNATIONAL_TRADE]貿易路線到有 Giorgio Armeier 特許經營權的城市 +10% [ICON_CULTURE]文化給起點城市.</Text>
@@ -106,7 +106,7 @@
 			<Text>有 TwoKay Foods 特許經營權的所有城市, [ICON_RES_WINE]葡萄酒, [ICON_RES_TRUFFLES]松露 , [ICON_RES_CITRUS]柑橘, [ICON_RES_OLIVE]橄欖, [ICON_RES_COFFEE]咖啡和[ICON_RES_TEA]茶 +1 [ICON_FOOD]食物.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_OFFICE_BONUS_TWOKAY_FOODS">
-			<Text>每個全球特許經營權 +3 [ICON_FOOD]食物. 城市 +10% [ICON_FOOD]食物. -1 來自所有需求的[ICON_HAPPINESS_3]不滿, 並且所有城市 -5% [ICON_CITY_STATE]帝國規模修正.</Text>
+			<Text>每個全球特許經營權 +3 [ICON_FOOD]食物. 城市 +10% [ICON_FOOD]食物. -1 來自所有需求的[ICON_HAPPINESS_3]不滿度, 並且所有城市 -5% [ICON_CITY_STATE]帝國規模修正.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TWOKAY_FOODS">
 			<Text>有 TwoKay Foods 辦事處的城市的[ICON_INTERNATIONAL_TRADE]貿易路線到有 TwoKay Foods 特許經營權的城市 +10% [ICON_FOOD]食物給起點城市.</Text>

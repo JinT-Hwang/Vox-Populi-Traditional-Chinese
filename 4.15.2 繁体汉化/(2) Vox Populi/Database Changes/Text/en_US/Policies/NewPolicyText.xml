@@ -22,7 +22,7 @@
 			<Text>和平、土地、麵包</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]和平、土地、麵包[ENDCOLOR]: -2 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿和所有城市增加 20% [ICON_FOOD]成長.建築物維護減少 20%.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]和平、土地、麵包[ENDCOLOR]: -2 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度和所有城市增加 20% [ICON_FOOD]成長.建築物維護減少 20%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_TEXT_O">
 			<Text>「和平、土地、麵包」這句話是列寧等人在蘇維埃革命初期所流行的,它突顯了他們希望著重於貧窮的俄國農民的需求.1910-20 年代的布爾什維克初步法令,是在布爾什維克宣佈十月革命(1917年10月26日)成功後立即公布的.這些法令符合布爾什維克的口號「和平、麵包和土地」,這個口號在「七月日」(1917年7月)的工人和軍人起義中被群眾接納.</Text>

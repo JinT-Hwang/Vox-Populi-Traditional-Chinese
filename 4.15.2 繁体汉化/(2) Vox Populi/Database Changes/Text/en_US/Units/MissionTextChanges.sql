@@ -20,7 +20,7 @@ WHERE Tag = 'TXT_KEY_MISSION_START_GOLDENAGE_HELP';
 
 -- Perform Concert Tour
 UPDATE Language_en_US
-SET Text = '當您舉行巡迴演唱會時,您與目標文明的[ICON_TOURISM]旅遊業績會增加 100%,其他文明則增加 50%,持續 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 回合(每擁有一個音樂[ICON_VP_GREATMUSIC]巨作,就會多加 1 回合).您也會在每個城市獲得 1 [ICON_HAPPINESS_1]快樂.這個動作會消耗單位.[NEWLINE][NEWLINE]如果與目標文明開戰,或如果您的[ICON_TOURISM]文化影響力對該文明是[COLOR_MAGENTA]有影響力的[ENDCOLOR]或更高,則無法執行這個動作.'
+SET Text = '當您舉行巡迴演唱會時,您與目標文明的[ICON_TOURISM]旅遊業績會增加 100%,其他文明則增加 50%,持續 [COLOR_POSITIVE_TEXT]10[ENDCOLOR] 回合(每擁有一個音樂[ICON_VP_GREATMUSIC]巨作,就會多加 1 回合).您也會在每個城市獲得 1 [ICON_HAPPINESS_1]幸福度.這個動作會消耗單位.[NEWLINE][NEWLINE]如果與目標文明開戰,或如果您的[ICON_TOURISM]文化影響力對該文明是[COLOR_MAGENTA]有影響力的[ENDCOLOR]或更高,則無法執行這個動作.'
 WHERE Tag = 'TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP';
 
 UPDATE Language_en_US
@@ -47,7 +47,7 @@ WHERE Tag = 'TXT_KEY_MISSION_HURRY_PRODUCTION_HELP';
 
 -- Repair Fleet
 UPDATE Language_en_US
-SET Text = '這個指令會消耗海軍上將, 並且治療你在這個單元格和所有相鄰的單元格上的所有海軍單位和登船單位.它也會增加你的[ICON_WAR]軍事供應上限 1.'
+SET Text = '這個指令會消耗海軍上將, 並且治療你在這個單元格和所有相鄰的單元格上的所有海軍單位和海運單位.它也會增加你的[ICON_WAR]軍事供應上限 1.'
 WHERE Tag = 'TXT_KEY_MISSION_REPAIR_FLEET_HELP';
 
 -- Remove Heresy

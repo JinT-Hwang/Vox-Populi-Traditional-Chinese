@@ -1,6 +1,6 @@
 -- Settler
 UPDATE Language_en_US
-SET Text = '建立新的城市來擴展您的帝國.[NEWLINE][NEWLINE]當建造此單元時,城市的[ICON_FOOD]成長會停止.完成時,城市的[ICON_CITIZEN]人口會減少 1.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]無法在任何人的邊界旁邊建立城市,或者您的帝國非常不滿.[ENDCOLOR]'
+SET Text = '建立新的城市來擴展您的帝國.[NEWLINE][NEWLINE]當建造此單元時,城市的[ICON_FOOD]成長會停止.完成時,城市的[ICON_CITIZEN]人口會減少 1.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]無法在任何人的邊界旁邊建立城市,或者您的帝國非常不滿度.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_SETTLER';
 
 -- Great Writer
@@ -15,7 +15,7 @@ WHERE Tag = 'TXT_KEY_UNIT_GREAT_ARTIST_STRATEGY';
 
 -- Great Musician
 UPDATE Language_en_US
-SET Text = '大音樂家可以創造一個音樂[ICON_VP_GREATMUSIC]巨作(同時產生[ICON_CULTURE]文化和[ICON_TOURISM]旅遊),放置在最近的城市裡,該城市需有適當的席位建築(像是歌劇院或廣播塔).[NEWLINE][NEWLINE]大音樂家也可以到另一個文明進行[COLOR_POSITIVE_TEXT]巡迴演唱會[ENDCOLOR],增加您與目標文明的[ICON_TOURISM]旅遊業績 100%,以及所有其他文明 50%,持續 10 個回合,每擁有一個音樂[ICON_VP_GREATMUSIC]巨作額外增加 1 回合.您也會在每個城市獲得 1 [ICON_HAPPINESS_1]快樂.這個動作會消耗單位.[NEWLINE][NEWLINE]如果您與目標文明開戰,或者您對該文明的[ICON_TOURISM]文化影響力是[COLOR_MAGENTA]有影響力的[ENDCOLOR]或更高,您就無法進行巡迴演唱會.'
+SET Text = '大音樂家可以創造一個音樂[ICON_VP_GREATMUSIC]巨作(同時產生[ICON_CULTURE]文化和[ICON_TOURISM]旅遊),放置在最近的城市裡,該城市需有適當的席位建築(像是歌劇院或廣播塔).[NEWLINE][NEWLINE]大音樂家也可以到另一個文明進行[COLOR_POSITIVE_TEXT]巡迴演唱會[ENDCOLOR],增加您與目標文明的[ICON_TOURISM]旅遊業績 100%,以及所有其他文明 50%,持續 10 個回合,每擁有一個音樂[ICON_VP_GREATMUSIC]巨作額外增加 1 回合.您也會在每個城市獲得 1 [ICON_HAPPINESS_1]幸福度.這個動作會消耗單位.[NEWLINE][NEWLINE]如果您與目標文明開戰,或者您對該文明的[ICON_TOURISM]文化影響力是[COLOR_MAGENTA]有影響力的[ENDCOLOR]或更高,您就無法進行巡迴演唱會.'
 WHERE Tag = 'TXT_KEY_UNIT_GREAT_MUSICIAN_STRATEGY';
 
 -- Great Scientist
@@ -40,7 +40,7 @@ WHERE Tag = 'TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY';
 
 -- 海軍上將
 UPDATE Language_en_US
-SET Text = '海軍上將可以立即自由橫越海洋,使其成為有用的探索船隻 (脆弱的).此外,當海軍上將在己方領土時,它可以被派去進行 [COLOR_POSITIVE_TEXT]探索之旅[ENDCOLOR],消耗該單位並給您兩份目前地圖上沒有的奢侈品資源複製品.[NEWLINE][NEWLINE]海軍上將可以立即[COLOR_POSITIVE_TEXT]修復[ENDCOLOR]同一格以及鄰近格內的所有海軍和登船單位.執行此動作時,會消耗海軍上將.海軍上將也提供 +15% [ICON_STRENGTH]戰鬥力給 2 格內所有玩家擁有的海軍單位.海軍上將提供此加成時,不會被消耗.當海軍上將用於[COLOR_POSITIVE_TEXT]探索之旅[ENDCOLOR]或[COLOR_POSITIVE_TEXT]修復[ENDCOLOR]時,它會增加你的軍事單位供應上限 1.'
+SET Text = '海軍上將可以立即自由橫越海洋,使其成為有用的探索船隻 (脆弱的).此外,當海軍上將在己方領土時,它可以被派去進行 [COLOR_POSITIVE_TEXT]探索之旅[ENDCOLOR],消耗該單位並給您兩份目前地圖上沒有的奢侈品資源複製品.[NEWLINE][NEWLINE]海軍上將可以立即[COLOR_POSITIVE_TEXT]修復[ENDCOLOR]同一格以及鄰近格內的所有海軍和海運單位.執行此動作時,會消耗海軍上將.海軍上將也提供 +15% [ICON_STRENGTH]戰鬥力給 2 格內所有玩家擁有的海軍單位.海軍上將提供此加成時,不會被消耗.當海軍上將用於[COLOR_POSITIVE_TEXT]探索之旅[ENDCOLOR]或[COLOR_POSITIVE_TEXT]修復[ENDCOLOR]時,它會增加你的軍事單位供應上限 1.'
 WHERE Tag = 'TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY';
 
 -- Inquisitor
@@ -211,11 +211,11 @@ SET Text = '特種部隊'
 WHERE Tag = 'TXT_KEY_UNIT_MARINE';
 
 UPDATE Language_en_US
-SET Text = '資訊時代的單位,特別適用於登船和跨海入侵,以及殲滅火藥單位.也可以在敵人防線後方進行空投.'
+SET Text = '資訊時代的單位,特別適用於海運和跨海入侵,以及殲滅火藥單位.也可以在敵人防線後方進行空投.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MARINE';
 
 UPDATE Language_en_US
-SET Text = '特種部隊擁有升級功能,在海上登船時可增強其視力和攻擊力.它在對抗火器部隊時也會更強,並可在最大離友方領土 9 格的地方進行空投.'
+SET Text = '特種部隊擁有升級功能,在海上海運時可增強其視力和攻擊力.它在對抗火器部隊時也會更強,並可在最大離友方領土 9 格的地方進行空投.'
 WHERE Tag = 'TXT_KEY_UNIT_MARINE_STRATEGY';
 
 UPDATE Language_en_US
@@ -399,7 +399,7 @@ SET Text = '遊戲中期的遠程步兵單位,可削弱附近的敵人單位.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_GATLINGGUN';
 
 UPDATE Language_en_US
-SET Text = '加特林機槍是遊戲中期的非攻城遠程單位,能射出可怕的冰雹子彈.它比早期的火槍手等遠程單位強大得多,但卻比同時代的其他軍事單位弱得多.因此,它應該被用來作為消耗的來源.它會削弱附近的敵人單位,並在防守時獲得額外的強度.在攻擊時,加特林砲會對裝甲或駐防單位以及城市造成較少傷害.在您的城市或咽喉要塞位置加特林機槍,以獲得最佳的防禦力量.'
+SET Text = '加特林機槍是遊戲中期的非攻城遠程單位,能射出可怕的冰雹子彈.它比早期的火槍手等遠程單位強大得多,但卻比同時代的其他軍事單位弱得多.因此,它應該被用來作為消耗的來源.它會削弱附近的敵人單位,並在防守時獲得額外的強度.在攻擊時,加特林砲會對裝甲或駐紮單位以及城市造成較少傷害.在您的城市或咽喉要塞位置加特林機槍,以獲得最佳的防禦力量.'
 WHERE Tag = 'TXT_KEY_UNIT_GATLINGGUN_STRATEGY';
 
 -- Machine Gun
@@ -408,7 +408,7 @@ SET Text = '遊戲後期的遠程單位,可削弱附近的敵人單位.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_MACHINE_GUN';
 
 UPDATE Language_en_US
-SET Text = '機槍兵是倒數第二種非攻城遠程單位,可以發射可怕的鎮壓火力.它比早期的遠程單位更強大,但卻比同時代的其他軍事單位弱得多.因此,它應該被用來作為消耗的來源.與加特林機槍一樣,它會削弱附近的敵人單位.在攻擊時,機槍兵對裝甲或駐防單位以及城市造成的傷害較少.它很容易受到近戰攻擊.在您的城市中放置機槍兵進行防禦,或使用它們來控制咽喉位置.'
+SET Text = '機槍兵是倒數第二種非攻城遠程單位,可以發射可怕的鎮壓火力.它比早期的遠程單位更強大,但卻比同時代的其他軍事單位弱得多.因此,它應該被用來作為消耗的來源.與加特林機槍一樣,它會削弱附近的敵人單位.在攻擊時,機槍兵對裝甲或駐紮單位以及城市造成的傷害較少.它很容易受到近戰攻擊.在您的城市中放置機槍兵進行防禦,或使用它們來控制咽喉位置.'
 WHERE Tag = 'TXT_KEY_UNIT_MACHINE_GUN_STRATEGY';
 
 -- Bazooka
@@ -417,7 +417,7 @@ SET Text = '資訊時代的遠程單位.對裝甲單位造成巨大傷害.'
 WHERE Tag = 'TXT_KEY_UNIT_HELP_BAZOOKA';
 
 UPDATE Language_en_US
-SET Text = '巴祖卡火箭筒是最後一種非攻城遠程單位,能夠造成驚人的傷害,尤其是對裝甲單位.巴祖卡火箭筒的射程長達 3 格,是最強大的遠程單位,但速度較慢,防禦力也比同時代的其他軍事單位弱.因此,它應該被用來作為消耗的來源.就像機槍兵一樣,它會削弱附近的敵人單位.在攻擊時,巴祖卡火箭筒會對駐防單位和城市造成較少傷害,但會對裝甲單位造成額外傷害.這讓它成為很棒的防禦單位.'
+SET Text = '巴祖卡火箭筒是最後一種非攻城遠程單位,能夠造成驚人的傷害,尤其是對裝甲單位.巴祖卡火箭筒的射程長達 3 格,是最強大的遠程單位,但速度較慢,防禦力也比同時代的其他軍事單位弱.因此,它應該被用來作為消耗的來源.就像機槍兵一樣,它會削弱附近的敵人單位.在攻擊時,巴祖卡火箭筒會對駐紮單位和城市造成較少傷害,但會對裝甲單位造成額外傷害.這讓它成為很棒的防禦單位.'
 WHERE Tag = 'TXT_KEY_UNIT_BAZOOKA_STRATEGY';
 
 -- Artillery

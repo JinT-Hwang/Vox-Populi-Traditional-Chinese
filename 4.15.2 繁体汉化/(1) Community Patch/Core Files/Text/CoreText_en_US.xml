@@ -2608,7 +2608,7 @@
       <Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_GREAT_PEOPLE]偉人點數給所有城市</Text>
     </Row>
     <Row Tag="TXT_KEY_CS_QUEST_HAPPINESS">
-      <Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_HAPPINESS_1]快樂給[ICON_CAPITAL]首都</Text>
+      <Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_HAPPINESS_1]幸福度給[ICON_CAPITAL]首都</Text>
     </Row>
     <Row Tag="TXT_KEY_CS_QUEST_TOURISM">
       <Text>[COLOR_POSITIVE_TEXT]      [ICON_BULLET] {1_Num}[ENDCOLOR] [ICON_TOURISM]旅遊給所有已知文明</Text>
@@ -2934,7 +2934,7 @@
     </Row>
     <!-- Civilopedia Jazz-->
     <Row Tag="TXT_KEY_ABLTY_HAPPINESS_BUMP">
-      <Text>{1_Num} 額外的[ICON_HAPPINESS_1]快樂給所有城市.</Text>
+      <Text>{1_Num} 額外的[ICON_HAPPINESS_1]幸福度給所有城市.</Text>
     </Row>
     <Row Tag="TXT_KEY_PEDIA_TRADEROUTE_CBP_LABEL">
       <Text>城市連接獎勵:</Text>
@@ -3731,10 +3731,10 @@
     </Row>
     <!-- Embark String for Less/No City Cost-->
     <Row Tag="TXT_KEY_ABLTY_CITY_LESS_EMBARK_COST_STRING">
-      <Text>在己方城市登陸/登船只消耗 1 個移動</Text>
+      <Text>在己方城市登陸/海運只消耗 1 個移動</Text>
     </Row>
     <Row Tag="TXT_KEY_ABLTY_CITY_NO_EMBARK_COST_STRING">
-      <Text>在己方城市登陸/登船消耗 0 移動</Text>
+      <Text>在己方城市登陸/海運消耗 0 移動</Text>
     </Row>
     <Row Tag="TXT_KEY_ABLTY_CITY_RANGE_INCREASE">
       <Text>城市攻擊範圍: +1</Text>
@@ -5899,7 +5899,7 @@
     </Row>
     <!-- Brazil LUA-->
     <Row Tag="TXT_KEY_CARNAVAL_WLTKD">
-      <Text>嘉年華會開始了!所有城市將慶祝嘉年華會 {1_Num}回合,在此期間因需求而產生的[ICON_HAPPINESS_3]不滿會減少 50%,此外還有正常的 25% [ICON_FOOD]成長獎勵.</Text>
+      <Text>嘉年華會開始了!所有城市將慶祝嘉年華會 {1_Num}回合,在此期間因需求而產生的[ICON_HAPPINESS_3]不滿度會減少 50%,此外還有正常的 25% [ICON_FOOD]成長獎勵.</Text>
     </Row>
     <Row Tag="TXT_KEY_CARNAVAL_WLTKD_S">
       <Text>嘉年華會開始了!</Text>
@@ -5909,7 +5909,7 @@
     </Row>
     <!--Revolutions-->
     <Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLUTION_CP">
-      <Text>由於帝國至少有 34% [ICON_HAPPINESS_4]不滿,因此一個城市會在 [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR] 回合內造反.根據目前的不滿等級,最有可能造反的城市是 {2_CityName}.如果這座城市造反,就會恢復 {3_CivName} 的主權.儘快讓您帝國的快樂級別脫離這個範圍!</Text>
+      <Text>由於帝國至少有 34% [ICON_HAPPINESS_4]不滿度,因此一個城市會在 [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR] 回合內造反.根據目前的不滿度等級,最有可能造反的城市是 {2_CityName}.如果這座城市造反,就會恢復 {3_CivName} 的主權.儘快讓您帝國的幸福度級別脫離這個範圍!</Text>
     </Row>
     <Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLUTION_CP_SUMMARY">
       <Text>革命動亂醖釀中</Text>
@@ -5921,7 +5921,7 @@
       <Text>{1_PlayerName} 已恢復!</Text>
     </Row>
     <Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLUTION_CP_FREE_CITY">
-      <Text>由於帝國至少有 34% [ICON_HAPPINESS_4]不滿,因此一個城市會在 [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR] 回合內造反.根據目前的不滿等級,最有可能造反的城市是 {2_CityName}.如果這個城市造反,它將會成為一個獨立的城邦.儘快讓您帝國的快樂級別脫離這個範圍!</Text>
+      <Text>由於帝國至少有 34% [ICON_HAPPINESS_4]不滿度,因此一個城市會在 [COLOR_NEGATIVE_TEXT]{1_Turns}[ENDCOLOR] 回合內造反.根據目前的不滿度等級,最有可能造反的城市是 {2_CityName}.如果這個城市造反,它將會成為一個獨立的城邦.儘快讓您帝國的幸福度級別脫離這個範圍!</Text>
     </Row>
     <Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_CITY_REVOLT_FREE_CITY">
       <Text>{1_CivAdjective} 的城市 {2_CityName} 起義,宣佈成為 {3_CivName} 的自由城邦!</Text>
@@ -6315,13 +6315,13 @@
     </Row>
     <!-- Ocean Embarkation Stuff -->
     <Row Tag="TXT_KEY_PROMOTION_DEEPWATER_EMBARKATION">
-      <Text>海洋登船</Text>
+      <Text>海洋海運</Text>
     </Row>
     <Row Tag="TXT_KEY_PROMOTION_DEEPWATER_EMBARKATION_HELP">
       <Text>允許懸浮單位在海岸/海洋邊界登陸.</Text>
     </Row>
     <Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION">
-      <Text>海洋登船防護</Text>
+      <Text>海洋海運防護</Text>
     </Row>
     <Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION_HELP">
       <Text>允許懸浮單位在海岸/海洋邊界登陸.登陸的單位會獲得 +100% 的[ICON_STRENGTH]防禦加成.</Text>
@@ -7134,7 +7134,7 @@
     </Row><Row Tag="TXT_KEY_MINOR_CIV_QUEST_ACQUIRE_CITY_NAME">
       <Text>征服城市</Text>
     </Row><Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_HAPPINESS">
-      <Text>+{1_Num} [ICON_HAPPINESS_1]快樂</Text>
+      <Text>+{1_Num} [ICON_HAPPINESS_1]幸福度</Text>
     </Row><Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_INFLUENCE">
       <Text>+{1_Num} [ICON_INFLUENCE]影響力</Text>
     </Row><Row Tag="TXT_KEY_INSTANT_YIELD_DETAILS_EXPERIENCE">
@@ -7322,9 +7322,9 @@
     </Row><Row Tag="TXT_KEY_TRADE_WLTKD_RESOURCE_CITIES">
       <Text>下列城市目前需要此資源:</Text>
     </Row><!-- Tooltip helpers for unhappiness --><Row Tag="TXT_KEY_POTENTIAL_HAPPINESS_GROWTH">
-      <Text>[NEWLINE][NEWLINE]隨著[ICON_CITIZEN]成長,[ICON_HAPPINESS_1]快樂估計會增加: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+      <Text>[NEWLINE][NEWLINE]隨著[ICON_CITIZEN]成長,[ICON_HAPPINESS_1]幸福度估計會增加: [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
     </Row><Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_GROWTH">
-      <Text>[NEWLINE][NEWLINE]隨著[ICON_CITIZEN]成長,[ICON_HAPPINESS_3]來自需求的不滿估計變化如下:</Text>
+      <Text>[NEWLINE][NEWLINE]隨著[ICON_CITIZEN]成長,[ICON_HAPPINESS_3]來自需求的不滿度估計變化如下:</Text>
     </Row><Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_GOLD">
       <Text>[NEWLINE]   [ICON_BULLET] [ICON_GOLD]貧窮: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
     </Row><Row Tag="TXT_KEY_POTENTIAL_UNHAPPINESS_SCIENCE">

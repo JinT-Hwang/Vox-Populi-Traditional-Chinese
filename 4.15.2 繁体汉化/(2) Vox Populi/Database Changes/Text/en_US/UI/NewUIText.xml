@@ -189,7 +189,7 @@
 			<Text>[NEWLINE][ICON_BULLET]進出城市的貿易路線: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_SECURITY_UNHAPPINESS_TT">
-			<Text>[NEWLINE][ICON_BULLET]額外的不滿: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+			<Text>[NEWLINE][ICON_BULLET]額外的不滿度: [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<!-- 網路點數 -->
 		<Row Tag="TXT_KEY_NETWORK_POINTS">
@@ -606,7 +606,7 @@
 		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION_CITIES">
 			<Text>[ICON_BULLET]每回合 +{1_Num}, 來自[ICON_CAPITAL]城市</Text>
 		</Row>
-		<!--快樂 -->
+		<!--幸福度 -->
 		<Row Tag="TXT_KEY_TP_HAPPINESS_RESOURCE_POP_BONUS">
 			<Text>{1_Happiness} 來自奢侈品(加成).</Text>
 		</Row>
@@ -626,7 +626,7 @@
 			<Text>{1_Num} 來自軍事單位.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_HAPPINESS_VASSALS">
-			<Text>{1_Num} 來自附庸快樂.</Text>
+			<Text>{1_Num} 來自附庸幸福度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_HAPPINESS_EVENT">
 			<Text>{1_Happiness} 來自事件.</Text>
@@ -662,10 +662,10 @@
 			<Text>{1_Num} 來自[ICON_WAR]厭戰情緒.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOTAL_EMPIRE_AVERAGE">
-			<Text>帝國總[ICON_HAPPINESS_1]快樂</Text>
+			<Text>帝國總[ICON_HAPPINESS_1]幸福度</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOTAL_EMPIRE_UNHAPPINESS">
-			<Text>帝國總[ICON_HAPPINESS_3]不滿</Text>
+			<Text>帝國總[ICON_HAPPINESS_3]不滿度</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LUXURY_HAPPINESS_INFORMATION">
 			<Text>奢侈品</Text>
@@ -674,10 +674,10 @@
 			<Text>{1_Num} 來自進口和控制的奢侈品(平均每個奢侈品 {2_Num} 個).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOTAL_EMPIRE_UNHAPPINESS_TT">
-			<Text>來自帝國的總[ICON_HAPPINESS_3]不滿值會平均分配給所有城市,餘下部分則由您的城市分配,從首都開始,從最古老的城市到最新的城市(依據建立時間).</Text>
+			<Text>來自帝國的總[ICON_HAPPINESS_3]不滿度值會平均分配給所有城市,餘下部分則由您的城市分配,從首都開始,從最古老的城市到最新的城市(依據建立時間).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOTAL_EMPIRE_AVERAGE_TT">
-			<Text>來自帝國的總[ICON_HAPPINESS_1]快樂值會平均分配給所有城市,餘下部分則由您的城市分配,從首都開始,從最古老的城市到最新的城市(依據建立時間).</Text>
+			<Text>來自帝國的總[ICON_HAPPINESS_1]幸福度值會平均分配給所有城市,餘下部分則由您的城市分配,從首都開始,從最古老的城市到最新的城市(依據建立時間).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_TOP_PANEL_VP">
 			<Text>{1_Val} ([ICON_HAPPINESS_1][COLOR_POSITIVE_TEXT]{3_Val}[ENDCOLOR]/[ICON_HAPPINESS_3][COLOR_NEGATIVE_TEXT]{2_Val}[ENDCOLOR] )</Text>
@@ -859,7 +859,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]可能來自 {1_CityName} 貿易路線:[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRADE_UNIT_HAPPINESS">
-			<Text>[COLOR_POSITIVE_TEXT]相關的[ICON_HAPPINESS_3]本地不滿:[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]相關的[ICON_HAPPINESS_3]本地不滿度:[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRADE_BUILDINGS">
 			<Text>[COLOR_POSITIVE_TEXT]本地貿易屬性:[ENDCOLOR]</Text>
@@ -1079,7 +1079,7 @@
 
 		<!-- City界面/banner -->
 		<Row Tag="TXT_KEY_FOODMOD_HAPPY">
-			<Text>[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1]本地快樂修正: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET][ICON_HAPPINESS_1]本地幸福度修正: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_FOODMOD_LEAGUE">
 			<Text>[NEWLINE][ICON_BULLET]決議成長修正: {1_Num}%</Text>
@@ -1097,7 +1097,7 @@
 			<Text>[NEWLINE][ICON_BULLET]來自政策的[ICON_OCCUPIED]佔領修正: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_BALANCE_HAPPINESS_MOD">
-			<Text>[NEWLINE][ICON_BULLET]由於快樂的修正: {1_Num}%</Text>
+			<Text>[NEWLINE][ICON_BULLET]由於幸福度的修正: {1_Num}%</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODMOD_UNIT_CORPORATION">
 			<Text>[NEWLINE][ICON_BULLET]公司的修正: {1_Num}%</Text>
@@ -1253,22 +1253,22 @@
 			<Text>嘉年華會! ({1_Num})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA_CARNAVAL">
-			<Text>此城市正在慶祝嘉年華會, 這會增加[ICON_FOOD]成長, 並減少[ICON_HAPPINESS_3]不滿!</Text>
+			<Text>此城市正在慶祝嘉年華會, 這會增加[ICON_FOOD]成長, 並減少[ICON_HAPPINESS_3]不滿度!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA_CARNAVAL">
-			<Text>將此資源連接到您的貿易網路會讓此城市慶祝嘉年華會, 這會增加[ICON_FOOD]成長, 並減少[ICON_HAPPINESS_3]不滿!</Text>
+			<Text>將此資源連接到您的貿易網路會讓此城市慶祝嘉年華會, 這會增加[ICON_FOOD]成長, 並減少[ICON_HAPPINESS_3]不滿度!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_SAPPED">
 			<Text>因為敵人的間諜任務,城市被封鎖, 並且無法進行遠程攻擊, 持續 [COLOR_POSITIVE_TEXT]{1_Turns}[ENDCOLOR] 回合.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_MINED">
-			<Text>敵方海軍單位和登船單位進入此城市擁有的水域時,會消耗所有[ICON_MOVES]移動力. 在此城市擁有的海洋單元格中結束回合的單位會受到[COLOR_NEGATIVE_TEXT]5 傷害[ENDCOLOR].</Text>
+			<Text>敵方海軍單位和海運單位進入此城市擁有的水域時,會消耗所有[ICON_MOVES]移動力. 在此城市擁有的海洋單元格中結束回合的單位會受到[COLOR_NEGATIVE_TEXT]5 傷害[ENDCOLOR].</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_HAS_OBSTACLE">
 			<Text>敵方陸地單位進入此城市擁有的陸地領土時, 會消耗所有[ICON_MOVES]移動力.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_HAS_OBSTACLE_WATER">
-			<Text>敵方海軍單位和登船單位進入此城市擁有的水域時,會消耗所有[ICON_MOVES]移動力.</Text>
+			<Text>敵方海軍單位和海運單位進入此城市擁有的水域時,會消耗所有[ICON_MOVES]移動力.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_HAS_AIRPORT">
 			<Text>允許此城市進行[COLOR_POSITIVE_TEXT]空運[ENDCOLOR]. 城市增加空軍單位容量. 城市被空襲時, 對敵人空軍單位 +10 [ICON_STRENGTH]傷害.</Text>
@@ -1301,7 +1301,7 @@
 			<Text>征服一個[COLOR_POSITIVE_TEXT]航海[ENDCOLOR]城邦, 會大幅提升你的[ICON_CAPITAL]首都的[ICON_FOOD]食物, 以及你所有城市.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_MERCANTILE_TT_ANNEXED">
-			<Text>征服一個[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]城邦, 會為你的帝國提供額外的[ICON_HAPPINESS_1]快樂, 並生產其他方式無法取得的特殊奢侈品資源.</Text>
+			<Text>征服一個[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]城邦, 會為你的帝國提供額外的[ICON_HAPPINESS_1]幸福度, 並生產其他方式無法取得的特殊奢侈品資源.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_STATE_RELIGIOUS_TT_ANNEXED">
 			<Text>征服一個[COLOR_POSITIVE_TEXT]宗教[ENDCOLOR]城邦, 會增加你的[ICON_PEACE]信仰, 允許您以新的信條和單位增強您的宗教.</Text>
@@ -1330,9 +1330,9 @@
 		<Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_CAPTURED">
 			<Text>本城市原歸屬於 [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]. [COLOR_NEGATIVE_TEXT]因為您選擇不解放他們,所以您沒有機會將這座城市歸還給他們.[ENDCOLOR]</Text>
 		</Row>
-		<!--快樂 -->
+		<!--幸福度 -->
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_UNHAPPINESS">
-			<Text>城市無法產生比他們[ICON_CITIZEN]人口更多的[ICON_HAPPINESS_3]不滿(除非來自[ICON_URBANIZATION]城市化).[NEWLINE][NEWLINE]本地[ICON_HAPPINESS_3]不滿: [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] (回合 {2_NUM})</Text>
+			<Text>城市無法產生比他們[ICON_CITIZEN]人口更多的[ICON_HAPPINESS_3]不滿度(除非來自[ICON_URBANIZATION]城市化).[NEWLINE][NEWLINE]本地[ICON_HAPPINESS_3]不滿度: [COLOR_NEGATIVE_TEXT]{1_NUM}[ENDCOLOR] (回合 {2_NUM})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_GLOBAL_MEDIAN_MODS">
 			<Text>[COLOR_POSITIVE_TEXT]城市需求(需求修正 %):[ENDCOLOR]</Text>
@@ -1485,7 +1485,7 @@
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 來自饑荒 (需要[ICON_FOOD]).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESISTANCE_UNHAPPINESS">
-			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 來自[ICON_RESISTANCE]抵抗.</Text>
+			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 來自[ICON_RESISTANCE]反抗.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_OCCUPATION_UNHAPPINESS">
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 來自[ICON_OCCUPIED]佔領.</Text>
@@ -1554,19 +1554,19 @@
 			<Text>[COLOR_NEGATIVE_TEXT]{1_num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_HAPPINESS_TEXT">
-			<Text>[COLOR_CYAN]快樂[ENDCOLOR]</Text>
+			<Text>[COLOR_CYAN]幸福度[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_UNHAPPINESS_TEXT">
-			<Text>[COLOR_NEGATIVE_TEXT]不滿[ENDCOLOR]</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]不滿度[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_HAPPINESS_EXPLANATION">
-			<Text>城市可以提供超過他們[ICON_CITIZEN]人口的[ICON_HAPPINESS_1]快樂.</Text>
+			<Text>城市可以提供超過他們[ICON_CITIZEN]人口的[ICON_HAPPINESS_1]幸福度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_UNHAPPINESS_EXPLANATION">
-			<Text>[NEWLINE](這些「需求」是根據城市中[ICON_CITIZEN]公民的數量,以及飢餓或封鎖等臨時狀況所得出的平均產量.平均值會隨著遊戲的進行而增加,而每個公民的產量則會隨著城市的成長而減少.您城市的產量與全帝國平均值之間的差距越大,您城市的不滿程度就越高!)</Text>
+			<Text>[NEWLINE](這些「需求」是根據城市中[ICON_CITIZEN]公民的數量,以及飢餓或封鎖等臨時狀況所得出的平均產量.平均值會隨著遊戲的進行而增加,而每個公民的產量則會隨著城市的成長而減少.您城市的產量與全帝國平均值之間的差距越大,您城市的不滿度程度就越高!)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_HAPPINESS">
-			<Text>本地[ICON_HAPPINESS_1]快樂: [COLOR_POSITIVE_TEXT]{1_NUM}[ENDCOLOR]</Text>
+			<Text>本地[ICON_HAPPINESS_1]幸福度: [COLOR_POSITIVE_TEXT]{1_NUM}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPECIALIST_UNHAPPINESS">
 			<Text>[ICON_BULLET] [COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR] 來自[ICON_URBANIZATION]城市化(專家)</Text>
@@ -1593,10 +1593,10 @@
 			<Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 來自宗教</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_UNHAPPY">
-			<Text>城市有 {1_Num} 超額的[ICON_HAPPINESS_3]不滿!</Text>
+			<Text>城市有 {1_Num} 超額的[ICON_HAPPINESS_3]不滿度!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_CITY_LOCAL_HAPPINESS_EXPLANATION_PUPPET">
-			<Text>[ICON_PUPPET]傀儡, [ICON_OCCUPIED]佔領, [ICON_RAZE]夷平或者[ICON_RESISTANCE]抵抗的城市, 不會產生[ICON_HAPPINESS_1]快樂或者受益於帝國全域的[ICON_HAPPINESS_1]快樂來源.</Text>
+			<Text>[ICON_PUPPET]傀儡, [ICON_OCCUPIED]佔領, [ICON_RAZE]夷平或者[ICON_RESISTANCE]反抗的城市, 不會產生[ICON_HAPPINESS_1]幸福度或者受益於帝國全域的[ICON_HAPPINESS_1]幸福度來源.</Text>
 		</Row>
 
 		<!-- Civilopedia -->
@@ -2111,7 +2111,7 @@
 			<Text>他們認為作為您的附庸,他們受到了虐待!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_TREATMENT_UNHAPPY">
-			<Text>他們是非常不滿意你對他們的統治!</Text>
+			<Text>他們是非常不滿度意你對他們的統治!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_VASSAL_TREATMENT_ENSLAVED">
 			<Text>他們認為自己在您的統治下受到奴役!</Text>
@@ -2745,7 +2745,7 @@
 			<Text>[ICON_CITIZEN]人口</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_HAPPINESS_STAT">
-			<Text>快樂</Text>
+			<Text>幸福度</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_GROSS_GPT_STAT">
 			<Text>每回合[ICON_GOLD]總金幣</Text>
@@ -3199,7 +3199,7 @@
 			<Text>[NEWLINE] [ICON_BULLET]城市必須正值[COLOR_POSITIVE_TEXT]敬王之日[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_BE_RESISTANCE">
-			<Text>[NEWLINE] [ICON_BULLET]城市必須正在抵抗</Text>
+			<Text>[NEWLINE] [ICON_BULLET]城市必須正在反抗</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NEED_BARBARIANS_ENABLED">
 			<Text>[NEWLINE] [ICON_BULLET]蠻族必須已激活</Text>

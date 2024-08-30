@@ -13,7 +13,7 @@
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_ITP_HAPPINESS_EXPLANATION</Tag>
-			<Text>這是整個帝國的細分. [ICON_HAPPINESS_1]快樂由每個城市的[ICON_HAPPINESS_3]不滿計算得出.不滿受限于城市規模,除了都市化政策!你總共有 [ICON_HAPPINESS_1] {1_Val} / [ICON_HAPPINESS_3] {2_Val} 在你的城市中.</Text>
+			<Text>這是整個帝國的細分. [ICON_HAPPINESS_1]幸福度由每個城市的[ICON_HAPPINESS_3]不滿度計算得出.不滿度受限于城市規模,除了都市化政策!你總共有 [ICON_HAPPINESS_1] {1_Val} / [ICON_HAPPINESS_3] {2_Val} 在你的城市中.</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_ITP_HAPPINESS_SUMMARY</Tag>

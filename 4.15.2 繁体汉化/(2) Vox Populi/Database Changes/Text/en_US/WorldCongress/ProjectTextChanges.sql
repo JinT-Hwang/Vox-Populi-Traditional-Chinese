@@ -8,7 +8,7 @@ SET Text = '獲得一個無償的自選偉人.'
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2_HELP';
 
 UPDATE Language_en_US
-SET Text = '奧運村奇蹟出現在[ICON_CAPITAL]首都.(它所在的城市獲得 +3 [ICON_HAPPINESS_1]快樂和 +3 [ICON_CULTURE]文化.來自世界奇蹟和單元格的[ICON_CULTURE]文化的 25% 會被加到該城市的[ICON_TOURISM]旅遊業績產出.所有體育場都會獲得 +2 [ICON_GOLD]金幣和[ICON_TOURISM]旅遊業績.'
+SET Text = '奧運村奇蹟出現在[ICON_CAPITAL]首都.(它所在的城市獲得 +3 [ICON_HAPPINESS_1]幸福度和 +3 [ICON_CULTURE]文化.來自世界奇蹟和單元格的[ICON_CULTURE]文化的 25% 會被加到該城市的[ICON_TOURISM]旅遊業績產出.所有體育場都會獲得 +2 [ICON_GOLD]金幣和[ICON_TOURISM]旅遊業績.'
 WHERE Tag = 'TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP';
 
 -- World's Fair

@@ -75,7 +75,7 @@
 			<Text>單位在攻擊过程中消耗</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_UNIT_CAPTUREWHILEEMBARKED">
-			<Text>登船时攻奪</Text>
+			<Text>海運时攻奪</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_UNIT_RUSHBUILDING">
 			<Text>{TXT_KEY_MISSION_HURRY_PRODUCTION}</Text>
@@ -317,16 +317,16 @@
 			<Text>治療效率變化 {1}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_UNHAPPINESSMODIFIER">
-			<Text>不滿修正 {1}%</Text>
+			<Text>不滿度修正 {1}%</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_HAPPINESSPERCITY">
-			<Text>每座城市快樂 {1}</Text>
+			<Text>每座城市幸福度 {1}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_HAPPINESSPERXPOLICIES">
-			<Text>每 {1} 政策 +1 快樂</Text>
+			<Text>每 {1} 政策 +1 幸福度</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_CITYCOUNTUNHAPPINESSMOD">
-			<Text>城市數量不滿修正 {1}</Text>
+			<Text>城市數量不滿度修正 {1}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_WORKERSPEEDMODIFIER">
 			<Text>工人速度修正 {1}%</Text>

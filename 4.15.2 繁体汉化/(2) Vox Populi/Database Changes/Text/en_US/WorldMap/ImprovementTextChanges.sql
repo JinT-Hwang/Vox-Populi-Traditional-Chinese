@@ -63,7 +63,7 @@ WHERE Tag = 'TXT_KEY_BUILD_CITADEL_HELP';
 
 -- Landmark
 UPDATE Language_en_US
-SET Text = '地標在完工時, 會提供建造者與單元格擁有者 +3 全帝國 [ICON_HAPPINESS_1]快樂, 以及從該文物的起源時代起, 度過的每個額外時代, 該單元格會 +1[ICON_CULTURE]文化與 +1[ICON_GOLD]金幣.[NEWLINE][NEWLINE]地標是指任何吸引遊客前往某地的宏偉文物、建築物、藝術品或自然奇觀.倫敦的納爾遜圓柱是地標,美國的拉什莫爾山也是地標.然而,並不是每個巨大的物體都是地標:世界上最大的麻繩球可能永遠也無法達到地標的地位(雖然它很可能值得一遊).'
+SET Text = '地標在完工時, 會提供建造者與單元格擁有者 +3 全帝國 [ICON_HAPPINESS_1]幸福度, 以及從該文物的起源時代起, 度過的每個額外時代, 該單元格會 +1[ICON_CULTURE]文化與 +1[ICON_GOLD]金幣.[NEWLINE][NEWLINE]地標是指任何吸引遊客前往某地的宏偉文物、建築物、藝術品或自然奇觀.倫敦的納爾遜圓柱是地標,美國的拉什莫爾山也是地標.然而,並不是每個巨大的物體都是地標:世界上最大的麻繩球可能永遠也無法達到地標的地位(雖然它很可能值得一遊).'
 WHERE Tag = 'TXT_KEY_CIV5_IMPROVEMENTS_LANDMARK_TEXT';
 
 -- Barbarian Encampment

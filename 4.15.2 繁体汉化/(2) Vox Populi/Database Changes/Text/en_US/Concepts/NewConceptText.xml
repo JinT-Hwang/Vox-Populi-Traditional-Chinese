@@ -38,13 +38,13 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_CONCEPT_RESISTANCE">
-			<Text>[COLOR_GREEN]抵抗[ENDCOLOR]</Text>
+			<Text>[COLOR_GREEN]反抗[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_RESISTANCE_BODY">
-			<Text>抵抗是一種機制,已征服一個或多個首都的文明會發現越來越難奪取其他首都.在戰鬥中,您可能會看到[COLOR_POSITIVE_TEXT]抵抗(吞併)[ENDCOLOR]的修飾為你(獎勵)或是為敵人(懲罰)出現.只有在您或您的對手攻下敵方首都後,才會出現這個修飾.修飾會根據擁有的外國(非城邦)首都數量和外國首都總數而改變.一方奪取的都城越多,此懲罰就越高!</Text>
+			<Text>反抗是一種機制,已征服一個或多個首都的文明會發現越來越難奪取其他首都.在戰鬥中,您可能會看到[COLOR_POSITIVE_TEXT]反抗(吞併)[ENDCOLOR]的修飾為你(獎勵)或是為敵人(懲罰)出現.只有在您或您的對手攻下敵方首都後,才會出現這個修飾.修飾會根據擁有的外國(非城邦)首都數量和外國首都總數而改變.一方奪取的都城越多,此懲罰就越高!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_RESISTANCE_QUEST">
-			<Text>什麼是抵抗?</Text>
+			<Text>什麼是反抗?</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CONCEPT_PARTISANS">
@@ -61,7 +61,7 @@
 			<Text>[COLOR_GREEN]厭戰情緒[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COMBAT_WAR_WEARINESS_HEADING3_BODY">
-			<Text>戰爭,戰爭永遠不會改變.事實上,它會改變.隨著戰爭的進展,您帝國的國民會越來越意識到長期衝突的危險,並開始發展出[COLOR_NEGATIVE_TEXT]厭戰情緒[ENDCOLOR].厭戰情緒是根據三個因素為每位玩家計算出來的:您與他們交戰的回合數、您從他們身上收到的傷害,以及您對他們造成傷害的一半.然後,這個數值會與您的單位和城市目前的「力量」比較,計算出一個百分比(上限為 100%),來自任何交戰玩家的最高百分比懲罰就會套用在您的帝國上.從玩家手中奪取城市後,您與該玩家的厭戰情緒會暫停,直到兩個回合過去,因為您的人民希望戰爭能以有利的方式結束.如果 AI 領袖有能力但不願意與人類玩家媾和,該領袖也會被忽略厭戰情緒.[NEWLINE][NEWLINE]此外,與其他文明媾和會立即使您與他們的厭戦情緒減半,而解放城市會使您對所有文明的厭戦情緒減少 25%.[NEWLINE][NEWLINE]厭戰情緒有三種主要影響:[NEWLINE][ICON_BULLET]來自厭戰情緒的不滿[NEWLINE][ICON_BULLET]增加軍事單位的生產和金幣成本[NEWLINE][ICON_BULLET]降低最大軍事單位供給上限[NEWLINE]小心在單次衝突中過度擴張!</Text>
+			<Text>戰爭,戰爭永遠不會改變.事實上,它會改變.隨著戰爭的進展,您帝國的國民會越來越意識到長期衝突的危險,並開始發展出[COLOR_NEGATIVE_TEXT]厭戰情緒[ENDCOLOR].厭戰情緒是根據三個因素為每位玩家計算出來的:您與他們交戰的回合數、您從他們身上收到的傷害,以及您對他們造成傷害的一半.然後,這個數值會與您的單位和城市目前的「力量」比較,計算出一個百分比(上限為 100%),來自任何交戰玩家的最高百分比懲罰就會套用在您的帝國上.從玩家手中奪取城市後,您與該玩家的厭戰情緒會暫停,直到兩個回合過去,因為您的人民希望戰爭能以有利的方式結束.如果 AI 領袖有能力但不願意與人類玩家媾和,該領袖也會被忽略厭戰情緒.[NEWLINE][NEWLINE]此外,與其他文明媾和會立即使您與他們的厭戦情緒減半,而解放城市會使您對所有文明的厭戦情緒減少 25%.[NEWLINE][NEWLINE]厭戰情緒有三種主要影響:[NEWLINE][ICON_BULLET]來自厭戰情緒的不滿度[NEWLINE][ICON_BULLET]增加軍事單位的生產和金幣成本[NEWLINE][ICON_BULLET]降低最大軍事單位供給上限[NEWLINE]小心在單次衝突中過度擴張!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_COMBAT_WAR_WEARINESS_ADV_QUEST">
 			<Text>什麼是厭戰情緒?</Text>
@@ -98,20 +98,20 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_HEADING3_TITLE">
-			<Text>[COLOR_GREEN]城市的本地快樂[ENDCOLOR]</Text>
+			<Text>[COLOR_GREEN]城市的本地幸福度[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_HEADING3_BODY">
-			<Text>城市的本地快樂按以下方式確定:[NEWLINE][NEWLINE]有些快樂是由城市在當地產生的.這可以透過建築物、政策、世界奇蹟或市民在地標上工作來實現.[NEWLINE][NEWLINE]來自全帝國的快樂總量(例如奢侈品資源或結盟城邦)會以分發的方式分配給所有城市.這會自動完成,優先處理本地快樂少於人口的城市.當所有城市的本地快樂與其人口相等後,剩餘的部分會依人口由高到低的順序進行分配.</Text>
+			<Text>城市的本地幸福度按以下方式確定:[NEWLINE][NEWLINE]有些幸福度是由城市在當地產生的.這可以透過建築物、政策、世界奇蹟或市民在地標上工作來實現.[NEWLINE][NEWLINE]來自全帝國的幸福度總量(例如奢侈品資源或結盟城邦)會以分發的方式分配給所有城市.這會自動完成,優先處理本地幸福度少於人口的城市.當所有城市的本地幸福度與其人口相等後,剩餘的部分會依人口由高到低的順序進行分配.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_LOCAL_HAPPINESS_ADV_QUEST">
-			<Text>城市的本地快樂是如何決定的?</Text>
+			<Text>城市的本地幸福度是如何決定的?</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_HAPPINESS_NEED_THRESHOLDS_TITLE">
 			<Text>[COLOR_GREEN]需求閾值的計算[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_NEED_THRESHOLDS_BODY">
-			<Text>根據需求計算不滿的方法是將一個城市的每人口產出與某些參考值(即需求閾值)進行比較.這些數值基於全球每人口產出的中值(即全球正好有 50% 的城市超過的每人口產出值).在計算中位數時,只有人口至少達到 3 的城市才會被考量,因此在遊戲初期不滿會變得較柔和.在每個城市中,需求閾值會被一些需求修正器所修正.正數的需求修正器會增加達到閾值的難度,因此可能會增加當地的不滿,而負數的需求修正器則可能會減少當地的不滿.下列修改器總是會被套用:[NEWLINE] [COLOR_NEGATIVE_TEXT]首都狀況[ENDCOLOR]: 首都的需求閾值增加 25%..[NEWLINE] [COLOR_NEGATIVE_TEXT]帝國規模[ENDCOLOR]: 您帝國中的每個城市 (不包括首都和傀儡城市) 都會增加 5%的需求閾值.此外,您帝國中每八個公民(不包括傀儡城市的公民)就會增加 1%.[NEWLINE] [COLOR_POSITIVE_TEXT]難度級別[ENDCOLOR]: 在難度等級「開拓者」和「酋長」中,會降低人類玩家的需求閾值,並提高 AI 的需求閾值.在「酋長」以上的難度等級中,不適用任何修正.[NEWLINE][NEWLINE]某些政策和間諜事件也可以修改城市的需求閾值.此外,將產能轉換成其他產出的過程會降低各自的需求閾值,降低的幅度等於轉換率(可使用發電廠增加轉換率),例如農業會將 25% 的生產轉換成食物,並降低 25% 的窘迫需求閾值.</Text>
+			<Text>根據需求計算不滿度的方法是將一個城市的每人口產出與某些參考值(即需求閾值)進行比較.這些數值基於全球每人口產出的中值(即全球正好有 50% 的城市超過的每人口產出值).在計算中位數時,只有人口至少達到 3 的城市才會被考量,因此在遊戲初期不滿度會變得較柔和.在每個城市中,需求閾值會被一些需求修正器所修正.正數的需求修正器會增加達到閾值的難度,因此可能會增加當地的不滿度,而負數的需求修正器則可能會減少當地的不滿度.下列修改器總是會被套用:[NEWLINE] [COLOR_NEGATIVE_TEXT]首都狀況[ENDCOLOR]: 首都的需求閾值增加 25%..[NEWLINE] [COLOR_NEGATIVE_TEXT]帝國規模[ENDCOLOR]: 您帝國中的每個城市 (不包括首都和傀儡城市) 都會增加 5%的需求閾值.此外,您帝國中每八個公民(不包括傀儡城市的公民)就會增加 1%.[NEWLINE] [COLOR_POSITIVE_TEXT]難度級別[ENDCOLOR]: 在難度等級「開拓者」和「酋長」中,會降低人類玩家的需求閾值,並提高 AI 的需求閾值.在「酋長」以上的難度等級中,不適用任何修正.[NEWLINE][NEWLINE]某些政策和間諜事件也可以修改城市的需求閾值.此外,將產能轉換成其他產出的過程會降低各自的需求閾值,降低的幅度等於轉換率(可使用發電廠增加轉換率),例如農業會將 25% 的生產轉換成食物,並降低 25% 的窘迫需求閾值.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_NEED_THRESHOLDS_ADV_QUEST">
 			<Text>需求閾值是如何計算的?</Text>
@@ -121,20 +121,20 @@
 			<Text>[COLOR_GREEN][ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_PUPPET_CITIES_BODY">
-			<Text>在傀儡城市中,快樂和不滿的特殊規則也適用.傀儡城市中每 4 位市民產生 1 不滿.傀儡城市中唯一其他可能的不滿來源是城市化,其計算方式與其他城市相同.在傀儡城市中,您無法控制專家的分配,因此無法抵銷城市化,除非您吞併該城市.傀儡城市不會產生任何本地快樂,它們遵循自己的成長規則,獨立於快樂系統.因此傀儡城市所產生的不滿只會在帝國層級上產生影響.</Text>
+			<Text>在傀儡城市中,幸福度和不滿度的特殊規則也適用.傀儡城市中每 4 位市民產生 1 不滿度.傀儡城市中唯一其他可能的不滿度來源是城市化,其計算方式與其他城市相同.在傀儡城市中,您無法控制專家的分配,因此無法抵銷城市化,除非您吞併該城市.傀儡城市不會產生任何本地幸福度,它們遵循自己的成長規則,獨立於幸福度系統.因此傀儡城市所產生的不滿度只會在帝國層級上產生影響.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_PUPPET_CITIES_ADV_QUEST">
-			<Text>什麼造成傀儡城市的不滿?</Text>
+			<Text>什麼造成傀儡城市的不滿度?</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_HAPPINESS_OCCUPIED_CITIES_TITLE">
-			<Text>[COLOR_GREEN]已佔領和抵抗的城市[ENDCOLOR]</Text>
+			<Text>[COLOR_GREEN]已佔領和反抗的城市[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_OCCUPIED_CITIES_BODY">
-			<Text>正在抵抗或被襲擊的城市不會產生任何本地快樂.相反地,它們會產生與城市人口相等的不滿.這會大幅降低您帝國的支持率.[NEWLINE][NEWLINE]已佔領的城市也不會產生任何快樂.它們產生的不滿等於城市的人口,再加上來自城市化的常規不滿.</Text>
+			<Text>正在反抗或被襲擊的城市不會產生任何本地幸福度.相反地,它們會產生與城市人口相等的不滿度.這會大幅降低您帝國的支持率.[NEWLINE][NEWLINE]已佔領的城市也不會產生任何幸福度.它們產生的不滿度等於城市的人口,再加上來自城市化的常規不滿度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_HAPPINESS_OCCUPIEDCITIES_ADV_QUEST">
-			<Text>什麼造成已佔領和抵抗的城市的不滿?</Text>
+			<Text>什麼造成已佔領和反抗的城市的不滿度?</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BARBARIAN_GOLDEN_AGE_HEADING4_TITLE">

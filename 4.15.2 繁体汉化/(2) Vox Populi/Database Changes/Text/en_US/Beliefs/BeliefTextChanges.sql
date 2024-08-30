@@ -114,7 +114,7 @@ SET Text = '純潔女神'
 WHERE Tag = 'TXT_KEY_BELIEF_SACRED_WATERS_SHORT';
 
 UPDATE Language_en_US
-SET Text = '湖泊 +1 [ICON_PEACE]信仰和[ICON_FOOD]食物.沼澤 +1 [ICON_PEACE]信仰、[ICON_FOOD]食物和[ICON_PRODUCTION]產能.如果城市位於河流上,+1 [ICON_HAPPINESS_1]快樂.'
+SET Text = '湖泊 +1 [ICON_PEACE]信仰和[ICON_FOOD]食物.沼澤 +1 [ICON_PEACE]信仰、[ICON_FOOD]食物和[ICON_PRODUCTION]產能.如果城市位於河流上,+1 [ICON_HAPPINESS_1]幸福度.'
 WHERE Tag = 'TXT_KEY_BELIEF_SACRED_WATERS';
 
 UPDATE Language_en_US
@@ -378,7 +378,7 @@ SET Text = '異端審問官'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS_SHORT';
 
 UPDATE Language_en_US
-SET Text = '[ICON_INQUISITOR]異端審問官的[ICON_PEACE]信仰費用減少 33%;移除異端時,每轉換一個[ICON_CITIZEN]公民產生 25 [ICON_GOLD]金幣.您的[ICON_SPY]間諜對他們駐紮的城市施加 +52 宗教壓力(標準速度),如果駐紮在外國城市,則 +2 [ICON_HAPPINESS_1]快樂.'
+SET Text = '[ICON_INQUISITOR]異端審問官的[ICON_PEACE]信仰費用減少 33%;移除異端時,每轉換一個[ICON_CITIZEN]公民產生 25 [ICON_GOLD]金幣.您的[ICON_SPY]間諜對他們駐紮的城市施加 +52 宗教壓力(標準速度),如果駐紮在外國城市,則 +2 [ICON_HAPPINESS_1]幸福度.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS';
 
 UPDATE Language_en_US
@@ -466,7 +466,7 @@ SET Text = '大眾信仰'
 WHERE Tag = 'TXT_KEY_BELIEF_UNDERGROUND_SECT_SHORT';
 
 UPDATE Language_en_US
-SET Text = '可以使用 [ICON_PEACE]信仰建造圓形劇場、歌劇院、博物館和廣播塔.這些建築物 +2 [ICON_CULTURE]文化.每兩個信奉此宗教的城市,聖城 +1 [ICON_HAPPINESS_1]快樂.'
+SET Text = '可以使用 [ICON_PEACE]信仰建造圓形劇場、歌劇院、博物館和廣播塔.這些建築物 +2 [ICON_CULTURE]文化.每兩個信奉此宗教的城市,聖城 +1 [ICON_HAPPINESS_1]幸福度.'
 WHERE Tag = 'TXT_KEY_BELIEF_UNDERGROUND_SECT';
 
 UPDATE Language_en_US

@@ -26,7 +26,7 @@
 			<Text>我們的神眷顧我們.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_2_HELP">
-			<Text>所有城市 +1 [ICON_HAPPINESS_1]快樂, 持續 {4_Turns}.</Text>
+			<Text>所有城市 +1 [ICON_HAPPINESS_1]幸福度, 持續 {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_COMET_CHOICE_3">
 			<Text>我們的祭司會進行占卜,看看這是否是正面的徵兆.</Text>
@@ -230,7 +230,7 @@
 			<Text>凝聚我們人民的尚武精神.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_1_HELP">
-			<Text>所有有效的單位都會獲得臨時的[COLOR_POSITIVE_TEXT]士氣[ENDCOLOR]晉升. +5 [ICON_HAPPINESS_1]快樂 , 持續 {4_Turns}.</Text>
+			<Text>所有有效的單位都會獲得臨時的[COLOR_POSITIVE_TEXT]士氣[ENDCOLOR]晉升. +5 [ICON_HAPPINESS_1]幸福度 , 持續 {4_Turns}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_FERVOR_CHOICE_2">
 			<Text>將能量引導至我們的工業.</Text>
@@ -267,13 +267,13 @@
 			<Text>在我們的宮殿演講.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_HELP">
-			<Text>75% 的機會, 會讓所有城市在接下來的 {4_Turns} 回合 -1 [ICON_HAPPINESS_1]快樂.</Text>
+			<Text>75% 的機會, 會讓所有城市在接下來的 {4_Turns} 回合 -1 [ICON_HAPPINESS_1]幸福度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_SUCCESSFUL_S">
 			<Text>演講未成功!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_1_SUCCESSFUL">
-			<Text>這篇演講沒有打動您的民眾,結果他們更不開心了. 所有城市 -1 [ICON_HAPPINESS_1]快樂.{4_Help}</Text>
+			<Text>這篇演講沒有打動您的民眾,結果他們更不開心了. 所有城市 -1 [ICON_HAPPINESS_1]幸福度.{4_Help}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_2">
 			<Text>讓我們的宗教領袖為傷者和死者祈禱.</Text>
@@ -285,25 +285,25 @@
 			<Text>向全國進行電台廣播.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_HELP">
-			<Text>25% 的機會, 會讓所有城市 -2 [ICON_HAPPINESS_1]快樂.</Text>
+			<Text>25% 的機會, 會讓所有城市 -2 [ICON_HAPPINESS_1]幸福度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_SUCCESSFUL_S">
 			<Text>電台廣播未成功!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_3_SUCCESSFUL">
-			<Text>電台廣播沒有打動您的民眾,結果他們更不開心了. 所有城市 -2 [ICON_HAPPINESS_1]快樂.{4_Help}</Text>
+			<Text>電台廣播沒有打動您的民眾,結果他們更不開心了. 所有城市 -2 [ICON_HAPPINESS_1]幸福度.{4_Help}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4">
 			<Text>我們一定要贏.開始徵兵.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_HELP">
-			<Text>50% 的機會, 會讓所有城市產出一個軍事單位和開始 2 回合的[ICON_RESISTANCE]抵抗.</Text>
+			<Text>50% 的機會, 會讓所有城市產出一個軍事單位和開始 2 回合的[ICON_RESISTANCE]反抗.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_SUCCESSFUL_S">
 			<Text>徵兵!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_WAR_WEARINESS_CHOICE_4_SUCCESSFUL">
-			<Text>徵兵是成功的,但你的人民比以前更憤怒. 所有城市經歷 2 回合的[ICON_RESISTANCE]抵抗和產出 1 軍事單位.</Text>
+			<Text>徵兵是成功的,但你的人民比以前更憤怒. 所有城市經歷 2 回合的[ICON_RESISTANCE]反抗和產出 1 軍事單位.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PLAYER_EVENT_MARKET_DEVELOPMENT">
@@ -630,7 +630,7 @@
 			<Text>不惜一切代價 - 人民應當乾淨!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_2_HELP">
-			<Text>所有城市 +1 [ICON_HAPPINESS_1]快樂. 所有公共浴室成本額外增加 3 [ICON_GOLD]金幣.</Text>
+			<Text>所有城市 +1 [ICON_HAPPINESS_1]幸福度. 所有公共浴室成本額外增加 3 [ICON_GOLD]金幣.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PLAYER_EVENT_BATHS_DECISION_CHOICE_3">
 			<Text>鼓勵人們尋找更具...創意的清潔方式.</Text>
@@ -757,25 +757,25 @@
 			<Text>走得好.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_1_HELP">
-			<Text>城市 -1 [ICON_CITIZEN]人口, 並且持續 2 回合的[ICON_RESISTANCE]抵抗. 獲得 {2_InstantYield}.</Text>
+			<Text>城市 -1 [ICON_CITIZEN]人口, 並且持續 2 回合的[ICON_RESISTANCE]反抗. 獲得 {2_InstantYield}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_2">
 			<Text>讓他們進來,但要他們付錢.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_2_HELP">
-			<Text>神廟獲得 +2 [ICON_GOLD]金幣和 +1 [ICON_PEACE]信仰. 城市 -1 [ICON_HAPPINESS_1]快樂.</Text>
+			<Text>神廟獲得 +2 [ICON_GOLD]金幣和 +1 [ICON_PEACE]信仰. 城市 -1 [ICON_HAPPINESS_1]幸福度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3">
 			<Text>拒絕非信徒.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_HELP">
-			<Text>50% 的機會神廟會被破壞. 如果這樣, 城市獲得 +1 [ICON_PEACE]信仰和 +1 [ICON_HAPPINESS_1]快樂.</Text>
+			<Text>50% 的機會神廟會被破壞. 如果這樣, 城市獲得 +1 [ICON_PEACE]信仰和 +1 [ICON_HAPPINESS_1]幸福度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL_S">
 			<Text>{2_City} 的神廟被破壞!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_3_SUCCESSFUL">
-			<Text>{2_城市} 的非信徒襲擊神廟,將它燒成灰燼以示抗議.然而,您的人民並未因此而動搖. 城市獲得 +1 [ICON_HAPPINESS_1]快樂, 並且: {5_Help}</Text>
+			<Text>{2_城市} 的非信徒襲擊神廟,將它燒成灰燼以示抗議.然而,您的人民並未因此而動搖. 城市獲得 +1 [ICON_HAPPINESS_1]幸福度, 並且: {5_Help}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_TEMPLE_CONCERNS_CHOICE_4">
 			<Text>我們應該想得更遠大一些.</Text>
@@ -819,7 +819,7 @@
 			<Text>發送緊急資金.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_1_HELP">
-			<Text>接下來 {5_Turns} 回合, 城市 -5 [ICON_GOLD]金幣, 但是獲得 +1 [ICON_HAPPINESS_1]快樂.</Text>
+			<Text>接下來 {5_Turns} 回合, 城市 -5 [ICON_GOLD]金幣, 但是獲得 +1 [ICON_HAPPINESS_1]幸福度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_2">
 			<Text>分流是唯一的選擇.</Text>
@@ -831,19 +831,19 @@
 			<Text>這不是我們的問題.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_3_HELP">
-			<Text>城市永久 -1 [ICON_HAPPINESS_1]快樂.</Text>
+			<Text>城市永久 -1 [ICON_HAPPINESS_1]幸福度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_4">
 			<Text>為醫院設立長期津貼.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_4_HELP">
-			<Text>城市 -5 [ICON_GOLD]金幣, 但是永久獲得 +2 [ICON_HAPPINESS_1]快樂.</Text>
+			<Text>城市 -5 [ICON_GOLD]金幣, 但是永久獲得 +2 [ICON_HAPPINESS_1]幸福度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_5">
 			<Text>將所有死者送至我們的研發實驗室.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_5_HELP">
-			<Text>50% 的機會城市會經歷 3 回合的[ICON_RESISTANCE]抵抗. 如果這樣, 醫院獲得 +4 [ICON_RESEARCH]科學.</Text>
+			<Text>50% 的機會城市會經歷 3 回合的[ICON_RESISTANCE]反抗. 如果這樣, 醫院獲得 +4 [ICON_RESEARCH]科學.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_HOSPITAL_OVERCROWDING_CHOICE_5_SUCCESSFUL_S">
 			<Text>醫院科學實驗被發現!</Text>
@@ -1037,7 +1037,7 @@
 			<Text>我想,我會負起責任的.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_CHOICE_4_HELP">
-			<Text>城市 -2 [ICON_HAPPINESS_1]快樂, 持續 {5_Turns} 回合.</Text>
+			<Text>城市 -2 [ICON_HAPPINESS_1]幸福度, 持續 {5_Turns} 回合.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CITY_EVENT_CORRUPTION_FOOD_SPOILED_CHOICE_1">
@@ -1285,7 +1285,7 @@
 			<Text>引誘叛軍出來 - 我們會用軍事力量擊垮他們.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_2_HELP">
-			<Text>三個叛軍單位在城市附近出現,城市進入[ICON_RESISTANCE]抵抗 1 回合.</Text>
+			<Text>三個叛軍單位在城市附近出現,城市進入[ICON_RESISTANCE]反抗 1 回合.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITY_EVENT_OCCUPIED_REBELS_CHOICE_3">
 			<Text>隔離叛軍. 他們可能會佔據城市的一部分,但這是無法避免的.</Text>
@@ -1384,10 +1384,10 @@
 			<Text>[ICON_RESISTANCE]武裝當地人民</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_HELP">
-			<Text>城市進入[ICON_RESISTANCE]抵抗 2 回合,叛軍單位會出現在該地區.城市在 {8_Num} 回合內不會產生任何[ICON_TOURISM]旅遊業績.</Text>
+			<Text>城市進入[ICON_RESISTANCE]反抗 2 回合,叛軍單位會出現在該地區.城市在 {8_Num} 回合內不會產生任何[ICON_TOURISM]旅遊業績.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_URBAN_UNREST_EFFECT">
-			<Text>城市已經進入 2 回合的[ICON_RESISTANCE]抵抗,叛軍單位已經出現在該地區.城市在 {8_Num} 回合內不會產生任何[ICON_TOURISM]旅遊業績.</Text>
+			<Text>城市已經進入 2 回合的[ICON_RESISTANCE]反抗,叛軍單位已經出現在該地區.城市在 {8_Num} 回合內不會產生任何[ICON_TOURISM]旅遊業績.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_CITY_DEFENSES">
 			<Text>[ICON_STRENGTH]目標城市防禦</Text>

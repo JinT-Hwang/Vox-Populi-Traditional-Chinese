@@ -61,7 +61,7 @@ UPDATE Language_en_US
 SET Text = '[COLOR_YELLOW]大音樂家[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMUSICIAN_HEADING3_TITLE';
 UPDATE Language_en_US
-SET Text = '[COLOR_CYAN]特殊能力: {TXT_KEY_MISSION_CREATE_GREAT_WORK}[ENDCOLOR][NEWLINE]大音樂家可以創作音樂[ICON_VP_GREATMUSIC]巨作放置在距離最近的有適當建築物和空位的城市(例如歌劇院或者廣播塔). 大音樂家這樣使用時會消耗.[NEWLINE][NEWLINE][COLOR_CYAN]特殊能力: {TXT_KEY_MISSION_ONE_SHOT_TOURISM}[ENDCOLOR][NEWLINE]大音樂家可以到另一個文明進行巡迴演唱會, [COLOR_YELLOW]這將使與目標文明的旅遊業績增加 100%,與所有其他文明的旅遊業績增加 50%,持續 10 個回合 (每擁有一個音樂[ICON_VP_GREATMUSIC]巨作, 額外 +1 回合). 你的每個城市還會收到 1 [ICON_HAPPINESS_1]快樂. 如果您與目標文明交戰,或您對該文明的[ICON_TOURISM]文化影響力是[ENDCOLOR][COLOR_MAGENTA]有影響力的[ENDCOLOR][COLOR_YELLOW]或更大,則無法執行此動作.[ENDCOLOR]此操作會消耗大音樂家.'
+SET Text = '[COLOR_CYAN]特殊能力: {TXT_KEY_MISSION_CREATE_GREAT_WORK}[ENDCOLOR][NEWLINE]大音樂家可以創作音樂[ICON_VP_GREATMUSIC]巨作放置在距離最近的有適當建築物和空位的城市(例如歌劇院或者廣播塔). 大音樂家這樣使用時會消耗.[NEWLINE][NEWLINE][COLOR_CYAN]特殊能力: {TXT_KEY_MISSION_ONE_SHOT_TOURISM}[ENDCOLOR][NEWLINE]大音樂家可以到另一個文明進行巡迴演唱會, [COLOR_YELLOW]這將使與目標文明的旅遊業績增加 100%,與所有其他文明的旅遊業績增加 50%,持續 10 個回合 (每擁有一個音樂[ICON_VP_GREATMUSIC]巨作, 額外 +1 回合). 你的每個城市還會收到 1 [ICON_HAPPINESS_1]幸福度. 如果您與目標文明交戰,或您對該文明的[ICON_TOURISM]文化影響力是[ENDCOLOR][COLOR_MAGENTA]有影響力的[ENDCOLOR][COLOR_YELLOW]或更大,則無法執行此動作.[ENDCOLOR]此操作會消耗大音樂家.'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATMUSICIAN_HEADING3_BODY';
 
 UPDATE Language_en_US
@@ -96,7 +96,7 @@ UPDATE Language_en_US
 SET Text = '[COLOR_YELLOW]海軍上將[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_TITLE';
 UPDATE Language_en_US
-SET Text = '[COLOR_CYAN]特殊能力: 戰鬥加成[ENDCOLOR][NEWLINE]海軍上將為 2 格內的所有友軍海軍單位提供 15% 戰鬥加成.此戰鬥加成適用於所有形式的海戰:近戰、遠程、防禦等等.[NEWLINE][NEWLINE][COLOR_CYAN]特殊能力: {TXT_KEY_MISSION_REPAIR_FLEET}[ENDCOLOR][NEWLINE]您可以消耗海軍上將治療這個單元格和所有相鄰單元格中的所有海軍單位及登船單位. [COLOR_YELLOW]此指令也會增加您的軍事單位供應上限 1.[ENDCOLOR]海軍上將這樣使用時會消耗.[NEWLINE][NEWLINE][COLOR_CYAN]特殊能力: {TXT_KEY_MISSION_FREE_LUXURY}[ENDCOLOR][NEWLINE][COLOR_GREEN]您可以派遣海軍上將進行「探索之旅」,這將為您提供兩份目前地圖上沒有的豪華資源.此指令也會增加您的軍事單位供應上限 1. 海軍上將這樣使用時會消耗.[ENDCOLOR]'
+SET Text = '[COLOR_CYAN]特殊能力: 戰鬥加成[ENDCOLOR][NEWLINE]海軍上將為 2 格內的所有友軍海軍單位提供 15% 戰鬥加成.此戰鬥加成適用於所有形式的海戰:近戰、遠程、防禦等等.[NEWLINE][NEWLINE][COLOR_CYAN]特殊能力: {TXT_KEY_MISSION_REPAIR_FLEET}[ENDCOLOR][NEWLINE]您可以消耗海軍上將治療這個單元格和所有相鄰單元格中的所有海軍單位及海運單位. [COLOR_YELLOW]此指令也會增加您的軍事單位供應上限 1.[ENDCOLOR]海軍上將這樣使用時會消耗.[NEWLINE][NEWLINE][COLOR_CYAN]特殊能力: {TXT_KEY_MISSION_FREE_LUXURY}[ENDCOLOR][NEWLINE][COLOR_GREEN]您可以派遣海軍上將進行「探索之旅」,這將為您提供兩份目前地圖上沒有的豪華資源.此指令也會增加您的軍事單位供應上限 1. 海軍上將這樣使用時會消耗.[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_BODY';
 
 UPDATE Language_en_US
@@ -200,7 +200,7 @@ UPDATE Language_en_US
 SET Text = '[COLOR_YELLOW]治療[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_COMBAT_HEALTINGDAMAGE_HEADING3_TITLE';
 UPDATE Language_en_US
-SET Text = '要治療傷害,單位必須在一回合內保持不活動.單位治療的傷害數量取決於單位的位置.[NEWLINE][NEWLINE]在友好城市: 單位治療 [COLOR_YELLOW]20[ENDCOLOR] HP 每回合.[NEWLINE]在友好領土: [COLOR_YELLOW]15[ENDCOLOR] HP 每回合.[NEWLINE]在中立領土: [COLOR_YELLOW]10[ENDCOLOR] HP 每回合.[NEWLINE]在敵人領土: [COLOR_YELLOW]5[ENDCOLOR] HP 每回合.[NEWLINE][NEWLINE][COLOR_YELLOW]抵抗中的城市邊界內的單位只能治療 5HP 每回合.正在被夷平的城市邊界內的單位會治療 20HP 每回合 (掠奪).[ENDCOLOR][NEWLINE][NEWLINE]請注意,某些升級會加速單位的治療速度.'
+SET Text = '要治療傷害,單位必須在一回合內保持不活動.單位治療的傷害數量取決於單位的位置.[NEWLINE][NEWLINE]在友好城市: 單位治療 [COLOR_YELLOW]20[ENDCOLOR] HP 每回合.[NEWLINE]在友好領土: [COLOR_YELLOW]15[ENDCOLOR] HP 每回合.[NEWLINE]在中立領土: [COLOR_YELLOW]10[ENDCOLOR] HP 每回合.[NEWLINE]在敵人領土: [COLOR_YELLOW]5[ENDCOLOR] HP 每回合.[NEWLINE][NEWLINE][COLOR_YELLOW]反抗中的城市邊界內的單位只能治療 5HP 每回合.正在被夷平的城市邊界內的單位會治療 20HP 每回合 (掠奪).[ENDCOLOR][NEWLINE][NEWLINE]請注意,某些升級會加速單位的治療速度.'
 WHERE Tag = 'TXT_KEY_COMBAT_HEALTINGDAMAGE_HEADING3_BODY';
 
 UPDATE Language_en_US
@@ -292,37 +292,37 @@ SET Text = '您可以花費金幣購買單位 [COLOR_YELLOW]或是投資城市�
 WHERE Tag = 'TXT_KEY_GOLD_PURCHASEUNITS_HEADING3_BODY';
 
 UPDATE Language_en_US
-SET Text = '[COLOR_GREEN]快樂[ENDCOLOR]'
+SET Text = '[COLOR_GREEN]幸福度[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_HAPPINESS_HEADING1_TITLE';
 UPDATE Language_en_US
-SET Text = 'Vox Populi 中的快樂系統經過全面修改,既不偏向高大的玩法,也不偏向寬廣的玩法.快樂現在以因果機制為基礎,讓您的帝國感受到前所未有的活力與動力.[NEWLINE][NEWLINE]快樂和不滿是根據您帝國中每個城市的本地計算.當一個城市的本地不滿超過本地快樂時,該城市的成長會比正常慢,而且在生產開拓者或軍事單位時,產能會減少.城市旗幟下方會顯示[ICON_HAPPINESS_3]不滿圖示.特殊規則適用於傀儡城市和佔領的城市.[NEWLINE][NEWLINE]將您帝國所有城市的快樂總和與您所有城市的不滿總和進行比較,以決定核准評級,核准評級會顯示在主界面的狀態欄上(在遊戲的左上角).請仔細觀察.如果它開始下降到 50% 以下,表示您的人口開始不安分,導致所有城市的成長減少、生產開拓者時受到懲罰,以及戰鬥力降低.如果它開始跌破 35%,你就有麻煩了.蠻族會在您的帝國中興起,城市也可能會放棄您的帝國而加入其他文明.您可以將游標停留在狀態線上,以獲得快樂與不滿的不同來源概觀.'
+SET Text = 'Vox Populi 中的幸福度系統經過全面修改,既不偏向高大的玩法,也不偏向寬廣的玩法.幸福度現在以因果機制為基礎,讓您的帝國感受到前所未有的活力與動力.[NEWLINE][NEWLINE]幸福度和不滿度是根據您帝國中每個城市的本地計算.當一個城市的本地不滿度超過本地幸福度時,該城市的成長會比正常慢,而且在生產開拓者或軍事單位時,產能會減少.城市旗幟下方會顯示[ICON_HAPPINESS_3]不滿度圖示.特殊規則適用於傀儡城市和佔領的城市.[NEWLINE][NEWLINE]將您帝國所有城市的幸福度總和與您所有城市的不滿度總和進行比較,以決定核准評級,核准評級會顯示在主界面的狀態欄上(在遊戲的左上角).請仔細觀察.如果它開始下降到 50% 以下,表示您的人口開始不安分,導致所有城市的成長減少、生產開拓者時受到懲罰,以及戰鬥力降低.如果它開始跌破 35%,你就有麻煩了.蠻族會在您的帝國中興起,城市也可能會放棄您的帝國而加入其他文明.您可以將游標停留在狀態線上,以獲得幸福度與不滿度的不同來源概觀.'
 WHERE Tag = 'TXT_KEY_HAPPINESS_HEADING1_BODY';
 
 UPDATE Language_en_US
-SET Text = '[COLOR_GREEN]導致快樂的原因[ENDCOLOR]'
+SET Text = '[COLOR_GREEN]導致幸福度的原因[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSES_HEADING2_TITLE';
 UPDATE Language_en_US
-SET Text = '您的帝國中的快樂可以來自以下來源:[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]開始的快樂[ENDCOLOR]: 您的文明開始時所擁有的快樂數量,以及[ICON_CAPITAL]首都開始時的本地快樂,是由遊戲的難度設定所決定的.隨著時間的推移,開始的快樂會變得不那麼重要,因為快樂和不滿來自其他來源的增長.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]自然奇觀與地標[ENDCOLOR]: 發現自然奇觀或使用考古學家建造地標(在您自己或其他玩家的土地上)會給您少量的快樂獎勵.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]城邦[ENDCOLOR]: 如果您與商業城邦是朋友或盟友,商業城邦會提供您快樂獎勵.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]附庸[ENDCOLOR]: 如果您附庸了其他文明,他們可能會根據自己的支持率為您提供一些額外的快樂.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]奢侈品資源[ENDCOLOR]: 每個與您帝國有關的獨特奢侈品資源都會讓您獲得快樂.因此,奢侈品在遊戲初期較不重要,但在遊戲後期也不是毫無用處.此外,壟斷某些奢侈品華資源可為您的帝國帶來額外的快樂.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]本地產生的快樂[ENDCOLOR]: 某些建築會增加您在其所在城市的本地快樂.其他本地快樂的來源包括宗教信仰、政策、世界奇觀和事件.請注意,這並不適用於傀儡城市和已佔領的城市,它們永遠不會產生本地快樂.'
+SET Text = '您的帝國中的幸福度可以來自以下來源:[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]開始的幸福度[ENDCOLOR]: 您的文明開始時所擁有的幸福度數量,以及[ICON_CAPITAL]首都開始時的本地幸福度,是由遊戲的難度設定所決定的.隨著時間的推移,開始的幸福度會變得不那麼重要,因為幸福度和不滿度來自其他來源的增長.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]自然奇觀與地標[ENDCOLOR]: 發現自然奇觀或使用考古學家建造地標(在您自己或其他玩家的土地上)會給您少量的幸福度獎勵.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]城邦[ENDCOLOR]: 如果您與商業城邦是朋友或盟友,商業城邦會提供您幸福度獎勵.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]附庸[ENDCOLOR]: 如果您附庸了其他文明,他們可能會根據自己的支持率為您提供一些額外的幸福度.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]奢侈品資源[ENDCOLOR]: 每個與您帝國有關的獨特奢侈品資源都會讓您獲得幸福度.因此,奢侈品在遊戲初期較不重要,但在遊戲後期也不是毫無用處.此外,壟斷某些奢侈品華資源可為您的帝國帶來額外的幸福度.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]本地產生的幸福度[ENDCOLOR]: 某些建築會增加您在其所在城市的本地幸福度.其他本地幸福度的來源包括宗教信仰、政策、世界奇觀和事件.請注意,這並不適用於傀儡城市和已佔領的城市,它們永遠不會產生本地幸福度.'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSES_HEADING2_BODY';
 
 UPDATE Language_en_US
-SET Text = '[COLOR_GREEN]導致不滿的原因[ENDCOLOR]'
+SET Text = '[COLOR_GREEN]導致不滿度的原因[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSESUNHAPPINESS_HEADING2_TITLE';
 UPDATE Language_en_US
-SET Text = '一個城市所產生的不滿不再等於城市裡的市民人數,儘管人口仍會強烈影響不滿.Vox Populi 中的不滿是由幾個來源造成的,每個來源都對一個城市的總不滿有所貢獻.在城市界面中,將滑鼠移至「[ICON_HAPPINESS_3]不滿」標籤上,即可看到城市中不滿來源的詳細概觀.在一個城市中,不滿的總量不能超過該城市的人口,不論從不同的來源產生多少不滿.唯一的例外是來自城市化的不滿,即使它使您城市的總不滿高於人口,也永遠適用.不滿的可能來源如下:[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]來自需求的不滿[ENDCOLOR]: 通常,一個城市的不滿大多數是由各種需求造成的.除了宗教動亂之外,如果一個城市的每位市民的某種產出(例如每位市民的金幣產出、每位市民的科學產出等等)低於各種需求閾值,這個閾值是根據全球其他城市的產出計算出來的.城市的人均產出越低,產生的不滿就越高.因此,有必要保持您城市的產出增加,因為隨著時間的推移,您的人口會因為更強大的競爭而變得越來越苛刻(其他城市也會成長,增加需求閾值).避免人口成長可以讓不滿需求維持在可管理的範圍內,某些建築和政策可以減少固定數額的不滿需求.有五種主要需求,四種基於不同的產量類型,一種基於宗教多樣性:[NEWLINE]
+SET Text = '一個城市所產生的不滿度不再等於城市裡的市民人數,儘管人口仍會強烈影響不滿度.Vox Populi 中的不滿度是由幾個來源造成的,每個來源都對一個城市的總不滿度有所貢獻.在城市界面中,將滑鼠移至「[ICON_HAPPINESS_3]不滿度」標籤上,即可看到城市中不滿度來源的詳細概觀.在一個城市中,不滿度的總量不能超過該城市的人口,不論從不同的來源產生多少不滿度.唯一的例外是來自城市化的不滿度,即使它使您城市的總不滿度高於人口,也永遠適用.不滿度的可能來源如下:[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]來自需求的不滿度[ENDCOLOR]: 通常,一個城市的不滿度大多數是由各種需求造成的.除了宗教動亂之外,如果一個城市的每位市民的某種產出(例如每位市民的金幣產出、每位市民的科學產出等等)低於各種需求閾值,這個閾值是根據全球其他城市的產出計算出來的.城市的人均產出越低,產生的不滿度就越高.因此,有必要保持您城市的產出增加,因為隨著時間的推移,您的人口會因為更強大的競爭而變得越來越苛刻(其他城市也會成長,增加需求閾值).避免人口成長可以讓不滿度需求維持在可管理的範圍內,某些建築和政策可以減少固定數額的不滿度需求.有五種主要需求,四種基於不同的產量類型,一種基於宗教多樣性:[NEWLINE]
 [COLOR_NEGATIVE_TEXT]窘迫[ENDCOLOR]: 窘迫以[ICON_FOOD]食物和[ICON_PRODUCTION]產能的總和為基礎.內部貿易路線可以用來增加城市的食物或產能的產出,進而抵銷窘迫.產能轉農業也可以對抗窘迫.[NEWLINE]
 [COLOR_NEGATIVE_TEXT]貧窮[ENDCOLOR]: 貧窮是基於城市的[ICON_GOLD]金幣產出.要對抗貧窮,增加城市的金幣產出,例如透過公民在提供金幣的單元格工作或建造市場等建築.國際貿易路線會將金幣送往其來源城市,因此從貧窮城市發送貿易路線也可以幫助消除貧窮.產能轉財富也可以消除貧窮.[NEWLINE]
 [COLOR_NEGATIVE_TEXT]文盲[ENDCOLOR]: 文盲以城市的[ICON_RESEARCH]科學產量為基礎.建造科學建築或建立通往更先進文明的貿易路線,可以幫助降低文盲.產能轉研究也會降低文盲.[NEWLINE]
 [COLOR_NEGATIVE_TEXT]文化乏味[ENDCOLOR]: 文化乏味是基於一個城市的 [ICON_CULTURE] 文化產量.文化乏味是特別重要的,因為如果你有高級別的文化乏味,其他文明對你會有旅遊業績加成.提供每回合文化的建築物和通往更有文化的文明的貿易路線可以抵消文化乏味.巨作也可以遷移到無聊的城市來增加他們的文化產出.最後,產能轉藝術也可以對抗文化乏味.[NEWLINE]
-[COLOR_NEGATIVE_TEXT]宗教動亂[ENDCOLOR]: 宗教動亂是由宗教多樣性而不是城市產量產生的.如果一個城市有多數派的宗教,每 2 個不信奉多數派宗教的市民會產生 1 不滿(這個基數值會受到需求修正的影響).使用傳教士、異端審問官或大預言家移除宗教少數派,可以減少這個值.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]宗教動亂[ENDCOLOR]: 宗教動亂是由宗教多樣性而不是城市產量產生的.如果一個城市有多數派的宗教,每 2 個不信奉多數派宗教的市民會產生 1 不滿度(這個基數值會受到需求修正的影響).使用傳教士、異端審問官或大預言家移除宗教少數派,可以減少這個值.[NEWLINE]
 
-[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]其它來源的不滿[ENDCOLOR]: 除了來自需求的不滿之外,還有一些其他來源的不滿也會影響一個城市.[NEWLINE]
-[COLOR_NEGATIVE_TEXT]饑荒[ENDCOLOR]: 如果一個城市的食物產出低於零,每失去一分食物,它就會獲得 1 不滿.因此,飢餓的城市可以大幅增加不滿.當敵方單位開始掠奪並阻擋單元格工作,造成大規模飢餓時,通常會發生這種情況.[NEWLINE]
-[COLOR_NEGATIVE_TEXT]被掠奪的單元格[ENDCOLOR]: 城市附近每有兩個被掠奪的單元格,就會獲得 1 不滿.人們不喜歡看見自己的房子被燒毀,並且會開始產生不滿,直到您採取行動為止.[NEWLINE]
-[COLOR_NEGATIVE_TEXT]隔離[ENDCOLOR]: 隔離的城市每 3 位市民產生 1 不滿.如果一個城市沒有透過道路、燈塔或貿易路線與首都連線,這個城市就是隔離的.請注意,如果道路或燈塔的連線因為軍事封鎖而中斷,也會發生隔離.貿易路線不會直接受到封鎖的影響,但如果沒有受到保護,可能會被敵方單位掠奪.[NEWLINE]
-[COLOR_NEGATIVE_TEXT]城市化[ENDCOLOR]: 城市中的每個專家都會產生 1 不滿,代表住在大城市中的人們所受到的影響,例如污染和高人口密度.與其他不滿的來源不同,城市化所產生的不滿總是加到一個城市的總不滿上,即使這使得一個城市的總不滿高於人口.有些建築和政策允許城市擁有「免費」的專家,卻不會產生城市化.[NEWLINE]
-[COLOR_NEGATIVE_TEXT]厭戰情緒[ENDCOLOR]: 如果您陷入長時間的衝突或在戰爭中損失慘重,您的國民就會因為戰爭厭倦症而感到不愉快.戰爭疲倦會在每個城市中發生,並且會大幅增加帝國的總不滿.有關厭戰情緒的詳細資訊,請參閱「戰鬥規則」章節中的相關條目.[NEWLINE]
-[COLOR_NEGATIVE_TEXT]民意[ENDCOLOR]: 在遊戲後期,其他文明可能會對您施加意識形態壓力,影響您的公民.如果公民對您選擇的意識形態不滿意,他們就會從民意中產生不滿.如果這個不滿太高,而您的帝國不滿意,您可能會被迫轉換意識形態.'
+[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]其它來源的不滿度[ENDCOLOR]: 除了來自需求的不滿度之外,還有一些其他來源的不滿度也會影響一個城市.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]饑荒[ENDCOLOR]: 如果一個城市的食物產出低於零,每失去一分食物,它就會獲得 1 不滿度.因此,飢餓的城市可以大幅增加不滿度.當敵方單位開始掠奪並阻擋單元格工作,造成大規模飢餓時,通常會發生這種情況.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]被掠奪的單元格[ENDCOLOR]: 城市附近每有兩個被掠奪的單元格,就會獲得 1 不滿度.人們不喜歡看見自己的房子被燒毀,並且會開始產生不滿度,直到您採取行動為止.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]隔離[ENDCOLOR]: 隔離的城市每 3 位市民產生 1 不滿度.如果一個城市沒有透過道路、燈塔或貿易路線與首都連線,這個城市就是隔離的.請注意,如果道路或燈塔的連線因為軍事封鎖而中斷,也會發生隔離.貿易路線不會直接受到封鎖的影響,但如果沒有受到保護,可能會被敵方單位掠奪.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]城市化[ENDCOLOR]: 城市中的每個專家都會產生 1 不滿度,代表住在大城市中的人們所受到的影響,例如污染和高人口密度.與其他不滿度的來源不同,城市化所產生的不滿度總是加到一個城市的總不滿度上,即使這使得一個城市的總不滿度高於人口.有些建築和政策允許城市擁有「免費」的專家,卻不會產生城市化.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]厭戰情緒[ENDCOLOR]: 如果您陷入長時間的衝突或在戰爭中損失慘重,您的國民就會因為戰爭厭倦症而感到不愉快.戰爭疲倦會在每個城市中發生,並且會大幅增加帝國的總不滿度.有關厭戰情緒的詳細資訊,請參閱「戰鬥規則」章節中的相關條目.[NEWLINE]
+[COLOR_NEGATIVE_TEXT]民意[ENDCOLOR]: 在遊戲後期,其他文明可能會對您施加意識形態壓力,影響您的公民.如果公民對您選擇的意識形態不滿度意,他們就會從民意中產生不滿度.如果這個不滿度太高,而您的帝國不滿度意,您可能會被迫轉換意識形態.'
 WHERE Tag = 'TXT_KEY_HAPPINESS_CAUSESUNHAPPINESS_HEADING2_BODY';
 
 UPDATE Language_en_US
@@ -342,7 +342,7 @@ UPDATE Language_en_US
 SET Text = '一旦他們的文明學會了某些科技(見科技樹),工人就可以從單元格移除森林、叢林和沼澤.一旦這些特徵被移除,它們就會永遠消失.'
 WHERE Tag = 'TXT_KEY_WORKERS_CLEARINGLAND_HEADING2_BODY';
 
--- City 不滿
+-- City 不滿度
 UPDATE Language_en_US
 SET Text = '如果您的文明不幸福,那麼城市生產的糧食就會減少.城市會生產足夠的糧食餵飽市民,但局部的成長會減少.'
 WHERE Tag = 'TXT_KEY_FOOD_UNHAPPINESS_HEADING3_BODY';
@@ -404,7 +404,7 @@ UPDATE Language_en_US
 SET Text = '[COLOR_YELLOW]外交[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_9';
 UPDATE Language_en_US
-SET Text = '[COLOR_GREEN]快樂[ENDCOLOR]'
+SET Text = '[COLOR_GREEN]幸福度[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_GAME_CONCEPT_SECTION_10';
 UPDATE Language_en_US
 SET Text = '[COLOR_YELLOW]社會政策[ENDCOLOR]'

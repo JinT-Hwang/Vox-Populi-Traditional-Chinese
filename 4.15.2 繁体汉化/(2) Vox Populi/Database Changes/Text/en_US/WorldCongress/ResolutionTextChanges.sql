@@ -58,7 +58,7 @@ WHERE Tag = 'TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP';
 
 -- Ban Luxury
 UPDATE Language_en_US
-SET Text = '一種奢侈品資源被指定為不道德、瀕臨絕種或其他不適合一般民眾使用的資源.只要禁令有效,文明就無法從這種奢侈資源獲得[ICON_HAPPINESS_1]快樂或壟斷收益.'
+SET Text = '一種奢侈品資源被指定為不道德、瀕臨絕種或其他不適合一般民眾使用的資源.只要禁令有效,文明就無法從這種奢侈資源獲得[ICON_HAPPINESS_1]幸福度或壟斷收益.'
 WHERE Tag = 'TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS_HELP';
 
 -- Scholars In Residence

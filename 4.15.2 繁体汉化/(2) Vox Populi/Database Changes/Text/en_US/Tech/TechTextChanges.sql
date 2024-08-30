@@ -15,7 +15,7 @@ SET Text = '捕魚業是嘗試捕魚的活動.捕魚業通常在野外進行.捕
 WHERE Tag = 'TXT_KEY_TECH_SAILING_DESC';
 
 UPDATE Language_en_US
-SET Text = '允許陸地單位在水面單元格[COLOR_POSITIVE_TEXT]登船[ENDCOLOR], 並且可在海岸行動. 也允許你建造工作船, 有助於收穫水中的資源, 例如[ICON_RES_FISH][COLOR_POSITIVE_TEXT]魚群[ENDCOLOR]和[ICON_RES_PEARLS][COLOR_POSITIVE_TEXT]珍珠[ENDCOLOR].'
+SET Text = '允許陸地單位在水面單元格[COLOR_POSITIVE_TEXT]海運[ENDCOLOR], 並且可在海岸行動. 也允許你建造工作船, 有助於收穫水中的資源, 例如[ICON_RES_FISH][COLOR_POSITIVE_TEXT]魚群[ENDCOLOR]和[ICON_RES_PEARLS][COLOR_POSITIVE_TEXT]珍珠[ENDCOLOR].'
 WHERE Tag = 'TXT_KEY_TECH_SAILING_HELP';
 
 UPDATE Language_en_US
@@ -191,7 +191,7 @@ WHERE Tag = 'TXT_KEY_TECH_MATHEMATICS_HELP';
 
 -- Philosophy
 UPDATE Language_en_US
-SET Text = '允許你建造[COLOR_POSITIVE_TEXT]神廟[ENDCOLOR], 可以增加城市的[ICON_PEACE]信仰產出. 同時允許你建造[COLOR_POSITIVE_TEXT]法院[ENDCOLOR], 可以減少來自[ICON_OCCUPIED]已佔領城市的[ICON_HAPPINESS_4]不滿.'
+SET Text = '允許你建造[COLOR_POSITIVE_TEXT]神廟[ENDCOLOR], 可以增加城市的[ICON_PEACE]信仰產出. 同時允許你建造[COLOR_POSITIVE_TEXT]法院[ENDCOLOR], 可以減少來自[ICON_OCCUPIED]已佔領城市的[ICON_HAPPINESS_4]不滿度.'
 WHERE Tag = 'TXT_KEY_TECH_PHILOSOPHY_HELP';
 
 -- Railroad
@@ -236,7 +236,7 @@ WHERE Tag = 'TXT_KEY_TECH_PRINTING_PRESS_HELP';
 
 -- Astronomy
 UPDATE Language_en_US
-SET Text = '允許你建造[COLOR_POSITIVE_TEXT]天文臺[ENDCOLOR], 一個強力的[ICON_RESEARCH]科學建築. 同時允許登船的陸地單位穿越海洋單元格.'
+SET Text = '允許你建造[COLOR_POSITIVE_TEXT]天文臺[ENDCOLOR], 一個強力的[ICON_RESEARCH]科學建築. 同時允許海運的陸地單位穿越海洋單元格.'
 WHERE Tag = 'TXT_KEY_TECH_ASTRONOMY_HELP';
 
 -- Navigation
@@ -271,5 +271,5 @@ WHERE Tag = 'TXT_KEY_TECH_NANOTECHNOLOGY_HELP';
 
 -- Future Tech
 UPDATE Language_en_US
-SET Text = '一項重複的科技,每次研究都會增加您的得分,並給予每個城市 1 [ICON_HAPPINESS_1]快樂.'
+SET Text = '一項重複的科技,每次研究都會增加您的得分,並給予每個城市 1 [ICON_HAPPINESS_1]幸福度.'
 WHERE Tag = 'TXT_KEY_TECH_FUTURE_TECH_HELP';

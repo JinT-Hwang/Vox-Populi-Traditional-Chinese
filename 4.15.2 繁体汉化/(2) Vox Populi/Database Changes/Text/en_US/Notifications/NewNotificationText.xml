@@ -83,7 +83,7 @@
 			<Text>軍事單位供應上限增加了!</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR">
-			<Text>您的音樂家受到 {1_PlayerAdj} 人民的歡迎.您從他們身上獲得 +[COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_TOURISM]旅遊業績,以及您的[ICON_CAPITAL]首都 +{3_num} [ICON_HAPPINESS_1]快樂.</Text>
+			<Text>您的音樂家受到 {1_PlayerAdj} 人民的歡迎.您從他們身上獲得 +[COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_TOURISM]旅遊業績,以及您的[ICON_CAPITAL]首都 +{3_num} [ICON_HAPPINESS_1]幸福度.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR_S">
 			<Text>{1_PlayerAdj} 領地的巡演完成!</Text>

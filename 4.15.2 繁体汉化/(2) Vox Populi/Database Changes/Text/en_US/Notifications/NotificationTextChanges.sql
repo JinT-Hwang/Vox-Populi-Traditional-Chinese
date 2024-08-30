@@ -71,15 +71,15 @@ SET Text = '您的人民現在認為自己是核子時代的一員,現代化的�
 WHERE Tag = 'TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_FACTORIES';
 
 UPDATE Language_en_US
-SET Text = '身為[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]城邦,他們的市場為您的人民提供異國商品!(+{1_NumHappiness} [ICON_HAPPINESS_1]快樂, +{2_Gold} [ICON_GOLD]金幣)'
+SET Text = '身為[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]城邦,他們的市場為您的人民提供異國商品!(+{1_NumHappiness} [ICON_HAPPINESS_1]幸福度, +{2_Gold} [ICON_GOLD]金幣)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MERCANTILE';
 
 UPDATE Language_en_US
-SET Text = '身為[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]城邦, 他們的市場將異國商品的貿易傳遍您的帝國! (+{1_NumHappiness} [ICON_HAPPINESS_1]快樂, +{2_Gold} [ICON_GOLD]金幣)'
+SET Text = '身為[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]城邦, 他們的市場將異國商品的貿易傳遍您的帝國! (+{1_NumHappiness} [ICON_HAPPINESS_1]幸福度, +{2_Gold} [ICON_GOLD]金幣)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MERCANTILE';
 
 UPDATE Language_en_US
-SET Text = '({1_NumHappiness} [ICON_HAPPINESS_1]快樂, {2_Gold} [ICON_GOLD]金幣)'
+SET Text = '({1_NumHappiness} [ICON_HAPPINESS_1]幸福度, {2_Gold} [ICON_GOLD]金幣)'
 WHERE Tag = 'TXT_KEY_NOTIFICATION_MINOR_LOST_MERCANTILE';
 
 UPDATE Language_en_US

@@ -1050,7 +1050,7 @@
 
 		<!-- Tech tree -->
 		<Row Tag="TXT_KEY_SPECIALIST_YIELD_CHANGE">
-			<Text>{1_SpecialistName:textkey}s: +{3_Num} {4_IconString} {2_YieldType:textkey}</Text>
+			<Text>{1_SpecialistName:textkey}: +{3_Num} {4_IconString} {2_YieldType:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_COST_REDUCTION">
 			<Text>{1_Build} 減少 {2_Turns}% 回合.</Text>

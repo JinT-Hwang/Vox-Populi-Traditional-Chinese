@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
 <GameData>
-  <Language_ZH_HANT_HK>
+  <Language_zh_Hant_HK>
     <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_OPINION">
       <Text>您認為...</Text>
     </Row>
@@ -7430,7 +7430,7 @@
     </Row><Row Tag="TXT_KEY_MISC_OTHER_RECEIVED_GOODY_S">
       <Text>來自遠古遺跡的獎勵</Text>
     </Row>
-  </Language_ZH_HANT_HK>
+  </Language_zh_Hant_HK>
   <PostDefines>
     <Row Name="PROMOTION_DEEPWATER_EMBARKATION">
       <Key>PROMOTION_DEEPWATER_EMBARKATION</Key>

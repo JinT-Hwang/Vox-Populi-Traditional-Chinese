@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_ZH_HANT_HK>
+	<Language_zh_Hant_HK>
 		<Row Tag="TXT_KEY_RESOURCE_MAIZE">
 			<Text>玉米</Text>
 		</Row>
@@ -177,5 +177,5 @@
 		<Row Tag="TXT_KEY_RESOURCE_MONOPOLY_STRAT_URANIUM">
 			<Text>[COLOR_POSITIVE_TEXT]戰略壟斷加成:[ENDCOLOR] 單位攻擊時 +10% [ICON_STRENGTH]強度.</Text>
 		</Row>
-	</Language_ZH_HANT_HK>
+	</Language_zh_Hant_HK>
 </GameData>

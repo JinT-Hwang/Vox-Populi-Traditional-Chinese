@@ -1,5 +1,5 @@
 -- Ranking popup
-INSERT INTO Language_ZH_HANT_HK
+INSERT INTO Language_zh_Hant_HK
 	(Tag, Text)
 VALUES
 	('TXT_KEY_DUDE_8', '希羅多德'),

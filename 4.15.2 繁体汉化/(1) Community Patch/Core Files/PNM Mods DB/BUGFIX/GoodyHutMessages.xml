@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_ZH_HANT_HK>
+	<Language_zh_Hant_HK>
 		<Update>
 			<Where Tag="TXT_KEY_GOODY_GOLD"/>
 			<Set>
@@ -43,7 +43,7 @@
 		<Row Tag="TXT_KEY_MISC_RECEIVED_FAITH">
 			<Text>[SPACE]你已收到 {1_Num} [ICON_PEACE]信仰!</Text>
 		</Row>
-	</Language_ZH_HANT_HK>
+	</Language_zh_Hant_HK>
 
 	<CustomModDbUpdates>
 		<Row Name="BUGFIX_GOODY_HUT_MESSAGES" Value="1"/>

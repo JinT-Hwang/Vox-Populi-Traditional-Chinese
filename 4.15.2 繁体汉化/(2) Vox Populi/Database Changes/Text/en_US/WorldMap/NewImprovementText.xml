@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_ZH_HANT_HK>
+	<Language_zh_Hant_HK>
 		<Row Tag="TXT_KEY_BUILD_FARM_HELP">
 			<Text>每 2 個與此農場相鄰的農場和/或來自淡水的農場,+1 [ICON_FOOD]食物.</Text>
 		</Row>
@@ -44,5 +44,5 @@
 		<Row Tag="TXT_KEY_IMPROVEMENT_JFD_MACHU_PICCHU">
 			<Text>山嶽城市</Text>
 		</Row>
-	</Language_ZH_HANT_HK>
+	</Language_zh_Hant_HK>
 </GameData>

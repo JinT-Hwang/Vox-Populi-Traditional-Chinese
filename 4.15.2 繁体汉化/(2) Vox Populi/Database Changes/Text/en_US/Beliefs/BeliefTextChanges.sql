@@ -3,243 +3,243 @@
 ----------------------------------------------
 
 -- Ancestor Worship
-UPDATE Language_ZH_HANT_HK
-SET Text = '³ÇÊÐÖÐÃ¿ 4 Î»[ICON_CITIZEN]¹«Ãñ +1 [ICON_PEACE]ÐÅÑö.ÀíÊÂ•þ +2 [ICON_PEACE]ÐÅÑöºÍ +1 [ICON_CULTURE]ÎÄ»¯.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åŸŽå¸‚ä¸­æ¯ 4 ä½[ICON_CITIZEN]å…¬æ°‘ +1 [ICON_PEACE]ä¿¡ä»°.ç†äº‹æœƒ +2 [ICON_PEACE]ä¿¡ä»°å’Œ +1 [ICON_CULTURE]æ–‡åŒ–.'
 WHERE Tag = 'TXT_KEY_BELIEF_ANCESTOR_WORSHIP';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '»ðÖ®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç«ä¹‹ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_EARTH_MOTHER_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'µVˆöÔÚ¸ÄÁ¼ÙYÔ´ÉÏ +1 [ICON_PEACE]ÐÅÑö¡¢[ICON_PRODUCTION]Éú®aºÍ[ICON_CULTURE]ÎÄ»¯.å‘Ôì…” +2 [ICON_PEACE]ÐÅÑö.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç¤¦å ´åœ¨æ”¹è‰¯è³‡æºä¸Š +1 [ICON_PEACE]ä¿¡ä»°ã€[ICON_PRODUCTION]ç”Ÿç”¢å’Œ[ICON_CULTURE]æ–‡åŒ–.é›é€ åŽ° +2 [ICON_PEACE]ä¿¡ä»°.'
 WHERE Tag = 'TXT_KEY_BELIEF_EARTH_MOTHER';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÈfÎïÖ®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'è¬ç‰©ä¹‹ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_TEARS_OF_GODS_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '¼oÄî±® +1 [ICON_PEACE]ÐÅÑöºÍŒmµî +1 [ICON_CULTURE]ÎÄ»¯.Ã¿½¨Á¢ƒÉ‚€ÈfÉñµî,ÄúµÄ[ICON_CAPITAL]Ê×¶¼/Â}³Ç +1 [ICON_FOOD]Ê³Îï¡¢[ICON_PRODUCTION]Éú®a¡¢[ICON_GOLD]½ðŽÅºÍ[ICON_RESEARCH]¿ÆŒW(ÉÏÏÞžé¿‚¹² 8 ‚€ÈfÉñµî).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç´€å¿µç¢‘ +1 [ICON_PEACE]ä¿¡ä»°å’Œå®®æ®¿ +1 [ICON_CULTURE]æ–‡åŒ–.æ¯å»ºç«‹å…©å€‹è¬ç¥žæ®¿,æ‚¨çš„[ICON_CAPITAL]é¦–éƒ½/è–åŸŽ +1 [ICON_FOOD]é£Ÿç‰©ã€[ICON_PRODUCTION]ç”Ÿç”¢ã€[ICON_GOLD]é‡‘å¹£å’Œ[ICON_RESEARCH]ç§‘å­¸(ä¸Šé™ç‚ºç¸½å…± 8 å€‹è¬ç¥žæ®¿).'
 WHERE Tag = 'TXT_KEY_BELIEF_TEARS_OF_GODS';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÉÌ˜IÖ®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å•†æ¥­ä¹‹ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_MESSENGER_GODS_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÔÚÓÐ[ICON_CONNECTED]ßB½ÓµÄ³ÇÊÐÖÐ,ÒÔ¼°Ã¿—líÍùÔ“³ÇÊÐµÄÓÐÐ§ÙQÒ×Â·¾€ÖÐ,«@µÃ +2 [ICON_PEACE]ÐÅÑöºÍ[ICON_GOLD]½ðŽÅ.ÄúµÄ[ICON_CAPITAL]Ê×¶¼/Â}³Ç•þ«@µÃ +2 [ICON_GREAT_MERCHANT]´óÉÌ˜I¼Òüc”µ,ÔÚÄú½¨Á¢µÚ¶þ×ù³ÇÊÐáá,•þî~Íâ«@µÃ +2 [ICON_PEACE]ÐÅÑöºÍ[ICON_GOLD]½ðŽÅ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åœ¨æœ‰[ICON_CONNECTED]é€£æŽ¥çš„åŸŽå¸‚ä¸­,ä»¥åŠæ¯æ¢ä¾†å¾€è©²åŸŽå¸‚çš„æœ‰æ•ˆè²¿æ˜“è·¯ç·šä¸­,ç²å¾— +2 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_GOLD]é‡‘å¹£.æ‚¨çš„[ICON_CAPITAL]é¦–éƒ½/è–åŸŽæœƒç²å¾— +2 [ICON_GREAT_MERCHANT]å¤§å•†æ¥­å®¶é»žæ•¸,åœ¨æ‚¨å»ºç«‹ç¬¬äºŒåº§åŸŽå¸‚å¾Œ,æœƒé¡å¤–ç²å¾— +2 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_GOLD]é‡‘å¹£.'
 WHERE Tag = 'TXT_KEY_BELIEF_MESSENGER_GODS';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '¹¤½³Ö®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å·¥åŒ ä¹‹ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_STONE_CIRCLES_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '²ÉÊ¯ˆö +1[ICON_PEACE]ÐÅÑöºÍ[ICON_PRODUCTION]®aÄÜ.Œmµî +2 [ICON_PEACE]ÐÅÑöºÍ[ICON_RESEARCH]¿ÆŒW.Ê¯¹¤×÷·» +2 [ICON_PEACE]ÐÅÑöºÍ +1 [ICON_CULTURE]ÎÄ»¯.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'é‡‡çŸ³å ´ +1[ICON_PEACE]ä¿¡ä»°å’Œ[ICON_PRODUCTION]ç”¢èƒ½.å®®æ®¿ +2 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_RESEARCH]ç§‘å­¸.çŸ³å·¥ä½œåŠ +2 [ICON_PEACE]ä¿¡ä»°å’Œ +1 [ICON_CULTURE]æ–‡åŒ–.'
 WHERE Tag = 'TXT_KEY_BELIEF_STONE_CIRCLES';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ŸoÛóÖ®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç„¡åž ä¹‹ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '+25% [ICON_CULTURE_LOCAL]ß…½ç³ÉéL.Ã¿´Î³ÇÊÐ×ÔÈ»”Uˆß…½ç•r,«@µÃ 25 [ICON_PEACE]ÐÅÑöºÍ 15 [ICON_PRODUCTION]®aÄÜ.'
+UPDATE Language_zh_Hant_HK
+SET Text = '+25% [ICON_CULTURE_LOCAL]é‚Šç•Œæˆé•·.æ¯æ¬¡åŸŽå¸‚è‡ªç„¶æ“´å¼µé‚Šç•Œæ™‚,ç²å¾— 25 [ICON_PEACE]ä¿¡ä»°å’Œ 15 [ICON_PRODUCTION]ç”¢èƒ½.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS';
 
 -- God of the Open Sky
-UPDATE Language_ZH_HANT_HK
-SET Text = '³ÇÊÐÃ¿¸û×÷ 2 Æ½Ô­†ÎÔª¸ñ»ò 2 ²ÝÔ­†ÎÔª¸ñ(²»º¬ÇðÁê»òÌØ„eµØÐÎ),³ÇÊÐ +1 [ICON_PEACE]ÐÅÑöºÍ[ICON_CULTURE]ÎÄ»¯.ÄÁˆö +1 [ICON_PEACE]ÐÅÑö,+3 [ICON_GOLD]½ðŽÅ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åŸŽå¸‚æ¯è€•ä½œ 2 å¹³åŽŸå–®å…ƒæ ¼æˆ– 2 è‰åŽŸå–®å…ƒæ ¼(ä¸å«ä¸˜é™µæˆ–ç‰¹åˆ¥åœ°å½¢),åŸŽå¸‚ +1 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_CULTURE]æ–‡åŒ–.ç‰§å ´ +1 [ICON_PEACE]ä¿¡ä»°,+3 [ICON_GOLD]é‡‘å¹£.'
 WHERE Tag = 'TXT_KEY_BELIEF_OPEN_SKY';
 
 -- God of the Sea
-UPDATE Language_ZH_HANT_HK
-SET Text = 'O´¬ºÍ½¸u +1 [ICON_PEACE]ÐÅÑöºÍ[ICON_PRODUCTION]®aÄÜ.Èç¹û³ÇÊÐÊÇ[COLOR_POSITIVE]ÑØº£[ENDCOLOR],„t +2 [ICON_FOOD]Ê³ÎïºÍ +1 [ICON_PEACE]ÐÅÑö.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ¼èˆ¹å’Œç¤å³¶ +1 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_PRODUCTION]ç”¢èƒ½.å¦‚æžœåŸŽå¸‚æ˜¯[COLOR_POSITIVE]æ²¿æµ·[ENDCOLOR],å‰‡ +2 [ICON_FOOD]é£Ÿç‰©å’Œ +1 [ICON_PEACE]ä¿¡ä»°.'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_SEA';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÐÇ¿ÕÖ®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ˜Ÿç©ºä¹‹ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_DANCE_AURORA_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÓÐÙYÔ´µÄƒöÍÁºÍÑ©Ô­ +1 [ICON_PEACE]ÐÅÑö¡¢[ICON_FOOD]Ê³ÎïºÍ[ICON_CULTURE]ÎÄ»¯.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æœ‰è³‡æºçš„å‡åœŸå’Œé›ªåŽŸ +1 [ICON_PEACE]ä¿¡ä»°ã€[ICON_FOOD]é£Ÿç‰©å’Œ[ICON_CULTURE]æ–‡åŒ–.'
 WHERE Tag = 'TXT_KEY_BELIEF_DANCE_AURORA';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ì«ê–Ö®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å¤ªé™½ä¹‹ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '·Y‚} +2 [ICON_PEACE]ÐÅÑöºÍ[ICON_GOLD]½ðŽÅ.ÔÚÙYÔ´ÉÏµÄÞrˆö +1 [ICON_PEACE]ÐÅÑö¡¢[ICON_FOOD]Ê³ÎïºÍ[ICON_RESEARCH]¿ÆŒW.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç©€å€‰ +2 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_GOLD]é‡‘å¹£.åœ¨è³‡æºä¸Šçš„è¾²å ´ +1 [ICON_PEACE]ä¿¡ä»°ã€[ICON_FOOD]é£Ÿç‰©å’Œ[ICON_RESEARCH]ç§‘å­¸.'
 WHERE Tag = 'TXT_KEY_BELIEF_SUN_GOD';
 
 -- God of War
-UPDATE Language_ZH_HANT_HK
-SET Text = '“ôš¢”³·½†ÎÎ»«@µÃ[ICON_PEACE]ÐÅÑö,Ïà®”ì¶Æä[ICON_STRENGTH]‘ðôYÁ¦µÄ 175%.ÜŠ I +2 [ICON_PEACE]ÐÅÑö,+1 [ICON_PRODUCTION]®aÄÜ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ“Šæ®ºæ•µæ–¹å–®ä½ç²å¾—[ICON_PEACE]ä¿¡ä»°,ç›¸ç•¶æ–¼å…¶[ICON_STRENGTH]æˆ°é¬¥åŠ›çš„ 175%.è»ç‡Ÿ +2 [ICON_PEACE]ä¿¡ä»°,+1 [ICON_PRODUCTION]ç”¢èƒ½.'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_WAR';
 
 -- God-King
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Œmµî +2 [ICON_PEACE]ÐÅÑöºÍ[ICON_PRODUCTION]®aÄÜ.ÔÚÄúµÄ[ICON_CAPITAL]Ê×¶¼/Â}³ÇÖÐ,Ã¿ÓÐ 5 Î»ÄúµÄÈfÉñµî×·ëSÕß +1 [ICON_PEACE]ÐÅÑö¡¢[ICON_GOLD]üS½ð¡¢[ICON_RESEARCH]¿ÆŒW¡¢[ICON_CULTURE]ÎÄ»¯ºÍ[ICON_GOLDEN_AGE]üS½ð•r´úüc”µ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å®®æ®¿ +2 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_PRODUCTION]ç”¢èƒ½.åœ¨æ‚¨çš„[ICON_CAPITAL]é¦–éƒ½/è–åŸŽä¸­,æ¯æœ‰ 5 ä½æ‚¨çš„è¬ç¥žæ®¿è¿½éš¨è€… +1 [ICON_PEACE]ä¿¡ä»°ã€[ICON_GOLD]é»ƒé‡‘ã€[ICON_RESEARCH]ç§‘å­¸ã€[ICON_CULTURE]æ–‡åŒ–å’Œ[ICON_GOLDEN_AGE]é»ƒé‡‘æ™‚ä»£é»žæ•¸.'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_KING';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÃÀûÅ®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç¾Žéº—å¥³ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_MONUMENT_GODS_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ŒmµîºÍÊÀ½çÆæÛE +2 [ICON_PEACE]ÐÅÑö.[ICON_GREAT_WORK]¾Þ×÷ +1 [ICON_PEACE]ÐÅÑö.[ICON_CAPITAL]Ê×¶¼/Â}³Ç +2 [ICON_GREAT_ARTIST]´óË‡Ðg¼Òüc”µºÍ[ICON_GREAT_ENGINEER]´ó¹¤³ÌŽŸüc”µ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å®®æ®¿å’Œä¸–ç•Œå¥‡è·¡ +2 [ICON_PEACE]ä¿¡ä»°.[ICON_GREAT_WORK]å·¨ä½œ +1 [ICON_PEACE]ä¿¡ä»°.[ICON_CAPITAL]é¦–éƒ½/è–åŸŽ +2 [ICON_GREAT_ARTIST]å¤§è—è¡“å®¶é»žæ•¸å’Œ[ICON_GREAT_ENGINEER]å¤§å·¥ç¨‹å¸«é»žæ•¸.'
 WHERE Tag = 'TXT_KEY_BELIEF_MONUMENT_GODS';
 
 -- Goddess of Festivals
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Œmµî +1 [ICON_PEACE]ÐÅÑö.ÔÚÄúµÄ[ICON_CAPITAL]Ê×¶¼/Â}³ÇÖÐ,Ã¿“íÓÐ»òßM¿ÚÒ»·NªšÌØµÄÉÝ³ÞÙYÔ´,+1 [ICON_PEACE]ÐÅÑö¡¢+3 [ICON_GOLD]üS½ðºÍ +1 [ICON_CULTURE]ÎÄ»¯.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å®®æ®¿ +1 [ICON_PEACE]ä¿¡ä»°.åœ¨æ‚¨çš„[ICON_CAPITAL]é¦–éƒ½/è–åŸŽä¸­,æ¯æ“æœ‰æˆ–é€²å£ä¸€ç¨®ç¨ç‰¹çš„å¥¢ä¾ˆè³‡æº,+1 [ICON_PEACE]ä¿¡ä»°ã€+3 [ICON_GOLD]é»ƒé‡‘å’Œ +1 [ICON_CULTURE]æ–‡åŒ–.'
 WHERE Tag = 'TXT_KEY_BELIEF_GOD_FESTIVALS';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '×ÔÈ»Å®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'è‡ªç„¶å¥³ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_ONE_WITH_NATURE_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '³ÇÊÐ 3 ¸ñƒÈÃ¿ÓÐ 2 ×ùÉ½,+1 [ICON_PEACE]ÐÅÑö¡¢[ICON_FOOD]Ê³ÎïºÍ[ICON_GOLD]½ðŽÅ(ÒÔ³ÇÊÐÈË¿ÚžéÉÏÏÞ).×ÔÈ»ÆæÛE +3 [ICON_PEACE]ÐÅÑöºÍ +2 [ICON_CULTURE]ÎÄ»¯.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åŸŽå¸‚ 3 æ ¼å…§æ¯æœ‰ 2 åº§å±±,+1 [ICON_PEACE]ä¿¡ä»°ã€[ICON_FOOD]é£Ÿç‰©å’Œ[ICON_GOLD]é‡‘å¹£(ä»¥åŸŽå¸‚äººå£ç‚ºä¸Šé™).è‡ªç„¶å¥‡è·¡ +3 [ICON_PEACE]ä¿¡ä»°å’Œ +2 [ICON_CULTURE]æ–‡åŒ–.'
 WHERE Tag = 'TXT_KEY_BELIEF_ONE_WITH_NATURE';
 
 -- Goddess of Protection
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÔÚÓÑ·½îIÍÁÃ¿»ØºÏ¿ÉÖÎÓú +10 HP.Œmµî +3 [ICON_PEACE]ÐÅÑö.³Ç  +2 [ICON_PEACE]ÐÅÑöºÍ[ICON_CULTURE]ÎÄ»¯.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åœ¨å‹æ–¹é ˜åœŸæ¯å›žåˆå¯æ²»æ„ˆ +10 HP.å®®æ®¿ +3 [ICON_PEACE]ä¿¡ä»°.åŸŽç‰† +2 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_CULTURE]æ–‡åŒ–.'
 WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_STRATEGY';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '¼ƒÅ®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç´”æ½”å¥³ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_SACRED_WATERS_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ºþ²´ +1 [ICON_PEACE]ÐÅÑöºÍ[ICON_FOOD]Ê³Îï.ÕÓÉ +1 [ICON_PEACE]ÐÅÑö¡¢[ICON_FOOD]Ê³ÎïºÍ[ICON_PRODUCTION]®aÄÜ.Èç¹û³ÇÊÐÎ»ì¶ºÓÁ÷ÉÏ,+1 [ICON_HAPPINESS_1]ÐÒ¸£¶È.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ¹–æ³Š +1 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_FOOD]é£Ÿç‰©.æ²¼æ¾¤ +1 [ICON_PEACE]ä¿¡ä»°ã€[ICON_FOOD]é£Ÿç‰©å’Œ[ICON_PRODUCTION]ç”¢èƒ½.å¦‚æžœåŸŽå¸‚ä½æ–¼æ²³æµä¸Š,+1 [ICON_HAPPINESS_1]å¹¸ç¦åº¦.'
 WHERE Tag = 'TXT_KEY_BELIEF_SACRED_WATERS';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÔÙÉúÅ®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å†ç”Ÿå¥³ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_SACRED_PATH_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ô“³ÇÊÐ“íÓÐÃ¿ 2 …²ÁÖ»ò 2 É­ÁÖ, +1 [ICON_PEACE]ÐÅÑö¡¢[ICON_CULTURE]ÎÄ»¯ºÍ[ICON_RESEARCH]¿ÆŒW.ÊÐˆö +2 [ICON_FOOD]Ê³ÎïºÍ[ICON_RESEARCH]¿ÆŒW.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'è©²åŸŽå¸‚æ“æœ‰æ¯ 2 å¢æž—æˆ– 2 æ£®æž—, +1 [ICON_PEACE]ä¿¡ä»°ã€[ICON_CULTURE]æ–‡åŒ–å’Œ[ICON_RESEARCH]ç§‘å­¸.å¸‚å ´ +2 [ICON_FOOD]é£Ÿç‰©å’Œ[ICON_RESEARCH]ç§‘å­¸.'
 WHERE Tag = 'TXT_KEY_BELIEF_SACRED_PATH';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '´ºÈÕÅ®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ˜¥æ—¥å¥³ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_ORAL_TRADITION_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Çfˆ@ +1 [ICON_PEACE]ÐÅÑö¡¢[ICON_FOOD]Ê³ÎïºÍ[ICON_GOLD]½ðŽÅ.Œ£¼Ò +2 [ICON_PEACE]ÐÅÑöºÍ +1 [ICON_RESEARCH]¿ÆŒW.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'èŽŠåœ’ +1 [ICON_PEACE]ä¿¡ä»°ã€[ICON_FOOD]é£Ÿç‰©å’Œ[ICON_GOLD]é‡‘å¹£.å°ˆå®¶ +2 [ICON_PEACE]ä¿¡ä»°å’Œ +1 [ICON_RESEARCH]ç§‘å­¸.'
 WHERE Tag = 'TXT_KEY_BELIEF_ORAL_TRADITION';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '¼ÒÍ¥Å®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å®¶åº­å¥³ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_FERTILITY_RITES_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '+25% [ICON_FOOD]³ÉéL.Éñý +1 [ICON_PEACE]ÐÅÑöºÍ[ICON_FOOD]Ê³Îï.½¨ºBÍê¹¤•r,+8 [ICON_PEACE]ÐÅÑöºÍ[ICON_FOOD]Ê³Îï,ëSÖø•r´úßfÔö.'
+UPDATE Language_zh_Hant_HK
+SET Text = '+25% [ICON_FOOD]æˆé•·.ç¥žé¾• +1 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_FOOD]é£Ÿç‰©.å»ºç¯‰å®Œå·¥æ™‚,+8 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_FOOD]é£Ÿç‰©,éš¨è‘—æ™‚ä»£éžå¢ž.'
 WHERE Tag = 'TXT_KEY_BELIEF_FERTILITY_RITES';
 
 -- Goddess of the Hunt
-UPDATE Language_ZH_HANT_HK
-SET Text = ' IµØ +1 [ICON_PEACE]ÐÅÑö¡¢[ICON_GOLD]½ðŽÅºÍ[ICON_CULTURE]ÎÄ»¯.Ñ¬ÑuÊÒ +2 [ICON_FOOD]Ê³Îï.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç‡Ÿåœ° +1 [ICON_PEACE]ä¿¡ä»°ã€[ICON_GOLD]é‡‘å¹£å’Œ[ICON_CULTURE]æ–‡åŒ–.ç†è£½å®¤ +2 [ICON_FOOD]é£Ÿç‰©.'
 WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_HUNT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÖÇ»ÛÅ®Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ™ºæ…§å¥³ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_FORMAL_LITURGY_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ê×¶¼/Â}³Ç +2 [ICON_GREAT_SCIENTIST]´ó¿ÆŒW¼Òüc”µ.³ÇÊÐ +1 [ICON_PEACE]ÐÅÑöºÍ[ICON_RESEARCH]¿ÆŒW,Èç¹û³ÇÊÐÓÐŒ£¼Ò,„tî~Íâ +2 [ICON_PEACE]ÐÅÑöºÍ[ICON_RESEARCH]¿ÆŒW.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'é¦–éƒ½/è–åŸŽ +2 [ICON_GREAT_SCIENTIST]å¤§ç§‘å­¸å®¶é»žæ•¸.åŸŽå¸‚ +1 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_RESEARCH]ç§‘å­¸,å¦‚æžœåŸŽå¸‚æœ‰å°ˆå®¶,å‰‡é¡å¤– +2 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_RESEARCH]ç§‘å­¸.'
 WHERE Tag = 'TXT_KEY_BELIEF_FORMAL_LITURGY';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'É³Ä®Ö®ì`'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ²™æ¼ ä¹‹éˆ'
 WHERE Tag = 'TXT_KEY_BELIEF_DESERT_FOLKLORE_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÓÐÙYÔ´µÄÉ³Ä® +1 [ICON_PEACE]ÐÅÑö¡¢[ICON_PRODUCTION]Éú®aºÍ[ICON_GOLD]üS½ð,¾GÖÞ +3 [ICON_FOOD]Ê³Îï.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æœ‰è³‡æºçš„æ²™æ¼  +1 [ICON_PEACE]ä¿¡ä»°ã€[ICON_PRODUCTION]ç”Ÿç”¢å’Œ[ICON_GOLD]é»ƒé‡‘,ç¶ æ´² +3 [ICON_FOOD]é£Ÿç‰©.'
 WHERE Tag = 'TXT_KEY_BELIEF_DESERT_FOLKLORE';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '×oÐlÉñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'è­·è¡›ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_LOVE_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Èç¹û³ÇÊÐÖÁÉÙÓÐ 3 Î» [ICON_CITIZEN]¹«Ãñ +1[ICON_PEACE]ÐÅÑö¡¢+3 [ICON_PRODUCTION]®aÄÜ,ÒÔ¼° +2 [ICON_GOLD]½ðŽÅ.ÑÐ¾¿¹¤³ÌŒWºó +1 [ICON_PEACE]ÐÅÑöºÍ[ICON_PRODUCTION]Éú®aÁ¦.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å¦‚æžœåŸŽå¸‚è‡³å°‘æœ‰ 3 ä½ [ICON_CITIZEN]å…¬æ°‘ +1[ICON_PEACE]ä¿¡ä»°ã€+3 [ICON_PRODUCTION]ç”¢èƒ½,ä»¥åŠ +2 [ICON_GOLD]é‡‘å¹£.ç ”ç©¶å·¥ç¨‹å­¸åŽ +1 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_PRODUCTION]ç”Ÿç”¢åŠ›.'
 WHERE Tag = 'TXT_KEY_BELIEF_GODDESS_LOVE';
 
 ----------------------------------------------
 -- Founders
 ----------------------------------------------
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÑµÀ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ä½ˆé“'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '®”ÄúŒ¢[ICON_RELIGION]×Ú½Ì‚÷µ½Íâ‡ø³ÇÊÐ•r,•þÔÚÂ}³Ç«@µÃ +15 [ICON_FOOD]Ê³Îï,ëSÖøÄúµÄ[ICON_RELIGION]×Ú½ÌµÄÐÂÐÅÍ½”µÁ¿ßfÔö;ÒÔ¼° 15 [ICON_TOURISM]ÂÃß[˜I,ëSÖø³ÇÊÐÖÐÆäËû[ICON_RELIGION]×Ú½ÌµÄÐÅÍ½”µÁ¿ßfÔö.[NEWLINE]½âæi[COLOR_POSITIVE_TEXT]×Ú×ùŒmµî[ENDCOLOR]‡ø¼ÒÆæÛE (+4 [ICON_PEACE]ÐÅÑö¡¢+4 [ICON_GOLDEN_AGE]üS½ð•r´úüc”µ;[ICON_RELIGION]Â}µØ +5 [ICON_TOURISM]ÂÃß[˜I;½âæi[COLOR_POSITIVE_TEXT]¸Ä¸ïÐÅ—l[ENDCOLOR]).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç•¶æ‚¨å°‡[ICON_RELIGION]å®—æ•™å‚³åˆ°å¤–åœ‹åŸŽå¸‚æ™‚,æœƒåœ¨è–åŸŽç²å¾— +15 [ICON_FOOD]é£Ÿç‰©,éš¨è‘—æ‚¨çš„[ICON_RELIGION]å®—æ•™çš„æ–°ä¿¡å¾’æ•¸é‡éžå¢ž;ä»¥åŠ 15 [ICON_TOURISM]æ—…éŠæ¥­,éš¨è‘—åŸŽå¸‚ä¸­å…¶ä»–[ICON_RELIGION]å®—æ•™çš„ä¿¡å¾’æ•¸é‡éžå¢ž.[NEWLINE]è§£éŽ–[COLOR_POSITIVE_TEXT]å®—åº§å®®æ®¿[ENDCOLOR]åœ‹å®¶å¥‡è·¡ (+4 [ICON_PEACE]ä¿¡ä»°ã€+4 [ICON_GOLDEN_AGE]é»ƒé‡‘æ™‚ä»£é»žæ•¸;[ICON_RELIGION]è–åœ° +5 [ICON_TOURISM]æ—…éŠæ¥­;è§£éŽ–[COLOR_POSITIVE_TEXT]æ”¹é©ä¿¡æ¢[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_PILGRIMAGE';
 
 -- Ceremonial Burial
-UPDATE Language_ZH_HANT_HK
-SET Text = '®”Ò»‚€[ICON_GREAT_PEOPLE]‚¥ÈË±»ÏûºÄ•r,Ã¿‚€ÐÅ·îÄã[ICON_RELIGION]×Ú½ÌµÄ³ÇÊÐ•þ«@µÃ 10 [ICON_PEACE]ÐÅÑöºÍ[ICON_CULTURE]ÎÄ»¯(×î¶à 25 ‚€³ÇÊÐ),ëSÖø•r´úßfÔö.[NEWLINE]½âËø[COLOR_POSITIVE_TEXT]ÁêÄ¹[ENDCOLOR]‡ø¼ÒÆæÛE (+5 [ICON_PEACE]ÐÅÑö, Í¬•r¼º·½†ÎÎ»ÔÚ‘ðôYÖÐ±»š¢•r«@µÃ[ICON_PEACE]ÐÅÑö, [ICON_RELIGION]Â}µØ +5 [ICON_PEACE]ÐÅÑö; ½âæi[COLOR_POSITIVE_TEXT]¸Ä¸ïÐÅ—l[ENDCOLOR]).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç•¶ä¸€å€‹[ICON_GREAT_PEOPLE]å‰äººè¢«æ¶ˆè€—æ™‚,æ¯å€‹ä¿¡å¥‰ä½ [ICON_RELIGION]å®—æ•™çš„åŸŽå¸‚æœƒç²å¾— 10 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_CULTURE]æ–‡åŒ–(æœ€å¤š 25 å€‹åŸŽå¸‚),éš¨è‘—æ™‚ä»£éžå¢ž.[NEWLINE]è§£é”[COLOR_POSITIVE_TEXT]é™µå¢“[ENDCOLOR]åœ‹å®¶å¥‡è·¡ (+5 [ICON_PEACE]ä¿¡ä»°, åŒæ™‚å·±æ–¹å–®ä½åœ¨æˆ°é¬¥ä¸­è¢«æ®ºæ™‚ç²å¾—[ICON_PEACE]ä¿¡ä»°, [ICON_RELIGION]è–åœ° +5 [ICON_PEACE]ä¿¡ä»°; è§£éŽ–[COLOR_POSITIVE_TEXT]æ”¹é©ä¿¡æ¢[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_CEREMONIAL_BURIAL';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'éLÀÏ•þ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'é•·è€æœƒ'
 WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '®”Ò»‚€³ÇÊÐµÚÒ»´Î’ñÓÃÄãµÄ[ICON_RELIGION]×Ú½Ì•r,ÔÚÄãµÄÂ}³ÇÖÐ«@µÃ 20 [ICON_RESEARCH]¿ÆŒWºÍ[ICON_PRODUCTION]Éú®a,¸ù“þÐÅ·îÄã[ICON_RELIGION]×Ú½ÌµÄ³ÇÊÐ”µÁ¿ÖðußfÔö (ª„„îÉÏÏÞžé 25 ‚€³ÇÊÐ).[NEWLINE]½âæi[COLOR_POSITIVE_TEXT]ÉñÂ}ÀíÊÂ•þ[ENDCOLOR]‡ø¼ÒÆæÛE (+4 [ICON_PEACE]ÐÅÑö¡¢+5 [ICON_FOOD]Ê³Îï;[ICON_RELIGION]Â}µØ +5 [ICON_RESEARCH]¿ÆŒW;½âæi[COLOR_POSITIVE_TEXT]¸Ä¸ïÐÅ—l[ENDCOLOR]).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç•¶ä¸€å€‹åŸŽå¸‚ç¬¬ä¸€æ¬¡æŽ¡ç”¨ä½ çš„[ICON_RELIGION]å®—æ•™æ™‚,åœ¨ä½ çš„è–åŸŽä¸­ç²å¾— 20 [ICON_RESEARCH]ç§‘å­¸å’Œ[ICON_PRODUCTION]ç”Ÿç”¢,æ ¹æ“šä¿¡å¥‰ä½ [ICON_RELIGION]å®—æ•™çš„åŸŽå¸‚æ•¸é‡é€æ¼¸éžå¢ž (çŽå‹µä¸Šé™ç‚º 25 å€‹åŸŽå¸‚).[NEWLINE]è§£éŽ–[COLOR_POSITIVE_TEXT]ç¥žè–ç†äº‹æœƒ[ENDCOLOR]åœ‹å®¶å¥‡è·¡ (+4 [ICON_PEACE]ä¿¡ä»°ã€+5 [ICON_FOOD]é£Ÿç‰©;[ICON_RELIGION]è–åœ° +5 [ICON_RESEARCH]ç§‘å­¸;è§£éŽ–[COLOR_POSITIVE_TEXT]æ”¹é©ä¿¡æ¢[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_PAPAL_PRIMACY';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÉñÂ}ßz®a'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç¥žè–éºç”¢'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_LOVING_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '®”ÄúµÄµÛ‡øÌŽì¶[ICON_GOLDEN_AGE]üS½ð•r´ú•r,Â}³Ç +20% ®a³ö.[NEWLINE]½âæi[COLOR_POSITIVE_TEXT]Ìì‡øŒš×ù[ENDCOLOR]‡ø¼ÒÆæÛE(+2 [ICON_PEACE]ÐÅÑö¡¢[ICON_CULTURE]ÎÄ»¯¡¢[ICON_FOOD]Ê³Îï¡¢[ICON_RESEARCH]¿ÆŒW¡¢[ICON_GOLD]üS½ðºÍ[ICON_PRODUCTION]®aÄÜ;[ICON_RELIGION]Â}µØ +5 [ICON_GOLDEN_AGE]üS½ð•r´úüc”µ;½âæi[COLOR_POSITIVE_TEXT]¸Ä¸ïÐÅ—l[ENDCOLOR]).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç•¶æ‚¨çš„å¸åœ‹è™•æ–¼[ICON_GOLDEN_AGE]é»ƒé‡‘æ™‚ä»£æ™‚,è–åŸŽ +20% ç”¢å‡º.[NEWLINE]è§£éŽ–[COLOR_POSITIVE_TEXT]å¤©åœ‹å¯¶åº§[ENDCOLOR]åœ‹å®¶å¥‡è·¡(+2 [ICON_PEACE]ä¿¡ä»°ã€[ICON_CULTURE]æ–‡åŒ–ã€[ICON_FOOD]é£Ÿç‰©ã€[ICON_RESEARCH]ç§‘å­¸ã€[ICON_GOLD]é»ƒé‡‘å’Œ[ICON_PRODUCTION]ç”¢èƒ½;[ICON_RELIGION]è–åœ° +5 [ICON_GOLDEN_AGE]é»ƒé‡‘æ™‚ä»£é»žæ•¸;è§£éŽ–[COLOR_POSITIVE_TEXT]æ”¹é©ä¿¡æ¢[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_LOVING';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ó¢ÐÛ³ç°Ý'
+UPDATE Language_zh_Hant_HK
+SET Text = 'è‹±é›„å´‡æ‹œ'
 WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '®”ÄúÕ÷·þÒ»‚€³ÇÊÐ•r,•þ«@µÃ 100 [ICON_PEACE]ÐÅÑöºÍ[ICON_GOLDEN_AGE]üS½ð•r´úüc”µ,ÒÔ¼° 25 [ICON_GREAT_GENERAL]´óŒ¢ÜŠüc”µ (³ÇÊÐÔÚƒÈê‘)»ò[ICON_GREAT_ADMIRAL]º£ÜŠÉÏŒ¢üc”µ(³ÇÊÐÔÚÑØº£).ª„„î•þëSÖø³ÇÊÐ[ICON_CITIZEN]ÈË¿ÚºÍÄê´úßfÔö.[NEWLINE]½âæi[COLOR_POSITIVE_TEXT]´ó¼À‰¯[ENDCOLOR]‡ø¼ÒÆæÛE(+5 [ICON_PEACE]ÐÅÑö, +15% ÜŠÊÂ†ÎÎ»[ICON_PRODUCTION]®aÄÜ;[ICON_RELIGION]Â}µØ +5 [ICON_PRODUCTION]®aÄÜ;½âæi[COLOR_POSITIVE_TEXT]¸Ä¸ïÐÅ—l[ENDCOLOR]).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç•¶æ‚¨å¾æœä¸€å€‹åŸŽå¸‚æ™‚,æœƒç²å¾— 100 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_GOLDEN_AGE]é»ƒé‡‘æ™‚ä»£é»žæ•¸,ä»¥åŠ 25 [ICON_GREAT_GENERAL]å¤§å°‡è»é»žæ•¸ (åŸŽå¸‚åœ¨å…§é™¸)æˆ–[ICON_GREAT_ADMIRAL]æµ·è»ä¸Šå°‡é»žæ•¸(åŸŽå¸‚åœ¨æ²¿æµ·).çŽå‹µæœƒéš¨è‘—åŸŽå¸‚[ICON_CITIZEN]äººå£å’Œå¹´ä»£éžå¢ž.[NEWLINE]è§£éŽ–[COLOR_POSITIVE_TEXT]å¤§ç¥­å£‡[ENDCOLOR]åœ‹å®¶å¥‡è·¡(+5 [ICON_PEACE]ä¿¡ä»°, +15% è»äº‹å–®ä½[ICON_PRODUCTION]ç”¢èƒ½;[ICON_RELIGION]è–åœ° +5 [ICON_PRODUCTION]ç”¢èƒ½;è§£éŽ–[COLOR_POSITIVE_TEXT]æ”¹é©ä¿¡æ¢[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_INTERFAITH_DIALOGUE';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Â}ÂÉ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'è–å¾‹'
 WHERE Tag = 'TXT_KEY_BELIEF_CHURCH_PROPERTY_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '®”Äú½âæiÕþ²ß•r,Ã¿ÓÐÒ»‚€[ICON_RELIGION]×Ú½Ì×·ëSÕß(×î¶à 250 ‚€),¾Í•þ«@µÃ 5 [ICON_PEACE]ÐÅÑö¡¢[ICON_RESEARCH]¿ÆŒWºÍ[ICON_GOLD]½ðŽÅ.[NEWLINE]½âæi[COLOR_POSITIVE_TEXT]ÉñÂ}·¨Í¥[ENDCOLOR]‡ø¼ÒÆæÛE ([ICON_RELIGION]Â}µØ +4 [ICON_PEACE]ÐÅÑö, +6 [ICON_GOLD]½ðŽÅ; +5 [ICON_CULTURE]ÎÄ»¯;½âæi[COLOR_POSITIVE_TEXT]¸Ä¸ïÐÅ—l[ENDCOLOR]).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç•¶æ‚¨è§£éŽ–æ”¿ç­–æ™‚,æ¯æœ‰ä¸€å€‹[ICON_RELIGION]å®—æ•™è¿½éš¨è€…(æœ€å¤š 250 å€‹),å°±æœƒç²å¾— 5 [ICON_PEACE]ä¿¡ä»°ã€[ICON_RESEARCH]ç§‘å­¸å’Œ[ICON_GOLD]é‡‘å¹£.[NEWLINE]è§£éŽ–[COLOR_POSITIVE_TEXT]ç¥žè–æ³•åº­[ENDCOLOR]åœ‹å®¶å¥‡è·¡ ([ICON_RELIGION]è–åœ° +4 [ICON_PEACE]ä¿¡ä»°, +6 [ICON_GOLD]é‡‘å¹£; +5 [ICON_CULTURE]æ–‡åŒ–;è§£éŽ–[COLOR_POSITIVE_TEXT]æ”¹é©ä¿¡æ¢[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_CHURCH_PROPERTY';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Éñ™à½yÖÎ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç¥žæ¬Šçµ±æ²»'
 WHERE Tag = 'TXT_KEY_BELIEF_WORLD_CHURCH_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '"¾´ÍõÖ®ÈÕ"¿ÉÌáÉý³ÇÊÐµÄ[ICON_PEACE]ÐÅÑö, [ICON_CULTURE]ÎÄ»¯, and [ICON_GOLD]½ðŽÅµÄ®a³ö 15%.[NEWLINE]½âæi[COLOR_POSITIVE_TEXT]´ó¹Ç»Òý[ENDCOLOR]‡ø¼ÒÆæÛE([ICON_RELIGION]Â}µØ +10 [ICON_PEACE]ÐÅÑö; +5 [ICON_GOLD]½ðŽÅ;½âæi[COLOR_POSITIVE_TEXT]¸Ä¸ïÐÅ—l[ENDCOLOR]).'
+UPDATE Language_zh_Hant_HK
+SET Text = '"æ•¬çŽ‹ä¹‹æ—¥"å¯æå‡åŸŽå¸‚çš„[ICON_PEACE]ä¿¡ä»°, [ICON_CULTURE]æ–‡åŒ–, and [ICON_GOLD]é‡‘å¹£çš„ç”¢å‡º 15%.[NEWLINE]è§£éŽ–[COLOR_POSITIVE_TEXT]å¤§éª¨ç°é¾•[ENDCOLOR]åœ‹å®¶å¥‡è·¡([ICON_RELIGION]è–åœ° +10 [ICON_PEACE]ä¿¡ä»°; +5 [ICON_GOLD]é‡‘å¹£;è§£éŽ–[COLOR_POSITIVE_TEXT]æ”¹é©ä¿¡æ¢[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_WORLD_CHURCH';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '³¬Ô½Ë¼Ïë'
+UPDATE Language_zh_Hant_HK
+SET Text = 'è¶…è¶Šæ€æƒ³'
 WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '®”ÄúßMÈëÐÂ•r´ú•r,Ã¿×ùÐÅ·îÄú[ICON_RELIGION]×Ú½ÌµÄ³ÇÊÐ,•þ×ŒÂ}³ÇÃ¿·N®a³ö«@µÃ 12 (×î¶à 25 ×ù³ÇÊÐ),ëS•r´úßfÔö.[NEWLINE]½âæi[COLOR_POSITIVE_TEXT]Â}»¨ˆ@[ENDCOLOR]‡ø¼ÒÆæÛE([ICON_RELIGION]Â}µØ +3 [ICON_PEACE]ÐÅÑö, +5 [ICON_CULTURE]ÎÄ»¯; +5 [ICON_FOOD]Ê³Îï;½âæi[COLOR_POSITIVE_TEXT]¸Ä¸ïÐÅ—l[ENDCOLOR]).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç•¶æ‚¨é€²å…¥æ–°æ™‚ä»£æ™‚,æ¯åº§ä¿¡å¥‰æ‚¨[ICON_RELIGION]å®—æ•™çš„åŸŽå¸‚,æœƒè®“è–åŸŽæ¯ç¨®ç”¢å‡ºç²å¾— 12 (æœ€å¤š 25 åº§åŸŽå¸‚),éš¨æ™‚ä»£éžå¢ž.[NEWLINE]è§£éŽ–[COLOR_POSITIVE_TEXT]è–æ½”èŠ±åœ’[ENDCOLOR]åœ‹å®¶å¥‡è·¡([ICON_RELIGION]è–åœ° +3 [ICON_PEACE]ä¿¡ä»°, +5 [ICON_CULTURE]æ–‡åŒ–; +5 [ICON_FOOD]é£Ÿç‰©;è§£éŽ–[COLOR_POSITIVE_TEXT]æ”¹é©ä¿¡æ¢[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_INITIATION_RITES';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '†¢Ê¾ä›'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å•Ÿç¤ºéŒ„'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '®”ÄúÑÐ¾¿Ò»í—¿Æ¼¼•r,Ã¿Î»[ICON_RELIGION]×Ú½Ì×·ëSÕß, +2 [ICON_GOLDEN_AGE]üS½ð•rÆÚüc”µ¡¢[ICON_PEACE]ÐÅÑöºÍ[ICON_CULTURE]ÎÄ»¯ (×î¶à 250 Î»×·ëSÕß).[NEWLINE]½âæi[COLOR_POSITIVE_TEXT]½Ì»Ê™n°¸[ENDCOLOR]‡ø¼ÒÆæÛE(+5 [ICON_RESEARCH]¿Æ¼¼ from [ICON_RELIGION]Â}µØ;½âæi[COLOR_POSITIVE_TEXT]¸Ä¸ïÐÅ—l[ENDCOLOR]).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç•¶æ‚¨ç ”ç©¶ä¸€é …ç§‘æŠ€æ™‚,æ¯ä½[ICON_RELIGION]å®—æ•™è¿½éš¨è€…, +2 [ICON_GOLDEN_AGE]é»ƒé‡‘æ™‚æœŸé»žæ•¸ã€[ICON_PEACE]ä¿¡ä»°å’Œ[ICON_CULTURE]æ–‡åŒ– (æœ€å¤š 250 ä½è¿½éš¨è€…).[NEWLINE]è§£éŽ–[COLOR_POSITIVE_TEXT]æ•™çš‡æª”æ¡ˆ[ENDCOLOR]åœ‹å®¶å¥‡è·¡(+5 [ICON_RESEARCH]ç§‘æŠ€ from [ICON_RELIGION]è–åœ°;è§£éŽ–[COLOR_POSITIVE_TEXT]æ”¹é©ä¿¡æ¢[ENDCOLOR]).'
 WHERE Tag = 'TXT_KEY_BELIEF_TITHE';
 
 ----------------------------------------------
@@ -247,258 +247,258 @@ WHERE Tag = 'TXT_KEY_BELIEF_TITHE';
 ----------------------------------------------
 
 -- Asceticism
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ã¿‚€×·ëSÕß +1 [ICON_FOOD]Ê³Îï(×î¶à +15 [ICON_FOOD]Ê³Îï).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ¯å€‹è¿½éš¨è€… +1 [ICON_FOOD]é£Ÿç‰©(æœ€å¤š +15 [ICON_FOOD]é£Ÿç‰©).'
 WHERE Tag = 'TXT_KEY_BELIEF_ASCETISM';
 
 -- Cathedrals
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ê¹ÓÃ[ICON_PEACE]ÐÅÑöÙÙI´ó½ÌÌÃ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ä½¿ç”¨[ICON_PEACE]ä¿¡ä»°è³¼è²·å¤§æ•™å ‚.'
 WHERE Tag = 'TXT_KEY_BELIEF_CATHEDRALS';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '½Ì•þ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ•™æœƒ'
 WHERE Tag = 'TXT_KEY_BELIEF_SWORD_PLOWSHARES_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ê¹ÓÃ[ICON_PEACE]ÐÅÑöÙÙI½Ì•þ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ä½¿ç”¨[ICON_PEACE]ä¿¡ä»°è³¼è²·æ•™æœƒ.'
 WHERE Tag = 'TXT_KEY_BELIEF_SWORD_PLOWSHARES';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '¿vÓû'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç¸±æ¬²'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_GARDENS_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '³ÇÊÐÃ¿ 10 [ICON_GOLD]½ðŽÅ®a³ö,+1 [ICON_PEACE]ÐÅÑö,ÉÏÏÞžéÔ“³ÇÊÐ×·ëSÕß”µÁ¿µÄÒ»°ë.´Ë³ÇÊ¹ÓÃ[ICON_PEACE]ÐÅÑöÙÙIµÄÙMÓÃ,10% •þÞD“Q³É[ICON_GOLD]½ðŽÅºÍ[ICON_PRODUCTION]®aÄÜ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åŸŽå¸‚æ¯ 10 [ICON_GOLD]é‡‘å¹£ç”¢å‡º,+1 [ICON_PEACE]ä¿¡ä»°,ä¸Šé™ç‚ºè©²åŸŽå¸‚è¿½éš¨è€…æ•¸é‡çš„ä¸€åŠ.æ­¤åŸŽä½¿ç”¨[ICON_PEACE]ä¿¡ä»°è³¼è²·çš„è²»ç”¨,10% æœƒè½‰æ›æˆ[ICON_GOLD]é‡‘å¹£å’Œ[ICON_PRODUCTION]ç”¢èƒ½.'
 WHERE Tag = 'TXT_KEY_BELIEF_PEACE_GARDENS';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '„“ÔìÁ¦'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å‰µé€ åŠ›'
 WHERE Tag = 'TXT_KEY_BELIEF_DIVINE_INSPIRATION_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '³ÇÊÐÃ¿ 3 ×·ëSÕß +1 [ICON_CULTURE]ÎÄ»¯(×î¶à +6 [ICON_CULTURE]ÎÄ»¯), ³ÇÊÐÓÐŒ£¼Ò +2 [ICON_PEACE]ÐÅÑö'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åŸŽå¸‚æ¯ 3 è¿½éš¨è€… +1 [ICON_CULTURE]æ–‡åŒ–(æœ€å¤š +6 [ICON_CULTURE]æ–‡åŒ–), åŸŽå¸‚æœ‰å°ˆå®¶ +2 [ICON_PEACE]ä¿¡ä»°'
 WHERE Tag = 'TXT_KEY_BELIEF_DIVINE_INSPIRATION';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÇÚÃã'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å‹¤å‹‰'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '³ÇÊÐÃ¿2‚€×·ëSÕß +1 [ICON_PRODUCTION]®aÄÜ(×î¶à +15 [ICON_PRODUCTION]®aÄÜ).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åŸŽå¸‚æ¯2å€‹è¿½éš¨è€… +1 [ICON_PRODUCTION]ç”¢èƒ½(æœ€å¤š +15 [ICON_PRODUCTION]ç”¢èƒ½).'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '(Ó¡¶È½Ì)ËÂR'
+UPDATE Language_zh_Hant_HK
+SET Text = '(å°åº¦æ•™)å¯ºå»Ÿ'
 WHERE Tag = 'TXT_KEY_BELIEF_GURUSHIP_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ê¹ÓÃ[ICON_PEACE]ÐÅÑöÙÙI(Ó¡¶È½Ì)ËÂR.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ä½¿ç”¨[ICON_PEACE]ä¿¡ä»°è³¼è²·(å°åº¦æ•™)å¯ºå»Ÿ.'
 WHERE Tag = 'TXT_KEY_BELIEF_GURUSHIP';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '¾«Í¨'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç²¾é€š'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_ART_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ã¿‚€Œ£¼Ò +1 [ICON_GOLDEN_AGE]üS½ð•r´úüc”µºÍ +1 Ëû‚ƒÕýÔÚ®a³öµÄ‚¥ÈË([ICON_RESEARCH]´ó¿ÆŒW¼Ò, [ICON_GOLD]´óÉÌ˜I¼Ò/¹«„Õ†T, [ICON_PRODUCTION]´ó¹¤³ÌŽŸ, [ICON_CULTURE]Ë‡Ðg¼Ò‚ƒ).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ¯å€‹å°ˆå®¶ +1 [ICON_GOLDEN_AGE]é»ƒé‡‘æ™‚ä»£é»žæ•¸å’Œ +1 ä»–å€‘æ­£åœ¨ç”¢å‡ºçš„å‰äºº([ICON_RESEARCH]å¤§ç§‘å­¸å®¶, [ICON_GOLD]å¤§å•†æ¥­å®¶/å…¬å‹™å“¡, [ICON_PRODUCTION]å¤§å·¥ç¨‹å¸«, [ICON_CULTURE]è—è¡“å®¶å€‘).'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_ART';
 
 -- Mosques
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ê¹ÓÃ[ICON_PEACE]ÐÅÑöÙÙIÇåÕæËÂ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ä½¿ç”¨[ICON_PEACE]ä¿¡ä»°è³¼è²·æ¸…çœŸå¯º.'
 WHERE Tag = 'TXT_KEY_BELIEF_MOSQUES';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÐÞ•þ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ä¿®æœƒ'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_CENTER_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ê¹ÓÃ[ICON_PEACE]ÐÅÑöÙÙIÐÞ•þ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ä½¿ç”¨[ICON_PEACE]ä¿¡ä»°è³¼è²·ä¿®æœƒ.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_CENTER';
 
 -- Pagodas
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ê¹ÓÃ[ICON_PEACE]ÐÅÑöÙÙI·ðËþ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ä½¿ç”¨[ICON_PEACE]ä¿¡ä»°è³¼è²·ä½›å¡”'
 WHERE Tag = 'TXT_KEY_BELIEF_PAGODAS';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ª„ŒW½ð'
+UPDATE Language_zh_Hant_HK
+SET Text = 'çŽå­¸é‡‘'
 WHERE Tag = 'TXT_KEY_BELIEF_CHORAL_MUSIC_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '³ÇÊÐÃ¿2×·ëSÕß +1 [ICON_RESEARCH]¿Æ¼¼(×î¶à +15 [ICON_RESEARCH]¿Æ¼¼).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åŸŽå¸‚æ¯2è¿½éš¨è€… +1 [ICON_RESEARCH]ç§‘æŠ€(æœ€å¤š +15 [ICON_RESEARCH]ç§‘æŠ€).'
 WHERE Tag = 'TXT_KEY_BELIEF_CHORAL_MUSIC';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÉáÀûËþ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'èˆåˆ©å¡”'
 WHERE Tag = 'TXT_KEY_BELIEF_MONASTERIES_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ê¹ÓÃ[ICON_PEACE]ÐÅÑöÙÙIÉáÀûËþ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ä½¿ç”¨[ICON_PEACE]ä¿¡ä»°è³¼è²·èˆåˆ©å¡”.'
 WHERE Tag = 'TXT_KEY_BELIEF_MONASTERIES';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ªqÌ«½ÌÌÃ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'çŒ¶å¤ªæ•™å ‚'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_WARRIORS_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ê¹ÓÃ[ICON_PEACE]ÐÅÑöÙÙIªqÌ«½ÌÌÃ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ä½¿ç”¨[ICON_PEACE]ä¿¡ä»°è³¼è²·çŒ¶å¤ªæ•™å ‚.'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_WARRIORS';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '¹ƒ€'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç¯€å„‰'
 WHERE Tag = 'TXT_KEY_BELIEF_FEED_WORLD_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '³ÇÊÐÃ¿‚€×·ëSÕß +1 [ICON_GOLD]½ðŽÅ(×î¶à +10 [ICON_GOLD]½ðŽÅ).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åŸŽå¸‚æ¯å€‹è¿½éš¨è€… +1 [ICON_GOLD]é‡‘å¹£(æœ€å¤š +10 [ICON_GOLD]é‡‘å¹£).'
 WHERE Tag = 'TXT_KEY_BELIEF_FEED_WORLD';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '¹Åô”ŽìÀ­Ä·'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å¤é­¯åº«æ‹‰å§†'
 WHERE Tag = 'TXT_KEY_BELIEF_LITURGICAL_DRAMA_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '³ÇÊÐÃ¿®a³ö 5 [ICON_RESEARCH]¿Æ¼¼,+1 [ICON_PEACE]ÐÅÑö,ÉÏÏÞžéÔ“³ÇÊÐ×·ëSÕß”µÁ¿µÄÒ»°ë.ÔÚ´Ë³ÇÊ¹ÓÃ[ICON_PEACE]ÐÅÑöÙÙIµÄÙMÓÃ,10% •þÞD“Qžé[ICON_CULTURE]ÎÄ»¯ºÍ[ICON_FOOD]Ê³Îï.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åŸŽå¸‚æ¯ç”¢å‡º 5 [ICON_RESEARCH]ç§‘æŠ€,+1 [ICON_PEACE]ä¿¡ä»°,ä¸Šé™ç‚ºè©²åŸŽå¸‚è¿½éš¨è€…æ•¸é‡çš„ä¸€åŠ.åœ¨æ­¤åŸŽä½¿ç”¨[ICON_PEACE]ä¿¡ä»°è³¼è²·çš„è²»ç”¨,10% æœƒè½‰æ›ç‚º[ICON_CULTURE]æ–‡åŒ–å’Œ[ICON_FOOD]é£Ÿç‰©.'
 WHERE Tag = 'TXT_KEY_BELIEF_LITURGICAL_DRAMA';
 
 ----------------------------------------------
 -- Enhancers
 ----------------------------------------------
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ºÍÆ½Ö®Ëù'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å’Œå¹³ä¹‹æ‰€'
 WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Œ¦ÓÑ·½ [ICON_CITY_STATE]³Ç°î +100% ‰ºÁ¦.³Ç°îÖÐÃ¿ 2 [ICON_RELIGION]×Ú½Ì×·ëSÕß,Â}³Ç +1 [ICON_GOLD]½ðŽÅºÍ[ICON_PEACE]ÐÅÑö.ÄúŒ¦ÐÅ·îÄú×Ú½ÌµÄ³Ç°îµÄ»ùµA[ICON_INFLUENCE]Ó°í‘Á¦Ôö¼Ó[COLOR_POSITIVE_TEXT]35[ENDCOLOR],KÇÒËû‚ƒµÄÈÎ„Õª„„îÔö¼Ó 25%.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å°å‹æ–¹ [ICON_CITY_STATE]åŸŽé‚¦ +100% å£“åŠ›.åŸŽé‚¦ä¸­æ¯ 2 [ICON_RELIGION]å®—æ•™è¿½éš¨è€…,è–åŸŽ +1 [ICON_GOLD]é‡‘å¹£å’Œ[ICON_PEACE]ä¿¡ä»°.æ‚¨å°ä¿¡å¥‰æ‚¨å®—æ•™çš„åŸŽé‚¦çš„åŸºç¤Ž[ICON_INFLUENCE]å½±éŸ¿åŠ›å¢žåŠ [COLOR_POSITIVE_TEXT]35[ENDCOLOR],ä¸¦ä¸”ä»–å€‘çš„ä»»å‹™çŽå‹µå¢žåŠ  25%.'
 WHERE Tag = 'TXT_KEY_BELIEF_JUST_WAR';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '®¶ËŒ†–¹Ù'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç•°ç«¯å¯©å•å®˜'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '[ICON_INQUISITOR]®¶ËŒ†–¹ÙµÄ[ICON_PEACE]ÐÅÑöÙMÓÃœpÉÙ 33%;ÒÆ³ý®¶Ë•r,Ã¿ÞD“QÒ»‚€[ICON_CITIZEN]¹«Ãñ®aÉú 25 [ICON_GOLD]½ðŽÅ.ÄúµÄ[ICON_SPY]égÕ™Œ¦Ëû‚ƒñv¼™µÄ³ÇÊÐÊ©¼Ó +52 ×Ú½Ì‰ºÁ¦(˜ËœÊËÙ¶È),Èç¹ûñv¼™ÔÚÍâ‡ø³ÇÊÐ,„t +2 [ICON_HAPPINESS_1]ÐÒ¸£¶È.'
+UPDATE Language_zh_Hant_HK
+SET Text = '[ICON_INQUISITOR]ç•°ç«¯å¯©å•å®˜çš„[ICON_PEACE]ä¿¡ä»°è²»ç”¨æ¸›å°‘ 33%;ç§»é™¤ç•°ç«¯æ™‚,æ¯è½‰æ›ä¸€å€‹[ICON_CITIZEN]å…¬æ°‘ç”¢ç”Ÿ 25 [ICON_GOLD]é‡‘å¹£.æ‚¨çš„[ICON_SPY]é–“è«œå°ä»–å€‘é§ç´®çš„åŸŽå¸‚æ–½åŠ  +52 å®—æ•™å£“åŠ›(æ¨™æº–é€Ÿåº¦),å¦‚æžœé§ç´®åœ¨å¤–åœ‹åŸŽå¸‚,å‰‡ +2 [ICON_HAPPINESS_1]å¹¸ç¦åº¦.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_TEXTS';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÐÐÆò'
+UPDATE Language_zh_Hant_HK
+SET Text = 'è¡Œä¹ž'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIQUARY_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÐÅ·î´Ë[ICON_RELIGION]×Ú½ÌµÄ×ÔÓÐ³ÇÊÐ +2 [ICON_CULTURE]ÎÄ»¯ºÍ[ICON_PEACE]ÐÅÑö.´Ë×Ú½ÌµÄ[ICON_MISSIONARY]‚÷½ÌÊ¿ÔÚ‚÷½Ì•r,•þÇÖÎgÆäËû×Ú½ÌµÄ‰ºÁ¦ 10%.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ä¿¡å¥‰æ­¤[ICON_RELIGION]å®—æ•™çš„è‡ªæœ‰åŸŽå¸‚ +2 [ICON_CULTURE]æ–‡åŒ–å’Œ[ICON_PEACE]ä¿¡ä»°.æ­¤å®—æ•™çš„[ICON_MISSIONARY]å‚³æ•™å£«åœ¨å‚³æ•™æ™‚,æœƒä¾µè•å…¶ä»–å®—æ•™çš„å£“åŠ› 10%.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIQUARY';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '–|Õý½Ì'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ±æ­£æ•™'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_ORDER_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '[ICON_RELIGION]×Ú½Ì‚÷²¥¾àëxÔö¼Ó 40%.[ICON_INTERNATIONAL_TRADE]ÙQÒ×Â·¾QßB½ÓµÄÍâ‡ø³ÇÊÐ +200% ‰ºÁ¦.'
+UPDATE Language_zh_Hant_HK
+SET Text = '[ICON_RELIGION]å®—æ•™å‚³æ’­è·é›¢å¢žåŠ  40%.[ICON_INTERNATIONAL_TRADE]è²¿æ˜“è·¯ç¶«é€£æŽ¥çš„å¤–åœ‹åŸŽå¸‚ +200% å£“åŠ›.'
 WHERE Tag = 'TXT_KEY_BELIEF_HOLY_ORDER';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'îAÑÔ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'é è¨€'
 WHERE Tag = 'TXT_KEY_BELIEF_MESSIAH_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Œ¢ÆæÛEµÄ×îµÍÕþ²ßÐèÇó½µµÍ 1.±¾ [ICON_RELIGION]×Ú½ÌµÄ´óîAÑÔ¼ÒŠ»¯ 25%,[ICON_PEACE]ÐÅÑöµÄÙMÓÃ½µµÍ 25%.Â}µØ»ùµA®a³ö +3.Èç¹ûÊÇÖ÷Òª×Ú½Ì,í×ÔŒ¦ÊÖ[ICON_INQUISITOR]®¶ËŒ†–¹ÙºÍ[ICON_PROPHET]´óîAÑÔ¼ÒµÄ×·ëSÕßœp°ë.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å°‡å¥‡è·¡çš„æœ€ä½Žæ”¿ç­–éœ€æ±‚é™ä½Ž 1.æœ¬ [ICON_RELIGION]å®—æ•™çš„å¤§é è¨€å®¶å¼·åŒ– 25%,[ICON_PEACE]ä¿¡ä»°çš„è²»ç”¨é™ä½Ž 25%.è–åœ°åŸºç¤Žç”¢å‡º +3.å¦‚æžœæ˜¯ä¸»è¦å®—æ•™,ä¾†è‡ªå°æ‰‹[ICON_INQUISITOR]ç•°ç«¯å¯©å•å®˜å’Œ[ICON_PROPHET]å¤§é è¨€å®¶çš„è¿½éš¨è€…æ¸›åŠ.'
 WHERE Tag = 'TXT_KEY_BELIEF_MESSIAH';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Â}•Ñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'è–æ›†'
 WHERE Tag = 'TXT_KEY_BELIEF_MISSIONARY_ZEAL_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÔÚ[ICON_GOLDEN_AGE]üS½ð•r´úÆÚég,Â}³Ç +33% [ICON_GREAT_PEOPLE]‚¥ÈËÕQÉúËÙ¶È.Ã¿‚€ÐÅ·î´Ë×Ú½ÌµÄÍâ‡ø³ÇÊÐ,[ICON_RELIGION]Â}³Ç +3 [ICON_GOLDEN_AGE]üS½ð•r´úüc”µºÍ[ICON_GOLD]½ðŽÅ.´Ë×Ú½ÌµÄ‚÷½ÌÊ¿ÔöÇ¿ 25%.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åœ¨[ICON_GOLDEN_AGE]é»ƒé‡‘æ™‚ä»£æœŸé–“,è–åŸŽ +33% [ICON_GREAT_PEOPLE]å‰äººèª•ç”Ÿé€Ÿåº¦.æ¯å€‹ä¿¡å¥‰æ­¤å®—æ•™çš„å¤–åœ‹åŸŽå¸‚,[ICON_RELIGION]è–åŸŽ +3 [ICON_GOLDEN_AGE]é»ƒé‡‘æ™‚ä»£é»žæ•¸å’Œ[ICON_GOLD]é‡‘å¹£.æ­¤å®—æ•™çš„å‚³æ•™å£«å¢žå¼º 25%.'
 WHERE Tag = 'TXT_KEY_BELIEF_MISSIONARY_ZEAL';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÏóáçÖ÷Áx'
+UPDATE Language_zh_Hant_HK
+SET Text = 'è±¡å¾µä¸»ç¾©'
 WHERE Tag = 'TXT_KEY_BELIEF_ITINERANT_PREACHERS_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Â}³Ç +5 [ICON_GOLDEN_AGE]üS½ð•r´úüc”µ,ËùÓÐ[ICON_GREAT_PEOPLE]‚¥ÈËÃ¿»ØºÏ +2 [ICON_GREAT_PEOPLE]‚¥ÈËüc”µ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'è–åŸŽ +5 [ICON_GOLDEN_AGE]é»ƒé‡‘æ™‚ä»£é»žæ•¸,æ‰€æœ‰[ICON_GREAT_PEOPLE]å‰äººæ¯å›žåˆ +2 [ICON_GREAT_PEOPLE]å‰äººé»žæ•¸.'
 WHERE Tag = 'TXT_KEY_BELIEF_ITINERANT_PREACHERS';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÆÕÊÀÖ÷Áx'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ™®ä¸–ä¸»ç¾©'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_UNITY_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÔÚ×Ô¼ºµÄ³ÇÊÐÖÐ,Ã¿ 5 ÃûÆäËû×Ú½ÌµÄÐÅÍ½,Â}³Ç +1 [ICON_RESEARCH]¿Æ¼¼ºÍ[ICON_PRODUCTION]®aÄÜ.ÔÚ‡øÍâ³ÇÊÐÖÐ,Ã¿ 10 Î»±¾ [ICON_RELIGION]×Ú½ÌÐÅÍ½,Â}³Ç +1 [ICON_GOLD]½ðŽÅÅc[ICON_PEACE]ÐÅÑö.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åœ¨è‡ªå·±çš„åŸŽå¸‚ä¸­,æ¯ 5 åå…¶ä»–å®—æ•™çš„ä¿¡å¾’,è–åŸŽ +1 [ICON_RESEARCH]ç§‘æŠ€å’Œ[ICON_PRODUCTION]ç”¢èƒ½.åœ¨åœ‹å¤–åŸŽå¸‚ä¸­,æ¯ 10 ä½æœ¬ [ICON_RELIGION]å®—æ•™ä¿¡å¾’,è–åŸŽ +1 [ICON_GOLD]é‡‘å¹£èˆ‡[ICON_PEACE]ä¿¡ä»°.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_UNITY';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '¿ñŸá'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç‹‚ç†±'
 WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '¿ÉÔÚ³ÇÊÐÖÐ»¨ÙM[ICON_PEACE]ÐÅÑöÙÙIµØÃæ†ÎÎ».Ã¿‚€ÐÅ·î±¾×Ú½ÌµÄ³ÇÊÐÊ¹‘ðÂÔÙYÔ´”µÁ¿Ôö¼Ó 1%(×î¶à 25%).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å¯åœ¨åŸŽå¸‚ä¸­èŠ±è²»[ICON_PEACE]ä¿¡ä»°è³¼è²·åœ°é¢å–®ä½.æ¯å€‹ä¿¡å¥‰æœ¬å®—æ•™çš„åŸŽå¸‚ä½¿æˆ°ç•¥è³‡æºæ•¸é‡å¢žåŠ  1%(æœ€å¤š 25%).'
 WHERE Tag = 'TXT_KEY_BELIEF_HEATHEN_CONVERSION';
 
 ----------------------------------------------
 -- Reformations
 ----------------------------------------------
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ê®×ÖÜŠ¾«Éñ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åå­—è»ç²¾ç¥ž'
 WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '”³·½îIÍÁµÄµØÃæ†ÎÎ»«@µÃ +10% [ICON_STRENGTH]‘ðôYÁ¦,ÈôŒ¦ÊÖ²»ÐÅ·îÄãµÄ×Ú½Ì«@µÃî~Íâ +10%.®”ÄúÕ÷·þ³ÇÊÐ•r,•þ«@µÃ 50 [ICON_CULTURE]ÎÄ»¯Åc[ICON_GOLD]½ðŽÅ,ëSÖø•r´úÅc³ÇÊÐ[ICON_CITIZEN]ÈË¿Ú¶øßfÔö.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ•µæ–¹é ˜åœŸçš„åœ°é¢å–®ä½ç²å¾— +10% [ICON_STRENGTH]æˆ°é¬¥åŠ›,è‹¥å°æ‰‹ä¸ä¿¡å¥‰ä½ çš„å®—æ•™ç²å¾—é¡å¤– +10%.ç•¶æ‚¨å¾æœåŸŽå¸‚æ™‚,æœƒç²å¾— 50 [ICON_CULTURE]æ–‡åŒ–èˆ‡[ICON_GOLD]é‡‘å¹£,éš¨è‘—æ™‚ä»£èˆ‡åŸŽå¸‚[ICON_CITIZEN]äººå£è€Œéžå¢ž.'
 WHERE Tag = 'TXT_KEY_BELIEF_EVANGELISM';
 
 -- Defender of the Faith
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÓÑ·½îIÍÁµÄµØÃæ†ÎÎ»«@µÃ +10% [ICON_STRENGTH]‘ðôYÁ¦,ÈôŒ¦ÊÖ²»ÐÅ·îÄãµÄ×Ú½Ìî~Íâ«@µÃ +10%.ËùÓÐ·À¶R½¨ºBÎï +1 [ICON_PEACE]ÐÅÑöºÍ +2 [ICON_CULTURE]ÎÄ»¯.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å‹æ–¹é ˜åœŸçš„åœ°é¢å–®ä½ç²å¾— +10% [ICON_STRENGTH]æˆ°é¬¥åŠ›,è‹¥å°æ‰‹ä¸ä¿¡å¥‰ä½ çš„å®—æ•™é¡å¤–ç²å¾— +10%.æ‰€æœ‰é˜²ç¦¦å»ºç¯‰ç‰© +1 [ICON_PEACE]ä¿¡ä»°å’Œ +2 [ICON_CULTURE]æ–‡åŒ–.'
 WHERE Tag = 'TXT_KEY_BELIEF_DEFENDER_FAITH';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ÉñÂ}½ÌÕd'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ç¥žè–æ•™èª¨'
 WHERE Tag = 'TXT_KEY_BELIEF_JESUIT_EDUCATION_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '¿ÉÒÔÊ¹ÓÃ [ICON_PEACE] ÐÅÑö½¨ÔìˆD•øð^¡¢´óŒW¡¢¹«Á¢ŒWÐ£ºÍÑÐ°lŒòžÊÒ,ß@Ð©½¨ºB«@µÃ +2 [ICON_RESEARCH]¿Æ¼¼.Â}³ÇÃ¿´ÎÏûºÄ[ICON_GREAT_PEOPLE]‚¥ÈË«@µÃ 20 [ICON_PEACE]ÐÅÑö,ëS•r´úßfÔö.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å¯ä»¥ä½¿ç”¨ [ICON_PEACE] ä¿¡ä»°å»ºé€ åœ–æ›¸é¤¨ã€å¤§å­¸ã€å…¬ç«‹å­¸æ ¡å’Œç ”ç™¼å¯¦é©—å®¤,é€™äº›å»ºç¯‰ç²å¾— +2 [ICON_RESEARCH]ç§‘æŠ€.è–åŸŽæ¯æ¬¡æ¶ˆè€—[ICON_GREAT_PEOPLE]å‰äººç²å¾— 20 [ICON_PEACE]ä¿¡ä»°,éš¨æ™‚ä»£éžå¢ž.'
 WHERE Tag = 'TXT_KEY_BELIEF_JESUIT_EDUCATION';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '´ó±ŠÐÅÑö'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å¤§çœ¾ä¿¡ä»°'
 WHERE Tag = 'TXT_KEY_BELIEF_UNDERGROUND_SECT_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '¿ÉÒÔÊ¹ÓÃ [ICON_PEACE]ÐÅÑö½¨ÔìˆAÐÎ„¡ˆö¡¢¸è„¡Ôº¡¢²©Îïð^ºÍV²¥Ëþ.ß@Ð©½¨ºBÎï +2 [ICON_CULTURE]ÎÄ»¯.Ã¿ƒÉ‚€ÐÅ·î´Ë×Ú½ÌµÄ³ÇÊÐ,Â}³Ç +1 [ICON_HAPPINESS_1]ÐÒ¸£¶È.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å¯ä»¥ä½¿ç”¨ [ICON_PEACE]ä¿¡ä»°å»ºé€ åœ“å½¢åŠ‡å ´ã€æ­ŒåŠ‡é™¢ã€åšç‰©é¤¨å’Œå»£æ’­å¡”.é€™äº›å»ºç¯‰ç‰© +2 [ICON_CULTURE]æ–‡åŒ–.æ¯å…©å€‹ä¿¡å¥‰æ­¤å®—æ•™çš„åŸŽå¸‚,è–åŸŽ +1 [ICON_HAPPINESS_1]å¹¸ç¦åº¦.'
 WHERE Tag = 'TXT_KEY_BELIEF_UNDERGROUND_SECT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'È«ÇòÕ]ÂÉ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'å…¨çƒèª¡å¾‹'
 WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = '[ICON_RELIGION]×Ú½Ì‚÷²¥ËÙ¶È¼Ó¿ì 15%(Ó¡Ë¢Ðg¿Æ¼¼ºó 30%).®”ÄúÔÚÊÀ½ç´ó•þ»òÂ“ºÏ‡øÍ¨ß^Ìá°¸•r,¿É«@µÃ 350 [ICON_RESEARCH]¿Æ¼¼¡¢[ICON_CULTURE]ÎÄ»¯¡¢[ICON_GOLD]½ðŽÅ¡¢[ICON_PEACE]ÐÅÑöºÍ [ICON_GOLDEN_AGE]üS½ð•r´úüc”µ,ëS•r´úßfÔö.'
+UPDATE Language_zh_Hant_HK
+SET Text = '[ICON_RELIGION]å®—æ•™å‚³æ’­é€Ÿåº¦åŠ å¿« 15%(å°åˆ·è¡“ç§‘æŠ€åŽ 30%).ç•¶æ‚¨åœ¨ä¸–ç•Œå¤§æœƒæˆ–è¯åˆåœ‹é€šéŽææ¡ˆæ™‚,å¯ç²å¾— 350 [ICON_RESEARCH]ç§‘æŠ€ã€[ICON_CULTURE]æ–‡åŒ–ã€[ICON_GOLD]é‡‘å¹£ã€[ICON_PEACE]ä¿¡ä»°å’Œ [ICON_GOLDEN_AGE]é»ƒé‡‘æ™‚ä»£é»žæ•¸,éš¨æ™‚ä»£éžå¢ž.'
 WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Â}µØ'
+UPDATE Language_zh_Hant_HK
+SET Text = 'è–åœ°'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_FERVOR_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ã¿“íÓÐ 2 ‚€ [ICON_RELIGION]Â}µØºÍ[ICON_TOURISM]µØ˜Ë,¾Í¿É«@µÃ 1 Î»î~ÍâµÄÊÀ½ç´ó•þ[ICON_DIPLOMAT]´ú±í.ÄÐÅ·î´Ë×Ú½ÌµÄ[ICON_CITY_STATE]³Ç°îµÄÓÑºÃ/ÃËÓÑÌŽ +50% ÊÕÒæ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'æ¯æ“æœ‰ 2 å€‹ [ICON_RELIGION]è–åœ°å’Œ[ICON_TOURISM]åœ°æ¨™,å°±å¯ç²å¾— 1 ä½é¡å¤–çš„ä¸–ç•Œå¤§æœƒ[ICON_DIPLOMAT]ä»£è¡¨.å¾žä¿¡å¥‰æ­¤å®—æ•™çš„[ICON_CITY_STATE]åŸŽé‚¦çš„å‹å¥½/ç›Ÿå‹è™• +50% æ”¶ç›Š.'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_FERVOR';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'ì`¸ÐÖ®×÷'
+UPDATE Language_zh_Hant_HK
+SET Text = 'éˆæ„Ÿä¹‹ä½œ'
 WHERE Tag = 'TXT_KEY_BELIEF_UNITY_OF_PROPHETS_SHORT';
 
-UPDATE Language_ZH_HANT_HK
-SET Text = 'µØ˜ËºÍ‚¥ÈËµÄ¸ÄÁ¼ÔOÊ©•þ®a³ö +2 [ICON_PEACE]ÐÅÑöºÍ[ICON_RESEARCH]¿Æ¼¼.[ICON_GREAT_WORK]¾Þ×÷ +2 [ICON_CULTURE]ÎÄ»¯.¿ÉÒÔÓÃ[ICON_PEACE]ÐÅÑöÙÙI¿¼¹ÅŒW¼Ò.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åœ°æ¨™å’Œå‰äººçš„æ”¹è‰¯è¨­æ–½æœƒç”¢å‡º +2 [ICON_PEACE]ä¿¡ä»°å’Œ[ICON_RESEARCH]ç§‘æŠ€.[ICON_GREAT_WORK]å·¨ä½œ +2 [ICON_CULTURE]æ–‡åŒ–.å¯ä»¥ç”¨[ICON_PEACE]ä¿¡ä»°è³¼è²·è€ƒå¤å­¸å®¶.'
 WHERE Tag = 'TXT_KEY_BELIEF_UNITY_OF_PROPHETS';
 
 -- Sacred Sites
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ö»ÄÜÓÃÐÅÑöÙÙIµÄ½¨ºBÎï,Ã¿‚€¶¼•þÌá¹© +3 [ICON_TOURISM]ÂÃß[˜I¿ƒ.ÊÀ½çÆæÛEºÍ×ÔÈ»ÆæÛE¸÷Ìá¹© +4 [ICON_TOURISM]ÂÃß[˜I¿ƒ.Ë‡Ðg²ØÆ·Ìá¹© +10 [ICON_CULTURE]ÎÄ»¯ºÍ +10 [ICON_TOURISM]ÂÃß[˜I¿ƒ.'
+UPDATE Language_zh_Hant_HK
+SET Text = 'åªèƒ½ç”¨ä¿¡ä»°è³¼è²·çš„å»ºç¯‰ç‰©,æ¯å€‹éƒ½æœƒæä¾› +3 [ICON_TOURISM]æ—…éŠæ¥­ç¸¾.ä¸–ç•Œå¥‡è·¡å’Œè‡ªç„¶å¥‡è·¡å„æä¾› +4 [ICON_TOURISM]æ—…éŠæ¥­ç¸¾.è—è¡“è—å“æä¾› +10 [ICON_CULTURE]æ–‡åŒ–å’Œ +10 [ICON_TOURISM]æ—…éŠæ¥­ç¸¾.'
 WHERE Tag = 'TXT_KEY_BELIEF_SACRED_SITES';
 
 -- To the Glory of God
-UPDATE Language_ZH_HANT_HK
-SET Text = 'Ê¹ÓÃ[ICON_PEACE]ÐÅÑöÙÙIÈÎºÎîÐÍµÄ[ICON_GREAT_PEOPLE]‚¥ÈË (ÔÚ¹¤˜I•r´ú).®”ÄúÏûºÄ[ICON_GREAT_PEOPLE]‚¥ÈË•r,Ã¿‚€ÐÅ·îÄú×Ú½ÌµÄ³ÇÊÐ•þ«@µÃ 3 [ICON_GOLD]½ðŽÅ¡¢[ICON_RESEARCH]¿Æ¼¼ºÍ[ICON_CULTURE]ÎÄ»¯(×î¶à 20 ‚€³ÇÊÐ).'
+UPDATE Language_zh_Hant_HK
+SET Text = 'ä½¿ç”¨[ICON_PEACE]ä¿¡ä»°è³¼è²·ä»»ä½•é¡žåž‹çš„[ICON_GREAT_PEOPLE]å‰äºº (åœ¨å·¥æ¥­æ™‚ä»£).ç•¶æ‚¨æ¶ˆè€—[ICON_GREAT_PEOPLE]å‰äººæ™‚,æ¯å€‹ä¿¡å¥‰æ‚¨å®—æ•™çš„åŸŽå¸‚æœƒç²å¾— 3 [ICON_GOLD]é‡‘å¹£ã€[ICON_RESEARCH]ç§‘æŠ€å’Œ[ICON_CULTURE]æ–‡åŒ–(æœ€å¤š 20 å€‹åŸŽå¸‚).'
 WHERE Tag = 'TXT_KEY_BELIEF_TO_GLORY_OF_GOD';

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_ZH_HANT_HK>
+	<Language_zh_Hant_HK>
 		<Row Tag="TXT_KEY_SPY_PASSIVE_1">
 			<Text>監控 I</Text>
 		</Row>
@@ -63,5 +63,5 @@
 		<Row Tag="TXT_KEY_DIPLOMAT_PASSIVE_4_HELP">
 			<Text>[ICON_BULLET]+20% [ICON_TOURISM]旅遊業績和改善與其他玩家的外交關係[NEWLINE][ICON_BULLET]可購買 35% 其他玩家的世界大會選票[NEWLINE][ICON_BULLET]接收陰謀[NEWLINE][ICON_BULLET]可檢視其他玩家的科技樹及政策界面[NEWLINE][ICON_BULLET]可檢視其他玩家軍事單位的種類與數量[NEWLINE][ICON_BULLET]通往其他玩家的貿易路線 +20% [ICON_GOLD]金幣[NEWLINE][ICON_BULLET]可檢視其他玩家所有進行中的交易[NEWLINE][ICON_BULLET]當被問及對某種文明的看法時,其他玩家總是會透露他們的真實想法</Text>
 		</Row>
-	</Language_ZH_HANT_HK>
+	</Language_zh_Hant_HK>
 </GameData>

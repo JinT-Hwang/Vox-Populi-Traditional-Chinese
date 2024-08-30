@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_ZH_HANT_HK>
+	<Language_zh_Hant_HK>
 		<Row Tag="TXT_KEY_GENERIC_MAPS_OFFER">
 			<Text>我們想向您購買您的世界地圖.您會接受嗎?</Text>
 		</Row>
@@ -176,5 +176,5 @@
 		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_BECOME_VASSAL_2">
 			<Text>您偉大的力量無邊無際.我們的軟弱使我們成為誘人的目標.懇請您保護我們.</Text>
 		</Row>
-	</Language_ZH_HANT_HK>
+	</Language_zh_Hant_HK>
 </GameData>

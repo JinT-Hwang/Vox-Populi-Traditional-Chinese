@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_ZH_HANT_HK>
+	<Language_zh_Hant_HK>
 		<Row Tag="TXT_KEY_DESC_MOUNTED_BOWMAN">
 			<Text>重型游散兵</Text>
 		</Row>
@@ -343,5 +343,5 @@
 		<Row Tag="TXT_KEY_UNITCOMBAT_DIPLOMACY">
 			<Text>外交單位</Text>
 		</Row>
-	</Language_ZH_HANT_HK>
+	</Language_zh_Hant_HK>
 </GameData>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_ZH_HANT_HK>
+	<Language_zh_Hant_HK>
 		<Row Tag="TXT_KEY_CORPORATION_TRADER_SIDS">
 			<Text>Trader Sid's, Inc.</Text>
 		</Row>
@@ -133,5 +133,5 @@
 		<Row Tag="TXT_KEY_CORPORATION_CIVILIZED_JEWELERS_OFFICE_BENEFIT_HELP">
 			<Text>當前辦事處加成: {1_String}</Text>
 		</Row>
-	</Language_ZH_HANT_HK>
+	</Language_zh_Hant_HK>
 </GameData>

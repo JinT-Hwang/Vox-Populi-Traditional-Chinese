@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 1/6/2014 9:56:48 PM -->
 <GameData>
-	<Language_ZH_HANT_HK>
+	<Language_zh_Hant_HK>
 		<Row Tag="TXT_KEY_SPECIALIST_CIVIL_SERVANT">
 			<Text>公務員|公務員</Text>
 			<Plurality>1|2</Plurality>
@@ -15,5 +15,5 @@
 		<Row Tag="TXT_KEY_SPECIALIST_CIVIL_SERVANT_TITLE">
 			<Text>大外交官點數:</Text>
 		</Row>
-	</Language_ZH_HANT_HK>
+	</Language_zh_Hant_HK>
 </GameData>

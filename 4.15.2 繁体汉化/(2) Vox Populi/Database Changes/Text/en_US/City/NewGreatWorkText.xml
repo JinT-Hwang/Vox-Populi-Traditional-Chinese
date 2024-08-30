@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_ZH_HANT_HK>
+	<Language_zh_Hant_HK>
 		<Row Tag="TXT_KEY_GREAT_WORK_FLOOD_TABLET">
 			<Text>洪水碑</Text>
 		</Row>
@@ -14,5 +14,5 @@
 		<Row Tag="TXT_KEY_GREAT_WORK_THE_CROWN_JEWELS_QUOTE">
 			<Text>"恰恰相反.[NEWLINE]每一塊 Bison 美元將值五英鎊.[NEWLINE]因為在我綁架了他們的女王之後,[NEWLINE]英國銀行就會執行這個匯率."[NEWLINE]-M. Bison</Text>
 		</Row>
-	</Language_ZH_HANT_HK>
+	</Language_zh_Hant_HK>
 </GameData>

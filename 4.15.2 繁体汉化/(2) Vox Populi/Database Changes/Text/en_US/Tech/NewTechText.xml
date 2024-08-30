@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_ZH_HANT_HK>
+	<Language_zh_Hant_HK>
 		<Row Tag="TXT_KEY_TECH_CORPORATIONS_TITLE">
 			<Text>公司</Text>
 		</Row>
@@ -13,5 +13,5 @@
 		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_SPLASH">
 			<Text>[NEWLINE][TAB][TAB]"我不是為了擁有客戶而建造.我是為了建造而擁有客戶."[NEWLINE][TAB][TAB]  - Howard Roark[NEWLINE][TAB]</Text>
 		</Row>
-	</Language_ZH_HANT_HK>
+	</Language_zh_Hant_HK>
 </GameData>

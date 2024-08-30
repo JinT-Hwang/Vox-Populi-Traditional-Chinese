@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 1/27/2015 4:17:17 PM -->
 <GameData>
-	<Language_ZH_HANT_HK>
+	<Language_zh_Hant_HK>
 		<Row Tag="TXT_KEY_DEBUG_X_Y">
 			<Text>X: {1_Num} / Y: {2_Num} / 單元格危險: {3_Num}</Text>
 		</Row>
@@ -72,5 +72,5 @@
 			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_FAITH</Tag>
 			<Text>[ICON_PEACE]用信仰購買這個單位或者生產他.</Text>
 		</Row>
-	</Language_ZH_HANT_HK>
+	</Language_zh_Hant_HK>
 </GameData>

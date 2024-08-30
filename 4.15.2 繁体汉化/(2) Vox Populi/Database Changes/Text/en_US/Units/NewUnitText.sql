@@ -1,5 +1,5 @@
 -- Great Diplomat names
-INSERT INTO Language_ZH_HANT_HK
+INSERT INTO Language_zh_Hant_HK
 	(Tag, Text)
 VALUES
 	('TXT_KEY_GREAT_PERSON_KISSINGER', 'Henry Kissinger'),

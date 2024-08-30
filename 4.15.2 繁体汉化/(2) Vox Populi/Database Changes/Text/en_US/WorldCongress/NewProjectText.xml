@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_TREASURE_FLEET">
 			<Text>寶藏艦隊</Text>
 		</Row>
@@ -84,5 +84,5 @@
 		<Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3_HELP">
 			<Text>聯合國奇觀出現在[ICON_CAPITAL]首都.(原本世界上每有 8 個[ICON_CITY_STATE]城邦,就會獲得 1 位 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會[ICON_DIPLOMAT]代表.此外,當您消耗一位[ICON_GREAT_PEOPLE]偉人時,您會在所有[ICON_CITY_STATE]城邦獲得 25 [ICON_INFLUENCE]影響力.觸發[ICON_GOLDEN_AGE]黃金時代,以及[COLOR_POSITIVE_TEXT]聯合國[ENDCOLOR]世界大會特別會議(如果世界已經到達核子時代).</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

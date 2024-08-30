@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- edited with notepad by bc1 -->
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<!-- C4DF Support-->
 		<Replace Tag="TXT_KEY_C4DF_VASSAL_OVERVIEW">
 			<Text>附庸總覽</Text>
@@ -520,5 +520,5 @@
 		<Replace Tag="TXT_KEY_EUI_RESOURCES_QUANTITY_TOTAL_REQUIRED_UNIT_PANEL">
 			<Text>資源獲取要求:</Text>
 		</Replace>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

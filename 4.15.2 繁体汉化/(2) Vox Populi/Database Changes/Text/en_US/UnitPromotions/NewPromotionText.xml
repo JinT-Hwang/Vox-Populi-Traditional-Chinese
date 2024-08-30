@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<!-- Air Repair -->
 		<Row Tag="TXT_KEY_PROMOTION_AIR_REPAIR_HELP">
 			<Text>單位每回合會[COLOR_POSITIVE_TEXT]自我治療[ENDCOLOR], 即使它執行了行動.</Text>
@@ -1123,5 +1123,5 @@
 		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT_HELP">
 			<Text>+25 生命點.</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

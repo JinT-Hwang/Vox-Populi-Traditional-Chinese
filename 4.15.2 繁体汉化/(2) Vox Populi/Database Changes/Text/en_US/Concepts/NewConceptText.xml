@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<Row Tag="TXT_KEY_CONCEPT_CITIES_YIELDS_SCALING_WITH_ERA_TOPIC">
 			<Text>[COLOR_GREEN]收益隨時代遞增[ENDCOLOR]</Text>
 		</Row>
@@ -392,5 +392,5 @@
 		<Row Tag="TXT_KEY_CORPORATION_SPREADING_QUESTION">
 			<Text>我該如何傳播我的公司?</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

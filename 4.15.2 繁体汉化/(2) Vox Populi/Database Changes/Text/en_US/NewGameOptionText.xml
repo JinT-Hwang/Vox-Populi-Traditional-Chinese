@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_TRADING">
 			<Text>無科技買賣</Text>
 		</Row>
@@ -56,5 +56,5 @@
 		<Row Tag="TXT_KEY_GAME_OPTION_PASSIVE_ESPIONAGE_HELP">
 			<Text>停用進階間諜任務.間諜只會在駐守城市時提供被動效益.注意:如果啟用「無間諜」,則此選項無效.</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

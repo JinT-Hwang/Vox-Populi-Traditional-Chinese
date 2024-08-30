@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<Row Tag="TXT_KEY_PROCESS_CULTURE">
 			<Text>藝術</Text>
 		</Row>
@@ -61,5 +61,5 @@
 		<Row Tag="TXT_KEY_PROCESS_UNITED_NATIONS_HELP">
 			<Text>將這個城市的[ICON_PRODUCTION]產能貢獻給聯合國計劃. 成本會根據遊戲中玩家的數量和目前的時代而增加.</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

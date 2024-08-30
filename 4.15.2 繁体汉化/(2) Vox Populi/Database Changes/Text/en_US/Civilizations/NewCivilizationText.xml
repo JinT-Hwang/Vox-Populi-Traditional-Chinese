@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<!-- America -->
 		<Row Tag="TXT_KEY_BUILDING_AMERICA_INDEPENDENCEHALL">
 			<Text>獨立宮</Text>
@@ -491,5 +491,5 @@
 		<Row Tag="TXT_KEY_城市_NAME_ZADAR">
 			<Text>扎達爾</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

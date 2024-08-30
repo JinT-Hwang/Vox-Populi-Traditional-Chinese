@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
 			<Text>鐵腕</Text>
 		</Row>
@@ -65,5 +65,5 @@
 		<Row Tag="TXT_KEY_POLICY_MANHATTAN_PROJECT">
 			<Text>原子彈</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

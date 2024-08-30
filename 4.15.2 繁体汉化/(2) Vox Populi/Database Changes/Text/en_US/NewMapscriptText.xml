@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<!-- Mapscripts VP 版 -->
 		<Row Tag="TXT_KEY_MAP_AMAZON_XP_VP">
 			<Text>亞馬遜加强版 VP 版</Text>
@@ -204,5 +204,5 @@
 		<Row Tag="TXT_KEY_MAP_OVERRIDE_ASSIGN_STARTING_PLOTS_DESCRIPTION">
 			<Text>開啟時可針對特定地圖進行額外優化.關閉可獲得標準 VP 效果.</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

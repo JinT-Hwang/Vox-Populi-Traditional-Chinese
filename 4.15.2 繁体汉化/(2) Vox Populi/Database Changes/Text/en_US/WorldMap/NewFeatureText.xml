@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<Row Tag="TXT_KEY_CIV5_FEATURES_SRI_PADA_HELP">
 			<Text>這個自然奇觀的擁有者所生產的所有新的和現有的工人、工作船、傳教士、異端審問官和開拓者單位,都會獲得 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SACRED_STEPS}[ENDCOLOR] 晉升,賦予他們 +2 [ICON_MOVES]移動力.</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>	

@@ -2,7 +2,7 @@
 <!-- Created by ModBuddy on 1/30/2023 12:08:52 PM -->
 <GameData>
 
-    <Language_en_US>
+    <Language_ZH_HANT_HK>
         <Row Tag="TXT_KEY_SQUADS">
             <Text>小隊</Text>
         </Row>
@@ -51,6 +51,6 @@
         <Row Tag="TXT_KEY_SQUADS_TT_RESET_SQUAD">
             <Text>從這個小隊移除所有單位.可以在單位清單上使用[COLOR_YELLOW]右鍵[ENDCOLOR]從這個小隊中移除個別單位.</Text>
         </Row>
-    </Language_en_US>
+    </Language_ZH_HANT_HK>
   
 </GameData>

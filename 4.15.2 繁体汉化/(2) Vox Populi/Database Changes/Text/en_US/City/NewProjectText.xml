@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS">
 			<Text>公共工程</Text>
 		</Row>
@@ -13,5 +13,5 @@
 		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_STRATEGY">
 			<Text>在長期受到需求所造成的[ICON_HAPPINESS_3]不滿度所苦,而且您已經無法處理的城市中,建造此計劃.不過要小心,因為每次在這個城市建造這個計劃,建造成本都會變高,而且還要花費金幣來維護.當您處理「需求」造成的不滿度時,請將此作為最後的解決方法,而非第一選擇.</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

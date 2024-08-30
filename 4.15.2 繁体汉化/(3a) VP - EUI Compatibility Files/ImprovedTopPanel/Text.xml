@@ -2,7 +2,7 @@
 <!-- Created by ModBuddy on 1/27/2015 4:17:17 PM [ICON_GOLD][COLOR:255:235:0:255]{1_TotalGold: number "##"} {2_GoldPerTurn: number "'(+'##')';'[COLOR:255:60:60:255](-'##')'"}[/COLOR]
  -->
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<Row>
 			<Tag>TXT_KEY_ITP_TOTAL_GOLD</Tag>
 			<Text>[COLOR:255:235:0:255]{1_TotalGold: number "##"}[/COLOR]</Text>
@@ -27,6 +27,6 @@
 			<Tag>TXT_KEY_HAPPINESS_TOP_PANEL_ITP</Tag>
 			<Text>([ICON_HAPPINESS_1][COLOR_POSITIVE_TEXT]{3_Val}[ENDCOLOR]/[ICON_HAPPINESS_3][COLOR_NEGATIVE_TEXT]{2_Val}[ENDCOLOR])</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>
 

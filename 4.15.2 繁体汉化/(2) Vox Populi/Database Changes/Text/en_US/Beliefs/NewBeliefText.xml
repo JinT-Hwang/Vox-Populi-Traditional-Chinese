@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<Row Tag="TXT_KEY_BELIEF_MORRIGAN">
 			<Text>獲得擊殺敵方單位的 200% [ICON_STRENGTH]戰鬥力的[ICON_GOLD]金幣, [ICON_CULTURE]文化,[ICON_GOLDEN_AGE]黃金時代點數.當你掠奪改良設施時,獲得20 [ICON_GOLD]金幣, [ICON_CULTURE]文化,[ICON_GOLDEN_AGE]黃金時代點數 ,隨時代而遞增.蓋爾宴會廳 +2 [ICON_GREAT_GENERAL]大將軍點數.</Text>
 		</Row>
@@ -120,5 +120,5 @@
 		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_TOOLTIP">
 			<Text>+2 [ICON_PEACE]信仰[NEWLINE][NEWLINE]{TXT_KEY_BUILDING_TEOCALLI_HELP}</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

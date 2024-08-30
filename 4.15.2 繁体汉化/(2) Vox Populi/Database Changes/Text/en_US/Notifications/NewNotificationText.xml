@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCTING_WONDER_ANY_CITY">
 			<Text>{1_SpyRank} {2_SpyName} 發現 {3_PlayerName} 正在他們的某個城市建造 {4_WonderOrProject} in one of their cities.</Text>
 		</Row>
@@ -833,5 +833,5 @@
 		<Row Tag="TXT_KEY_BALANCE_ANNEXED_CS_SUMMARY">
 			<Text>你已霸凌 {1_CS}!</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

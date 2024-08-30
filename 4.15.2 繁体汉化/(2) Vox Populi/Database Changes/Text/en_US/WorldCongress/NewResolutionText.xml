@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<Row Tag="TXT_KEY_RESOLUTION_SOI">
 			<Text>影響力範圍</Text>
 		</Row>
@@ -87,5 +87,5 @@
 		<Row Tag="TXT_KEY_RESOLUTION_UNITED_NATIONS_HELP">
 			<Text>開始聯合國計畫.一旦開始,各文明可以在城市生產列表中選擇該項目,為完成該項目貢獻[ICON_PRODUCTION]產能.當完成時,文明會根據他們的貢獻獲得加成.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_UNITED_NATIONS_1_HELP}[NEWLINE][NEWLINE]一旦任何文明發現原子理論,即可使用.</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

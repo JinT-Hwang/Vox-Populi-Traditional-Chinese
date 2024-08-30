@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_NEED_MORE">
 			<Text>[COLOR_WARNING_TEXT]你必須先解鎖 {1_Num} 其他分支的政策後, 這個分支才能解鎖.[ENDCOLOR]</Text>
 		</Row>
@@ -3387,5 +3387,5 @@
 		<Row Tag="TXT_KEY_ANTIQUITY_LEGEND_HIDDEN_SITE">
 			<Text>隱藏的歷史古跡</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

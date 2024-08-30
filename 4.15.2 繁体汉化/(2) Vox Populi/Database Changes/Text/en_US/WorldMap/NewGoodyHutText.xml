@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<Language_en_US>
+	<Language_ZH_HANT_HK>
 		<Row Tag="TXT_KEY_GOODY_PRODUCTION">
 			<Text>您發現了一批補給品,可以提升最近城市的[ICON_PRODUCTION]產能!</Text>
 		</Row>
@@ -22,5 +22,5 @@
 		<Row Tag="TXT_KEY_GOODY_CHOOSE_SCIENCE">
 			<Text>遠古文物隱含的[ICON_RESEARCH]科學.</Text>
 		</Row>
-	</Language_en_US>
+	</Language_ZH_HANT_HK>
 </GameData>

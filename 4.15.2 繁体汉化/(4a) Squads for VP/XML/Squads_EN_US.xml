@@ -31,7 +31,7 @@
             <Text>顯示小隊數量在單位的旗幟上</Text>
         </Row>
         <Row Tag="TXT_KEY_SQUADS_MOVEMENT_END_TYPE">
-            <Text>小隊移動結束行為:</Text>
+            <Text>小隊移動結束行為：</Text>
         </Row>
         <Row Tag="TXT_KEY_SQUADS_MOVEMENT_END_TYPE_ALERT_ON_ARRIVAL">
             <Text>到達時提醒</Text>
@@ -43,13 +43,13 @@
             <Text>小隊抵達時喚醒</Text>
         </Row>
         <Row Tag="TXT_KEY_SQUADS_TT_MANAGE_SQUAD">
-            <Text>進入管理模式,可以用 [COLOR_YELLOW]左鍵[ENDCOLOR]在單位或其旗幟上加入或移除單位.按住[COLOR_YELLOW]右鍵[ENDCOLOR],然後在要加入的單位上拖曳方框,就可以一次將多組單位加入小隊.也可以使用[COLOR_YELLOW]CTRL+NUM[ENDCOLOR]組合鍵進入管理模式,其中 num 是小隊編號鍵.</Text>
+            <Text>進入管理模式，可以用 [COLOR_YELLOW]左鍵[ENDCOLOR]在單位或其旗幟上加入或移除單位。按住[COLOR_YELLOW]右鍵[ENDCOLOR]，然後在要加入的單位上拖曳方框，就可以一次將多組單位加入小隊。也可以使用[COLOR_YELLOW]CTRL+NUM[ENDCOLOR]組合鍵進入管理模式，其中 num 是小隊編號鍵。</Text>
         </Row>
         <Row Tag="TXT_KEY_SQUADS_TT_MOVE_SQUAD">
-            <Text>進入移動模式,[COLOR_YELLOW]右鍵[ENDCOLOR]某單元格會向該小隊的所有單位發出移動指令,讓他們移動到該區域.雙擊小隊對應的數字鍵也可以進入小隊的移動模式.</Text>
+            <Text>進入移動模式，[COLOR_YELLOW]右鍵[ENDCOLOR]某單元格會向該小隊的所有單位發出移動指令，讓他們移動到該區域。雙擊小隊對應的數字鍵也可以進入小隊的移動模式。</Text>
         </Row>
         <Row Tag="TXT_KEY_SQUADS_TT_RESET_SQUAD">
-            <Text>從這個小隊移除所有單位.可以在單位清單上使用[COLOR_YELLOW]右鍵[ENDCOLOR]從這個小隊中移除個別單位.</Text>
+            <Text>從這個小隊移除所有單位。可以在單位清單上使用[COLOR_YELLOW]右鍵[ENDCOLOR]從這個小隊中移除個別單位。</Text>
         </Row>
     </Language_zh_Hant_HK>
   

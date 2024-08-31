@@ -14,7 +14,7 @@
 1.从上方的英文原版地址下载 4.15.2 版本 exe, 或者使用附带的.
 
 
-2.将游戏语言设置为繁体. 或者用查找替换工具, 对 "4.15.2 繁体汉化" 文件夹中的 Language_ZH_HANT_HK 替换为 你目前使用的游戏语言的缩写. 
+2.将游戏语言设置为繁体. 或者用查找替换工具, 对 "4.15.2 繁体汉化" 文件夹中的 Language_zh_Hant_HK 替换为 你目前使用的游戏语言的缩写. 
 
 语言缩写有 ( Language_zh_CN / Language_en_US / Language_de_DE / Language_es_ES / Language_fr_FR / Language_it_IT / Language_ja_JP / Language_ru_RU / Language_pl_PL / Language_ko_KR )
 

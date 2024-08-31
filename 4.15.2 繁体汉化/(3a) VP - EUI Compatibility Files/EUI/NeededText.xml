@@ -3,10 +3,10 @@
 <GameData>
 	<Language_zh_Hant_HK>
 		<Row Tag="TXT_KEY_DEBUG_X_Y">
-			<Text>X: {1_Num} / Y: {2_Num} / 單元格危險: {3_Num}</Text>
+			<Text>X：{1_Num} / Y：{2_Num} / 單元格危險：{3_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CP_HAPPINESS_EXPLANATION">
-			<Text>這是全帝國的細分. [ICON_HAPPINESS_1]幸福度由每個城市中的[ICON_HAPPINESS_3]不滿度計算得出.不滿度受限于城市規模,除了都市化政策!</Text>
+			<Text>這是全帝國的細分。[ICON_HAPPINESS_1]幸福度由每個城市中的[ICON_HAPPINESS_3]不滿度計算得出。不滿度受限于城市規模，除了都市化政策！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_LOCAL_RESOURCES_CBP">
 			<Text>本地資源</Text>
@@ -45,7 +45,7 @@
 			<Text> [COLOR_POSITIVE_TEXT]隸屬於[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_DIPLO_WARSCORE_CP">
-			<Text>戰爭分數:</Text>
+			<Text>戰爭分數：</Text>
 		</Row>
 		<Row Tag="TXT_KEY_AT_WAR_WITH_CP">
 			<Text> [COLOR_NEGATIVE_TEXT]與 {1_enemy} 處於戰爭中[ENDCOLOR]</Text>
@@ -57,20 +57,20 @@
 			<Text>取消隱藏</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CITYVIEW_UNHIDE_BUILDINGS_TT">
-			<Text>在這個城市的生產選項中,讓隱藏的建築物再次顯現.</Text>
+			<Text>在這個城市的生產選項中，讓隱藏的建築物再次顯現。</Text>
 		</Row>
 		<!-- Condensed Help Texts -->
 		<Row>
 			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_BUILDING</Tag>
-			<Text>[ICON_GOLD]花費在建築物上的金幣會投資在建築物上,降低其[ICON_PRODUCTION]生產成本 50%(奇跡為 25%)</Text>
+			<Text>[ICON_GOLD]花費在建築物上的金幣會投資在建築物上，降低其[ICON_PRODUCTION]生產成本 50%(奇跡為 25%)</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_UNIT</Tag>
-			<Text>[ICON_GOLD]金幣購買的單位初始的經驗是[ICON_PRODUCTION]生產的單位的一半.</Text>
+			<Text>[ICON_GOLD]金幣購買的單位初始的經驗是[ICON_PRODUCTION]生產的單位的一半。</Text>
 		</Row>
 		<Row>
 			<Tag>TXT_KEY_CITYVIEW_PURCHASE_TT_FAITH</Tag>
-			<Text>[ICON_PEACE]用信仰購買這個單位或者生產他.</Text>
+			<Text>[ICON_PEACE]用信仰購買這個單位或者生產他。</Text>
 		</Row>
 	</Language_zh_Hant_HK>
 </GameData>

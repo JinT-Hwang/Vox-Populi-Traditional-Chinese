@@ -5,13 +5,13 @@
 			<Text>公共工程</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_HELP">
-			<Text>增加城市 1 [ICON_HAPPINESS_1]幸福度,減少城市 10% [ICON_CITY_STATE]帝國規模修正,並減少城市 1 [ICON_HAPPINESS_3]來自所有需求的不滿度. 同時提升城市 5 [ICON_SPY]城市安保.[NEWLINE][NEWLINE]是一個可重複的計劃,然而[ICON_PRODUCTION]生產成本每個時代遞增 +100 [ICON_PRODUCTION]產能,每次您在此城市建造此計劃時,都會遞增 +100 [ICON_PRODUCTION]產能.[NEWLINE][NEWLINE]每次建造都會增加城市 2 [ICON_GOLD]維護費.</Text>
+			<Text>增加城市 1 [ICON_HAPPINESS_1]幸福度，減少城市 10% [ICON_CITY_STATE]帝國規模修正，並減少城市 1 [ICON_HAPPINESS_3]來自所有需求的不滿度。同時提升城市 5 [ICON_SPY]城市安保。[NEWLINE][NEWLINE]是一個可重複的計劃，然而[ICON_PRODUCTION]生產成本每個時代遞增 +100 [ICON_PRODUCTION]產能，每次您在此城市建造此計劃時，都會遞增 +100 [ICON_PRODUCTION]產能。[NEWLINE][NEWLINE]每次建造都會增加城市 2 [ICON_GOLD]維護費。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_PEDIA">
-			<Text>公共工程是一大類基礎建設項目,由政府出資興建,用於大社區的休閒、就業、健康與安全用途.公共工程包括公共建築 (市政大樓、學校、醫院)、運輸基礎設施 (道路、鐵路、橋樑、管道、運河、港口、機場)、公共空間 (公共廣場、公園、海灘)、公共服務 (供水與處理、污水處理、電網、水壩),以及其他通常是長期的實體資產與設施.雖然公共工程通常可與公共基礎設施和公共資本交換使用,但它不一定包含經濟成分,因此是一個更廣泛的術語.</Text>
+			<Text>公共工程是一大類基礎建設項目，由政府出資興建，用於大社區的休閒、就業、健康與安全用途。公共工程包括公共建築 (市政大樓、學校、醫院)、運輸基礎設施 (道路、鐵路、橋樑、管道、運河、港口、機場)、公共空間 (公共廣場、公園、海灘)、公共服務 (供水與處理、污水處理、電網、水壩)，以及其他通常是長期的實體資產與設施。雖然公共工程通常可與公共基礎設施和公共資本交換使用，但它不一定包含經濟成分，因此是一個更廣泛的術語。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROJECT_PUBLIC_WORKS_STRATEGY">
-			<Text>在長期受到需求所造成的[ICON_HAPPINESS_3]不滿度所苦,而且您已經無法處理的城市中,建造此計劃.不過要小心,因為每次在這個城市建造這個計劃,建造成本都會變高,而且還要花費金幣來維護.當您處理「需求」造成的不滿度時,請將此作為最後的解決方法,而非第一選擇.</Text>
+			<Text>在長期受到需求所造成的[ICON_HAPPINESS_3]不滿度所苦，而且您已經無法處理的城市中，建造此計劃。不過要小心，因為每次在這個城市建造這個計劃，建造成本都會變高，而且還要花費金幣來維護。當您處理「需求」造成的不滿度時，請將此作為最後的解決方法，而非第一選擇。</Text>
 		</Row>
 	</Language_zh_Hant_HK>
 </GameData>

@@ -2,7 +2,7 @@
 <GameData>
 	<Language_zh_Hant_HK>
 		<Row Tag="TXT_KEY_TP_FAITH_NEXT_PROPHET_PARAM">
-			<Text>{1_Num} [ICON_PEACE]信仰是你下一個 {2_UNITCLASS_PROPHET} 的最低要求.</Text>
+			<Text>{1_Num} [ICON_PEACE]信仰是你下一個 {2_UNITCLASS_PROPHET} 的最低要求。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_RO_FAITH_TOOLTIP_PARAM">

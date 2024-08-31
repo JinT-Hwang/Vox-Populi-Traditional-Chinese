@@ -3,800 +3,800 @@
 	<Language_zh_Hant_HK>
 		<!-- Air Repair -->
 		<Row Tag="TXT_KEY_PROMOTION_AIR_REPAIR_HELP">
-			<Text>單位每回合會[COLOR_POSITIVE_TEXT]自我治療[ENDCOLOR], 即使它執行了行動.</Text>
+			<Text>單位每回合會[COLOR_POSITIVE_TEXT]自我治療[ENDCOLOR]，即使它執行了行動。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_AIR_LOGISTICS">
 			<Text>空軍後勤</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_LOGISTICS_HELP">
-			<Text>+1 [ICON_WAR]攻擊.</Text>
+			<Text>+1 [ICON_WAR]攻擊。</Text>
 		</Row>
 
 		<!-- Tank Hunter -->
 		<Row Tag="TXT_KEY_PROMOTION_HELI_AMBUSH_1_HELP">
-			<Text>+50% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]裝甲單位[ENDCOLOR].</Text>
+			<Text>+50% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]裝甲單位[ENDCOLOR]。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HELI_AMBUSH_2_HELP">
-			<Text>+50% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]裝甲單位[ENDCOLOR].</Text>
+			<Text>+50% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]裝甲單位[ENDCOLOR]。</Text>
 		</Row>
 
 		<!-- Air Penetration -->
 		<Row Tag="TXT_KEY_PROMOTION_EVASION_I_HELP">
-			<Text>+33% 機率會[COLOR_POSITIVE_TEXT]閃避空中攔截[ENDCOLOR].</Text>
+			<Text>+33% 機率會[COLOR_POSITIVE_TEXT]閃避空中攔截[ENDCOLOR]。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EVASION_II_HELP">
-			<Text>+33% 機率會[COLOR_POSITIVE_TEXT]閃避空中攔截[ENDCOLOR].</Text>
+			<Text>+33% 機率會[COLOR_POSITIVE_TEXT]閃避空中攔截[ENDCOLOR]。</Text>
 		</Row>
 
 		<!-- Interceptor -->
 		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_I_HELP">
-			<Text>+15% 機率會[COLOR_POSITIVE_TEXT]攔截[ENDCOLOR]敵人空軍單位.</Text>
+			<Text>+15% 機率會[COLOR_POSITIVE_TEXT]攔截[ENDCOLOR]敵人空軍單位。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_II_HELP">
-			<Text>+15% 機率會[COLOR_POSITIVE_TEXT]攔截[ENDCOLOR]敵人空軍單位.</Text>
+			<Text>+15% 機率會[COLOR_POSITIVE_TEXT]攔截[ENDCOLOR]敵人空軍單位。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_III_HELP">
-			<Text>+15% 機率會[COLOR_POSITIVE_TEXT]攔截[ENDCOLOR]敵人空軍單位.</Text>
+			<Text>+15% 機率會[COLOR_POSITIVE_TEXT]攔截[ENDCOLOR]敵人空軍單位。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_IV_HELP">
-			<Text>+15% 機率會[COLOR_POSITIVE_TEXT]攔截[ENDCOLOR]敵人空軍單位.</Text>
+			<Text>+15% 機率會[COLOR_POSITIVE_TEXT]攔截[ENDCOLOR]敵人空軍單位。</Text>
 		</Row>
 
 		<!-- Air Supremacy -->
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_HELP">
-			<Text>+100% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]空軍單位[ENDCOLOR].</Text>
+			<Text>+100% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]空軍單位[ENDCOLOR]。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_II_HELP">
-			<Text>+100% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]空軍單位[ENDCOLOR].</Text>
+			<Text>+100% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]空軍單位[ENDCOLOR]。</Text>
 		</Row>
 
 		<!-- Eagle Hunter -->
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_FIGHTER_HELP">
-			<Text>+33% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]戰鬥機單位[ENDCOLOR].</Text>
+			<Text>+33% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]戰鬥機單位[ENDCOLOR]。</Text>
 		</Row>
 
 		<!-- Can See Submarine -->
 		<Row Tag="TXT_KEY_PROMOTION_SEE_INVISIBLE_SUBMARINE_HELP">
-			<Text>在[ICON_VP_VISION]視野範圍內[COLOR_POSITIVE_TEXT]揭露隱形潛艇[ENDCOLOR].</Text>
+			<Text>在[ICON_VP_VISION]視野範圍內[COLOR_POSITIVE_TEXT]揭露隱形潛艇[ENDCOLOR]。</Text>
 		</Row>
 
 		<!-- Anti-Tank Rounds -->
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_TANK_HELP">
-			<Text>+50% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]裝甲單位[ENDCOLOR].</Text>
+			<Text>+50% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]裝甲單位[ENDCOLOR]。</Text>
 		</Row>
 
 		<!-- Moves at half-speed in enemy territory -->
 		<Row Tag="TXT_KEY_PROMOTION_MUST_SET_UP_HELP">
-			<Text>在[COLOR_NEGATIVE_TEXT]敵人領土[ENDCOLOR]只有一半的[ICON_MOVES]移動力 .</Text>
+			<Text>在[COLOR_NEGATIVE_TEXT]敵人領土[ENDCOLOR]只有一半的[ICON_MOVES]移動力。</Text>
 		</Row>
 
 		<!-- May Paradrop -->
 		<Row Tag="TXT_KEY_PROMOTION_PARADROP_HELP">
-			<Text>當[COLOR_POSITIVE_TEXT]在友方領土內[ENDCOLOR], 可以最多[COLOR_POSITIVE_TEXT]空投[ENDCOLOR] 9 個單元格.</Text>
+			<Text>當[COLOR_POSITIVE_TEXT]在友方領土內[ENDCOLOR]，可以最多[COLOR_POSITIVE_TEXT]空投[ENDCOLOR] 9 個單元格。</Text>
 		</Row>
 
 		<!-- Depth Charges -->
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_I_HELP">
-			<Text>+33% 攻擊[ICON_STRENGTH]戰鬥力, 並且 +25% 防禦[ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]潛艇單位[ENDCOLOR].</Text>
+			<Text>+33% 攻擊[ICON_STRENGTH]戰鬥力，並且 +25% 防禦[ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]潛艇單位[ENDCOLOR]。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_II_HELP">
-			<Text>+66% 攻擊[ICON_STRENGTH]戰鬥力, 並且 +50% 防禦[ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]潛艇單位[ENDCOLOR].</Text>
+			<Text>+66% 攻擊[ICON_STRENGTH]戰鬥力，並且 +50% 防禦[ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]潛艇單位[ENDCOLOR]。</Text>
 		</Row>
 
 		<!-- Cargo -->
 		<Row Tag="TXT_KEY_PROMOTION_CARGO_I_HELP">
-			<Text>+1 運載槽位.</Text>
+			<Text>+1 運載槽位。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARGO_II_HELP">
-			<Text>+2 運載槽位.</Text>
+			<Text>+2 運載槽位。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARGO_III_HELP">
-			<Text>+3 運載槽位.</Text>
+			<Text>+3 運載槽位。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CARGO_IV_HELP">
-			<Text>+4 運載槽位.</Text>
+			<Text>+4 運載槽位。</Text>
 		</Row>
 
 		<!-- Silent Hunter -->
 		<Row Tag="TXT_KEY_PROMOTION_SILENT_HUNTER_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]海軍[ENDCOLOR]和[COLOR_POSITIVE_TEXT]陸地單位[ENDCOLOR]時, +50% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]海軍[ENDCOLOR]和[COLOR_POSITIVE_TEXT]陸地單位[ENDCOLOR]時，+50% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY">
 			<Text>主城攻擊懲罰</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BIG_CITY_PENALTY_HELP">
-			<Text>攻擊[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]時, -75% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]時，-75% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<!-- Bonus vs Helicopters (150) -->
 		<Row Tag="TXT_KEY_PROMOTION_ANTI_HELICOPTER_HELP">
-			<Text>+150% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]武裝直升機[ENDCOLOR].</Text>
+			<Text>+150% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]武裝直升機[ENDCOLOR]。</Text>
 		</Row>
 
 		<!-- 開闊地形 Bonus (30) -->
 		<Row Tag="TXT_KEY_PROMOTION_OPEN_TERRAIN_HELP">
-			<Text>在[COLOR_POSITIVE_TEXT]開闊地形[ENDCOLOR]攻擊或防禦 +30% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>在[COLOR_POSITIVE_TEXT]開闊地形[ENDCOLOR]攻擊或防禦 +30% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<!-- Tenacity -->
 		<Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY_HELP">
-			<Text>擊敗敵人單位後, 治療 25 HP.</Text>
+			<Text>擊敗敵人單位後，治療 25 HP。</Text>
 		</Row>
 
 		<!-- Faster Healing -->
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_HEAL_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]治療[ENDCOLOR] +10 HP.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]治療[ENDCOLOR] +10 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_1">
 			<Text>攻堅 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_1_HELP">
-			<Text>攻擊時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力.[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力。[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_2">
 			<Text>攻堅 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_2_HELP">
-			<Text>攻擊時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力.[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力。[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_3">
 			<Text>攻堅 III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_3_HELP">
-			<Text>攻擊時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力.[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力。[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_1">
 			<Text>野外 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_1_HELP">
-			<Text>+10% [ICON_RANGE_STRENGTH]遠程戰鬥力.[NEWLINE]在[COLOR_POSITIVE_TEXT]開闊地形[ENDCOLOR]攻擊單位時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力.</Text>
+			<Text>+10% [ICON_RANGE_STRENGTH]遠程戰鬥力。[NEWLINE]在[COLOR_POSITIVE_TEXT]開闊地形[ENDCOLOR]攻擊單位時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_2">
 			<Text>野外 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_2_HELP">
-			<Text>+10% [ICON_RANGE_STRENGTH]遠程戰鬥力.[NEWLINE]在[COLOR_POSITIVE_TEXT]開闊地形[ENDCOLOR]攻擊單位時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力.</Text>
+			<Text>+10% [ICON_RANGE_STRENGTH]遠程戰鬥力。[NEWLINE]在[COLOR_POSITIVE_TEXT]開闊地形[ENDCOLOR]攻擊單位時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_3">
 			<Text>野外 III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_3_HELP">
-			<Text>+10% [ICON_RANGE_STRENGTH]遠程戰鬥力.[NEWLINE]在[COLOR_POSITIVE_TEXT]開闊地形[ENDCOLOR]攻擊單位時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力.</Text>
+			<Text>+10% [ICON_RANGE_STRENGTH]遠程戰鬥力。[NEWLINE]在[COLOR_POSITIVE_TEXT]開闊地形[ENDCOLOR]攻擊單位時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_1">
 			<Text>開路先鋒 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_1_HELP">
-			<Text>+1 [ICON_VP_VISION]視野和海運視野.[NEWLINE]忽視在[COLOR_POSITIVE_TEXT]森林[ENDCOLOR], [COLOR_POSITIVE_TEXT]叢林[ENDCOLOR]和[COLOR_POSITIVE_TEXT]丘陵[ENDCOLOR]的地形成本.</Text>
+			<Text>+1 [ICON_VP_VISION]視野和海運視野。[NEWLINE]忽視在[COLOR_POSITIVE_TEXT]森林[ENDCOLOR]，[COLOR_POSITIVE_TEXT]叢林[ENDCOLOR]和[COLOR_POSITIVE_TEXT]丘陵[ENDCOLOR]的地形成本。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_2">
 			<Text>開路先鋒 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_2_HELP">
-			<Text>+1 [ICON_MOVES]移動力和海運移動力.[NEWLINE]忽視在[COLOR_POSITIVE_TEXT]沙漠[ENDCOLOR], [COLOR_POSITIVE_TEXT]雪原[ENDCOLOR]和[COLOR_POSITIVE_TEXT]湿地[ENDCOLOR]的地形成本.[NEWLINE]消除渡河攻擊的戰鬥懲罰.[NEWLINE]渡河只消耗 1 [ICON_MOVES]移動力.</Text>
+			<Text>+1 [ICON_MOVES]移動力和海運移動力。[NEWLINE]忽視在[COLOR_POSITIVE_TEXT]沙漠[ENDCOLOR]，[COLOR_POSITIVE_TEXT]雪原[ENDCOLOR]和[COLOR_POSITIVE_TEXT]湿地[ENDCOLOR]的地形成本。[NEWLINE]消除渡河攻擊的戰鬥懲罰。[NEWLINE]渡河只消耗 1 [ICON_MOVES]移動力。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_3">
 			<Text>開路先鋒 III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODLAND_TRAILBLAZER_3_HELP">
-			<Text>+20% [COLOR_POSITIVE_TEXT]友好領土外[ENDCOLOR]的[ICON_STRENGTH]戰鬥力.[NEWLINE]可以海運, 穿過山嶽和使用敵人道路/鐵路.[NEWLINE]忽視[COLOR_POSITIVE_TEXT]區域控制[ENDCOLOR].</Text>
+			<Text>+20% [COLOR_POSITIVE_TEXT]友好領土外[ENDCOLOR]的[ICON_STRENGTH]戰鬥力。[NEWLINE]可以海運，穿過山嶽和使用敵人道路、鐵路。[NEWLINE]忽視[COLOR_POSITIVE_TEXT]區域控制[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_ARTILLERY">
 			<Text>海岸火砲</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_ARTILLERY_HELP">
-			<Text>+50% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]海軍近戰[ENDCOLOR], [COLOR_POSITIVE_TEXT]海軍遠程[ENDCOLOR]和[COLOR_POSITIVE_TEXT]航空母艦[ENDCOLOR]單位.</Text>
+			<Text>+50% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]海軍近戰[ENDCOLOR]，[COLOR_POSITIVE_TEXT]海軍遠程[ENDCOLOR]和[COLOR_POSITIVE_TEXT]航空母艦[ENDCOLOR]單位。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SPLASH_1">
 			<Text>濺射傷害 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SPLASH_1_HELP">
-			<Text>攻擊時, 對所有與目標單位[COLOR_POSITIVE_TEXT]相鄰[ENDCOLOR]的敵人單位, 造成[COLOR_POSITIVE_TEXT]5 傷害[ENDCOLOR].[NEWLINE]此傷害忽視傷害減免,但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人.</Text>
+			<Text>攻擊時，對所有與目標單位[COLOR_POSITIVE_TEXT]相鄰[ENDCOLOR]的敵人單位，造成[COLOR_POSITIVE_TEXT]5 傷害[ENDCOLOR]。[NEWLINE]此傷害忽視傷害減免，但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SPLASH_2">
 			<Text>濺射傷害 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SPLASH_2_HELP">
-			<Text>攻擊時, 對所有與目標單位[COLOR_POSITIVE_TEXT]相鄰[ENDCOLOR]的敵人單位, 造成[COLOR_POSITIVE_TEXT]5 傷害[ENDCOLOR].[NEWLINE]此傷害忽視傷害減免,但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人.</Text>
+			<Text>攻擊時，對所有與目標單位[COLOR_POSITIVE_TEXT]相鄰[ENDCOLOR]的敵人單位，造成[COLOR_POSITIVE_TEXT]5 傷害[ENDCOLOR]。[NEWLINE]此傷害忽視傷害減免，但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVIGATOR_1">
 			<Text>領航員I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVIGATOR_1_HELP">
-			<Text>+1 [ICON_MOVES]移動力.[NEWLINE]+1 [ICON_VP_VISION]視野.</Text>
+			<Text>+1 [ICON_MOVES]移動力。[NEWLINE]+1 [ICON_VP_VISION]視野。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVIGATOR_2">
 			<Text>領航員II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVIGATOR_2_HELP">
-			<Text>+1 [ICON_MOVES]移動力.[NEWLINE]+1 [ICON_VP_VISION]視野.</Text>
+			<Text>+1 [ICON_MOVES]移動力。[NEWLINE]+1 [ICON_VP_VISION]視野。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_1">
 			<Text>防空 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_1_HELP">
-			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +10% [ICON_STRENGTH]戰鬥力.[NEWLINE]防禦空襲時 +15 傷害給[COLOR_POSITIVE_TEXT]空軍單位[ENDCOLOR].[NEWLINE][NEWLINE]一旦你完成研究 [COLOR_CYAN]{TXT_KEY_TECH_FLIGHT_TITLE}[ENDCOLOR] 即可用.</Text>
+			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +10% [ICON_STRENGTH]戰鬥力。[NEWLINE]防禦空襲時 +15 傷害給[COLOR_POSITIVE_TEXT]空軍單位[ENDCOLOR]。[NEWLINE][NEWLINE]一旦你完成研究 [COLOR_CYAN]{TXT_KEY_TECH_FLIGHT_TITLE}[ENDCOLOR] 即可用。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_2">
 			<Text>防空 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_2_HELP">
-			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +10% [ICON_STRENGTH]戰鬥力.[NEWLINE]防禦空襲時 +20 傷害給[COLOR_POSITIVE_TEXT]空軍單位[ENDCOLOR].[NEWLINE][NEWLINE]一旦你完成研究 [COLOR_CYAN]{TXT_KEY_TECH_FLIGHT_TITLE}[ENDCOLOR] 即可用.</Text>
+			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +10% [ICON_STRENGTH]戰鬥力。[NEWLINE]防禦空襲時 +20 傷害給[COLOR_POSITIVE_TEXT]空軍單位[ENDCOLOR]。[NEWLINE][NEWLINE]一旦你完成研究 [COLOR_CYAN]{TXT_KEY_TECH_FLIGHT_TITLE}[ENDCOLOR] 即可用。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_3">
 			<Text>防空 III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ANTIAIR_LAND_3_HELP">
-			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +10% [ICON_STRENGTH]戰鬥力.[NEWLINE]防禦空襲時 +25 傷害給[COLOR_POSITIVE_TEXT]空軍單位[ENDCOLOR].[NEWLINE][NEWLINE]一旦你完成研究 [COLOR_CYAN]{TXT_KEY_TECH_FLIGHT_TITLE}[ENDCOLOR] 即可用.</Text>
+			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +10% [ICON_STRENGTH]戰鬥力。[NEWLINE]防禦空襲時 +25 傷害給[COLOR_POSITIVE_TEXT]空軍單位[ENDCOLOR]。[NEWLINE][NEWLINE]一旦你完成研究 [COLOR_CYAN]{TXT_KEY_TECH_FLIGHT_TITLE}[ENDCOLOR] 即可用。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CHARGE_2">
 			<Text>猛烈衝鋒 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CHARGE_2_HELP">
-			<Text>在[COLOR_POSITIVE_TEXT]開闊地形[ENDCOLOR]攻擊單位時 +10% [ICON_STRENGTH]戰鬥力.[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]受傷單位[ENDCOLOR]時 +20% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>在[COLOR_POSITIVE_TEXT]開闊地形[ENDCOLOR]攻擊單位時 +10% [ICON_STRENGTH]戰鬥力。[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]受傷單位[ENDCOLOR]時 +20% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3">
 			<Text>定位 III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]海軍[ENDCOLOR]和[COLOR_POSITIVE_TEXT]陸地單位[ENDCOLOR]時 +25% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]海軍[ENDCOLOR]和[COLOR_POSITIVE_TEXT]陸地單位[ENDCOLOR]時 +25% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4">
 			<Text>超限</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SHOCK_4_HELP">
-			<Text>+25% [COLOR_POSITIVE_TEXT]側翼加成[ENDCOLOR].[NEWLINE]擊敗敵人單位後再進攻時, 造成[COLOR_POSITIVE_TEXT]10 傷害[ENDCOLOR]給所有新相鄰的敵方單位.[NEWLINE]此傷害忽視傷害減免,但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人.</Text>
+			<Text>+25% [COLOR_POSITIVE_TEXT]側翼加成[ENDCOLOR]。[NEWLINE]擊敗敵人單位後再進攻時，造成[COLOR_POSITIVE_TEXT]10 傷害[ENDCOLOR]給所有新相鄰的敵方單位。[NEWLINE]此傷害忽視傷害減免，但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DRILL_4">
 			<Text>堅毅</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DRILL_4_HELP">
-			<Text>+35% 防禦[ICON_STRENGTH]戰鬥力.</Text>
+			<Text>+35% 防禦[ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4">
 			<Text>開火理論</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_4_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]超過 50% HP 的單位[ENDCOLOR]時 +25% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]超過 50% HP 的單位[ENDCOLOR]時 +25% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_4">
 			<Text>潛入者</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_4_HELP">
-			<Text>在[COLOR_POSITIVE_TEXT]友好領土外[ENDCOLOR] +15% [ICON_STRENGTH]戰鬥力.[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]受傷單位[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力.[NEWLINE]如果沒有與任何[COLOR_NEGATIVE_TEXT]己方單位[ENDCOLOR]相鄰 +10% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>在[COLOR_POSITIVE_TEXT]友好領土外[ENDCOLOR] +15% [ICON_STRENGTH]戰鬥力。[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]受傷單位[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力。[NEWLINE]如果沒有與任何[COLOR_NEGATIVE_TEXT]己方單位[ENDCOLOR]相鄰 +10% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_TARGETING_4">
 			<Text>不屈不撓</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TARGETING_4_HELP">
-			<Text>+25% 防禦[ICON_STRENGTH]戰鬥力.[NEWLINE]免疫[COLOR_POSITIVE_TEXT]逆風[ENDCOLOR]狀態.</Text>
+			<Text>+25% 防禦[ICON_STRENGTH]戰鬥力。[NEWLINE]免疫[COLOR_POSITIVE_TEXT]逆風[ENDCOLOR]狀態。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_4">
 			<Text>猛擊</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_4_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +40% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +40% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4">
 			<Text>掩體</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_4_HELP">
-			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +25% [ICON_STRENGTH]戰鬥力.[NEWLINE]如果此單位後方有空地,則從近戰攻擊中撤退,每回合一次.</Text>
+			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +25% [ICON_STRENGTH]戰鬥力。[NEWLINE]如果此單位後方有空地，則從近戰攻擊中撤退，每回合一次。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4">
 			<Text>夾擊</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_4_HELP">
-			<Text>+10% [COLOR_POSITIVE_TEXT]側翼加成[ENDCOLOR].[NEWLINE]忽視[COLOR_POSITIVE_TEXT]區域控制[ENDCOLOR].</Text>
+			<Text>+10% [COLOR_POSITIVE_TEXT]側翼加成[ENDCOLOR]。[NEWLINE]忽視[COLOR_POSITIVE_TEXT]區域控制[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DAMAGE_REDUCTION">
 			<Text>Dauntless</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DAMAGE_REDUCTION_HELP">
-			<Text>-5 來自所有來源的傷害.[NEWLINE][COLOR_POSITIVE_TEXT]治療[ENDCOLOR]時 +10 HP.</Text>
+			<Text>-5 來自所有來源的傷害。[NEWLINE][COLOR_POSITIVE_TEXT]治療[ENDCOLOR]時 +10 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PRESS_GANGS">
 			<Text>抓壯丁</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PRESS_GANGS_HELP">
-			<Text>這個單位掠奪不會消耗[ICON_MOVES]移動力, 並且[COLOR_POSITIVE_TEXT]回滿血[ENDCOLOR].</Text>
+			<Text>這個單位掠奪不會消耗[ICON_MOVES]移動力，並且[COLOR_POSITIVE_TEXT]回滿血[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PIRACY">
 			<Text>海盜行為</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PIRACY_HELP">
-			<Text>獲得 100% 被擊敗的敵人單位的[ICON_STRENGTH]戰鬥力的[ICON_GOLD]金幣.[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時, 竊取等同於 100% 造成的傷害的[ICON_GOLD]金幣, 上限為 10x [ICON_STRENGTH]城市強度.</Text>
+			<Text>獲得 100% 被擊敗的敵人單位的[ICON_STRENGTH]戰鬥力的[ICON_GOLD]金幣。[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時，竊取等同於 100% 造成的傷害的[ICON_GOLD]金幣，上限為 10x [ICON_STRENGTH]城市強度。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_MOBILITY">
 			<Text>帕提亞戰術</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_MOBILITY_HELP">
-			<Text>+1 [ICON_MOVES]移動力.[NEWLINE]忽視[COLOR_POSITIVE_TEXT]區域控制[ENDCOLOR].</Text>
+			<Text>+1 [ICON_MOVES]移動力。[NEWLINE]忽視[COLOR_POSITIVE_TEXT]區域控制[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_POWER">
 			<Text>致命一擊</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_POWER_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]在 50% 或以下 HP 的單位[ENDCOLOR]時 +30% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]在 50% 或以下 HP 的單位[ENDCOLOR]時 +30% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BETTER_BOMBARDMENT">
 			<Text>破片彈頭</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BETTER_BOMBARDMENT_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]陸地單位[ENDCOLOR]時 +50% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]陸地單位[ENDCOLOR]時 +50% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_TERROR">
 			<Text>前鋒</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COASTAL_TERROR_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +125% [ICON_STRENGTH]戰鬥力.[NEWLINE]-50% 來自城市的傷害.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +125% [ICON_STRENGTH]戰鬥力。[NEWLINE]-50% 來自城市的傷害。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SIEGE">
 			<Text>海軍攻城</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_SIEGE_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +75% [ICON_STRENGTH]戰鬥力.[NEWLINE][COLOR_POSITIVE_TEXT]友好領土外[ENDCOLOR]可以治療.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +75% [ICON_STRENGTH]戰鬥力。[NEWLINE][COLOR_POSITIVE_TEXT]友好領土外[ENDCOLOR]可以治療。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BREACHER">
 			<Text>突破者</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BREACHER_HELP">
-			<Text>防御時, 每個[COLOR_POSITIVE_TEXT]相鄰的己方海軍單位[ENDCOLOR] +10% [ICON_STRENGTH]戰鬥力.[NEWLINE]擊敗敵人單位後再進攻時, 造成[COLOR_POSITIVE_TEXT]15 傷害[ENDCOLOR]給所有新相鄰的敵方單位.[NEWLINE]此傷害忽視傷害減免,但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人.</Text>
+			<Text>防御時，每個[COLOR_POSITIVE_TEXT]相鄰的己方海軍單位[ENDCOLOR] +10% [ICON_STRENGTH]戰鬥力。[NEWLINE]擊敗敵人單位後再進攻時，造成[COLOR_POSITIVE_TEXT]15 傷害[ENDCOLOR]給所有新相鄰的敵方單位。[NEWLINE]此傷害忽視傷害減免，但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ENCIRCLEMENT">
 			<Text>圍剿</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENCIRCLEMENT_HELP">
-			<Text>攻擊時, 每個[COLOR_POSITIVE_TEXT]相鄰的己方海軍單位[ENDCOLOR] +10% [ICON_STRENGTH]戰鬥力.[NEWLINE][COLOR_POSITIVE_TEXT]擊敗一個敵人單位[ENDCOLOR]後, 治療 10 HP.</Text>
+			<Text>攻擊時，每個[COLOR_POSITIVE_TEXT]相鄰的己方海軍單位[ENDCOLOR] +10% [ICON_STRENGTH]戰鬥力。[NEWLINE][COLOR_POSITIVE_TEXT]擊敗一個敵人單位[ENDCOLOR]後，治療 10 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MINELAYER">
 			<Text>布雷艇</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MINELAYER_HELP">
-			<Text>防禦[COLOR_NEGATIVE_TEXT]遠程攻擊[ENDCOLOR]時 -10% [ICON_STRENGTH]戰鬥力.[NEWLINE]敵人海軍單位在回合開始時, 若與此單位相鄰 -2 [ICON_MOVES]移動力.[NEWLINE]忽視區域控制的單位免疫這個效果.[NEWLINE][NEWLINE]一旦你完成研究 [COLOR_CYAN]{TXT_KEY_TECH_COMBUSTION_TITLE}[ENDCOLOR] 即可用.</Text>
+			<Text>防禦[COLOR_NEGATIVE_TEXT]遠程攻擊[ENDCOLOR]時 -10% [ICON_STRENGTH]戰鬥力。[NEWLINE]敵人海軍單位在回合開始時，若與此單位相鄰 -2 [ICON_MOVES]移動力。[NEWLINE]忽視區域控制的單位免疫這個效果。[NEWLINE][NEWLINE]一旦你完成研究 [COLOR_CYAN]{TXT_KEY_TECH_COMBUSTION_TITLE}[ENDCOLOR] 即可用。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_AERIAL_TORPEDO">
 			<Text>空中魚雷</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AERIAL_TORPEDO_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]海軍單位[ENDCOLOR]時 +33% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]海軍單位[ENDCOLOR]時 +33% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOMB_RACK">
 			<Text>炸彈架</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOMB_RACK_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]陸地單位[ENDCOLOR]時 +33% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]陸地單位[ENDCOLOR]時 +33% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FROGMAN">
 			<Text>蛙人</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FROGMAN_HELP">
-			<Text>從海上攻擊無戰鬥懲罰.[NEWLINE]海運和登陸隻消耗 1 [ICON_MOVES]移動力.[NEWLINE]+50% 海運[ICON_STRENGTH]防禦.</Text>
+			<Text>從海上攻擊無戰鬥懲罰。[NEWLINE]海運和登陸隻消耗 1 [ICON_MOVES]移動力。[NEWLINE]+50% 海運[ICON_STRENGTH]防禦。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SCREENING">
 			<Text>甄選</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SCREENING_HELP">
-			<Text>+10% [COLOR_POSITIVE_TEXT]側翼加成[ENDCOLOR].[NEWLINE]在不涉及這個單位的戰鬥中, 算作 2 個單位進行側翼攻擊.</Text>
+			<Text>+10% [COLOR_POSITIVE_TEXT]側翼加成[ENDCOLOR]。[NEWLINE]在不涉及這個單位的戰鬥中，算作 2 個單位進行側翼攻擊。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT">
 			<Text>包圍</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENVELOPMENT_HELP">
-			<Text>+10% [COLOR_POSITIVE_TEXT]側翼加成[ENDCOLOR].[NEWLINE]遠程攻擊單位時,受益於[COLOR_POSITIVE_TEXT]側翼[ENDCOLOR](不考慮相鄰敵人單位).</Text>
+			<Text>+10% [COLOR_POSITIVE_TEXT]側翼加成[ENDCOLOR]。[NEWLINE]遠程攻擊單位時，受益於[COLOR_POSITIVE_TEXT]側翼[ENDCOLOR](不考慮相鄰敵人單位)。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HUNTER_KILLER">
 			<Text>獵潛</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HUNTER_KILLER_HELP">
-			<Text>+50% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]潛艇單位[ENDCOLOR].[NEWLINE]在[ICON_VP_VISION]視野範圍內[COLOR_POSITIVE_TEXT]揭露隱形潛艇[ENDCOLOR].</Text>
+			<Text>+50% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]潛艇單位[ENDCOLOR]。[NEWLINE]在[ICON_VP_VISION]視野範圍內[COLOR_POSITIVE_TEXT]揭露隱形潛艇[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_TRUE_WOLFPACK">
 			<Text>狼群</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TRUE_WOLFPACK_HELP">
-			<Text>攻擊時, 每個[COLOR_POSITIVE_TEXT]相鄰的己方潛艇單位[ENDCOLOR] +30% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊時，每個[COLOR_POSITIVE_TEXT]相鄰的己方潛艇單位[ENDCOLOR] +30% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PREDATOR">
 			<Text>掠食者</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PREDATOR_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]擊敗一個敵人單位[ENDCOLOR]後, 治療 15 HP.[NEWLINE]忽視[COLOR_POSITIVE_TEXT]區域控制[ENDCOLOR].</Text>
+			<Text>[COLOR_POSITIVE_TEXT]擊敗一個敵人單位[ENDCOLOR]後，治療 15 HP。[NEWLINE]忽視[COLOR_POSITIVE_TEXT]區域控制[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PERISCOPE_DEPTH">
 			<Text>潛望鏡深度</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PERISCOPE_DEPTH_HELP">
-			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +40% [ICON_STRENGTH]戰鬥力.[NEWLINE]如果此單位後方有空地,則從近戰攻擊中撤退,每回合一次.</Text>
+			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +40% [ICON_STRENGTH]戰鬥力。[NEWLINE]如果此單位後方有空地，則從近戰攻擊中撤退，每回合一次。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MONGOL_TERROR">
 			<Text>草原遊牧民</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MONGOL_TERROR_HELP">
-			<Text>+1 [ICON_WAR]攻擊.</Text>
+			<Text>+1 [ICON_WAR]攻擊。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN">
 			<Text>Gå-På</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS_SWEDEN_HELP">
-			<Text>+20% 攻擊[ICON_STRENGTH]戰鬥力.</Text>
+			<Text>+20% 攻擊[ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COERCION">
 			<Text>流血之名</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COERCION_HELP">
-			<Text>徵募被擊敗的敵人單位, 前提是其相鄰的單元格上(不計山嶽), 有一半或更多的己方單位正包圍它.[NEWLINE]佔領的單位[COLOR_POSITIVE_TEXT]不計入上限[ENDCOLOR]; 開始時有 25% 的最大 HP 和 0 XP;並且可以立即移動(但不能攻擊).</Text>
+			<Text>徵募被擊敗的敵人單位，前提是其相鄰的單元格上(不計山嶽), 有一半或更多的己方單位正包圍它。[NEWLINE]佔領的單位[COLOR_POSITIVE_TEXT]不計入上限[ENDCOLOR]；開始時有 25% 的最大 HP 和 0 XP；並且可以立即移動(但不能攻擊)。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_VIKING">
 			<Text>維京(陸地)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_VIKING_HELP">
-			<Text>掠奪不會消耗[ICON_MOVES]移動力, 並且額外治療[COLOR_POSITIVE_TEXT]10 HP[ENDCOLOR].[NEWLINE][COLOR_POSITIVE_TEXT]掠奪改良設施[ENDCOLOR]時, 造成[COLOR_POSITIVE_TEXT]10 傷害[ENDCOLOR]給所有相鄰的敵人單位, 並且獲得 30 [ICON_Gold]金幣, 隨時代遞增.</Text>
+			<Text>掠奪不會消耗[ICON_MOVES]移動力，並且額外治療[COLOR_POSITIVE_TEXT]10 HP[ENDCOLOR]。[NEWLINE][COLOR_POSITIVE_TEXT]掠奪改良設施[ENDCOLOR]時，造成[COLOR_POSITIVE_TEXT]10 傷害[ENDCOLOR]給所有相鄰的敵人單位，並且獲得 30 [ICON_Gold]金幣，隨時代遞增。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT">
 			<Text>維京(海上)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LONGBOAT_HELP">
-			<Text>掠奪不會消耗[ICON_MOVES]移動力, 並且這個單位[COLOR_POSITIVE_TEXT]回滿血[ENDCOLOR].[NEWLINE][COLOR_POSITIVE_TEXT]掠奪改良設施[ENDCOLOR]時, 造成[COLOR_POSITIVE_TEXT]15 傷害[ENDCOLOR]給所有相鄰的敵人單位, 並且獲得 60 [ICON_Gold]金幣, 隨時代遞增.</Text>
+			<Text>掠奪不會消耗[ICON_MOVES]移動力，並且這個單位[COLOR_POSITIVE_TEXT]回滿血[ENDCOLOR]。[NEWLINE][COLOR_POSITIVE_TEXT]掠奪改良設施[ENDCOLOR]時，造成[COLOR_POSITIVE_TEXT]15 傷害[ENDCOLOR]給所有相鄰的敵人單位，並且獲得 60 [ICON_Gold]金幣，隨時代遞增。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_WORKER">
 			<Text>更快的工人</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_WORKER_HELP">
-			<Text>+1 [ICON_MOVES]移動力.</Text>
+			<Text>+1 [ICON_MOVES]移動力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL">
 			<Text>持久</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KILL_HEAL_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]擊敗一個敵人單位[ENDCOLOR]後, 治療 15 HP.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]擊敗一個敵人單位[ENDCOLOR]後，治療 15 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HONOR_BONUS">
 			<Text>徵兵</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HONOR_BONUS_HELP">
-			<Text>+10% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>+10% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER">
 			<Text>帝國主義</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IMPERIALISM_OPENER_HELP">
-			<Text>+1 [ICON_VP_VISION]視野.</Text>
+			<Text>+1 [ICON_VP_VISION]視野。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL">
 			<Text>更快的將軍</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FASTER_GENERAL_HELP">
-			<Text>+1 [ICON_MOVES]移動力.</Text>
+			<Text>+1 [ICON_MOVES]移動力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BETTER_LEADERSHIP">
 			<Text>軍團傳統</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BETTER_LEADERSHIP_HELP">
-			<Text>領袖光環多 +10% [ICON_STRENGTH]戰鬥力 並且獲得 +1 範圍.</Text>
+			<Text>領袖光環多 +10% [ICON_STRENGTH]戰鬥力，並且獲得 +1 範圍。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST">
-			<Text>萬歲!</Text>
+			<Text>萬歲！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_DEFENSE_BOOST_HELP">
-			<Text>每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力.[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時, 消除攻擊或防禦近戰攻擊的戰鬥懲罰.</Text>
+			<Text>每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力。[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時，消除攻擊或防禦近戰攻擊的戰鬥懲罰。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUN">
 			<Text>閃電戰(火器)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_GUN_HELP">
-			<Text>+15% 攻擊[ICON_STRENGTH]戰鬥力.[NEWLINE]忽視[COLOR_POSITIVE_TEXT]區域控制[ENDCOLOR].</Text>
+			<Text>+15% 攻擊[ICON_STRENGTH]戰鬥力。[NEWLINE]忽視[COLOR_POSITIVE_TEXT]區域控制[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMOR">
 			<Text>閃電戰(裝甲)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_ARMOR_HELP">
-			<Text>+15% 攻擊[ICON_STRENGTH]戰鬥力.[NEWLINE]+1 [ICON_MOVES]移動力.</Text>
+			<Text>+15% 攻擊[ICON_STRENGTH]戰鬥力。[NEWLINE]+1 [ICON_MOVES]移動力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MARE_NOSTRUM">
 			<Text>我們的海</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MARE_NOSTRUM_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +25% [ICON_STRENGTH]戰鬥力.[NEWLINE]在[COLOR_POSITIVE_TEXT]在友方領土內[ENDCOLOR]治療時 +5 HP.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +25% [ICON_STRENGTH]戰鬥力。[NEWLINE]在[COLOR_POSITIVE_TEXT]在友方領土內[ENDCOLOR]治療時 +5 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ICE_BREAKERS">
 			<Text>工兵團</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ICE_BREAKERS_HELP">
-			<Text>可以進入[ICON_POSITIVE_TEXT]無法通行[ENDCOLOR]單元格.</Text>
+			<Text>可以進入[ICON_POSITIVE_TEXT]無法通行[ENDCOLOR]單元格。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_REDUCTION">
 			<Text>輻射抵抗</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_REDUCTION_HELP">
-			<Text>-10 來自[COLOR_POSITIVE_TEXT]輻射塵[ENDCOLOR]的傷害.</Text>
+			<Text>-10 來自[COLOR_POSITIVE_TEXT]輻射塵[ENDCOLOR]的傷害。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_IMMUNITY">
 			<Text>輻射免疫</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FALLOUT_IMMUNITY_HELP">
-			<Text>免疫來自[COLOR_POSITIVE_TEXT]輻射塵[ENDCOLOR]的傷害.</Text>
+			<Text>免疫來自[COLOR_POSITIVE_TEXT]輻射塵[ENDCOLOR]的傷害。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS">
 			<Text>神聖步伐</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SACRED_STEPS_HELP">
-			<Text>+2 [ICON_MOVES]移動力.</Text>
+			<Text>+2 [ICON_MOVES]移動力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH">
 			<Text>青春永駐</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EVERLASTING_YOUTH_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]治療[ENDCOLOR]時, +5 HP.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]治療[ENDCOLOR]時，+5 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SIGNET">
 			<Text>皇家簽名</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIGNET_HELP">
-			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +10 [ICON_INFLUENCE]影響力.</Text>
+			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +10 [ICON_INFLUENCE]影響力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_EXPRESS">
 			<Text>通訊社</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EXPRESS_HELP">
-			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +10 [ICON_INFLUENCE]影響力.[NEWLINE]+1 [ICON_MOVES]移動力和海運移動力.</Text>
+			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +10 [ICON_INFLUENCE]影響力。[NEWLINE]+1 [ICON_MOVES]移動力和海運移動力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LITERACY">
 			<Text>讀寫能力</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LITERACY_HELP">
-			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +10 [ICON_INFLUENCE]影響力.[NEWLINE]+1 [ICON_MOVES]移動力和海運移動力.[NEWLINE]忽視[COLOR_POSITIVE_TEXT]地形成本[ENDCOLOR]</Text>
+			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +10 [ICON_INFLUENCE]影響力。[NEWLINE]+1 [ICON_MOVES]移動力和海運移動力。[NEWLINE]忽視[COLOR_POSITIVE_TEXT]地形成本[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_IMMUNITY">
 			<Text>外交豁免權</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IMMUNITY_HELP">
-			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +10 [ICON_INFLUENCE]影響力.[NEWLINE]可以進入沒有開放邊界的對手領土.</Text>
+			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +10 [ICON_INFLUENCE]影響力。[NEWLINE]可以進入沒有開放邊界的對手領土。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PAX">
 			<Text>御璽</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PAX_HELP">
-			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +10 [ICON_INFLUENCE]影響力.[NEWLINE]+1 [ICON_MOVES]移動力和海運移動力.</Text>
+			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +10 [ICON_INFLUENCE]影響力。[NEWLINE]+1 [ICON_MOVES]移動力和海運移動力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NOBILITY">
 			<Text>高貴</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NOBILITY_HELP">
-			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +15 [ICON_INFLUENCE]影響力.[NEWLINE]可以進入沒有開放邊界的對手領土.</Text>
+			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +15 [ICON_INFLUENCE]影響力。[NEWLINE]可以進入沒有開放邊界的對手領土。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ALHAMBRA">
 			<Text>標槍輕騎兵</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ALHAMBRA_HELP">
-			<Text>+15% 攻擊[ICON_STRENGTH]戰鬥力.[NEWLINE]如果此單位後方有空地,則從近戰攻擊中撤退,每回合一次.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]升級時丟失.[ENDCOLOR]</Text>
+			<Text>+15% 攻擊[ICON_STRENGTH]戰鬥力。[NEWLINE]如果此單位後方有空地，則從近戰攻擊中撤退，每回合一次。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]升級時丟失。[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_IKLWA">
 			<Text>短刺矛</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_IKLWA_HELP">
-			<Text>+10% 攻擊[ICON_STRENGTH]戰鬥力.</Text>
+			<Text>+10% 攻擊[ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO">
 			<Text>武士道八德</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HELP">
-			<Text>第一次戰鬥後,隨機獲得以下其中一個晉升:[NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RIGHTEOUSNESS}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BENEVOLENCE}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RESPECT}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SINCERITY}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BUSHIDO_HONOR}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_LOYALTY}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SELF_CONTROL}[ENDCOLOR], [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_COURAGE}[ENDCOLOR]</Text>
+			<Text>第一次戰鬥後，隨機獲得以下其中一個晉升：[NEWLINE][COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RIGHTEOUSNESS}[ENDCOLOR]，[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BENEVOLENCE}[ENDCOLOR]，[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_RESPECT}[ENDCOLOR]，[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SINCERITY}[ENDCOLOR]，[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_BUSHIDO_HONOR}[ENDCOLOR]，[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_LOYALTY}[ENDCOLOR]，[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SELF_CONTROL}[ENDCOLOR]，[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_COURAGE}[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ARSENALE">
 			<Text>威尼斯工藝</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ARSENALE_HELP">
-			<Text>+10% [ICON_STRENGTH]戰鬥力.[NEWLINE]+1 [ICON_MOVES]移動力.</Text>
+			<Text>+10% [ICON_STRENGTH]戰鬥力。[NEWLINE]+1 [ICON_MOVES]移動力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET">
 			<Text>寶藏艦隊</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TREASURE_FLEET_HELP">
-			<Text>+10% 攻擊[ICON_STRENGTH]戰鬥力.[NEWLINE]+1 [ICON_VP_VISION]視野.[NEWLINE][COLOR_POSITIVE_TEXT]友好領土外[ENDCOLOR]可以治療.</Text>
+			<Text>+10% 攻擊[ICON_STRENGTH]戰鬥力。[NEWLINE]+1 [ICON_VP_VISION]視野。[NEWLINE][COLOR_POSITIVE_TEXT]友好領土外[ENDCOLOR]可以治療。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS">
 			<Text>蠻力</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BARBARIAN_BONUS_HELP">
-			<Text>+25% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]蠻族[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]升級時丟失.[ENDCOLOR]</Text>
+			<Text>+25% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]蠻族[ENDCOLOR]。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]升級時丟失。[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_0">
 			<Text>軍事紀律</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_0_HELP">
-			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +10% [ICON_STRENGTH]戰鬥力.[NEWLINE]+10 生命點.</Text>
+			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +10% [ICON_STRENGTH]戰鬥力。[NEWLINE]+10 生命點。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_1">
 			<Text>野外調查</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_1_HELP">
-			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力.[NEWLINE]+15 生命點.</Text>
+			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力。[NEWLINE]+15 生命點。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_2">
 			<Text>壕溝</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_2_HELP">
-			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +20% [ICON_STRENGTH]戰鬥力.[NEWLINE]+20 生命點.</Text>
+			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +20% [ICON_STRENGTH]戰鬥力。[NEWLINE]+20 生命點。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_3">
 			<Text>後衛火力</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FIELD_WORKS_3_HELP">
-			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +25% [ICON_STRENGTH]戰鬥力.[NEWLINE]+25 生命點.</Text>
+			<Text>防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +25% [ICON_STRENGTH]戰鬥力。[NEWLINE]+25 生命點。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE">
 			<Text>海軍目標懲罰</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_MISFIRE_HELP">
-			<Text>攻擊[COLOR_NEGATIVE_TEXT]海軍單位[ENDCOLOR]時 -20% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊[COLOR_NEGATIVE_TEXT]海軍單位[ENDCOLOR]時 -20% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COVERING_FIRE_1">
 			<Text>火力掩護 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COVERING_FIRE_1_HELP">
-			<Text>+10% 防禦[ICON_STRENGTH]戰鬥力.[NEWLINE]-50% [ICON_STRENGTH]戰鬥力 VS [COLOR_NEGATIVE_TEXT]裝甲單位[ENDCOLOR].[NEWLINE]攻擊[COLOR_NEGATIVE_TEXT]駐紮單位[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]時 -50% [ICON_STRENGTH]戰鬥力.[NEWLINE]在[COLOR_POSITIVE_TEXT]這個單位 2 單元格內[ENDCOLOR]的敵人單位 -15% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>+10% 防禦[ICON_STRENGTH]戰鬥力。[NEWLINE]-50% [ICON_STRENGTH]戰鬥力 VS [COLOR_NEGATIVE_TEXT]裝甲單位[ENDCOLOR]。[NEWLINE]攻擊[COLOR_NEGATIVE_TEXT]駐紮單位[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]時 -50% [ICON_STRENGTH]戰鬥力。[NEWLINE]在[COLOR_POSITIVE_TEXT]這個單位 2 單元格內[ENDCOLOR]的敵人單位 -15% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COVERING_FIRE_2">
 			<Text>火力掩護 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COVERING_FIRE_2_HELP">
-			<Text>+10% 防禦[ICON_STRENGTH]戰鬥力.[NEWLINE]攻擊[COLOR_NEGATIVE_TEXT]駐紮單位[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]時 -25% [ICON_STRENGTH]戰鬥力.[NEWLINE]在[COLOR_POSITIVE_TEXT]這個單位 2 單元格內[ENDCOLOR]的敵人單位 -15% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>+10% 防禦[ICON_STRENGTH]戰鬥力。[NEWLINE]攻擊[COLOR_NEGATIVE_TEXT]駐紮單位[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]時 -25% [ICON_STRENGTH]戰鬥力。[NEWLINE]在[COLOR_POSITIVE_TEXT]這個單位 2 單元格內[ENDCOLOR]的敵人單位 -15% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MECH">
 			<Text>泰坦尼克</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MECH_HELP">
-			<Text>+25% 攻擊[ICON_STRENGTH]戰鬥力.[NEWLINE]+100 生命點.[NEWLINE]在攻擊[COLOR_POSITIVE_TEXT]單位[ENDCOLOR]前, 執行一次 50% [ICON_STRENGTH]戰鬥力的[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR].</Text>
+			<Text>+25% 攻擊[ICON_STRENGTH]戰鬥力。[NEWLINE]+100 生命點。[NEWLINE]在攻擊[COLOR_POSITIVE_TEXT]單位[ENDCOLOR]前，執行一次 50% [ICON_STRENGTH]戰鬥力的[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_HALF_TURN">
 			<Text>梁橋</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_HALF_TURN_HELP">
-			<Text>進入[ICON_NEGATIVE_TEXT]森林[ENDCOLOR], [ICON_NEGATIVE_TEXT]叢林[ENDCOLOR], [ICON_NEGATIVE_TEXT]湿地[ENDCOLOR]和[ICON_NEGATIVE_TEXT]丘陵[ENDCOLOR] +1 [ICON_MOVES]移動力(不會疊加).[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]升級時丟失.[ENDCOLOR]</Text>
+			<Text>進入[ICON_NEGATIVE_TEXT]森林[ENDCOLOR]，[ICON_NEGATIVE_TEXT]叢林[ENDCOLOR]，[ICON_NEGATIVE_TEXT]湿地[ENDCOLOR]和[ICON_NEGATIVE_TEXT]丘陵[ENDCOLOR] +1 [ICON_MOVES]移動力(不會疊加)。[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]升級時丟失。[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_DOCTRINE">
 			<Text>游散兵理論</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SKIRMISHER_DOCTRINE_HELP">
-			<Text>在不涉及這個單位的戰鬥中, 算作 2 個單位進行側翼攻擊.[NEWLINE]防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +50% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>在不涉及這個單位的戰鬥中，算作 2 個單位進行側翼攻擊。[NEWLINE]防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +50% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY">
 			<Text>攻城誤差</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_INACCURACY_HELP">
-			<Text>攻擊[COLOR_NEGATIVE_TEXT]陸地單位[ENDCOLOR]時 -33% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊[COLOR_NEGATIVE_TEXT]陸地單位[ENDCOLOR]時 -33% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RECON_EXPERIENCE">
 			<Text>偵察</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RECON_EXPERIENCE_HELP">
-			<Text>揭露單元格時, 獲得 XP.[NEWLINE]可以佔有 [COLOR_POSITIVE_TEXT]{TXT_KEY_IMPROVEMENT_GOODY_HUT}[ENDCOLOR].</Text>
+			<Text>揭露單元格時，獲得 XP。[NEWLINE]可以佔有 [COLOR_POSITIVE_TEXT]{TXT_KEY_IMPROVEMENT_GOODY_HUT}[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING">
 			<Text>海洋探險家</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_OCEAN_CROSSING_HELP">
-			<Text>可以進入[COLOR_POSITIVE_TEXT]海洋[ENDCOLOR].</Text>
+			<Text>可以進入[COLOR_POSITIVE_TEXT]海洋[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_PILLAGE">
 			<Text>清道夫</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SCOUT_XP_PILLAGE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]掠奪改良設施[ENDCOLOR]時, 獲得 5 XP.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]掠奪改良設施[ENDCOLOR]時，獲得 5 XP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COMMANDO">
 			<Text>哥曼德突擊隊</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COMMANDO_HELP">
-			<Text>如果此單位後方有空地,則從近戰攻擊中撤退,每回合一次.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]升級時丟失.[ENDCOLOR]</Text>
+			<Text>如果此單位後方有空地，則從近戰攻擊中撤退，每回合一次。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]升級時丟失。[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY">
 			<Text>海軍誤差</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVAL_INACCURACY_HELP">
-			<Text>攻擊[COLOR_NEGATIVE_TEXT]陸地單位[ENDCOLOR]時 -25% [ICON_STRENGTH]戰鬥力.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]升級時丟失.[ENDCOLOR]</Text>
+			<Text>攻擊[COLOR_NEGATIVE_TEXT]陸地單位[ENDCOLOR]時 -25% [ICON_STRENGTH]戰鬥力。[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]升級時丟失。[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_OCEAN_HALF_MOVES">
 			<Text>淺吃水</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_OCEAN_HALF_MOVES_HELP">
-			<Text>在[COLOR_NEGATIVE_TEXT]海洋[ENDCOLOR]只需一半的[ICON_MOVES]移動力.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]升級時丟失.[ENDCOLOR]</Text>
+			<Text>在[COLOR_NEGATIVE_TEXT]海洋[ENDCOLOR]只需一半的[ICON_MOVES]移動力。[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]升級時丟失。[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_AIR_MISFIRE">
 			<Text>急行掃射</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_MISFIRE_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]海軍[ENDCOLOR]和[COLOR_POSITIVE_TEXT]陸地單位[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力.[NEWLINE]攻擊[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]時 -25% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]海軍[ENDCOLOR]和[COLOR_POSITIVE_TEXT]陸地單位[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力。[NEWLINE]攻擊[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]時 -25% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RECON_RANGE_1">
@@ -817,258 +817,258 @@
 			<Text>隱形</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_STEALTH_HELP">
-			<Text>+25% 機率會[COLOR_POSITIVE_TEXT]閃避空中攔截[ENDCOLOR].[NEWLINE]執行[COLOR_POSITIVE_TEXT]空襲[ENDCOLOR]時 -25% 收到的傷害.[NEWLINE]+50 生命點.</Text>
+			<Text>+25% 機率會[COLOR_POSITIVE_TEXT]閃避空中攔截[ENDCOLOR]。[NEWLINE]執行[COLOR_POSITIVE_TEXT]空襲[ENDCOLOR]時 -25% 收到的傷害。[NEWLINE]+50 生命點。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_EMISSARY">
 			<Text>初始</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_EMISSARY_HELP">
-			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +40 [ICON_INFLUENCE]影響力.</Text>
+			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +40 [ICON_INFLUENCE]影響力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ENVOY">
 			<Text>內行</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENVOY_HELP">
-			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +50 [ICON_INFLUENCE]影響力.</Text>
+			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +50 [ICON_INFLUENCE]影響力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DIPLOMAT">
 			<Text>專業</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DIPLOMAT_HELP">
-			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +60 [ICON_INFLUENCE]影響力.</Text>
+			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +60 [ICON_INFLUENCE]影響力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_AMBASSADOR">
 			<Text>全權代表</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AMBASSADOR_HELP">
-			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +70 [ICON_INFLUENCE]影響力.</Text>
+			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +70 [ICON_INFLUENCE]影響力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_BOOST">
 			<Text>軍事傳統</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_BOOST_HELP">
-			<Text>這個單位被消耗時 +1 [ICON_WAR]軍事供應上限.</Text>
+			<Text>這個單位被消耗時 +1 [ICON_WAR]軍事供應上限。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_GREAT_DIPLOMAT">
 			<Text>外交大師</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GREAT_DIPLOMAT_HELP">
-			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +100 [ICON_INFLUENCE]影響力.[NEWLINE]可以進入沒有開放邊界的對手領土[NEWLINE]+2 [ICON_MOVES]海運移動力.</Text>
+			<Text>執行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]時 +100 [ICON_INFLUENCE]影響力。[NEWLINE]可以進入沒有開放邊界的對手領土[NEWLINE]+2 [ICON_MOVES]海運移動力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NUCLEAR_SILO">
 			<Text>屏蔽地堡</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NUCLEAR_SILO_HELP">
-			<Text>免疫來自[ICON_POSITIVE_TEXT]核武器[ENDCOLOR]的傷害.</Text>
+			<Text>免疫來自[ICON_POSITIVE_TEXT]核武器[ENDCOLOR]的傷害。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_STRONG">
 			<Text>卓越的側翼攻擊</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_STRONG_HELP">
-			<Text>+25% [COLOR_POSITIVE_TEXT]側翼加成[ENDCOLOR].</Text>
+			<Text>+25% [COLOR_POSITIVE_TEXT]側翼加成[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ENSLAVEMENT">
 			<Text>法老的禮物</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ENSLAVEMENT_HELP">
-			<Text>這個單位的來源城市,獲得被擊敗的敵方單位 150% 的[ICON_STRENGTH]戰鬥力作為[ICON_PRODUCTION]產能.</Text>
+			<Text>這個單位的來源城市，獲得被擊敗的敵方單位 150% 的[ICON_STRENGTH]戰鬥力作為[ICON_PRODUCTION]產能。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RAIDER">
 			<Text>掠奪者</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RAIDER_HELP">
-			<Text>+20% [COLOR_POSITIVE_TEXT]側翼加成[ENDCOLOR].[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時, 竊取等同於 50% 造成的傷害的[ICON_GOLD]金幣, 上限為 10x [ICON_STRENGTH]城市強度.[NEWLINE]可以使用敵人的道路/鐵路.</Text>
+			<Text>+20% [COLOR_POSITIVE_TEXT]側翼加成[ENDCOLOR]。[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時，竊取等同於 50% 造成的傷害的[ICON_GOLD]金幣，上限為 10x [ICON_STRENGTH]城市強度。[NEWLINE]可以使用敵人的道路、鐵路。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RECON_BANDEIRANTES">
 			<Text>旗手</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RECON_BANDEIRANTES_HELP">
-			<Text>揭露單元格時, 最近的城市獲得 3 [ICON_GOLD]金幣, [ICON_RESEARCH]科學和[ICON_CULTURE]文化.[NEWLINE]若是自然奇觀, 這個值為 12x, 若是 {TXT_KEY_IMPROVEMENT_GOODY_HUT} 為 4x, 若是資源為 3x.</Text>
+			<Text>揭露單元格時，最近的城市獲得 3 [ICON_GOLD]金幣，[ICON_RESEARCH]科學和[ICON_CULTURE]文化。[NEWLINE]若是自然奇觀， 這個值為 12x, 若是 {TXT_KEY_IMPROVEMENT_GOODY_HUT} 為 4x, 若是資源為 3x。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ASSIZE_OF_ARMS">
 			<Text>武備條例</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ASSIZE_OF_ARMS_HELP">
-			<Text>+20% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]騎乘[ENDCOLOR]和[COLOR_POSITIVE_TEXT]裝甲單位[ENDCOLOR].</Text>
+			<Text>+20% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]騎乘[ENDCOLOR]和[COLOR_POSITIVE_TEXT]裝甲單位[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HAKKAA_PAALLE">
-			<Text>Hakkaa Päälle(芬蘭戰吼)!</Text>
+			<Text>Hakkaa Päälle(芬蘭戰吼)！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HAKKAA_PAALLE_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]受傷單位[ENDCOLOR]時 +20% [ICON_STRENGTH]戰鬥力.[NEWLINE]擊敗敵人單位後治療 30 HP .</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]受傷單位[ENDCOLOR]時 +20% [ICON_STRENGTH]戰鬥力。[NEWLINE]擊敗敵人單位後治療 30 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SCOUT_CAVALRY">
 			<Text>斥候騎兵</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SCOUT_CAVALRY_HELP">
-			<Text>-20% [ICON_STRENGTH]戰鬥力.[NEWLINE]+1 [ICON_VP_VISION]視野.[NEWLINE]掠奪不會消耗[ICON_MOVES]移動力.</Text>
+			<Text>-20% [ICON_STRENGTH]戰鬥力。[NEWLINE]+1 [ICON_VP_VISION]視野。[NEWLINE]掠奪不會消耗[ICON_MOVES]移動力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_FOCUS_FIRE">
 			<Text>焦點火力</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_FOCUS_FIRE_HELP">
-			<Text>本回合內, 對同一目標的每次攻擊疊加 +10% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>本回合內，對同一目標的每次攻擊疊加 +10% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT">
 			<Text>祖魯法辛巴軍團</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_KNOCKOUT_HELP">
-			<Text>+25% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]火器單位[ENDCOLOR].</Text>
+			<Text>+25% [ICON_STRENGTH]戰鬥力 VS [COLOR_POSITIVE_TEXT]火器單位[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS">
 			<Text>枯萎之火</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_ESPRIT_DE_CORPS_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]無法撤退的單位[ENDCOLOR]時 +50% 傷害.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]無法撤退的單位[ENDCOLOR]時 +50% 傷害。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_ON_KILL">
 			<Text>擲彈兵</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_ON_KILL_HELP">
-			<Text>擊敗敵人單位後再進攻時, 造成[COLOR_POSITIVE_TEXT]15 傷害[ENDCOLOR]給所有新相鄰的敵方單位.[NEWLINE]此傷害忽視傷害減免,但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人.</Text>
+			<Text>擊敗敵人單位後再進攻時，造成[COLOR_POSITIVE_TEXT]15 傷害[ENDCOLOR]給所有新相鄰的敵方單位。[NEWLINE]此傷害忽視傷害減免，但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_FORTIFY">
 			<Text>標槍</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AOE_STRIKE_FORTIFY_HELP">
-			<Text>如果這個單位回合開始時, 為[COLOR_POSITIVE_TEXT]駐紮[ENDCOLOR]狀態, 對所有相鄰的敵人單位造成[COLOR_POSITIVE_TEXT]10 傷害[ENDCOLOR].[NEWLINE]此傷害忽視傷害減免,但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人.</Text>
+			<Text>如果這個單位回合開始時，為[COLOR_POSITIVE_TEXT]駐紮[ENDCOLOR]狀態，對所有相鄰的敵人單位造成[COLOR_POSITIVE_TEXT]10 傷害[ENDCOLOR]。[NEWLINE]此傷害忽視傷害減免，但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DOPPELSOLDNER">
 			<Text>雙重傭兵</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DOPPELSOLDNER_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]滿血單位[ENDCOLOR]時 +30% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]滿血單位[ENDCOLOR]時 +30% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SLINGER">
 			<Text>衝擊性擊打</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SLINGER_HELP">
-			<Text>攻擊 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_DAZED}[ENDCOLOR] 狀態的敵人陸地單位時,降低他們的[ICON_STRENGTH]戰鬥力15%,持續5回合.[NEWLINE]忽視[COLOR_POSITIVE_TEXT]區域控制[ENDCOLOR].</Text>
+			<Text>攻擊 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_DAZED}[ENDCOLOR] 狀態的敵人陸地單位時，降低他們的[ICON_STRENGTH]戰鬥力15%，持續5回合。[NEWLINE]忽視[COLOR_POSITIVE_TEXT]區域控制[ENDCOLOR]。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_REPEATER">
 			<Text>圍城齊射</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_REPEATER_HELP">
-			<Text>在[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]中或相鄰 +25% [ICON_STRENGTH]戰鬥力.[NEWLINE]攻擊時, 對所有與目標單位[COLOR_POSITIVE_TEXT]相鄰[ENDCOLOR]的敵人單位, 造成[COLOR_POSITIVE_TEXT]5 傷害[ENDCOLOR].[NEWLINE]此傷害忽視傷害減免,但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人.</Text>
+			<Text>在[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]中或相鄰 +25% [ICON_STRENGTH]戰鬥力。[NEWLINE]攻擊時，對所有與目標單位[COLOR_POSITIVE_TEXT]相鄰[ENDCOLOR]的敵人單位，造成[COLOR_POSITIVE_TEXT]5 傷害[ENDCOLOR]。[NEWLINE]此傷害忽視傷害減免，但不會影響[COLOR_NEGATIVE_TEXT]城市[ENDCOLOR]和[COLOR_NEGATIVE_TEXT]防禦工事[ENDCOLOR]中的敵人。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHIP">
 			<Text>重型突擊</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HEAVY_SHIP_HELP">
-			<Text>+25% 攻擊[ICON_STRENGTH]戰鬥力.[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +25% [ICON_STRENGTH]戰鬥力.</Text>
+			<Text>+25% 攻擊[ICON_STRENGTH]戰鬥力。[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +25% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MANY_GOLDEN_AGE_POINTS">
 			<Text>國家驕傲</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MANY_GOLDEN_AGE_POINTS_HELP">
-			<Text>獲得被擊敗的敵人單位[ICON_STRENGTH]戰鬥力的 1000% 作為[ICON_GOLDEN_AGE]黃金時代點數.</Text>
+			<Text>獲得被擊敗的敵人單位[ICON_STRENGTH]戰鬥力的 1000% 作為[ICON_GOLDEN_AGE]黃金時代點數。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS">
 			<Text>公義</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RIGHTEOUSNESS_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]在 50% 或以下 HP 的單位[ENDCOLOR]時 +20% [ICON_STRENGTH]戰鬥力.[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力.[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時, 消除攻擊或防禦近戰攻擊的戰鬥懲罰.[NEWLINE]擊敗敵人單位後, 治療 10 HP .</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]在 50% 或以下 HP 的單位[ENDCOLOR]時 +20% [ICON_STRENGTH]戰鬥力。[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力。[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時，消除攻擊或防禦近戰攻擊的戰鬥懲罰。[NEWLINE]擊敗敵人單位後，治療 10 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE">
 			<Text>勇氣</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_COURAGE_HELP">
-			<Text>+15% 攻擊[ICON_STRENGTH]戰鬥力.[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力.[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時, 消除攻擊或防禦近戰攻擊的戰鬥懲罰.[NEWLINE]擊敗敵人單位後, 治療 10 HP.</Text>
+			<Text>+15% 攻擊[ICON_STRENGTH]戰鬥力。[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力。[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時，消除攻擊或防禦近戰攻擊的戰鬥懲罰。[NEWLINE]擊敗敵人單位後，治療 10 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE">
 			<Text>仁愛</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BENEVOLENCE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]治療[ENDCOLOR]時, [COLOR_POSITIVE_TEXT]與這個單元格相鄰[ENDCOLOR]的單位 +5 HP.[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力.[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時, 消除攻擊或防禦近戰攻擊的戰鬥懲罰.[NEWLINE]擊敗敵人單位後, 治療 10 HP.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]治療[ENDCOLOR]時，[COLOR_POSITIVE_TEXT]與這個單元格相鄰[ENDCOLOR]的單位 +5 HP。[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力。[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時，消除攻擊或防禦近戰攻擊的戰鬥懲罰。[NEWLINE]擊敗敵人單位後，治療 10 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT">
 			<Text>尊重</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_RESPECT_HELP">
-			<Text>攻擊[COLOR_POSITIVE_TEXT]超過 50% HP 的單位[ENDCOLOR]時 +20% [ICON_STRENGTH]戰鬥力.[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力.[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時, 消除攻擊或防禦近戰攻擊的戰鬥懲罰.[NEWLINE]擊敗敵人單位後, 治療 10 HP.</Text>
+			<Text>攻擊[COLOR_POSITIVE_TEXT]超過 50% HP 的單位[ENDCOLOR]時 +20% [ICON_STRENGTH]戰鬥力。[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力。[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時，消除攻擊或防禦近戰攻擊的戰鬥懲罰。[NEWLINE]擊敗敵人單位後，治療 10 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY">
 			<Text>真誠</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SINCERITY_HELP">
-			<Text>+50% 從戰鬥中獲得的經驗.[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力.[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時, 消除攻擊或防禦近戰攻擊的戰鬥懲罰.[NEWLINE]擊敗敵人單位後, 治療 10 HP.</Text>
+			<Text>+50% 從戰鬥中獲得的經驗。[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力。[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時，消除攻擊或防禦近戰攻擊的戰鬥懲罰。[NEWLINE]擊敗敵人單位後，治療 10 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HONOR">
 			<Text>榮譽</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BUSHIDO_HONOR_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]友好領土外[ENDCOLOR] +15% [ICON_STRENGTH]戰鬥力.[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力.[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時, 消除攻擊或防禦近戰攻擊的戰鬥懲罰.[NEWLINE]擊敗敵人單位後, 治療 10 HP.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]友好領土外[ENDCOLOR] +15% [ICON_STRENGTH]戰鬥力。[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力。[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時，消除攻擊或防禦近戰攻擊的戰鬥懲罰。[NEWLINE]擊敗敵人單位後，治療 10 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY">
 			<Text>忠誠</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_LOYALTY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]在友方領土內[ENDCOLOR] +15% [ICON_STRENGTH]戰鬥力.[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力.[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時, 消除攻擊或防禦近戰攻擊的戰鬥懲罰.[NEWLINE]擊敗敵人單位後, 治療 10 HP.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]在友方領土內[ENDCOLOR] +15% [ICON_STRENGTH]戰鬥力。[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力。[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時，消除攻擊或防禦近戰攻擊的戰鬥懲罰。[NEWLINE]擊敗敵人單位後，治療 10 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL">
 			<Text>克己</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SELF_CONTROL_HELP">
-			<Text>+15% 防禦[ICON_STRENGTH]戰鬥力.[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力.[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時, 消除攻擊或防禦近戰攻擊的戰鬥懲罰.[NEWLINE]擊敗敵人單位後, 治療 10 HP.</Text>
+			<Text>+15% 防禦[ICON_STRENGTH]戰鬥力。[NEWLINE]每低於最大生命 3 HP +1% [ICON_STRENGTH]戰鬥力。[NEWLINE][ICON_POSITIVE_TEXT]受傷[ENDCOLOR]時，消除攻擊或防禦近戰攻擊的戰鬥懲罰。[NEWLINE]擊敗敵人單位後，治療 10 HP。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_1">
 			<Text>逆風 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_1_HELP">
-			<Text>-2 [ICON_MOVES]移動力.[NEWLINE]持續 1 回合.</Text>
+			<Text>-2 [ICON_MOVES]移動力。[NEWLINE]持續 1 回合。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_2">
 			<Text>逆風 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_BOARDED_2_HELP">
-			<Text>-4 [ICON_MOVES]移動力.[NEWLINE]持續 1 回合.</Text>
+			<Text>-4 [ICON_MOVES]移動力。[NEWLINE]持續 1 回合。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DAZED">
 			<Text>迷糊</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DAZED_HELP">
-			<Text>-15% [ICON_STRENGTH]戰鬥力.[NEWLINE]持續 5 回合.</Text>
+			<Text>-15% [ICON_STRENGTH]戰鬥力。[NEWLINE]持續 5 回合。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_PRISONER_WAR">
 			<Text>戰俘</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_PRISONER_WAR_HELP">
-			<Text>建造或修復, 改良設施或路線時 -50% 工作速度.[NEWLINE]持續 50 回合.</Text>
+			<Text>建造或修繕，改良設施或路線時 -50% 工作速度。[NEWLINE]持續 50 回合。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_MORALE_EVENT">
@@ -1079,49 +1079,49 @@
 			<Text>沼澤漫步</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MARSH_WALKER_HELP">
-			<Text>忽視在[COLOR_POSITIVE_TEXT]湿地[ENDCOLOR]的地形成本.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]只限蠻族.[ENDCOLOR]</Text>
+			<Text>忽視在[COLOR_POSITIVE_TEXT]湿地[ENDCOLOR]的地形成本。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]只限蠻族。[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_WHITE_WALKER">
 			<Text>異鬼</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WHITE_WALKER_HELP">
-			<Text>忽視在[COLOR_POSITIVE_TEXT]雪原[ENDCOLOR]的地形成本.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]只限蠻族.[ENDCOLOR]</Text>
+			<Text>忽視在[COLOR_POSITIVE_TEXT]雪原[ENDCOLOR]的地形成本。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]只限蠻族。[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_WOODS_WALKER">
 			<Text>樹林漫步</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_WOODS_WALKER_HELP">
-			<Text>忽視在[COLOR_POSITIVE_TEXT]森林[ENDCOLOR]和[COLOR_POSITIVE_TEXT]叢林[ENDCOLOR]的地形成本.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]只限蠻族.[ENDCOLOR]</Text>
+			<Text>忽視在[COLOR_POSITIVE_TEXT]森林[ENDCOLOR]和[COLOR_POSITIVE_TEXT]叢林[ENDCOLOR]的地形成本。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]只限蠻族。[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER">
 			<Text>沙漠行者</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DESERT_WALKER_HELP">
-			<Text>忽視在[COLOR_POSITIVE_TEXT]沙漠[ENDCOLOR]的地形成本.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]只限蠻族.[ENDCOLOR]</Text>
+			<Text>忽視在[COLOR_POSITIVE_TEXT]沙漠[ENDCOLOR]的地形成本。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]只限蠻族。[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER">
 			<Text>山間漫步</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_HILL_WALKER_HELP">
-			<Text>忽視在[COLOR_POSITIVE_TEXT]丘陵[ENDCOLOR]的地形成本.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]只限蠻族.[ENDCOLOR]</Text>
+			<Text>忽視在[COLOR_POSITIVE_TEXT]丘陵[ENDCOLOR]的地形成本。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]只限蠻族。[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPT">
 			<Text>應征入伍</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CONSCRIPT_HELP">
-			<Text>這個單位不會消耗[ICON_WAR]單位供應上限.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]升級時丟失.[ENDCOLOR]</Text>
+			<Text>這個單位不會消耗[ICON_WAR]單位供應上限。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]升級時丟失。[ENDCOLOR]</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT">
 			<Text>巨人</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_JUGGERNAUT_HELP">
-			<Text>+25 生命點.</Text>
+			<Text>+25 生命點。</Text>
 		</Row>
 	</Language_zh_Hant_HK>
 </GameData>

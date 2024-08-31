@@ -2,267 +2,267 @@
 <GameData>
 	<Language_zh_Hant_HK>
 		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCTING_WONDER_ANY_CITY">
-			<Text>{1_SpyRank} {2_SpyName} 發現 {3_PlayerName} 正在他們的某個城市建造 {4_WonderOrProject} in one of their cities.</Text>
+			<Text>{1_SpyRank} {2_SpyName} 發現 {3_PlayerName} 正在他們的某個城市建造 {4_WonderOrProject}。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCTING_WONDER_ANY_CITY_S">
-			<Text>{1_PlayerName} 正在建造 {2_WonderOrProject}.</Text>
+			<Text>{1_PlayerName} 正在建造 {2_WonderOrProject}。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BOUGHT_VOTES">
-			<Text>{1_SpyRank} {2_SpyName} 發現 {3_PlayerName} 從 {4_PlayerName} 購買即將舉行的世界大會的選票.</Text>
+			<Text>{1_SpyRank} {2_SpyName} 發現 {3_PlayerName} 從 {4_PlayerName} 購買即將舉行的世界大會的選票。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BOUGHT_VOTES_S">
-			<Text>{1_CivName} 從 {2_CivName} 購買選票.</Text>
+			<Text>{1_CivName} 從 {2_CivName} 購買選票。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SOLD_VOTES">
-			<Text>{1_SpyRank} {2_SpyName} 發現 {3_PlayerName} 已經出售他們一些即將舉行的世界大會的選票給 {4_PlayerName}.</Text>
+			<Text>{1_SpyRank} {2_SpyName} 發現 {3_PlayerName} 已經出售他們一些即將舉行的世界大會的選票給 {4_PlayerName}。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SOLD_VOTES_S">
-			<Text>{1_CivName} 已經出售選票給 {2_CivName}.</Text>
+			<Text>{1_CivName} 已經出售選票給 {2_CivName}。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_WONDER_MOD_LATE">
-			<Text>{1_CityName:textkey} 的 {2_ResourceName:textkey} 現已可用! 這個城市建造工業時代前的奇蹟時, 這會增加 {3_Num}% 的[ICON_PRODUCTION]產能!</Text>
+			<Text>{1_CityName:textkey} 的 {2_ResourceName:textkey} 現已可用! 這個城市建造工業時代前的奇蹟時，這會增加 {3_Num}% 的[ICON_PRODUCTION]產能！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_PARTISANS_NEAR_RAZING_CITY">
-			<Text>因為你把他們的城市燒成灰燼,所以在 {1_Name} 附近出現了游擊隊.!</Text>
+			<Text>因為你把他們的城市燒成灰燼，所以在 {1_Name} 附近出現了游擊隊。！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_PARTISANS_NEAR_RAZING_CITY_S">
-			<Text>游擊隊在 {1_Name} 附近!</Text>
+			<Text>游擊隊在 {1_Name} 附近！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_FRIENDLY_PARTISANS_NEAR_RAZING_CITY">
-			<Text>因為你的城市正被燒成灰燼,友方游擊隊在 {1_Name} 附近出現!</Text>
+			<Text>因為你的城市正被燒成灰燼,友方游擊隊在 {1_Name} 附近出現！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_FRIENDLY_PARTISANS_NEAR_RAZING_CITY_S">
-			<Text>友方游擊隊在 {1_Name} 附近!</Text>
+			<Text>友方游擊隊在 {1_Name} 附近！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REVOKED_WAR">
-			<Text>因為你與 {1_MinorCivName:textkey} 正處於戰爭, 他們撤銷了之前提供給您的任務.戰爭必須結束,他們才會再次提供任務給您.</Text>
+			<Text>因為你與 {1_MinorCivName:textkey} 正處於戰爭，他們撤銷了之前提供給您的任務。戰爭必須結束，他們才會再次提供任務給您。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_REVOKED_WAR">
 			<Text>{1_MinorCivName:textkey} 撤銷任務</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CONSCRIPTION_SPAWN">
-			<Text>因為 {1_CityName:textkey} 有 {2_Population} [ICON_CITIZEN]公民, 一個 {3_Unit} 被徵召!</Text>
+			<Text>因為 {1_CityName:textkey} 有 {2_Population} [ICON_CITIZEN]公民，一個 {3_Unit} 被徵召！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CONSCRIPTION_SPAWN_SUMMARY">
-			<Text>{2_Unit} 被 {1_CityName:textkey} 徵召!</Text>
+			<Text>{2_Unit} 被 {1_CityName:textkey} 徵召！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_ANNEXED_CITY_STATE_UNIT_SPAWN">
-			<Text>被征服的 {1_CivName:textkey} 城邦給了您一個新單位!</Text>
+			<Text>被征服的 {1_CivName:textkey} 城邦給了您一個新單位！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ANNEXED_CITY_STATE_UNIT_SPAWN">
-			<Text>來自 {1_CivName:textkey} 的新單位!</Text>
+			<Text>來自 {1_CivName:textkey} 的新單位！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_GREAT_MERCHANT">
-			<Text>您的 {1_UnitType} 所帶回的巨大財富讓您的帝國慶祝 "敬王之日", 持續 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 回合!</Text>
+			<Text>您的 {1_UnitType} 所帶回的巨大財富讓您的帝國慶祝「敬王之日」，持續 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 回合！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_GREAT_MERCHANT_SUMMARY">
-			<Text>你的 {1_UnitType} 成功交易!</Text>
+			<Text>你的 {1_UnitType} 成功交易！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_FREE_RESOURCE">
-			<Text>你的 {1_UnitType} 前往遙遠的國度,並發現 [COLOR_POSITIVE_TEXT]{2_ResourceNames}[ENDCOLOR]! 為感謝您的贊助,我們贈送您[COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR]個這個資源.</Text>
+			<Text>你的 {1_UnitType} 前往遙遠的國度，並發現 [COLOR_POSITIVE_TEXT]{2_ResourceNames}[ENDCOLOR]! 為感謝您的贊助，我們贈送您[COLOR_POSITIVE_TEXT]{3_Num}[ENDCOLOR]個這個資源。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_FREE_RESOURCE_SUMMARY">
-			<Text>您的 {1_UnitType} 航程已完成!</Text>
+			<Text>您的 {1_UnitType} 航程已完成！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT">
-			<Text>您的 {1_UnitType} 對 {3_CivShortDesc} 增加了 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 的[ICON_INFLUENCE]影響力,同時所有已知的主權文明的城邦影響力也降低了相同的數值!您對城邦的最低[ICON_INFLUENCE]影響力也增加了 [COLOR_POSITIVE_TEXT]{4_Num}[ENDCOLOR]!</Text>
+			<Text>您的 {1_UnitType} 對 {3_CivShortDesc} 增加了 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] 的[ICON_INFLUENCE]影響力，同時所有已知的主權文明的城邦影響力也降低了相同的數值!您對城邦的最低[ICON_INFLUENCE]影響力也增加了 [COLOR_POSITIVE_TEXT]{4_Num}[ENDCOLOR]！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_SUMMARY">
-			<Text>您的 {1_UnitType} 任務完成!</Text>
+			<Text>您的 {1_UnitType} 任務完成！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_OTHER">
-			<Text>{4_OwnerAdj} 的一個 {1_UnitType} 對 {3_CivShortDesc} 增加了 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] 的[ICON_INFLUENCE]影響力,並且你在城邦的[ICON_INFLUENCE]影響力減少了相同的數量! 他們對城邦的最低[ICON_INFLUENCE]影響力也增加了 [COLOR_NEGATIVE_TEXT]{5_Num}[ENDCOLOR]!</Text>
+			<Text>{4_OwnerAdj} 的一個 {1_UnitType} 對 {3_CivShortDesc} 增加了 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR] 的[ICON_INFLUENCE]影響力，並且你在城邦的[ICON_INFLUENCE]影響力減少了相同的數量! 他們對城邦的最低[ICON_INFLUENCE]影響力也增加了 [COLOR_NEGATIVE_TEXT]{5_Num}[ENDCOLOR]！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_DIPLOMAT_OTHER_SUMMARY">
-			<Text>外國的 {1_UnitType} 任務完成!</Text>
+			<Text>外國的 {1_UnitType} 任務完成！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EXPENDED_SUPPLY">
-			<Text>消耗 {1_UnitName} 增加你的軍事單位供應上限 {2_Num}!</Text>
+			<Text>消耗 {1_UnitName} 增加你的軍事單位供應上限 {2_Num}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_EXPENDED_SUPPLY_S">
-			<Text>軍事單位供應上限增加了!</Text>
+			<Text>軍事單位供應上限增加了！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR">
-			<Text>您的音樂家受到 {1_PlayerAdj} 人民的歡迎.您從他們身上獲得 +[COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_TOURISM]旅遊業績,以及您的[ICON_CAPITAL]首都 +{3_num} [ICON_HAPPINESS_1]幸福度.</Text>
+			<Text>您的音樂家受到 {1_PlayerAdj} 人民的歡迎。您從他們身上獲得 +[COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] [ICON_TOURISM]旅遊業績，以及您的[ICON_CAPITAL]首都 +{3_num} [ICON_HAPPINESS_1]幸福度。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR_S">
-			<Text>{1_PlayerAdj} 領地的巡演完成!</Text>
+			<Text>{1_PlayerAdj} 領地的巡演完成！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR_TARGET">
-			<Text>{1_PlayerAdj} 音樂家最近在您的帝國巡迴演出,受到熱烈歡迎.{1_PlayerAdj} 對您的[ICON_TOURISM]文化影響力增加了 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR].</Text>
+			<Text>{1_PlayerAdj} 音樂家最近在您的帝國巡迴演出，受到熱烈歡迎。{1_PlayerAdj} 對您的[ICON_TOURISM]文化影響力增加了 [COLOR_NEGATIVE_TEXT]{2_Num}[ENDCOLOR]。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_FAMILIAR_TOUR_TARGET_S">
-			<Text>{1_PlayerName} 音樂家抵達!</Text>
+			<Text>{1_PlayerName} 音樂家抵達！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS">
-			<Text>您的音樂家受到 {1_PlayerAdj} 人民的歡迎.您獲得 +[COLOR_POSITIVE_TEXT]50%[ENDCOLOR] [ICON_TOURISM]旅遊業績與所有文明,持續 {2_Num} 回合,以及 +[COLOR_POSITIVE_TEXT]100%[ENDCOLOR] [ICON_TOURISM]旅遊業績與目標文明,持續 {2_Num} 回合.</Text>
+			<Text>您的音樂家受到 {1_PlayerAdj} 人民的歡迎。您獲得 +[COLOR_POSITIVE_TEXT]50%[ENDCOLOR] [ICON_TOURISM]旅遊業績與所有文明，持續 {2_Num} 回合，以及 +[COLOR_POSITIVE_TEXT]100%[ENDCOLOR] [ICON_TOURISM]旅遊業績與目標文明，持續 {2_Num} 回合。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS_S">
-			<Text>{1_PlayerAdj} 領地的巡演完成!</Text>
+			<Text>{1_PlayerAdj} 領地的巡演完成！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS_TARGET">
-			<Text>{1_PlayerAdj} 音樂家最近在您的帝國巡迴演出,受到熱烈歡迎.{2_Player} 獲得 +[COLOR_NEGATIVE_TEXT]100%[ENDCOLOR] [ICON_TOURISM]旅遊業績與你, 持續 [COLOR_NEGATIVE_TEXT]{3_Num}[ENDCOLOR] 回合.</Text>
+			<Text>{1_PlayerAdj} 音樂家最近在您的帝國巡迴演出，受到熱烈歡迎。{2_Player} 獲得 +[COLOR_NEGATIVE_TEXT]100%[ENDCOLOR] [ICON_TOURISM]旅遊業績與你，持續 [COLOR_NEGATIVE_TEXT]{3_Num}[ENDCOLOR] 回合。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_MUSICIAN_TOUR_TURNS_TARGET_S">
-			<Text>{1_PlayerName} 音樂家抵達!</Text>
+			<Text>{1_PlayerName} 音樂家抵達！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MONOPOLY_GAINED">
-			<Text>您控制了全球超過 50% 的 [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR],因此擁有全球壟斷權![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+			<Text>您控制了全球超過 50% 的 [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]，因此擁有全球壟斷權！[NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MONOPOLY_GAINED">
-			<Text>全球壟斷 [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+			<Text>全球壟斷 [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_MONOPOLY_GAINED">
-			<Text>{3_CivName} 控制了全球超過 50% 的[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR], 因此擁有全球壟斷權![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+			<Text>{3_CivName} 控制了全球超過 50% 的[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]，因此擁有全球壟斷權！[NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_OTHER_PLAYER_MONOPOLY_GAINED">
-			<Text>{2_CivName} 全球壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+			<Text>{2_CivName} 全球壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_MONOPOLY_LOST">
-			<Text>你[COLOR_NEGATIVE_TEXT]不再[ENDCOLOR]全球壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]![NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]失去:[ENDCOLOR][NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+			<Text>你[COLOR_NEGATIVE_TEXT]不再[ENDCOLOR]全球壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]！[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]失去：[ENDCOLOR][NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MONOPOLY_LOST">
-			<Text>失去全球壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+			<Text>失去全球壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_STRATEGIC_MONOPOLY_GAINED">
-			<Text>你控制了全球超過 25% 的[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR], 因此擁有戰略性壟斷![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+			<Text>你控制了全球超過 25% 的[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]，因此擁有戰略性壟斷！[NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_STRATEGIC_MONOPOLY_GAINED">
-			<Text>戰略性壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+			<Text>戰略性壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_STRATEGIC_MONOPOLY_GAINED">
-			<Text>{3_CivName} 控制了全球超過 25% 的[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR], 因此擁有戰略性壟斷![NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+			<Text>{3_CivName} 控制了全球超過 25% 的[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]，因此擁有戰略性壟斷！[NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_OTHER_PLAYER_STRATEGIC_MONOPOLY_GAINED">
-			<Text>{2_CivName} 戰略性壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+			<Text>{2_CivName} 戰略性壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_STRATEGIC_MONOPOLY_LOST">
-			<Text>你[COLOR_NEGATIVE_TEXT]不再[ENDCOLOR]戰略性壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]![NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]失去:[ENDCOLOR][NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
+			<Text>你[COLOR_NEGATIVE_TEXT]不再[ENDCOLOR]戰略性壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]！[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]失去：[ENDCOLOR][NEWLINE][NEWLINE]{2_ResourceHelp}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_STRATEGIC_MONOPOLY_LOST">
-			<Text>失去戰略性壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]!</Text>
+			<Text>失去戰略性壟斷[COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR]！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_PROJECT_STARTED">
-			<Text>{1_Player} 已經開始建造 [COLOR_NEGATIVE_TEXT]{2_Building}[ENDCOLOR],並將在 [COLOR_NEGATIVE_TEXT]{3_Turns}[ENDCOLOR] 回合內完成!完成後,{1_Player} 將取得[COLOR_NEGATIVE_TEXT]文化勝利[ENDCOLOR]!</Text>
+			<Text>{1_Player} 已經開始建造 [COLOR_NEGATIVE_TEXT]{2_Building}[ENDCOLOR]，並將在 [COLOR_NEGATIVE_TEXT]{3_Turns}[ENDCOLOR] 回合內完成！完成後，{1_Player} 將取得[COLOR_NEGATIVE_TEXT]文化勝利[ENDCOLOR]！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_PROJECT_STARTED_S">
-			<Text>正在建造[COLOR_POSITIVE_TEXT]{1_Building}[ENDCOLOR]!</Text>
+			<Text>正在建造[COLOR_POSITIVE_TEXT]{1_Building}[ENDCOLOR]！</Text>
 		</Row>
 
 		<!-- Vassalage -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VASSALAGE_ALLOWED">
-			<Text>附庸已啟用!</Text>
+			<Text>附庸已啟用！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_VASSALAGE_ALLOWED">
-			<Text>因為您已經達到 {1_EraName},現在您可以建立附庸!</Text>
+			<Text>因為您已經達到 {1_EraName}，現在您可以建立附庸！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSALAGE_NOW_VASSAL_YOU_SUMMARY">
-			<Text>{1_TeamName} 向我們投降了!</Text>
+			<Text>{1_TeamName} 向我們投降了！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSALAGE_NOW_VASSAL_YOU">
-			<Text>面對幾乎必敗的局面,{1_TeamName} 已投降成為我們偉大文明的附庸.</Text>
+			<Text>面對幾乎必敗的局面，{1_TeamName} 已投降成為我們偉大文明的附庸。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSALAGE_NOW_VASSAL_YOU_VOLUNTARY_SUMMARY">
-			<Text>{1_TeamName} 現在是我們的自願附庸!</Text>
+			<Text>{1_TeamName} 現在是我們的自願附庸！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSALAGE_NOW_VASSAL_YOU_VOLUNTARY">
-			<Text>{1_TeamName} 承認您的強大實力,同意接受您的保護,成為您的附庸.</Text>
+			<Text>{1_TeamName} 承認您的強大實力，同意接受您的保護，成為您的附庸。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSALAGE_YOU_NOW_VASSAL_SUMMARY">
-			<Text>您現在是 {1_TeamName} 的附庸!</Text>
+			<Text>您現在是 {1_TeamName} 的附庸！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSALAGE_YOU_NOW_VASSAL">
-			<Text>您已經放棄政治獨立,以換取 {1_TeamName} 的保護,成為他們的附庸.</Text>
+			<Text>您已經放棄政治獨立，以換取 {1_TeamName} 的保護，成為他們的附庸。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_SOMEONE_NOW_VASSAL_UNKNOWN_VASSAL_SUMMARY">
-			<Text>{1_PlyrName} 已獲得一位新附庸!</Text>
+			<Text>{1_PlyrName} 已獲得一位新附庸！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_SOMEONE_NOW_VASSAL_UNKNOWN_VASSAL">
-			<Text>{1_PlyrName} 已取得 {2_PlyrName} 為新附庸.</Text>
+			<Text>{1_PlyrName} 已取得 {2_PlyrName} 為新附庸。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSALAGE_ENDED_WITH_YOU_SUMMARY">
-			<Text>{1_TeamName} 不再是您的附庸!</Text>
+			<Text>{1_TeamName} 不再是您的附庸！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSALAGE_ENDED_WITH_YOU_PEACEFUL">
-			<Text>經過長時間的討論,我們同意給予 {1_TeamName} 的人民自由.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]他們不再是我們的附庸.[ENDCOLOR]</Text>
+			<Text>經過長時間的討論，我們同意給予 {1_TeamName} 的人民自由。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]他們不再是我們的附庸。[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSALAGE_ENDED_WITH_YOU">
-			<Text>由 {1_TeamName} 領導的奸詐狗賊已經拿起武器反抗我們的帝國!他們宣佈獨立,並願意為了捍衛自己的主張而戰死疆場.[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]他們不再是我們的附庸.[ENDCOLOR]</Text>
+			<Text>由 {1_TeamName} 領導的奸詐狗賊已經拿起武器反抗我們的帝國！他們宣佈獨立，並願意為了捍衛自己的主張而戰死疆場。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]他們不再是我們的附庸。[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSALAGE_ENDED_FROM_YOU_SUMMARY">
-			<Text>您不再是 {1_TeamName} 的附庸!</Text>
+			<Text>您不再是 {1_TeamName} 的附庸！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSALAGE_ENDED_FROM_YOU_PEACEFUL">
-			<Text>我們已從 {1_TeamName} 獲得解放!我們不再受限於他們的政治陣線,可以自由追求自己的利益.</Text>
+			<Text>我們已從 {1_TeamName} 獲得解放！我們不再受限於他們的政治陣線，可以自由追求自己的利益。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSALAGE_ENDED_FROM_YOU">
-			<Text>革命萬歲! 我們的人民已拿起武器,捍衛國家從 {1_TeamName}的統治下獨立的權利!</Text>
+			<Text>革命萬歲! 我們的人民已拿起武器，捍衛國家從 {1_TeamName}的統治下獨立的權利！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSAL_TAX_INCREASED_SUMMARY">
-			<Text>課稅增加!</Text>
+			<Text>課稅增加！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSAL_TAX_INCREASED">
-			<Text>{1_TeamName} 已將您的稅金從 {2_Num}% 加至 {3_Num}%!</Text>
+			<Text>{1_TeamName} 已將您的稅金從 {2_Num}% 加至 {3_Num}%！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSAL_TAX_DECREASED_SUMMARY">
-			<Text>課稅降低!</Text>
+			<Text>課稅降低！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSAL_TAX_DECREASED">
-			<Text>{1_TeamName} 已將您的稅金從 {2_Num}% 減至 {3_Num}%!</Text>
+			<Text>{1_TeamName} 已將您的稅金從 {2_Num}% 減至 {3_Num}%！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSAL_LIBERATION_POSSIBLE_SUMMARY">
-			<Text>解放的可能性!</Text>
+			<Text>解放的可能性！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSAL_LIBERATION_POSSIBLE">
-			<Text>因為他們多年來一直是我們的附庸,所以我們現在可以解放 {1_TeamName}!</Text>
+			<Text>因為他們多年來一直是我們的附庸，所以我們現在可以解放 {1_TeamName}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_VASSAL_LEVY_SUMMARY">
-			<Text>附庸貢品!</Text>
+			<Text>附庸貢品！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_VASSAL_LEVY">
-			<Text>由於您已進入新時代,您的附庸 {1_TeamName} 已派遣單位到 {3_CityName} 作為他們的貢品.</Text>
+			<Text>由於您已進入新時代，您的附庸 {1_TeamName} 已派遣單位到 {3_CityName} 作為他們的貢品。</Text>
 		</Row>
 		<!-- Resurrection -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CIV_RESURRECTED_VOLUNTARY_VASSAL">
-			<Text>{1_PlayerName} 征服了 {2_CityName},恢復了 {3_CivAdj} 的主權.{4_CivName} 曾經熄滅的火焰再次燃燒.{4_CivName} 現在是 {1_PlayerName} 的附庸.</Text>
+			<Text>{1_PlayerName} 征服了 {2_CityName}，恢復了 {3_CivAdj} 的主權。{4_CivName} 曾經熄滅的火焰再次燃燒。{4_CivName} 現在是 {1_PlayerName} 的附庸。</Text>
 		</Row>
 		<!-- These have no separate summary text -->
 		<Row Tag="TXT_KEY_MISC_SOMEONE_NOW_VASSAL">
-			<Text>{1_PlyrName} 現在是 {2_PlyrName} 的附庸!</Text>
+			<Text>{1_PlyrName} 現在是 {2_PlyrName} 的附庸！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_SOMEONE_NOW_VASSAL_UNKNOWN_MASTER">
-			<Text>{1_PlyrName} 現在是 {2_PlyrName} 的附庸!</Text>
+			<Text>{1_PlyrName} 現在是 {2_PlyrName} 的附庸！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_SOMEONE_ACQUIRE_NEW_VASSAL">
-			<Text>{1_PlyrName} 已獲得一位新的附庸!</Text>
+			<Text>{1_PlyrName} 已獲得一位新的附庸！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_SOMEONE_ENDED_VASSALAGE">
-			<Text>{1_PlyrName} 不再是 {2_PlyrName} 的附庸!</Text>
+			<Text>{1_PlyrName} 不再是 {2_PlyrName} 的附庸！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MISC_VASSAL_TAXES_AVAILABLE">
-			<Text>{1_PlyrName} 的附庸稅率變更可用!</Text>
+			<Text>{1_PlyrName} 的附庸稅率變更可用！</Text>
 		</Row>
 
 		<!-- America -->
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_UA_STOLE_PLOT">
-			<Text>{1_CivName:textkey} 宣佈「天命」法令!</Text>
+			<Text>{1_CivName:textkey} 宣佈「天命」法令！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_UA_STOLE_PLOT">
-			<Text>{1_CivName:textkey} 買下了你的一些土地!</Text>
+			<Text>{1_CivName:textkey} 買下了你的一些土地！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_RESET_PLOT_COST">
-			<Text>昭昭天命!</Text>
+			<Text>昭昭天命！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_RESET_PLOT_COST">
-			<Text>建立新城市已重設所有己方城市的單元格購買成本增加!</Text>
+			<Text>建立新城市已重設所有己方城市的單元格購買成本增加！</Text>
 		</Row>
 
 		<!-- Assyria -->
 		<Row Tag="TXT_KEY_SCIENCE_BOOST_CONQUEST_SUMMARY">
-			<Text>被掠奪的科學秘密!</Text>
+			<Text>被掠奪的科學秘密！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SCIENCE_BOOST_CONQUEST">
-			<Text>你的士兵在征服 {2_Name} 的過程中,發現了價值 {1_Num} [ICON_RESEARCH]科學的資訊!</Text>
+			<Text>你的士兵在征服 {2_Name} 的過程中，發現了價值 {1_Num} [ICON_RESEARCH]科學的資訊！</Text>
 		</Row>
 
 		<!-- China -->
@@ -270,34 +270,34 @@
 			<Text>天命所歸</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_GREAT_WORK">
-			<Text>創造 [ICON_GREAT_WORK]巨作會使所有城市進入 {1_Num} 回合的「敬后之日」,城市的[ICON_FOOD]成長 +{2_Num}% !所有城市 +2 [ICON_FOOD]食物.</Text>
+			<Text>創造 [ICON_GREAT_WORK]巨作會使所有城市進入 {1_Num} 回合的「敬后之日」，城市的[ICON_FOOD]成長 +{2_Num}% ！所有城市 +2 [ICON_FOOD]食物。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA_CITY_SETTLING">
 			<Text>天命所歸</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_CITY_SETTLING">
-			<Text>新城市的建立會使所有城市進入 {1_Num} 回合的「敬后之日」,[ICON_FOOD]成長 +{2_Num}%!所有城市 +2 [ICON_FOOD]食物.</Text>
+			<Text>新城市的建立會使所有城市進入 {1_Num} 回合的「敬后之日」，[ICON_FOOD]成長 +{2_Num}%！所有城市 +2 [ICON_FOOD]食物。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA_CITY_CONQUEST">
 			<Text>天命所歸</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_CITY_CONQUEST">
-			<Text>征服城市會使所有城市進入 {1_Num} 回合的 "敬后之日", [ICON_FOOD]成長 +{2_Num}%! 所有城市 +2 [ICON_FOOD]食物.</Text>
+			<Text>征服城市會使所有城市進入 {1_Num} 回合的 "敬后之日"，[ICON_FOOD]成長 +{2_Num}%! 所有城市 +2 [ICON_FOOD]食物。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA_RESOURCE">
 			<Text>天命所歸</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_RESOURCE">
-			<Text>因為 {1_Resource:textkey} 連接到您的貿易網路,{2_CityName:textkey} 城市進入 {3_Num} 回合的「敬後之日」,其[ICON_FOOD]成長 +{4_Num}% !</Text>
+			<Text>因為 {1_Resource:textkey} 連接到您的貿易網路，{2_CityName:textkey} 城市進入 {3_Num} 回合的「敬後之日」，其[ICON_FOOD]成長 +{4_Num}%！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_SUMMARY_WLTKD_UA_ERA_CHANGE">
 			<Text>朝代轉變...</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA_ERA_CHANGE">
-			<Text>進入新的時代,導致了不穩定和新統治王朝的崛起.天命所歸的[ICON_FOOD]食物加成在所有城市減半.</Text>
+			<Text>進入新的時代，導致了不穩定和新統治王朝的崛起。天命所歸的[ICON_FOOD]食物加成在所有城市減半。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_DEMAND_UA">
-			<Text>{1_CityName:textkey} 城市想要 {2_ResourceName:textkey}!將該資源連接到您的貿易網路會使該城市進入 「敬後之日」.</Text>
+			<Text>{1_CityName:textkey} 城市想要 {2_ResourceName:textkey}!將該資源連接到您的貿易網路會使該城市進入「敬後之日」。</Text>
 		</Row>
 
 		<!-- Japan -->
@@ -305,7 +305,7 @@
 			<Text>大名的贊助</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GWAM_BONUS_SAKOKU">
-			<Text>由於 {4_UnitName:textkey} 的誕生,您的[ICON_CAPITAL]首都獲得:[NEWLINE][ICON_BULLET]{1_Num} [ICON_GREAT_WRITER]大作家點數[NEWLINE][ICON_BULLET]{2_Num} [ICON_GREAT_ARTIST]大藝術家點數[NEWLINE][ICON_BULLET]{3_Num} [ICON_GREAT_MUSICIAN]大音樂家點數</Text>
+			<Text>由於 {4_UnitName:textkey} 的誕生，您的[ICON_CAPITAL]首都獲得：[NEWLINE][ICON_BULLET]{1_Num} [ICON_GREAT_WRITER]大作家點數[NEWLINE][ICON_BULLET]{2_Num} [ICON_GREAT_ARTIST]大藝術家點數[NEWLINE][ICON_BULLET]{3_Num} [ICON_GREAT_MUSICIAN]大音樂家點數</Text>
 		</Row>
 
 		<!-- City-State quests -->
@@ -313,151 +313,151 @@
 			<Text>{@2_MinorCivName} 向 {1_TargetName:textkey} 開戰</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_START_WAR">
-			<Text>{@2_MinorCivName} 最近受到霸凌,其公民要求報復 {1_TargetName:textkey}.如果您協助他們與 {1_TargetName:textkey} 開戰,您將獲得豐厚的報酬.</Text>
+			<Text>{@2_MinorCivName} 最近受到霸凌，其公民要求報復 {1_TargetName:textkey}。如果您協助他們與 {1_TargetName:textkey} 開戰，您將獲得豐厚的報酬。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_WAR">
-			<Text>{@1_MinorCivName} 的戰爭開始了!</Text>
+			<Text>{@1_MinorCivName} 的戰爭開始了！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_WAR">
-			<Text>{@1_MinorCivName} 的公民很高興看到您代表他們出戰.</Text>
+			<Text>{@1_MinorCivName} 的公民很高興看到您代表他們出戰。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONSTRUCT_NATIONAL_WONDER">
-			<Text>{@2_CivName} 渴望 {@1_NationalWonderName}.</Text>
+			<Text>{@2_CivName} 渴望 {@1_NationalWonderName}。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONSTRUCT_NATIONAL_WONDER">
-			<Text>{@2_CivName} 的歷史學家們慨嘆世界各國帝國的腐朽和過度擴張.他們表示,建造 {@1_NationalWonderName} 的文明將能彌補其帝國的輝煌,同時也能獲得這個城邦的青睞.</Text>
+			<Text>{@2_CivName} 的歷史學家們慨嘆世界各國帝國的腐朽和過度擴張。他們表示，建造 {@1_NationalWonderName} 的文明將能彌補其帝國的輝煌，同時也能獲得這個城邦的青睞。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONSTRUCT_NATIONAL_WONDER">
-			<Text>為 {@2_CivName} 建造的 {@1_NationalWonderName}!</Text>
+			<Text>為 {@2_CivName} 建造的 {@1_NationalWonderName}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONSTRUCT_NATIONAL_WONDER">
-			<Text>正如 {@2_CivName} 所希望的,您建造了 {@1_NationalWonderName}!</Text>
+			<Text>正如 {@2_CivName} 所希望的，您建造了 {@1_NationalWonderName}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GIFT_SPECIFIC_UNIT">
 			<Text>{@2_CivName} 渴望 {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_UnitName}}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GIFT_SPECIFIC_UNIT">
-			<Text>{@3_CivName} 的領袖想要加強他們的軍隊. 送他們至少 {2_XP} XP 的 {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_UnitName}} 將能兌現他們的帝國榮耀,並獲得他們的好感.</Text>
+			<Text>{@3_CivName} 的領袖想要加強他們的軍隊。送他們至少 {2_XP} XP 的 {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_UnitName}} 將能兌現他們的帝國榮耀，並獲得他們的好感。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_GIFT_SPECIFIC_UNIT">
-			<Text>{1_UnitName} 送往 {@2_CivName}!</Text>
+			<Text>{1_UnitName} 送往 {@2_CivName}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GIFT_SPECIFIC_UNIT">
-			<Text>正如 {@2_CivName} 所希望的, 您送給他們 {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_UnitName}}!</Text>
+			<Text>正如 {@2_CivName} 所希望的，您送給他們 {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_UnitName}}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_FIND_CITY_STATE">
 			<Text>{2_CivName:textkey} 想要找到 {1_TargetName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_FIND_CITY_STATE">
-			<Text>{2_CivName:textkey} 的商人們聽說了一個遙遠的城市,叫做{1_TargetName:textkey}. {2_CivName:textkey}現在正在尋找探險者來幫助他們找到這個城市.如果您能夠找到它,您將會獲得獎勵.</Text>
+			<Text>{2_CivName:textkey} 的商人們聽說了一個遙遠的城市，叫做{1_TargetName:textkey}。{2_CivName:textkey}現在正在尋找探險者來幫助他們找到這個城市。如果您能夠找到它，您將會獲得獎勵。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_FIND_CITY_STATE">
-			<Text>為 {2_CivName:textkey} 找到 {1_TargetName:textkey}!</Text>
+			<Text>為 {2_CivName:textkey} 找到 {1_TargetName:textkey}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_CITY_STATE">
-			<Text>正如 {2_CivName:textkey} 所希望的,你找到了 {1_TargetName:textkey} 城市!</Text>
+			<Text>正如 {2_CivName:textkey} 所希望的，你找到了 {1_TargetName:textkey} 城市！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_INFLUENCE">
 			<Text>{1_MinorCivName:textkey} 正在舉辦論壇</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_INFLUENCE">
-			<Text>{3_MinorCivName:textkey} 將舉辦國家政學論壇,並鼓勵所有文明的代表參加.在這段期間對他們進行的外交任務將會更有效率,會多獲得 [COLOR_POSITIVE_TEXT]{2_BoostPercentage}%[ENDCOLOR] 的[ICON_INFLUENCE] 影響力.[COLOR_POSITIVE_TEXT]剩下 {1_TurnsRemaining} 回合[ENDCOLOR].</Text>
+			<Text>{3_MinorCivName:textkey} 將舉辦國家政學論壇，並鼓勵所有文明的代表參加。在這段期間對他們進行的外交任務將會更有效率，會多獲得 [COLOR_POSITIVE_TEXT]{2_BoostPercentage}%[ENDCOLOR] 的[ICON_INFLUENCE] 影響力。[COLOR_POSITIVE_TEXT]剩下 {1_TurnsRemaining} 回合[ENDCOLOR]。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_INFLUENCE">
 			<Text>{1_MinorCivName:textkey} 已結束他們的論壇</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_INFLUENCE">
-			<Text>{1_MinorCivName:textkey} 的論壇已經結束.從外交任務獲得的[ICON_INFLUENCE]影響力已恢復正常.</Text>
+			<Text>{1_MinorCivName:textkey} 的論壇已經結束。從外交任務獲得的[ICON_INFLUENCE]影響力已恢復正常。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_TOURISM">
 			<Text>{1_MinorCivName:textkey} 正準備舉行萬國節</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_TOURISM">
-			<Text>{3_MinorCivName:textkey} 的人民即將舉辦萬國節.為了準備,他們將派代表團前往已知世界的各大文明.在 {2_TurnsDuration} 回合後,擁有最高[ICON_TOURISM]旅遊業績產出的玩家,無疑會給代表們留下最深刻的印象. [COLOR_POSITIVE_TEXT]節慶開放還有 {1_TurnsRemaining} 回合.[ENDCOLOR]</Text>
+			<Text>{3_MinorCivName:textkey} 的人民即將舉辦萬國節。為了準備，他們將派代表團前往已知世界的各大文明。在 {2_TurnsDuration} 回合後，擁有最高[ICON_TOURISM]旅遊業績產出的玩家，無疑會給代表們留下最深刻的印象。[COLOR_POSITIVE_TEXT]節慶開放還有 {1_TurnsRemaining} 回合。[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_TOURISM">
-			<Text>{1_MinorCivName:textkey} 對您的旅遊業績印象深刻!</Text>
+			<Text>{1_MinorCivName:textkey} 對您的旅遊業績印象深刻！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_TOURISM">
-			<Text>您文明的[ICON_TOURISM]旅遊業績給 {1_MinorCivName:textkey} 留下深刻印象! 他們對其他文明無動於衷.成功的文明(允許並列):[NEWLINE]</Text>
+			<Text>您文明的[ICON_TOURISM]旅遊業績給 {1_MinorCivName:textkey} 留下深刻印象! 他們對其他文明無動於衷.成功的文明(允許並列)：[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_TOURISM">
 			<Text>{1_MinorCivName:textkey} 對您的旅遊業績印象不佳</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TOURISM">
-			<Text>另一個文明的[ICON_TOURISM]旅遊業績讓 {1_MinorCivName:textkey} 感到驚訝.你的[ICON_TOURISM]旅遊業績還不夠.成功的文明 (允許並列):[NEWLINE]</Text>
+			<Text>另一個文明的[ICON_TOURISM]旅遊業績讓 {1_MinorCivName:textkey} 感到驚訝。你的[ICON_TOURISM]旅遊業績還不夠.成功的文明 (允許並列)：[NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ARCHAEOLOGY">
 			<Text>{1_MinorCivName:textkey} 尋找一位考古學家</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ARCHAEOLOGY">
-			<Text>一位來自 {1_MinorCivName:textkey} 的傑出教授發佈了一項全球請求,希望有人能到附近的地點搜尋有價值的文物.第一位派遣考古學家前往該地點進行研究的玩家將獲得獎勵.</Text>
+			<Text>一位來自 {1_MinorCivName:textkey} 的傑出教授發佈了一項全球請求，希望有人能到附近的地點搜尋有價值的文物。第一位派遣考古學家前往該地點進行研究的玩家將獲得獎勵。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_ARCHAEOLOGY">
-			<Text>{1_MinorCivName:textkey} 的考古發掘工作已經完成!</Text>
+			<Text>{1_MinorCivName:textkey} 的考古發掘工作已經完成！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_ARCHAEOLOGY">
-			<Text>{1_MinorCivName:textkey} 的教授對於您的發掘成果感到非常興奮,並斷言您所發現的東西絕對屬於博物館.</Text>
+			<Text>{1_MinorCivName:textkey} 的教授對於您的發掘成果感到非常興奮，並斷言您所發現的東西絕對屬於博物館。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_ARCHAEOLOGY">
-			<Text>歷史古跡被他人發掘!</Text>
+			<Text>歷史古跡被他人發掘！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_ARCHAEOLOGY">
-			<Text>一隊外國考古學家比你們更快一步,首先發掘了 {1_MinorCivName:textkey} 附近的歷史古跡.{1_MinorCivName:textkey} 的教授對他們的工作印象深刻,他們在城邦的影響力也因此增加.</Text>
+			<Text>一隊外國考古學家比你們更快一步,首先發掘了 {1_MinorCivName:textkey} 附近的歷史古跡。{1_MinorCivName:textkey} 的教授對他們的工作印象深刻，他們在城邦的影響力也因此增加。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CIRCUMNAVIGATION">
 			<Text>{1_MinorCivName:textkey} 需要無畏的航海家們</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CIRCUMNAVIGATION">
-			<Text>{1_MinorCivName:textkey} 的水手聽到其他文明和城邦的航海家聲稱地球可能是圓的,他們希望你去尋找真相.如果您能證明世界是圓的,您在這個城邦的[ICON_INFLUENCE]影響力將會增加.</Text>
+			<Text>{1_MinorCivName:textkey} 的水手聽到其他文明和城邦的航海家聲稱地球可能是圓的，他們希望你去尋找真相。如果您能證明世界是圓的，您在這個城邦的[ICON_INFLUENCE]影響力將會增加。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CIRCUMNAVIGATION">
-			<Text>{1_MinorCivName:textkey} 的環球航行已經完成!</Text>
+			<Text>{1_MinorCivName:textkey} 的環球航行已經完成！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CIRCUMNAVIGATION">
-			<Text>{1_MinorCivName:textkey} 的水手們對您精湛的航海技術敬畏不已,並在得知世界既不是平的,也不是圓盤時感到非常興奮.</Text>
+			<Text>{1_MinorCivName:textkey} 的水手們對您精湛的航海技術敬畏不已，並在得知世界既不是平的，也不是圓盤時感到非常興奮。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CIRCUMNAVIGATION">
 			<Text>有人環遊了世界</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CIRCUMNAVIGATION">
-			<Text>有人為 {1_MinorCivName:textkey} 環遊世界.您的航海家心灰意冷,您在這個城邦的影響力也沒有增加.</Text>
+			<Text>有人為 {1_MinorCivName:textkey} 環遊世界。您的航海家心灰意冷，您在這個城邦的影響力也沒有增加。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_LIBERATION">
-			<Text>{2_MinorCivName:textkey} 請求解放 {1_CityName:textkey}.</Text>
+			<Text>{2_MinorCivName:textkey} 請求解放 {1_CityName:textkey}。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_LIBERATION">
-			<Text>來自 {1_CityName:textkey} 被征服城市的游擊隊與 {2_MinorCivName:textkey} 的領袖結盟,並請求您協助他們奪回首都.如果您幫助 {1_CityName:textkey} 的游擊隊解放他們的首都,您在兩個城邦的[ICON_INFLUENCE]影響力將會大幅提升.</Text>
+			<Text>來自 {1_CityName:textkey} 被征服城市的游擊隊與 {2_MinorCivName:textkey} 的領袖結盟，並請求您協助他們奪回首都。如果您幫助 {1_CityName:textkey} 的游擊隊解放他們的首都，您在兩個城邦的[ICON_INFLUENCE]影響力將會大幅提升。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_LIBERATION">
-			<Text>為 {2_MinorCivName:textkey} 取得 {1_CityName:textkey} 的解放!</Text>
+			<Text>為 {2_MinorCivName:textkey} 取得 {1_CityName:textkey} 的解放！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_LIBERATION">
-			<Text>{2_MinorCivName:textkey} 的領導人稱讚您的英勇事跡,並感謝您解放了 {1_CityName:textkey}.</Text>
+			<Text>{2_MinorCivName:textkey} 的領袖稱讚您的英勇事跡，並感謝您解放了 {1_CityName:textkey}。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_LIBERATION">
 			<Text>不再需要協助解放 {1_CityName:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_LIBERATION">
-			<Text>{1_CityName:textkey} 的游擊隊不再需要你們的幫助.因此,{2_MinorCivName:textkey} 的領袖取消了他們的援助請求.</Text>
+			<Text>{1_CityName:textkey} 的游擊隊不再需要你們的幫助。因此，{2_MinorCivName:textkey} 的領袖取消了他們的援助請求。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_HORDE">
-			<Text>蠻族部落正在攻擊 {1_MinorCivName:textkey}!</Text>
+			<Text>蠻族部落正在攻擊 {1_MinorCivName:textkey}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_HORDE">
-			<Text>{2_MinorCivName:textkey} 附近出現了一群蠻族!如果在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合結束時,城市旁邊有蠻族,[COLOR_NEGATIVE_TEXT]城市將會被洗劫[ENDCOLOR]!</Text>
+			<Text>{2_MinorCivName:textkey} 附近出現了一群蠻族！如果在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合結束時，城市旁邊有蠻族，[COLOR_NEGATIVE_TEXT]城市將會被洗劫[ENDCOLOR]！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_HORDE">
-			<Text>{1_MinorCivName:textkey} 附近的部落已散去!</Text>
+			<Text>{1_MinorCivName:textkey} 附近的部落已散去！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_HORDE">
-			<Text>{1_MinorCivName:textkey} 附近的蠻族部落未能洗劫城市,現在已經散去.</Text>
+			<Text>{1_MinorCivName:textkey} 附近的蠻族部落未能洗劫城市，現在已經散去。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_HORDE">
-			<Text>蠻族湧入 {1_MinorCivName:textkey}!</Text>
+			<Text>蠻族湧入 {1_MinorCivName:textkey}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_HORDE">
-			<Text>蠻族在 {1_CityStateName:textkey} 附近建立了自己的據點,並且[COLOR_NEGATIVE_TEXT]正在接管它[ENDCOLOR]!</Text>
+			<Text>蠻族在 {1_CityStateName:textkey} 附近建立了自己的據點，並且[COLOR_NEGATIVE_TEXT]正在接管它[ENDCOLOR]！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_REBELLION">
 			<Text>在 {2_MinorCivName:textkey} 發生針對 {1_TargetName:textkey} 的革命</Text>
@@ -469,283 +469,283 @@
 			<Text>{1_MinorCivName:textkey} 的革命</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_GENERAL">
-			<Text>{3_MinorCivName:textkey} 的公民發起了反對 {2_TargetName:textkey} 的革命!如果叛軍在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合維持存在,[COLOR_NEGATIVE_TEXT]這個城市將會淪陷於革命[ENDCOLOR],而且其聯盟將會轉移.</Text>
+			<Text>{3_MinorCivName:textkey} 的公民發起了反對 {2_TargetName:textkey} 的革命！如果叛軍在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合維持存在，[COLOR_NEGATIVE_TEXT]這個城市將會淪陷於革命[ENDCOLOR]，而且其聯盟將會轉移。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_GENERAL_BLANK">
-			<Text>{3_MinorCivName:textkey} 的公民發起了反對 {2_TargetName:textkey} 的革命!如果叛軍在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合維持存在,[COLOR_NEGATIVE_TEXT]這個城市將會淪陷於革命[ENDCOLOR],而且其聯盟將會轉移.</Text>
+			<Text>{3_MinorCivName:textkey} 的公民發起了反對 {2_TargetName:textkey} 的革命！如果叛軍在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合維持存在，[COLOR_NEGATIVE_TEXT]這個城市將會淪陷於革命[ENDCOLOR]，而且其聯盟將會轉移。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_GENERAL_BLANK_RANDOM">
-			<Text>{2_MinorCivName:textkey} 的公民發起了反對現任統治者的革命!如果叛軍在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合維持存在,[COLOR_NEGATIVE_TEXT]這個城市將會淪陷於革命之中[ENDCOLOR],而且其聯盟將會轉移.</Text>
+			<Text>{2_MinorCivName:textkey} 的公民發起了反對現任統治者的革命！如果叛軍在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合維持存在，[COLOR_NEGATIVE_TEXT]這個城市將會淪陷於革命之中[ENDCOLOR]，而且其聯盟將會轉移。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_FREEDOM">
-			<Text>來自 {3_MinorCivName:textkey} 的自由鬥士正在領導一場反對 {2_TargetName:textkey} 的革命! 如果叛軍在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合維持存在, [COLOR_NEGATIVE_TEXT]這個城市將會淪陷於革命之中[ENDCOLOR],而且其聯盟將會轉移.</Text>
+			<Text>來自 {3_MinorCivName:textkey} 的自由鬥士正在領導一場反對 {2_TargetName:textkey} 的革命！如果叛軍在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合維持存在，[COLOR_NEGATIVE_TEXT]這個城市將會淪陷於革命之中[ENDCOLOR]，而且其聯盟將會轉移。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_ORDER">
-			<Text>{3_MinorCivName:textkey} 的無產階級正在領導一場反對 {2_TargetName:textkey} 的革命! 如果叛軍在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合維持存在, [COLOR_NEGATIVE_TEXT]這個城市將會淪陷於革命之中[ENDCOLOR],而且其聯盟將會轉移.</Text>
+			<Text>{3_MinorCivName:textkey} 的無產階級正在領導一場反對 {2_TargetName:textkey} 的革命！如果叛軍在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合維持存在，[COLOR_NEGATIVE_TEXT]這個城市將會淪陷於革命之中[ENDCOLOR]，而且其聯盟將會轉移。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_REBELLION_AUTOCRACY">
-			<Text>{3_MinorCivName:textkey} 的游擊戰士正在領導一場反對 {2_TargetName:textkey} 的革命! 如果叛軍在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合維持存在, [COLOR_NEGATIVE_TEXT]這個城市將會淪陷於革命之中[ENDCOLOR],而且其聯盟將會轉移.</Text>
+			<Text>{3_MinorCivName:textkey} 的游擊戰士正在領導一場反對 {2_TargetName:textkey} 的革命！如果叛軍在 [COLOR_POSITIVE_TEXT]{1_TurnsRemaining}[ENDCOLOR] 回合維持存在，[COLOR_NEGATIVE_TEXT]這個城市將會淪陷於革命之中[ENDCOLOR]，而且其聯盟將會轉移。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_REBELLION">
-			<Text>{1_MinorCivName:textkey} 中的革命被粉碎!</Text>
+			<Text>{1_MinorCivName:textkey} 中的革命被粉碎！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_REBELLION">
-			<Text>{1_MinorCivName:textkey} 的革命軍失敗了,現在他們的士氣已經崩潰.</Text>
+			<Text>{1_MinorCivName:textkey} 的革命軍失敗了，現在他們的士氣已經崩潰。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_REBELLION">
 			<Text>革命在 {1_MinorCivName:textkey} 取得勝利</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REBELLION">
-			<Text>{2_CityStateName:textkey} 的革命成功了,他們與 {1_TargetName:textkey} 的聯盟也結束了.{2_CityStateName:textkey} 現在向其他帝國尋求友誼與保護.</Text>
+			<Text>{2_CityStateName:textkey} 的革命成功了，他們與 {1_TargetName:textkey} 的聯盟也結束了。{2_CityStateName:textkey} 現在向其他帝國尋求友誼與保護。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REBELLION_BLANK">
-			<Text>{1_CityStateName:textkey} 的革命已經結束.{1_CityStateName:textkey} 現在向其他帝國尋求友誼與保護.</Text>
+			<Text>{1_CityStateName:textkey} 的革命已經結束。{1_CityStateName:textkey} 現在向其他帝國尋求友誼與保護。</Text>
 		</Row>
 
 		<!-- Barbarian theft -->
 		<Row Tag="TXT_KEY_BARBARIAN_GOLD_THEFT_CITY">
-			<Text>蠻族洗劫 {1_City}!</Text>
+			<Text>蠻族洗劫 {1_City}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_GOLD_THEFT_CITY_DETAILED">
-			<Text>蠻族洗劫了{2_City},偷走了價值 {1_Gold} [ICON_GOLD]金幣的寶貝![NEWLINE]在這些蠻族偷走更多的東西之前,摧毀他們!</Text>
+			<Text>蠻族洗劫了{2_City}，偷走了價值 {1_Gold} [ICON_GOLD]金幣的寶貝！[NEWLINE]在這些蠻族偷走更多的東西之前，摧毀他們！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_CULTURE_THEFT_CITY">
-			<Text>蠻族突襲 {1_City}!</Text>
+			<Text>蠻族突襲 {1_City}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_CULTURE_THEFT_CITY_DETAILED">
-			<Text>蠻族已突襲 {2_City},摧毀價值 {1_Culture} [ICON_CULTURE]文化的文物![NEWLINE]在這些蠻族破壞更多東西之前,摧毀他們!</Text>
+			<Text>蠻族已突襲 {2_City}，摧毀價值 {1_Culture} [ICON_CULTURE]文化的文物！[NEWLINE]在這些蠻族破壞更多東西之前，摧毀他們！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_SCIENCE_THEFT_CITY">
-			<Text>蠻族襲擊 {1_City}!</Text>
+			<Text>蠻族襲擊 {1_City}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_SCIENCE_THEFT_CITY_DETAILED">
-			<Text>蠻族已襲擊 {2_City}, 摧毀價值 {1_Science} [ICON_RESEARCH]科學的研究材料![NEWLINE]在這些蠻族燒掉更多東西之前,摧毀他們!</Text>
+			<Text>蠻族已襲擊 {2_City}，摧毀價值 {1_Science} [ICON_RESEARCH]科學的研究材料！[NEWLINE]在這些蠻族燒掉更多東西之前，摧毀他們！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_FOOD_THEFT_CITY">
-			<Text>蠻族從 {1_City} 偷竊!</Text>
+			<Text>蠻族從 {1_City} 偷竊！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_FOOD_THEFT_CITY_DETAILED">
-			<Text>蠻族洗劫了 {2_City} 的商店,搶走了 {1_Food} [ICON_FOOD]食物![NEWLINE]在這些蠻族搶走更多東西之前,摧毀他們!</Text>
+			<Text>蠻族洗劫了 {2_City} 的商店，搶走了 {1_Food} [ICON_FOOD]食物！[NEWLINE]在這些蠻族搶走更多東西之前，摧毀他們！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_THEFT_CITY">
-			<Text>蠻族恐嚇 {1_City}!</Text>
+			<Text>蠻族恐嚇 {1_City}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BARBARIAN_PRODUCTION_THEFT_CITY_DETAILED">
-			<Text>蠻族綁架了 {2_City} 的市民,造成城市 {1_Production} [ICON_PRODUCTION]產能損失![NEWLINE]在這些蠻族造成更多恐慌之前,摧毀他們!</Text>
+			<Text>蠻族綁架了 {2_City} 的市民，造成城市 {1_Production} [ICON_PRODUCTION]產能損失！[NEWLINE]在這些蠻族造成更多恐慌之前，摧毀他們！</Text>
 		</Row>
 
 		<!-- 公司s -->
 		<Row Tag="TXT_KEY_TECH_CORP_ENABLED_S">
-			<Text>公司已啟用!</Text>
+			<Text>公司已啟用！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_CORP_ENABLED">
-			<Text>現在可以成立公司了!查看 [COLOR_POSITIVE_TEXT]公司與壟斷[ENDCOLOR]界面,以取得您目前的資源壟斷、所有可能的公司,以及您有資格成立的公司的資訊.[NEWLINE][NEWLINE]在您的其中一個城市建造公司總部來建立它!請記住,您只能建立 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 間公司,所以要好好利用!</Text>
+			<Text>現在可以成立公司了！查看 [COLOR_POSITIVE_TEXT]公司與壟斷[ENDCOLOR]界面，以取得您目前的資源壟斷、所有可能的公司，以及您有資格成立的公司的資訊。[NEWLINE][NEWLINE]在您的其中一個城市建造公司總部來建立它!請記住，您只能建立 [COLOR_POSITIVE_TEXT]1[ENDCOLOR] 間公司，所以要好好利用！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FOUNDED_SUMMARY">
-			<Text>公司已建立!</Text>
+			<Text>公司已建立！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FOUNDED">
-			<Text>您成立了 [COLOR_POSITIVE_TEXT]{@1_CorporationName}[ENDCOLOR]!為了廣泛傳播您的新公司,請在您擁有的城市建立公司辦事處,並從這些城市輸送[ICON_INTERNATIONAL_TRADE]貿易路線到外國城市!</Text>
+			<Text>您成立了 [COLOR_POSITIVE_TEXT]{@1_CorporationName}[ENDCOLOR]!為了廣泛傳播您的新公司，請在您擁有的城市建立公司辦事處，並從這些城市輸送[ICON_INTERNATIONAL_TRADE]貿易路線到外國城市！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FOUNDED_OTHER_PLAYER_SUMMARY">
-			<Text>{1_PlayerName} 已成立一家公司!</Text>
+			<Text>{1_PlayerName} 已成立一家公司！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CORPORATION_FOUNDED_OTHER_PLAYER">
-			<Text>{1_PlayerName} 已成立 [COLOR_POSITIVE_TEXT]{@2_CorporationName}[ENDCOLOR]! 無法再建立這個公司,除非其他玩家的公司總部被摧毀(攻佔城市時).</Text>
+			<Text>{1_PlayerName} 已成立 [COLOR_POSITIVE_TEXT]{@2_CorporationName}[ENDCOLOR]! 無法再建立這個公司，除非其他玩家的公司總部被摧毀(攻佔城市時)。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_SUMMARY">
-			<Text>{@1_BldgName} 傳播到 {@2_City}!</Text>
+			<Text>{@1_BldgName} 傳播到 {@2_City}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING">
-			<Text>{@2_BldgName} 因為與 {@3_City} 的貿易路線而傳播到 {@1_City} 城市.這將增加您所有公司辦事處的價值!</Text>
+			<Text>{@2_BldgName} 因為與 {@3_City} 的貿易路線而傳播到 {@1_City} 城市。這將增加您所有公司辦事處的價值！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN_SUMMARY">
-			<Text>{@1_BldgName} 傳播到 {@2_City}!</Text>
+			<Text>{@1_BldgName} 傳播到 {@2_City}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN">
-			<Text>{@2_BldgName}, 一個外國公司, 因為與 {@3_City} 的貿易路線而傳播到 {@1_City} 城市. 這將增加他們公司的價值!</Text>
+			<Text>{@2_BldgName}，一個外國公司，因為與 {@3_City} 的貿易路線而傳播到 {@1_City} 城市。這將增加他們公司的價值！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FREEDOM_SUMMARY">
-			<Text>{@1_BldgName} 傳播到 {@2_City}!</Text>
+			<Text>{@1_BldgName} 傳播到 {@2_City}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FREEDOM">
-			<Text>{@2_BldgName} 已傳播到 {@1_City} 城市! 這將增加您所有公司辦事處的價值!</Text>
+			<Text>{@2_BldgName} 已傳播到 {@1_City} 城市！這將增加您所有公司辦事處的價值！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN_FREEDOM_SUMMARY">
-			<Text>{@1_BldgName} 傳播到 {@2_City}!</Text>
+			<Text>{@1_BldgName} 傳播到 {@2_City}！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_CORPORATION_BUILDING_FOREIGN_FREEDOM">
-			<Text>{@2_BldgName}, 一個外國公司, 已傳播到 {@1_City} 城市! 這將增加他們公司的價值!</Text>
+			<Text>{@2_BldgName}，一個外國公司，已傳播到 {@1_City} 城市！這將增加他們公司的價值！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_DESTROYED_SUMMARY">
-			<Text>{@1_BldgName} 關閉所有辦事處和特許經營權!</Text>
+			<Text>{@1_BldgName} 關閉所有辦事處和特許經營權！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_DESTROYED">
-			<Text>{@1_BldgName} 已經關閉了所有全球辦事室和特許經營權,因為他們的總部遭到意外破壞.</Text>
+			<Text>{@1_BldgName} 已經關閉了所有全球辦事室和特許經營權，因為他們的總部遭到意外破壞。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_BUILDINGS_REMOVED_CITY_S">
-			<Text>{@1_BldgName} 從 {2_City} 中移除!</Text>
+			<Text>{@1_BldgName} 從 {2_City} 中移除！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_CORPORATION_BUILDINGS_REMOVED_CITY">
-			<Text>{@1_BldgName} 在 {2_City} 被 {3_Civ} 強行關閉,這是由於一項意識原則或決議!</Text>
+			<Text>{@1_BldgName} 在 {2_City} 被 {3_Civ} 強行關閉，這是由於一項意識原則或決議！</Text>
 		</Row>
 
 		<!-- Events and Espionage -->
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED_T">
-			<Text>事件已結束.</Text>
+			<Text>事件已結束。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED">
-			<Text>事件的影響已經消失:[NEWLINE]{1_Event}</Text>
+			<Text>事件的影響已經消失：[NEWLINE]{1_Event}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED_CITY_T">
-			<Text>在 {1_City} 發生的事件已經結束.</Text>
+			<Text>在 {1_City} 發生的事件已經結束。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_HAS_ENDED_CITY">
-			<Text>在 {2_City} 發生的事件的影響已經消退:[NEWLINE]{1_Event}</Text>
+			<Text>在 {2_City} 發生的事件的影響已經消退：[NEWLINE]{1_Event}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_ESPIONAGE_EVENT_HAS_ENDED_CITY_T">
-			<Text>在 {1_City} 的間諜效果已經結束.</Text>
+			<Text>在 {1_City} 的間諜效果已經結束。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_ESPIONAGE_EVENT_HAS_ENDED_CITY">
-			<Text>在 {2_City} 的間諜任務的效果已經結束:[NEWLINE]{1_Event}</Text>
+			<Text>在 {2_City} 的間諜任務的效果已經結束：[NEWLINE]{1_Event}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_T">
-			<Text>'{1_Event}' 沒有發生.</Text>
+			<Text>'{1_Event}' 沒有發生。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED">
-			<Text>'{3_Event}' 沒有發生. 你的選擇:[NEWLINE][NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
+			<Text>'{3_Event}' 沒有發生。你的選擇：[NEWLINE][NEWLINE]{1_EventChoice}({2_EventChoiceHelp})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY_T">
-			<Text>{2_City}: '{1_Event}' 沒有發生.</Text>
+			<Text>{2_City}：'{1_Event}' 沒有發生。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_FAILED_CITY">
-			<Text>{4_City}: '{3_Event}' 沒有發生. 你的選擇:[NEWLINE][NEWLINE]{1_EventChoice} ({2_EventChoiceHelp})</Text>
+			<Text>{4_City}：'{3_Event}' 沒有發生。你的選擇：[NEWLINE][NEWLINE]{1_EventChoice}({2_EventChoiceHelp})</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_PAST">
-			<Text>[COLOR_POSITIVE_TEXT]被竊取的數額:[ENDCOLOR] 每回合 {1_Yield}, 持續 {2_Turns}</Text>
+			<Text>[COLOR_POSITIVE_TEXT]被竊取的數額：[ENDCOLOR]每回合 {1_Yield}，持續 {2_Turns}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_YIELD_SIPHON_PAST_ENEMY">
-			<Text>[COLOR_NEGATIVE_TEXT]被竊取的數額:[ENDCOLOR] 每回合 {1_Yield}, 持續 {2_Turns}</Text>
+			<Text>[COLOR_NEGATIVE_TEXT]被竊取的數額：[ENDCOLOR]每回合 {1_Yield}，持續 {2_Turns}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED_T">
-			<Text>間諜效果已經結束.</Text>
+			<Text>間諜效果已經結束。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED">
-			<Text>針對 {2_Civ} 的間諜任務的效果已經結束: 每回合竊取 {1_MissionResult}.</Text>
+			<Text>針對 {2_Civ} 的間諜任務的效果已經結束：每回合竊取 {1_MissionResult}。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED_ENEMY_T">
-			<Text>外國間諜效果已經結束.</Text>
+			<Text>外國間諜效果已經結束。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SIPHON_EVENT_ENDED_ENEMY">
-			<Text>針對你的外國間諜任務的效果已經結束: 每回合竊取 {1_MissionResult}</Text>
+			<Text>針對你的外國間諜任務的效果已經結束：每回合竊取 {1_MissionResult}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SUCCESS_S">
-			<Text>{1_SpyRank} {2_SpyName} 在 {3_CityName} 成功!</Text>
+			<Text>{1_SpyRank} {2_SpyName} 在 {3_CityName} 成功！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ESPIONAGE_EVENT_CHOICE_SUCCESS">
-			<Text>{1_SpyRank} {2_SpyName} 在 {3_CityName} 完成他們的任務: {4_MissionResult}</Text>
+			<Text>{1_SpyRank} {2_SpyName} 在 {3_CityName} 完成他們的任務：{4_MissionResult}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_T_ESPIONAGE">
-			<Text>{2_CivAdj} 間諜在 {1_City} 成功!</Text>
+			<Text>{2_CivAdj} 間諜在 {1_City} 成功！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE">
-			<Text>{2_CivAdj} 間諜在 {1_City} 進行了一次 [COLOR_NEGATIVE_TEXT]間諜任務[ENDCOLOR]. {3_MissionResult}</Text>
+			<Text>{2_CivAdj} 間諜在 {1_City} 進行了一次 [COLOR_NEGATIVE_TEXT]間諜任務[ENDCOLOR]。{3_MissionResult}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_T_ESPIONAGE_UNKNOWN">
-			<Text>未知的外國間諜在 {1_City} 成功!</Text>
+			<Text>未知的外國間諜在 {1_City} 成功！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_EVENT_SUCCEEDED_ESPIONAGE_UNKNOWN">
-			<Text>未知的外國間諜在 {1_City} 進行了一次[COLOR_NEGATIVE_TEXT]間諜任務[ENDCOLOR]: {2_MissionResult}</Text>
+			<Text>未知的外國間諜在 {1_City} 進行了一次[COLOR_NEGATIVE_TEXT]間諜任務[ENDCOLOR]：{2_MissionResult}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_AND_KILLED_S">
-			<Text>{1_SpyRank} {2_SpyName} 被識別並殺害!</Text>
+			<Text>{1_SpyRank} {2_SpyName} 被識別並殺害！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_AND_KILLED">
-			<Text>{1_SpyRank} {2_SpyName} 在執行任務時被[COLOR_NEGATIVE_TEXT]被識別並殺害[ENDCOLOR]!與 {3_CivName} 的外交關係惡化.需要一段時間才能招募到間諜替代 {1_SpyRank} {2_SpyName}.</Text>
+			<Text>{1_SpyRank} {2_SpyName} 在執行任務時被[COLOR_NEGATIVE_TEXT]被識別並殺害[ENDCOLOR]!與 {3_CivName} 的外交關係惡化。需要一段時間才能招募到間諜替代 {1_SpyRank} {2_SpyName}。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_VP">
-			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {1_CivAdj}} 間諜在 {2_CityName} 完成一項[COLOR_NEGATIVE_TEXT]間諜任務[ENDCOLOR]後被殺害.: {3_MissionText}</Text>
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {1_CivAdj}} 間諜在 {2_CityName} 完成一項[COLOR_NEGATIVE_TEXT]間諜任務[ENDCOLOR]後被殺害。{3_MissionText}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_VP_S">
-			<Text>{TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_CivAdj}} 間諜被殺害!</Text>
+			<Text>{TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_CivAdj}} 間諜被殺害！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_NOT_IDENTIFIED">
-			<Text>一名身份不明的外國間諜在 {1_CityName} 完成一項[COLOR_NEGATIVE_TEXT]間諜任務[ENDCOLOR]後被殺害: {2_MissionText}</Text>
+			<Text>一名身份不明的外國間諜在 {1_CityName} 完成一項[COLOR_NEGATIVE_TEXT]間諜任務[ENDCOLOR]後被殺害：{2_MissionText}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_NOT_IDENTIFIED_S">
-			<Text>一名外國間諜被殺害!</Text>
+			<Text>一名外國間諜被殺害！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED_S">
-			<Text>{1_SpyRank} {2_SpyName} 被識別!</Text>
+			<Text>{1_SpyRank} {2_SpyName} 被識別！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_IDENTIFIED">
-			<Text>{1_SpyRank} {2_SpyName} 在執行他們的任務時, [COLOR_NEGATIVE_TEXT]被識別[ENDCOLOR]! 與 {3_CivName} 的外交關係惡化. {1_SpyRank} {2_SpyName} 可留在城市中為另一項任務收集情報.</Text>
+			<Text>{1_SpyRank} {2_SpyName} 在執行他們的任務時，[COLOR_NEGATIVE_TEXT]被識別[ENDCOLOR]! 與 {3_CivName} 的外交關係惡化。{1_SpyRank} {2_SpyName} 可留在城市中為另一項任務收集情報。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_NOT_DETECTED_S">
-			<Text>{1_SpyRank} {2_SpyName} 未被偵測到!</Text>
+			<Text>{1_SpyRank} {2_SpyName} 未被偵測到！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_NOT_DETECTED">
-			<Text>{1_SpyRank} {2_SpyName} 完成了他們的任務並且[COLOR_POSITIVE_TEXT]未被偵測到[ENDCOLOR]. 他們可留在城市中為另一項任務收集情報.</Text>
+			<Text>{1_SpyRank} {2_SpyName} 完成了他們的任務並且[COLOR_POSITIVE_TEXT]未被偵測到[ENDCOLOR]。他們可留在城市中為另一項任務收集情報。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_NO_TOURISM_EVENT_ENDED_S">
 			<Text>{1_City} 再次創造旅遊業績</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_NO_TOURISM_EVENT_ENDED">
-			<Text>外國間諜在 {1_City} 造成的叛亂已經結束.該城市現在再次產生旅遊業績.</Text>
+			<Text>外國間諜在 {1_City} 造成的叛亂已經結束。該城市現在再次產生旅遊業績。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GPP_EVENT_ENDED_S">
 			<Text>間諜效果已經結束</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_GPP_EVENT_ENDED">
-			<Text>間諜任務的效果結束: 你的首都的專家每回合 +1 [ICON_GREAT_PEOPLE]偉人點數.</Text>
+			<Text>間諜任務的效果結束：你的首都的專家每回合 +1 [ICON_GREAT_PEOPLE]偉人點數。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_DETECTED_S">
-			<Text>{1_City} 的防衛間諜!</Text>
+			<Text>{1_City} 的防衛間諜！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_DETECTED">
-			<Text>當抵達 {1_City} 時,{2_SpyRank} {3_SpyName} 偵測到敵方[ICON_SPY]防衛間諜的存在!以下效果已啟動:[NEWLINE][NEWLINE]{4_MissionEffect}</Text>
+			<Text>當抵達 {1_City} 時，{2_SpyRank} {3_SpyName} 偵測到敵方[ICON_SPY]防衛間諜的存在!以下效果已啟動：[NEWLINE][NEWLINE]{4_MissionEffect}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_STARTED_S">
-			<Text>{1_City} 的防衛間諜!</Text>
+			<Text>{1_City} 的防衛間諜！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_STARTED">
-			<Text>一個[ICON_SPY]防衛間諜已經在 {1_City} 展開行動.以下效果現已啟動:[NEWLINE][NEWLINE]{2_MissionEffect}</Text>
+			<Text>一個[ICON_SPY]防衛間諜已經在 {1_City} 展開行動。以下效果現已啟動：[NEWLINE][NEWLINE]{2_MissionEffect}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_ENDED_S">
-			<Text>防衛間諜在 {1_City} 的任務結束了!</Text>
+			<Text>防衛間諜在 {1_City} 的任務結束了！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_COUNTERSPY_ENDED">
-			<Text>由於 {1_City} 中的[ICON_SPY]防衛間諜已離開城市或改變焦點,下列效果不再有效:[NEWLINE][NEWLINE]{2_MissionEffect}</Text>
+			<Text>由於 {1_City} 中的[ICON_SPY]防衛間諜已離開城市或改變焦點，下列效果不再有效：[NEWLINE][NEWLINE]{2_MissionEffect}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_NEW_MISSIONS_AVAILABLE_S">
 			<Text>新間諜任務可用</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_NEW_MISSIONS_AVAILABLE">
-			<Text>{1_SpyRank} {2_SpyName} 在 {3_City} 收集了足夠的網路點數,可以進行以下的間諜任務,如果其他任務條件滿足的話:[NEWLINE]{5_Missions}</Text>
+			<Text>{1_SpyRank} {2_SpyName} 在 {3_City} 收集了足夠的網路點數，可以進行以下的間諜任務，如果其他任務條件滿足的話：[NEWLINE]{5_Missions}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_CREATED_VASSAL_DIPLOMAT">
-			<Text>已招募一名外交官!</Text>
+			<Text>已招募一名外交官！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CREATED_VASSAL_DIPLOMAT">
-			<Text>{1_SpyName} 已被招募到你新收服的附庸 {2_CivName} 的首都擔任外交官.</Text>
+			<Text>{1_SpyName} 已被招募到你新收服的附庸 {2_CivName} 的首都擔任外交官。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_NEW_PASSIVE_BONUS_S">
 			<Text>解鎖新的被動間諜加成</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_NEW_PASSIVE_BONUS">
-			<Text>{1_SpyRank} {2_SpyName} 在 {3_City} 收集了足夠的網路點數,可以解鎖下列被動加成:[NEWLINE][NEWLINE] {4_Missions}</Text>
+			<Text>{1_SpyRank} {2_SpyName} 在 {3_City} 收集了足夠的網路點數，可以解鎖下列被動加成：[NEWLINE][NEWLINE] {4_Missions}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_NEW_PASSIVE_BONUS_DIPLOMAT_S">
 			<Text>已解鎖新的外交官加成</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_NEW_PASSIVE_BONUS_DIPLOMAT">
-			<Text>外交官 {2_SpyName} 在 {3_City} 收集了足夠的網路點數,可以解鎖以下加成:[NEWLINE][NEWLINE] {4_Missions}</Text>
+			<Text>外交官 {2_SpyName} 在 {3_City} 收集了足夠的網路點數，可以解鎖以下加成：[NEWLINE][NEWLINE] {4_Missions}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_EVENT">
 			<Text>做出事件選擇</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_EVENT_TT">
-			<Text>有多個選項的事件已經發生,等待您的決定.</Text>
+			<Text>有多個選項的事件已經發生，等待您的決定。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION">
 			<Text>{1_Cost}{2_Yield}{3_City}{4_Turns}</Text>
@@ -754,10 +754,10 @@
 			<Text>{1_Cost}{2_Yield}{3_City}{4_GPP}{5_Turns}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_SPENT">
-			<Text>[NEWLINE]花費: {3_Value} {2_Icon} {1_Yield}</Text>
+			<Text>[NEWLINE]花費：{3_Value} {2_Icon} {1_Yield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_INSTANT">
-			<Text>[NEWLINE]即時收益: {3_Value} {2_Icon} {1_Yield}</Text>
+			<Text>[NEWLINE]即時收益：{3_Value} {2_Icon} {1_Yield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_CITY">
 			<Text>[NEWLINE]每回合城市 {3_Value} {2_Icon} {1_Yield}</Text>
@@ -766,7 +766,7 @@
 			<Text>[NEWLINE]城市 {2_Yield} 大 {1_Name} 點數</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_SCALED_NOTIFICATION_TURNS">
-			<Text>[NEWLINE]持續: {1_Turns} 回合</Text>
+			<Text>[NEWLINE]持續：{1_Turns} 回合</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EVENT_YIELD_DURATION">
 			<Text>{1_Num} 回合</Text>
@@ -774,64 +774,64 @@
 
 		<!-- Unused (but still referenced in code) -->
 		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD_UA">
-			<Text>獲得 {1_Resource:textkey} 會使 {2_CityName:textkey} 城市進入「敬後之日」.所有城市都會 +1 [ICON_FOOD]食物和 +1 [ICON_GOLD]金幣.</Text>
+			<Text>獲得 {1_Resource:textkey} 會使 {2_CityName:textkey} 城市進入「敬後之日」。所有城市都會 +1 [ICON_FOOD]食物和 +1 [ICON_GOLD]金幣。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD_UA">
-			<Text>{1_CityName:textkey} 進入「敬後之日」!</Text>
+			<Text>{1_CityName:textkey} 進入「敬後之日」！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GWAM_BONUS_CONQUEST">
-			<Text>由於征服 {4_CityName},您的[ICON_CAPITAL]首都獲得:[NEWLINE][ICON_BULLET]{1_Num} [ICON_GREAT_WRITER]大作家點數[NEWLINE][ICON_BULLET]{2_Num} [ICON_GREAT_ARTIST]大藝術家點數[NEWLINE][ICON_BULLET]{3_Num} [ICON_GREAT_MUSICIAN]大音樂家點數</Text>
+			<Text>由於征服 {4_CityName}，您的[ICON_CAPITAL]首都獲得：[NEWLINE][ICON_BULLET]{1_Num} [ICON_GREAT_WRITER]大作家點數[NEWLINE][ICON_BULLET]{2_Num} [ICON_GREAT_ARTIST]大藝術家點數[NEWLINE][ICON_BULLET]{3_Num} [ICON_GREAT_MUSICIAN]大音樂家點數</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TOURISM_EVENT_GWAM_BONUS_CONQUEST_S">
 			<Text>鼓舞人心的勝利</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ART_PLUNDERED">
-			<Text>拿破崙在征服 {2_City} 城市時,從附近偷走了 {1_Num} [ICON_GREAT_WORK]巨作!</Text>
+			<Text>拿破崙在征服 {2_City} 城市時，從附近偷走了 {1_Num} [ICON_GREAT_WORK]巨作！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ART_PLUNDERED_SUMMARY">
-			<Text>藝術被竊取!</Text>
+			<Text>藝術被竊取！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ART_STOLEN">
-			<Text>你在征服 {2_City} 城市後,從附近掠奪了 {1_Num} [ICON_GREAT_WORK]巨作!</Text>
+			<Text>你在征服 {2_City} 城市後，從附近掠奪了 {1_Num} [ICON_GREAT_WORK]巨作！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_ART_STOLEN_SUMMARY">
-			<Text>藝術被掠奪!</Text>
+			<Text>藝術被掠奪！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_BOOST_ART">
-			<Text>征服 {2_City} 後,在接下來的 {1_Num} 回合中,增加你的帝國的[ICON_CULTURE]文化總產出 {3_Num}%!</Text>
+			<Text>征服 {2_City} 後，在接下來的 {1_Num} 回合中，增加你的帝國的[ICON_CULTURE]文化總產出 {3_Num}%！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CULTURE_BOOST_ART_SUMMARY">
-			<Text>文化提升!</Text>
+			<Text>文化提升！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BOOST_ART">
-			<Text>征服 {2_City} 使所有城市的[ICON_PRODUCTION]產能在接下來 {1_Num} 的回合增加 {3_Num}% !</Text>
+			<Text>征服 {2_City} 使所有城市的[ICON_PRODUCTION]產能在接下來 {1_Num} 的回合增加 {3_Num}%！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BOOST_ART_SUMMARY">
-			<Text>產能提升!</Text>
+			<Text>產能提升！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BALANCE_KNOWN_CS_BULLY_ANNEXED_KNOWN">
-			<Text>{1_Bully} 藉由霸凌 {2_CS} 來迫使他們投降!</Text>
+			<Text>{1_Bully} 藉由霸凌 {2_CS} 來迫使他們投降！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BALANCE_KNOWN_CS_BULLY_ANNEXED_KNOWN_SUMMARY">
-			<Text>{1_CS} 已經投降!</Text>
+			<Text>{1_CS} 已經投降！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BALANCE_UNKNOWN_CS_BULLY_ANNEXED_KNOWN">
-			<Text>{1_Bully} 藉由霸凌未知的城邦,迫使他們投降!</Text>
+			<Text>{1_Bully} 藉由霸凌未知的城邦，迫使他們投降！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BALANCE_UNKNOWN_CS_BULLY_ANNEXED_KNOWN_SUMMARY">
-			<Text>{1_Bully} 已迫使一個城邦投降!</Text>
+			<Text>{1_Bully} 已迫使一個城邦投降！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BALANCE_KNOWN_CS_BULLY_ANNEXED_UNKNOWN">
-			<Text>一位未知的玩家藉由霸凌 {1_CS} 迫使他們投降!</Text>
+			<Text>一位未知的玩家藉由霸凌 {1_CS} 迫使他們投降！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BALANCE_KNOWN_CS_BULLY_ANNEXED_UNKNOWN_SUMMARY">
-			<Text>{1_CS} 已經投降!</Text>
+			<Text>{1_CS} 已經投降！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BALANCE_ANNEXED_CS">
-			<Text>你透過霸凌迫使 {1_CS} 投降!</Text>
+			<Text>你透過霸凌迫使 {1_CS} 投降！</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BALANCE_ANNEXED_CS_SUMMARY">
-			<Text>你已霸凌 {1_CS}!</Text>
+			<Text>你已霸凌 {1_CS}！</Text>
 		</Row>
 	</Language_zh_Hant_HK>
 </GameData>

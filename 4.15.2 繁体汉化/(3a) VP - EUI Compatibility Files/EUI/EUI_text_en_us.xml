@@ -114,16 +114,16 @@
 			<Text>Base Sight Range {1}</Text>
 		</Replace-->
 		<Replace Tag="TXT_KEY_EUI_UNIT_CULTUREBOMBRADIUS">
-			<Text>{TXT_KEY_MISSION_CULTURE_BOMB} ({1})</Text>
+			<Text>{TXT_KEY_MISSION_CULTURE_BOMB}({1})</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_UNIT_GOLDENAGETURNS">
-			<Text>{TXT_KEY_MISSION_START_GOLDENAGE} ({1} {TXT_KEY_TURNS})</Text>
+			<Text>{TXT_KEY_MISSION_START_GOLDENAGE}({1} {TXT_KEY_TURNS})</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_UNIT_FREEPOLICIES">
-			<Text>{TXT_KEY_MISSION_GIVE_POLICIES} ({1}x[ICON_CULTURE])</Text>
+			<Text>{TXT_KEY_MISSION_GIVE_POLICIES}({1}x[ICON_CULTURE])</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_UNIT_ONESHOTTOURISM">
-			<Text>{TXT_KEY_MISSION_ONE_SHOT_TOURISM} ({1}x[ICON_TOURISM])</Text>
+			<Text>{TXT_KEY_MISSION_ONE_SHOT_TOURISM}({1}x[ICON_TOURISM])</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_UNIT_ONESHOTTOURISMPERCENTOTHERS">
 			<Text>一次性旅遊占其他旅遊的百分比 {1}</Text>
@@ -144,16 +144,16 @@
 			<Text>Work Rate {1}</Text>
 		</Replace-->
 		<Replace Tag="TXT_KEY_EUI_UNIT_NUMFREETECHS">
-			<Text>{TXT_KEY_MISSION_DISCOVER_TECH} ({1})</Text>
+			<Text>{TXT_KEY_MISSION_DISCOVER_TECH}({1})</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_UNIT_BASEBEAKERSTURNSTOCOUNT">
-			<Text>{TXT_KEY_MISSION_DISCOVER_TECH} ({1} {TXT_KEY_TURNS})</Text>
+			<Text>{TXT_KEY_MISSION_DISCOVER_TECH}({1} {TXT_KEY_TURNS})</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_UNIT_BASECULTURETURNSTOCOUNT">
-			<Text>{TXT_KEY_MISSION_GIVE_POLICIES} ({1} {TXT_KEY_TURNS})</Text>
+			<Text>{TXT_KEY_MISSION_GIVE_POLICIES}({1} {TXT_KEY_TURNS})</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_UNIT_RELIGIONSPREADS">
-			<Text>{TXT_KEY_UPANEL_SPREAD_RELIGION_USES}: {1}</Text>
+			<Text>{TXT_KEY_UPANEL_SPREAD_RELIGION_USES}：{1}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_UNIT_RELIGIOUSSTRENGTH">
 			<Text>宗教力量 {1}</Text>
@@ -162,7 +162,7 @@
 			<Text>Combat Limit {1}</Text>
 		</Replace-->
 		<Replace Tag="TXT_KEY_EUI_UNIT_NUMEXOTICGOODS">
-			<Text>{TXT_KEY_MISSION_SELL_EXOTIC_GOODS}: {1}</Text>
+			<Text>{TXT_KEY_MISSION_SELL_EXOTIC_GOODS}：{1}</Text>
 		</Replace>
 		<!--Replace Tag="TXT_KEY_EUI_UNIT_RANGEDCOMBATLIMIT">
 			<Text>Ranged Combat Limit {1}</Text>
@@ -174,7 +174,7 @@
 			<Text>{TXT_KEY_PEDIA_MAINT_LABEL} {1}[ICON_GOLD]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_UNIT_UNHAPPINESS">
-			<Text>{TXT_KEY_UNHAPPINESS}: {1}[ICON_HAPPINESS_3]</Text>
+			<Text>{TXT_KEY_UNHAPPINESS}：{1}[ICON_HAPPINESS_3]</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_UNIT_LEADEREXPERIENCE">
 			<Text>領袖經驗 {1}</Text>
@@ -465,10 +465,10 @@
 		</Replace>
 		<!-- Vox Populi -->
 		<Replace Tag="TXT_KEY_EUI_BUILDING_SUPPLY_CAP_LOCAL">
-			<Text>本地供應上限:</Text>
+			<Text>本地供應上限：</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_SUPPLY_CAP_GLOBAL">
-			<Text>全局供應上限:</Text>
+			<Text>全局供應上限：</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILDING_GRANTED_BY">
 			<Text>授權自</Text>
@@ -491,16 +491,16 @@
 			<Text>他們的邊界對您關閉</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_BUILT_IN_X_CITIES">
-			<Text>{1: plural  0?None built; 1?在 1 城市中建造; 2?在 {1} 城市中建造;}{2: plural 0?; 1?,1 城市正在建造; 2?,{2} 城市正在建造;}</Text>
+			<Text>{1: plural  0?無已建造; 1?全球有 1 城市已建造; 2?全球有 {1} 城市已建造;} {2: plural 0?; 1?，全球有 1 城市正在建造; 2?，全球有 {2} 城市正在建造;}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_WONDER_BUILT_BY">
-			<Text>由 {@1_CivName} 在 {@2_CityName} 建造</Text>
+			<Text>由 {@1_CivName} 已建造在 {@2_CityName}</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_UNKNOWN_CITY">
 			<Text>未知城市</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_AIR_STRENGTH_DEFENSE">
-			<Text>空襲防禦:</Text>
+			<Text>空襲防禦：</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_EUI_GLOBAL">
 			<Text>[COLOR_HIGHLIGHT_TEXT]全局[ENDCOLOR]</Text>
@@ -518,7 +518,7 @@
 		</Replace>
 
 		<Replace Tag="TXT_KEY_EUI_RESOURCES_QUANTITY_TOTAL_REQUIRED_UNIT_PANEL">
-			<Text>資源獲取要求:</Text>
+			<Text>資源獲取要求：</Text>
 		</Replace>
 	</Language_zh_Hant_HK>
 </GameData>

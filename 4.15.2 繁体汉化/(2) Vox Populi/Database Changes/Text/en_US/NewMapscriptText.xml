@@ -151,7 +151,7 @@
 			<Text>起始資源</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MAP_STARTING_RESOURCES_DESCRIPTION">
-			<Text>為起始位置增加戰略,或者民生資源</Text>
+			<Text>為起始位置增加戰略，或者民生資源</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MAP_ADD_BOTH">
 			<Text>全部增加</Text>
@@ -202,7 +202,7 @@
 			<Text>覆寫默認的起始地形</Text>
 		</Row>
 		<Row Tag="TXT_KEY_MAP_OVERRIDE_ASSIGN_STARTING_PLOTS_DESCRIPTION">
-			<Text>開啟時可針對特定地圖進行額外優化.關閉可獲得標準 VP 效果.</Text>
+			<Text>開啟時可針對特定地圖進行額外優化。關閉可獲得標準 VP 效果。</Text>
 		</Row>
 	</Language_zh_Hant_HK>
 </GameData>

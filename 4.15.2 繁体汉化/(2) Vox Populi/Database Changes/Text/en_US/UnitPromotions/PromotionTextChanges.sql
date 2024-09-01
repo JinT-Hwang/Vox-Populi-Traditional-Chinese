@@ -109,7 +109,7 @@ SET Text = '防禦[COLOR_POSITIVE_TEXT]遠程攻擊[ENDCOLOR]時 +25% [ICON_STRE
 WHERE Tag = 'TXT_KEY_PROMOTION_COVER_2_HELP';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '猛烈衝鋒 I'
+SET Text = '衝鋒 I'
 WHERE Tag = 'TXT_KEY_PROMOTION_CHARGE';
 
 UPDATE Language_zh_Hant_HK
@@ -241,11 +241,11 @@ SET Text = '攻擊時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力。[NEWLINE]攻�
 WHERE Tag = 'TXT_KEY_PROMOTION_BOMBARDMENT_3_HELP';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '定位 I'
+SET Text = '空中定位 I'
 WHERE Tag = 'TXT_KEY_PROMOTION_AIR_TARGETING_1';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '定位 II'
+SET Text = '空中定位 II'
 WHERE Tag = 'TXT_KEY_PROMOTION_AIR_TARGETING_2';
 
 UPDATE Language_zh_Hant_HK
@@ -785,7 +785,7 @@ SET Text = '+1 [ICON_WAR]攻擊。[NEWLINE]+1 [ICON_MOVES]移動力。'
 WHERE Tag = 'TXT_KEY_PROMOTION_RESTLESSNESS_HELP';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '就敵之刃'
+SET Text = '仇敵之刃'
 WHERE Tag = 'TXT_KEY_PROMOTION_ENEMY_BLADE';
 
 UPDATE Language_zh_Hant_HK

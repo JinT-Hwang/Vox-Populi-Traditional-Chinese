@@ -126,12 +126,12 @@ SET Text = '完成一條從此城市出發連接到其他文明的[ICON_CARGO_SH
 WHERE Tag = 'TXT_KEY_BUILDING_HARBOR_HELP';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '港口是中世紀時代的建築，需要燈塔。它可以提高海上貿易航線的範圍和[ICON_GOLD]金幣，並提升海洋單元格和資源的價值。港口也會增加 15% 海軍單位[ICON_PRODUCTION]產能。'
+SET Text = '港口是中世紀時代的建築，需要燈塔。它可以提高海上貿易航線的範圍和[ICON_GOLD]金幣，並提升海岸單元格和資源的價值。港口也會增加 15% 海軍單位[ICON_PRODUCTION]產能。'
 WHERE Tag = 'TXT_KEY_BUILDING_HARBOR_STRATEGY';
 
 -- Seaport
 UPDATE Language_zh_Hant_HK
-SET Text = '海岸和海洋單元格 +1 [ICON_PRODUCTION]產能和[ICON_GOLD]金幣。此城市的海洋資源 +2 [ICON_PRODUCTION]產能和[ICON_GOLD]金幣。+20% 來自人口的[ICON_SILVER_FIST]軍事單位供應上限。[NEWLINE][NEWLINE]其他城市如果有海運碼頭，則會通過水上形成[ICON_INDUSTRIAL_CONNECTED]工業城市連接。[NEWLINE][NEWLINE]只能在沿海城市建造。'
+SET Text = '海岸和海洋單元格 +1 [ICON_PRODUCTION]產能和[ICON_GOLD]金幣。此城市的海岸資源 +2 [ICON_PRODUCTION]產能和[ICON_GOLD]金幣。+20% 來自人口的[ICON_SILVER_FIST]軍事單位供應上限。[NEWLINE][NEWLINE]其他城市如果有海運碼頭，則會通過水上形成[ICON_INDUSTRIAL_CONNECTED]工業城市連接。[NEWLINE][NEWLINE]只能在沿海城市建造。'
 WHERE Tag = 'TXT_KEY_BUILDING_SEAPORT_HELP';
 
 UPDATE Language_zh_Hant_HK
@@ -140,7 +140,7 @@ WHERE Tag = 'TXT_KEY_BUILDING_SEAPORT_STRATEGY';
 
 -- Market
 UPDATE Language_zh_Hant_HK
-SET Text = '市場增加城市產生的[ICON_GOLD]金幣，同時提升附件的[ICON_RES_SPICES]肉桂和ICON_RES_SUGAR]食糖。進來的[ICON_INTERNATIONAL_TRADE]貿易路綫產出 +1 [ICON_GOLD]金幣給此城市，同時 +1 [ICON_GOLD]金幣給貿易路綫的擁有者。'
+SET Text = '市場增加城市產生的[ICON_GOLD]金幣，同時提升附件的[ICON_RES_SPICES]肉桂和[ICON_RES_SUGAR]食糖。進來的[ICON_INTERNATIONAL_TRADE]貿易路綫產出 +1 [ICON_GOLD]金幣給此城市，同時 +1 [ICON_GOLD]金幣給貿易路綫的擁有者。'
 WHERE Tag = 'TXT_KEY_BUILDING_MARKET_STRATEGY';
 
 UPDATE Language_zh_Hant_HK
@@ -717,7 +717,7 @@ SET Text = '威斯敏斯特宮'
 WHERE Tag = 'TXT_KEY_BUILDING_BIG_BEN';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '需要完成[COLOR_MAGENTA]治國[ENDCOLOR]政策分支。獲得 1 [COLOR_POSITIVE_TEXT]無償的[ENDCOLOR][ICON_GREAT_MERCHANT]大商業家，和原本世界中每 4 [ICON_CITY_STATE]城邦授予 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界大會[ICON_DIPLOMAT]代表。此城市 -1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度。'
+SET Text = '需要完成[COLOR_MAGENTA]治國[ENDCOLOR]政策分支。獲得 1 [COLOR_POSITIVE_TEXT]無償的[ENDCOLOR][ICON_GREAT_MERCHANT]大商業家，和原本世界中每 4 [ICON_CITY_STATE]城邦授予 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會[ICON_DIPLOMAT]代表。此城市 -1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度。'
 WHERE Tag = 'TXT_KEY_WONDER_BIG_BEN_HELP';
 
 -- Neuschwanstein
@@ -742,7 +742,7 @@ WHERE Tag = 'TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP';
 
 -- International Space Station
 UPDATE Language_zh_Hant_HK
-SET Text = '只能透過世界大會協力建造。+1 來自[ICON_VP_SCIENTIST]科學家的[ICON_PRODUCTION]產能，和 +1 來自[ICON_VP_ENGINEER]工程師的[ICON_RESEARCH]科學。當[ICON_GREAT_SCIENTIST]大科學家用來研發科技時，提供額外 33% [ICON_RESEARCH]科學。[NEWLINE][NEWLINE]當你解鎖一個新科技時，此建築所在城市 +100 [ICON_PRODUCTION]，隨時代遞增。'
+SET Text = '只能透過世界議會協力建造。+1 來自[ICON_VP_SCIENTIST]科學家的[ICON_PRODUCTION]產能，和 +1 來自[ICON_VP_ENGINEER]工程師的[ICON_RESEARCH]科學。當[ICON_GREAT_SCIENTIST]大科學家用來研發科技時，提供額外 33% [ICON_RESEARCH]科學。[NEWLINE][NEWLINE]當你解鎖一個新科技時，此建築所在城市 +100 [ICON_PRODUCTION]，隨時代遞增。'
 WHERE Tag = 'TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION_HELP';
 
 -- Pentagon
@@ -793,43 +793,43 @@ WHERE Tag = 'TXT_KEY_BUILDING_PAGODA_STRATEGY';
 -- Corporation franchises
 -- Modmodders can copy this code if they're adding more resources toward a corporation!
 UPDATE Language_zh_Hant_HK
-SET Text = '城市附近所有 Trader Sid 的壟斷資源 +1 [ICON_GOLD]金幣('
+SET Text = '城市附近所有 席德貿易 的壟斷資源 +1 [ICON_GOLD]金幣('
 	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_TRADER_SIDS' AND c.ResourceType = r.Type)
 	|| ')。 {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TRADER_SIDS}'
 WHERE Tag = 'TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_HELP';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '城市附近所有 Centaurus Extractors 的壟斷資源 +1 [ICON_PRODUCTION]產能('
+SET Text = '城市附近所有 半人馬精選 的壟斷資源 +1 [ICON_PRODUCTION]產能('
 	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_LANDSEA_EXTRACTORS' AND c.ResourceType = r.Type)
 	|| ')。 {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_LANDSEA_EXTRACTORS}'
 WHERE Tag = 'TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_HELP';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '城市附近所有 Hexxon Refineries Monopoly 的壟斷資源 +1 [ICON_PRODUCTION]產能('
+SET Text = '城市附近所有 赫克森煉油廠 的壟斷資源 +1 [ICON_PRODUCTION]產能('
 	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_HEXXON_REFINERY' AND c.ResourceType = r.Type)
 	|| ')。 {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_HEXXON_REFINERY}'
 WHERE Tag = 'TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE_HELP';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '城市附近所有 Giorgio Armeier 的壟斷資源 +1 [ICON_CULTURE]文化('
+SET Text = '城市附近所有 喬治阿邁爾 的壟斷資源 +1 [ICON_CULTURE]文化('
 	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_GIORGIO_ARMEIER' AND c.ResourceType = r.Type)
 	|| ')。 {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_GIORGIO_ARMEIER}'
 WHERE Tag = 'TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE_HELP';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '城市附近所有 Firaxite Materials 的壟斷資源 +1 [ICON_RESEARCH]科學('
+SET Text = '城市附近所有 菲拉西提材料 的壟斷資源 +1 [ICON_RESEARCH]科學('
 	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_FIRAXITE_MATERIALS' AND c.ResourceType = r.Type)
 	|| ')。 {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_FIRAXITE_MATERIALS}'
 WHERE Tag = 'TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE_HELP';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '城市附近所有 TwoKay Foods 的壟斷資源 +1 [ICON_FOOD]食物('
+SET Text = '城市附近所有 雙凱食品 的壟斷資源 +1 [ICON_FOOD]食物('
 	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_TWOKAY_FOODS' AND c.ResourceType = r.Type)
 	|| ')。 {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_TWOKAY_FOODS}'
 WHERE Tag = 'TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE_HELP';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '城市附近所有 Civilized Jewelers 的壟斷資源 +1 [ICON_GOLDEN_AGE]黃金時代點數('
+SET Text = '城市附近所有 文明珠寶 的壟斷資源 +1 [ICON_GOLDEN_AGE]黃金時代點數('
 	|| (SELECT GROUP_CONCAT(r.IconString) FROM Corporation_ResourceYieldChanges c, Resources r WHERE c.CorporationType = 'CORPORATION_CIVILIZED_JEWELERS' AND c.ResourceType = r.Type)
 	|| ')。 {TXT_KEY_CORPORATION_TRADE_ROUTE_BONUS_CIVILIZED_JEWELERS}'
 WHERE Tag = 'TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_HELP';

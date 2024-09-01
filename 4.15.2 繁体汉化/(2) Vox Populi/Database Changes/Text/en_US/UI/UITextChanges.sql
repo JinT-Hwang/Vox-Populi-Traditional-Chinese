@@ -356,7 +356,7 @@ SET Text = '{1_RankName} {2_SpyName} 正在 {3_CityName} 收集情報。每回�
 WHERE Tag = 'TXT_KEY_EO_SPY_GATHERING_INTEL_TT';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '{1_RankName} {2_SpyName} 正以外交官的身分在 {3_CityName} 交際，為目標文明的 [ICON_TOURISM]旅遊業績輸出提供助益。[NEWLINE][NEWLINE]一旦世界大會召開，您就能查明他們對提案的意見，並在必要時爭取他們的支持。{1_RankName} {2_SpyName} 每回合也會收集網路點數，累積的網路點數可以讓您獲得目標文明的額外資訊。'
+SET Text = '{1_RankName} {2_SpyName} 正以外交官的身分在 {3_CityName} 交際，為目標文明的 [ICON_TOURISM]旅遊業績輸出提供助益。[NEWLINE][NEWLINE]一旦世界議會召開，您就能查明他們對提案的意見，並在必要時爭取他們的支持。{1_RankName} {2_SpyName} 每回合也會收集網路點數，累積的網路點數可以讓您獲得目標文明的額外資訊。'
 WHERE Tag = 'TXT_KEY_SPY_STATE_SCHMOOZING_TT';
 
 UPDATE Language_zh_Hant_HK
@@ -799,11 +799,11 @@ WHERE Tag = 'TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_RESURRECT';
 -- Trade screen
 ------------------------------------------------
 UPDATE Language_zh_Hant_HK
-SET Text = '在下一屆世界大會中，由這個玩家控制的 [COLOR_POSITIVE_TEXT]{1_NumVotes}[ENDCOLOR] 代表將支持 {2_ChoiceText} 的提議以[COLOR_POSITIVE_TEXT]制定[ENDCOLOR]這些變更：[NEWLINE][NEWLINE]{3_ProposalText}[NEWLINE][NEWLINE]以上的代表數量是根據這位玩家所控制的代表數量，以及你的[ICON_DIPLOMAT]外交官所收集的網路點數。'
+SET Text = '在下一屆世界議會中，由這個玩家控制的 [COLOR_POSITIVE_TEXT]{1_NumVotes}[ENDCOLOR] 代表將支持 {2_ChoiceText} 的提議以[COLOR_POSITIVE_TEXT]制定[ENDCOLOR]這些變更：[NEWLINE][NEWLINE]{3_ProposalText}[NEWLINE][NEWLINE]以上的代表數量是根據這位玩家所控制的代表數量，以及你的[ICON_DIPLOMAT]外交官所收集的網路點數。'
 WHERE Tag = 'TXT_KEY_DIPLO_VOTE_TRADE_ENACT_TT';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '在下一屆世界大會中，由這個玩家控制的 [COLOR_POSITIVE_TEXT]{1_NumVotes}[ENDCOLOR]代表將支持 {2_ChoiceText} 的提議以[COLOR_WARNING_TEXT]撤銷[ENDCOLOR]這些效果：[NEWLINE][NEWLINE]{3_ProposalText}[NEWLINE][NEWLINE]以上的代表數量是根據這位玩家所控制的代表數量，以及你的[ICON_DIPLOMAT]外交官所收集的網路點數。'
+SET Text = '在下一屆世界議會中，由這個玩家控制的 [COLOR_POSITIVE_TEXT]{1_NumVotes}[ENDCOLOR]代表將支持 {2_ChoiceText} 的提議以[COLOR_WARNING_TEXT]撤銷[ENDCOLOR]這些效果：[NEWLINE][NEWLINE]{3_ProposalText}[NEWLINE][NEWLINE]以上的代表數量是根據這位玩家所控制的代表數量，以及你的[ICON_DIPLOMAT]外交官所收集的網路點數。'
 WHERE Tag = 'TXT_KEY_DIPLO_VOTE_TRADE_REPEAL_TT';
 
 UPDATE Language_zh_Hant_HK
@@ -822,7 +822,7 @@ SET Text = '全球霸權需要的代表：[COLOR_POSITIVE_TEXT]{1_DelegatesForWi
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_VOTES';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '由於世界大會已移至新興建的聯合國，外交勝利現在已經成為可能。要啟動外交勝利特別會議，[COLOR_POSITIVE_TEXT]世界意識形態決議[ENDCOLOR]必須啟動。一旦啟動，一個文明必須在全球霸權提案上獲得 {1_DelegatesForWin} 或更多代表的支持。這個數目是根據遊戲中文明與城邦的數量而定。[NEWLINE][NEWLINE]一旦[COLOR_POSITIVE_TEXT]世界意識形態決議[ENDCOLOR]可用，全球霸權提案每隔一屆就會向大會提出，與一般提案的定期會議交替進行。'
+SET Text = '由於世界議會已移至新興建的聯合國，外交勝利現在已經成為可能。要啟動外交勝利特別會議，[COLOR_POSITIVE_TEXT]世界意識形態決議[ENDCOLOR]必須啟動。一旦啟動，一個文明必須在全球霸權提案上獲得 {1_DelegatesForWin} 或更多代表的支持。這個數目是根據遊戲中文明與城邦的數量而定。[NEWLINE][NEWLINE]一旦[COLOR_POSITIVE_TEXT]世界意識形態決議[ENDCOLOR]可用，全球霸權提案每隔一屆就會向大會提出，與一般提案的定期會議交替進行。'
 WHERE Tag = 'TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_TT';
 
 UPDATE Language_zh_Hant_HK

@@ -122,7 +122,7 @@ WHERE Tag = 'TXT_KEY_PROMOTION_SPAWN_GENERALS_II_HELP';
 
 -- Naval Melee Units
 UPDATE Language_zh_Hant_HK
-SET Text = '三列槳戰船是文明在遊戲中可使用的第一個海軍單位。它是一個近戰攻擊單位，可與海上或城市中的單位交戰(但它沒有連續攻擊)。三列槳戰船可以用來清除本國水域的蠻族船隻，也可以用來進行有限的探索(除非是來自波利尼西亞，否則它無法在城市邊界外的深海結束回合)。'
+SET Text = '三列槳戰船是文明在遊戲中可使用的第一個海軍單位。它是一個近戰攻擊單位，可與海岸或城市中的單位交戰(但它沒有遠程攻擊)。三列槳戰船可以用來清除本國水域的蠻族船隻，也可以用來進行有限的探索(除非是來自波利尼西亞，否則它無法在城市邊界外的深海結束回合)。'
 WHERE Tag = 'TXT_KEY_UNIT_TRIREME_STRATEGY';
 
 -- Naval Ranged Units
@@ -1070,19 +1070,19 @@ WHERE Tag = 'TXT_KEY_DIPLO_RECKLESS_EXPANDER';
 
 -- World Congress
 UPDATE Language_zh_Hant_HK
-SET Text = '他們喜歡我們向世界大會提出的提案。'
+SET Text = '他們喜歡我們向世界議會提出的提案。'
 WHERE Tag = 'TXT_KEY_DIPLO_LIKED_OUR_PROPOSAL';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '他們不喜歡我們向世界大會提出的提案。'
+SET Text = '他們不喜歡我們向世界議會提出的提案。'
 WHERE Tag = 'TXT_KEY_DIPLO_DISLIKED_OUR_PROPOSAL';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '我們在世界大會上通過了他們的提案。'
+SET Text = '我們在世界議會上通過了他們的提案。'
 WHERE Tag = 'TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '我們在世界大會上擊敗了他們的提案。'
+SET Text = '我們在世界議會上擊敗了他們的提案。'
 WHERE Tag = 'TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL';
 
 UPDATE Language_zh_Hant_HK

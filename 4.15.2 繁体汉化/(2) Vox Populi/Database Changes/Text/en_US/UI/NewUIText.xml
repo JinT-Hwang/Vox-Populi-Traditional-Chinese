@@ -848,7 +848,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]可用的特許經營權[ENDCOLOR][NEWLINE][NEWLINE]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NO_FRANCHISE_HERE_TT">
-			<Text>基於下列原因之一，無法在此建立特許經營權：[NEWLINE]- 達到特許經營權上限[NEWLINE]- 您或其他玩家受到世界大會的制裁[NEWLINE]- 您或其他玩家採用了阻止在國外城市建立特許經營權的原則</Text>
+			<Text>基於下列原因之一，無法在此建立特許經營權：[NEWLINE]- 達到特許經營權上限[NEWLINE]- 您或其他玩家受到世界議會的制裁[NEWLINE]- 您或其他玩家採用了阻止在國外城市建立特許經營權的原則</Text>
 		</Row>
 
 		<!-- Trade unit move-to picker -->

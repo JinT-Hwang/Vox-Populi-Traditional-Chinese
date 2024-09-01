@@ -131,19 +131,19 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_1">
-			<Text>攻堅 I</Text>
+			<Text>攻城 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_1_HELP">
 			<Text>攻擊時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力。[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_2">
-			<Text>攻堅 II</Text>
+			<Text>攻城 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_2_HELP">
 			<Text>攻擊時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力。[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_3">
-			<Text>攻堅 III</Text>
+			<Text>攻城 III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_SIEGE_3_HELP">
 			<Text>攻擊時 +10% [ICON_RANGE_STRENGTH]遠程戰鬥力。[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]城市[ENDCOLOR]時 +15% [ICON_STRENGTH]戰鬥力。</Text>
@@ -208,13 +208,13 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_NAVIGATOR_1">
-			<Text>領航員I</Text>
+			<Text>領航員 I</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVIGATOR_1_HELP">
 			<Text>+1 [ICON_MOVES]移動力。[NEWLINE]+1 [ICON_VP_VISION]視野。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVIGATOR_2">
-			<Text>領航員II</Text>
+			<Text>領航員 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_NAVIGATOR_2_HELP">
 			<Text>+1 [ICON_MOVES]移動力。[NEWLINE]+1 [ICON_VP_VISION]視野。</Text>
@@ -240,14 +240,14 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_CHARGE_2">
-			<Text>猛烈衝鋒 II</Text>
+			<Text>衝鋒 II</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_CHARGE_2_HELP">
 			<Text>在[COLOR_POSITIVE_TEXT]開闊地形[ENDCOLOR]攻擊單位時 +10% [ICON_STRENGTH]戰鬥力。[NEWLINE]攻擊[COLOR_POSITIVE_TEXT]受傷單位[ENDCOLOR]時 +20% [ICON_STRENGTH]戰鬥力。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3">
-			<Text>定位 III</Text>
+			<Text>空中定位 III</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
 			<Text>攻擊[COLOR_POSITIVE_TEXT]海軍[ENDCOLOR]和[COLOR_POSITIVE_TEXT]陸地單位[ENDCOLOR]時 +25% [ICON_STRENGTH]戰鬥力。</Text>
@@ -310,7 +310,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_DAMAGE_REDUCTION">
-			<Text>Dauntless</Text>
+			<Text>無畏</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_DAMAGE_REDUCTION_HELP">
 			<Text>-5 來自所有來源的傷害。[NEWLINE][COLOR_POSITIVE_TEXT]治療[ENDCOLOR]時 +10 HP。</Text>
@@ -429,7 +429,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_TRUE_WOLFPACK">
-			<Text>狼群</Text>
+			<Text>狼群戰術</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_TRUE_WOLFPACK_HELP">
 			<Text>攻擊時，每個[COLOR_POSITIVE_TEXT]相鄰的己方潛艇單位[ENDCOLOR] +30% [ICON_STRENGTH]戰鬥力。</Text>

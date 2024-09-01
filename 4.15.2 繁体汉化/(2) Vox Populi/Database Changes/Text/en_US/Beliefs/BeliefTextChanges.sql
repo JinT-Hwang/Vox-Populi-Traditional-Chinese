@@ -474,7 +474,7 @@ SET Text = '全球誡律'
 WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS_SHORT';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '[ICON_RELIGION]宗教傳播速度加快 15%(印刷術科技后 30%)。當您在世界大會或聯合國通過提案時，可獲得 350 [ICON_RESEARCH]科技、[ICON_CULTURE]文化、[ICON_GOLD]金幣、[ICON_PEACE]信仰和 [ICON_GOLDEN_AGE]黃金時代點數，隨時代遞增。'
+SET Text = '[ICON_RELIGION]宗教傳播速度加快 15%(印刷術科技后 30%)。當您在世界議會或聯合國通過提案時，可獲得 350 [ICON_RESEARCH]科技、[ICON_CULTURE]文化、[ICON_GOLD]金幣、[ICON_PEACE]信仰和 [ICON_GOLDEN_AGE]黃金時代點數，隨時代遞增。'
 WHERE Tag = 'TXT_KEY_BELIEF_CHARITABLE_MISSIONS';
 
 UPDATE Language_zh_Hant_HK
@@ -482,7 +482,7 @@ SET Text = '聖地'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_FERVOR_SHORT';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '每擁有 2 個 [ICON_RELIGION]聖地和[ICON_TOURISM]地標，就可獲得 1 位額外的世界大會[ICON_DIPLOMAT]代表。從信奉此宗教的友好、盟友[ICON_CITY_STATE]城邦處獲得的收益 +50%。'
+SET Text = '每擁有 2 個 [ICON_RELIGION]聖地和[ICON_TOURISM]地標，就可獲得 1 位額外的世界議會[ICON_DIPLOMAT]代表。從信奉此宗教的友好、盟友[ICON_CITY_STATE]城邦處獲得的收益 +50%。'
 WHERE Tag = 'TXT_KEY_BELIEF_RELIGIOUS_FERVOR';
 
 UPDATE Language_zh_Hant_HK

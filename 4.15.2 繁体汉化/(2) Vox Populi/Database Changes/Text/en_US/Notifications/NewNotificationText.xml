@@ -8,13 +8,13 @@
 			<Text>{1_PlayerName} 正在建造 {2_WonderOrProject}。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BOUGHT_VOTES">
-			<Text>{1_SpyRank} {2_SpyName} 發現 {3_PlayerName} 從 {4_PlayerName} 購買即將舉行的世界大會的選票。</Text>
+			<Text>{1_SpyRank} {2_SpyName} 發現 {3_PlayerName} 從 {4_PlayerName} 購買即將舉行的世界議會的選票。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BOUGHT_VOTES_S">
 			<Text>{1_CivName} 從 {2_CivName} 購買選票。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SOLD_VOTES">
-			<Text>{1_SpyRank} {2_SpyName} 發現 {3_PlayerName} 已經出售他們一些即將舉行的世界大會的選票給 {4_PlayerName}。</Text>
+			<Text>{1_SpyRank} {2_SpyName} 發現 {3_PlayerName} 已經出售他們一些即將舉行的世界議會的選票給 {4_PlayerName}。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SOLD_VOTES_S">
 			<Text>{1_CivName} 已經出售選票給 {2_CivName}。</Text>

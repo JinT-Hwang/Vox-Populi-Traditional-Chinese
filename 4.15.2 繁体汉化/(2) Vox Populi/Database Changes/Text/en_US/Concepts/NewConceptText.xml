@@ -18,7 +18,7 @@
 			<Text>[COLOR_GREEN]城邦大使館[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_EMBASSIES_SUMMARY">
-			<Text>城邦大使館是 Vox Populi 在世界大會中獲得代表的額外方法。要在城邦建立大使館，將大外交官移動到城邦的土地牌上，然後選擇「建立大使館」。大使館可在世界大會中多獲得一名代表。在每個城邦中，一個文明只能建立一個大使館，所以要快。當一個文明被征服時，它所有的城邦大使館都會轉移到征服的文明。</Text>
+			<Text>城邦大使館是 Vox Populi 在世界議會中獲得代表的額外方法。要在城邦建立大使館，將大外交官移動到城邦的土地牌上，然後選擇「建立大使館」。大使館可在世界議會中多獲得一名代表。在每個城邦中，一個文明只能建立一個大使館，所以要快。當一個文明被征服時，它所有的城邦大使館都會轉移到征服的文明。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_EMBASSIES_DESCRIPTION">
 			<Text>{TXT_KEY_CONCEPT_CITY_STATE_EMBASSIES_TOPIC}</Text>
@@ -227,7 +227,7 @@
 			<Text>[COLOR_GREEN]大外交官[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_GREAT_DIPLOMAT_SUMMARY">
-			<Text>[COLOR_CYAN]特殊能力：建立大使館[ENDCOLOR][NEWLINE]您可以將大外交官移動到城邦，並在土地上建造大使館。只有在城邦內沒有其他大使館時，才可以這樣做。每個大使館在世界大會中有一票額外投票權。建立大使館會消耗大外交官。[NEWLINE][NEWLINE][COLOR_CYAN]特殊能力：執行外交任務[ENDCOLOR][NEWLINE]您可以在城邦的領土中使用大外交官執行外交任務。您將在城邦獲得大量的影響力，而所有其他文明的影響力將減少相同的數量。此外，您將永遠獲得 1 紙張。此動作會消耗大外交官。</Text>
+			<Text>[COLOR_CYAN]特殊能力：建立大使館[ENDCOLOR][NEWLINE]您可以將大外交官移動到城邦，並在土地上建造大使館。只有在城邦內沒有其他大使館時，才可以這樣做。每個大使館在世界議會中有一票額外投票權。建立大使館會消耗大外交官。[NEWLINE][NEWLINE][COLOR_CYAN]特殊能力：執行外交任務[ENDCOLOR][NEWLINE]您可以在城邦的領土中使用大外交官執行外交任務。您將在城邦獲得大量的影響力，而所有其他文明的影響力將減少相同的數量。此外，您將永遠獲得 1 紙張。此動作會消耗大外交官。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_GREAT_DIPLOMAT_DESCRIPTION">
 			<Text>{TXT_KEY_CONCEPT_GREAT_DIPLOMAT_TOPIC}</Text>
@@ -315,7 +315,7 @@
 			<Text>[COLOR_GREEN]附庸的好處[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_SUMMARY">
-			<Text>附庸為主人帶來多種好處。主人可以免費獲得附庸的開放邊界、附庸[ICON_CAPITAL]首都的[ICON_DIPLOMAT]外交官、附庸的[ICON_RESEARCH]科學、[ICON_CULTURE]文化、[ICON_PEACE]信仰的百分比產出。主人的[ICON_RELIGION]宗教和[ICON_TOURISM]旅遊業績會在附庸的領土上傳播得更快。附庸在每個新時代都要繳納少量的單位稅，附庸會被強制採納主人的意識形態，而且附庸沒有資格主辦世界大會或聯合國(除非附庸創辦了世界大會或聯合國，在此情況下，他們將成為世界大會的主辦國，直到選出新的主辦國為止)。</Text>
+			<Text>附庸為主人帶來多種好處。主人可以免費獲得附庸的開放邊界、附庸[ICON_CAPITAL]首都的[ICON_DIPLOMAT]外交官、附庸的[ICON_RESEARCH]科學、[ICON_CULTURE]文化、[ICON_PEACE]信仰的百分比產出。主人的[ICON_RELIGION]宗教和[ICON_TOURISM]旅遊業績會在附庸的領土上傳播得更快。附庸在每個新時代都要繳納少量的單位稅，附庸會被強制採納主人的意識形態，而且附庸沒有資格主辦世界議會或聯合國(除非附庸創辦了世界議會或聯合國，在此情況下，他們將成為世界議會的主辦國，直到選出新的主辦國為止)。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_DESCRIPTION">
 			<Text>{TXT_KEY_CONCEPT_VASSALAGE_VASSAL_BENEFITS_TOPIC}</Text>

@@ -116,7 +116,7 @@ WHERE Tag = 'TXT_KEY_TECH_LASERS_HELP';
 
 -- Globalization
 UPDATE Language_zh_Hant_HK
-SET Text = '允許你建造[COLOR_POSITIVE_TEXT]太空船駕駛艙[ENDCOLOR]，一個必要的部件以贏得[COLOR_POSITIVE_TEXT]科學勝利[ENDCOLOR]。有了全球化，您每派遣一個間諜到另一個文明當[ICON_DIPLOMAT]外交官，就會增加您在世界大會中控制的代表數量，讓您更接近[COLOR_POSITIVE_TEXT]外交勝利[ENDCOLOR]。'
+SET Text = '允許你建造[COLOR_POSITIVE_TEXT]太空船駕駛艙[ENDCOLOR]，一個必要的部件以贏得[COLOR_POSITIVE_TEXT]科學勝利[ENDCOLOR]。有了全球化，您每派遣一個間諜到另一個文明當[ICON_DIPLOMAT]外交官，就會增加您在世界議會中控制的代表數量，讓您更接近[COLOR_POSITIVE_TEXT]外交勝利[ENDCOLOR]。'
 WHERE Tag = 'TXT_KEY_TECH_GLOBALIZATION_HELP';
 
 -- Computers

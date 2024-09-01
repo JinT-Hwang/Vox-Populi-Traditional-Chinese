@@ -43,7 +43,7 @@ SET Text = '全球霸權'
 WHERE Tag = 'TXT_KEY_RESOLUTION_DIPLO_VICTORY';
 
 UPDATE Language_zh_Hant_HK
-SET Text = '指定一位可以達成全球霸權的玩家。如果某個文明在大會中獲得足夠代表的支持，該領袖就會獲得 [COLOR_POSITIVE_TEXT]外交勝利[ENDCOLOR]。所需的代表數量取決於遊戲中文明和城邦的數量，可以在世界大會界面中看到。[NEWLINE][NEWLINE]如果沒有文明獲得足夠的支持勝出，獲得最多支持的兩個文明會永久獲得 [COLOR_POSITIVE_TEXT]5 額外的代表[ENDCOLOR]，可以在未來的回合中使用。[NEWLINE][NEWLINE]不得由文明提出。一旦[COLOR_POSITIVE_TEXT]世界意識形態決議[ENDCOLOR]激活後，會定期自動提出。'
+SET Text = '指定一位可以達成全球霸權的玩家。如果某個文明在大會中獲得足夠代表的支持，該領袖就會獲得 [COLOR_POSITIVE_TEXT]外交勝利[ENDCOLOR]。所需的代表數量取決於遊戲中文明和城邦的數量，可以在世界議會界面中看到。[NEWLINE][NEWLINE]如果沒有文明獲得足夠的支持勝出，獲得最多支持的兩個文明會永久獲得 [COLOR_POSITIVE_TEXT]5 額外的代表[ENDCOLOR]，可以在未來的回合中使用。[NEWLINE][NEWLINE]不得由文明提出。一旦[COLOR_POSITIVE_TEXT]世界意識形態決議[ENDCOLOR]激活後，會定期自動提出。'
 WHERE Tag = 'TXT_KEY_RESOLUTION_DIPLO_VICTORY_HELP';
 
 -- World Religion

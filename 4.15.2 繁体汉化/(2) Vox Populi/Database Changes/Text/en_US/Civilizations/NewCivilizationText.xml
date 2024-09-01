@@ -426,10 +426,10 @@
 			<Text>幾個世紀以來，里亞托區一直是威尼斯的金融和商業中心。它是義大利威尼斯聖波羅區 (San Polo sestiere) 的一個區域，也因其市場和橫跨大運河的里亞托橋 (Rialto Bridge) 而聞名。該地區在九世紀時已經有人定居,當時位於里約布西尼亞克斯兩側的雷亞爾丁群島中間的一小片區域被稱為 Rivoaltus，或「高岸」。最後 Businiacus 被稱為大運河，而該區則被稱為 Rialto,僅指左岸的區域。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT_STRATEGY">
-			<Text>在完成 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO} 后，威尼斯可以建造三個相互排斥的建築中的一個。這個建築提供一個額外的[ICON_INTERNATIONAL_TRADE]貿易路綫席位；提升城市出發和進入的[ICON_INTERNATIONAL_TRADE]貿易路綫的價值；基於你帝國的人口產生[ICON_GOLD]金幣；減少購買單位和建築的[ICON_GOLD]金幣成本，并且提供額外的[ICON_DIPLOMAT]世界大會代表，基於你的[ICON_GOLD]金幣收入。</Text>
+			<Text>在完成 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO} 后，威尼斯可以建造三個相互排斥的建築中的一個。這個建築提供一個額外的[ICON_INTERNATIONAL_TRADE]貿易路綫席位；提升城市出發和進入的[ICON_INTERNATIONAL_TRADE]貿易路綫的價值；基於你帝國的人口產生[ICON_GOLD]金幣；減少購買單位和建築的[ICON_GOLD]金幣成本，并且提供額外的[ICON_DIPLOMAT]世界議會代表，基於你的[ICON_GOLD]金幣收入。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_RIALTO_DISTRICT_HELP">
-			<Text>3 個[COLOR_NEGATIVE_TEXT]相互排斥[ENDCOLOR]的威尼斯獨有的建築中的 1 個。此城市需要已建造 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}。[NEWLINE][NEWLINE]所有城市[ICON_GOLD]金幣購買成本減少 10% ([ICON_CAPITAL]首都為 15%)。帝國每 3 [ICON_CITIZEN]公民 +1 [ICON_GOLD]金幣。+1 [ICON_INTERNATIONAL_TRADE]貿易路綫。每回合每 200 [ICON_GOLD]金幣產出 +1 [ICON_DIPLOMAT]世界大會代表(所有[ICON_CITY_STATE]城邦還活著的上限為 25%)。[NEWLINE][NEWLINE]進來的[ICON_ARROW_LEFT]貿易路綫產生 +3 [ICON_GOLD]金幣給城市，并且 +3 [ICON_GOLD]金幣給[ICON_ARROW_RIGHT]貿易路綫的擁有者。[NEWLINE][NEWLINE][ICON_PRODUCTION]產能成本的增加，基於你擁有的城市數量。</Text>
+			<Text>3 個[COLOR_NEGATIVE_TEXT]相互排斥[ENDCOLOR]的威尼斯獨有的建築中的 1 個。此城市需要已建造 {TXT_KEY_BUILDING_PIAZZA_SAN_MARCO}。[NEWLINE][NEWLINE]所有城市[ICON_GOLD]金幣購買成本減少 10% ([ICON_CAPITAL]首都為 15%)。帝國每 3 [ICON_CITIZEN]公民 +1 [ICON_GOLD]金幣。+1 [ICON_INTERNATIONAL_TRADE]貿易路綫。每回合每 200 [ICON_GOLD]金幣產出 +1 [ICON_DIPLOMAT]世界議會代表(所有[ICON_CITY_STATE]城邦還活著的上限為 25%)。[NEWLINE][NEWLINE]進來的[ICON_ARROW_LEFT]貿易路綫產生 +3 [ICON_GOLD]金幣給城市，并且 +3 [ICON_GOLD]金幣給[ICON_ARROW_RIGHT]貿易路綫的擁有者。[NEWLINE][NEWLINE][ICON_PRODUCTION]產能成本的增加，基於你擁有的城市數量。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_VENETIAN_ARSENALE">
 			<Text>威尼斯兵工廠</Text>

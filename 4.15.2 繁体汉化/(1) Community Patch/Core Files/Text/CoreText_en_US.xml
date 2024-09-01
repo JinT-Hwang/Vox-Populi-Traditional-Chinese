@@ -3133,7 +3133,7 @@
       <Text>他們的交易值：不可能！</Text>
     </Row>
     <Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_EMBARGO">
-      <Text>世界大會認可</Text>
+      <Text>世界議會認可</Text>
     </Row>
     <Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_EMBARGO_TT">
       <Text>在和平時期，您無法與此文明進行交易，直到制裁解除為止。</Text>
@@ -3570,31 +3570,31 @@
     </Row>
     <!-- World Congress Diplo Mods -->
     <Row Tag="TXT_KEY_DIPLO_MAINTAINED_THEIR_HOSTING">
-      <Text>我們協助他們繼續主辦世界大會。</Text>
+      <Text>我們協助他們繼續主辦世界議會。</Text>
     </Row>
     <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL_PREVIOUSLY">
-      <Text>我們之前在世界大會上通過了他們的提案。</Text>
+      <Text>我們之前在世界議會上通過了他們的提案。</Text>
     </Row>
     <Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL_PREVIOUSLY">
-      <Text>我們之前在世界大會上否決了他們的提案。</Text>
+      <Text>我們之前在世界議會上否決了他們的提案。</Text>
     </Row>
     <Row Tag="TXT_KEY_DIPLO_GOOD_VOTING_HISTORY">
-      <Text>您的投票支持了他們公民在世界大會中的利益。</Text>
+      <Text>您的投票支持了他們公民在世界議會中的利益。</Text>
     </Row>
     <Row Tag="TXT_KEY_DIPLO_BAD_VOTING_HISTORY">
-      <Text>您的投票在世界大會上反對他們公民的利益。</Text>
+      <Text>您的投票在世界議會上反對他們公民的利益。</Text>
     </Row>
     <Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_SUCCESSFUL">
-      <Text>我們在世界大會上對他們進行了制裁。</Text>
+      <Text>我們在世界議會上對他們進行了制裁。</Text>
     </Row>
     <Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_UNSUCCESSFUL">
-      <Text>我們試圖在世界大會上對他們進行制裁。</Text>
+      <Text>我們試圖在世界議會上對他們進行制裁。</Text>
     </Row>
     <Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_SUCCESSFUL">
-      <Text>我們在世界大會上解除了對他們的制裁。</Text>
+      <Text>我們在世界議會上解除了對他們的制裁。</Text>
     </Row>
     <Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_UNSUCCESSFUL">
-      <Text>我們嘗試在世界大會上讓他們脫離制裁。</Text>
+      <Text>我們嘗試在世界議會上讓他們脫離制裁。</Text>
     </Row>
     <!-- World Congress >>> United Nations -->
     <Row Tag="TXT_KEY_DIPLO_LIKED_OUR_PROPOSAL_UN">
@@ -3721,13 +3721,13 @@
     </Row>
     <!-- Votes -->
     <Row Tag="TXT_KEY_VOTE_COMMITMENT_REQUEST_1">
-      <Text>我的顧問告訴我，您尚未承諾為即將舉行的世界大會會期投票。您對這項提案有何看法？</Text>
+      <Text>我的顧問告訴我，您尚未承諾為即將舉行的世界議會會期投票。您對這項提案有何看法？</Text>
     </Row>
     <Row Tag="TXT_KEY_VOTE_COMMITMENT_REQUEST_2">
-      <Text>即將舉行的世界大會會期對我來說非常重要。我希望看到這項決議得以實現，我需要您的幫助。這個提議看起來合適嗎？</Text>
+      <Text>即將舉行的世界議會會期對我來說非常重要。我希望看到這項決議得以實現，我需要您的幫助。這個提議看起來合適嗎？</Text>
     </Row>
     <Row Tag="TXT_KEY_VOTE_COMMITMENT_REQUEST_3">
-      <Text>您對這項世界大會決議案的投票對我來說非常寶貴。我希望這個提議能反映出這一點。如果沒有，介意告訴我怎樣才能贏得您的一票嗎？</Text>
+      <Text>您對這項世界議會決議案的投票對我來說非常寶貴。我希望這個提議能反映出這一點。如果沒有，介意告訴我怎樣才能贏得您的一票嗎？</Text>
     </Row>
     <!-- Embark String for Less/No City Cost-->
     <Row Tag="TXT_KEY_ABLTY_CITY_LESS_EMBARK_COST_STRING">
@@ -3876,7 +3876,7 @@
       <Text>你的軍隊是這片土地的污點。你們帶來的是破壞，不是團結。我不會袖手旁觀，看著你們把一切據為己有！</Text>
     </Row>
     <Row Tag="TXT_KEY_GENERIC_BLOCK_ANNOUNCE_WORLD_CONGRESS_1">
-      <Text>你們在世界大會中的陰謀詭計真是可悲。真正的英雄是用劍打仗，而不是用錢幣和銀舌。</Text>
+      <Text>你們在世界議會中的陰謀詭計真是可悲。真正的英雄是用劍打仗，而不是用錢幣和銀舌。</Text>
     </Row>
     <Row Tag="TXT_KEY_GENERIC_BLOCK_ANNOUNCE_CULTURE_1">
       <Text>你的文化就像一個粗心大意的孩子，將任何不符合你喜好的東西丟到一旁。你們的影響力很快就會減弱。</Text>
@@ -3973,10 +3973,10 @@
       <Text>{1_PlayerName} 的軍事力量在最近幾個回合強勁上升。</Text>
     </Row>
     <Row Tag="TXT_KEY_INTRIGUE_BOUGHT_VOTES">
-      <Text>{1_PlayerName} 向 {2_PlayerName} 購買了世界大會的選票。</Text>
+      <Text>{1_PlayerName} 向 {2_PlayerName} 購買了世界議會的選票。</Text>
     </Row>
     <Row Tag="TXT_KEY_INTRIGUE_SOLD_VOTES">
-      <Text>{1_PlayerName} 已將世界大會的選票賣給 {2_PlayerName}。</Text>
+      <Text>{1_PlayerName} 已將世界議會的選票賣給 {2_PlayerName}。</Text>
     </Row>
     <!-- ADDITIONS TO EXISTING DIPLOMACY TEXTS -->
     <Row Tag="TXT_KEY_HOSTILE_WE_ATTACKED_YOUR_MINOR_3">
@@ -7292,7 +7292,7 @@
     </Row><!-- Randomization Victory Data--><Row Tag="TXT_KEY_POP_WORLD_VICTORY_SPLASH">
       <Text>已啟用勝利條件！</Text>
     </Row><Row Tag="TXT_KEY_POP_WORLD_VICTORY_TYPE_DIPLO">
-      <Text>人類歷史是一部暴力史，然而新時代即將來臨，人類將有機會獲得救贖。世界大會是未來的戰場；獎勵是成為第一位世界領袖，領導所有其他國家。[NEWLINE][COLOR_POSITIVE_TEXT]通過外交上的勝利，確保作為全球霸主的地位！[ENDCOLOR]</Text>
+      <Text>人類歷史是一部暴力史，然而新時代即將來臨，人類將有機會獲得救贖。世界議會是未來的戰場；獎勵是成為第一位世界領袖，領導所有其他國家。[NEWLINE][COLOR_POSITIVE_TEXT]通過外交上的勝利，確保作為全球霸主的地位！[ENDCOLOR]</Text>
     </Row><Row Tag="TXT_KEY_POP_WORLD_VICTORY_TYPE_CULTURE">
       <Text>人類的生存有賴於創造一個單一、統一的文化實體，一個集思想、意識形態和價值觀於一身的巨石。世界上的文化強國將各自致力於定義這個單一的文化實體，而您將向世界展示一個真正統一的文化應該是什麼樣子。[NEWLINE][COLOR_POSITIVE_TEXT]透過文化勝利統一世界！[ENDCOLOR]</Text>
     </Row><Row Tag="TXT_KEY_POP_WORLD_VICTORY_TYPE_SPACERACE">

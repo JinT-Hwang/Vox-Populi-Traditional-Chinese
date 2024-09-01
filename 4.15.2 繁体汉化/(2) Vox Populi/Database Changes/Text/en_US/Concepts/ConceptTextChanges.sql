@@ -127,28 +127,28 @@ UPDATE Language_zh_Hant_HK
 SET Text = '[COLOR_YELLOW]決議案[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CONGRESS_RESOLUTIONS_HEADING2_TITLE';
 UPDATE Language_zh_Hant_HK
-SET Text = '決議是對遊戲世界的改變，由世界大會的文明提出並決定。舉例來說，一項決議可以禁止與某種文明的貿易路線、增加來自奇蹟的文化、阻止建造核子武器，或是頒發外交勝利獎項給某人。決議也可以廢除先前通過的決議，扭轉其效果。[NEWLINE][NEWLINE][COLOR_YELLOW]只有三種文明可以提出決議：現任會議東道主，以及擁有最多代表的另外兩個玩家。[ENDCOLOR][NEWLINE][NEWLINE]大會開會後，所有文明都可以協助決定決議案的結果。他們可以透過分配自己的代表來決定他們所希望的結果: 贊成來讓決議通過，或反對來讓決議失敗。有些決議需要選擇一個文明，而不僅僅是「贊成 」或「反對」。[NEWLINE][NEWLINE]一旦所有文明都使用了他們的代表，決議的結果將由獲得最多代表支持的方案決定。如果票數相同，則決議失敗。'
+SET Text = '決議是對遊戲世界的改變，由世界議會的文明提出並決定。舉例來說，一項決議可以禁止與某種文明的貿易路線、增加來自奇蹟的文化、阻止建造核子武器，或是頒發外交勝利獎項給某人。決議也可以廢除先前通過的決議，扭轉其效果。[NEWLINE][NEWLINE][COLOR_YELLOW]只有三種文明可以提出決議：現任會議東道主，以及擁有最多代表的另外兩個玩家。[ENDCOLOR][NEWLINE][NEWLINE]大會開會後，所有文明都可以協助決定決議案的結果。他們可以透過分配自己的代表來決定他們所希望的結果: 贊成來讓決議通過，或反對來讓決議失敗。有些決議需要選擇一個文明，而不僅僅是「贊成 」或「反對」。[NEWLINE][NEWLINE]一旦所有文明都使用了他們的代表，決議的結果將由獲得最多代表支持的方案決定。如果票數相同，則決議失敗。'
 WHERE Tag = 'TXT_KEY_CONGRESS_RESOLUTIONS_HEADING2_BODY';
 
 UPDATE Language_zh_Hant_HK
 SET Text = '[COLOR_YELLOW]代表[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CONGRESS_DELEGATES_HEADING2_TITLE';
 UPDATE Language_zh_Hant_HK
-SET Text = '向大會提出的決議是透過代表來決定的。大會開始後，各文明會依其喜好將代表分派給不同的決議提案，以支持他們所希望的結果。代表「贊成」以協助通過決議，或「反對」以協助阻止決議通過。有些決議需要選擇一個文明，而不是簡單的「贊成 」或「反對」。[NEWLINE][NEWLINE]可透過以下方式取得代表：[NEWLINE][NEWLINE]  [COLOR_GREEN]基礎數值[ENDCOLOR]：每個文明都有一個基本的代表數量，取決於當前的世界大會時代(當世界大會成立時開始有 1 位代表，之後每個時代增加 1 位代表)。[NEWLINE][NEWLINE] [COLOR_GREEN]主持狀態[ENDCOLOR]：世界大會東道主可額外獲得 1-2 名代表，視時代而定。[NEWLINE][NEWLINE]  [COLOR_GREEN]城邦聯盟[ENDCOLOR]：每個城邦聯盟可增加一名代表。聯合國成立後，每個聯盟可增加 2 位代表。[NEWLINE][NEWLINE] [COLOR_GREEN]城邦大使館[ENDCOLOR]：[COLOR_YELLOW]在城邦內建立的每座大使館，可額外增加一位代表。[ENDCOLOR][NEWLINE][NEWLINE]  [COLOR_GREEN]世界宗教[ENDCOLOR]：如果某個宗教被世界大會指定為正式的世界宗教，追隨該宗教的所有文明將獲得一名額外的代表。[COLOR_YELLOW]世界宗教的創始者也會從世界宗教之後的每個外國文明中得到一個額外的代表。[ENDCOLOR][NEWLINE][NEWLINE]  [COLOR_GREEN]宗教權威[ENDCOLOR]：[COLOR_YELLOW]建立宗教並建造對應的國家奇觀的文明，每 10 個追隨該宗教的城市可獲得 1 位額外代表。[ENDCOLOR][NEWLINE][NEWLINE]  [COLOR_GREEN]世界意識形態[ENDCOLOR]：如果某種意識形態已被世界大會指定為正式的世界意識形態，所有追隨該意識形態的文明將獲得 1 位額外的代表，[COLOR_YELLOW]每追隨該世界意識形態的外國文明將獲得 1 位額外的代表。[ENDCOLOR][NEWLINE][NEWLINE]  [COLOR_GREEN]政策和奇蹟[ENDCOLOR]：某些社會政策、國家奇蹟和世界奇蹟會以不同方式授予額外的代表。[NEWLINE][NEWLINE]  [COLOR_GREEN]全球化[ENDCOLOR]：當研究了「全球化」科技時，每個在外國首都的外交官會額外獲得 1 位代表。'
+SET Text = '向大會提出的決議是透過代表來決定的。大會開始後，各文明會依其喜好將代表分派給不同的決議提案，以支持他們所希望的結果。代表「贊成」以協助通過決議，或「反對」以協助阻止決議通過。有些決議需要選擇一個文明，而不是簡單的「贊成 」或「反對」。[NEWLINE][NEWLINE]可透過以下方式取得代表：[NEWLINE][NEWLINE]  [COLOR_GREEN]基礎數值[ENDCOLOR]：每個文明都有一個基本的代表數量，取決於當前的世界議會時代(當世界議會成立時開始有 1 位代表，之後每個時代增加 1 位代表)。[NEWLINE][NEWLINE] [COLOR_GREEN]主持狀態[ENDCOLOR]：世界議會東道主可額外獲得 1-2 名代表，視時代而定。[NEWLINE][NEWLINE]  [COLOR_GREEN]城邦聯盟[ENDCOLOR]：每個城邦聯盟可增加一名代表。聯合國成立後，每個聯盟可增加 2 位代表。[NEWLINE][NEWLINE] [COLOR_GREEN]城邦大使館[ENDCOLOR]：[COLOR_YELLOW]在城邦內建立的每座大使館，可額外增加一位代表。[ENDCOLOR][NEWLINE][NEWLINE]  [COLOR_GREEN]世界宗教[ENDCOLOR]：如果某個宗教被世界議會指定為正式的世界宗教，追隨該宗教的所有文明將獲得一名額外的代表。[COLOR_YELLOW]世界宗教的創始者也會從世界宗教之後的每個外國文明中得到一個額外的代表。[ENDCOLOR][NEWLINE][NEWLINE]  [COLOR_GREEN]宗教權威[ENDCOLOR]：[COLOR_YELLOW]建立宗教並建造對應的國家奇觀的文明，每 10 個追隨該宗教的城市可獲得 1 位額外代表。[ENDCOLOR][NEWLINE][NEWLINE]  [COLOR_GREEN]世界意識形態[ENDCOLOR]：如果某種意識形態已被世界議會指定為正式的世界意識形態，所有追隨該意識形態的文明將獲得 1 位額外的代表，[COLOR_YELLOW]每追隨該世界意識形態的外國文明將獲得 1 位額外的代表。[ENDCOLOR][NEWLINE][NEWLINE]  [COLOR_GREEN]政策和奇蹟[ENDCOLOR]：某些社會政策、國家奇蹟和世界奇蹟會以不同方式授予額外的代表。[NEWLINE][NEWLINE]  [COLOR_GREEN]全球化[ENDCOLOR]：當研究了「全球化」科技時，每個在外國首都的外交官會額外獲得 1 位代表。'
 WHERE Tag = 'TXT_KEY_CONGRESS_DELEGATES_HEADING2_BODY';
 
 UPDATE Language_zh_Hant_HK
 SET Text = '[COLOR_YELLOW]聯合國[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CONGRESS_UN_HEADING2_TITLE';
 UPDATE Language_zh_Hant_HK
-SET Text = '外交勝利只有在世界大會成為聯合國之後才能實現。一旦遊戲中有一半的文明達到核子時代(或有一種文明達到資訊時代)，聯合國就會成立。[COLOR_YELLOW]作為進一步的要求，世界大會的決議「聯合國」必須已經通過，而且聯合國世界奇觀必須是由一個文明建造的。即使您沒有親自建造聯合國，也有可能取得外交勝利。[ENDCOLOR]'
+SET Text = '外交勝利只有在世界議會成為聯合國之後才能實現。一旦遊戲中有一半的文明達到核子時代(或有一種文明達到資訊時代)，聯合國就會成立。[COLOR_YELLOW]作為進一步的要求，世界議會的決議「聯合國」必須已經通過，而且聯合國世界奇觀必須是由一個文明建造的。即使您沒有親自建造聯合國，也有可能取得外交勝利。[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CONGRESS_UN_HEADING2_BODY';
 
 UPDATE Language_zh_Hant_HK
 SET Text = '[COLOR_YELLOW]外交勝利[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_CONGRESS_VICTORY_HEADING2_TITLE';
 UPDATE Language_zh_Hant_HK
-SET Text = '[COLOR_YELLOW]一旦世界大會成為聯合國，如果世界意識形態已激活，外交勝利就成為可能。[ENDCOLOR]要贏得外交勝利，一個文明必須在全球霸權決議上獲得足夠的代表支持。[NEWLINE][NEWLINE]與其他決議不同，全球霸權決議不能由一個文明提出。相反地，聯合國每隔一次的會議，都會在世界意識形態已激活的情況下，專門決定它。在這些會議(與定期提案會議交替舉行)期間，世界領袖決議會自動向大會提案，不會再提出其他提案。[NEWLINE][NEWLINE]勝利所需的代表支持數量取決於遊戲中文明和城邦的數量，可以在世界大會和勝利進度界面中看到。如果沒有文明獲得足夠的支持來贏得世界領袖決議，獲得最多支持的兩個文明將永久獲得額外的代表。'
+SET Text = '[COLOR_YELLOW]一旦世界議會成為聯合國，如果世界意識形態已激活，外交勝利就成為可能。[ENDCOLOR]要贏得外交勝利，一個文明必須在全球霸權決議上獲得足夠的代表支持。[NEWLINE][NEWLINE]與其他決議不同，全球霸權決議不能由一個文明提出。相反地，聯合國每隔一次的會議，都會在世界意識形態已激活的情況下，專門決定它。在這些會議(與定期提案會議交替舉行)期間，世界領袖決議會自動向大會提案，不會再提出其他提案。[NEWLINE][NEWLINE]勝利所需的代表支持數量取決於遊戲中文明和城邦的數量，可以在世界議會和勝利進度界面中看到。如果沒有文明獲得足夠的支持來贏得世界領袖決議，獲得最多支持的兩個文明將永久獲得額外的代表。'
 WHERE Tag = 'TXT_KEY_CONGRESS_VICTORY_HEADING2_BODY';
 
 UPDATE Language_zh_Hant_HK
@@ -189,7 +189,7 @@ SET Text = '[ICON_TOURISM]旅遊業績是您用來向其他文明傳播您的文
 [NEWLINE][ICON_BULLET]擁有與玩家不同的意識形態 [COLOR_YELLOW]([COLOR_NEGATIVE_TEXT]-10%[COLOR_YELLOW])[ENDCOLOR]。
 [NEWLINE][ICON_BULLET][COLOR_YELLOW]擁有比該玩家更多的非傀儡城市([COLOR_NEGATIVE_TEXT]每個額外城市 -5%[COLOR_YELLOW])。[ENDCOLOR]
 
-[NEWLINE][NEWLINE][COLOR_YELLOW]此外，某些玩家的能力、政策、信條、公司和世界大會提案可以改變這個修正。[ENDCOLOR]其他能力反而會直接倍增城市所產生的旅遊業績。'
+[NEWLINE][NEWLINE][COLOR_YELLOW]此外，某些玩家的能力、政策、信條、公司和世界議會提案可以改變這個修正。[ENDCOLOR]其他能力反而會直接倍增城市所產生的旅遊業績。'
 WHERE Tag = 'TXT_KEY_CULTURE_TOURISM_HEADING2_BODY';
 
 UPDATE Language_zh_Hant_HK

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_zh_Hant_HK>
+		<Row Tag="TXT_KEY_DESC_MOUNTED_BOWMAN">
+			<Text>重型游散兵</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MOUNTED_BOWMAN_STRATEGY">
+			<Text>重型游散兵是中世紀時代的單位，能夠快速移動並進行連續攻擊。使用他們來騷擾敵人並支援您的戰爭努力，但要小心讓他們單獨陷入困境。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MOUNTED_BOWMAN_PEDIA">
+			<Text>以長矛為武器的騎士在矛兵與弓弩手的組合下顯得無能為力，而弓弩手的武器可以穿透大部分騎士的盔甲。推桿和棘輪拉弓裝置的發明使弩箭可以在馬背上使用，從而發展出新的騎兵戰術。騎士和傭兵以三角隊形部署,裝甲最厚的騎士走在最前面。其中一些騎士會攜帶自己的小型強力全金屬弩。在戰爭中，弩最終被威力更大的火藥武器所取代，不過早期的火砲射速較慢，準確度也遠遠不如當代的弩。後來，類似的競賽戰術會以火槍兵或滑膛槍兵與方陣槍兵(梭矛與獵槍)排成隊形，與發射手槍或卡賓槍的騎兵對抗。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MOUNTED_BOWMAN_HELP">
+			<Text>中世紀時期的射程騎兵單位，可用於包抄、騷擾和打了就跑戰術。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DESC_CUIRASSIER">
+			<Text>胸甲騎兵</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CUIRASSIER_STRATEGY">
+			<Text>胸甲騎兵是文藝復興時代的單位，能夠快速移動並進行範圍攻擊。使用他們來騷擾敵人並支援您的戰爭活動。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CUIRASSIER_PEDIA">
+			<Text>胸甲騎兵(Cuirassiers)源自法文 cuirassier，是裝備有盔甲和火器的騎兵，最早出現於 15 世紀晚期的歐洲。這個法語詞彙的意思是「有鎧甲的人」(cuirass)，也就是他們所穿戴的胸甲。第一批胸甲騎兵的出現是由於裝甲騎兵，例如 man-at-arms 和 demi-lancer 棄用長矛而改用手槍作為主要武器。在 17 世紀後期，騎兵喪失了肢體裝甲，隨後只使用鎧甲(胸甲和背甲)，有時還會使用頭盔。至此，劍成為騎兵的主要武器，手槍則退居次要地位。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CUIRASSIER_HELP">
+			<Text>文藝復興時代的射程騎兵，可用於包抄、騷擾和打了就跑戰術。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_COMMANDO">
+			<Text>哥曼德突擊隊</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COMMANDO_STRATEGY_CBP">
+			<Text>哥曼德突擊隊是偵察和攻擊部隊，專門透過困難地形攻擊脆弱目標，並迅速撤退。使用這些單位包抄並擾亂敵人的後線。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COMMANDO_CBP">
+			<Text>工業時代的探索單位。攻擊時有額外的力量，並在可能的情況下，在每回合的第一次被近戰攻擊中撤退。可從掠奪非道路改良設施中獲得經驗。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_COMMANDO_TEXT">
+			<Text>哥曼德突擊隊是一種精銳的輕步兵，專門攻擊高價值目標和前線偵察。這個詞在布爾戰爭和大跋涉之後開始普遍使用，布爾的哥曼德民兵採用游擊和非對稱戰術，在對抗科薩、祖魯和英國軍隊時大獲成功。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_EXPLORER_CBP">
+			<Text>探險家</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EXPLORER_STRATEGY_CBP">
+			<Text>在中世紀和文藝復興時期，探險家是卡拉維爾帆船的有效替代，可以橫跨海洋進行探險。它們相當弱小，因此很容易被當代的軍事單位打敗，但它們的偵察能力在哥曼德突擊隊出現之前是無與倫比的。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_EXPLORER_CBP">
+			<Text>遊戲中期的探索單位，在海運時更強，並擁有額外的視線。使用這些單位來探索新的土地。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_EXPLORER_TEXT_CBP">
+			<Text>探索是以發現資訊或資源為目的的搜尋行為。包括人類在內的所有非靜止動物都有探索行為。在人類歷史上，其最顯著的興起是在大航海時代，當時歐洲探險家航行並繪製了世界其他大部分地區的地圖，主要是為了追求物質財富。自此之後，在大航海時代之後的主要探索活動，其原因大多是為了發現資訊。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DESC_FIELD_GUN">
+			<Text>野戰炮</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_PEDIA">
+			<Text>野戰炮是一種火砲。這個詞最早是用來形容軍隊行軍時可以攜帶的小型火砲。在戰鬥中，野戰炮可以根據需要在戰場上快速移動。而安裝在堡壘中的炮、加農炮和迫擊炮體積太大，無法快速移動，只能在長時間的攻城戰中使用。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_STRATEGY">
+			<Text>野戰炮的戰鬥力比加農炮更強，儘管它們本身缺乏遠視野的能力。使用野戰炮支援您的工業時代軍隊，但要小心敵人接近它們！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FIELD_GUN_HELP">
+			<Text>強大的工業時代攻城單位，能射擊最遠 2 格的距離。在敵方領土中以半速移動。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_FCOMPANY">
+			<Text>自由連隊</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FCOMPANY">
+			<Text>這個單位比長槍兵便宜得多，可以掠奪而不消耗任何移動力，購買時可以從城市獲得完全 XP。攻城時可竊取黃金。購買後可立即移動。[NEWLINE][NEWLINE]在完成[COLOR_MAGENTA]權威[ENDCOLOR]政策分支後，才能用[ICON_GOLD]金幣購買。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FCOMPANY_STRATEGY">
+			<Text>權威政策樹完成後的自由連隊(Free Company)是第一種傭兵單位。儘管他們不能被直接生產，但他們在戰鬥力方面比長槍兵有了直接的提升，同時也獲得了一些額外的優勢。[NEWLINE][NEWLINE]因為他們可以立即移動，而且在購買時就已經滿經驗，所以如果您有金幣的話，您可以很快地派出大量的他們。此外，這些惡棍從攻擊戰中獲益良多，因為他們可以掠奪而無需移動成本，而且每當他們對城市造成損害時就會獲得金幣。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FCOMPANY_TEXT">
+			<Text>當機會遇到戰爭和無法無天的情況時，士兵的生活就會迅速轉變為強盜行為。[NEWLINE][NEWLINE]自由連隊，又稱為大連隊或冒險家連隊，是從 12 世紀到 15 世紀早期在歐洲各地活動的傭兵團隊。他們通常受雇於貴族，以不遵守軍法和擅於突襲而聞名。自由連隊最著名的是他們在 14 世紀無休止的衝突中所扮演的角色，在百年戰爭期間，他們被英國人僱用來恐嚇法國農村。[NEWLINE][NEWLINE]雖然這些連隊在戰爭時期有工作，但在和平時期卻可能成為禍害;他們往往一停止掠奪別人的土地獲得回報，就開始掠奪前雇主的土地。1360 年布勒蒂尼和約簽訂後，自由連隊被解散，他們變得難以控制。他們從一個封地到另一個封地，攻擊農場和城堡，活動範圍遍及整個西歐,甚至擊敗了與他們對抗的軍隊。和平與瘟疫讓這些團夥的規模與膽量越來越大，他們往國外的同時也獲得了財富與惡名。當時著名的連隊包括意大利的 White Company、希臘的 Catalan Company 以及法國的 Tard-Venus。許多冒險家從他們的冒險中獲得了相當大的政治權力，如英國人約翰-霍克伍德 (John Hawkwood)，他成為了意大利多個國家和教皇所僱用的富豪。[NEWLINE][NEWLINE]15 世紀，西歐國家的重建，以及專業軍隊和有效民兵的形成，終止了使用僱傭兵的力量。然而，自由連隊造成的死亡和破壞在歐洲人的記憶中留下了深深的傷痕。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_GUERILLA">
+			<Text>僱傭兵</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GUERILLA_TEXT">
+			<Text>私人軍事公司(PMC)的士兵是當代僱傭兵交易的分支，提供後勤、士兵、軍事訓練和其他服務。因此，PMC承包商是平民(在政府、國際和民間組織)授權隨軍出征，因此稱為平民承包商。儘管如此，PMC可能會使用武裝力量，因此定義為:「合法成立的企業，通過提供涉及以系統化方式和軍事手段潛在行使[武裝]武力的服務，或通過培訓和其他做法，如後勤支援、設備採購和情報收集，將這種潛在武力轉移給客戶，從而獲利」。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUERILLA_STRATEGY">
+			<Text>使用傭兵作為防禦入侵者的廉價手段，或作為精確攻擊的側翼。傭兵從側翼攻擊會獲得大量獎勵，因此請明智地部署他們！只有當您解鎖了權威分支的完美主義者政策時才能使用。只能透過[ICON_GOLD]金幣購買獲得。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GUERILLA">
+			<Text>增加側翼攻擊加成，並在海運或渡河攻擊時獲得加成。[NEWLINE][NEWLINE]只能在完成[COLOR_MAGENTA]權威[ENDCOLOR]政策分支後，使用[ICON_GOLD]金幣購買。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER">
+			<Text>戰象</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER_STRATEGY">
+			<Text>戰象比騎士更貴,速度也更慢，但它們也更強大。它們可以在攻擊後移動，並對鄰近的敵方單位造成恐懼，使它們的戰鬥力修正為負值。您必須有[ICON_RES_IVORY]象牙來源才能建造戰象，而且您要建造戰象的城市必須有兵營。與其他軍事單位不同，戰象在建造時不會消耗資源。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER_HELP">
+			<Text>遊戲初期強大的騎兵單位，但對長矛兵較弱。這個單位的[ICON_STRENGTH]戰鬥力比其他騎乘單位高，而且會讓附近的敵人單位感到恐懼。然而，它比騎士慢得多，也更昂貴。[NEWLINE][NEWLINE]您必須有[ICON_RES_IVORY]象牙和兵營才能建造這個單位。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ELEPHANT_RIDER_TEXT">
+			<Text>戰象是一種由人類訓練和引導的大象，用於戰鬥。它們的主要用途是向敵人衝鋒,打破敵人的隊伍，並造成恐懼.象兵是擁有大象騎兵的軍事單位。象兵最早出現在印度，後來擴散到東南亞和地中海。西方最著名的象騎兵是希臘將軍伊庇魯斯的皮魯斯 (Pyrrhus)，迦太基的軍隊也曾大量使用象騎兵，包括漢尼拔 (Hannibal) 的短暫使用。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_PIONEER">
+			<Text>拓荒者</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIONEER_STRATEGY">
+			<Text>使用此單位建造新城市。它無法自衛，所以要搭配一個戰鬥單位。當拓荒者建立城市時，城市開始時會有 3 位市民，佔有額外的領土，並自動獲得下列建築選擇：[NEWLINE][NEWLINE][ICON_BULLET] 競技場[NEWLINE][ICON_BULLET] 兵營[NEWLINE][ICON_BULLET] 理事會[NEWLINE][ICON_BULLET] 煉冶廠[NEWLINE][ICON_BULLET] 穀倉[NEWLINE][ICON_BULLET] 草藥館[NEWLINE][ICON_BULLET] 圖書館[NEWLINE][ICON_BULLET] 市場[NEWLINE][ICON_BULLET] 紀念碑[NEWLINE][ICON_BULLET] 神龕[NEWLINE][ICON_BULLET] 熏製室[NEWLINE][ICON_BULLET] 水力磨坊(若適用)[NEWLINE][ICON_BULLET] 水井(若適用)[NEWLINE][NEWLINE]注意：進步與工業政策分支的建造建築加成不適用於拓荒者的建造！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PIONEER_TEXT">
+			<Text>拓荒者是指歷史上任何移居到新地區定居和開發的人。這個詞尤其是指那些要去定居任何之前還沒有被歐洲或美國社會定居或開發的領土的人，儘管該領土可能已經有原住民居住或被原住民利用。拓荒者的概念和精神遠早於移民到美國現在稱為西部的地區，因為許多現在被認為是東部的地方也是由來自沿海的拓荒者定居的。例如，美國歷史上的重要人物丹尼爾-布恩 (Daniel Boone) 定居在肯塔基州，當時那片「黑暗血腥之地 」還未開發.西部定居的一個重要發展是《宅地法》(Homestead Act)，它提供了規範定居過程的正式立法。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PIONEER">
+			<Text>建立擁有先進基礎設施和額外人口的新城市。[NEWLINE][NEWLINE]當建造此單位時，城市的[ICON_FOOD]成長會停止。完成時，城市的[ICON_CITIZEN]人口會減少 1。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]無法在任何人的邊界旁邊建立城市，或者您的帝國非常不滿度。[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_COLONIST">
+			<Text>殖民者</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COLONIST_STRATEGY">
+			<Text>使用此單位建造新城市。它無法自衛，所以要搭配一個戰鬥單位。當拓荒者建立城市時，城市開始時會有 5 位市民，佔有額外的領土，並自動獲得下列建築選擇：[NEWLINE][NEWLINE][ICON_BULLET] Amphitheater[NEWLINE][ICON_BULLET] 引水渠[NEWLINE][ICON_BULLET] 競技場[NEWLINE][ICON_BULLET] 兵營[NEWLINE][ICON_BULLET] 理事會[NEWLINE][ICON_BULLET] 煉冶廠[NEWLINE][ICON_BULLET] 穀倉[NEWLINE][ICON_BULLET] 港口[NEWLINE][ICON_BULLET] 草藥館[NEWLINE][ICON_BULLET] 圖書館[NEWLINE][ICON_BULLET] 燈塔[NEWLINE][ICON_BULLET] 市場[NEWLINE][ICON_BULLET] 紀念碑[NEWLINE][ICON_BULLET] 神龕[NEWLINE][ICON_BULLET] 熏製室[NEWLINE][ICON_BULLET] 神廟[NEWLINE][ICON_BULLET] 水力磨坊(若適用)[NEWLINE][ICON_BULLET] 水井(若適用)[NEWLINE][ICON_BULLET] 風力磨坊[NEWLINE][ICON_BULLET] 工作坊[NEWLINE][NEWLINE]注意：進步與工業政策分支中建造建築加成不適用於殖民者的建造！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_COLONIST_TEXT">
+			<Text>纵观历史，我们可以看到殖民者(開拓者的一种)是如何经常性占据以前长期居住在被称为土著(也称为「本地人」、「原住民 」或美洲的「印第安人」)的人民的土地的。在某些情況下(如澳大利亞)，隨著殖民主義思想和法律的改變，一些土地的合法所有權受到原住民的質疑，他們要求或尋求恢復傳統用法、土地權、原住民所有權及相關形式的合法所有權或部分控制權。「開拓者」一詞最初通常不是用於非自由勞動的移民，例如奴隸 (例如在美國)、契约勞工 (例如在美國殖民地) 或囚犯 (例如在英屬美洲，約 1615-1775 年;澳洲 1788-1868 年)。最近，這些移民的後代可能會辯稱，他們和自由移民的後代一樣，有權使用「開拓者」一詞。在比喻用法中，「先走一步或先做某事的人 」也適用於美國英語中使用「拓荒者」來指定居者--一個移居到一個較少人居住的地區並在那裡建立永久居所的人，通常是為了殖民該地區；1605 年首次在英語中有此記錄。在美國歷史上，它是指那些幫助開拓新土地的人。在這種用法中，拓荒者通常是最先到達某一地區的人，而開拓者可以在有人定居之後才到達，並加入其他人類定居的過程。[引述需要] 這與軍事拓荒者的工作相關，他們的任務是在軍隊主力到達指定營地之前建造營地。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COLONIST">
+			<Text>建立擁有先進基礎設施和額外人口的新城市。[NEWLINE][NEWLINE]當建造此單位時，城市的[ICON_FOOD]成長會停止。完成時，城市的[ICON_CITIZEN]人口會減少 1。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]無法在任何人的邊界旁邊建立城市，或者您的帝國非常不滿度。[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_VP_SLINGER">
+			<Text>投石兵</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VP_SLINGER_STRATEGY">
+			<Text>投石兵是遊戲中第一個可使用的射程單位。雖然他們缺乏傷害和射程，但投石兵仍能阻止蠻族營地的恢復，並提供您廉價、早期的選擇來對抗小波入侵的蠻族。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VP_SLINGER_TEXT">
+			<Text>和大多數早期的武器系統一樣，吊索也從狩獵野味的工具演變成殺人的工具。吊索只是在兩條長繩之間的一個袋子，用來擺動石頭、鉛塊或其他任何方便的彈丸，使其呈弧線直到發射為止。雖然拋出的石頭沒有箭或子彈的殺傷力，但仍能造成很大的傷害。如果不出意外的話，一場瞄準正確的石頭雨會讓敵人在衝過來之前有所停頓。此外，也不難找到彈藥。除了澳洲之外，世界各地的考古發掘都發現了古代的吊索。吊索便宜、便於攜帶，而且正如《撒母耳記上》所指出的，即使是歌利亞，吊索也能將其擊倒...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VP_SLINGER_HELP">
+			<Text>第一個遠程單位，從遊戲一開始就可以使用。</Text>
+		</Row>
+
+		<!-- Galley -->
+		<Row Tag="TXT_KEY_UNIT_GALLEY_HELP">
+			<Text>遠古時代海軍單位，用來奪取海洋控制權。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_EARLY_DESTROYER">
+			<Text>驅逐艦</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EARLY_DESTROYER_STRATEGY">
+			<Text>驅逐艦是海軍近戰單位，如果升級，可以顯現附近的潛水艇.用它來攻擊和護送其他單位。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EARLY_DESTROYER_PEDIA">
+			<Text>驅逐艦是一種快速、可操控的長耐力戰艦，目的是為艦隊、護航船隊或戰鬥群中的大型艦艇護航，並防禦較小威力的短程攻擊艦。驅逐艦最初是在 19 世紀末開發，用來防禦魚雷艇，因此原名為「魚雷艇驅逐艦」。到第一次世界大戰時，幾乎所有的海軍都將其簡稱為「驅逐艦」。[NEWLINE][NEWLINE]1910 年代和 1920 年代建造的典型驅逐艦全長 100 公尺，排水量約 1200 噸。武裝包括 4 到 6 門 102 mm 口徑的火砲和多個 533 mm 的魚雷管。時速可達 65 公里。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EARLY_DESTROYER_HELP">
+			<Text>現代海軍近戰單位，若升級後可追蹤潛艇。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER">
+			<Text>感應戰鬥艦</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER_STRATEGY">
+			<Text>感應戰鬥艦是現代版的驅逐艦，可攜帶 3 枚飛彈，並增加了空中攔截距離。可作為攻擊或護航單位。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER_PEDIA">
+			<Text>導彈驅逐艦(北約稱號「DDG」)是專門用於發射導彈的驅逐艦。它通常配備兩個大型導彈彈庫，大多採用垂直發射單元。除了導彈與火砲之外，許多艦艇還配有反潛、反空降與反水面作業的裝備。有些包含強大的雷達系統，可能會被採用來扮演反導彈或彈道導彈防禦的角色。對於不使用巡洋艦的海軍而言尤其如此，因為必須採用其他艦艇來填補缺口。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER_HELP">
+			<Text>資訊時代的海軍近戰部隊，最多可攜帶 3 枚飛彈,具有額外的空中攔截距離和機率，以及對潛艇的額外攻擊力。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_LIBURNA">
+			<Text>利布納帆船</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIBURNA_STRATEGY">
+			<Text>以致命的箭雨攻擊，使其成為第一個擁有遠程攻擊的海軍單位。它無法在海洋單元格結束回合。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIBURNA_PEDIA">
+			<Text>利布納帆船(liburna)是一種小型、快速的帆船，用於地中海的突襲和巡邏.利布納帆船最早是由位於現今 Dalmatia 的 Liburnian 人發明，後來被羅馬海軍採用，作為對抗海盜的敏捷巡邏船。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LIBURNA_HELP">
+			<Text>古典時代的主宰海軍單位以其遠程攻擊能力，在中世紀時代一直是海上的霸主。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DESC_CRUISER">
+			<Text>巡洋艦</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CRUISER_STRATEGY">
+			<Text>建造巡洋艦來增強您的鐵甲艦，並控制海洋!但請確保您有足夠的鐵。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CRUISER_PEDIA">
+			<Text>巡洋艦是軍艦的一種。此名詞已使用數百年，在此期間有不同的意義。在帆船時代，巡洋艦一詞指的是某種任務:由護衛艦或單桅帆船執行的獨立偵察、突襲或商業保護任務，而護衛艦或單桅帆船是艦隊中的巡洋艦。在 19 世紀中葉,巡洋艦開始被分類為用於此類任務的軍艦，儘管巡洋艦有各種不同的尺寸，從小型防護巡洋艦到裝甲巡洋艦(儘管沒有戰艦那麼強大)。到了 20 世紀初，巡洋艦的規模已經可以與戰艦保持一致，比戰艦小、但比驅逐艦大。1922 年，華盛頓海軍條約對巡洋艦做出了正式的限制,巡洋艦被定義為排水量不超過 10,000 噸，攜帶的火砲口徑不超過 8 英寸的軍艦。直到第二次世界大戰結束前，巡洋艦一直受到這些限制。第一次世界大戰時期的大型戰列巡洋艦與戰列艦同被歸類為主力艦。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CRUISER_HELP">
+			<Text>工業時代的遠程海軍部隊，設計用來支援海軍入侵，並對以前時代的木船造成嚴重破壞。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]陸地攻擊只能在海岸單元格上進行。[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT">
+			<Text>無畏艦</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_STRATEGY">
+			<Text>無畏艦可從遠處發射，但需要鐵製造。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_PEDIA">
+			<Text>無畏艦是 20 世紀初最主要的戰艦類型。它的設計有兩個革命性的特點:「全大炮」武裝計劃，比以前的艦艇有更多的重口徑炮，以及蒸汽渦輪推進。英國皇家海軍的「無懼號」是同類型艦艇中的第一艘，裝有 10 門 12 英吋 (305 公釐) 火砲。美國海軍最先採用燃油驅動，於 1910 年決定採用燃油驅動，並於 1911 年為內華達級戰列艦訂購燃油鍋爐。其他主要海軍則保留煤油混合燃燒的方式，直到第一次世界大戰結束。[NEWLINE][NEWLINE]在「無畏號 」服役後的五年內，新一代更強大的「超級無畏艦 」開始建造。第一艘超級無畏艦一般被認為是英國的「獵戶座 」級。使它們成為「超級 」的原因是引入了更重型的 13.5 英寸 (343 mm) 火砲，並將所有主要武裝放置在中線上。1917 年，日本訂造了「長門 」級，這是第一艘裝載 16 吋 (406 公釐) 火砲的無畏艦，可說是世界上最強大的戰艦。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DREADNOUGHT_HELP">
+			<Text>具有毀滅性力量的現代遠程海軍單位。[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]陸地攻擊只能在海岸單元格上進行。[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE">
+			<Text>獵殺潛艇</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE_STRATEGY">
+			<Text>獵殺潛艇是一種海軍攻擊單位，比前代更強、更快。它還可以攜帶導彈。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE_PEDIA">
+			<Text>攻擊潛艇或獵殺潛艇是一種專門設計用來攻擊和擊沉其他潛艇和海軍艦艇的潛艇。有些攻擊潛艇也配備安裝在垂直發射管的巡航飛彈，使其潛在任務範圍擴大至包括陸上目標。[NEWLINE][NEWLINE]直到 1950 年代，全球大多數非核子潛艇設計的基礎都是 XXI 型 U 潛艇，這是二次大戰時德國的先進潛艇，配備 Walter 過氧化氫燃氣渦輪機與高電池容量，可維持高水下速度。[NEWLINE][NEWLINE]1960 年代，美國(喬治華盛頓級)和蘇聯(高爾夫級)均投入使用第一艘彈道導彈潛艇，作為冷戰核威脅策略的一部分。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATTACK_SUBMARINE_HELP">
+			<Text>除了升級的驅逐艦和其他潛水艇外，對所有單位都是隱形的，或者直到它攻擊或鄰近另一個單位。可攜帶 1 枚飛彈。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER">
+			<Text>超級航空母艦</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_STRATEGY">
+			<Text>超級航空母艦是一艘可搭載戰鬥機、轟炸機和原子彈的特殊船隻。它所搭載的飛機使其成為海上最強大的攻擊性武器。在防禦方面，「超級航母」比其前身強大許多，但仍應由驅逐艦和潛水艇護航。您不能同時擁有超過 2 艘使用中的超級航空母艦。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_PEDIA">
+			<Text>超級航空母艦是最大類型航空母艦的非官方描述詞，通常指排水量超過 70,000 噸的航空母艦.超級航空母艦是有史以來建造的最大戰艦。[NEWLINE][NEWLINE]尼米茲級超級航空母艦是美國海軍現役的十艘核動力航空母艦之一。該級航母的首艦以第二次世界大戰美國太平洋艦隊司令、美國海軍最後一任艦隊司令 Chester W. Nimitz 上將命名.尼米茲級航空母艦全長 1,092 英呎 (333 公尺),滿載排水量超過 100,000 噸，是目前建造及服役中最大的戰艦，但即將服役的福特級航空母艦 (Gerald R. Ford-class aircraft carrier) 使其黯然失色。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_HELP">
+			<Text>可搭載 5 架飛機 (升級後可達 8 架),空中攔截距離為 5 格，並可偵測潛艇。[NEWLINE][NEWLINE]一次只能有 [COLOR_POSITIVE_TEXT]2[ENDCOLOR] 超級航空母艦使用中。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE">
+			<Text>火箭飛彈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE_STRATEGY">
+			<Text>火箭飛彈是單發單位，當它攻擊敵人目標時就會被摧毀。它可以直接傷害城市中的駐軍單位。更多資訊請參閱飛彈規則。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE_PEDIA">
+			<Text>火箭是一種由火箭發動機提供動力的自行式無制導武器系統。在歷史上，它們大多被用作空對地、空對空武器。[NEWLINE][NEWLINE]最早用於實戰的導彈是納粹德國在第二次世界大戰中開發的一系列導彈。其中最著名的是 V-1 飛行炸彈和 V-2 火箭，這兩種飛彈都使用簡單的機械式自動駕駛儀，讓飛彈沿著事先選定的路線飛行。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_MISSILE_HELP">
+			<Text>廉價的單位，可以用來傷害敵方單位或城市中的駐軍單位一次。[COLOR_POSITIVE_TEXT]不使用軍隊供應上限。[ENDCOLOR][NEWLINE][NEWLINE]需要 1 [ICON_RES_OIL]石油。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_EMISSARY">
+			<Text>使者</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EMISSARY_STRATEGY">
+			<Text>使者是玩家可以使用的第一個外交單位，代表文明間和平合作的早期嘗試。由於遠古時代的外交文化仍相當粗魯，使者的作用並不大。使者從一次外交任務中只賺取約 20 影響力，他還未掌握治國的藝術，也未掌握鄰近城邦的外語。生產成本隨著時代遞增。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ANTIQUITY_EMISSARY_TEXT">
+			<Text>雖然使者是最便宜且最早出現的外交單位，但作為穩定的影響力來源並不十分可靠。玩家應該只使用使者來確保或維繫與您已經友好或結盟的城邦之間的關係。因此，最好使用這些單位來增強您完成城邦任務的努力。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_EMISSARY">
+			<Text>無償獲得 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_EMISSARY}[ENDCOLOR] 晉升，給予 40 來自外交任務的[ICON_INFLUENCE]影響力。將這個單位[ICON_MOVES]移動到與你無戰爭關係的城邦，並進行外交任務以獲得[ICON_INFLUENCE]影響力。生產成本隨著時代遞增。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_ENVOY">
+			<Text>特使</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MEDIEVAL_ENVOY_TEXT">
+			<Text>在中世紀時期，外交藝術終於進入了成熟時期。這個時期出現了新的外交理論，這些理論不再以「強權即公理」為基礎，而是以奉承、老練以及必要時的威嚇藝術為基礎。特使代表了外交能力的躍進，因此比使者更有效，也更昂貴。生產成本隨著時代遞增。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ENVOY_STRATEGY">
+			<Text>特使作為城邦外交影響力的來源更有用。然而，這種效用的代價也隨之增加。玩家需要充足的紙張來滿足他們急速增長的外交服務需求。城邦任務對於維護友好或結盟關係仍然非常重要，然而其重要性正在減弱。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ENVOY">
+			<Text>無償獲得 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_ENVOY}[ENDCOLOR] 晉升，給予 50 來自外交任務的[ICON_INFLUENCE]影響力。將這個單位[ICON_MOVES]移動到與你無戰爭關係的城邦，並進行外交任務以獲得[ICON_INFLUENCE]影響力。生產成本隨著時代遞增。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_DIPLOMAT">
+			<Text>外交官</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_DIPLOMAT_TEXT">
+			<Text>工業時代的外交官擁有啟蒙哲學和現代工業的力量，是外交和影響力的強大力量。儘管價格日益昂貴，但外交官能讓玩家大幅擴大他們對全世界城邦的影響範圍。生產成本隨著時代遞增。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DIPLOMAT_STRATEGY">
+			<Text>相對於使者和特使，外交官是非常昂貴的。如果玩家沒有持續增加「紙張」的供應，就很難持續影響全世界的城邦。然而，如果您有足夠的資源和產能來大量建造外交官，全世界都會臣服於您帝國的軟實力和說服力。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_DIPLOMAT">
+			<Text>無償獲得 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_DIPLOMAT}[ENDCOLOR] 晉升，給予 60 來自外交任務的[ICON_INFLUENCE]影響力。將這個單位[ICON_MOVES]移動到與你無戰爭關係的城邦，並進行外交任務以獲得[ICON_INFLUENCE]影響力。生產成本隨著時代遞增。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_AMBASSADOR">
+			<Text>大使</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MODERN_AMBASSADOR_TEXT">
+			<Text>現代大使誕生於核子戰爭崛起所造成的緊張局勢，代表了外交權力的頂峰。多年來在語言學、政治、文化和經濟方面的正式訓練，讓大使能夠控制他們所選擇的任何城邦。然而，這些才能也讓大使成為遊戲中最昂貴的外交單位 - 每位大使的造價幾乎等於一輛坦克！這項投資看似很高，但是如果玩家選擇放棄城邦外交，他們在全球舞台上的影響力很快就會下降，因為其他玩家毫無疑問會主導世界議會。生產成本隨著時代遞增。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMBASSADOR_STRATEGY">
+			<Text>大使雖然昂貴，但卻是贏得外交勝利的必要條件。利用大使從其他玩家手中奪取城邦的控制權、維繫您自己的聯盟，一般而言，讓世界會議的權力掌握在您手中。這種權力可以讓您制定任何您選擇的決議，從而讓您掌握全球霸權。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AMBASSADOR">
+			<Text>無償獲得 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_AMBASSADOR}[ENDCOLOR] 晉升，給予 70 來自外交任務的[ICON_INFLUENCE]影響力。將這個單位[ICON_MOVES]移動到與你無戰爭關係的城邦，並進行外交任務以獲得[ICON_INFLUENCE]影響力。生產成本隨著時代遞增。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_GREAT_DIPLOMAT">
+			<Text>大外交官</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GREAT_DIPLOMAT_TEXT">
+			<Text>縱觀每個文明的歷史，在紛爭時期或強權時期都會出現偉大的調停者、參事和權貴。大外交官代表這些重要的歷史人物，因此能夠大幅提升玩家的外交能力。玩家可以使用他們立即獲得對城邦的大量影響力，或者，如果玩家放眼未來，他們可以用來在城邦的土地上建立大使館，從而在世界議會成立時給予玩家額外的投票權。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_DIPLOMAT_STRATEGY">
+			<Text>無償獲得 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_GREAT_DIPLOMAT}[ENDCOLOR] 晉升，給予 100 來自外交任務的[ICON_INFLUENCE]影響力，加上每個已過去時代的額外[ICON_INFLUENCE]影響力。[NEWLINE][NEWLINE]你可以[ICON_MOVES]移動這個單位到一個你沒有與之交戰的城邦，並從兩個選項中選擇一個：[NEWLINE][ICON_BULLET]進行[COLOR_POSITIVE_TEXT]外交任務[ENDCOLOR]，這將會給予您[ICON_INFLUENCE]影響力，並將其他文明的[ICON_INFLUENCE]影響力降低相同數額，同時也會增加與該城邦的基礎點數。[NEWLINE][ICON_BULLET]建造[COLOR_POSITIVE_TEXT]大使館[ENDCOLOR]，給予在世界議會中的額外投票權。關於大使館的更多資訊，請參閱其文明百科頁面的"改良設施"一節。[NEWLINE][NEWLINE]大外交官以上述任何一種方式使用時會消耗。消耗時，獲得 +1 [ICON_RES_PAPER]紙張。</Text>
+		</Row>
+
+		<!-- Unit Combats -->
+		<Row Tag="TXT_KEY_UNITCOMBAT_SETTLER">
+			<Text>開拓者單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_WORKER">
+			<Text>工人單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_WORKBOAT">
+			<Text>工作船單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_CARGO">
+			<Text>貨船單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_CARAVAN">
+			<Text>商隊單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_INQUISITOR">
+			<Text>異端審問官單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_MISSIONARY">
+			<Text>傳教士單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_DIPLOMACY">
+			<Text>外交單位</Text>
+		</Row>
+	</Language_zh_Hant_HK>
+</GameData>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_zh_Hant_HK>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
+			<Text>鐵腕</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]鐵腕[ENDCOLOR]：其他文明或世界會議無法再解放附庸，投降的附庸也無法再反叛。來自城邦的產出增加 25%，附庸貢獻額外 25% 的產出和[ICON_HAPPINESS_1]超額幸福值，以及 +50% 的工人改良速度。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_TEXT_A">
+			<Text>鐵腕統治通常是指在管理他人時要求絕對的控制，通常是在工作場所。這句俗語也可以指養育子女或政府的作風等情況。這個成語通常用來形容經理人、父母或領導人的行為和做法，他們幾乎不給下屬任何選擇的自由，也不給下屬任何有關決策的意見。鐵腕統治的原因通常取決於個別情況，例如缺乏經驗的員工或頑劣的孩子。使用全面管控的效果也會有所不同，這取決於管理方式的範圍和情況。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F">
+			<Text>全民健保</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]全民健保[ENDCOLOR]：在每個城市免費獲得一間醫院。當公民在任何城市出生時，+50 [ICON_CULTURE]，隨著年代遞增。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O">
+			<Text>和平、土地、麵包</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]和平、土地、麵包[ENDCOLOR]：-2 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度和所有城市增加 20% [ICON_FOOD]成長。建築物維護減少 20%。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_TEXT_O">
+			<Text>「和平、土地、麵包」這句話是列寧等人在蘇維埃革命初期所流行的，它突顯了他們希望著重於貧窮的俄國農民的需求。1910-20 年代的布爾什維克初步法令，是在布爾什維克宣佈十月革命(1917年10月26日)成功後立即公布的。這些法令符合布爾什維克的口號「和平、麵包和土地」，這個口號在「七月日」(1917年7月)的工人和軍人起義中被群眾接納。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_NATIONALIZATION">
+			<Text>國有化</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NATIONALIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]國有化[ENDCOLOR]：每個[ICON_VP_OFFICE]公司辦事處都算作一個特許經營權。外國的特許經營權不再對你的公司有利，你不能再在外國的城市建立 [ICON_VP_FRANCHISE] 特許經營權(附庸除外)，外國的公司也不能再在你的城市建立特許經營權(主人除外)。所有公司辦事處 +2 [ICON_RESEARCH]科學。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NATIONALIZATION_TEXT">
+			<Text>國有化是指國家政府或州政府將私人產業或私人資產收歸公有的過程。國有化通常指私人資產，但也可能指由下級政府(如市政府)擁有的資產轉為國有。國有化的反面通常是私有化或非國有化，但也可能是市鎮化。通常會被國有化的產業包括運輸、通訊、能源、銀行和天然資源。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_GLOBALIZATION">
+			<Text>跨國主義</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_GLOBALIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]跨國主義[ENDCOLOR]：每回合，增加[ICON_VP_FRANCHISE]公司特許經營權出現在外地城市的機率至 15%(通常為 5%)。全球特許經營權上限增加 25%，每個城鎮都算為一個特許經營權。所有[ICON_VP_OFFICE]公司辦事處 +2 [ICON_CULTURE]文化。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_GLOBALIZATION_TEXT">
+			<Text>跨國主義作為一種經濟過程，涉及生產過程的全球重組，其中任何產品的各個生產階段都可以在不同的國家進行，通常是以最小化成本為目的。經濟跨國主義通常被稱為全球化，在 20 世紀後半葉，由於網際網路和無線通訊的發展，以及貨櫃化導致全球運輸成本降低，刺激了經濟跨國主義的發展。跨國公司可被視為跨國主義的一種形式，因為它們不論政治疆界，盡可能以最有效率的方式組織營運，以尋求成本最小化，進而獲取最大利潤。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_POLICY_INFILTRATION">
+			<Text>工團主義</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_INFILTRATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]工團主義[ENDCOLOR]：城市中您的文化至少是[COLOR_MAGENTA]流行[ENDCOLOR]時，[ICON_VP_FRANCHISE]公司特許經營權會加倍計算，而且此額外的特許經營權不會計入您的全球特許經營權上限。可以在外國城市建立 5 個額外的[ICON_VP_FRANCHISE]特許經營權。所有[ICON_VP_OFFICE]公司辦事處 +2 [ICON_PRODUCTION]產能。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_INFILTRATION_TEXT">
+			<Text>国家工團主義是工團主義的改良，以適應整體民族主義的社會議程。国家工團主義建議人民必須透過工團主義的部分發展成大規模的經濟工人運動來保護自己。他們應該立即採取行動，剝奪資本主義者。他們也應該採取直接行動，讓工人領導生產，並成立人民公社.国家工團主義為直接的經濟行動尋找原則性的理由，並且譴責代表的議會行動。目標不是使資本主義可以忍受，而是實現一個自由的民族主義和社會主義國家。国家工團主義旨在將注意力從政治領域轉移到經濟領域。它希望從基礎開始社會化:在生產和消費統計的基礎上，與全國聯盟協商，從地方單位開始分配制度。以及由全國工業聯盟組織生產。</Text>
+		</Row>
+
+		<!-- Dummy policies -->
+		<Row Tag="TXT_KEY_POLICY_FIRST_ON_MOON">
+			<Text>第一個登上月球</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MANHATTAN_PROJECT">
+			<Text>原子彈</Text>
+		</Row>
+	</Language_zh_Hant_HK>
+</GameData>

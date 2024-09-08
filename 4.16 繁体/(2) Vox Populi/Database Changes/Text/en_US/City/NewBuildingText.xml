@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_zh_Hant_HK>
+		<Row Tag="TXT_KEY_BUILDING_COALING_STATION">
+			<Text>煤炭站</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COALING_STATION_STRATEGY">
+			<Text>在工業時代大幅提升城市產能和金幣。需要工業城市連接(詳情請參閱概念)。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COALING_STATION_HELP">
+			<Text>此城市的國内[ICON_INTERNATIONAL_TRADE]貿易路綫 +6 [ICON_FOOD]食物。建造要求與一個[ICON_INDUSTRIAL_CONNECTED]工業城市連接。[NEWLINE][NEWLINE]要求 1 [ICON_RES_COAL]煤炭。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_COALING_STATION_TEXT">
+			<Text>在蒸汽時代，人們利用化石燃料來運輸貨物和人員，其運輸量是早期方法所無法達到的。如此多的商業活動需要建立燃料庫，以儲存蒸汽驅動的船舶和火車所需的煤炭。這些煤炭站的策略性位置是沿著主要的海運和鐵路樞紐，以確保世界各地的高效率運輸。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BATH">
+			<Text>公共浴室</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BATH_STRATEGY">
+			<Text>公共浴室會產生文化，並提升城市中神廟、花園和圓形劇場的金幣和文化產量。在黃金時期也會產生額外的文化。公共浴室只能在淡水旁邊的城市建造。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BATH_HELP">
+			<Text>城市中神廟， 圓形劇場，和花園：+1 [ICON_GOLD]金幣和[ICON_CULTURE]文化。城市[ICON_GOLDEN_AGE]黃金時代期間 +10% [ICON_CULTURE]文化。[NEWLINE][NEWLINE]只能建在淡水旁的城市中。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BATH_TEXT">
+			<Text>縱觀歷史，各個社會都設計了各種系統，以便將水輸送到人口中心。古希臘使用小浴缸、洗臉盆和足浴來保持個人清潔。最早的浴室發現可追溯到公元前 2 世紀中期克里特島 克諾索斯的宮殿群，以及聖托里尼島 阿克羅蒂裏 出土的豪華雪花石膏浴缸。希臘人在健身房內設置公共浴池和淋浴間，以放鬆身心和保持個人衛生。事實上，gymnasium 一詞來自希臘文 gymnos，意思是裸體。古羅馬發展了輸水道網路，為所有大城鎮和人口中心供水，並設有室內管道，管道末端設於住宅、公共水井和噴泉。羅馬的公共浴室稱為浴池 (thermae)。隨著羅馬帝國的衰落,引水道網路也日漸失修，大部分已經停止使用。在中世紀，沐浴通常在公共澡堂進行。然而，當時的禮儀派不贊成在公共場合裸體。公共浴場也是賣淫的天堂，這造成了對公共浴場的反對。有錢人在家中沐浴，很可能是在臥室，因為「浴室」並不普遍。沐浴是在木制的大浴缸中進行，浴缸中鋪上亞麻布，以保護沐浴者免受細刺傷害。此外，在文藝復興和新教改革時期，人們認為衣服的質量和狀況(相對於身體本身的實際清潔度而言)可以反映出個人的靈魂。乾淨的衣服也反映出一個人的社會地位；衣服造就了男人或女人。此外，從中世紀晚期到 18 世紀末，禮儀和醫學手冊都建議人們只清洗公眾看得到的身體部位，例如耳朵、手、腳、臉和頸部。這樣就取消了公共浴池，讓人們在家中自行清潔。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_GROVE">
+			<Text>議會</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GROVE_STRATEGY">
+			<Text>每當城市成長時，議會就會產生科學，而且很早就可以使用。如果您希望在技術上優於您的對手，請建造此建築物，不過此優勢的價值會隨著城市變大而降低。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GROVE_HELP">
+			<Text>當一個新[ICON_CITIZEN]公民在城市出生，獲得 5 [ICON_RESEARCH]科學，隨時代遞增。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GROVE_TEXT">
+			<Text>議會是有組織的社區中的管理機構。它在自給自足的文化中最常見，議會成員是成為社區政治領袖的條件或品質。隨著時間的推移，隨著社區的成長，議會的重要性逐漸降低，轉而由更大的管治機構取代。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_LODGE">
+			<Text>熏製室</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LODGE_STRATEGY">
+			<Text>熏製室提升營地和營地資源的產出，你的城市獲得新單元格時，提供食物。始終建造熏製室以提升你帝國來自本地的營地的產出。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LODGE_HELP">
+			<Text>營地 +1 [ICON_PRODUCTION]產能。城市邊界擴張時獲得 5 [ICON_FOOD]食物，隨時代遞增。[NEWLINE][NEWLINE]附近[ICON_RES_DEER]鹿群：+1 [ICON_FOOD]食物。[NEWLINE]附近[ICON_RES_BISON]野牛：+1 [ICON_FOOD]食物。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LODGE_TEXT">
+			<Text>熏製室是用煙燻醃漬肉類或魚類的建築物。成品可能會存放在建築物中，有時甚至會存放一年或更久，即使不使用煙，這樣的建築物(通常是附屬建築物)有時也被稱為「熏製室」。肉類被懸掛起來，以防止害蟲接觸。傳統上，熏肉房是一個小型的封閉式外建築物，通常有一個通風口、一個單一的入口、沒有窗戶，並經常有一個拱形或金字塔式的屋頂。使用非常緩慢的硬木火稍微加熱的乾燥空氣，可確保肉類的適當乾燥。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_GALLERY">
+			<Text>藝廊</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GALLERY_STRATEGY">
+			<Text>藝廊提升大藝術家的產出，強化您的藝術家公會和巨作。在您的公會城市建造藝廊，提升藝術家和巨作的產出。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GALLERY_HELP">
+			<Text>城市的[ICON_GREAT_WORK]巨作 +1 [ICON_TOURISM]旅遊業績。城市 +33% [ICON_GREAT_ARTIST]大藝術家誕生速度。[NEWLINE][NEWLINE]包含 1 藝術[ICON_GREAT_WORK]巨作或文物的席位。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GALLERY_TEXT">
+			<Text>藝廊是專門展示繪畫或雕塑等視覺藝術的空間。最初的藝廊是私人宮殿和教堂內有蓋的長走廊，裡面擺滿了私人的藝術收藏，作為身份地位的展示。今天，許多藝術畫廊都是公有的，向公眾展示藝術的歷史、教育和美學價值。藝廊仍是當地藝術家、藝術收藏家及藝術界品味人士的交流與推廣場所。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_HERBALIST">
+			<Text>草藥館</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HERBALIST_STRATEGY">
+			<Text>草藥館增加城市成長，和提高附近叢林，森林，濕地單元格以及莊園的產出。及早建造可最大化收益，並可利用具有許多特質的區域。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HERBALIST_HELP">
+			<Text>城市附近每 2 叢林或 2 森林單元格 +1 [ICON_FOOD]食物。濕地和莊園 +1 [ICON_PRODUCTION]產能。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_HERBALIST_TEXT">
+			<Text>草藥學(Herbalism)是將植物用於藥用目的，以及對這種使用方式的研究。在人類歷史上，植物一直是醫療的基礎，這種傳統醫學至今仍被廣泛使用。現代醫學承認草藥學是一種替代醫學，因為草藥學的實踐並非嚴格依據科學方法收集的證據。然而，現代醫學確實利用許多植物萃取的化合物，作為經實證檢驗的藥物基礎，而植物療法則致力於將現代的有效性檢驗標準，應用在源自天然的草藥和藥物上。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_WELL">
+			<Text>水井</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WELL_STRATEGY">
+			<Text>水井只能建造在沒有河流的城市。水井依據城市的人口增加城市的產能，但是效率不如水力磨坊。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WELL_HELP">
+			<Text>城市每 5 [ICON_CITIZEN]公民 +1 [ICON_PRODUCTION]產能。[NEWLINE][NEWLINE]城市不能建立在河流旁邊。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WELL_TEXT">
+			<Text>公元前 5090 年的 Kückhoven(Erkelenz 的一個外圍中心)和公元前 5200 年的 Eythra(奧地利 Schletz(Asparn an der Zaya 的一個外圍中心))等新石器時代早期的線形陶器文化中都有鋪木的水井。澳洲原住民依靠水井在嚴酷的澳洲沙漠中生存。他們會向下挖掘，舀出沙子和泥巴以取得乾淨的水，然後用菠蘿草覆蓋水源以防止腐敗。非澳洲原住民稱這些原住民水井為浸泡井或浸水井。階井在印度西部很常見。在這些水井中，水可以從一組梯級下來。這些水井可能有蓋，而且通常具有建築上的重要性。許多階梯井也用於休閒，可紓解白天的炎熱。坎兒井(qanat)是一種古老的集水系統，由一系列水井和相連的地下水道組成，從通常很遠的水源收集流水，儲存起來，然後用重力將水引到地面。伊朗以及亞洲和北非其他乾旱國家的大部分人口在歷史上都依靠坎兒井(qanats)的水；人口密集的區域與可能建造坎兒井的區域緊密相連。在埃及，則使用 shadoofs 和 sakiehs。然而，兩者相比之下，Sakkieh 的效率要高得多，因為它可以從 10 公尺深的地方提水(而 Shadoof 只有 3 公尺深)。Sakkieh 是埃及版的 Noria。從鐵器時代開始，水井就是很常見的考古特徵，既有木製的井筒，也有柳條製成的井筒襯裡。世界上已知最古老的水井位於塞浦路斯，可追溯到公元前 7500 年。以色列發現了兩口新石器時代的水井，約為公元前 6500 年。一口位於以色列北部海岸的 Atlit，另一口位於 Jezreel Valley。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_WIND_PLANT">
+			<Text>風力發電廠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WIND_PLANT_STRATEGY">
+			<Text>風力發電廠增加城市附近單元格的產能，文化和科學產出，同時增加城市產能轉換效率。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WIND_PLANT_HELP">
+			<Text>所有城市提高 10% 效率在[ICON_PRODUCTION]產能轉換成收益上。[NEWLINE][NEWLINE]城市附近單元格(平地，丘陵和水域) +1 [ICON_PRODUCTION]產能，[ICON_CULTURE]文化和[ICON_RESEARCH]科學。[NEWLINE][NEWLINE]要求 1 [ICON_RES_ALUMINUM]鋁材才能建造。城市不得包含另一個能源生產工廠。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WIND_PLANT_TEXT">
+			<Text>風力發電是將風能轉換成有用的能源形式，例如使用風力渦輪機發電、風車提供機械動力、風泵抽水或排水，或使用風帆推動船舶。大型風力發電場由數百個獨立的風力渦輪機組成，並連接到電力輸送網路。對於新建築而言，陸上風力是一種廉價的電力來源，在許多地方可與化石燃料電廠競爭，甚至更便宜。小型陸上風力發電場可為偏遠地區提供電力。公用事業公司越來越多地購買小型家用風力渦輪機生產的剩餘電力。海上風力比陸上風力更穩定、更強大，海上風力發電場對景觀的影響較小，但建造和維護成本要高得多。風力發電作為化石燃料的替代品，具有豐富、可再生、分佈廣、乾淨、運行期間不產生溫室氣體排放、使用土地少等優點。與其他電力來源相比，風能對環境的影響一般問題較少。截至 2011 年，丹麥超過四分之一的電力來自於風力發電，全球有 83 個國家使用風力發電供應電網。2010 年，風能產量佔全球總用電量超過 2.5%，並以每年超過 25% 的速度快速增長。風力發電量每年都非常穩定，但在較短的時間尺度上則有顯著的變化。當一個地區的風力比例增加時，就可能需要升級電網，並降低取代傳統生產的能力。電力管理技術，例如過剩容量儲存、地理分佈式渦輪機、可調度的後備電源、儲存(例如抽水蓄能水力發電)、向鄰近地區輸出和輸入電力，或在風力產量低時減少需求，可大大緩解這些問題。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TIDAL_PLANT">
+			<Text>潮汐發電廠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TIDAL_PLANT_STRATEGY">
+			<Text>潮汐能是原子時代的建築，只能在沿海城市建造。增加城市附近每個海洋單元格的[ICON_PRODUCTION]產能，[ICON_RESEARCH]科學，[ICON_FOOD]食物和[ICON_GOLD]金幣產出，同時增加城市產能轉換效率。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TIDAL_PLANT_HELP">
+			<Text>所有城市提高 10% 效率在[ICON_PRODUCTION]產能轉換成收益上。[NEWLINE][NEWLINE]每個海岸單元格 +2 [ICON_PRODUCTION]產能，[ICON_RESEARCH]科學，[ICON_GOLD]金幣和[ICON_FOOD]食物。[NEWLINE][NEWLINE]要求 1 [ICON_RES_ALUMINUM]鋁材才能建造。城市必須建在海岸上。城市不得包含另一個能源生產工廠。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TIDAL_PLANT_TEXT">
+			<Text>潮汐發電廠是一種可再生能源，利用潮汐的能量產生可用的電能。潮汐能有多種形式，包括類似海底風力渦輪機的固定式或系留式渦輪機，或模仿傳統水力發電站的潮汐閘。與風能和太陽能相比，潮汐能解決方案因其一致性和可預測性而特別具有吸引力。[NEWLINE][NEWLINE]在各種可用的可再生能源解決方案中，潮汐能是最年輕的，也是問題最多的。腐蝕和磨損是潮汐能廣泛運用的高成本障礙，而且具有高流速的潛在地點數量有限。目前，潮汐能佔全球總發電量不到 1%，在法國、英國、南韓和加拿大都有設施。</Text>
+		</Row>
+
+		<!-- 雜貨店 -->
+		<Row Tag="TXT_KEY_BUILDING_GROCER_STRATEGY">
+			<Text>雜貨店是文藝復興時代的建築，已經在城市中建造了引水渠才能建造。雜貨店可以幫助您的城市快速成長，消除貧窮，並提高香蕉的單元格產量。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GROCER_HELP">
+			<Text>此城市每 5 [ICON_CITIZEN]公民 +1 [ICON_FOOD]食物。一個新[ICON_CITIZEN]公民誕生后 15% of [ICON_FOOD]食物保留。[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GROCER_TEXT">
+			<Text>早在 14 世紀開始，雜貨商(或稱「供應商」)就是香料、胡椒、糖以及(後來的)可可、茶和咖啡等可食用乾貨的經銷商。這些商品都是大量購買的，因此雜貨商一詞來自法語 "grossier" ，意思是批發商，這個詞源於中世紀拉丁語 "grossarius"，我們也是從這個詞引申出 gross 一詞 (意思是 12 打或 144 的數量)。隨著越來越多的主食以罐頭或其他較不易腐爛的包裝形式出現，雜貨商的業務範圍也隨之擴大。時至今日，雜貨商經營的主食種類繁多，包括肉類、農產品和乳製品等易腐爛的食品。因此，這些商品就是雜貨。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_STOCKYARD">
+			<Text>農業綜合公司</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STOCKYARD_STRATEGY">
+			<Text>農業綜合公司是工業時代的建築，已經在城市中建造了雜貨店時才能建造。農業綜合公司可以大幅提高城市的農場和牧場單元格的產出，如果你城市有高額的食物產出，可以大幅提升偉人類型. 然而，在騎兵仍然相當強大的時代，使用馬匹是一個冒險的取捨。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STOCKYARD_HELP">
+			<Text>城市附近的農場和牧場 +2 [ICON_PRODUCTION]產能和[ICON_GOLD]金幣。由城市產出的[ICON_FOOD]食物的 10% 轉爲每回合[ICON_GOLD]金幣。[NEWLINE][NEWLINE]要求 2 [ICON_RES_HORSE]馬匹。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_STOCKYARD_TEXT">
+			<Text>農業綜合公司 是指農業生產業務。此名詞由 Goldberg 和 Davis 於 1957 年創造。它包括農用化學品、育種、作物生產 (農業和合約農業)、經銷、農業機械、加工、種子供應，以及行銷和零售。食品和纖維價值鏈的所有代理商以及那些影響它的機構都是農業綜合公司系統的一部分。在農業產業中，「農業綜合公司」簡單來說是農業和商業的縮寫，指的是現代食品生產所包含的一系列活動和學科。世界各地都有農業綜合公司的學位和學系、農業綜合公司協會、農業綜合公司出版物等。農業公司的例子包括陶氏益農 (Dow AgroSciences)、杜邦 (DuPont)、孟山都 (Monsanto) 和先正達 (Syngenta) 等種子和農業化學品生產商；AB Agri (Associated British foods 的一部分) 動物飼料、生物燃料和微量配料，ADM,穀物運輸和加工；Johndeere,農業機械生產商；Ocean Spray,農民合作社；以及 Purina Farms，農業觀光農場。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_COAL_PLANT">
+			<Text>煉油廠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COAL_PLANT_STRATEGY">
+			<Text>煉油廠是現代的建築，總共只能在 5 個城市建造。煉油廠有助於你的產能和產出 1 鐵礦，煤炭和石油資源，但是它的維護成本很高。只有當您發現自己在遊戲後期沒有這些重要的戰略資源時才會建造。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COAL_PLANT_HELP">
+			<Text>產出 1 [ICON_RES_IRON]鐵礦，[ICON_RES_COAL]煤炭, 和[ICON_RES_OIL]石油。[NEWLINE][NEWLINE]最多只能在 5 個城市建造。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_COAL_PLANT_TEXT">
+			<Text>精煤是應用煤炭升級技術的產品，可去除低級煤炭 (例如次煙煤、褐煤) 中的水分和某些污染物，並提高其熱值。煤炭精煉或升級技術通常是在燃燒前改變煤炭特性的燃燒前處理和/或製程。燃燒前煤炭升級技術的目標是在煤炭燃燒時提高效率並減少排放。視情況而定，燃燒前技術可取代燃燒後技術或作為其補充來控制燃煤鍋爐的排放。精煉煤的主要優點是能夠減少目前發電廠排放的碳排放淨量，並將減少建議透過新興碳封存方法管理的排放量。精煉煤技術主要在美國開發，澳洲維多利亞州已研究、開發並測試數項類似技術，包括為改變褐煤化學鍵而開發的變質煤技術 (Coldry Process)，以製造出更清潔、穩定 (不易自燃)、可出口且熱值足夠高的產品，可等同於黑煤。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FORTRESS">
+			<Text>堡壘要塞</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FORTRESS_STRATEGY">
+			<Text>堡壘要塞是文藝復興時代的軍事建築，增加防禦力和減少 2 所有來襲的傷害，讓城市更難以被攻破。它允許此城市間接進行遠程攻擊，忽略視線。駐軍單位在此城市治療時會獲得額外 5 生命。增加 10% 此城市的人口供應的軍事單位上限。也有助於管理此城市的帝國規模修正。城市必須已建造城堡。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FORTRESS_HELP">
+			<Text>所有傷害來源對此城市減少 2。+10% 來自人口的[ICON_SILVER_FIST]軍事單位供應上限。允許城市越過障礙[ICON_RANGE_STRENGTH]攻擊。[NEWLINE][NEWLINE]駐軍單位在此城市治療時獲得額外的 5 生命。[NEWLINE][NEWLINE]此城市的[ICON_CITY_STATE]帝國規模修正減少 5%。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_FORTRESS_TEXT">
+			<Text>由於加農砲在戰場上佔有主導地位，軍事工程師面臨壓力，必須設計出可抵擋武器的靜態工事，而這些武器可穿透早期石造城堡的外牆。新的重點放在土方工程和傾斜或有角度的城牆上，以吸收或抵禦炮彈的攻擊。新式的防禦設施呈多角形，有許多堡垒和擋土牆(ravelins)，這些三角形的峭壁總會給敵人一個有角度的表面。這些堡壘使攻擊者無法直接擊中平坦的幕牆，而大炮可以在幕牆上造成最大的傷害。與此同時，這些堡壘沿著附近城牆的長度提供了重疊的火力範圍，創造了攻擊者暴露在多面城牆炮火下的「死角」。[NEWLINE][NEWLINE]這些新的堡壘要塞是為了回應法國在 15 世紀初多次入侵義大利而建造的。米開朗基羅(Michaelangelo)本人也被認為設計了第一批堡壘，以保護他的家園佛羅倫薩免受法國人的攻擊。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_MINEFIELD">
+			<Text>水雷區</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MINEFIELD_STRATEGY">
+			<Text>水雷區是現代的建築，只有您有足夠的鐵礦才能建造，同時此城市需要已建造港口。水雷區就位后，敵方船隻進入城市的領土后會立即被攔停，同時本地海洋單元格在陸地的報復射程範圍外不再安全。由於需要資源，水雷區最好只用在特別容易被海軍圍攻的地點。使用水雷區來阻擋海軍入侵，然後用您自己的海軍擺平它。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MINEFIELD_HELP">
+			<Text>敵方海軍單位和海運單位進入此城市的水域單元格時，消耗所有[ICON_MOVES]移動力。單位在此城市的海洋單元格結束他們的回合時，受到[COLOR_NEGATIVE_TEXT]5 傷害[ENDCOLOR]。[NEWLINE][NEWLINE]要求 1 [ICON_RES_IRON]鐵礦。城市必須建在海岸上和已建造港口。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MINEFIELD_TEXT">
+			<Text>水雷是一種放置在水中的自給式爆炸裝置，用以破壞或摧毀水面艦艇或潛艇。與深水炸藥不同的是，水雷是放置在水中等待敵船接近或接觸時引爆。水雷可用於攻擊性用途 - 阻礙敵方航運活動或將船隻鎖定在港口內；或用於防禦性用途 - 保護友方船隻並建立「安全」區域。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_INTERPRETIVE_CENTER">
+			<Text>解說中心</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INTERPRETIVE_CENTER_STRATEGY">
+			<Text>解說中心大幅增加地標改良的價值，將單元格上的文化轉換成旅遊業績，大大幫助文化勝利。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INTERPRETIVE_CENTER_HELP">
+			<Text>50% 來自[ICON_WONDER]世界奇跡和單元格的[ICON_CULTURE]文化添加到城市的[ICON_TOURISM]旅遊業績產出。帝國内所有地標 +1 [ICON_CULTURE]文化和[ICON_TOURISM]旅遊業績。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INTERPRETIVE_CENTER_TEXT">
+			<Text>解說中心是就附近的文化、歷史或自然遺址進行公眾教育的機構。與博物館不同的是，解說中心很少包含藝術品或藏品，而主要是為遊客提供背景資訊，讓遊客瞭解某個景點的歷史或相關性。由於保存和保護並不是解說中心的工作之一，因此與傳統博物館相比，解說中心通常更具互動性，並能更好地利用現代媒體。</Text>
+		</Row>
+
+		<!-- Hospital -->
+		<Row Tag="TXT_KEY_BUILDING_HOSPITAL_HELP">
+			<Text>陸地單位不管何行動，在此城市每回合會治療 15 生命。此城市所有專家提供 +1 [ICON_FOOD]食物，同時此城市 2 專家不再產生來自[ICON_URBANIZATION]城市化的[ICON_HAPPINESS_3]不滿度。城市的[ICON_VP_SCIENTIST]科學家，[ICON_VP_MERCHANT]商人和[ICON_VP_ENGINEER]工程師提供 +2 基礎產出。[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度。</Text>
+		</Row>
+
+		<!-- Temple -->
+		<Row Tag="TXT_KEY_BUILDING_TEMPLE_HELP">
+			<Text>產生 +25% 宗教壓力。包含 1 音樂[ICON_VP_GREATMUSIC]巨作的席位。[NEWLINE][NEWLINE]-1 來自[ICON_RELIGION]宗教動亂的[ICON_HAPPINESS_3]不滿度。[NEWLINE][NEWLINE]附近[ICON_RES_INCENSE]沉香：+1 [ICON_CULTURE]文化，+1 [ICON_GOLD]金幣。[NEWLINE]附近[ICON_RES_WINE]葡萄酒：+1 [ICON_CULTURE]文化，+1 [ICON_GOLD]金幣。[NEWLINE]附近[ICON_RES_AMBER]琥珀：+1 [ICON_CULTURE]文化，+1 [ICON_GOLD]金幣。</Text>
+		</Row>
+
+		<!-- Amphitheater -->
+		<Row Tag="TXT_KEY_BUILDING_AMPHITHEATER_HELP">
+			<Text>城市 +33% [ICON_GREAT_WRITER]大作家誕生速度。[NEWLINE][NEWLINE]附近[ICON_RES_DYE]染料：+1 [ICON_CULTURE]文化，+1 [ICON_GOLD]金幣。[NEWLINE]附近[ICON_RES_SILK]絲綢：+1 [ICON_CULTURE]文化，+1 [ICON_GOLD]金幣。[NEWLINE]附近[ICON_RES_LAPIS]青金石：+2 [ICON_CULTURE]文化。[NEWLINE]附近[ICON_RES_BRAZILWOOD]巴西紅木：+1 [ICON_CULTURE]文化，+1 [ICON_GOLD]金幣。[NEWLINE][NEWLINE]如果[COLOR_POSITIVE_TEXT]主題獎勵已啟動[ENDCOLOR] +2 [ICON_CULTURE]文化。</Text>
+		</Row>
+
+		<!-- Opera House -->
+		<Row Tag="TXT_KEY_BUILDING_OPERA_HOUSE_HELP">
+			<Text>城市 +5% [ICON_CULTURE]文化。城市的[ICON_GREAT_WORK]巨作產生 +1 [ICON_TOURISM]旅遊業績。城市 +33% [ICON_GREAT_MUSICIAN]大音樂家誕生速度。</Text>
+		</Row>
+
+		<!-- Museum -->
+		<Row Tag="TXT_KEY_BUILDING_MUSEUM_HELP">
+			<Text>允許[COLOR_YELLOW]考古學家[ENDCOLOR]在此城市建造。此城市每個 4 [ICON_CITIZEN]公民 +1 [ICON_CULTURE]文化和[ICON_TOURISM]旅遊業績。城市的[ICON_GREAT_WORK]巨作提供 +1 [ICON_TOURISM]旅遊業績。[NEWLINE][NEWLINE]-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度。[NEWLINE][NEWLINE]包含 2 藝術[ICON_GREAT_WORK]巨作或文物的席位。如果[COLOR_POSITIVE_TEXT]主題獎勵已啟動[ENDCOLOR] +4 [ICON_CULTURE]文化。</Text>
+		</Row>
+
+		<!-- Market -->
+		<Row Tag="TXT_KEY_BUILDING_MARKET_HELP">
+			<Text>進入的[ICON_ARROW_LEFT]貿易路綫為城市產生 +1 [ICON_GOLD]金幣，同時[ICON_ARROW_RIGHT]貿易路綫的擁有者 +1 [ICON_GOLD]金幣。[NEWLINE][NEWLINE]附近[ICON_RES_SPICES]肉桂：+1 [ICON_FOOD]食物，+1 [ICON_PRODUCTION]產能。[NEWLINE]附近[ICON_RES_SUGAR]食糖：+1 [ICON_FOOD]食物，+1 [ICON_GOLD]金幣。</Text>
+		</Row>
+
+		<!-- Walls -->
+		<Row Tag="TXT_KEY_BUILDING_WALLS_HELP">
+			<Text>+1 [ICON_RANGE_STRENGTH]城市攻擊距離。+10% 來自人口的[ICON_SILVER_FIST]軍事單位供應上限。[NEWLINE][NEWLINE]此城市的[ICON_CITY_STATE]帝國規模修正減少 5%。</Text>
+		</Row>
+
+		<!-- Arena -->
+		<Row Tag="TXT_KEY_BUILDING_COLOSSEUM_HELP">
+			<Text>城市每 4 [ICON_CITIZEN]公民 +1 [ICON_TOURISM]旅遊業績。此城市的軍營，煉冶廠和軍械庫獲得 +2 [ICON_PRODUCTION]產能。-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度。[NEWLINE][NEWLINE]附近[ICON_RES_PERFUME]香水：+1 [ICON_GOLD]金幣，+1 [ICON_CULTURE]文化。[NEWLINE]附近[ICON_RES_OLIVE]橄欖：+1 [ICON_GOLD]金幣，+1 [ICON_FOOD]食物。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_CHANCERY">
+			<Text>御書處</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHANCERY_STRATEGY">
+			<Text>增加外交單位建造速度和增加此城市建造的外交單位的影響力接收數值。此建築的公務員專家提供小額[ICON_CULTURE]文化，[ICON_RESEARCH]科學和[ICON_GOLD]金幣，以[ICON_FOOD]食物作交換。城邦盟友的額外收益，會增加遊戲中期與城邦間正面關係的價值。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHANCERY_HELP">
+			<Text>此城市 +10% 外交單位的[ICON_PRODUCTION]產能。此城市建造的外交單位獲得[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_SIGNET}[ENDCOLOR]晉升。[NEWLINE][NEWLINE]每個[ICON_CITY_STATE]城邦[COLOR_CYAN]盟友[ENDCOLOR]產出：+2 [ICON_PRODUCTION]產能。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CHANCERY_TEXT">
+			<Text>在中世紀早期，歐洲出現了隸屬於許多王室的御書處。負責簽發法院文件、管理皇室法令、執行司法以及評估君主的收入，御書處涉足包括外交在內的各種國家機器。在近代早期，隨著王國和國家的規模和範圍不斷擴大，御書處的權力也不斷擴大，直到 17 和 18 世紀，大多數西方國家在法律上將御書處分為多個更明確的部門。因此，御書處是現代公務員制度的鼻祖。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_WIRE_SERVICE">
+			<Text>通訊社</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WIRE_SERVICE_STRATEGY">
+			<Text>增加外交單位誕生速度和增加此城市建造的外交單位的影響力接收數值。此建築的公務員專家提供小額[ICON_CULTURE]文化，[ICON_RESEARCH]科學和[ICON_GOLD]金幣，以[ICON_FOOD]食物作交換。城邦朋友和盟友的額外收益，會增加遊戲後期與城邦間正面關係的價值。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WIRE_SERVICE_HELP">
+			<Text>此城市 +20% 外交單位的[ICON_PRODUCTION]產能。此城市建造的外交單位獲得[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_EXPRESS}[ENDCOLOR]晉升。[NEWLINE][NEWLINE]每個[ICON_CITY_STATE]城邦[COLOR_POSITIVE_TEXT]朋友[ENDCOLOR]獎勵：+1 [ICON_CULTURE]文化。[NEWLINE]每個[ICON_CITY_STATE]城邦[COLOR_CYAN]盟友[ENDCOLOR]獎勵：+1 [ICON_CULTURE]文化和 +1 [ICON_RESEARCH]科學。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WIRE_SERVICE_TEXT">
+			<Text>儘管在今天已被視為理所當然，但地區性、國家性以及最終國際性新聞機構(或稱通訊社)的建立，對於世界的經濟、政治和文化互聯性而言是一大福音。通過在全球範圍內標準化通訊的速度、質量和穩定性，現代通訊社不僅有助於普及和知識的傳播，還加速了政府間的論述。最終，大多數國家都會成立專注於外交事務的國家通訊社。其中許多機構都是在國家外交部的控制之下。</Text>
+		</Row>
+
+		<!-- Stonehenge -->
+		<Row Tag="TXT_KEY_BUILDING_STONEHENGE_HELP">
+			<Text>提供一個[COLOR_POSITIVE_TEXT]無償的[ENDCOLOR]議會和 60 [ICON_PEACE]信仰給它所在的城市。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE">
+			<Text>文士辦事處</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_STRATEGY">
+			<Text>首都建造外交單位時，這個國家奇跡會給予小額產能，和 1 [ICON_RES_PAPER]紙張資源。如果您想在遊戲的前幾個時代獲得一兩個城邦盟友，請建造這個建築。城邦朋友和盟友的額外收益，會增加遊戲早期與城邦間正面關係的價值。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COURT_SCRIBE_HELP">
+			<Text>+1 [ICON_RES_PAPER]紙張和 1 [COLOR_POSITIVE_TEXT]無償的[ENDCOLOR]使者。此城市 +10% 外交單位的[ICON_PRODUCTION]產能。[NEWLINE][NEWLINE]每個[ICON_CITY_STATE]城邦[COLOR_POSITIVE_TEXT]朋友[ENDCOLOR]獎勵：+1 [ICON_FOOD]食物。[NEWLINE]每個[ICON_CITY_STATE]城邦[COLOR_CYAN]盟友[ENDCOLOR]獎勵：+1 [ICON_FOOD]食物和 +1 [ICON_PEACE]信仰。[NEWLINE][NEWLINE][ICON_PRODUCTION]產能成本和[ICON_CITIZEN]人口需求依據已擁有的城市數量而增加。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_COURT_SCRIBE_TEXT">
+			<Text>皇家文士及其職位是文官制度中最古老、最重要的職位之一。儘管現代國家有數以百計的公務員負責撰寫、編輯和發布政府文件，但在古代世界，這些任務通常只交由一位文士負責。文士擁有巨大的權力，因為他們可以控制國家法律的措辭、翻譯和解釋。正因為這種巨大的權力，一位優秀、忠誠的文士是無價的資源。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS">
+			<Text>印刷廠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS_STRATEGY">
+			<Text>建造這個國家奇跡需要城市已擁有御書處。所在的城市增加外交單位的建造速度，你所有的外交單位增加移動力和影響力，同時讓您的外交單位有忽略地形懲罰的能力。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PRINTING_PRESS_HELP">
+			<Text>+1 [ICON_RES_PAPER]紙張。此城市 +20% 外交單位的[ICON_PRODUCTION]產能。所有外交單位獲得[COLOR_POSITIVE_TEXT]讀寫能力[ENDCOLOR]晉升。[NEWLINE][NEWLINE][ICON_PRODUCTION]產能成本和[ICON_CITIZEN]人口需求依據已擁有的城市數量而增加。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PRINTING_PRESS_TEXT">
+			<Text>從德國美因茨的一家印刷店開始，到 15 世紀末，印刷術已傳播到中歐、西歐和東歐大約 270 個城市。據推測，早在 1480 年，「印刷書籍已在歐洲普遍使用」。到 1500 年，在整個西歐投入使用的印刷機已經印製了 2,000 多萬冊。1600 年左右的歐洲印刷機，每個工作天能生產 3,600 印次。相比之下，遠東的活字印刷不懂印刷機，完全靠手工將紙張背面搓到頁面上，每天的產量不超過 40 頁。排版文字製作的快速，以及單位成本的大幅下降，促成了第一批報紙的發行，為向大眾傳遞最新資訊開闢了全新的領域。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE">
+			<Text>外交部</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE_STRATEGY">
+			<Text>建造這個國家奇跡需要城市已擁有通訊社。所在的城市增加外交單位的建造速度，你所有的外交單位增加移動力和影響力，同時讓您的外交單位通過敵方領土不需要[COLOR_POSITIVE_TEXT]開放邊界[ENDCOLOR]協議。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FOREIGN_OFFICE_HELP">
+			<Text>+1 [ICON_RES_PAPER]紙張。此城市 +20% 外交單位的[ICON_PRODUCTION]產能。所有外交單位獲得 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_IMMUNITY}[ENDCOLOR] 晉升。[NEWLINE][NEWLINE][ICON_PRODUCTION]產能成本和[ICON_CITIZEN]人口需求依據已擁有的城市數量而增加。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FOREIGN_OFFICE_TEXT">
+			<Text>外交部位於現代帝國的中心。龐大無窮的公務員、外交官和助理團隊，所有重要或平凡的新聞都要經過外交部的大廳。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER">
+			<Text>國際金融中心</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER_STRATEGY">
+			<Text>建造這個國家奇跡需要城市已擁有證券交易所。建造這個國家奇跡以獲得世界議會中額外的代表，依據你目前與其他玩家的友誼宣言數量。建築所在城市也會大幅提升食物和金幣產出。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FINANCE_CENTER_HELP">
+			<Text>要求[COLOR_MAGENTA]自由[ENDCOLOR]政策。+5% [ICON_FOOD]食物和[ICON_GOLD]金幣給它所在的城市。你目前與其他玩家有的每 2 [COLOR_POSITIVE_TEXT]友誼宣言[ENDCOLOR]獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會的[ICON_DIPLOMAT]代表。[NEWLINE][NEWLINE][ICON_PRODUCTION]產能成本和[ICON_CITIZEN]人口需求依據已擁有的城市數量而增加。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FINANCE_CENTER_TEXT">
+			<Text>金融中心(Financial Center)是指擁有大量具有國際重要性的銀行、公司和證券交易所的全球性城市。國際金融中心 (International Financial Center)，有時簡稱為 IFC，是一個非特定的詞彙，通常用來形容國際金融市場交易的重要參與者，通常至少有一個主要的股票市場。在 20 世紀的大部分時間，美國及其金融首都紐約市是領導者。但自 20 世紀 90 年代以來，隨著多極世界的興起，新的區域勢力和全球資本主義的崛起，眾多金融中心對華爾街的主導地位提出了挑戰，尤其是來自亞洲的金融中心，一些分析師認為亞洲將成為新的世界性增長的焦點。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE">
+			<Text>文化科學宮</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_STRATEGY">
+			<Text>建造這個國家奇跡需要城市已擁有公立學校。建造這個國家奇跡以獲得世界議會中額外的代表，依據你目前有的防禦協議和附庸的數量。建築所在城市的文化和科學的產出也會獲得一個大幅提升。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_SCIENCE_CULTURE_HELP">
+			<Text>要求 [COLOR_MAGENTA]秩序[ENDCOLOR]政策。+5% [ICON_CULTURE]文化和[ICON_RESEARCH]科學給它所在的城市。[COLOR_POSITIVE_TEXT]移除[ENDCOLOR]你形成防禦協議的全球限制。你目前有的每個[COLOR_POSITIVE_TEXT]防禦協議[ENDCOLOR]或[COLOR_POSITIVE_TEXT]附庸[ENDCOLOR]獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會的[ICON_DIPLOMAT]代表。[NEWLINE][NEWLINE][ICON_PRODUCTION]產能成本和[ICON_CITIZEN]人口需求依據已擁有的城市數量而增加。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PALACE_SCIENCE_CULTURE_TEXT">
+			<Text>華沙的文化科學宮是波蘭最高的建築物，也是歐盟第八高的建築物。該建築最初被稱為約瑟夫‧斯大林文化科學宮，但在去斯大林化之後，斯大林的奉獻被廢除; 斯大林的名字已從內部大廳和大樓的一座雕塑上刪除。目前它是世界上第 187 高的建築物。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE">
+			<Text>榮譽殿堂</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE_STRATEGY">
+			<Text>建造這個國家奇跡需要城市已擁有軍校。建造這個國家奇跡以獲得世界議會中額外的代表，依據已征服的敵方首都數量。建築所在城市的旅遊業績和產能產出會獲得一個大幅提升。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EHRENHALLE_HELP">
+			<Text>要求 [COLOR_MAGENTA]獨裁[ENDCOLOR]政策。+15 [ICON_TOURISM]旅遊業績和 +5% [ICON_PRODUCTION]產能給它所在的城市。你控制的每個[COLOR_POSITIVE_TEXT]敵方[ENDCOLOR][ICON_CAPITAL][COLOR_POSITIVE_TEXT]首都[ENDCOLOR]獲得 2 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR][ICON_DIPLOMAT]世界議會的代表。[NEWLINE][NEWLINE][ICON_PRODUCTION]產能成本和[ICON_CITIZEN]人口需求依據已擁有的城市數量而增加。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_EHRENHALLE_TEXT">
+			<Text>"Ehrenhalle"(榮譽殿堂)是紐倫堡市根據德國建築師 Fritz Mayer 的計劃建造的。它於 1930 年落成，在魏瑪共和國希特勒時代之前。它是一座拱形大廳,相鄰的鵝卵石平台上有兩排火盆基座。所有十四個火盆基座都幾乎完好無損，而且自 1938 年 9 月納粹黨最後一次集會後，就再也沒有被點燃過。在 1929 年的黨員大會上，當時尚未完工的「榮譽殿堂」首次被國家社會黨人用作祭祀死者的場所。在第三帝國時期，納粹主要將該處用作第一次世界大戰陣亡士兵的紀念碑，以及 1923 年 11 月 9 日慕尼黑 "Hitlerputsch「(所謂 」NS 運動殉道者")(啤酒館政變)16 名死者的紀念碑。希特勒在黨衛軍領袖海因里希‧希姆萊 (Heinrich Himmler) 和 SA 領袖維克多‧盧茨 (Viktor Lutze) 的陪同下，從主看台到 Ehrenhalle 露臺的 240 公尺長的花崗岩小徑上，大步走過競技場，並在那裡展示納粹敬禮。這個儀式是慶典的高潮。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_CONSULATE">
+			<Text>領事館</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CONSULATE_STRATEGY">
+			<Text>領事館可在世界議會中給予其擁有者輕微的優勢，原本世界存在的每 8 個城邦就可獲得一個額外的代表。只能透過世界議會協力建造。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONSULATE_HELP">
+			<Text>原本世界存在的每 8 [ICON_CITY_STATE]城邦獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會的[ICON_DIPLOMAT]代表。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONSULATE_DESC">
+			<Text>領事的辦事處稱為領事館，通常隸屬於國家在該外國的主要代表機構，通常是大使館，或英聯邦國家之間的高級專員公署，位於所在國家的首都。與大使館一詞一樣，領事館一詞不僅指領事的辦事處，也指領事及其工作人員所佔用的建築。領事館可能與大使館本身共用房地。在現代，許多領事館都隸屬於聯合國和/或其他國際組織。</Text>
+		</Row>
+
+		<!-- Notre Dame -->
+		<Row Tag="TXT_KEY_BUILDING_NOTRE_DAME_HELP">
+			<Text>獲得一個[COLOR_POSITIVE_TEXT]無償的[ENDCOLOR]大教堂給它所在的城市。所有信奉你的[COLOR_POSITIVE_TEXT]主要宗教[ENDCOLOR]的城市 +30% 基礎宗教壓力。包含 2 藝術[ICON_GREAT_WORK]巨作或文物的席位。如果[COLOR_POSITIVE_TEXT]主題獎勵已啟動[ENDCOLOR] +3 [ICON_PEACE]信仰和[ICON_GOLDEN_AGE]黃金時代點數。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_KARLSTEJN">
+			<Text>卡爾斯泰恩城堡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KARLSTEJN_HELP">
+			<Text>只能建在聖城。提供一個[COLOR_POSITIVE_TEXT]無償的[ENDCOLOR](中世紀)騎士團給它所在的城市。讓你可以在低於全球[ICON_RELIGION]信徒要求 5%(標準為 20%)情況下，選擇一項[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR]。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_KARLSTEJN_TEXT">
+			<Text>卡爾斯泰恩城堡(Karlstejn Castle)是一座風景如畫的波希米亞防御工事，位於現代捷克共和國布拉格城外不遠處。城堡於 1365 年完工,曾收藏波希米亞的皇室禮服和皇冠珠寶，以及許多其他遺物和珍寶。在胡斯戰爭(Hussite Wars)期間，城堡曾遭到胡斯派教徒的圍攻，胡斯戰爭是歐洲第一次大型的新教運動，比馬丁-路德(Martin Luther)和新教改革還要早一個多世紀。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KARLSTEJN_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"尋求真理、聆聽真理、學習真理、愛真理、說真理、持守真理，並至死守護真理。"[NEWLINE][TAB][TAB] - Jan Hus[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SOHO_FOUNDRY">
+			<Text>蘇豪鑄造廠</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SOHO_FOUNDRY_HELP">
+			<Text>提供一個[COLOR_POSITIVE_TEXT]無償的[ENDCOLOR]工廠和 +5 [ICON_PRODUCTION]產能給它所在的城市。獲得 4 [COLOR_POSITIVE_TEXT]無償的[ENDCOLOR][ICON_RES_COAL]煤炭。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SOHO_FOUNDRY_TEXT">
+			<Text>蘇豪鑄造廠由 James Watt 和 Matthew Boulton 於 1795 年創立，用以生產 Watt 的最新發明：蒸汽機。James Watt 是一位巧妙的修補工匠，他在 Newcomen 的舊設計上進行了多項改進，創造出一種新型蒸汽機，可產生旋轉運動，且磨損更少，耗煤量僅為原來的四分之一。瓦特為他的新機器申請了專利，並與商人兼發明家 Matthew Boulton 合作，在英國的 Smethwick 創立了一家新工廠。蘇豪鑄造廠在當時是史無前例的，它使用新技術生產標準化和可互換的零件，例如將較大的任務分解成較小的、專門的工作。Soho 的管理也走在了時代的前端，為員工提供病假福利、專業發展和福利計劃。蘇豪鑄造廠生產的管理理論、大量生產技術和蒸汽引擎對英國的工業化發展至關重要，並產生了持久的全球影響。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SOHO_FOUNDRY_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"先生，我這裡賣的是全世界都想擁有的東西；力"[NEWLINE][TAB][TAB] - Matthew Boulton[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_MOTHERLAND_STATUE">
+			<Text>祖國母親在召喚</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_STATUE_HELP">
+			<Text>獲得一個[COLOR_POSITIVE_TEXT]無償的[ENDCOLOR]警察局給它所在的城市。供應自此城市人口[ICON_SILVER_FIST]軍事單位上限增加 100%。[NEWLINE][NEWLINE]所有城市建築維護費減少 10%。阻止敵方單位在掠奪你單元格時獲得[ICON_GOLD]金幣和生命。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MOTHERLAND_STATUE_TEXT">
+			<Text>「祖國在呼喚」又稱為「祖國母親」、「祖國母親在呼喚」、「祖國母親」或「馬馬耶夫紀念碑」，是一座位於俄羅斯伏爾哥格勒的馬馬耶夫庫爾幹的雕像，用以紀念斯大林格勒戰役。它由雕刻家 Yevgeny Vuchetich 和結構工程師 Nikolai Nikitin 共同設計，並於 1967 年宣布為世界上最大的雕像。與後來較高的雕像相比，《祖國的呼喚》從工程的角度來看顯得更加複雜，這是由於其右手高舉寶劍，左手伸展做出呼喚姿勢的特有姿勢。雕像背後的技術基於預應力混凝土與鋼絲繩結構的結合，這種解決方案也出現在 Nikitin 的另一項作品中，即莫斯科超高的 Ostankino Tower。這是世界上最高的女性雕像。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOTHERLAND_STATUE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"一個偉大國家的標誌之一，就是能夠在跌倒後站起來。"</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BLETCHLEY_PARK">
+			<Text>布萊奇利公園</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BLETCHLEY_PARK_HELP">
+			<Text>要求完成[COLOR_MAGENTA]理性[ENDCOLOR]政策分支。獲得一個[COLOR_POSITIVE_TEXT]無償的[ENDCOLOR]研發實驗室給它所在的城市，所有的[ICON_VP_SCIENTIST]科學家獲得 +1 [ICON_RESEARCH]科學。獲得 200 [ICON_VP_SPY_POINTS]間諜點數。+20 [ICON_SPY]城市安保在所有城市。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BLETCHLEY_PARK_TEXT">
+			<Text>位於白金漢郡米爾頓凱恩斯(Milton Keynes)的布萊奇利公園(Bletchley Park)是英國政府代碼和加密學校(Government Code and Cypher School)的中心地點，在第二次世界大戰期間，該學校定期滲透軸心國密碼通訊，其中最重要的是德國的英格瑪(Enigma)和洛倫茲(Lorenz)密碼。第二次世界大戰英國情報機關的官方歷史學家寫道，在布萊奇利產生的「超級 」情報使戰爭縮短了兩到四年，如果沒有這些情報，戰爭的結果將是不確定的。該遺址現在是一個教育和歷史景點，紀念和慶祝這些成就。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_BLETCHLEY_PARK_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"布萊奇利公園：下金蛋的鵝，從來不叫。"[NEWLINE][TAB][TAB] - Winston Churchill[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_EMPIRE_STATE_BUILDING">
+			<Text>帝國大廈</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EMPIRE_STATE_BUILDING_HELP">
+			<Text>獲得一個[COLOR_POSITIVE_TEXT]無償的[ENDCOLOR]自選[ICON_GREAT_PEOPLE]偉人和一個[COLOR_POSITIVE_TEXT]無償的[ENDCOLOR]證券交易所給它所在的城市。所有城市的專家產出 +1 [ICON_GOLD]金幣。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_EMPIRE_STATE_BUILDING_TEXT">
+			<Text>帝國大廈(Empire State Building)是一幢 103 層的摩天大樓，位於紐約市曼哈頓中城，第五大道和西 34 街的交叉口。它的樓頂高度為 1,250 英尺(380 米)，加上它的尖塔，總高度為 1,454 英尺(443 米)。從 1931 年初落成到 1970 年末原世界貿易中心北塔封頂，它作為世界最高建築物的地位持續了近 40 年。2001 年 911 襲擊事件之後，帝國大廈再次成為紐約最高的建築物(雖然它不再是美國或世界最高的建築物)，直到 2012 年 4 月 30 日世界貿易中心一號達到更高的高度。帝國大廈目前是美國第四高的已建成摩天大樓(僅次於世貿中心一號、威利斯大樓和特朗普國際酒店大樓,均位於芝加哥)，也是世界上第 25 高的摩天大樓(目前最高的是位於迪拜的哈利法塔)。它也是美洲第五高的獨立建築物。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EMPIRE_STATE_BUILDING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"金錢的重要性在於它是現在與未來的連結。"[NEWLINE][TAB][TAB] - John Maynard Keynes[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_CERN">
+			<Text>歐洲核子研究中心</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CERN_HELP">
+			<Text>獲得 2 [COLOR_POSITIVE_TEXT]無償的[ENDCOLOR]科技，世上所有[ICON_CITY_STATE]城邦 +100 [ICON_INFLUENCE]影響力。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CERN_TEXT">
+			<Text>歐洲核子研究組織 (European Organization for Nuclear Research),又稱為歐洲核子研究中心 (CERN)，是一個歐洲研究組織，其宗旨是營運世界上最大的粒子物理實驗室。該組織成立於 1954 年，總部設在日內瓦西北郊的法瑞邊界，共有 21 個歐洲成員國。以色列是第一個(目前也是唯一的)獲得正式會員資格的非歐洲國家。CERN 一詞也用於指實驗室，2013 年實驗室共有 2513 名工作人員，並接待了約 12,313 名研究員、助理、學徒以及來訪的科學家和工程師，他們代表了 608 所大學和研究機構以及 113 個國家。CERN 的主要功能是提供高能物理研究所需的粒子加速器和其他基礎設施 - 因此，在國際合作下，CERN 建置了許多實驗。它也是萬維網的發源地。位於 Meyrin 的主場地有一個大型電腦中心，內含強大的資料處理設施，主要用於實驗資料分析；由於需要將這些設施提供給其他地方的研究人員使用，因此該中心歷來都是主要的廣域網路中心。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CERN_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"當你在量子場理論中觀察真空時，它並不是什麼都沒有。"[NEWLINE][TAB][TAB] - Dr. Peter Higgs[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FORUM">
+			<Text>羅馬論壇</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FORUM_STRATEGY">
+			<Text>建造這個世界奇跡，透過訓練有素的外交單位，永久提升您與城邦的關係。提供免費的大外交官派往附近的城邦。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FORUM_HELP">
+			<Text>完成時獲得 1 [COLOR_POSITIVE_TEXT]無償的[ENDCOLOR][ICON_DIPLOMAT]大外交官。+1 [ICON_RES_PAPER]紙張。此城市 +20% 外交單位的[ICON_PRODUCTION]產能。所有外交單位獲得[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_PAX}[ENDCOLOR]晉升。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FORUM_TEXT">
+			<Text>羅馬論壇(拉丁語:Forum Romanum)是一個長方形的論壇(廣場)，四周環繞著羅馬市中心幾座重要的古代政府建築遺跡。幾個世紀以來，它一直是羅馬公共生活的中心：凱旋遊行和選舉的場所、公開演講、刑事審判、角鬥和商業活動的場所。它是古羅馬熙熙攘攘的中心，被稱為世界和歷史上最著名的聚會場所。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FORUM_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"我來時羅馬是一座磚頭之城，我去時是一座大理石之城。"[NEWLINE][TAB][TAB] - Augustus Caesar[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE">
+			<Text>頤和園</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_STRATEGY">
+			<Text>為您的外交單位建造這個奇景，讓您可以在沒有開放邊界協議的情況下，比其他人早幾個世紀進入對手的領土。提升您帝國中所有御書處的效力。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUMMER_PALACE_HELP">
+			<Text>+1 [ICON_RES_PAPER]紙張。所有城市 +20% 外交單位的[ICON_PRODUCTION]產能。所有外交單位獲得 [COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_NOBILITY}[ENDCOLOR] 晉升。所有御書處獲得 +3 [ICON_GOLD]金幣和 +1 [ICON_CULTURE]文化。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SUMMER_PALACE_TEXT">
+			<Text>頤和園在中世紀晚期和近代早期分階段建造，是清朝早期權力和威勢的大型輝煌建築，與北京的皇帝行宮相媲美。頤和園以其精緻的園林、鬱鬱蔥蔥的花園和壯觀的景色而聞名，至今仍是近代早期中國權力的重要象徵，也是廣受歡迎的旅遊勝地。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SUMMER_PALACE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"君主制是所有政府形式中最昂貴的......依靠自己的力量來統治的人，必須通過籠絡那些他無法威嚇的"積極進取"的人來加強這種力量。"[NEWLINE][TAB][TAB] - James F. Cooper[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL">
+			<Text>威尼斯大運河</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL_STRATEGY">
+			<Text>建造這個奇跡可獲得[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_TREASURE_FLEET}[ENDCOLOR]晉升以提升你的海軍的力量和耐久，並獲得一條額外的貿易路綫。只能透過世界議會協力建造。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_CANAL_HELP">
+			<Text>只能透過世界議會協力建造。獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR][ICON_INTERNATIONAL_TRADE]貿易路綫。給予所有海軍單位[COLOR_POSITIVE_TEXT]{TXT_KEY_PROMOTION_TREASURE_FLEET}[ENDCOLOR]晉升，潛艇和航母除外，給予 +10% 進攻時的[ICON_STRENGTH]戰鬥力，+1 [ICON_VP_VISION]視野，和在[COLOR_POSITIVE_TEXT]友好領土外[ENDCOLOR]治療的能力。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_GRAND_CANAL_TEXT">
+			<Text>大運河是義大利威尼斯最大的運河，至今仍是威尼斯最重要的貿易和交通走廊之一。威尼斯是一座由小島組成的城市，在中世紀時期，為了讓沼澤地提升到潮汐之上，人們進行了土壤疏浚，結果形成了一系列的水渠。這些水道(或稱運河)促進了航海文化的蓬勃發展，從中世紀一直到現在，航海文化都是城市經濟的核心。時至今日，這些運河仍然是城內貨物和人員的運輸工具。穿城而過的迷宮般運河需要使用 400 多座橋樑才能讓行人通行。2011 年，城市啟用了第四座橫跨大運河的橋梁 Ponte della Costituzione，連接 Piazzale Roma 公車總站區和 Stazione Ferroviaria(火車站)，其他橋梁包括最初的 Ponte di Rialto、Ponte dell'Accademia 和 Ponte degli Scalzi。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GRAND_CANAL_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"在不可能建造城市的地方建造城市本身就是瘋狂，但在那裡建造一座最優雅、最宏偉的城市卻是天才的瘋狂。"[NEWLINE][TAB][TAB] - Alexander Herzen[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE">
+			<Text>梅寧門</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE_STRATEGY">
+			<Text>一座防禦性奇跡。增强堡壘，要塞，地標的產出。每個在戰鬥中倒下的單位，梅寧門會提供小額獎勵。只能透過世界議會協力建造。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE_HELP">
+			<Text>只能透過世界議會協力建造。獲得 +2 [ICON_HAPPINESS_1]幸福度給它所在的城市。[NEWLINE][NEWLINE]每當己方單位被殺獲得 2 [ICON_CULTURE]文化和[ICON_GOLDEN_AGE]黃金時代點數，隨時代遞增。城市附近堡壘，要塞和地標提供 +2 [ICON_CULTURE]文化和[ICON_GOLDEN_AGE]黃金時代點數。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE_TEXT">
+			<Text>梅寧門 (Menin Gate) 失蹤者紀念碑是比利時伊普爾 (Ypres) 的一座戰爭紀念碑，用以紀念在第一次世界大戰伊普爾陣區 (Ypres Salient) 陣亡的英國和英聯邦士兵。高高的桶狀拱形通道上刻著 54,395 名英聯邦士兵的名字，這些士兵在敵對陣線中陣亡，但遺體從未尋獲。紀念碑矗立在鎮子的東部出口，標誌著前往前線的起點，衝突雙方共有超過 450,000 人在此陣亡。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MENIN_GATE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"誰會記得，通過這扇大門，[NEWLINE][TAB][TAB]吃槍子的無名小卒？[NEWLINE][TAB][TAB]誰能赦免他們命運的骯髒，[NEWLINE][TAB][TAB]那些命中注定、被徵入伍、無罪的人？"[NEWLINE][TAB][TAB] - Siegfried Sassoon[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_OLYMPIC_VILLAGE">
+			<Text>奧運村</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OLYMPIC_VILLAGE_STRATEGY">
+			<Text>奧運村結合酒店、體育場和埃爾米塔日博物館的優勢於一身，是游戲後期强大的文化組織。只能透過世界議會協力建造。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OLYMPIC_VILLAGE_HELP">
+			<Text>只能透過世界議會協力建造。獲得 +3 [ICON_HAPPINESS_1]幸福度和 +3 [ICON_CULTURE]文化給它所在的城市。25% 來自[ICON_WONDER]世界奇跡和單元格的[ICON_CULTURE]文化添加到城市的[ICON_TOURISM]旅遊業績產出。[NEWLINE][NEWLINE]所有體育場獲得 +2 [ICON_GOLD]金幣和[ICON_TOURISM]旅遊業績。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_OLYMPIC_VILLAGE_TEXT">
+			<Text>奧運村是為奧運會所建造的住宿中心，通常位於奧林匹克公園內或主辦城市的其他地方。奧運村是為所有參賽選手、工作人員和運動教練而建。奧運村的概念來自 Pierre de Coubertin。在 1924 年夏季奧運會之前，各國奧委會都是在主辦城市周圍租用場地來安置參賽選手，費用昂貴。在 1924 年夏季奧運會中，主辦單位在哥倫比亞奧林匹克運動場 (Stade Olympique de Colombes) 附近興建小木屋，讓運動員能輕易抵達奧運會場地。1932 年夏季奧運會的奧運村是今日奧運村的典範；它由一組建築物組成，其中有供運動員住宿的房間，以及提供其他住宿設施的建築物。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_OLYMPIC_VILLAGE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"奧運會最重要的不是勝利，而是參與；人生最重要的不是征服，而是打的精彩。"[NEWLINE][TAB][TAB] - Pierre de Coubertin[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_PALACE">
+			<Text>水晶宮</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_PALACE_STRATEGY">
+			<Text>就像現實世界中的水晶宮殿一樣，水晶宮殿也有各種不同的獎勵。擁有大量城市和工廠的玩家將從水晶宮殿中獲益最多，但額外的文化和巨作席位對任何文明都很有用。只能透過世界議會協力建造。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CRYSTAL_PALACE_HELP">
+			<Text>只能透過世界議會協力建造。己方所有工廠獲得 +2 [ICON_PRODUCTION]產能和 +2 [ICON_RESEARCH]科學。帝國進入一個[ICON_GOLDEN_AGE]黃金時代。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CRYSTAL_PALACE_TEXT">
+			<Text>水晶宮 (Crystal Palace) 是一座鑄鐵和平板玻璃建築，最初建於英國倫敦的海德公園 (Hyde Park)，用來舉辦 1851 年的大展會 (Great Exhibition)。來自世界各地的 14,000 多家參展商聚集在水晶宮 990,000 平方英尺的展覽空間中，展示工業革命中開發的最新技術。由 Joseph Paxton 爵士設計的大展會建築物長 1,851 英尺，內部高度為 128 英尺。由於最近在 1848 年發明了澆鑄平板玻璃的方法，可以使用大量廉價但堅固的玻璃板，因此在當時是有史以來玻璃用量最大的建築物，其透明的牆壁和天花板讓參觀者感到驚訝，不需要室內照明，因此有「水晶宮殿 」之稱。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CRYSTAL_PALACE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"我夢見展覽...它應該是一座水晶宮殿，天空透過屋頂的每一個角落俯瞰它下面的所有國家。"[NEWLINE][TAB][TAB] - Douglas Jerrold[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_UN">
+			<Text>聯合國</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UN_STRATEGY">
+			<Text>當與高的偉人誕生速度搭配時，聯合國會大幅提升其擁有者在世界議會中的外交能力。它也提供一個額外的代表，並啟動一個黃金時代。[NEWLINE][NEWLINE]除了這些即時的好處之外，聯合國的建造會觸發世界議會聯合國特別會議的開始，實現外交勝利。只能透過世界議會協力建造。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UN_HELP">
+			<Text>只能透過世界議會協力建造。原本世界存在的每 8 [ICON_CITY_STATE]城邦獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會的[ICON_DIPLOMAT]代表。同時，當你消耗一個[ICON_GREAT_PEOPLE]偉人時，對你已遇見的所有[ICON_CITY_STATE]城邦增加 25 [ICON_INFLUENCE]影響力。觸發一個[ICON_GOLDEN_AGE]黃金時代，以及[COLOR_POSITIVE_TEXT]聯合國[ENDCOLOR]世界議會特別會議。</Text>
+		</Row>
+
+		<!-- 公司 buildings common pedia entry -->
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_CORP_TEXT">
+			<Text>公司是授權作為單一實體(法律上是一個人)行動的公司或團體，並在法律上獲得承認。早期的法人實體是透過憲章(即由君主賜予或由國會或立法機關通過的特別法令)成立的。現在，大多數司法管轄區都允許通過註冊來創立新公司。公司有許多不同的類型，但通常依據其憲章所在司法管轄區的法律分為兩種：依據公司是否可發行股票，或依據公司是否以營利為目的。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HQ">
+			<Text>席德貿易 總部</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HQ_STRATEGY">
+			<Text>在您的城市之一建造這個建築，就能成立 席德貿易 公司。請參閱文明百科的[COLOR_POSITIVE_TEXT]公司[ENDCOLOR]章節以取得更多資訊。[NEWLINE][NEWLINE]請記住，每個文明只能建立[COLOR_POSITIVE_TEXT]一個[ENDCOLOR]公司，因此，請確定效果適用於您的勝利策略！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HQ_HELP">
+			<Text>成立 席德貿易, Inc.公司。[NEWLINE][NEWLINE]此城市免費獲得 席德貿易 辦事處，並在己方城市解鎖建造 席德貿易 辦事處。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_TRADER_SIDS">
+			<Text>[NEWLINE][TAB][TAB]"商品展銷，商品銷售，電影真正賺錢的地方。"[NEWLINE][TAB][TAB] - Yogurt[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS">
+			<Text>席德貿易 辦事處</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_STRATEGY">
+			<Text>當外國城市與本城市之間的[ICON_INTERNATIONAL_TRADE]貿易路綫完成時，一個 席德貿易 特許經營權就會在該外國城市建立。[NEWLINE][NEWLINE]席德貿易 不能售出或由玩家摧毀，同時增加 4 [ICON_GOLD]金幣產出給所有的 席德貿易 辦事處。[NEWLINE][NEWLINE]你的特許經營權不能超過你的特許經營權上限 (請參閱「公司與壟斷概觀」以瞭解更多相關資訊。)。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_HELP">
+			<Text>進來的[ICON_INTERNATIONAL_TRADE]貿易路綫產出 +2 [ICON_GOLD]金幣給城市，和 +2 [ICON_GOLD]金幣給貿易路綫的擁有者。在外國城市中，每個 席德貿易 特許經營權 +4 [ICON_GOLD]金幣(取決于你的特許經營權上限)。[NEWLINE][NEWLINE]此城市的貿易路綫到有 席德貿易 特許經營權的外國城市產出的[ICON_GOLD]金幣 +25%。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE">
+			<Text>席德貿易 特許經營權</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_STRATEGY">
+			<Text>這個建築只能被建造在外國城市，并且你是 席德貿易 的創始人。若要在外國城市建造此建築物，從有 席德貿易 辦事處的己方城市遣送貿易路線到外國城市。當貿易路線完成時，建築物會自動建好。每個回合也有 5% 的機率在隨機的外國城市中自行出現特許經營權。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TRADER_SIDS_FRANCHISE_HELP">
+			<Text>占位符將被覆蓋</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HQ">
+			<Text>半人馬精選 總部</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HQ_STRATEGY">
+			<Text>在您的城市之一建造這個建築，就能成立 半人馬精選 公司。請參閱文明百科的[COLOR_POSITIVE_TEXT]公司[ENDCOLOR]章節以取得更多資訊。[NEWLINE][NEWLINE]請記住，每個文明只能建立[COLOR_POSITIVE_TEXT]一個[ENDCOLOR]公司，因此，請確定效果適用於您的勝利策略！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HQ_HELP">
+			<Text>成立 半人馬精選 公司。[NEWLINE][NEWLINE]免費獲得 半人馬精選 辦事處在此城市，並在己方城市解鎖建造 半人馬精選 辦事處。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_LANDSEA">
+			<Text>[NEWLINE][TAB][TAB]"第一課：不要低估他人的貪婪。"[NEWLINE][TAB][TAB] - Frank Lopez[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS">
+			<Text>半人馬精選 辦事處</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_STRATEGY">
+			<Text>當外國城市與本城市之間的[ICON_INTERNATIONAL_TRADE]貿易路綫完成時，一個 半人馬精選 特許經營權就會在該外國城市建立。[NEWLINE][NEWLINE]半人馬精選 不能售出或由玩家摧毀，同時 +3 [ICON_PRODUCTION]產能產出給所有的 半人馬精選 辦事處。[NEWLINE][NEWLINE]你的特許經營權不能超過你的特許經營權上限 (請參閱「公司與壟斷概觀」以瞭解更多相關資訊。)。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_HELP">
+			<Text>此城市附近所有海岸單元格 +1 [ICON_PRODUCTION]產能。每個 半人馬精選 特許經營權 +3 [ICON_PRODUCTION]產能(取決于你的特許經營權上限)。[NEWLINE][NEWLINE]此城市每條到有 半人馬精選 特許經營權的外國城市的貿易路綫，城市的[ICON_RESEARCH]科學 +10%。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE">
+			<Text>半人馬精選 特許經營權</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_STRATEGY">
+			<Text>這個建築只能被建造在外國城市，并且你是 半人馬精選 的創始人。若要在外國城市建造此建築物，從有 半人馬精選 辦事處的己方城市遣送貿易路線到外國城市。當貿易路線完成時，建築物會自動建好。每個回合也有 5% 的機率在隨機的外國城市中自行出現特許經營權。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LANDSEA_EXTRACTORS_FRANCHISE_HELP">
+			<Text>占位符將被覆蓋</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HQ">
+			<Text>赫克森煉油廠 總部</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HQ_STRATEGY">
+			<Text>在您的城市之一建造這個建築，就能成立 赫克森煉油廠 公司。請參閱文明百科的[COLOR_POSITIVE_TEXT]公司[ENDCOLOR]章節以取得更多資訊。[NEWLINE][NEWLINE]請記住，每個文明只能建立[COLOR_POSITIVE_TEXT]一個[ENDCOLOR]公司，因此，請確定效果適用於您的勝利策略！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HQ_HELP">
+			<Text>成立 赫克森煉油廠 公司。[NEWLINE][NEWLINE]免費獲得 赫克森煉油廠 辦事處在此城市，並在己方城市解鎖建造 赫克森煉油廠 辦事處。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_HEXXON">
+			<Text>[NEWLINE][TAB][TAB]"我只想對您說一個詞。就一個詞：塑料。"[NEWLINE][TAB][TAB] - Mr. McGuire[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY">
+			<Text>赫克森煉油廠 辦事處</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_STRATEGY">
+			<Text>當外國城市與本城市之間的[ICON_INTERNATIONAL_TRADE]貿易路綫完成時，一個 赫克森煉油廠 特許經營權就會在該外國城市建立。[NEWLINE][NEWLINE]赫克森煉油廠 不能售出或由玩家摧毀，并且每[COLOR_POSITIVE_TEXT]三個[ENDCOLOR]赫克森煉油廠 特許經營權 +1 [ICON_RES_OIL]石油和 +1 [ICON_RES_COAL]煤炭。[NEWLINE][NEWLINE]你的特許經營權不能超過你的特許經營權上限 (請參閱「公司與壟斷概觀」以瞭解更多相關資訊。)。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_HELP">
+			<Text>此城市訓練軍事單位時 +15% [ICON_PRODUCTION]產能。每[COLOR_POSITIVE_TEXT]三個[ENDCOLOR] 赫克森煉油廠 特許經營權 +1 [ICON_RES_OIL] 石油和 +1 [ICON_RES_COAL]煤炭(取決于你的特許經營權上限)。[NEWLINE][NEWLINE]此城市每條到有 赫克森煉油廠 特許經營權的外國城市的貿易路綫，城市的[ICON_PRODUCTION]產能 +10%。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE">
+			<Text>赫克森煉油廠 特許經營權</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE_STRATEGY">
+			<Text>這個建築只能被建造在外國城市，并且你是 赫克森煉油廠 的創始人。若要在外國城市建造此建築物，從有 赫克森煉油廠 辦事處的己方城市遣送貿易路線到外國城市。當貿易路線完成時，建築物會自動建好。每個回合也有 5% 的機率在隨機的外國城市中自行出現特許經營權。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HEXXON_REFINERY_FRANCHISE_HELP">
+			<Text>占位符將被覆蓋</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HQ">
+			<Text>喬治阿邁爾 總部</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HQ_STRATEGY">
+			<Text>在您的城市之一建造這個建築，就能成立 喬治阿邁爾 公司。請參閱文明百科的[COLOR_POSITIVE_TEXT]公司[ENDCOLOR]章節以取得更多資訊。[NEWLINE][NEWLINE]請記住，每個文明只能建立[COLOR_POSITIVE_TEXT]一個[ENDCOLOR]公司，因此，請確定效果適用於您的勝利策略！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HQ_HELP">
+			<Text>成立 喬治阿邁爾 公司。[NEWLINE][NEWLINE]免費獲得 喬治阿邁爾 辦事處在此城市，並在己方城市解鎖建造 喬治阿邁爾 辦事處。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_GA">
+			<Text>[NEWLINE][TAB][TAB]"時尚是關於夢想，也是關於讓其他人擁有夢想。"[NEWLINE][TAB][TAB] - Donatella Versace[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER">
+			<Text>喬治阿邁爾 辦事處</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_STRATEGY">
+			<Text>當外國城市與本城市之間的[ICON_INTERNATIONAL_TRADE]貿易路綫完成時，一個 喬治阿邁爾 特許經營權就會在該外國城市建立。[NEWLINE][NEWLINE]喬治阿邁爾 不能售出或由玩家摧毀，同時 +2 [ICON_CULTURE]文化產出給所有的 喬治阿邁爾 辦事處。[NEWLINE][NEWLINE]你的特許經營權不能超過你的特許經營權上限 (請參閱「公司與壟斷概觀」以瞭解更多相關資訊。)。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_HELP">
+			<Text>每個 喬治阿邁爾 特許經營權 +2 [ICON_CULTURE]文化(取決于你的特許經營權上限)。-1 來自[ICON_RESEARCH]文盲和[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度。[NEWLINE][NEWLINE]此城市每條到有 喬治阿邁爾 特許經營權的外國城市的貿易路綫，城市的[ICON_CULTURE]文化 +10%。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE">
+			<Text>喬治阿邁爾 特許經營權</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE_STRATEGY">
+			<Text>這個建築只能被建造在外國城市，并且你是 喬治阿邁爾 的創始人。若要在外國城市建造此建築物，從有 喬治阿邁爾 辦事處的己方城市遣送貿易路線到外國城市。當貿易路線完成時，建築物會自動建好。每個回合也有 5% 的機率在隨機的外國城市中自行出現特許經營權。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GIORGIO_ARMEIER_FRANCHISE_HELP">
+			<Text>占位符將被覆蓋</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HQ">
+			<Text>菲拉西提材料 總部</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HQ_STRATEGY">
+			<Text>在您的城市之一建造這個建築，就能成立 菲拉西提材料 公司。請參閱文明百科的[COLOR_POSITIVE_TEXT]公司[ENDCOLOR]章節以取得更多資訊。[NEWLINE][NEWLINE]請記住，每個文明只能建立[COLOR_POSITIVE_TEXT]一個[ENDCOLOR]公司，因此，請確定效果適用於您的勝利策略！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HQ_HELP">
+			<Text>成立 菲拉西提材料 公司。[NEWLINE][NEWLINE]免費獲得 菲拉西提材料 辦事處在此城市，並在己方城市解鎖建造 菲拉西提材料 辦事處。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_FIRAXITE">
+			<Text>[NEWLINE][TAB][TAB]"無論我們建立了什麼好東西，最終都會塑造我們自己。"[NEWLINE][TAB][TAB] - Jim Rohn[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS">
+			<Text>菲拉西提材料 辦事處</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_STRATEGY">
+			<Text>當外國城市與本城市之間的[ICON_INTERNATIONAL_TRADE]貿易路綫完成時，一個 菲拉西提材料 特許經營權就會在該外國城市建立。[NEWLINE][NEWLINE]菲拉西提材料 不能售出或由玩家摧毀，同時 +2 [ICON_RESEARCH]科學產出給所有的 菲拉西提材料 辦事處。[NEWLINE][NEWLINE]你的特許經營權不能超過你的特許經營權上限 (請參閱「公司與壟斷概觀」以瞭解更多相關資訊。)。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_HELP">
+			<Text>此城市建造建築 +20% [ICON_PRODUCTION]產能。每個 菲拉西提材料 特許經營權 +2 [ICON_RESEARCH]科學(取決于你的特許經營權上限)。[NEWLINE][NEWLINE]到有 菲拉西提材料 特許經營權的外國城市的貿易路綫產出額外 50% [ICON_RESEARCH]科學。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE">
+			<Text>菲拉西提材料 特許經營權</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE_STRATEGY">
+			<Text>這個建築只能被建造在外國城市，并且你是 菲拉西提材料 的創始人。若要在外國城市建造此建築物，從有 菲拉西提材料 辦事處的己方城市遣送貿易路線外國城市。當貿易路線完成時，建築物會自動建好。每個回合也有 5% 的機率在隨機的外國城市中自行出現特許經營權。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FIRAXITE_MATERIALS_FRANCHISE_HELP">
+			<Text>占位符將被覆蓋</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HQ">
+			<Text>雙凱食品 總部</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HQ_STRATEGY">
+			<Text>在您的城市之一建造這個建築，就能成立 雙凱食品 公司。請參閱文明百科的[COLOR_POSITIVE_TEXT]公司[ENDCOLOR]章節以取得更多資訊。[NEWLINE][NEWLINE]請記住，每個文明只能建立[COLOR_POSITIVE_TEXT]一個[ENDCOLOR]公司，因此，請確定效果適用於您的勝利策略！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HQ_HELP">
+			<Text>成立 雙凱食品 公司。[NEWLINE][NEWLINE]此城市免費獲得 雙凱食品 辦事處在此城市，並在己方城市解鎖建造 雙凱食品 辦事處。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_TWOKAY">
+			<Text>[NEWLINE][TAB][TAB]"沒有比對食物的愛更真摯的愛了。"[NEWLINE][TAB][TAB] - George Bernard Shaw[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS">
+			<Text>雙凱食品 辦事處</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_STRATEGY">
+			<Text>當外國城市與本城市之間的[ICON_INTERNATIONAL_TRADE]貿易路綫完成時，一個 雙凱食品 特許經營權就會在該外國城市建立。[NEWLINE][NEWLINE]雙凱食品 不能售出或由玩家摧毀，同時 +3 [ICON_FOOD]食物產出給所有的 雙凱食品 辦事處。[NEWLINE][NEWLINE]你的特許經營權不能超過你的特許經營權上限 (請參閱「公司與壟斷概觀」以瞭解更多相關資訊。)。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_HELP">
+			<Text>減少 1 來自所有需求的[ICON_HAPPINESS_3]不滿度和 5% 所有城市的[ICON_CITY_STATE]帝國規模修正。城市 +10% [ICON_FOOD]食物。每個 雙凱食品 特許經營權 +3 [ICON_FOOD]食物(取決于你的特許經營權上限)。[NEWLINE][NEWLINE]此城市每條到有 雙凱食品 特許經營權的外國城市的貿易路綫，此城市 +10% [ICON_FOOD]成長速度。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE">
+			<Text>雙凱食品 特許經營權</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE_STRATEGY">
+			<Text>這個建築只能被建造在外國城市，并且你是 雙凱食品 的創始人。若要在外國城市建造此建築物，從有 雙凱食品 辦事處的己方城市遣送貿易路線到外國城市。當貿易路線完成時，建築物會自動建好。每個回合也有 5% 的機率在隨機的外國城市中自行出現特許經營權。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TWOKAY_FOODS_FRANCHISE_HELP">
+			<Text>占位符將被覆蓋</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HQ">
+			<Text>文明珠寶 總部</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HQ_STRATEGY">
+			<Text>在您的城市之一建造這個建築，就能成立 文明珠寶 公司。請參閱文明百科的[COLOR_POSITIVE_TEXT]公司[ENDCOLOR]章節以取得更多資訊。[NEWLINE][NEWLINE]請記住，每個文明只能建立[COLOR_POSITIVE_TEXT]一個[ENDCOLOR]公司，因此，請確定效果適用於您的勝利策略！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HQ_HELP">
+			<Text>成立 文明珠寶 公司。[NEWLINE][NEWLINE]免費獲得 文明珠寶 辦事處在此城市，並在己方城市解鎖建造 文明珠寶 辦事處。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CORPORATION_QUOTE_CIVILIZED">
+			<Text>[NEWLINE][TAB][TAB]"坐在便宜座位上的人可以拍拍手嗎？其餘的人，請搖晃你們的珠寶。"[NEWLINE][TAB][TAB] - John Lennon[NEWLINE][TAB]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS">
+			<Text>文明珠寶 辦事處</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_STRATEGY">
+			<Text>當外國城市與本城市之間的[ICON_INTERNATIONAL_TRADE]貿易路綫完成時，一個 文明珠寶 特許經營權就會在該外國城市建立。[NEWLINE][NEWLINE]文明珠寶 不能售出或由玩家摧毀，同時所有 文明珠寶 辦事處 +5% [ICON_GREAT_PEOPLE]偉人誕生速度。[NEWLINE][NEWLINE]你的特許經營權不能超過你的特許經營權上限 (請參閱「公司與壟斷概觀」以瞭解更多相關資訊。)。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_HELP">
+			<Text>+3% [ICON_GOLDEN_AGE]黃金時代長度修正。城市 +15% [ICON_GREAT_PEOPLE]偉人誕生速度，并且每個 文明珠寶 特許經營權額外 +10%(取決于你的特許經營權上限)。[NEWLINE][NEWLINE]此城市每條到有 文明珠寶 特許經營權的外國城市的貿易路綫，此城市的[ICON_GOLD]金幣 +10%。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE">
+			<Text>文明珠寶 特許經營權</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_STRATEGY">
+			<Text>這個建築只能被建造在外國城市，并且你是 文明珠寶 的創始人。若要在外國城市建造此建築物，從有 文明珠寶 辦事處的己方城市遣送貿易路線到外國城市。當貿易路線完成時，建築物會自動建好。每個回合也有 5% 的機率在隨機的外國城市中自行出現特許經營權。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CIVILIZED_JEWELERS_FRANCHISE_HELP">
+			<Text>占位符將被覆蓋</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_STUPA">
+			<Text>舍利塔</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STUPA_STRATEGY">
+			<Text>城市建造需要追隨的宗教有舍利塔信條。通過[ICON_PEACE]信仰購買來建造它。城市建造舍利塔以獲得信仰，黃金時代點數和旅遊業績。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STUPA_HELP">
+			<Text>提升此城市多數派產生的[ICON_RELIGION]宗教压迫 25%。[NEWLINE][NEWLINE]-1 來自[ICON_RESEARCH]文盲的[ICON_HAPPINESS_3]不滿度。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STUPA_TEXT">
+			<Text>舍利塔是一個土丘狀或半球形的建築物，內藏佛教舍利，通常是佛教僧侶的骨灰，佛教徒將其用作冥想的地方。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_CHURCH">
+			<Text>教會</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHURCH_STRATEGY">
+			<Text>城市建造需要追隨的宗教有教會信條。通過[ICON_PEACE]信仰購買來建造它。建造教會以獲得信仰和一個被動的宗教壓力强力提升。同時城市開始一次「敬王之日」。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHURCH_HELP">
+			<Text>城市完成建造時開始 15 回合的「敬王之日」。城市所有[ICON_GREAT_WORK]巨作 +1 [ICON_PEACE]信仰。提升提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 40%。[NEWLINE][NEWLINE]-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHURCH_TEXT">
+			<Text>教會建築，通常簡稱為教會，是用於宗教活動，特別是崇拜儀式的建築。在建築學的意義上，這個詞最常被基督徒用來指他們的宗教建築，但其他宗教也可以使用。在傳統的基督教建築中，教會通常以基督教十字架的形狀排列。從平面圖來看，十字架最長的部分是走道，十字架的交界處位於祭壇區。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_MANDIR">
+			<Text>(印度教)寺廟</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MANDIR_STRATEGY">
+			<Text>城市建造需要追隨的宗教有(印度教)寺廟信條。通過[ICON_PEACE]信仰購買來建造它。建造(印度教)寺廟以獲得信仰和食物。城市成長時，提供一個所有產出的一小部分。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MANDIR_HELP">
+			<Text>當一個新[ICON_CITIZEN]公民在城市出生時，獲得 5 [ICON_FOOD]食物，[ICON_PRODUCTION]產能，[ICON_GOLD]金幣，[ICON_CULTURE]文化，[ICON_RESEARCH]科學，和[ICON_PEACE]信仰，隨時代遞增。[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 15%，并且增加城市面對[ICON_RELIGION]宗教轉化的抵抗力 10%。[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MANDIR_TEXT">
+			<Text>印度教寺廟是神的居所。它是為了讓人類與眾神相聚而設計的空間與結構，並注入象徵意義以表達印度教的思想與信仰。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE">
+			<Text>猶太教堂</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_STRATEGY">
+			<Text>城市建造需要追隨的宗教有猶太教堂信條。通過[ICON_PEACE]信仰購買來建造它。建造猶太教堂以獲得信仰，產能。「敬王之日」期間城市產生更多的科學。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_HELP">
+			<Text>增加城市面對[ICON_RELIGION]宗教轉化的抵抗力 15%。「敬王之日」期間，城市[ICON_RESEARCH]科學增加 +10%。[NEWLINE][NEWLINE]-1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿度。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SYNAGOGUE_TEXT">
+			<Text>猶太教堂(synagogue)，也拼寫為synagog，是猶太人的祈禱所。猶太教堂有一個供祈禱用的大廳(主聖所)，也可能有較小的房間供學習之用，有時也有社交廳和辦事處。有些猶太教堂有獨立的托拉研讀室，稱為 beth midrash。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_ORDER">
+			<Text>修會</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ORDER_STRATEGY">
+			<Text>城市建造需要追隨的宗教有修會信條。通過[ICON_PEACE]信仰購買來建造它。建造修會以獲得信仰，金幣和士氣晉升給城市訓練的所有軍事單位。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ORDER_HELP">
+			<Text>此城市建造軍事單位，獲得等同 10% 的單位[ICON_PRODUCTION]產能成本的[ICON_PEACE]信仰。陸地軍事單位產生自此城市時，獲得[COLOR_POSITIVE_TEXT]士氣[ENDCOLOR]晉升。[NEWLINE][NEWLINE]增加城市 3 [ICON_STRENGTH]戰鬥力和 10% [ICON_RANGE_STRENGTH]轟炸力。提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%。[NEWLINE][NEWLINE]-1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿度。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ORDER_TEXT">
+			<Text>軍事修會是從中世紀開始為了十字軍東征而成立的各種基督教騎士團體中的任何一種，其目的是在聖地或歐洲對抗伊斯蘭教(例如，在羅克復興時期)或異教徒(主要是在波羅的海地區)，傳播或捍衛信仰(最初是天主教，宗教改革後有時是新教)。許多教會在十字軍東征結束和鄂圖曼入侵之後，已經世俗化，在現代通常以羅馬天主教的儀式、傳教和慈善組織為代表。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TEOCALLI">
+			<Text>(中美洲等地)古代神庙</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_STRATEGY">
+			<Text>城市建造需要追隨的宗教有(中美洲等地)古代神庙信條。通過[ICON_PEACE]信仰購買來建造它。(中美洲等地)古代神庙向軍事訓練和信仰產出提供獎勵。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_HELP">
+			<Text>戰鬥中擊敗敵方單位 +5 [ICON_PEACE]信仰。增加 1 [ICON_SILVER_FIST]軍事單位供應上限。此城市產出的所有軍事單位 +15 經驗。提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%。[NEWLINE][NEWLINE]-1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿度。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEOCALLI_PEDIA">
+			<Text>Teocalli 是阿茲台克人的神廟。Teocalli 的結構是許多中美洲民族的典型結構，在巨大的階梯式金字塔頂端有一個有點小的密閉空間，金字塔的一側有樓梯。這些金字塔中最大的一座在總規模上超過了吉薩的埃及金字塔，儘管它們沒有埃及金字塔那麼高。與美索不達米亞宗教相似，阿茲台克人將他們的 Teocalli 視為眾神的真正居所，只允許祭司在儀式和特殊場合登上金字塔。這些儀式中最臭名昭著的是每月一次的人類祭祀，用來安撫阿茲台克神，戰爭中的俘虜會被從胸腔中取出跳動的心臟，然後被斬首。祭品的頭骨會被準備好，並展示在附近稱為「tzompantli」的頭骨架上，而器官和血肉則會被供奉給神。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA">
+			<Text>謁師所</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_STRATEGY">
+			<Text>城市建造需要追隨的宗教有Gurdwara信條。通過[ICON_PEACE]信仰購買來建造它。謁師所向城市成長和防禦提供獎勵。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_HELP">
+			<Text>提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%。[NEWLINE][NEWLINE]城市 +10% [ICON_FOOD]食物和 +10% [ICON_STRENGTH]防禦。-1 來自[ICON_FOOD]和[ICON_PRODUCTION]窘迫的[ICON_HAPPINESS_3]不滿度。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GURDWARA_PEDIA">
+			<Text>Gurdwara 的意思是「通往大師之門」，是錫克教徒的禮拜場所。所有的 Gurdwaras 都有放置在高台上的錫克教聖經 Guru Granth Sahib。在這個平台上，Raagis 為會眾誦讀、歌唱和解釋經文。所有 Gurdwaras 的另一個普遍特色是社區廚房，稱為 Langar.錫克教非常重視提供免費素食，讓所有社區成員，不分種族、階級、地位或宗教，都能免費用餐並擔任義工。</Text>
+		</Row>
+
+		<!--大教堂 -->
+		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL_HELP">
+			<Text>提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%。此城市附近的農場，牧場和采石场 +1 [ICON_GOLD]金幣。城市邊界擴張時，獲得 10 [ICON_GOLD]金幣，隨時代遞增。[NEWLINE][NEWLINE]-1 來自[ICON_GOLD]貧窮的[ICON_HAPPINESS_3]不滿度。</Text>
+		</Row>
+
+		<!-- Mosque -->
+		<Row Tag="TXT_KEY_BUILDING_MOSQUE_HELP">
+			<Text>提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%。城市[ICON_GOLDEN_AGE]黃金時代期間 +15% [ICON_CULTURE]文化。[NEWLINE][NEWLINE]-1 來自[ICON_RESEARCH]文盲的[ICON_HAPPINESS_3]不滿度。</Text>
+		</Row>
+
+		<!-- Pagoda -->
+		<Row Tag="TXT_KEY_BUILDING_PAGODA_HELP">
+			<Text>每個在此城市至少有一位信徒的世界宗教，所有城市產出 +1。[NEWLINE][NEWLINE]-1 來自[ICON_CULTURE]文化乏味的[ICON_HAPPINESS_3]不滿度和 -2 來自[ICON_RELIGION]宗教動亂的[ICON_HAPPINESS_3]不滿度。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM">
+			<Text>陵墓</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_STRATEGY">
+			<Text>建造陵墓以獲得來自戰爭中亡者的[ICON_PEACE]信仰和提升所有聖地。建造這個國家奇跡會允許你選擇一個改革信條。只能建造在聖城，并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整)。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_HELP">
+			<Text>當己方單位在戰鬥中被殺時獲得 [ICON_PEACE]信仰。獎勵隨時代而遞增。[NEWLINE][NEWLINE]所有[ICON_RELIGION]聖地 +5 [ICON_PEACE]信仰。[NEWLINE][NEWLINE]只能建造在聖城，并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整)。-1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度，同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR]。[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%，增加城市面對宗教轉化的抵抗力 20%。[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教，獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會的[ICON_DIPLOMAT]代表。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MAUSOLEUM_TEXT">
+			<Text>陵墓是一座獨立的外部建築物，作為紀念碑，圍繞著已故者的安葬空間或墓室。沒有安葬空間的紀念碑就是陵墓。陵墓可被視為墓穴的一種，或墓穴可被視為在陵墓內。基督教陵墓有時包括小教堂。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE">
+			<Text>天國寶座</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_STRATEGY">
+			<Text>建造天國寶座為你聖城的基礎產出帶來巨大提升和提升所有的聖地。建造這個國家奇跡會允許你選擇一個改革信條。只能建造在聖城，并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整)。減少[ICON_HAPPINESS_3]宗教動亂，同時允許你選擇一個改革信條。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_HELP">
+			<Text>+5 [ICON_GOLDEN_AGE]黃金時代點數給所有的[ICON_RELIGION]聖地。[NEWLINE][NEWLINE]只能建造在聖城，并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整)。-1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度，同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR]。[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%，增加城市面對宗教轉化的抵抗力 20%。[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教，獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會的[ICON_DIPLOMAT]代表。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HEAVENLY_THRONE_TEXT">
+			<Text>王座是君主或顯要人物的國家座位，尤其是君主在國事場合佔據的座位；或教宗或主教在儀式上所坐的座位。抽象意義上的"王座"也可以指君主制或王室本身，這是轉喻的一個例子，也用於許多表達，如"王座背後的權力"。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR">
+			<Text>大祭壇</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_STRATEGY">
+			<Text>建造大祭壇以提升軍事單位的產能和提升所有的聖地。建造這個國家奇跡會允許你選擇一個改革信條。只能建造在聖城，并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整)。減少[ICON_HAPPINESS_3]宗教動亂，同時允許你選擇一個改革信條。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_HELP">
+			<Text>此城市 +15% 軍事單位的[ICON_PRODUCTION]產能。[NEWLINE][NEWLINE]+5 [ICON_PRODUCTION]產能給所有的[ICON_RELIGION]聖地。[NEWLINE][NEWLINE]只能建造在聖城，并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整)。-1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度，同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR]。[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%，增加城市面對宗教轉化的抵抗力 20%。[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教，獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會的[ICON_DIPLOMAT]代表。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREAT_ALTAR_TEXT">
+			<Text>祭壇是為了宗教目的而在其上供奉祭品(如祭品)的任何建築物。祭壇通常設於神社，也可設於寺廟、教堂和其他宗教場所。今天，基督教、佛教、印度教、神道教、道教以及新異教派和儀式魔法都特別使用祭壇。猶太教一直使用這種結構，直到第二聖殿被毀。許多歷史上的信仰也有使用，包括希臘和北歐宗教。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY">
+			<Text>教皇檔案</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_STRATEGY">
+			<Text>建造教皇檔案以獲得來自研究科技的[ICON_GOLDEN_AGE]黃金時代點數，[ICON_TOURISM]旅遊業績和[ICON_CULTURE]文化和提升所有的聖地。建造這個國家奇跡會允許你選擇一個改革信條。只能建造在聖城，并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整)。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_HELP">
+			<Text>所有聖地 +5 [ICON_RESEARCH]科學。[NEWLINE][NEWLINE]只能建造在聖城，并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整)。減少[ICON_HAPPINESS_3]宗教動亂，同時允許你選擇一個改革信條。[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%，增加城市面對宗教轉化的抵抗力 20%。[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教，獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會的[ICON_DIPLOMAT]代表。[NEWLINE][NEWLINE]包含 3 文學[ICON_VP_GREATWRITING]巨作的席位。[NEWLINE]主題獎勵已啓動時 +2 [ICON_RESEARCH]科學和 +6 [ICON_PEACE]信仰。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_PEDIA">
+			<Text>教皇檔案是教皇辦事處私下收藏的信件和會議記錄。這套文件是梵蒂岡秘密檔案的前身。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT">
+			<Text>神聖法庭</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_STRATEGY">
+			<Text>建造神聖法庭以提升金幣產出和提升所有的聖地。建造這個國家奇跡會允許你選擇一個改革信條。只能建造在聖城，并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整)。減少[ICON_HAPPINESS_3]宗教動亂，同時允許你選擇一個改革信條。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_HELP">
+			<Text>+5 [ICON_CULTURE]文化給所有的[ICON_RELIGION]聖地。[NEWLINE][NEWLINE]只能建造在聖城，并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整)。-1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度，同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR]。[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%，增加城市面對宗教轉化的抵抗力 20%。[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教，獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會的[ICON_DIPLOMAT]代表。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DIVINE_COURT_TEXT">
+			<Text>beth din(「審判之所」或神聖法庭)是猶太教的拉比法庭。在古代，它是聖經中以色列土地上法律制度的基石。今天，在以色列和散居各地的猶太人社區中，它在許多宗教事務上(din Torah,「訴訟事務」，複數 dinei Torah)被賦予法律權力，其判決在特別與猶太人宗教生活有關的事務上具有不同程度的權威(取決於司法管轄權和事項)。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN">
+			<Text>聖潔花園</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_STRATEGY">
+			<Text>建造聖潔花園以提升文化產出和提升所有的聖地。建造這個國家奇跡會允許你選擇一個改革信條。只能建造在聖城，并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整)。減少[ICON_HAPPINESS_3]宗教動亂，同時允許你選擇一個改革信條。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_HELP">
+			<Text>+5 [ICON_FOOD]食物給所有的[ICON_RELIGION]聖地。[NEWLINE][NEWLINE]只能建造在聖城，并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整)。-1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度，同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR]。[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%，增加城市面對宗教轉化的抵抗力 20%。[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教，獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會的[ICON_DIPLOMAT]代表。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SACRED_GARDEN_TEXT">
+			<Text>宗教一直是影響花園設計的重要因素.美索不達米亞和古埃及都有神殿花園。古印度、希臘、羅馬、中國和日本都有聖林。神聖的樹木在凱爾特人和日耳曼人的歐洲很重要，在印度仍然很重要。在古印度，許多小樹林或森林都是神聖的，在現代印度教的崇拜中仍然如此.佛教對園林設計有很大的影響，中國和日本的禪宗園林就是著名的例子。在基督教中，尤其是天主教和聖公會，瑪麗花園在教堂和機構中很常見。在俄羅斯作家 Vladimir Megre 的 Ringing Cedars 系列書籍中，創造神聖花園的做法被重新注入活力，並適用於現代。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL">
+			<Text>神聖理事會</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_STRATEGY">
+			<Text>建造神聖理事會以提升食物產出和提升所有的聖地。建造這個國家奇跡會允許你選擇一個改革信條。只能建造在聖城，并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整)。減少[ICON_HAPPINESS_3]宗教動亂，同時允許你選擇一個改革信條。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_HELP">
+			<Text>+5 [ICON_RESEARCH]科學給所有的[ICON_RELIGION]聖地。[NEWLINE][NEWLINE]只能建造在聖城，并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整)。-1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度，同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR]。[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%，增加城市面對宗教轉化的抵抗力 20%。[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教，獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會的[ICON_DIPLOMAT]代表。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOLY_COUNCIL_TEXT">
+			<Text>大公會議(或稱聖會)是由教會要人和神學專家召開的會議，目的是討論並解決教會教義和實踐的問題，有投票權的人來自全世界(oikoumene)，並獲得整個教會的認可。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE">
+			<Text>宗座宮殿</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_STRATEGY">
+			<Text>建造宗座宮殿以更快進入黃金時代和提升所有的聖地。建造這個國家奇跡會允許你選擇一個改革信條。只能建造在聖城，并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整)。減少[ICON_HAPPINESS_3]宗教動亂，同時允許你選擇一個改革信條。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_HELP">
+			<Text>+4 [ICON_GOLDEN_AGE]黃金時代點數。[NEWLINE][NEWLINE]+5 [ICON_TOURISM]旅遊業績給所有的[ICON_RELIGION]聖地。[NEWLINE][NEWLINE]只能建造在聖城，并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整)。-1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度，同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR]。[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%，增加城市面對宗教轉化的抵抗力 20%。[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教，獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會的[ICON_DIPLOMAT]代表。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_APOSTOLIC_PALACE_TEXT">
+			<Text>拉丁文 basilica 一詞在現代英語中有三種不同的應用。該詞最初用於描述羅馬時期的開放式公共法院建築，通常位於羅馬城鎮的論壇旁邊。後來，這個詞被引申用於同樣形式的基督教建築，並繼續在建築學的意義上用於描述那些有中央中殿和過道的建築。後來，這個詞專指一座大型且重要的教堂，宗座宮殿，教宗賦予它特殊的儀式權利。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY">
+			<Text>大骨灰龕</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_STRATEGY">
+			<Text>建造大骨灰龕以獲得大量信仰和提升所有的聖地。建造這個國家奇跡會允許你選擇一個改革信條。只能建造在聖城，并且全球至少有 15% 的人口信奉您的宗教(隨地圖大小調整)。減少[ICON_HAPPINESS_3]宗教動亂，同時允許你選擇一個改革信條。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_HELP">
+			<Text>+5 [ICON_GOLD]金幣給所有的[ICON_RELIGION]聖地。[NEWLINE][NEWLINE]只能建造在聖城，并且全球至少有 15% 的人口信奉您的[ICON_RELIGION]宗教(隨地圖大小調整)。-1 來自宗教動亂的[ICON_HAPPINESS_3]不滿度，同時允許你選擇一個[COLOR_POSITIVE_TEXT]改革信條[ENDCOLOR]。[NEWLINE][NEWLINE]提升此城市多數派產生的[ICON_RELIGION]宗教壓迫 25%，增加城市面對宗教轉化的抵抗力 20%。[NEWLINE][NEWLINE]每 10 城市信奉你的[ICON_RELIGION]宗教，獲得 1 [COLOR_POSITIVE_TEXT]額外的[ENDCOLOR]世界議會的[ICON_DIPLOMAT]代表。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_OSSUARY_TEXT">
+			<Text>骨灰龕是一個箱子、盒子、建築物、井或地點，用來作為人類骸骨的最後安息之所。它們常用於埋葬空間稀少的地方。先將屍體埋葬在臨時墳墓中，若干年後再將骸骨移出並放置在骨灰龕中。骨灰甕佔用的空間大大減少，這意味著在一個墳墓中可以存放更多人的遺骸,比起原封不動的棺木更為方便。在波斯,拜火教徒從最早期(約 3,000 年前)就使用深井來實現這個功能，並稱之為 astudan(字面意思為「存放遺骨的地方」)。拜火教信仰中有許多關於 Astudan 的儀式和規定。在 7 世紀前中亞地區的索格迪亞人 (Sogdians) 中，甕棺的名稱是 tanbar。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY">
+			<Text>修道院</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_THRONE_ROOM">
+			<Text>覲見室</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAPITAL_THRONE_ROOM_HELP">
+			<Text>+1 單元格工作半徑。+10% 所有城市產出。包含 1 音樂[ICON_VP_GREATMUSIC]巨作的席位。[NEWLINE][NEWLINE]只有通過 [COLOR_MAGENTA]{TXT_KEY_CIV5_POLICY_TRADITION_HEADING}[ENDCOLOR] 完美主義者才能建造。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAPITAL_THRONE_ROOM_PEDIA">
+			<Text>覲見室是指王室官邸(宮殿或堅固的城堡)中的一個房間，通常是一個大廳，在這裡，高級人物(通常是君主)的王座以精緻的華麗方式擺放著--通常是高高的，通常有台階，並設有天篷，這兩個都是希臘文 thronos 一詞的原始概念。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PALACE_TREASURY">
+			<Text>國庫</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_TREASURY_HELP">
+			<Text>所有{TXT_KEY_BUILDING_MONUMENT_DESC}，{TXT_KEY_BUILDING_BATH}和{TXT_KEY_BUILDING_GARDEN}獲得 +2 [ICON_CULTURE]文化。[NEWLINE][NEWLINE]建造需已采用[COLOR_MAGENTA]{TXT_KEY_POLICY_LANDED_ELITE}[ENDCOLOR]政策。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_TREASURY_PEDIA">
+			<Text>金庫 (treasury) 一詞最早是在古典時代用來形容為存放獻給神明的禮物而建造的祭祀建築物，例如德爾斐 (Delphi) 的西普尼亞金庫 (Siphnian Treasury) 或希臘奧林匹亞 (Olympia) 的許多類似建築物，都是在古代奧林匹克運動會期間，由相互競爭的城邦為了給別人留下深刻印象而建造的。在古希臘，金庫幾乎總是與廟宇等宗教建築物結合在一起，因此使國家資金變得神聖不可侵犯，並對有權使用這些資金的人增加了道德上的刑罰約束。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_CAPITAL_ENGINEER">
+			<Text>皇家衛兵室</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAPITAL_ENGINEER_HELP">
+			<Text>+20% 來自人口的[ICON_SILVER_FIST]軍事單位供應上限。[NEWLINE][NEWLINE]建造需已采用[COLOR_MAGENTA]{TXT_KEY_POLICY_ARISTOCRACY}[ENDCOLOR]政策。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CAPITAL_ENGINEER_PEDIA">
+			<Text>皇家衛隊(Royal Guard)是指負責保護皇室人員(例如皇帝/皇后、國王/女王或王子/公主)的任何軍事保鏢、士兵或武裝家臣團體。他們通常是正規武裝部隊的精銳單位，或被指定為正規武裝部隊的精銳單位，並可維持特殊權利或特殊待遇。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN">
+			<Text>宮廷花園</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_HELP">
+			<Text>城市 +25% [ICON_GREAT_PEOPLE]偉人誕生速度。包含 1 文學[ICON_VP_GREATWRITING]巨作的席位。[NEWLINE][NEWLINE]此城市 2 專家不再產生來自[ICON_URBANIZATION]城市化的[ICON_HAPPINESS_3]不滿度。[NEWLINE][NEWLINE]建造需已采用[COLOR_MAGENTA]{TXT_KEY_POLICY_MONARCHY}[ENDCOLOR]政策。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_GARDEN_PEDIA">
+			<Text>花園是一個規劃好的空間，通常在戶外，是為了展示、栽培和欣賞植物及其他形式的自然而預留的。花園可以結合自然和人造材料。現今最常見的形式稱為住宅花園，但傳統上花園一詞的涵義較為廣泛。動物園是在模擬的自然棲息地展示野生動物，以前稱為動物的花園。[1][2] 西方的花園幾乎都以植物為主,花園通常表示植物園的簡稱。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PALACE_COURT_CHAPEL">
+			<Text>宮廷小禮拜堂</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_COURT_CHAPEL_HELP">
+			<Text>包含 1 藝術[ICON_GREAT_WORK]巨作或文物的席位。[NEWLINE][NEWLINE]建造需已采用[COLOR_MAGENTA]{TXT_KEY_POLICY_OLIGARCHY}[ENDCOLOR]政策。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_COURT_CHAPEL_PEDIA">
+			<Text>小禮拜堂是一個宗教交誼、祈禱和崇拜的場所，附屬於一個較大的、通常是非宗教的機構，或被視為主要宗教機構的延伸。它可能是較大建築物或複合建築物的一部分，例如學院、醫院、宮殿、監獄、殯儀館、教堂、猶太教會堂或清真寺、位於軍事或商船上，也可能是完全獨立的建築物，有時也有自己的場地。許多軍事設施都有供軍人使用的小教堂，通常由軍事牧師領導。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PALACE_ASTROLOGER">
+			<Text>皇家占星師</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_ASTROLOGER_HELP">
+			<Text>所有{TXT_KEY_BUILDING_GROVE}，{TXT_KEY_BUILDING_LODGE}和{TXT_KEY_BUILDING_HERBALIST}獲得 +1 [ICON_RESEARCH]科學。[NEWLINE][NEWLINE]建造需已采用[COLOR_MAGENTA]{TXT_KEY_POLICY_LEGALISM}[ENDCOLOR]政策。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALACE_ASTROLOGER_PEDIA">
+			<Text>最廣義的占星術是尋找天空的意義。早期人類有意識地嘗試參考天文週期來測量、記錄和預測季節變化的證據，出現在骨頭和洞穴牆壁上的標記，顯示早在 25,000 年前就有人注意到月球週期。這是記錄月亮對潮汐和河流影響的第一步，也是組織公共曆法的第一步。農民隨著對不同季節出現的星座的認識增加，並利用特定星群的升起來預示每年的洪水或季節活動，以滿足農業需求。到了公元前三千年，文明已經對天體週期有了成熟的認知，並且可能已經將寺廟的方向與日蝕星群對齊。</Text>
+		</Row>
+
+		<!-- Theming bonuses -->
+		<Row Tag="TXT_KEY_THEMING_BONUS_AMPHITHEATER_NATIONAL">
+			<Text>民族史詩</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_AMPHITHEATER_GLOBAL">
+			<Text>全球史詩</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AMPHITHEATER_THEMING_BONUS_HELP">
+			<Text>為了讓您的獎勵最大化，請確保所有的巨作席位都填滿了您自己文明或其他文明的著作。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_THEMING_BONUS_BROADCAST_TOWER_NATIONAL">
+			<Text>KCIV 101.5FM - #1 for Classic Jams</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_BROADCAST_TOWER_CLASSICS">
+			<Text>KSID 107.7FM - Today's Hits, Yesterday's Favorites</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_BROADCAST_TOWER_ALL">
+			<Text>KGAZ 89.5FM - Eclectic Radio Mix</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BROADCAST_TOWER_THEMING_BONUS_HELP">
+			<Text>為了讓您的獎勵最大化，請確保兩個巨作都符合下列條件之一：[NEWLINE]1.) 兩者來自同一時代[NEWLINE]2.) 兩者來自不同時代。[NEWLINE]3.) 兩者來自連續的時代。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_THEMING_BONUS_RELIGIOUS_LIBRARY">
+			<Text>{2_CivAdjective} 秘密通信檔案庫</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_LIBRARY_THEMING_BONUS_HELP">
+			<Text>為了讓您的獎勵最大化，確保所有席位都填滿相同文明的文學。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_THEMING_BONUS_BUILDING_PARTHENON">
+			<Text>古物館</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PARTHENON_THEMING_BONUS_HELP">
+			<Text>為了讓您的獎勵最大化，確保兩個巨作都創造自你。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_THEMING_BONUS_BUILDING_NOTRE_DAME">
+			<Text>神聖庇護所</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NOTRE_DAME_THEMING_BONUS_HELP">
+			<Text>為了讓您的獎勵最大化，確保兩個巨作都創造自玩家而不是來自擁有者。</Text>
+		</Row>
+	</Language_zh_Hant_HK>
+</GameData>

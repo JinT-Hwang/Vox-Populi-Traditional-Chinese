@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_zh_Hant_HK>
+		<Row Tag="TXT_KEY_GENERIC_MAPS_OFFER">
+			<Text>我們想向您購買您的世界地圖。您會接受嗎？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_TECH_OFFER">
+			<Text>我們想向您購買一項技術。這可以接受嗎？</Text>
+		</Row>
+		<!-- AI vassal greets human master -->
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_HOSTILE_1">
+			<Text>你奴役我的人民，讓我們所有人都感到尷尬。你想要什麼？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_HOSTILE_2">
+			<Text>哦，暴君又露臉了。你還想怎麼剝削我們？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_HOSTILE_3">
+			<Text>什麼風把暴君吹來了？你是來進一步唾棄我們和我們的驕傲嗎？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_1">
+			<Text>歡迎，主人，來到我的土地。我能為您效勞嗎？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_2">
+			<Text>您好！我希望您很高興知道我們的工作人員正在努力製作資源供您使用。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_VASSAL_3">
+			<Text>歡迎主人！您需要我們提供什麼幫助？</Text>
+		</Row>
+		<!-- AI master greets human vassal -->
+		<Row Tag="TXT_KEY_GENERIC_GREETING_HOSTILE_VASSALAGE_MASTER_1">
+			<Text>看啊，我的小寵物來找我了。你想要什麼？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_HOSTILE_VASSALAGE_MASTER_2">
+			<Text>你的人最好努力創造資源來取悅我。你想要什麼？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_HOSTILE_VASSALAGE_MASTER_3">
+			<Text>你站在你的上級面前。跪在我面前，否則。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_MASTER_1">
+			<Text>這是什麼？我的附庸來訪？是你的貢品嗎？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_MASTER_2">
+			<Text>啊，我的眾多僕人之一？你要提供什麼？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_GREETING_VASSALAGE_MASTER_3">
+			<Text>我保證我的士兵會保護你和你的土地。你想要什麼？</Text>
+		</Row>
+		<!-- AI asks human to revoke their vassalage -->
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_HOSTILE_1">
+			<Text>我們厭倦了你們對我們可悲的統治，並準備誓死奮戰，以重拾我們的獨立。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_HOSTILE_2">
+			<Text>放棄對我們帝國的控制，或者承受後果。聽起來哪個計劃更明智？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_HOSTILE_3">
+			<Text>我的人民想要獨立，你們無法阻止我們。現在，我們可以用簡單的方法，也可以用困難的方法。選擇權在你手上。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_1">
+			<Text>我的人民在這個世界上尋找自己道路的時候到了。我們渴望一個獨立的國家，你怎麼說？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_2">
+			<Text>你們對我們帝國的佔領已經不再是我的臣民所能容忍的了，我現在正式要求你們允許我的人民作為一個獨立的主權國度生活。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKE_VASSALAGE_3">
+			<Text>我們相信終止附庸協議的時刻到了。我們的人民渴望獨立統治。你願意接受嗎？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_PEACEFUL_1">
+			<Text>我的人民感謝您決定給予我們獨立。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_PEACEFUL_2">
+			<Text>釋放我的族人是你的慷慨之舉。我很感謝你。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_PEACEFUL_3">
+			<Text>你恢復我們的獨立真是太好了。願這一天能被世世代代記住。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_WAR_1">
+			<Text>很好。我們的人民會誓死捍衛獨立。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_WAR_2">
+			<Text>你選擇無謂地讓你的人為此流血。我們的人民不會迴避獨立。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_HUMAN_WAR_3">
+			<Text>那好吧。我們將戰死以捍衛我們的自由。</Text>
+		</Row>
+		<!-- Human asks AI to revoke their vassalage -->
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_PEACEFUL_1">
+			<Text>很好。我們允許你們獨立，並承認你們的人民是一個獨立的國家。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_PEACEFUL_2">
+			<Text>我接受。你已經脫離了我帝國的控制。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_PEACEFUL_3">
+			<Text>瞭解。我們接受您獨立的權利。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_FORCEFUL_1">
+			<Text>你以為你在跟誰說話?我的傀儡不能輕易離開我的。現在我要鎮壓你們的叛亂。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_FORCEFUL_2">
+			<Text>你真的以為我會那麼輕易放過你嗎？哈！不......現在準備受死吧。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_REVOKED_FORCEFUL_3">
+			<Text>你瘋了吧？你真的以為我會那麼可憐嗎？我會享受把你的軍隊打成碎片的樂趣。</Text>
+		</Row>
+		<!-- Human declares war on AI vassal -->
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_ATTACKED_VASSAL_1">
+			<Text>我相信你會保護我們，但你卻攻擊我們。真遺憾。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_ATTACKED_VASSAL_2">
+			<Text>你真是野蠻！你答應保護我們的人民，卻攻擊我們！別搞錯了，我會殺了你，到時你會受苦。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_VASSALAGE_ATTACKED_VASSAL_3">
+			<Text>你是我們的保護者。據說你會摧毀我們的攻擊者，而不是加入他們！為我們帶來繁榮，而不是讓我們陷入黑暗！你迷失了，現在，全世界都會知道。</Text>
+		</Row>
+		<!-- Third-party AI asks human to release vassals -->
+		<Row Tag="TXT_KEY_GENERIC_RESPONSE_VASSALAGE_TRADE_REVOKE_1">
+			<Text>您的臣民國家在呼喊獨立。你能聽到嗎？來吧，要付出多少錢才能讓你聽到呢？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RESPONSE_VASSALAGE_TRADE_REVOKE_2">
+			<Text>我求你了，請放了你的附庸吧。這個條件夠誘人嗎？</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERIC_RESPONSE_VASSALAGE_TRADE_REVOKE_3">
+			<Text>獨立是天賦的權利。來吧，讓我們為了你的臣民達成協議，恢復平衡。</Text>
+		</Row>
+		<!-- Human releases AI vassal -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_LIBERATED_HUMAN_1">
+			<Text>這個善意的舉動不會很快被忘記。你給了我的人民自由。我永遠感激您。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_LIBERATED_HUMAN_2">
+			<Text>這需要一位睿智勇敢的領袖，以正派和自由的名義取消他們的要求。我的人民將在未來幾個世紀慶祝我們的獨立日。我謹此致謝。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_LIBERATED_HUMAN_3">
+			<Text>我們感謝您承認我們是一個獨立的國家。願我們的人民攜手共存，成為盟友。</Text>
+		</Row>
+		<!-- AI releases human vassal -->
+		<Row Tag="TXT_KEY_RESPONSE_LIBERATE_VASSAL_1">
+			<Text>我們決定撤銷對你們土地的要求。你們可以作為一個自由的民族繼續生活。你們不再是我們的附庸。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_LIBERATE_VASSAL_2">
+			<Text>我相信我們做你主人的時間結束了。我允許你們獨立。願我們將來仍是偉大的盟友。你不再是我們的附庸。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_LIBERATE_VASSAL_3">
+			<Text>經過慎重的考慮，我們決定結束我們的協議，給你自由。願我們的帝國在未來的時代繁榮興盛。你不再是我們的附庸。</Text>
+		</Row>
+		<!-- Human raises AI vassal tax -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_HUMAN_MASTER_1">
+			<Text>我對您選擇提高我們的稅收感到失望。那些錢是屬於我的人民的。請放心，我們的關係已經受到傷害。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_HUMAN_MASTER_2">
+			<Text>我求你了，請憐憫一下我們的商人。你們的徵稅破壞了我們的經濟。我很失望你們選擇了這條路。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_HUMAN_MASTER_3">
+			<Text>你們增加我們的稅收是不可接受的。控制我們的政治事務還不夠滿足你們的貪婪嗎？</Text>
+		</Row>
+		<!-- Human lowers AI vassal tax -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_HUMAN_MASTER_1">
+			<Text>我們很高興聽到您降低了我們的稅收。我們只能希望這是一個好兆頭。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_HUMAN_MASTER_2">
+			<Text>我感謝您減輕了我們的稅收。我們保證我們經濟的增長從長遠來看會對我們兩國都有幫助。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_HUMAN_MASTER_3">
+			<Text>我們認為您降低稅收的決定是一項能使我們的人民更加團結的舉動。我們感謝您。</Text>
+		</Row>
+		<!-- AI raises human vassal tax -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_RAISED_AI_MASTER_1">
+			<Text>統治另一個地區會給我們帶來巨大的成本。我們決定提高你們的稅收。希望你們能理解。</Text>
+		</Row>
+		<!-- AI lowers human vassal tax -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSAL_TAXES_LOWERED_AI_MASTER_1">
+			<Text>我很高興地宣布，我已經降低了你們的稅收。沒有你們的幫助，我們的帝國也可以茁壯成長，我認為沒有必要拉扯我們的關係。</Text>
+		</Row>
+		<!-- AI offers voluntary vassalage -->
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_BECOME_VASSAL_1">
+			<Text>我的弱點世人皆知。請接受我的效忠。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESPONSE_VASSALAGE_BECOME_VASSAL_2">
+			<Text>您偉大的力量無邊無際。我們的軟弱使我們成為誘人的目標。懇請您保護我們。</Text>
+		</Row>
+	</Language_zh_Hant_HK>
+</GameData>

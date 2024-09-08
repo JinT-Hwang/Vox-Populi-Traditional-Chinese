@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_zh_Hant_HK>
+		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY">
+			<Text>探索之旅</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP">
+			<Text>如果單位在己方領土中，這個指令會消耗該單位，給予您兩份[COLOR_POSITIVE_TEXT]無償的[ENDCOLOR]隨機的奢侈品資源複製品，優先給在這張地圖上無法獲得且目前未被擁有的奢侈資源。[NEWLINE][NEWLINE]這些資源不會出現在地圖上，如果地圖上沒有這些資源不會計入壟斷，但可以交易給其他文明。也會增加您的[ICON_WAR]軍事供應上限 1。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_FREE_LUXURY_HELP_DISABLED">
+			<Text>單位必須在己方領土內才能使用此能力。</Text>
+		</Row>
+	</Language_zh_Hant_HK>
+</GameData>

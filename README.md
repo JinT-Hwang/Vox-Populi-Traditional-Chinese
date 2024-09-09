@@ -1,11 +1,11 @@
 # Vox-Populi-Traditional-Chinese
-# Vox-Populi-繁体中文汉化
+# Vox-Populi-繁体中文
 
 
 
-英文原版地址: https://github.com/LoneGazebo/Community-Patch-DLL
+英文原版: https://github.com/LoneGazebo/Community-Patch-DLL
 
-繁体汉化地址: https://github.com/JinT-Hwang/Vox-Populi-Traditional-Chinese
+繁体中文: https://github.com/JinT-Hwang/Vox-Populi-Traditional-Chinese
 
 ------
 
@@ -20,18 +20,18 @@
 3.运行 Vox.Populi.4.16.exe 进行安装. (根据需要进行安装 CP 或 VP, 以及是否使用EUI)
 
 
-4.将 "4.16 繁体" 文件夹中, 有对应名字的文件夹覆盖到
-C:\Users\你的电脑用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文件夹下, 即可.
+4.将 "Vox Populi 4.16 Traditional Chinese" 文件夹中, 放置到
+C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文件夹下, 即可.
 
 ------
 
 其他说明:
 
 
-1.汉化文本为繁体, 只针对版本 4.16 需注意, 游戏若非繁体中文, 可能会因为字体不支持繁体而不能显示文本. 
+1.汉化文本为繁体, 只针对版本 4.16 . 需注意, 游戏若非繁体中文, 可能会因为字体不支持繁体而不能显示文本. 
 
 
 2.绝大部分的人物名字, 或艺术品名字/作者没有翻译, 只对作品描述进行翻译.
 
 
-3.汉化可能有错漏, 或者翻译不到位, 欢迎指出.
+3.中文可能有错漏, 或者翻译不到位, 多多指教.

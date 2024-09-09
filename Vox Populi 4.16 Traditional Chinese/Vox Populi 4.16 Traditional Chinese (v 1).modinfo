@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="21b3ba89-f77b-45a1-9de5-494c14111faa" version="1">
+  <Properties>
+    <Name>Vox Populi 4.16 Traditional Chinese</Name>
+    <Teaser>Vox Populi 4.16 的繁体中文汉化</Teaser>
+    <Description>Vox Populi 4.16 的繁体中文汉化</Description>
+    <Authors>Jint Hwang</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="138" maxversion="999" title="(1) Community Patch" />
+  </Dependencies>
+  <References>
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="17" maxversion="999" title="(2) Vox Populi" />
+    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="1" maxversion="999" title="(3a) VP - EUI Compatibility Files" />
+    <Mod id="3645dbca-bdfb-4d86-bdc5-46cb5a426cc2" minversion="1" maxversion="999" title="(4a) Squads for VP" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="42D2BBCFBE7EBDB1099C6274A8A0C2D9" import="0">(1) Community Patch/Core Files/PNM Mods DB/API/Espionage.xml</File>
+    <File md5="B5212EF97982246297997F5903DD1359" import="0">(1) Community Patch/Core Files/PNM Mods DB/API/Religion.xml</File>
+    <File md5="B9718E2961BDE940740AE35B74E7042E" import="0">(1) Community Patch/Core Files/PNM Mods DB/BUGFIX/GoodyHutMessages.xml</File>
+    <File md5="DD64710E5A15F1A6223C61B1070F75E7" import="0">(1) Community Patch/Core Files/PNM Mods DB/BUGFIX/UnitclassNotUnit.xml</File>
+    <File md5="D79E73916A488B9CA1F1C28792F15353" import="0">(1) Community Patch/Core Files/Text/CoreText_en_US.sql</File>
+    <File md5="F5ABC800431D3FCF3739AFFFEAB7E70D" import="0">(1) Community Patch/Core Files/Text/CoreText_en_US.xml</File>
+    <File md5="BA4CD98779734810B79EA9B89467BDBC" import="0">(1) Community Patch/Modules/MoreGP/ExtraGPs.sql</File>
+    <File md5="23B6394E07DA4EB2B6809412B1221EBF" import="0">(2) Vox Populi/Core Files/Overrides/CivilopediaScreen.lua</File>
+    <File md5="66ED456035E625A06378958A028ACA65" import="0">(2) Vox Populi/Database Changes/Text/en_US/AI/DiplomacyResponseTextChanges.sql</File>
+    <File md5="613D22D2FC203EFCA278B5797699230D" import="0">(2) Vox Populi/Database Changes/Text/en_US/AI/NewDiplomacyResponseText.xml</File>
+    <File md5="FFE49F7A3E5CC3B6B3AC5A2F1C452D62" import="0">(2) Vox Populi/Database Changes/Text/en_US/Beliefs/BeliefTextChanges.sql</File>
+    <File md5="49577C330F8DA6254DDAE4D42CA7C40C" import="0">(2) Vox Populi/Database Changes/Text/en_US/Beliefs/NewBeliefText.xml</File>
+    <File md5="54AA8A4BA4356AF95D9B7949BC972DA9" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/BuildingTextChanges.sql</File>
+    <File md5="25D4046538C0A90B1CBAC81E7B4C1113" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/NewBuildingText.xml</File>
+    <File md5="9BEDD21D137A1FF940D26A17468F1688" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/NewGreatWorkText.xml</File>
+    <File md5="F0A31FD60E60BFC98F6F089F7D52BF2A" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/NewProcessText.xml</File>
+    <File md5="F098EB5553C9ED131824308EF5B7D511" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/NewProjectText.xml</File>
+    <File md5="E8134EE3E2A6940797E10DEBADFF67CA" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/NewSpecialistText.xml</File>
+    <File md5="5A958170F935974272801CB67EA835E8" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/ProcessTextChanges.sql</File>
+    <File md5="F7D7B97AC84CBF16412185837A557D5A" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/ProjectTextChanges.sql</File>
+    <File md5="91028E8F41F4C89FD1F54A9FF15891F9" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/SpecialistTextChanges.sql</File>
+    <File md5="9F49921E4474F95A5C5152CD18F09152" import="0">(2) Vox Populi/Database Changes/Text/en_US/Civilizations/CivilizationTextChanges.sql</File>
+    <File md5="F103EE188CD7182426631C0A00814263" import="0">(2) Vox Populi/Database Changes/Text/en_US/Civilizations/NewCivilizationText.xml</File>
+    <File md5="B4392D21127B499C4594D4A50B00B5AD" import="0">(2) Vox Populi/Database Changes/Text/en_US/Concepts/ConceptTextChanges.sql</File>
+    <File md5="50E447A03F8DCFF81A649944D8CBACFD" import="0">(2) Vox Populi/Database Changes/Text/en_US/Concepts/NewConceptText.xml</File>
+    <File md5="7EB51A2D0D77629E94C50D3A418917EC" import="0">(2) Vox Populi/Database Changes/Text/en_US/Corporations/NewCorporationText.xml</File>
+    <File md5="AAB87A31CD32910A7EC8D9CAF222BC60" import="0">(2) Vox Populi/Database Changes/Text/en_US/Difficulty/DifficultyTextChanges.sql</File>
+    <File md5="29CED515D308511D7C63909B851681C7" import="0">(2) Vox Populi/Database Changes/Text/en_US/Espionage/NewEspionageText.xml</File>
+    <File md5="320E39E8C67D6F29F72C5FD123D04513" import="0">(2) Vox Populi/Database Changes/Text/en_US/Events/NewEventText.xml</File>
+    <File md5="F4161548FE35D34F1E1BAD91406F961E" import="0">(2) Vox Populi/Database Changes/Text/en_US/GameOptionTextChanges.sql</File>
+    <File md5="5983717838DFDE87608FD77FB316A1CC" import="0">(2) Vox Populi/Database Changes/Text/en_US/NewAutomateText.xml</File>
+    <File md5="5D652CDFF9E500CFE50A00F131D1A5E9" import="0">(2) Vox Populi/Database Changes/Text/en_US/NewGameOptionText.xml</File>
+    <File md5="83695445E74F0656E6886CE63A4D4AB3" import="0">(2) Vox Populi/Database Changes/Text/en_US/NewMapscriptText.xml</File>
+    <File md5="666FBAD84671A2D6FFFCDF501713E8E3" import="0">(2) Vox Populi/Database Changes/Text/en_US/Notifications/NewNotificationText.xml</File>
+    <File md5="849DBA6314DF60AACFD36785D56AE9ED" import="0">(2) Vox Populi/Database Changes/Text/en_US/Notifications/NotificationTextChanges.sql</File>
+    <File md5="25F206A9464836681EBB747B62011F09" import="0">(2) Vox Populi/Database Changes/Text/en_US/Policies/NewPolicyText.xml</File>
+    <File md5="0A76B9D6DA5F7DB77329D9EC3023DC52" import="0">(2) Vox Populi/Database Changes/Text/en_US/Policies/PolicyTextChanges.sql</File>
+    <File md5="F31088398625540D5E4B98C43A8EADF5" import="0">(2) Vox Populi/Database Changes/Text/en_US/Tech/NewTechText.xml</File>
+    <File md5="F229CBF69D07FDEEE4BB85D1651963BD" import="0">(2) Vox Populi/Database Changes/Text/en_US/Tech/TechTextChanges.sql</File>
+    <File md5="C665DCBB61E05384ED14E7B138B7A602" import="0">(2) Vox Populi/Database Changes/Text/en_US/UI/InterfaceModeTextChanges.sql</File>
+    <File md5="6FEF82D2DC36D215CA815A913AC03BCC" import="0">(2) Vox Populi/Database Changes/Text/en_US/UI/NewUIText.sql</File>
+    <File md5="7D22F9251C8250990602F1D4F157B316" import="0">(2) Vox Populi/Database Changes/Text/en_US/UI/NewUIText.xml</File>
+    <File md5="1201570A0C08F0ACA4866CDAF8B41EE0" import="0">(2) Vox Populi/Database Changes/Text/en_US/UI/UITextChanges.sql</File>
+    <File md5="871A10D6304FAEB25F2C51DD690ABF85" import="0">(2) Vox Populi/Database Changes/Text/en_US/UnitPromotions/NewPromotionText.xml</File>
+    <File md5="0B73219B170FE807B861FC806CF4DD0D" import="0">(2) Vox Populi/Database Changes/Text/en_US/UnitPromotions/PromotionTextChanges.sql</File>
+    <File md5="67F8012281C95D79C33E3280BA9CF865" import="0">(2) Vox Populi/Database Changes/Text/en_US/Units/MissionTextChanges.sql</File>
+    <File md5="1C871D1D46C5AD68C40615B5BFC43B8E" import="0">(2) Vox Populi/Database Changes/Text/en_US/Units/NewMissionText.xml</File>
+    <File md5="9BE87709F8A5E14E86F8B9252B17C76D" import="0">(2) Vox Populi/Database Changes/Text/en_US/Units/NewUnitText.sql</File>
+    <File md5="9C3D2683835CEFB19F0B6D7800BACCB1" import="0">(2) Vox Populi/Database Changes/Text/en_US/Units/NewUnitText.xml</File>
+    <File md5="CD0D9F28E4232CA3D8E8EE64963A7E77" import="0">(2) Vox Populi/Database Changes/Text/en_US/Units/UnitTextChanges.sql</File>
+    <File md5="86C4690044780EA2F7698269C21B28AA" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/NewProjectText.xml</File>
+    <File md5="45B662E79829181E2CB1A7BFE5A8B529" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/NewResolutionText.xml</File>
+    <File md5="B7FE3C78887AB327CC6C3EDFFFFE3374" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/ProjectTextChanges.sql</File>
+    <File md5="D660C3397AEF986A94C11D9BD5585002" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/ResolutionTextChanges.sql</File>
+    <File md5="FCA5FDBFFAA4D2C538B22FC0A54DA120" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/SpecialSessionTextChanges.sql</File>
+    <File md5="537E626D9D858CDACE4B7F51EFF27766" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/FeatureTextChanges.sql</File>
+    <File md5="14BC98E29F2B74A0295C0777BCCDC4AB" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/ImprovementTextChanges.sql</File>
+    <File md5="90C92623A01EAAABC352138FFDFB1FA9" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/NewFeatureText.xml</File>
+    <File md5="A27A4E1CE86311AC83CCA49E3DAC55A1" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/NewGoodyHutText.xml</File>
+    <File md5="EB9D28CCEB4A6AB3833B4785189F8B5F" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/NewImprovementText.xml</File>
+    <File md5="617430F4271C00BFC0005ACD8919E4E6" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/NewResourceText.xml</File>
+    <File md5="C899924E6C38B0CF6B1F8A0C9475196A" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/ResourceTextChanges.sql</File>
+    <File md5="D1E6405E134F219DBA3BD407FC035AF5" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/RouteTextChanges.sql</File>
+    <File md5="172FE0D10D258C0BC26E572295833FF6" import="0">(3a) VP - EUI Compatibility Files/EUI/EUI_text_en_us.xml</File>
+    <File md5="9F6EBE9CAD567774250BA4ADF51CC276" import="0">(3a) VP - EUI Compatibility Files/EUI/NeededText.xml</File>
+    <File md5="D3EECC8DCFEB94948CE597FEB6D2B8D2" import="0">(3a) VP - EUI Compatibility Files/ImprovedTopPanel/Text.xml</File>
+    <File md5="AA195EE622E2DE5F5CD660BEEC3B80B0" import="0">(4a) Squads for VP/XML/Squads_EN_US.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>(1) Community Patch/Core Files/PNM Mods DB/API/Espionage.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch/Core Files/PNM Mods DB/API/Religion.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch/Core Files/PNM Mods DB/BUGFIX/GoodyHutMessages.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch/Core Files/PNM Mods DB/BUGFIX/UnitclassNotUnit.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch/Core Files/Text/CoreText_en_US.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch/Core Files/Text/CoreText_en_US.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch/Modules/MoreGP/ExtraGPs.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/AI/DiplomacyResponseTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/AI/NewDiplomacyResponseText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Beliefs/BeliefTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Beliefs/NewBeliefText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/City/BuildingTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/City/NewBuildingText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/City/NewGreatWorkText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/City/NewProcessText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/City/NewProjectText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/City/NewSpecialistText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/City/ProcessTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/City/ProjectTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/City/SpecialistTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Civilizations/CivilizationTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Civilizations/NewCivilizationText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Concepts/ConceptTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Concepts/NewConceptText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Corporations/NewCorporationText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Difficulty/DifficultyTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Espionage/NewEspionageText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Events/NewEventText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Notifications/NewNotificationText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Notifications/NotificationTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Policies/NewPolicyText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Policies/PolicyTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Tech/NewTechText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Tech/TechTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/UI/InterfaceModeTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/UI/NewUIText.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/UI/NewUIText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/UI/UITextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/UnitPromotions/NewPromotionText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/UnitPromotions/PromotionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Units/MissionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Units/NewMissionText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Units/NewUnitText.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Units/NewUnitText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/Units/UnitTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/NewProjectText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/NewResolutionText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/ProjectTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/ResolutionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/SpecialSessionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/WorldMap/FeatureTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/WorldMap/ImprovementTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/WorldMap/NewFeatureText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/WorldMap/NewGoodyHutText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/WorldMap/NewImprovementText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/WorldMap/NewResourceText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/WorldMap/ResourceTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/WorldMap/RouteTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/GameOptionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/NewAutomateText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/NewGameOptionText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi/Database Changes/Text/en_US/NewMapscriptText.xml</UpdateDatabase>
+      <UpdateDatabase>(3a) VP - EUI Compatibility Files/EUI/EUI_text_en_us.xml</UpdateDatabase>
+      <UpdateDatabase>(3a) VP - EUI Compatibility Files/EUI/NeededText.xml</UpdateDatabase>
+      <UpdateDatabase>(3a) VP - EUI Compatibility Files/ImprovedTopPanel/Text.xml</UpdateDatabase>
+      <UpdateDatabase>(4a) Squads for VP/XML/Squads_EN_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

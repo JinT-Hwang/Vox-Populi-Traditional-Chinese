@@ -1,11 +1,27 @@
 # Vox-Populi-Traditional-Chinese
 # Vox-Populi-繁体中文
 
+------
 
+什么是 Vox Populi ?
+- 从 2014 年开始，Vox Populi（以前称为"Community Balance Patch/Overhaul"）是一项旨在改进《文明 V》的 AI 和游戏玩法的协作项目。它由一系列 Mod 组成（见下文），这些 Mod 旨在无缝地协同工作。
+
+Community Patch (CP) 是基础 Mod
+- 包含 gamecore DLL，它基于与官方 Civ V SDK 链接的 C++ 代码
+- 包含错误修复（也适用于多人游戏）、性能改进和许多 AI 增强功能，但游戏性变化很小
+- 可以单独使用，并且是许多其他 Mod 的基础
+Vox Populi
+- 扩展和更改了游戏的核心机制，提供了全新的《文明 V》体验，感觉和玩法都像系列的进化版
+- 包括 Gazebo 的 City-State Diplomacy、Putmalk 的 Civ 4 Diplomacy Features 和 Barathor 的 More Luxuries
+EUI（可选）
+- 增强的用户界面
+
+------
 
 英文原版: https://github.com/LoneGazebo/Community-Patch-DLL
 
 繁体中文: https://github.com/JinT-Hwang/Vox-Populi-Traditional-Chinese
+
 
 ------
 

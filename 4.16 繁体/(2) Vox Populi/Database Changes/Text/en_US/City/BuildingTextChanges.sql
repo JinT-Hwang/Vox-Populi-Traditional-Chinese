@@ -597,7 +597,7 @@ WHERE Tag = 'TXT_KEY_WONDER_ORACLE_HELP';
 
 -- Angkor Wat
 UPDATE Language_ZH_Hant_HK
-SET Text = '提供一個[COLOR_POSITIVE_TEXT]無償的[ENDCOLOR](印度教)寺廟完成建造的城市。+40% [ICON_CULTURE_LOCAL]邊界擴張和所有城市獲取新單元格的[ICON_GOLD]金幣成本減少 25%。'
+SET Text = '提供一個[COLOR_POSITIVE_TEXT]無償的[ENDCOLOR](印度教)寺廟給完成建造的城市。+40% [ICON_CULTURE_LOCAL]邊界擴張，並且所有城市獲取新單元格的[ICON_GOLD]金幣成本減少 25%。'
 WHERE Tag = 'TXT_KEY_WONDER_ANGKOR_WAT_HELP';
 
 -- Great Wall

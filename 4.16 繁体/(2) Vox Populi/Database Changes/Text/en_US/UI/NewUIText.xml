@@ -2613,7 +2613,7 @@
 			<Text>目前您的附庸擁有的城市總數 (全隊) 與其成為您的附庸時擁有的城市數 (全隊) 之間的比率。[NEWLINE][NEWLINE][ICON_BULLET]現在的團隊的城市數量：{1_CurrentCities}[NEWLINE][ICON_BULLET]附庸開始時，團隊的城市數量：{2_StartCities}[NEWLINE][NEWLINE]這個玩家目前有 {3_PlayerCities} 城市。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_CITY_PERCENT">
-			<Text>Master City Percent：</Text>
+			<Text>主人城市百分比：</Text>
 		</Row>
 		<Row Tag="TXT_KEY_VO_MASTER_CITY_PERCENT_TT">
 			<Text>目前您的附庸擁有的城市總數 (全隊) 與您的團隊目前擁有的城市數之間的比率。[NEWLINE][NEWLINE][ICON_BULLET]現在的團隊的附庸數量：{1_CurrentCities}[NEWLINE][ICON_BULLET]主人團隊的城市數量：{2_MasterCities}[NEWLINE][NEWLINE]這個玩家目前有 {3_Cities} 城市。</Text>

@@ -1921,7 +1921,7 @@ SET Text = '您的單位可能在 {1_Num} 格內進行攻擊，或在 {2_Num} �
 WHERE Tag = 'TXT_KEY_UPANEL_UNIT_MAY_STRIKE_REBASE';
 
 UPDATE Language_ZH_Hant_HK
-SET Text = '{1_Num} 回合}'
+SET Text = '{1_Num} 回合'
 WHERE Tag = 'TXT_KEY_BUILD_NUM_TURNS';
 
 UPDATE Language_ZH_Hant_HK

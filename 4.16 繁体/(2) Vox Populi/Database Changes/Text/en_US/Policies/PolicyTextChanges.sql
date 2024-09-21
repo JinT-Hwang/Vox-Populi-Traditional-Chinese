@@ -920,7 +920,7 @@ SET Text = '軍工複合體'
 WHERE Tag = 'TXT_KEY_POLICY_MOBILIZATION';
 
 UPDATE Language_ZH_Hant_HK
-SET Text = '[COLOR_POSITIVE_TEXT]軍工複合體[ENDCOLOR]：購買單位 -33% [ICON_GOLD]金幣成本。[ICON_STRENGTH]防禦建築 +3 [ICON_RESEARCH]科學，要塞，堡壘和獨特改良設施。'
+SET Text = '[COLOR_POSITIVE_TEXT]軍工複合體[ENDCOLOR]：購買單位 -33% [ICON_GOLD]金幣成本。[ICON_STRENGTH]防禦建築，要塞，堡壘和獨特改良設施 +3 [ICON_RESEARCH]科學。'
 WHERE Tag = 'TXT_KEY_POLICY_MOBILIZATION_HELP';
 
 UPDATE Language_ZH_Hant_HK

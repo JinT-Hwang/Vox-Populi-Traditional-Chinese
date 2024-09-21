@@ -137,7 +137,7 @@
 			<Text>你必須收集至少 {1_Num} 網路點數才能檢視科技界面。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_VIEW_POLICY_SCREEN">
-			<Text>檢視Policy Screen</Text>
+			<Text>檢視政策界面</Text>
 		</Row>
 		<Row Tag="TXT_KEY_EO_VIEW_POLICY_SCREEN_NOT_ENOUGH_NP">
 			<Text>你必須收集至少 {1_Num} 網路點數才能檢視政策界面。</Text>

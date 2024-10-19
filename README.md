@@ -36,8 +36,26 @@ EUI（可选）
 3.运行 Vox.Populi.4.16.2.exe 进行安装. (根据需要进行安装 CP 或 VP, 以及是否使用EUI)
 
 
-4.将 "Vox Populi 4.16.2 Traditional Chinese" 文件夹, 放置到
+4.将 "Vox Populi 4.16.2 Traditional Chinese (v 5)" 文件夹, 放置到
 C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文件夹下, 或者在创意工坊中订阅, 两种方法二选一.
+
+
+5.1.玩 VP 时, 在游戏内的模组界面勾选本模组进行游戏.(只玩 VP 的玩家做到这一步就行.)
+
+
+5.2.只玩 Community Patch Only 时, 由于这个模组是包含整个 VP 的翻译, 如果单玩 CP 会发现政策以及建筑等等的文本被 VP 的文本污染了.
+
+目前的解决办法是, 
+
+完成 1~4 步骤后,
+
+在 C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\Vox Populi 4.16.2 Traditional Chinese (v 5) 文件夹下,
+
+有一个 Only for Community Patch 的文件夹, 复制它里面所有文件夹,
+
+粘贴到 C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\(1) Community Patch 文件夹内, 进行替换,
+
+到此就完成, 游戏内选模组时, 注意不要勾选本模组, 因为已经替换了翻译了.
 
 ------
 
@@ -49,11 +67,12 @@ C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文
 
 2.绝大部分的人物名字, 艺术品的名字和艺术家名字没有翻译, 只对作品描述进行翻译.
 
+
+3.中文可能有错漏, 或者翻译不到位, 多多指教.
+
+
 (可能是创意工坊需要识别到 Language_ZH_Hant_HK 之类的语言标签, 但是 Vox Populi 4.16.2 Traditional Chinese\(1) Community Patch\Modules\MoreGP\ExtraGPs.sql 这个文件开发者没有做标签, 没法被识别到, 可以直接在订阅后的文件里面找到, 然后自行去替换, 不换也没关系, 这个文件只是翻译了艺术品的描述.)
 
 (另外还有一个文件 Vox Populi 4.16.2 Traditional Chinese\(2) Vox Populi\Core Files\Overrides\CivilopediaScreen.lua 也是一样的原因, 这个不替换也没关系, 这个是文明百科的一些翻译.)
-
-
-3.中文可能有错漏, 或者翻译不到位, 多多指教.
 
 ------

@@ -27,27 +27,33 @@ EUI（可选）
 
 安装说明:
 
-1.从上方的英文原版地址下载 4.16 版本 exe, 或者使用附带的.
+1.从上方的英文原版地址下载 4.16.2 版本 exe, 或者使用附带的.
 
 
 2.将游戏语言设置为繁体. 
 
 
-3.运行 Vox.Populi.4.16.exe 进行安装. (根据需要进行安装 CP 或 VP, 以及是否使用EUI)
+3.运行 Vox.Populi.4.16.2.exe 进行安装. (根据需要进行安装 CP 或 VP, 以及是否使用EUI)
 
 
-4.将 "Vox Populi 4.16 Traditional Chinese" 文件夹中, 放置到
-C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文件夹下, 即可.
+4.将 "Vox Populi 4.16.2 Traditional Chinese" 文件夹, 放置到
+C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文件夹下, 或者在创意工坊中订阅, 两种方法二选一.
 
 ------
 
 其他说明:
 
 
-1.汉化文本为繁体, 只针对版本 4.16 . 需注意, 游戏若非繁体中文, 可能会因为字体不支持繁体而不能显示文本. 
+1.汉化文本为繁体, 只针对版本 4.16.2 . 需注意, 游戏若非繁体中文, 可能会因为字体不支持繁体而不能显示文本. 
 
 
-2.绝大部分的人物名字, 或艺术品名字/作者没有翻译, 只对作品描述进行翻译.
+2.绝大部分的人物名字, 艺术品的名字和艺术家名字没有翻译, 只对作品描述进行翻译.
+
+(可能是创意工坊需要识别到 Language_ZH_Hant_HK 之类的语言标签, 但是 Vox Populi 4.16.2 Traditional Chinese\(1) Community Patch\Modules\MoreGP\ExtraGPs.sql 这个文件开发者没有做标签, 没法被识别到, 可以直接在订阅后的文件里面找到, 然后自行去替换, 不换也没关系, 这个文件只是翻译了艺术品的描述.)
+
+(另外还有一个文件 Vox Populi 4.16.2 Traditional Chinese\(2) Vox Populi\Core Files\Overrides\CivilopediaScreen.lua 也是一样的原因, 这个不替换也没关系, 这个是文明百科的一些翻译.)
 
 
 3.中文可能有错漏, 或者翻译不到位, 多多指教.
+
+------

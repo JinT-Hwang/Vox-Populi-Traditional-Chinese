@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Language_ZH_HANT_HK>
+    <!-- Cannot End Turn on Ocean Tile -->
+    <Row Tag="TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_HELP">
+      <Text>無法在[COLOR_NEGATIVE_TEXT]海洋[ENDCOLOR]中結束回合。[NEWLINE]如果目的地是可見的海岸，可以穿過可見的海洋</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEEPWATER_EMBARKATION">
+      <Text>海洋海運</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEEPWATER_EMBARKATION_HELP">
+      <Text>允許懸浮單位在海岸、海洋邊界登陸。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION">
+      <Text>海洋海運防護</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_DEEPWATER_EMBARKATION_HELP">
+      <Text>允許懸浮單位在海岸、海洋邊界登陸。登陸的單位會獲得 +100% 的[ICON_STRENGTH]防禦加成。</Text>
+    </Row>
+  </Language_ZH_HANT_HK>
+</GameData>

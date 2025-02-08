@@ -1,0 +1,3 @@
+UPDATE Language_ZH_HANT_HK
+SET Text = 'Crom'
+WHERE Tag = 'TXT_KEY_LEADER_BARBARIAN';

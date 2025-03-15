@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Language_ZH_HANT_HK>
+    <Row Tag="TXT_KEY_YIELD_TOURISM">
+      <Text>旅遊業績</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_GOLDEN_AGE_POINTS">
+      <Text>黃金時代點數</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_GREAT_GENERAL_POINTS">
+      <Text>大將軍點數</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_GREAT_ADMIRAL_POINTS">
+      <Text>海軍上將點數</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_POPULATION">
+      <Text>人口</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_CULTURE_LOCAL">
+      <Text>邊界成長點數</Text>
+    </Row>
+  </Language_ZH_HANT_HK>
+</GameData>

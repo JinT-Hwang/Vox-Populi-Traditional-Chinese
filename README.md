@@ -27,16 +27,16 @@ EUI（可选）
 
 安装说明:
 
-1.从上方的英文原版地址下载 4.19 版本 exe, 或者使用附带的.
+1.从上方的英文原版地址下载 4.20.1 版本 exe, 或者使用附带的.
 
 
 2.将游戏语言设置为繁体. 
 
 
-3.运行 Vox.Populi.4.19.exe 进行安装. (根据需要进行安装 CP 或 VP, 以及是否使用EUI)
+3.运行 Vox.Populi.4.20.1.exe 进行安装. (根据需要进行安装 CP 或 VP, 以及是否使用EUI)
 
 
-4.将 "Vox Populi 4.19 Traditional Chinese (v 7)" 文件夹, 放置到
+4.将 "Vox Populi 4.20.1 Traditional Chinese (v 8)" 文件夹, 放置到
 C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文件夹下, 或者在创意工坊中订阅, 两种方法二选一.
 
 
@@ -49,7 +49,7 @@ C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文
 
 完成 1~4 步骤后,
 
-在 C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\Vox Populi 4.19 Traditional Chinese (v 7) 文件夹下,
+在 C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\Vox Populi 4.20.1 Traditional Chinese (v 8) 文件夹下,
 
 有一个 Only for Community Patch 的文件夹, 复制它里面所有文件夹,
 
@@ -62,7 +62,7 @@ C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文
 其他说明:
 
 
-1.汉化文本为繁体, 只针对版本 4.19 需注意, 游戏若非繁体中文, 可能会因为字体不支持繁体而不能显示文本. 
+1.汉化文本为繁体, 只针对版本 4.20.1 需注意, 游戏若非繁体中文, 可能会因为字体不支持繁体而不能显示文本. 
 
 
 2.绝大部分的人物名字, 艺术品的名字和艺术家名字没有翻译, 只对作品描述进行翻译.

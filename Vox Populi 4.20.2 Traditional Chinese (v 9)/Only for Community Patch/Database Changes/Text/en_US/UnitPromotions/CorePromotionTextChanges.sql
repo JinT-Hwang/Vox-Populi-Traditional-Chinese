@@ -1,0 +1,33 @@
+-- Great Generals
+UPDATE Language_en_US
+SET Text = '+50% [ICON_GREAT_GENERAL]來自戰鬥的大將軍點數。'
+WHERE Tag = 'TXT_KEY_PROMOTION_SPAWN_GENERALS_I_HELP';
+
+UPDATE Language_en_US
+SET Text = '+100% [ICON_GREAT_GENERAL]來自戰鬥的海軍上將點數。'
+WHERE Tag = 'TXT_KEY_PROMOTION_SPAWN_GENERALS_II_HELP';
+
+UPDATE Language_en_US
+SET Text = '無法在海洋單元格上結束回合'
+WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE';
+
+UPDATE Language_en_US
+SET Text = '在天文學之前，無法在海洋單元格上結束回合'
+WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO';
+
+UPDATE Language_en_US
+SET Text = '無法在[COLOR_NEGATIVE_TEXT]海洋[ENDCOLOR]上結束回合，除非你已研究 [COLOR_CYAN]{TXT_KEY_TECH_ASTRONOMY_TITLE}[ENDCOLOR]。[NEWLINE]如果目的地是可見的海岸，可以穿過可見的海洋。'
+WHERE Tag = 'TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP';
+
+UPDATE Language_en_US
+SET Text = '在敵人領土内以半速移動'
+WHERE Tag = 'TXT_KEY_PROMOTION_MUST_SET_UP';
+
+UPDATE Language_en_US
+SET Text = '在敵人領土内以半速移動'
+WHERE Tag = 'TXT_KEY_PEDIA_PROMOTION_MUST_SET_UP';
+
+-- Heavy Charge
+UPDATE Language_en_US
+SET Text = '如果造成的傷害高於受到的傷害，會強制防守方後退。無法後退的防守方會受到 50% 的額外傷害。'
+WHERE Tag = 'TXT_KEY_PROMOTION_HEAVY_CHARGE_HELP';

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a9913781-3cb8-4ca5-b5d0-93b25f067784" version="10">
+  <Properties>
+    <Name>Vox Populi 4.21 Traditional Chinese</Name>
+    <Teaser>Vox Populi 4.21 繁体中文</Teaser>
+    <Description>Vox Populi 4.21 繁体中文</Description>
+    <Authors>Jint Hwang</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="100" maxversion="999" title="(1) Community Patch" />
+  </Dependencies>
+  <References>
+    <Mod id="8411a7a8-dad3-4622-a18e-fcc18324c799" minversion="17" maxversion="999" title="(2) Vox Populi" />
+    <Mod id="24923240-e4fb-4bf6-8f0e-6e5b6cf4d3c2" minversion="1" maxversion="999" title="(3a) VP - EUI Compatibility Files" />
+    <Mod id="3645dbca-bdfb-4d86-bdc5-46cb5a426cc2" minversion="1" maxversion="999" title="(4a) Squads for VP" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="7662F3C09ED401E02FC6E7996B18C26E" import="0">(1) Community Patch/Database Changes/Text/en_US/AI/CoreDiplomacyResponseTextChanges.sql</File>
+    <File md5="94F1C7E415C32C906EB688C12BC712F3" import="0">(1) Community Patch/Database Changes/Text/en_US/AI/CoreNewDiplomacyResponseText.xml</File>
+    <File md5="771A1FFC9DC2B2FE0B5A552CD54F6949" import="0">(1) Community Patch/Database Changes/Text/en_US/AI/CoreStrategyTextChanges.sql</File>
+    <File md5="47EE96FEE711C549B39C9C761CA5B0BA" import="0">(1) Community Patch/Database Changes/Text/en_US/City/CoreBuildingTextChanges.sql</File>
+    <File md5="09783EE8758BA24D7366CD7FFDA8C644" import="0">(1) Community Patch/Database Changes/Text/en_US/City/CoreNewGreatWorkText.xml</File>
+    <File md5="865FE2F3235AE33F51C77A8F40D079D8" import="0">(1) Community Patch/Database Changes/Text/en_US/Civilizations/CoreCivilizationTextChanges.sql</File>
+    <File md5="2FAE92BC35B04C103A9AC009C59C137E" import="0">(1) Community Patch/Database Changes/Text/en_US/Civilizations/CoreLeaderTextChanges.sql</File>
+    <File md5="CABD581D23FB359F2BAD50078089218A" import="0">(1) Community Patch/Database Changes/Text/en_US/Civilizations/CoreNewCivilizationText.xml</File>
+    <File md5="BFFF043DA77D2C48461422CEF63B418F" import="0">(1) Community Patch/Database Changes/Text/en_US/Concepts/CoreConceptTextChanges.sql</File>
+    <File md5="1370DA707E69EF7A75328C63DC89EC3E" import="0">(1) Community Patch/Database Changes/Text/en_US/Concepts/CoreNewConceptText.xml</File>
+    <File md5="405F3A57A65BF1C6E88D81C75C37A286" import="0">(1) Community Patch/Database Changes/Text/en_US/CoreNewAutomateText.xml</File>
+    <File md5="605376A5ED733AC3DB240CA8602C9EB0" import="0">(1) Community Patch/Database Changes/Text/en_US/CoreNewChatMessageText.xml</File>
+    <File md5="9E42D5DD48FE3BA565FC82CEB1DB87F2" import="0">(1) Community Patch/Database Changes/Text/en_US/CoreNewEnumText.xml</File>
+    <File md5="D835A7D2CA66D1C8C0D26EE97ED9D0D9" import="0">(1) Community Patch/Database Changes/Text/en_US/CoreNewGameOptionText.xml</File>
+    <File md5="8AC6F054EF74D561545F9418DCF8F11D" import="0">(1) Community Patch/Database Changes/Text/en_US/CoreNewReplayDataSetText.xml</File>
+    <File md5="5B1AA8179C5DCB72DB90985AC10F1925" import="0">(1) Community Patch/Database Changes/Text/en_US/Espionage/CoreNewEspionageText.xml</File>
+    <File md5="3AD0175D446372FB5DC237BDEFCB192B" import="0">(1) Community Patch/Database Changes/Text/en_US/Minors/CoreMinorTextChanges.sql</File>
+    <File md5="425BCF54B04A3F1FAE6B5648B27D71D5" import="0">(1) Community Patch/Database Changes/Text/en_US/Notifications/CoreNewNotificationText.xml</File>
+    <File md5="F838A4CDEEAE1A66F65FF5DE41884BFD" import="0">(1) Community Patch/Database Changes/Text/en_US/Notifications/CoreNotificationTextChanges.sql</File>
+    <File md5="63B2C0931A8E327BDF21199071F427C3" import="0">(1) Community Patch/Database Changes/Text/en_US/Religions/CoreReligionTextChanges.sql</File>
+    <File md5="4E15E2B316703651E540C4AEE0741225" import="0">(1) Community Patch/Database Changes/Text/en_US/UI/CoreNewUIText.xml</File>
+    <File md5="72815CA96D619B8ECFDF82733713BDF0" import="0">(1) Community Patch/Database Changes/Text/en_US/UI/CoreUITextChanges.sql</File>
+    <File md5="5C29094862DABB26CAFF2B3D04AE7347" import="0">(1) Community Patch/Database Changes/Text/en_US/UnitPromotions/CoreNewPromotionText.xml</File>
+    <File md5="0B8427E97D5E6B1A3D787FEEBAE60D24" import="0">(1) Community Patch/Database Changes/Text/en_US/UnitPromotions/CorePromotionTextChanges.sql</File>
+    <File md5="4BAF28C7A3E43B22C3729DC5D0862E5D" import="0">(1) Community Patch/Database Changes/Text/en_US/Units/CoreMissionTextChanges.sql</File>
+    <File md5="269BF03FDB2DD7B22B8F634857E81D3F" import="0">(1) Community Patch/Database Changes/Text/en_US/Units/CoreNewUnitText.xml</File>
+    <File md5="90F77EAD8650BB717F103282C97C1E4A" import="0">(1) Community Patch/Database Changes/Text/en_US/Units/CoreUnitTextChanges.sql</File>
+    <File md5="E4DA0DDF608BFE90FA8BD64FCF54719D" import="0">(1) Community Patch/Database Changes/Text/en_US/WorldMap/CoreGoodyHutTextChanges.sql</File>
+    <File md5="13D1E2280605027679EB5AEB56F42308" import="0">(1) Community Patch/Database Changes/Text/en_US/WorldMap/CoreImprovementTextChanges.sql</File>
+    <File md5="7B2479F7F4C0858948C8C2E89052F54B" import="0">(1) Community Patch/Database Changes/Text/en_US/WorldMap/CoreNewGoodyHutText.xml</File>
+    <File md5="3F7ABC2D97BA4BCE0548AD729E213FF5" import="0">(1) Community Patch/Database Changes/Text/en_US/WorldMap/CoreNewYieldText.xml</File>
+    <File md5="0E75266D53C95D75138ED3AC429E1757" import="0">(2) Vox Populi/Database Changes/Text/en_US/AI/DiplomacyResponseTextChanges.sql</File>
+    <File md5="86E4163A95CA72ABB5BDDF320DC961A3" import="0">(2) Vox Populi/Database Changes/Text/en_US/AI/NewDiplomacyResponseText.xml</File>
+    <File md5="ECD679F0BF04CBE5D7BBA0BCFA324A34" import="0">(2) Vox Populi/Database Changes/Text/en_US/Beliefs/BeliefTextChanges.sql</File>
+    <File md5="7417BDE78725F9297BF9DE53586BD01B" import="0">(2) Vox Populi/Database Changes/Text/en_US/Beliefs/NewBeliefText.xml</File>
+    <File md5="2212A86DCB55E0F99FB43C8678EA84A4" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/BuildingTextChanges.sql</File>
+    <File md5="54248F15082912FF16C61550D84EDB4B" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/NewBuildingText.xml</File>
+    <File md5="64F1AC4E92517C96AD7EF53BDFA93262" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/NewGreatWorkText.xml</File>
+    <File md5="60E80893025A7CAD43889C758CA6B736" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/NewProcessText.xml</File>
+    <File md5="1ACFF963CAFC233AB6CDA6EEA343B7D3" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/NewProjectText.xml</File>
+    <File md5="59124A76C413F742BA4F95736196761A" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/NewSpecialistText.xml</File>
+    <File md5="11F2C46EC14C4CB5920BE46BCF9E92C4" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/ProcessTextChanges.sql</File>
+    <File md5="C27B089414B2EC5E537AA7D9946F269D" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/ProjectTextChanges.sql</File>
+    <File md5="8A446575C395A7CEBF23CBD182C76A2D" import="0">(2) Vox Populi/Database Changes/Text/en_US/City/SpecialistTextChanges.sql</File>
+    <File md5="9F1695DA5DA8E1DAF46C87B2F7DA6EA8" import="0">(2) Vox Populi/Database Changes/Text/en_US/Civilizations/CivilizationTextChanges.sql</File>
+    <File md5="5D114BDAFC6C02D9EB3FA4EF346EF79E" import="0">(2) Vox Populi/Database Changes/Text/en_US/Civilizations/NewCivilizationText.xml</File>
+    <File md5="68A9B06CFA6D673D85D14C0A3EEE989D" import="0">(2) Vox Populi/Database Changes/Text/en_US/Concepts/ConceptTextChanges.sql</File>
+    <File md5="4972030400FDC496E25958785AAA91FA" import="0">(2) Vox Populi/Database Changes/Text/en_US/Concepts/NewConceptText.xml</File>
+    <File md5="8D267C16D0BA59F852F745CFF59B252C" import="0">(2) Vox Populi/Database Changes/Text/en_US/Corporations/NewCorporationText.xml</File>
+    <File md5="553F4714AAC3B21DE5F6C36B3F0865C8" import="0">(2) Vox Populi/Database Changes/Text/en_US/Difficulty/DifficultyTextChanges.sql</File>
+    <File md5="BF880091E023D6F7E6914771329F5A17" import="0">(2) Vox Populi/Database Changes/Text/en_US/Espionage/NewEspionageText.xml</File>
+    <File md5="D4EA5051DE0D0ED494D2468A6CC3D47B" import="0">(2) Vox Populi/Database Changes/Text/en_US/Events/NewEventText.xml</File>
+    <File md5="096B941C8847A2B8C34940AC964F0DE2" import="0">(2) Vox Populi/Database Changes/Text/en_US/GameOptionTextChanges.sql</File>
+    <File md5="48192B5D1F05FF01A79E5E7A72FB37F6" import="0">(2) Vox Populi/Database Changes/Text/en_US/NewAutomateText.xml</File>
+    <File md5="FB010F85BB960B13AFA8F2A205BD32EF" import="0">(2) Vox Populi/Database Changes/Text/en_US/NewGameOptionText.xml</File>
+    <File md5="D86735006E11161D114F5BED3EA59820" import="0">(2) Vox Populi/Database Changes/Text/en_US/NewMapscriptText.xml</File>
+    <File md5="A1D8FE59417518FAF0CD8BA652D7F39B" import="0">(2) Vox Populi/Database Changes/Text/en_US/Notifications/NewNotificationText.xml</File>
+    <File md5="F88310A07EC00B23F692CCFB0138C9F5" import="0">(2) Vox Populi/Database Changes/Text/en_US/Notifications/NotificationTextChanges.sql</File>
+    <File md5="C67DCDF92F54AF7E3F85CD244BAA75B8" import="0">(2) Vox Populi/Database Changes/Text/en_US/Policies/NewPolicyText.xml</File>
+    <File md5="7E4B696E2CED55386FE0A8F745AD175B" import="0">(2) Vox Populi/Database Changes/Text/en_US/Policies/PolicyTextChanges.sql</File>
+    <File md5="2F9369BDDAAD71078FBFCD5292859DF2" import="0">(2) Vox Populi/Database Changes/Text/en_US/Tech/NewTechText.xml</File>
+    <File md5="B48FA083D911DAB8A2BA27BAF836E4D9" import="0">(2) Vox Populi/Database Changes/Text/en_US/Tech/TechTextChanges.sql</File>
+    <File md5="BF041A932E4A29BF8D7E766BDCFE65BB" import="0">(2) Vox Populi/Database Changes/Text/en_US/UI/InterfaceModeTextChanges.sql</File>
+    <File md5="2667E118323ECFF3E12B73C862321213" import="0">(2) Vox Populi/Database Changes/Text/en_US/UI/NewUIText.sql</File>
+    <File md5="3EB4874F37E0860559DADB17608F1F29" import="0">(2) Vox Populi/Database Changes/Text/en_US/UI/NewUIText.xml</File>
+    <File md5="7FB03B72C55EF2EB8B25E4F2BAB39FFE" import="0">(2) Vox Populi/Database Changes/Text/en_US/UI/UITextChanges.sql</File>
+    <File md5="4E1544135509816DBB2EA63CAAC6B900" import="0">(2) Vox Populi/Database Changes/Text/en_US/UnitPromotions/NewPromotionText.xml</File>
+    <File md5="346F9CF6CC0911F92BD632071856B6D0" import="0">(2) Vox Populi/Database Changes/Text/en_US/UnitPromotions/PromotionTextChanges.sql</File>
+    <File md5="7BBF73B1E50907C05DE6249DC28B8189" import="0">(2) Vox Populi/Database Changes/Text/en_US/Units/MissionTextChanges.sql</File>
+    <File md5="89025FE78B3917826F7632F1A5CC9680" import="0">(2) Vox Populi/Database Changes/Text/en_US/Units/NewMissionText.xml</File>
+    <File md5="014BBFCB71B7AD8F01D2C9A0118C1A83" import="0">(2) Vox Populi/Database Changes/Text/en_US/Units/NewUnitText.xml</File>
+    <File md5="5ECBD80011DC44960FE4B8EE3550F045" import="0">(2) Vox Populi/Database Changes/Text/en_US/Units/UnitTextChanges.sql</File>
+    <File md5="2A8EB7A9DDAD4DA2BF9ABAB8539BA3A9" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/NewProjectText.xml</File>
+    <File md5="F95017BD83309FCC26B763B8A38DE560" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/NewResolutionText.xml</File>
+    <File md5="527840742B81C88F27799A630BD18C9A" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/ProjectTextChanges.sql</File>
+    <File md5="93224F08244B5DF99F120EFCE3A49AFB" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/ResolutionTextChanges.sql</File>
+    <File md5="7CE359DA20FB08C1F1A9AF2A6497EB84" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldCongress/SpecialSessionTextChanges.sql</File>
+    <File md5="3F5E5BF928780BB6482B017939444BB5" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/FeatureTextChanges.sql</File>
+    <File md5="C3F0355FF79B141F1D8FC11F61C742CD" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/ImprovementTextChanges.sql</File>
+    <File md5="CBE0A20134FD67ADDC1F018C64AB6137" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/NewFeatureText.xml</File>
+    <File md5="B0BDC077E00444DEBDCF8DBCFE8CFCCC" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/NewGoodyHutText.xml</File>
+    <File md5="58789F64A562514A757FE4B2889FA0D2" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/NewImprovementText.xml</File>
+    <File md5="8A68907F6637C069EB06DCB25C1014EB" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/NewResourceText.xml</File>
+    <File md5="3B767ACB86C6CD5021EDBE24B199F173" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/ResourceTextChanges.sql</File>
+    <File md5="F3AB9C6EC500D600F7822EC593777CCF" import="0">(2) Vox Populi/Database Changes/Text/en_US/WorldMap/RouteTextChanges.sql</File>
+    <File md5="07ACFDB7F776FD841C18F91D076222F8" import="0">(3a) VP - EUI Compatibility Files/EUI/EUI_text_en_us.xml</File>
+    <File md5="E67C35414B4156B7D777C889319C3F13" import="0">(3a) VP - EUI Compatibility Files/EUI/NeededText.xml</File>
+    <File md5="DE822F5E8343DB48D56D9BC3E9E1DB2C" import="0">(3a) VP - EUI Compatibility Files/ImprovedTopPanel/Text.xml</File>
+    <File md5="FADC26941F00F8A5285DFF7F2F08FD68" import="0">(4a) Squads for VP/XML/Squads_EN_US.xml</File>
+    <File md5="ED105802AA9375EBA1B0ABA1728E230E" import="0">Only for Community Patch/Database Changes/Text/en_US/AI/CoreDiplomacyResponseTextChanges.sql</File>
+    <File md5="83FADB3C2C1CF5D8970F220D384FA46E" import="0">Only for Community Patch/Database Changes/Text/en_US/AI/CoreNewDiplomacyResponseText.xml</File>
+    <File md5="A5BCB47CAB7D73A6575FE684C69BCF3B" import="0">Only for Community Patch/Database Changes/Text/en_US/AI/CoreStrategyTextChanges.sql</File>
+    <File md5="D13ABC8D0EC28204E7DA7508002A06AC" import="0">Only for Community Patch/Database Changes/Text/en_US/City/CoreBuildingTextChanges.sql</File>
+    <File md5="61A5B4F0AB7884EF0E3CE8203FF67653" import="0">Only for Community Patch/Database Changes/Text/en_US/City/CoreNewGreatWorkText.xml</File>
+    <File md5="B3C21C00473FD2F1EBB05FA6C131F0B7" import="0">Only for Community Patch/Database Changes/Text/en_US/Civilizations/CoreCivilizationTextChanges.sql</File>
+    <File md5="954F559D1F4893B3F83D82728CFC6C01" import="0">Only for Community Patch/Database Changes/Text/en_US/Civilizations/CoreLeaderTextChanges.sql</File>
+    <File md5="F470A44F7D7FDFCBAEB7BF4A019C7C6A" import="0">Only for Community Patch/Database Changes/Text/en_US/Civilizations/CoreNewCivilizationText.xml</File>
+    <File md5="33F68437E60FD485D09412AECB924895" import="0">Only for Community Patch/Database Changes/Text/en_US/Concepts/CoreConceptTextChanges.sql</File>
+    <File md5="C3C655A1007BDCC31E1804DE7CE0D8C0" import="0">Only for Community Patch/Database Changes/Text/en_US/Concepts/CoreNewConceptText.xml</File>
+    <File md5="5564DF86F4C6F5559A2C8B3A3D3CC4FE" import="0">Only for Community Patch/Database Changes/Text/en_US/CoreNewAutomateText.xml</File>
+    <File md5="F91BA438250A1CC2A1A732F62B1302CA" import="0">Only for Community Patch/Database Changes/Text/en_US/CoreNewChatMessageText.xml</File>
+    <File md5="7EC236C0D98A79FE4139A7E8086F317D" import="0">Only for Community Patch/Database Changes/Text/en_US/CoreNewEnumText.xml</File>
+    <File md5="C7883199D2CE5E50689C6C79A83A5BD6" import="0">Only for Community Patch/Database Changes/Text/en_US/CoreNewGameOptionText.xml</File>
+    <File md5="DBE90003AD48418C1DB88F9EC103A024" import="0">Only for Community Patch/Database Changes/Text/en_US/CoreNewReplayDataSetText.xml</File>
+    <File md5="E1283624CEB613E1F90CAEF1999AAC71" import="0">Only for Community Patch/Database Changes/Text/en_US/Espionage/CoreNewEspionageText.xml</File>
+    <File md5="FA96FF6D084F0B21927C4EADEE12B2CC" import="0">Only for Community Patch/Database Changes/Text/en_US/Minors/CoreMinorTextChanges.sql</File>
+    <File md5="4AFFEE90FEE539EFA87F73FD2B3CEE92" import="0">Only for Community Patch/Database Changes/Text/en_US/Notifications/CoreNewNotificationText.xml</File>
+    <File md5="A3E3DC560F0FD70EB95EAF5EBB516744" import="0">Only for Community Patch/Database Changes/Text/en_US/Notifications/CoreNotificationTextChanges.sql</File>
+    <File md5="3E2F494AA88E54434B7700F506D955BA" import="0">Only for Community Patch/Database Changes/Text/en_US/Religions/CoreReligionTextChanges.sql</File>
+    <File md5="95B08F11BA2ECCB6493F96E01B58639E" import="0">Only for Community Patch/Database Changes/Text/en_US/UI/CoreNewUIText.xml</File>
+    <File md5="2A4726B5047EFAF94F44FD27EFC1A490" import="0">Only for Community Patch/Database Changes/Text/en_US/UI/CoreUITextChanges.sql</File>
+    <File md5="D81289ABEB4FF86D0ECC2C86D0B11580" import="0">Only for Community Patch/Database Changes/Text/en_US/UnitPromotions/CoreNewPromotionText.xml</File>
+    <File md5="EFF0DAB9EBFAA942999C9699A0359EF3" import="0">Only for Community Patch/Database Changes/Text/en_US/UnitPromotions/CorePromotionTextChanges.sql</File>
+    <File md5="D5EF1462B2E8BB4A9685DC3335F02426" import="0">Only for Community Patch/Database Changes/Text/en_US/Units/CoreMissionTextChanges.sql</File>
+    <File md5="E9C3FE36861557EDDA4E51599C812ED3" import="0">Only for Community Patch/Database Changes/Text/en_US/Units/CoreNewUnitText.xml</File>
+    <File md5="3CD4A28BB726FFF4585DFC5E1FDBA98A" import="0">Only for Community Patch/Database Changes/Text/en_US/Units/CoreUnitTextChanges.sql</File>
+    <File md5="D1852E5477A14ECA1E994D4914561146" import="0">Only for Community Patch/Database Changes/Text/en_US/WorldMap/CoreGoodyHutTextChanges.sql</File>
+    <File md5="014FC26564C67DB328DD89D556C2967D" import="0">Only for Community Patch/Database Changes/Text/en_US/WorldMap/CoreImprovementTextChanges.sql</File>
+    <File md5="B52F26C86AD3B52A80920142F408737D" import="0">Only for Community Patch/Database Changes/Text/en_US/WorldMap/CoreNewGoodyHutText.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\AI\CoreDiplomacyResponseTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\AI\CoreNewDiplomacyResponseText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\AI\CoreStrategyTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\City\CoreBuildingTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\City\CoreNewGreatWorkText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\Civilizations\CoreCivilizationTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\Civilizations\CoreLeaderTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\Civilizations\CoreNewCivilizationText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\Concepts\CoreConceptTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\Concepts\CoreNewConceptText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\CoreNewAutomateText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\CoreNewChatMessageText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\CoreNewEnumText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\CoreNewGameOptionText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\CoreNewReplayDataSetText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\Espionage\CoreNewEspionageText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\Minors\CoreMinorTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\Notifications\CoreNewNotificationText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\Notifications\CoreNotificationTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\Religions\CoreReligionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\UI\CoreNewUIText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\UI\CoreUITextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\UnitPromotions\CoreNewPromotionText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\UnitPromotions\CorePromotionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\Units\CoreMissionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\Units\CoreNewUnitText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\Units\CoreUnitTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\WorldMap\CoreGoodyHutTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\WorldMap\CoreImprovementTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\WorldMap\CoreNewGoodyHutText.xml</UpdateDatabase>
+      <UpdateDatabase>(1) Community Patch\Database Changes\Text\en_US\WorldMap\CoreNewYieldText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\AI\DiplomacyResponseTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\AI\NewDiplomacyResponseText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Beliefs\BeliefTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Beliefs\NewBeliefText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\City\BuildingTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\City\NewBuildingText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\City\NewGreatWorkText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\City\NewProcessText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\City\NewProjectText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\City\NewSpecialistText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\City\ProcessTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\City\ProjectTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\City\SpecialistTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Civilizations\CivilizationTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Civilizations\NewCivilizationText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Concepts\ConceptTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Concepts\NewConceptText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Corporations\NewCorporationText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Difficulty\DifficultyTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Espionage\NewEspionageText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Events\NewEventText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\GameOptionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\NewAutomateText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\NewGameOptionText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\NewMapscriptText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Notifications\NewNotificationText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Notifications\NotificationTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Policies\NewPolicyText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Policies\PolicyTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Tech\NewTechText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Tech\TechTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\UI\InterfaceModeTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\UI\NewUIText.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\UI\NewUIText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\UI\UITextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\UnitPromotions\NewPromotionText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\UnitPromotions\PromotionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Units\MissionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Units\NewMissionText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Units\NewUnitText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\Units\UnitTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\WorldCongress\NewProjectText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\WorldCongress\NewResolutionText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\WorldCongress\ProjectTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\WorldCongress\ResolutionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\WorldCongress\SpecialSessionTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\WorldMap\FeatureTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\WorldMap\ImprovementTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\WorldMap\NewFeatureText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\WorldMap\NewGoodyHutText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\WorldMap\NewImprovementText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\WorldMap\NewResourceText.xml</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\WorldMap\ResourceTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(2) Vox Populi\Database Changes\Text\en_US\WorldMap\RouteTextChanges.sql</UpdateDatabase>
+      <UpdateDatabase>(3a) VP - EUI Compatibility Files\EUI\EUI_text_en_us.xml</UpdateDatabase>
+      <UpdateDatabase>(3a) VP - EUI Compatibility Files\EUI\NeededText.xml</UpdateDatabase>
+      <UpdateDatabase>(3a) VP - EUI Compatibility Files\ImprovedTopPanel\Text.xml</UpdateDatabase>
+      <UpdateDatabase>(4a) Squads for VP\XML\Squads_EN_US.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

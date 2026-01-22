@@ -1,0 +1,3 @@
+UPDATE Language_en_US
+SET Text = '飛機和原子彈'
+WHERE Tag = 'TXT_KEY_SPECIALUNIT_FIGHTER';

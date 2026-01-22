@@ -10,7 +10,7 @@ Community Patch (CP) 是基础 Mod
 - 包含 gamecore DLL，它基于与官方 Civ V SDK 链接的 C++ 代码
 - 包含错误修复（也适用于多人游戏）、性能改进和许多 AI 增强功能，但游戏性变化很小
 - 可以单独使用，并且是许多其他 Mod 的基础
-Vox Populi
+Vox Populi (VP)
 - 扩展和更改了游戏的核心机制，提供了全新的《文明 V》体验，感觉和玩法都像系列的进化版
 - 包括 Gazebo 的 City-State Diplomacy、Putmalk 的 Civ 4 Diplomacy Features 和 Barathor 的 More Luxuries
 EUI（可选）
@@ -37,7 +37,7 @@ EUI（可选）
 
 
 4.将 "Vox Populi 4.22 Traditional Chinese (v 11)" 文件夹, 放置到
-C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文件夹下, 或者在创意工坊中订阅, 两种方法二选一.
+C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文件夹下, 或者在创意工坊中订阅, 二者选其一.
 
 
 5.1.玩 VP 时, 在游戏内的模组界面勾选本模组进行游戏.(只玩 VP 的玩家做到这一步就行.)
@@ -65,10 +65,19 @@ C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文
 1.汉化文本为繁体, 只针对版本 4.22 需注意, 游戏若非繁体中文, 可能会因为字体不支持繁体而不能显示文本. 
 
 
-2.绝大部分的人物名字, 艺术品的名字和艺术家名字没有翻译, 只对作品描述进行翻译.
+2.绝大部分的人物名字, 艺术品的名字和艺术家的名字没有翻译, 只对作品描述进行翻译.
 
 
 3.中文可能有错漏, 或者翻译不到位, 多多指教.
 
+------
+
+目前 5.x 版本，制作组已经放出，翻译较慢，先放出 CP 的翻译。
+
+在仅安装了 5.1.2 的 CP 后，将 Only for Community Patch 5.1.2 文件夹内文件
+
+粘贴到 C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\(1) Community Patch 文件夹内, 进行替换，
+
+游戏内选模组时，直接选择 (1) Community Patch 下一步，即可。
 
 ------

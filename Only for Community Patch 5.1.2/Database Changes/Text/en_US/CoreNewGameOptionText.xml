@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS">
+			<Text>蠻族點數</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_BARB_GG_GA_POINTS_HELP">
+			<Text>允許所有玩家從與蠻族的戰鬥中累積大將軍和海軍上將點數</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_CHILL_BARBARIANS">
+			<Text>蠻族之寒</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_CHILL_BARBARIANS_HELP">
+			<Text>蠻族的產生率稍微降低，營地在建立時不會產生出兩個單位。真不錯啊,老哥。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_AI_VICTORY_COMPETITION">
+			<Text>禁用 AI 勝利競爭</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_AI_VICTORY_COMPETITION_HELP">
+			<Text>AI 領袖不會因為其他玩家邁向勝利條件而產生厭惡。這大大降低了遊戲難度。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_AI_ENDGAME_AGGRESSION">
+			<Text>禁用 AI 終局侵略</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_AI_ENDGAME_AGGRESSION_HELP">
+			<Text>AI 領袖不會對即將贏得比賽的玩家提升攻擊性。注意：如果啟用了“禁用 AI 勝利競爭”，則此選項無效。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_RANDOMIZED_VICTORIES">
+			<Text>隨機勝利</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RANDOMIZED_VICTORIES_HELP">
+			<Text>當任何玩家進入原子時代時，系統會隨機啟用一種勝利類型（文化勝利、外交勝利或科技勝利）。所有其他勝利類型均被禁用（注意：時間勝利和征服勝利始終可用）。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_TRANSPARENT_DIPLOMACY">
+			<Text>透明外交</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_TRANSPARENT_DIPLOMACY_HELP">
+			<Text>在外交修正值旁顯示原始數值。此外，AI 領袖永遠不會隱藏負面修正值。</Text>
+		</Row>
+
+		<!-- Multiplayer only -->
+		<Row Tag="TXT_KEY_GAME_OPTION_KEEP_UNMET_PLAYERS_UNKNOWN">
+			<Text>在遊戲之前隱藏未相遇的文明</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_KEEP_UNMET_PLAYERS_UNKNOWN_HELP">
+			<Text>在遊戲設定中，不顯示其他團隊中其他人類玩家的領袖/文明詳細資訊（如果他們沒有選擇隨機領導者）。[NEWLINE]加載保存遊戲時，不顯示您在遊戲中未相遇的其他團隊的玩家的領袖/文明詳細資訊。</Text>
+		</Row>
+
+		<!-- Events (invisible in Community Patch) -->
+		<Row Tag="TXT_KEY_GAME_OPTION_BAD_EVENTS">
+			<Text>啟用事件(壞)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_BAD_EVENTS_HELP">
+			<Text>啟用來自 Vox Populi 的玩家和城市事件系統的壞結果事件</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_CIV_SPECIFIC_EVENTS">
+			<Text>啟用事件(文明特定)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_CIV_SPECIFIC_EVENTS_HELP">
+			<Text>啟用來自 Vox Populi 的玩家和城市事件系統的文明特定事件</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_GOOD_EVENTS">
+			<Text>啟用事件（好）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_GOOD_EVENTS_HELP">
+			<Text>啟用來自 Vox Populi 的玩家和城市事件系統的好結果事件</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_NEUTRAL_EVENTS">
+			<Text>啟用事件(中性)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NEUTRAL_EVENTS_HELP">
+			<Text>啟用來自 Vox Populi 的玩家和城市事件系統的中性結果事件</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_TRADE_EVENTS">
+			<Text>啟用事件(貿易)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_TRADE_EVENTS_HELP">
+			<Text>啟用來自 Vox Populi 的玩家和城市事件系統的貿易(所有結果)事件</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

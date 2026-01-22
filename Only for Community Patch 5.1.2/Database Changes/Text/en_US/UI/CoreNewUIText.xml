@@ -1,0 +1,3515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Language_en_US>
+    <!-- Save menu -->
+    <!-- Hopefully removed if option is not needed or better solution in place -->
+    <Row Tag="TXT_KEY_FORCE_MP_SAVE">
+      <Text>強制中途重新儲存 (不建議使用 - 可能會損壞儲存遊戲!)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FORCE_MP_SAVE_TOOLTIP">
+      <Text>危險！模擬 vanilla，利用覆寫檔案檢查中的錯誤，在回合中途儲存目前的回合狀態。通常儲存只是最近一次自動儲存的重命名複本。啟用此選項之後，可以儲存中途的回合狀態，但 Firaxis 明確嘗試阻止這樣做，大概是因為這可能會導致問題。絕不建議使用此選項，使用風險自負。</Text>
+    </Row>
+    <!-- Replay message -->
+    <Row Tag="TXT_KEY_MISC_COMPLETES_PROJECT_FIRST">
+      <Text>{1_PlyrName} 最先完成 {@2_PrjctName}！</Text>
+    </Row>
+    <!-- Tech tree -->
+    <Row Tag="TXT_KEY_TECH_HELP_UNITS_UNLOCKED">
+      <Text>單位解鎖：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_HELP_BUILDINGS_UNLOCKED">
+      <Text>建築解鎖：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_HELP_WONDERS_UNLOCKED">
+      <Text>奇跡解鎖：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_HELP_PROJECTS_UNLOCKED">
+      <Text>工程解鎖：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_HELP_PROCESSES_UNLOCKED">
+      <Text>程序解鎖：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_HELP_CORPS_UNLOCKED">
+      <Text>公司解鎖：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_HELP_RESOURCES_UNLOCKED">
+      <Text>資源解鎖：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_HELP_BUILDS_UNLOCKED">
+      <Text>建造解鎖：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_HELP_ACTIONS_UNLOCKED">
+      <Text>獨特行動：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_HELP_YIELDS_UNLOCKED">
+      <Text>產能變化：</Text>
+    </Row>
+	<Row Tag="TXT_KEY_TECH_HELP_SPECIALIST_YIELDS_UNLOCKED">
+		<Text>專家變動：</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_NUMBER_CHANGE">
+		<Text>{1: number "'+'##.##;'-'##.##"}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_YIELD_CHANGE">
+		<Text>{1: number "'+'##.##;'-'##.##"} {2_YieldIcon}</Text>
+	</Row>
+    <Row Tag="TXT_KEY_TECH_HELP_BUILD_REDUCTION">
+      <Text>{1_Build}：需要 {2_Turns} 回合</Text>
+    </Row>
+	<Row Tag="TXT_KEY_TECH_HELP_CHOP_BOOST">
+		<Text>砍伐森林、叢林：{2_Sign}{1_Num} [ICON_PRODUCTION]產能</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_BUILD_COST_REDUCTION">
+		<Text>{1: number "'+'##.##;'-'##.##"}% 轉化為 {2_Build}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_FASTER_ROUTE_MOVEMENT">
+		<Text>沿著 {2_Route:textkey} 移動時需消耗 {1: number "'+'##.##;'-'##.##"} 移動力</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_FASTER_EMBARKED_MOVEMENT">
+		<Text>{2_Sign}{1_Num} 登船運輸</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_FORTIFICATION_MODIFIER">
+		<Text>{2_Sign}{1_Num}% 來自單位駐紮的戰鬥力</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_HEAL_MODIFIER">
+		<Text>治療時，{2_Sign}{1_Num}% 基礎生命值恢復</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_HAPPINESS_GLOBAL">
+		<Text>{2_Sign}{1_Num} 所有城市[ICON_HAPPINESS_1]幸福度</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_EXTRA_TRADE_ROUTES">
+		<Text>{2_Sign}{1_Num} [ICON_INTERNATIONAL_TRADE]貿易路線</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_LAND_TRADE_ROUTE_EXTENSION">
+		<Text>{2_Sign}{1_Num} [ICON_CARAVAN]陸上貿易路線範圍</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_SEA_TRADE_ROUTE_EXTENSION">
+		<Text>{2_Sign}{1_Num} [ICON_CARGO_SHIP]海上貿易路線範圍</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_TOURISM_MODIFIER">
+		<Text>{2_Sign}{1_Num} 所有城市[ICON_TOURISM]旅遊業績</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_BUILDING_BOOST">
+		<Text>{1_Building:textkey}：{2_YieldBoosts}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_SPECIALIST_BOOST">
+		<Text>{1_Specialist:textkey}：{2_YieldBoosts}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_TERRAIN_BOOST">
+		<Text>{1_Terrain:textkey}：{2_YieldBoosts}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_FEATURE_BOOST">
+		<Text>{1_Feature:textkey}：{2_YieldBoosts}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_IMPROVEMENT_BOOST">
+		<Text>{1_Improvement:textkey}：{2_YieldBoosts}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_IMPROVEMENT_BOOST_FRESH_WATER">
+		<Text>{1_Improvement:textkey} 有淡水：{2_YieldBoosts}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_IMPROVEMENT_BOOST_NO_FRESH_WATER">
+		<Text>{1_Improvement:textkey} 無淡水：{2_YieldBoosts}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_DELEGATES_FROM_DIPLOMATS">
+		<Text>每有一名[ICON_DIPLOMAT]外交官在外國[ICON_CAPITAL]首都 {2_Sign}{1_Num} [ICON_DIPLOMAT]世界議會代表</Text>
+	</Row>
+    <Row Tag="TXT_KEY_ABLTY_TECH_BOOST_CHOP">
+      <Text>+{1_Num}% [ICON_PRODUCTION]砍伐森林、叢林的產能(+25 [ICON_PRODUCTION])</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ABLTY_ENABLES_CORPORATIONS">
+      <Text>允許成立公司</Text>
+    </Row>
+	<Row Tag="TXT_KEY_TECH_HELP_REDUCED_EMBARK_COST">
+		<Text>在友方城市或運河海運、登陸只消耗 1 移動力</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TECH_HELP_NO_EMBARK_COST">
+		<Text>在友方城市或運河海運、登陸只消耗 0.1 移動力</Text>
+	</Row>
+    <Row Tag="TXT_KEY_ALLOWS_MAP_TRADING">
+      <Text>允許向其他文明出售世界地圖</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLOWS_TECH_TRADING">
+      <Text>允許向其他文明出售科技</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLOWS_VASSALAGE">
+      <Text>允許您將敵對文明變為您的附庸國</Text>
+    </Row>
+    <!-- Don't work as described - see TechTableChanges.sql -->
+    <Row Tag="TXT_KEY_ABLTY_CITY_RANGE_INCREASE">
+      <Text>城市攻擊範圍：+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ABLTY_CITY_INDIRECT_INCREASE">
+      <Text>城市間接攻擊範圍：+1</Text>
+    </Row>
+    <!-- Theming bonus -->
+    <Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS">
+      <Text>[COLOR_POSITIVE_TEXT]激活的主題獎勵：[ENDCOLOR]+{1_Num} {2_YieldIcon}{3_YieldName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS_NEEDED">
+      <Text>[COLOR_POSITIVE_TEXT]如果您符合本建築的主題要求，即可獲得：[ENDCOLOR] +{1_Num} {2_YieldIcon}{3_YieldName}</Text>
+    </Row>
+    <!-- Conquest picker -->
+    <Row Tag="TXT_KEY_POPUP_DESTROY_CAPTURED_CITY">
+      <Text>摧毀城市！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_DESTROY">
+      <Text>城市會立即被摧毀。在「單城挑戰」中，玩家無法保留攻下的城市。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_HEADER">
+      <Text>[COLOR_NEGATIVE_TEXT]征服[ENDCOLOR] 這座城市的後果：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_1000">
+      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] 會巨大不滿度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_800">
+      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] 會高度不滿度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_600">
+      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] 會中度不滿度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_400">
+      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] 會有點小不安。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_200">
+      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] 會輕微不安。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_NIL">
+      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] 幾乎不會注意。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATOR_PREVIEW_HEADER">
+      <Text>[COLOR_POSITIVE_TEXT]解放[ENDCOLOR] 這個城市的獎勵：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_1000">
+      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] 會巨大感激。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_800">
+      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] 會高度感激。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_600">
+      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] 會中度感激。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_400">
+      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] 會有點小感激。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_200">
+      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] 會輕微感激。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATOR_PREVIEW_CARE_NIL">
+      <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] 幾乎不會注意。</Text>
+    </Row>
+    <!--貿易路線 picker -->
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_OPEN_BORDERS_MOD">
+      <Text>開放邊界[ICON_GOLD]金幣加成：+{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_DOMAIN_LAND_MODIFIER">
+      <Text>陸上商綫：{1_Num}x</Text>
+    </Row>
+    <!-- Top panel -->
+    <!-- Gold -->
+	<Row Tag="TXT_KEY_TP_GOLD_PER_TURN_POSITIVE">
+		<Text>每回合 +{1_Num} [ICON_GOLD]金幣。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TP_GOLD_PER_TURN_NEGATIVE">
+		<Text>每回合失去 [COLOR_NEGATIVE]{1_Num}[ENDCOLOR] [ICON_GOLD]金幣。</Text>
+	</Row>
+	<!-- Culture -->
+	<Row Tag="TXT_KEY_TP_CULTURE_PER_TURN">
+		<Text>每回合 +{1_Num} [ICON_CULTURE]文化。</Text>
+	</Row>
+	<!-- Science -->
+	<Row Tag="TXT_KEY_TP_SCIENCE_PER_TURN">
+		<Text>每回合 +{1_Num} [ICON_RESEARCH]科技值。</Text>
+	</Row>
+	<!-- Tourism -->
+	<Row Tag="TXT_KEY_TP_TOURISM_PER_TURN">
+		<Text>每回合 +{1_Num} [ICON_TOURISM]旅遊業績。</Text>
+	</Row>
+	<!-- Golden Age Points -->
+	<Row Tag="TXT_KEY_TP_GOLDEN_AGE_POINTS_PER_TURN">
+		<Text>每回合 +{1_Num} [ICON_GOLDEN_AGE]黃金時代點數。</Text>
+	</Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_TURNS_UNTIL_GOLDEN_AGE">
+      <Text>下一個黃金時代：{1_Num} 回合</Text>
+    </Row>
+	<!-- Faith -->
+	<Row Tag="TXT_KEY_TP_FAITH_PER_TURN">
+		<Text>每回合 +{1_Num} [ICON_PEACE]信仰。</Text>
+	</Row>
+    <!-- Instant yields -->
+    <Row Tag="TXT_KEY_INSTANT_YIELD_THIS_TURN">
+      <Text>[NEWLINE]        [ICON_BULLET]本回合：+{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INSTANT_YIELD_AVERAGE_CITIES">
+      <Text>[NEWLINE]        [ICON_BULLET]平均：+{1_Num} 每個城市每回合</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INSTANT_YIELD_TOTAL">
+      <Text>[ICON_BULLET]{2_YieldIcon} {3_YieldColorString}{1_YieldType}[ENDCOLOR]：{4_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INSTANT_YIELD_PER_PLAYER_TOURISM">
+      <Text>[NEWLINE][COLOR_POSITIVE_TEXT]每位玩家的[ICON_TOURISM]旅遊業績即時收益：[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INSTANT_YIELD_PER_PLAYER_TOURISM_NAME">
+      <Text>[NEWLINE] [ICON_BULLET]{1_Civ}：{2_Val} [ICON_TOURISM]旅遊業績 (+{3_Avg} 每回合)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_PER_TURN_HEADER">
+      <Text>[COLOR_POSITIVE_TEXT]本回合獲得的即時收益，以及之前的 {1_Num} 回合[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YIELD_PER_TURN_HEADER_EMPTY">
+      <Text>即時收益可透過多種方式獲得，包括政策、信仰和建築。本回合及過去 10 個回合所獲得的即時收益總和會列在這裡。</Text>
+    </Row>
+    <!--貿易路線 -->
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_TOURISM_YIELD_TT">
+      <Text>{1_Num} [ICON_TOURISM]旅遊業績</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_GOLDEN_AGE_POINTS_YIELD_TT">
+      <Text>{1_Num} [ICON_GOLDEN_AGE]黃金時代點數</Text>
+    </Row>
+	
+	<!-- Civilopedia -->
+	<Row Tag="TXT_KEY_PEDIA_BASE_COST_LABEL">
+		<Text>基礎成本:</Text>
+	</Row>
+		<Row Tag="TXT_KEY_PEDIA_UNIQUEPROJ_LABEL">
+			<Text>獨特工程：</Text>
+		</Row>
+		
+    <!-- Info tooltip -->
+		<!-- Common -->
+		<Row Tag="TXT_KEY_INVESTED">
+			<Text>[COLOR_POSITIVE_TEXT] (INVESTED)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_COST_PREFIX">
+			<Text>成本：{1_CostStr}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_COST_PRODUCTION">
+			<Text>{1_Num} [ICON_PRODUCTION]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_COST_GOLD">
+			<Text>{1_Num} [ICON_GOLD]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_COST_FAITH">
+			<Text>{1_Num} [ICON_PEACE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_YIELD_BOOST">
+			<Text>{1: number "'+'##.##;'-'##.##"} {2_YieldIcon}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_YIELD_MODIFIER">
+			<Text>{1: number "'+'##;'-'##"}% {2_YieldIcon}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_YIELD_BOOST_FRACTION">
+			<Text>{1: number "'+'##;'-'##"}/{2_Denominator} {3_YieldIcon}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_PUPPET_INVESTABLE">
+			<Text>可在[ICON_PUPPET]傀儡城市投資</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_PUPPET_PURCHASABLE">
+			<Text>可在[ICON_PUPPET]傀儡城市購買</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_BUILDINGS">
+			<Text>所需建築：[COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_POLICY">
+			<Text>所需政策：[COLOR_MAGENTA]{1_Policy:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_POLICY_BRANCH">
+			<Text>需要任意 [COLOR_MAGENTA]{1_PolicyBranch:textkey}[ENDCOLOR] 政策</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_POLICY_BRANCH_OPENER">
+			<Text>需要啟用 [COLOR_MAGENTA]{1_PolicyBranch:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_POLICY_BRANCH_COMPLETION">
+			<Text>需要完成 [COLOR_MAGENTA]{1_PolicyBranch:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_PREREQ_TECH">
+			<Text>先決科技： [COLOR_CYAN]{1_Techs}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_OBSOLETE_TECH">
+			<Text>過時淘汰條件：[COLOR_CYAN]{1_Tech:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_TOTAL_RESOURCES_REQUIRED">
+			<Text>需要：{1_NumResource} {2_ResIcon} {3_Res:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_MAX_GLOBAL_INSTANCE">
+			<Text>世界最大數量為 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_MAX_TEAM_INSTANCE">
+			<Text>每個團隊最大數量為 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_MAX_PLAYER_INSTANCE">
+			<Text>每個玩家最大數量為 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_GLOBAL_SUFFIX">
+			<Text>在所有城市中</Text>
+		</Row>
+		<!-- Unit -->
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_COMBAT_CLASS">
+			<Text>({1:textkey})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_COMBAT_CLASS_SKIRMISHER">
+			<Text>(騎射單位)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_SPACESHIP_PART">
+			<Text>[COLOR_CYAN](太空船部件)[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXTRA_MAINTENANCE">
+			<Text>[COLOR_NEGATIVE_TEXT]額外維護費：[ENDCOLOR] {1_Num} [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_REDUCED_MAINTENANCE">
+			<Text>[COLOR_POSITIVE_TEXT]減少的維護費：[ENDCOLOR] {1_Num} [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_NO_MAINTENANCE">
+			<Text>[COLOR_POSITIVE_TEXT]無維護成本[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_NO_SUPPLY">
+			<Text>[COLOR_POSITIVE_TEXT]不消耗[ICON_WAR]單位供應上限[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_UNHAPPINESS">
+			<Text>[ICON_HAPPINESS_3] [COLOR_NEGATIVE_TEXT]不滿度：{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_UNHAPPINESS_REDUCTION">
+			<Text>[ICON_HAPPINESS_3] [COLOR_POSITIVE_TEXT]不滿度減少了：{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_STAGNATION">
+			<Text>[COLOR_NEGATIVE_TEXT]生產停滯[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_REDUCE_POPULATION">
+			<Text>[COLOR_NEGATIVE_TEXT]減少 1 [ICON_CITIZEN]人口[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_MAX_HP">
+			<Text>最大生命值：{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_SIGHT">
+			<Text>[ICON_BULLET]視野：{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_AIR_DEFENSE">
+			<Text>[ICON_AIRSTRIKE_DEFENSE]空襲防禦：{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_INTERCEPT_RANGE">
+			<Text>[ICON_AIRSTRIKE_DEFENSE]攔截範圍：{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_AIR_SLOTS">
+			<Text>[ICON_AIRPORT]已佔用空中單位槽位：{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_NO_AIR_SLOTS">
+			<Text>不佔用空中單位槽位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_CAN_CARRY">
+			<Text>可攜帶：{1_CargoType:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FREE_PROMOTIONS">
+			<Text>無償晉升：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FREE_PROMOTIONS_FRIENDLY">
+			<Text>友方領土無償晉升：{1_Promotion:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_MOVE_AFTER_PURCHASE">
+			<Text>購買後可獲得滿經驗值和移動</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FREE_UPGRADE">
+			<Text>無償自動升級</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_MOVE_AFTER_UPGRADE">
+			<Text>升級後可移動</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_RIVAL_TERRITORY">
+			<Text>可進入敵方領土</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FOUND_CITY">
+			<Text>可以建立城市</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FOUND_CITY_ABROAD">
+			<Text>可以在不同陸地上建立城市</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FOUND_CITY_PUPPET">
+			<Text>可以建立殖民地（傀儡城市）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FOUND_CITY_ADVANCED">
+			<Text>附帶額外領土及人口</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FOUND_CITY_RESTRICTION">
+			<Text>[COLOR_NEGATIVE_TEXT]無法在任何人的邊境附近或者你的帝國極度不滿度時，建立城市。[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FOUND_CITY_FREE_BUILDINGS">
+			<Text>在建立處可無償建造（須符合地點要求）：{1_Buildings}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_CULTURE_BOMB">
+			<Text>可以 {TXT_KEY_MISSION_CULTURE_BOMB} (半徑為 {1_Radius}, {2_Num} 次)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_SELL_EXOTIC_GOODS">
+			<Text>可以 {TXT_KEY_MISSION_SELL_EXOTIC_GOODS} ({1_Num} 次)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_CITY_ATTACK_ONLY">
+			<Text>[COLOR_NEGATIVE_TEXT]僅限城市攻擊[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_SUICIDE">
+			<Text>[COLOR_NEGATIVE_TEXT]在攻擊後被摧毀[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_NO_EMBARK">
+			<Text>[COLOR_NEGATIVE_TEXT]無法登船[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BOUNTY">
+			<Text>[COLOR_NEGATIVE_TEXT]此單位的懸賞：[ENDCOLOR] {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_PROHIBIT_SPREAD">
+			<Text>防止活躍外國宗教的傳播</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_PROHIBIT_SPREAD_PARTIAL">
+			<Text>減少活躍外國宗教的傳播 {1_Effectiveness}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_IGNORE_BUILDING_DEFENSE">
+			<Text>攻擊時，忽略建築物提供的[ICON_STRENGTH]城市強度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_CULTURE_ON_DISBAND_UPGRADE">
+			<Text>解散或升級時獲得[ICON_CULTURE]文化</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_GOODY_MODIFIER">
+			<Text>{2_Sign}{1_Num}% 歷史古跡獎勵</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BUILD_NON_IMPROVEMENTS">
+			<Text>建造動作：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BUILD_IMPROVEMENTS">
+			<Text>改良設施：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_YIELD_ON_COMPLETION">
+			<Text>完成時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BIRTH_WLTKD">
+			<Text>誕生時：所有城市 +{1_NumTurn} 回合[ICON_HAPPINESS_1]「敬王之日」</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BIRTH_GA">
+			<Text>誕生時：開啟一個[ICON_GOLDEN_AGE]黃金時代 ({1_NumTurn} 回合)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BIRTH_CULTURE">
+			<Text>誕生時：{1_Num} [ICON_CULTURE]文化給[ICON_CAPITAL]首都</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_BIRTH_CULTURE_GENERIC">
+			<Text>誕生時：+4 回合帝國[ICON_CULTURE]文化收益給[ICON_CAPITAL]首都</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FREE_RESOURCE">
+			<Text>消耗時：+{1_Num} {2_ResIcon} {3_Res:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXPEND_SUPPLY">
+			<Text>消耗時：+{1_Num} [ICON_WAR]軍隊供應上限</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXPEND_COPY_TILE_YIELD">
+			<Text>消耗時：[ICON_CAPITAL]首都單元格的收益增加</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXPEND_XP">
+			<Text>消耗時：單元格上的單位 +{1_Num} 經驗</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXTRA_ATTACK_HEAL_ON_KILL">
+			<Text>擊敗軍事單位時：+1 [ICON_WAR]攻擊, +1 [ICON_MOVES]移動, +{1_Num} 生命值</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_INSTANT_YIELD_ON_KILL">
+			<Text>擊敗軍事單位時：{1_InstantYield}, 根據被擊敗單位的[ICON_STRENGTH]戰鬥力進行變化</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_INSTANT_YIELD_ON_KILL_BARBARIAN">
+			<Text>擊敗蠻族軍事單位時：{1_InstantYield}, 根據被擊敗單位的[ICON_STRENGTH]戰鬥力進行變化</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXTRA_PLUNDER_GOLD">
+			<Text>掠奪[ICON_INTERNATIONAL_TRADE]貿易路線三倍金幣</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_HURRY_PRODUCTION">
+			<Text>{TXT_KEY_MISSION_HURRY_PRODUCTION}: +{1_Num} [ICON_PRODUCTION]產能</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_DISCOVER_TECH">
+			<Text>{1_Num} 無償科技</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_DISCOVER_TECH_SCIENCE">
+			<Text>{1_Num} [ICON_RESEARCH]科技值</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_GIVE_POLICIES">
+			<Text>{1_Num} 無償政策</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_GIVE_POLICIES_CULTURE">
+			<Text>{1_Num} [ICON_CULTURE]文化</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_START_GOLDENAGE">
+			<Text>{TXT_KEY_MISSION_START_GOLDENAGE}：{1_Num} [ICON_GOLDEN_AGE]黃金時代點數</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_ONE_SHOT_TOURISM">
+			<Text>{TXT_KEY_MISSION_ONE_SHOT_TOURISM}：{1_Num} [ICON_TOURISM]旅遊業績給目標玩家</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_ONE_SHOT_TOURISM_OTHER_PLAYERS">
+			<Text>{TXT_KEY_PRODUCTION_UNIT_ONE_SHOT_TOURISM &lt;&lt; {1_Tourism}}, 並且 {2_Percent}% 給其他玩家</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_CONCERT_TOUR">
+			<Text>{TXT_KEY_MISSION_ONE_SHOT_TOURISM}: +{1_NumTurn} 回合的[ICON_TOURISM]旅遊業績，+100% 給目標玩家, +50% 給其他玩家</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_TRADE_MISSION_GOLD">
+			<Text>{1_Num} [ICON_GOLD]金幣</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_TRADE_MISSION_WLTKD">
+			<Text>所有城市 +{1_NumTurn} 回合的[ICON_HAPPINESS_1]「敬王之日」</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_TRADE_MISSION_RESTING_INFLUENCE">
+			<Text>{TXT_KEY_MISSION_CONDUCT_TRADE_MISSION}: {2_Sign}{1_Num} 剩餘[ICON_INFLUENCE]影響力給目標[ICON_CITY_STATE]城邦</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FREE_LUXURY">
+			<Text>{TXT_KEY_MISSION_FREE_LUXURY}: +{1_Num} 隨機奢侈品資源</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_BUILDINGS_PURCHASE">
+			<Text>要求購買的建築物：[COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_BUILDINGS_INVEST">
+			<Text>要求投資的建築物：[COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_PROJECT">
+			<Text>要求完成：[COLOR_CITY_BLUE]{1_Project:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_REQUIRED_BELIEF">
+			<Text>要求[ICON_PEACE]信仰購買的信條：[COLOR_WHITE]{1_Belief:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_REQUIRE_ENHANCED_RELIGION">
+			<Text>要求強化宗教</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIQUE_UNIT">
+			<Text>{1_CivAdj} 獨特[COLOR_YELLOW]{2_Unit:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIQUE_UNIT_NO_DEFAULT">
+			<Text>{1_CivAdj} 獨特單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIQUE_UNIT_CITY_STATE">
+			<Text>[ICON_CITY_STATE]城邦獨特單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_MAX_CITY_INSTANCE">
+			<Text>擁有的每個城市最大數量為 {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_STRENGTH_FROM_ERA_SUMMARY">
+			<Text>[ICON_STRENGTH]戰鬥力因時代變遷：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_STRENGTH_FROM_ERA">
+			<Text>[COLOR_CYAN]{2_Era:textkey}[ENDCOLOR]或者更晚：[COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_COMBAT_FROM_ERA_SUMMARY">
+			<Text>戰鬥類型因時代變遷：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_COMBAT_FROM_ERA">
+			<Text>[COLOR_CYAN]{2_Era:textkey}[ENDCOLOR]或者更晚：[COLOR_YELLOW]{1_UnitCombat:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_PROMOTION_FROM_ERA_SUMMARY">
+			<Text>無償晉升因時代：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_PROMOTION_FROM_ERA">
+			<Text>[COLOR_CYAN]{2_Era:textkey}[ENDCOLOR]或者更晚：[COLOR_POSITIVE_TEXT]{1_Promotions}[ENDCOLOR]</Text>
+		</Row>
+		<!-- Building -->
+		<Row Tag="TXT_KEY_PRODUCTION_UNIQUE_BUILDING">
+			<Text>{1_CivAdj} 獨特[COLOR_YIELD_FOOD]{2_Building:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIQUE_BUILDING_NO_DEFAULT">
+			<Text>{1_CivAdj} 獨特建築</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_EXCLUSIVE_BUILDING">
+			<Text>{1_CivAdj} 專屬建築</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_HQ">
+			<Text>[COLOR_YIELD_GOLD]{1_Corporation:textkey}[ENDCOLOR]的總部</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_OFFICE">
+			<Text>[COLOR_YIELD_GOLD]{1_Corporation:textkey}[ENDCOLOR]的辦公室</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_FRANCHISE">
+			<Text>[COLOR_YIELD_GOLD]{1_Corporation:textkey}[ENDCOLOR]的特許經營權</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_BASE_FRANCHISE">
+			<Text>基礎特許經營權限制：{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_RANDOM_FRANCHISE_CHANCE">
+			<Text>每回合隨機一個外國城市有 {1_Num}% 機會出現[ICON_FRANCHISE]特許經營權</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_WORLD_CONGRESS_PROJECT_REWARD_1">
+			<Text>[COLOR_PLAYER_MIDDLE_PURPLE_TEXT]{1_Project:textkey}[ENDCOLOR] [ICON_TROPHY_BRONZE]獎勵</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_WORLD_CONGRESS_PROJECT_REWARD_2">
+			<Text>[COLOR_PLAYER_MIDDLE_PURPLE_TEXT]{1_Project:textkey}[ENDCOLOR] [ICON_TROPHY_SILVER]獎勵</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_WORLD_CONGRESS_PROJECT_REWARD_3">
+			<Text>[COLOR_PLAYER_MIDDLE_PURPLE_TEXT]{1_Project:textkey}[ENDCOLOR] [ICON_TROPHY_GOLD]獎勵</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_WORLD_CONGRESS_PROJECT_COST_PER_PLAYER">
+			<Text>成本：{1_ProductionCostPerPlayer} [ICON_PRODUCTION]遊戲開始時的文明數量</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_ON_FOUND">
+			<Text>建立城市時，自動建成</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_ON_FOUND_GENERIC">
+			<Text>建立城市時，如果遊戲開始於 {1_Era:textkey} 或者更晚，自動建成</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_COUNT">
+			<Text>{1: plural 0?None built; 1?Built in 1 City; 2?Built in {1} Cities;}{2: plural 0?; 1?, Building in 1 City; 2?, Building in {2} Cities;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_VICTORY_REQUIREMENT">
+			<Text>需要 {1_Num} 來達成 {2_Victory:textkey} 勝利</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIAL_SESSION_REQUIREMENT">
+			<Text>需要觸發 [COLOR_PLAYER_MIDDLE_PURPLE_TEXT]{1_Resolution:textkey}[ENDCOLOR] 特殊會議</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LOCAL_EFFECTS">
+			<Text>本地效果：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GLOBAL_EFFECTS">
+			<Text>帝國範圍內效果：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TEAM_EFFECTS">
+			<Text>團隊範圍內效果：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_EFFECTS">
+			<Text>公司福利：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENTS">
+			<Text>觸發或強化以下歷史事件：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENT_ERA_CHANGE">
+			<Text>進入一個新時代(相對強度：[COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENT_WORLD_WONDER">
+			<Text>完成一個[ICON_WONDER]世界奇跡(相對強度：[COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENT_GREAT_PERSON">
+			<Text>獲得一個[ICON_GREAT_PEOPLE]偉人(相對強度：[COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENT_WON_WAR">
+			<Text>贏得一場[ICON_WAR]戰爭(戰爭分數 25+) (相對強度：[COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENT_TRADE_LAND">
+			<Text>完成一條從這個城市出發往其他文明的[ICON_CARAVAN]陸上貿易路線(相對強度：[COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HISTORIC_EVENT_TRADE_SEA">
+			<Text>完成一條從這個城市出發往其他文明的[ICON_CARGO_SHIP]海上貿易路線(相對強度：[COLOR_POSITIVE_TEXT]{1_Strength}[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ERA_SCALING_SUFFIX">
+			<Text>隨時代變化</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ALL_BOOSTS">
+			<Text>此建築的可加速的清單：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_POTENTIAL_BOOSTS">
+			<Text>此建築的潛在提升：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_CHANGE">
+			<Text>{3_YieldIcon} {4_Yield:textkey}: {2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROJECTED_YIELD_CHANGE">
+			<Text>建成後的預期收益：{1_YieldChanges}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER">
+			<Text>{2_Sign}{1_Num}% {3_YieldIcon} {4_Yield:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROJECTED_YIELD_MODIFIER">
+			<Text>建成後的預期收益修正：{1_YieldModifiers}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROJECTED_HAPPINESS">
+			<Text>建成後的預期[ICON_HAPPINESS_1]幸福度：{2_Sign}{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AIR_DEFENSE">
+			<Text>[ICON_AIRSTRIKE_DEFENSE]城市空襲防禦：+{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_WORK_YIELD_TYPE">
+			<Text>這個建築的[ICON_GREAT_WORK]巨作提供 {1_YieldIcon} {2_Yield:textkey} 以取代[ICON_CULTURE]文化</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_THEMING_BONUS">
+			<Text>[COLOR_POSITIVE_TEXT]主題獎勵已啟動[ENDCOLOR]時，提升至 {1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_FROM_WONDERS">
+			<Text>城市的每個國家/世界奇觀 +{1_Num} [ICON_STRENGTH]城市強度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% 來自建築的[ICON_STRENGTH]城市強度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_MODIFIER_TEAM">
+			<Text>你的團隊的所有城市 {2_Sign}{1_Num}% 來自建築的[ICON_STRENGTH]城市強度</Text>
+		</Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_DAMAGE_REDUCTION">
+      <Text>[ICON_STRENGTH]傷害減免：{2_Sign}{1_Num}</Text>
+    </Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_RESOURCE">
+			<Text>{2_Sign}{1_Num} {3_ResourceIcon} {4_Resource:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_RESOURCE_FROM_POPULATION">
+			<Text>城市每個[ICON_CITIZEN]人口 +{1_Num} {2_ResourceIcon} {3_Resource:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_RESOURCE_FROM_FRANCHISE">
+			<Text>每 {1_Num} 個已建立的[ICON_FRANCHISE]特許經營權 +1 {2_ResourceIcon} {3_Resource:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD_MODIFIER_PER_FOLLOWER">
+			<Text>每個主流宗教信徒 {2_Sign}{1_Num}% [ICON_FOOD]食物</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIFIC_GPP_MODIFIER">
+			<Text>+{1_Num}% {2_GreatPersonIcon} {3_GreatPerson:textkey}速率</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_GREAT_PEOPLE]偉人速率</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_MODIFIER_FROM_CORPORATION">
+			<Text>每個已建立的特許經營權 {2_Sign}{1_Num}% [ICON_GREAT_PEOPLE]偉人速率</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_MODIFIER_FROM_MARRIAGE">
+			<Text>每個已激活的[ICON_RES_MARRIAGE]聯姻 {2_Sign}{1_Num}% [ICON_GREAT_PEOPLE]偉人速率</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_MODIFIER_FROM_LOCAL_THEME">
+			<Text>城市每個已激活的主題獎勵 {2_Sign}{1_Num}% [ICON_GREAT_PEOPLE]偉人速率</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GGP_MODIFIER">
+			<Text>戰鬥 {2_Sign}{1_Num}% [ICON_GREAT_GENERAL]大將軍點數</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GODLEN_AGE_LENGTH_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_GOLDEN_AGE]黃金時代時間</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_UPGRADE_COST_MODIFIER">
+			<Text>{2_Sign}{1_Num}% 單位升級成本</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_ALL">
+			<Text>{2_Sign}{1_Num} 經驗給所有單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_COMBAT">
+			<Text>{2_Sign}{1_Num} 經驗給[COLOR_YELLOW]{3_Combat:textkey}[ENDCOLOR]單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN">
+			<Text>{2_Sign}{1_Num} 經驗給[COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN_FROM_GREAT_WORK">
+			<Text>城市每個[ICON_GREAT_WORK]巨作 {2_Sign}{1_Num} 經驗給[COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_DOMAIN_FROM_GREAT_WRITING_GLOBAL">
+			<Text>帝國內所有城市每個[ICON_GW_WRITING]文學巨作 {2_Sign}{1_Num} 經驗給[COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR]，上限為 45 經驗</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FOOD_KEPT">
+			<Text>城市成長時，{2_Sign}{1_Num}% [ICON_FOOD]食物被保留</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_HAPPINESS_4]不滿度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS_MODIFIER_LOCAL">
+			<Text>城市 {2_Sign}{1_Num}% [ICON_HAPPINESS_4]不滿度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS_MODIFIER_CITY_COUNT">
+			<Text>{2_Sign}{1_Num}% 帝國規模[ICON_HAPPINESS_4]不滿度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_GLOBAL">
+			<Text>所有城市 {2_Sign}{1_Num} [ICON_HAPPINESS_1]幸福度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_POLICY_CAPITAL">
+			<Text>每個已採用的政策，[ICON_CAPITAL]首都 {1: plural 1?+1; other?+1/{1_Num};} [ICON_HAPPINESS_1]幸福度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_WAR">
+			<Text>與你的帝國交戰的每個主要文明會讓你 {2_Sign}{1_Num} 帝國[ICON_HAPPINESS_1]幸福度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_URBANIZATION_REDUCTION">
+			<Text>{2_Sign}{1_Num} 專家不會產生來自[ICON_URBANIZATION]城市化的[ICON_HAPPINESS_3]不滿度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NEVER_CAPTURE">
+			<Text>征服時被摧毀</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CONQEUST_PROB_0">
+			<Text>征服時被摧毀（可被政策抵消）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CONQEUST_PROB_100">
+			<Text>征服時始終保留</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TEAM_SHARE">
+			<Text>與團隊共享帝國範圍效果</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TECH_SHARE">
+			<Text>團隊獲得 {1_Num} 其他團隊已研發的技術</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WATER_CONNECTION">
+			<Text>允許通過水進行[ICON_CONNECTED]城市連接</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WATER_INDUSTRIAL_CONNECTION">
+			<Text>允許通過水進行[ICON_INDUSTRIAL_CONNECTED]工業城市連接</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AIR_CONNECTION">
+			<Text>允許通過空中進行[ICON_CONNECTED]城市連接</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AIRLIFT">
+			<Text>允許[ICON_AIRPORT]空運</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_FOOD">
+			<Text>允許城市[ICON_FOOD]食物[ICON_INTERNATIONAL_TRADE]內部貿易路線</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_FOOD_GLOBAL">
+			<Text>允許所有城市[ICON_FOOD]食物[ICON_INTERNATIONAL_TRADE]內部貿易路線</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_PRODUCTION">
+			<Text>允許城市[ICON_PRODUCTION]產能[ICON_INTERNATIONAL_TRADE]內部貿易路線</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_PRODUCTION_GLOBAL">
+			<Text>允許所有城市[ICON_PRODUCTION]產能[ICON_INTERNATIONAL_TRADE]內部貿易路線</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ADD_FRESH_WATER">
+			<Text>添加[COLOR_POSITIVE_TEXT]淡水[ENDCOLOR]給城市和相鄰單元格</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_PROMOTION">
+			<Text>無償的[COLOR_POSITIVE_TEXT]{1_Promotion:textkey}[ENDCOLOR]晉升給此城市未來的所有符合資格的訓練單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_PROMOTION_RETROACTIVE">
+			<Text>無償的[COLOR_POSITIVE_TEXT]{1_Promotion:textkey}[ENDCOLOR]晉升給此城市所有已存在和未來的符合資格的訓練單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_PROMOTION_GLOBAL">
+			<Text>無償的[COLOR_POSITIVE_TEXT]{1_Promotion:textkey}[ENDCOLOR]晉升給所有已存在和未來的符合資格的訓練單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ALLOW_UNITS">
+			<Text>允許生產[COLOR_YELLOW]{1_Units}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AIR_SLOTS">
+			<Text>{2_Sign}{1_Num} 空中單位槽位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SUPPLY_FLAT">
+			<Text>{2_Sign}{1_Num} [ICON_WAR]軍隊供應上限</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SUPPLY_MODIFIER">
+			<Text>{2_Sign}{1_Num}% 來自人口的[ICON_SILVER_FIST]軍隊供應上限</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_SECURITY">
+			<Text>{2_Sign}{1_Num} [ICON_CITY_SECURITY]城市安保</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_SECURITY_PER_X_POPULATION">
+			<Text>城市每 {1: number #.##} [ICON_CITIZEN]人口 {2_Sign}1 [ICON_CITY_SECURITY]城市安保</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_STRIKE_STRENGTH_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_RANGE_STRENGTH]城市強度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_STRIKE_RANGE">
+			<Text>{2_Sign}{1_Num} 城市攻擊範圍</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INDIRECT_FIRE">
+			<Text>城市攻擊可以越過障礙</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WORKING_RANGE">
+			<Text>{2_Sign}{1_Num} 城市工作範圍</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPREAD_ACTION">
+			<Text>{2_Sign}{1_Num} 來自城市的傳教士的傳播行動力</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPREAD_ACTION_GLOBAL">
+			<Text>{2_Sign}{1_Num} 傳教士的傳播行動力</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPREAD_STRENGTH_MODIFIER_GLOBAL">
+			<Text>{2_Sign}{1_Num}% 宗教單位的起始宗教力量</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INFLUENCE_CHANGE">
+			<Text>{2_Sign}{1_Num} 來自城市的單位執行外交任務的[ICON_INFLUENCE]影響力</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPY_RANK">
+			<Text>+{1_Num} 新[ICON_SPY]間諜的等級</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MAINTENANCE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% 建築[ICON_GOLD]金幣維護費</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PURCHASE_MILITARY_COOLDOWN_MODIFIER">
+			<Text>{2_Sign}{1_Num} 購買軍事單位的冷卻回合</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PURCHASE_CIVILIAN_COOLDOWN_MODIFIER">
+			<Text>{2_Sign}{1_Num} 購買平民單位的冷卻回合</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INVEST_MILITARY_COOLDOWN_MODIFIER">
+			<Text>{2_Sign}{1_Num} 投資軍事單位的冷卻回合</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INVEST_CIVILIAN_COOLDOWN_MODIFIER">
+			<Text>{2_Sign}{1_Num} 投資平民單位的冷卻回合</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRESSURE_MODIFIER">
+			<Text>對其他城市 {2_Sign}{1_Num}% 宗教壓力</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRESSURE_MODIFIER_IF_MAJORITY">
+			<Text>如果解鎖此建築的信仰屬於主流宗教，對其他城市 {2_Sign}{1_Num}% 宗教壓力</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRESSURE_MODIFIER_IF_TRADE_ROUTE">
+			<Text>對通過[ICON_INTERNATIONAL_TRADE]貿易路線連接的外國城市 {2_Sign}{1_Num}% 宗教壓力</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BASE_PRESSURE_MODIFIER">
+			<Text>對其他城市 {2_Sign}{1_Num}% 基礎宗教壓力</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRESSURE_RECEIVED_MODIFIER">
+			<Text>城市接收非主流宗教的主動與被動傳播 {2_Sign}{1_Num}% 宗教壓力</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRESSURE_RECEIVED_MODIFIER_GLOBAL">
+			<Text>所有城市接收非主流宗教的主動與被動傳播 {2_Sign}{1_Num}% 宗教壓力</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ESPIONAGE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% 外國間諜竊取速率</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GARRISON_RANGED_ATTACK_MODIFIER">
+			<Text>駐軍單位攻擊時，{2_Sign}{1_Num}% [ICON_RANGE_STRENGTH]遠程攻擊力</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GARRISON_HEAL_RATE">
+			<Text>駐軍單位治療時，{2_Sign}{1_Num} 生命值</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GARRISON_HEAL_RATE_ALWAYS">
+			<Text>回合結束時：無論採取何種行動，陸軍駐軍都會恢復 {1_Num} 生命值</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUKE_RESISTANCE">
+			<Text>受到核打擊時，對駐軍單位的傷害和[ICON_CITIZEN]人口損失 {2_Sign}{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUKE_INTERCEPTION">
+			<Text>{2_Sign}{1_Num}% 機會攔截核武器，降低其傷害等級</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WORK_RATE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% 單元格改善速率</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PURCHASE_COST_MODIFIER">
+			<Text>{2_Sign}{1_Num}% 購買和投資的[ICON_GOLD]金幣成本</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PRODUCTION_MODIFIER_FROM_MINOR_TRADE_ROUTES">
+			<Text>每條通往城邦的[ICON_INTERNATIONAL_TRADE]貿易路線 {2_Sign}{1_Num}% [ICON_PRODUCTION]產能</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BUILDING_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION]產能給非奇跡建築</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WONDER_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION]產能給奇跡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MILITARY_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION]產能給軍事單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MILITARY_PRODUCTION_MODIFIER_FROM_WAR">
+			<Text>與你的帝國交戰的每個主要文明，讓你所有城市 {2_Sign}{1_Num}% [ICON_PRODUCTION]產能給軍事單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPACESHIP_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION]產能給太空船部件</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIFIC_UNIT_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION]產能給[COLOR_YELLOW]{3_Unit:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIFIC_UNIT_COMBAT_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION]產能給[COLOR_YELLOW]{3_UnitCombat:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIFIC_DOMAIN_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION]產能給[COLOR_YELLOW]{3_Domain:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_SPECIFIC_STRATEGIC_UNIT_PRODUCTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_PRODUCTION]產能給需要{3_ResourceIcon}{4_Resource:textkey}的單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_CONNECTION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% 來自[ICON_CONNECTED]城市連接和[ICON_INDUSTRIAL_CONNECTED]工業城市連接的[ICON_PRODUCTION]產能/[ICON_GOLD]金幣</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_POLICY_COST_MODIFIER">
+			<Text>{2_Sign}{1_Num}% 政策成本</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BORDER_GROWTH_COST_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_CULTURE_LOCAL]邊界成長點數</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PLOT_PURCHASE_COST_MODIFIER">
+			<Text>{2_Sign}{1_Num}% 單元格購買成本</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RESEARCH_AGREEMENT_SCIENCE_MODIFIER">
+			<Text>+{1_Num}% 來自研究協議的[ICON_RESEARCH]科技值</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RESEARCH_AGREEMENT_SCIENCE_MODIFIER_GENERIC">
+			<Text>+{1_Num}% 來自研究協議的[ICON_RESEARCH]科技值 (若已啟用)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DISCOVER_TECH_SCIENCE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% 來自{TXT_KEY_MISSION_DISCOVER_TECH}的[ICON_RESEARCH]科技值 </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PROCESS_EFFICIENCY_MODIFIER">
+			<Text>{1: number "'+'##;'-'##"}% 來自[COLOR_PLAYER_CYAN]{2_Process:textkey}[ENDCOLOR]的轉化率</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES">
+			<Text>{2_Sign}{1_Num} [ICON_DIPLOMAT]世界議會代表</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_SCALING">
+			<Text>原本世界存在的每個[ICON_CITY_STATE]城邦 {2_Sign}1 [ICON_DIPLOMAT]世界議會代表</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_GPT">
+			<Text>每回合每 {1_Gold} 總[ICON_GOLD]金幣 +1 [ICON_DIPLOMAT]世界議會代表，上限為原本世界存在的 1/4 [ICON_CITY_STATE]城邦數量</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_DOF">
+			<Text>每[COLOR_POSITIVE_TEXT]2[ENDCOLOR]個與你的帝國的友好宣言 +{1_Num} [ICON_DIPLOMAT]世界議會代表</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_DP">
+			<Text>與你的帝國簽訂的每個有效的防禦條約 +{1_Num} [ICON_DIPLOMAT]世界議會代表</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_CAPITALS">
+			<Text>你控制的每個[COLOR_POSITIVE_TEXT]外國[ENDCOLOR]原始[ICON_CAPITAL]首都 +{1_Num} [ICON_DIPLOMAT]世界議會代表</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_RESEARCH_AGREEMENTS">
+			<Text>與你的帝國簽訂的每個有效的研究協議 +{1_Num} [ICON_DIPLOMAT]世界議會代表</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_VOTES_FROM_RELIGION">
+			<Text>每個追隨你[ICON_RELIGION]主流宗教的城市 +1 [ICON_DIPLOMAT]世界議會代表</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_ROUTES">
+			<Text>{2_Sign}{1_Num} [ICON_INTERNATIONAL_TRADE]貿易路線</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LAND_ETR_ORIGIN_GOLD">
+			<Text>從此城市出發的[ICON_CARAVAN]陸上國際貿易路線 {2_Sign}{1_Num} [ICON_GOLD]金幣</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SEA_ETR_ORIGIN_GOLD">
+			<Text>從此城市出發的[ICON_CARGO_SHIP]海上國際貿易路線 {2_Sign}{1_Num} [ICON_GOLD]金幣</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ETR_DESTINATION_OUR_GOLD">
+			<Text>目標為此城市的[ICON_INTERNATIONAL_TRADE]國際貿易路線 {2_Sign}{1_Num} [ICON_GOLD]金幣</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ETR_DESTINATION_THEIR_GOLD">
+			<Text>目標為此城市的[ICON_INTERNATIONAL_TRADE]國際貿易路線的擁有者 {2_Sign}{1_Num} [ICON_GOLD]金幣</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RESOURCE_DIVERSITY_MODIFIER">
+			<Text>[ICON_INTERNATIONAL_TRADE]貿易路線 {2_Sign}{1_Num}% 資源多樣性</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LAND_TRADE_ROUTE_RANGE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_CARAVAN]陸上貿易路線範圍</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SEA_TRADE_ROUTE_RANGE_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_CARGO_SHIP]海上貿易路線範圍</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_ROUTE_DURATION_MODIFIER">
+			<Text>{2_Sign}{1_Num}% [ICON_INTERNATIONAL_TRADE]貿易路線的持續時間</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_ROUTE_DURATION_MODIFIER_LOCAL">
+			<Text>{2_Sign}{1_Num}% 來自此城市的[ICON_INTERNATIONAL_TRADE]貿易路線的持續時間</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_UNIT_EXTRA_SIGHT">
+			<Text>{2_Sign}{1_Num} 貿易單位的視野</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_UNIT_SPEED_MULTIPLIER">
+			<Text>{1_Num}x 貿易單位速度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_TRADE_ROUTE_IMMUNITY">
+			<Text>[ICON_INTERNATIONAL_TRADE]貿易路線不能被掠奪</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CULTURE_TO_TOURISM_TERRAIN_WONDER">
+			<Text>{1_Num}% 來自地形和[ICON_WONDER]世界奇跡的[ICON_CULTURE]文化添加到[ICON_TOURISM]旅遊業績收益</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_WORK_TOURISM_MODIFIER">
+			<Text>{2_Sign}{1_Num}% 來自[ICON_GREAT_WORK]巨作的[ICON_TOURISM]旅遊業績</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NULLIFY_TECH_TOURISM_MODIFIER">
+			<Text>-{1_Num}% 來自已研究[ICON_CYAN]{2_Tech:textkey}[ENDCOLOR]的文明的[ICON_TOURISM]旅遊業績</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_FRANCHISE_TOURISM_MODIFIER">
+			<Text>其他文明的領土內每個已建立的[ICON_FRANCHISE]特許經營權 {2_Sign}{1_Num}% [ICON_TOURISM]旅遊業績給該文明</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REDUCED_GLOBAL_FOLLOWER_REQUIREMENT">
+			<Text>所有建築 {2_Sign}{1_Num}% 全球追隨者要求</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_FROM_OTHER_YIELD">
+			<Text>{1_Num}% 的城市 {2_YieldIcon} {3_Yield:textkey} 收益(前置修正)添加到城市 {4_YieldIcon} {5_Yield:textkey} 收益(後置修正)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_FROM_OTHER_YIELD_GLOBAL">
+			<Text>每個城市的 {1_Num}% 的 {2_YieldIcon} {3_Yield:textkey} 收益(前置修正)添加到 {4_YieldIcon} {5_Yield:textkey} 收益(後置修正)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_TECHS">
+			<Text>完成時：獲得 {1_Num} 無償科技</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_POLICIES">
+			<Text>完成時：獲得 {1_Num} 無償政策</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_GP">
+			<Text>完成時：{1_Num} 由你選擇的無償的[ICON_GREAT_PEOPLE]偉人，出現在[ICON_CAPITAL]首都</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_SPY_POINTS">
+			<Text>完成時：獲得 {1_Num} [ICON_SPY]間諜點數</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_SPIES">
+			<Text>完成時：獲得 {1_Num} [ICON_SPY]間諜</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_UNIT">
+			<Text>完成時：{1_Num} [COLOR_YELLOW]{2_Unit:textkey}[ENDCOLOR] 出現在城市或附近</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_BUILDING">
+			<Text>完成時：獲得無償的[COLOR_YIELD_FOOD]{1_Building:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_GREAT_WORK">
+			<Text>完成時：獲得無償的[ICON_GREAT_WORK]巨作: [COLOR_POSITIVE_TEXT]{1_GreatWork:textkey}[ENDCOLOR] (放置在最近的相容槽位中)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_ARTIFACT">
+			<Text>完成時：獲得 {1_Num} 無償的[ICON_ARTIFACT]藝術品 (放置在這個建築中)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_START_GOLDEN_AGE">
+			<Text>完成時：開始一個[ICON_GOLDEN_AGE]黃金時代</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_START_WLTKD">
+			<Text>完成時：+{1_NumTurn} 回合的[ICON_HAPPINESS_1]「敬王之日」</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_ON_COMPLETION">
+			<Text>完成時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_ON_COMPLETION_FROM_POPULATION">
+			<Text>完成時：{1_InstantYield} 給城市的每個[ICON_CITIZEN]人口</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_POPULATION">
+			<Text>完成時：{2_Sign}{1_Num} [ICON_CITIZEN]人口</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AUTOMATON">
+			<Text>完成時：{2_Sign}{1_Num} 自動工人</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INFLUENCE_ON_COMPLETION">
+			<Text>完成時：{2_Sign}{1_Num} [ICON_INFLUENCE]影響力到所有[ICON_CITY_STATE]城邦</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_VICTORY_POINTS_ON_COMPLETION">
+			<Text>完成時：{2_Sign}{1_Num} 勝利點數</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_SPY_RANK">
+			<Text>完成時：所有的[ICON_SPY]間諜升級 {1: plural 1?1 次; 2?2 次; other?{1_Num} 次;}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REFORMATION">
+			<Text>完成時：允許你選擇一個[COLOR_POSITIVE_TEXT]宗教改革信條[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_PRESSURE">
+			<Text>完成時：你的[ICON_CAPITAL]首都的主流宗教對城市增加 {1_Num} 宗教壓力</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPAWN_NEARBY_LUXURY">
+			<Text>完成時：城市工作範圍內，增加 {1_Num} 以下隨機複製品：{2_Resources}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPAWN_NEARBY_LUXURY_GENERIC">
+			<Text>完成時：城市工作範圍內，增加 {1_Num} 你獨特的資源（如果有）的隨機複製品</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPAWN_NEARBY_RESOURCE">
+			<Text>完成時：城市工作範圍內，隨機的符合條件的單元格，增加 {1_Num} {2_ResourceIcon} {3_Resource:textkey} 複製品</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPAWN_NEARBY_RESOURCE_SUFFIX">
+			<Text>(數量：{1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_COPY">
+			<Text>完成時：在城市周圍獲得每個單獨的陸軍軍事單位的複製品</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NEARBY_RESOURCE_CLAIM">
+			<Text>完成時：佔領工作範圍內有 {1_Resources} 的未擁有的單元格，觸發來自單元格購買的即時收益(如果適用)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NEARBY_RESOURCE_STEAL">
+			<Text>完成時：佔領工作範圍內有 {1_Resources} 的所有的單元格，觸發來自單元格購買的即時收益(如果適用)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GP_BIRTH_WRITER">
+			<Text>當此城市誕生[ICON_GREAT_PEOPLE]偉人時：獲得 {2_YieldIcon} {3_Yield:textkey} 數值等同於 {1_Num}% 來自[COLOR_MAGENTA]{TXT_KEY_MISSION_GIVE_POLICIES}[ENDCOLOR]任務的[ICON_CULTURE]文化(如果適用)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GP_BIRTH_ARTIST">
+			<Text>當此城市誕生[ICON_GREAT_PEOPLE]偉人時：獲得 {2_YieldIcon} {3_Yield:textkey} 數值等同於 {1_Num}% 來自[COLOR_POSITIVE_TEXT]{TXT_KEY_MISSION_START_GOLDENAGE}[ENDCOLOR]任務的[ICON_GOLDEN_AGE]黃金時代點數(如果適用)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GP_BIRTH_SCALING">
+			<Text>當此城市誕生{2_GreatPersonIcon} {3_GreatPerson:textkey}：獲得 {6_YieldIcon} {7_Yield:textkey} 數值等同於 {1_Num}% 你的 {4_YieldIcon} {5_Yield:textkey} 收益</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GP_EXPEND">
+			<Text>當消耗[ICON_GREAT_PEOPLE]偉人時：[ICON_CAPITAL]首都 {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_INFLUENCE_ON_GP_EXPEND">
+			<Text>當消耗[ICON_GREAT_PEOPLE]偉人時：所有[ICON_CITY_STATE]城邦 {2_Sign}{1_Num} [ICON_INFLUENCE]影響力</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_VASSAL_UNIT_PER_ERA">
+			<Text>當進入新時代時：收到來自每個附庸 {1_Num} 單位在城市附近</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_TECH">
+			<Text>當研究技術時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_POLICY">
+			<Text>當解鎖政策時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GOLDEN_AGE_START">
+			<Text>當開始[ICON_GOLDEN_AGE]黃金時代時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_ON_GOLDEN_AGE_START">
+			<Text>當開始[ICON_GOLDEN_AGE]黃金時代時: 此城市未來所有訓練的單位 {2_Sign}{1_Num} 經驗，上限為 {3_Num} 經驗</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_WLTKD">
+			<Text>當此城市開始[ICON_HAPPINESS_1]「敬王之日」時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_ON_GROWTH">
+			<Text>當此城市誕生[ICON_CITIZEN]公民時：+{1_Num} [ICON_GREAT_PEOPLE]偉人點數給最多點數的偉人，隨時代變化</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GROWTH">
+			<Text>當此城市誕生[ICON_CITIZEN]公民時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GROWTH_SCALING">
+			<Text>當此城市誕生[ICON_CITIZEN]公民時：獲得 {2_YieldIcon} {3_Yield:textkey} 等同於 {1_Num}% 城市收益</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_BORDER_GROWTH">
+			<Text>當此城市自然擴張時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GOLD_PURCHASE">
+			<Text>當此城市使用[ICON_GOLD]金幣購買/投資時：獲得 {2_YieldIcon} {3_Yield:textkey}，等同於 {1_Num}% 的[ICON_GOLD]金幣成本</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GOLD_PURCHASE_GLOBAL">
+			<Text>當任意城市使用[ICON_GOLD]金幣購買/投資時：獲得 {2_YieldIcon} {3_Yield:textkey}，等同於 {1_Num}% 的[ICON_GOLD]金幣成本</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_FAITH_PURCHASE">
+			<Text>當此城市使用[ICON_PEACE]信仰購買單位或建築時：獲得 {2_YieldIcon} {3_Yield:textkey}，等同於 {1_Num}% 的[ICON_PEACE]信仰成本</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_CONSTRUCTION">
+			<Text>當此城市完成一個建築時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GPP_ON_CONSTRUCTION">
+			<Text>當此城市完成 {2_Era:textkey} 或之後時代的建築時：獲得 {3_GreatPersonIcon} {4_GreatPerson:textkey} 點數，等同於 {1_Num}% 的建造成本</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GP_PROGRESS_ON_CONSTRUCTION">
+			<Text>當此城市完成 {2_Era:textkey} 或之後時代的建築時: +{1_Num}% 點數到下一個 {3_GreatPersonIcon} {4_GreatPerson:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WLTKD_FROM_PROJECT">
+			<Text>當完成 {3_Project:textkey} 時: {2_Sign}{1_Num} 回合 of [ICON_HAPPINESS_1]「敬王之日」</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_ITR_COMPLETION">
+			<Text>當完成從此城市出發或到達的[ICON_INTERNATIONAL_TRADE]國內貿易路線時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_ETR_COMPLETION">
+			<Text>當完成從此城市出發的[ICON_INTERNATIONAL_TRADE]國際貿易路線時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_COMPLETION">
+			<Text>當此城市完成生產軍事單位時：獲得 {2_YieldIcon} {3_Yield:textkey}，等同於 {1_Num}% 的[ICON_PRODUCTION]產能成本</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_GIFT">
+			<Text>當單位被作為禮物送給[ICON_CITY_STATE]城邦時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_FROM_COMBAT_EXPERIENCE">
+			<Text>當此城市建立的單位通過戰鬥獲得經驗值時：獲得的每點經驗 {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_PROMOTION">
+			<Text>當此城市建立的單位晉升時：{1_InstantYield}, 縮放比例為（單位新等級 - 2）的平方，最小值為 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_PROMOTION_GLOBAL">
+			<Text>當擁有的單位晉升時：{1_InstantYield}，隨單位的初始等級變化</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_KILL">
+			<Text>當此城市建立的單位擊敗軍事單位時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_KILL_GLOBAL">
+			<Text>當擁有的單位擊敗軍事單位時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_UNIT_KILL_GLOBAL_GOLDEN_AGE">
+			<Text>當擁有的單位在[ICON_GOLDEN_AGE]黃金時代期間擊敗軍事單位時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_DEATH">
+			<Text>當擁有的軍事單位被擊敗時：[ICON_CAPITAL]首都 {1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_PILLAGE">
+			<Text>當此城市建立的單位掠奪改良設施時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_PILLAGE_GLOBAL">
+			<Text>當掠奪改良設施：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_LONG_COUNT">
+			<Text>在長紀曆結束時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_SPY_KILL">
+			<Text>當殺害敵方[ICON_SPY]間諜時：{1_InstantYield}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_LUXURIES">
+			<Text>+100% 來自此城市的改良單元格的奢侈品資源</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REMOVE_OCCUPIED_UNHAPPINESS">
+			<Text>移除來自[ICON_OCCUPIED]佔領的[ICON_HAPPINESS_3]不滿度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ALLOW_PUPPET_PURCHASE">
+			<Text>允許在[ICON_PUPPET]傀儡城市投資和購買</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NO_STARVATION_FROM_NON_SPECIALISTS">
+			<Text>非專家的[ICON_FOOD]食物總消耗量不能超過[ICON_FOOD]食物產能</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SECONDARY_PANTHEON">
+			<Text>城市享受來自第二大[ICON_RELIGION]宗教的萬神殿加成，前提是其有[ICON_RELIGION]主流宗教</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BORDER_OBSTACLE_LAND">
+			<Text>當從無主或外國領土進入此城市領土時，非友方陸地單位[COLOR_NEGATIVE_TEXT]消耗所有的[ICON_MOVES]移動力[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BORDER_OBSTACLE_LAND_PLAYER">
+			<Text>當從無主或外國領土進入你的陸地領土時，非友方陸地單位[COLOR_NEGATIVE_TEXT]消耗所有的[ICON_MOVES]移動力[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BORDER_OBSTACLE_LAND_TEAM">
+			<Text>當從無主或外國領土進入你團隊的陸地領土時，非友方陸地單位[COLOR_NEGATIVE_TEXT]消耗所有的[ICON_MOVES]移動力[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BORDER_OBSTACLE_WATER">
+			<Text>當從無主或外國領土進入此城市的水域時，非友方海軍或登陸單位[COLOR_NEGATIVE_TEXT]消耗所有的[ICON_MOVES]移動力[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_OCEAN_DAMAGE">
+			<Text>當敵方海軍或登陸單位在屬於此城市的海洋單元格上結束他們回合時，受到[COLOR_NEGATIVE_TEXT]{1_Num} 傷害[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GAINLESS_PILLAGE">
+			<Text>單位掠奪屬於此城市的改良設施時，不會獲得生命值或[ICON_GOLD]金幣</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GAINLESS_PILLAGE_GLOBAL">
+			<Text>單位在你的帝國內掠奪改良設施時，不會獲得生命值或[ICON_GOLD]金幣</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REMOVE_DP_LIMIT">
+			<Text>移除防禦條約的啟用數量限制</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PLUNDER_MODIFIER">
+			<Text>當城市被佔領時，{2_Sign}{1_Num}% 掠奪[ICON_GOLD]金幣</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CAPITAL">
+			<Text>僅限[ICON_CAPITAL]首都</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HOLY_CITY">
+			<Text>僅限聖城</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_OCCUPIED_ONLY">
+			<Text>僅限[ICON_OCCUPIED]被佔領城市</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_COASTAL">
+			<Text>城市必須沿海</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_COASTAL_INCLUDING_LAKE">
+			<Text>城市必須沿海或毗鄰湖</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_COASTAL_CUSTOM_SIZE">
+			<Text>城市必須毗鄰水體 {1_Num}+ 單元格</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NO_COASTAL">
+			<Text>城市必須不沿海或毗鄰湖</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RIVER">
+			<Text>城市必須在河上</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NO_RIVER">
+			<Text>城市必須不在河上</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FRESH_WATER">
+			<Text>城市必須能獲取淡水</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NO_FRESH_WATER">
+			<Text>城市必須不能獲取淡水</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_COASTAL_OR_FRESH_WATER">
+			<Text>城市必須沿海或能獲取淡水</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MOUNTAIN_ADJACENT">
+			<Text>城市必須毗鄰[COLOR_PLAYER_DARK_GREEN_TEXT]山嶽[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MOUNTAIN_NEARBY">
+			<Text>城市必須 2 單元格內有[COLOR_PLAYER_DARK_GREEN_TEXT]山嶽[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HILL">
+			<Text>城市必須在[COLOR_PLAYER_DARK_GREEN_TEXT]丘陵[ENDCOLOR]上</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FLAT">
+			<Text>城市必須不在[COLOR_NEGATIVE_TEXT]丘陵[ENDCOLOR]上</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NEARBY_TERRAIN">
+			<Text>城市必須在或毗鄰[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Terrain:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NO_TERRAIN">
+			<Text>城市必須不在[COLOR_NEGATIVE_TEXT]{1_Terrain:textkey}[ENDCOLOR]上</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LOCAL_FEATURE_OR">
+			<Text>城市必須擁有具有以下特徵之一的單元格：[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Features}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LOCAL_FEATURE_AND">
+			<Text>城市必須擁有具有以下每項特質的單元格：[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Features}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LOCAL_RESOURCE_OR">
+			<Text>以下資源之一必須已連接到此城市：{1_Resources}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LOCAL_RESOURCE_AND">
+			<Text>以下所有資源必須已連接到此城市：{1_Resources}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GLOBAL_MONOPOLY_OR">
+			<Text>需要以下之一[ICON_MONOPOLY]全球壟斷：{1_Resources}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GLOBAL_MONOPOLY_AND">
+			<Text>需要[ICON_MONOPOLY]全球壟斷：{1_Resources}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INDUSTRIAL_CONNECTION">
+			<Text>城市必須與[ICON_CAPITAL]首都有[ICON_INDUSTRIAL_CONNECTED]工業城市連接</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REQUIRED_BUILDINGS_GLOBAL">
+			<Text>需要任意城市有建築：[COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REQUIRED_BUILDINGS_ALL_CITIES">
+			<Text>需要所有城市有建築：[COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REQUIRED_BUILDING_COUNT_GLOBAL">
+			<Text>帝國每有一個此建築，必須建造有[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] {2_Building:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXCLUSIVE_LOCAL">
+			<Text>城市必須不能有以下建築：[COLOR_NEGATIVE_TEXT]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXCLUSIVE_GLOBAL">
+			<Text>帝國必須不能有以下建築：[COLOR_NEGATIVE_TEXT]{1_Buildings}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_UNIT_LEVEL_NEEDED">
+			<Text>單位等級要求：[COLOR_YELLOW]{1_Num}[ENDCOLOR] (最高單位：{2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_UNIT_LEVEL_NEEDED_GENERIC">
+			<Text>單位等級要求：[COLOR_YELLOW]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_CITY_NEEDED">
+			<Text>城市數量要求：[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (已有：{2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_CITY_NEEDED_GENERIC">
+			<Text>城市數量要求：[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_POLICY_NEEDED">
+			<Text>政策數量要求：[COLOR_MAGENTA]{1_Num}[ENDCOLOR] (已有：{2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_POLICY_NEEDED_GENERIC">
+			<Text>政策數量要求：[COLOR_MAGENTA]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_T3_TENET_NEEDED">
+			<Text>第 3 階意識形態原則數量要求：[COLOR_MAGENTA]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_POPULATION_NATIONAL_NEEDED">
+			<Text>全國人口要求：[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (已有：{2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_POPULATION_NATIONAL_NEEDED_GENERIC">
+			<Text>全國人口要求：[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (隨城市數量變化)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_POPULATION_LOCAL_NEEDED">
+			<Text>本地人口要求：[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (已有：{2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_POPULATION_LOCAL_NEEDED_GENERIC">
+			<Text>本地人口要求：[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_NATIONAL_FOLLOWER_NEEDED">
+			<Text>全國[ICON_RELIGION]主流宗教追隨者要求：[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (已有：{2_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_NATIONAL_FOLLOWER_NEEDED_GENERIC">
+			<Text>全國[ICON_RELIGION]主流宗教追隨者要求：[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_GLOBAL_FOLLOWER_NEEDED">
+			<Text>全世界[ICON_RELIGION]主流宗教追隨者要求：[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] 的世界人口 (当前為 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR]) (已有：{3_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_GLOBAL_FOLLOWER_NEEDED_GENERIC">
+			<Text>全世界[ICON_RELIGION]主流宗教追隨者要求：[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] 的世界人口 (隨地圖尺寸變化)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HOLY_CITY_BELIEF_NEEDED">
+			<Text>必須建在[ICON_RELIGION]主流宗教的聖城，並且有以下之一的信條：[COLOR_WHITE]{1_Beliefs}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MAJORITY_RELIGION_BELIEF_NEEDED">
+			<Text>要求[ICON_RELIGION]主流宗教有以下之一的信條：[COLOR_WHITE]{1_Beliefs}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PURCHASE_BUILDING_MAJORITY_RELIGION_BELIEF_NEEDED">
+			<Text>信仰購買要求[ICON_RELIGION]主流宗教有以下之一的信條：[COLOR_WHITE]{1_Beliefs}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PURCHASE_BUILDING_OWN_HOLY_CITY">
+			<Text>信仰購買要求擁有[ICON_RELIGION]主流宗教的聖城</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PURCHASE_BUILDING_OWN_HOLY_CITY_OR_STATE_RELIGION">
+			<Text>信仰購買要求擁有[ICON_RELIGION]主流宗教的聖城或者其為你的[ICON_RELIGION]主流宗教</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_OBSOLETE_TECH_REMARK">
+			<Text>[COLOR_WARNING_TEXT]注意：當上述科技完成研究時，此建築的所有正在進行的效果都將被移除！[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BUILDING_BOOST">
+			<Text>{2_YieldBoosts} 給[COLOR_YIELD_FOOD]{1_BuildingClass:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_BUILDING_HAPPINESS">
+			<Text>{2_Sign}{1_Num} [ICON_HAPPINESS_1]幸福度給[COLOR_YIELD_FOOD]{3_Building:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WORLD_WONDER_BOOST">
+			<Text>{1_YieldBoosts} 給[ICON_WONDER]世界奇跡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PLOT_BOOST">
+			<Text>{2_YieldBoosts} 給[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Plot:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TERRAIN_BOOST">
+			<Text>{2_YieldBoosts} 給[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Terrain:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FEATURE_BOOST">
+			<Text>{2_YieldBoosts} 給[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Feature:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RESOURCE_BOOST">
+			<Text>{2_YieldBoosts} 給 {3_ResourceIcon} {1_Resource:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_IMPROVEMENT_BOOST">
+			<Text>{2_YieldBoosts} 給[COLOR_POSITIVE_TEXT]{1_Improvement:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LUXURY_BOOST">
+			<Text>{1_YieldBoosts} 給奢侈品資源單元格</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RIVER_BOOST">
+			<Text>{1_YieldBoosts} 給[COLOR_POSITIVE_TEXT]河流[ENDCOLOR]單元格</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LAKE_BOOST">
+			<Text>{1_YieldBoosts} 給[COLOR_POSITIVE_TEXT]湖[ENDCOLOR]單元格</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SEA_BOOST">
+			<Text>{1_YieldBoosts} 給[COLOR_POSITIVE_TEXT]海洋[ENDCOLOR]單元格</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WATER_RESOURCE_BOOST">
+			<Text>{1_YieldBoosts} 給[COLOR_POSITIVE_TEXT]水[ENDCOLOR]裡的資源單元格</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIALIST_BOOST">
+			<Text>{2_YieldBoosts} 給[COLOR_POSITIVE_TEXT]{1_Specialist * 2}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_GREAT_WORK_BOOST">
+			<Text>{1_YieldBoosts} 給[ICON_GREAT_WORK]巨作</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_BOOST">
+			<Text>{1_YieldBoosts} 給從此城市出發的[ICON_INTERNATIONAL_TRADE]內部貿易路線</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_GOLDEN_AGE">
+			<Text>{1_YieldModifiers} [ICON_GOLDEN_AGE]黃金時代期間</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_WLTKD">
+			<Text>{1_YieldModifiers} [ICON_HAPPINESS_1]「敬王之日」期間</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_AREA">
+			<Text>{1_YieldModifiers} 給同一區域的城市</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_YIELD_MODIFIER_TR_WITH_FRANCHISE">
+			<Text>{1_YieldModifiers} 給目的地為此公司已成立[ICON_FRANCHISE]特許經營權的城市的[ICON_INTERNATIONAL_TRADE]貿易路線</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_CORPORATION_YIELD_MODIFIER_TR_WITH_FRANCHISE_CITY">
+			<Text>{1_YieldModifiers} 給目的地為此公司已成立[ICON_FRANCHISE]特許經營權的城市的每條[ICON_INTERNATIONAL_TRADE]貿易路線</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_BUILDING">
+			<Text>[ICON_BULLET][COLOR_YIELD_FOOD]{3_Building:textkey}[ENDCOLOR]：{2_Sign}{1_Num} [ICON_HAPPINESS_1]幸福度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_BUILDING_GLOBAL">
+			<Text>[ICON_BULLET][COLOR_YIELD_FOOD]{3_Building:textkey}[ENDCOLOR]在任何城市中：{2_Sign}{1_Num} [ICON_HAPPINESS_1]幸福度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_BUILDING">
+			<Text>[ICON_BULLET][COLOR_YIELD_FOOD]{1_Building:textkey}[ENDCOLOR]：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_BUILDING_GLOBAL">
+			<Text>[ICON_BULLET][COLOR_YIELD_FOOD]{1_Building:textkey}[ENDCOLOR]在任何城市中：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_LOCAL_RESOURCE">
+			<Text>[ICON_BULLET]每個 {3_ResourceIcon} {1_Resource:textkey} 連接到城市：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_LOCAL_RESOURCE">
+			<Text>[ICON_BULLET]每個 {3_ResourceIcon} {4_Resource:textkey} 連接到城市：{2_Sign}{1_Num} [ICON_HAPPINESS_1]幸福度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_MOUNTAINS">
+			<Text>[ICON_BULLET]城市 3 單元格內的每個山嶽：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_SNOW">
+			<Text>[ICON_BULLET]城市擁有的每個雪原單元格：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_WORKED_TERRAIN">
+			<Text>[ICON_BULLET]每個城市已改良的[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Terrain:textkey}[ENDCOLOR]：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_WORKED_FEATURE">
+			<Text>[ICON_BULLET]每個城市已改良的[COLOR_PLAYER_DARK_GREEN_TEXT]{1_Feature:textkey}[ENDCOLOR]：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_IMPROVEMENT">
+			<Text>[ICON_BULLET]城市擁有的每個[COLOR_POSITIVE_TEXT]{1_Improvement:textkey}[ENDCOLOR]：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_IMPROVEMENT_GLOBAL">
+			<Text>[ICON_BULLET]帝國內的每個[COLOR_POSITIVE_TEXT]{1_Improvement:textkey}[ENDCOLOR]：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_TECH">
+			<Text>[ICON_BULLET][COLOR_CYAN]{1_Tech:textkey}[ENDCOLOR]：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_POLICY">
+			<Text>[ICON_BULLET][COLOR_MAGENTA]{1_Policy:textkey}[ENDCOLOR]：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_POLICY_STATE_RELIGION">
+			<Text>[ICON_BULLET][COLOR_MAGENTA]{1_Policy:textkey}[ENDCOLOR]：當城市追隨你的[ICON_RELIGION]主流宗教時，{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_POLICY">
+			<Text>[ICON_BULLET][COLOR_MAGENTA]{3_Policy:textkey}[ENDCOLOR]：{2_Sign}{1_Num} [ICON_HAPPINESS_1]幸福度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_SECURITY_FROM_POLICY">
+			<Text>[ICON_BULLET][COLOR_MAGENTA]{3_Policy:textkey}[ENDCOLOR]：{2_Sign}{1_Num} [ICON_CITY_SECURITY]城市安保</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_BELIEF">
+			<Text>[ICON_BULLET][COLOR_WHITE]{1_Belief:textkey}[ENDCOLOR]：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_BELIEF">
+			<Text>[ICON_BULLET][COLOR_WHITE]{3_Belief:textkey}[ENDCOLOR]：{2_Sign}{1_Num} [ICON_HAPPINESS_1]幸福度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CORPORATION">
+			<Text>[ICON_BULLET][COLOR_YIELD_GOLD]{1_Corporation:textkey}[ENDCOLOR]：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_TRAIT">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Civ:textkey}[ENDCOLOR]：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_ACCOMPLISHMENT">
+			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{3_Accomplishment:textkey}[ENDCOLOR]：{2_Sign}{1_Num} [ICON_HAPPINESS_1]幸福度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_XP_FOR_DOMAIN_FROM_ACCOMPLISHMENT">
+			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{3_Accomplishment:textkey}[ENDCOLOR]：{2_Sign}{1_Num} 經驗給[COLOR_YELLOW]{4_Domain:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_COMBAT_PRODUCTION_MODIFIER_FROM_ACCOMPLISHMENT">
+			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{3_Accomplishment:textkey}[ENDCOLOR]：{2_Sign}{1_Num}% [ICON_PRODUCTION]產能給[COLOR_YELLOW]{4_UnitCombat:textkey}[ENDCOLOR]單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PLAYER_INSTANCE_FROM_ACCOMPLISHMENT">
+			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{2_Accomplishment:textkey}[ENDCOLOR]：可能再多建造 {1_Num} 此建築</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_PLAYER_INSTANCE_SUFFIX">
+			<Text>(多 {1_Num} 來自「成就」)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_ERA">
+			<Text>[ICON_BULLET]古典時代之後的每個新時代：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STRENGTH">
+			<Text>[ICON_BULLET]每點[ICON_STRENGTH]城市強度：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_ACCOMPLISHMENT">
+			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{1_Accomplishment:textkey}[ENDCOLOR]：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_PASSING_TR">
+			<Text>[ICON_BULLET]任意貿易路線穿過此城市：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_GOLDEN_AGE_START">
+			<Text>[ICON_BULLET]增加[ICON_GOLDEN_AGE]黃金時代回合：{1_YieldBoosts} (上限為 {2_YieldBoostCaps})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_THEMES">
+			<Text>[ICON_BULLET]城市內放置的每個已激活的主題獎勵的[ICON_GREAT_WORK]巨作：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_MONOPOLIES">
+			<Text>[ICON_BULLET]每個[ICON_MONOPOLY]全球壟斷：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_POPULATION">
+			<Text>[ICON_BULLET]城市內每個[ICON_CITIZEN]人口：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_POPULATION_GLOBAL">
+			<Text>[ICON_BULLET]帝國內每個[ICON_CITIZEN]人口：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_RELIGION_COUNT">
+			<Text>[ICON_BULLET]城市內的每個至少一個追隨者[ICON_RELIGION]宗教：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_BUILDING_COUNT">
+			<Text>[ICON_BULLET]城市內每個已完成的建築：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_PLOT_COUNT">
+			<Text>[ICON_BULLET]城市擁有的每個單元格：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_FRANCHISES">
+			<Text>[ICON_BULLET]每個[ICON_FRANCHISE]已建立的特許經營權：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STATE_FRIENDS">
+			<Text>[ICON_BULLET]每個友好[ICON_CITY_STATE]城邦：{1_YieldBoosts} (注意：盟友不等於朋友)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STATE_ALLIES">
+			<Text>[ICON_BULLET]每個[ICON_CITY_STATE]城邦盟友：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_CITY_STATE_STRATEGIC_RESOURCES">
+			<Text>[ICON_BULLET]每單位戰略資源連接到盟友[ICON_CITY_STATE]城邦：{1_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INVESTMENT">
+			<Text>[COLOR_POSITIVE_TEXT]投資[ICON_GOLD]金幣在建築上回減少其[ICON_PRODUCTION]產能成本 {1_Num}%，若是奇跡則為 {2_Num}%[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WONDER_COST_INCREASE_METRIC">
+			<Text>由於擁有世界奇跡而產生額外的[ICON_PRODUCTION]產能成本：[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR].[NEWLINE][ICON_PRODUCTION]產能成本增加指標：[NEWLINE][ICON_BULLET]來自同時代的奇跡：[COLOR_POSITIVE_TEXT]25%.[ENDCOLOR][NEWLINE][ICON_BULLET]來自上一個時代的奇跡：[COLOR_POSITIVE_TEXT]15%[ENDCOLOR].[NEWLINE][ICON_BULLET]來自兩個時代前的奇跡：[COLOR_POSITIVE_TEXT]10%.[ENDCOLOR]</Text>
+		</Row>
+		<!-- Process -->
+		<Row Tag="TXT_KEY_TT_PROCESS_LEAGUE_PROJECT_HELP">
+			<Text>此城市的[ICON_PRODUCTION]產能貢獻到 {1_ProjName:textkey} 項目。成本隨遊戲中的玩家數量和當前時代而增加。</Text>
+		</Row>
+		<!-- Project -->
+		<Row Tag="TXT_KEY_PRODUCTION_EXCLUSIVE_PROJECT">
+			<Text>{1_CivAdj:textkey} 獨有的工程</Text>
+		</Row>
+		<!-- Yield -->
+		<Row Tag="TXT_KEY_YIELD_FROM_GREAT_WORKS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自[ICON_GREAT_WORK]巨作和主題獎勵</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_TRAIT_BONUS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自特性</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_POLICIES">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自政策</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_EMPIRE_POP">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自全國範圍[ICON_CITIZEN]人口</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_NON_SPECIALISTS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自非專家公民</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_PREVIOUS_GOLDEN_AGES">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自以往的黃金時代</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_TILE_EXPEND">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自已消耗的單位</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_PIETY">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自追隨的[ICON_RELIGION]主流宗教</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_PROCESS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自[ICON_SWAP]轉換</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_TERRAIN_WONDERS">
+			<Text>[ICON_BULLET]{1_Num} [ICON_TOURISM] 來自 {2_Num}% 世界奇跡，自然奇觀和改良設施的[ICON_CULTURE]文化</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_TRADE_ROUTES">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自[ICON_INTERNATIONAL_TRADE]貿易路線</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CONNECTION">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自[ICON_CONNECTED]城市連接</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_INDUSTRIAL_CITY_CONNECTION">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自[ICON_INDUSTRIAL_CONNECTED]工業城市連接</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_UNITS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自單位駐軍</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CITY_YIELDS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自產能轉化</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CS_ALLIANCE">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自[ICON_CITY_STATE]城邦</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_WORLD_CONGRESS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自激活的決議</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CORPORATIONS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自公司</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_EVENTS">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自激活的事件</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_CONVERTED_TO_PRODUCTION">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] {2_IconString} 轉換為[ICON_PRODUCTION]產能</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_EXCESS_FOOD">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自剩餘[ICON_FOOD]食物</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_FROM_CULTURE">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自[ICON_CULTURE]文化</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_POST_MODIFIER">
+			<Text>{1: number "'[COLOR_POSITIVE_TEXT]'#,##0.00;'[COLOR_NEGATIVE_TEXT]-'#,##0.00"} {2_IconString}（在修正之後）[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EATEN_FOOD">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]-{1_Num}[ENDCOLOR] [ICON_FOOD]（[ICON_CITIZEN]公民食用）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EXCESS_FOOD">
+			<Text>{1: number "'[COLOR_POSITIVE_TEXT]'+#,##0.00;'[COLOR_NEGATIVE_TEXT]-'#,##0.00"}[ENDCOLOR] 剩餘[ICON_FOOD]（在修正之前）[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_BELIEF">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_RELIGION]宗教信仰</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_CAPITAL">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 給[ICON_CAPITAL]首都（來自政策）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_EVENT">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自激活的事件</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_GA_CITY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_GOLDEN_AGE]黃金時代 (建築)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_GA_PLAYER">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_GOLDEN_AGE]黃金時代 (政策)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_GA_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_GOLDEN_AGE]黃金時代（獨特能力）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_PLAYER">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自政策</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_PUPPET">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 給[ICON_PUPPET]傀儡城市</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_TOURISM">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_INTERNATIONAL_TRADE]貿易路線 (文化影響力)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_UNHAPPY">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% 來自[ICON_HAPPINESS_3] [COLOR_NEGATIVE_TEXT]不滿度[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MOD_WLTKD">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_HAPPINESS_1]「敬王之日」</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_AREA">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自區域加成</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_BELIEF">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_RELIGION]宗教信仰</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自建築</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_CAPITAL">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 給[ICON_CAPITAL]首都（來自政策）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_CONQUEST">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自城市征服 (剩餘 {2_Num} 回合)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_CORPORATION">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_FRANCHISE]已建立的特許經營權的[ICON_INTERNATIONAL_TRADE]貿易路線</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_EVENT">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自激活的事件</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_GA">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_GOLDEN_AGE]黃金時代 (基礎)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_GA_BELIEF">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_GOLDEN_AGE]黃金時代（宗教信仰）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_GA_CITY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_GOLDEN_AGE]黃金時代（建築）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_GA_PLAYER">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_GOLDEN_AGE]黃金時代（政策）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_GA_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_GOLDEN_AGE]黃金時代（獨特能力）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_GREAT_WORKS">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_GREAT_WORK]巨作</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_LEAGUE">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自激活的決議</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_MINOR_TRADE_ROUTE">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自與[ICON_CITY_STATE]城邦的[ICON_INTERNATIONAL_TRADE]貿易路線</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_MONOPOLY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_MONOPOLY]資源壟斷</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_NAVAL_BLOCKADE">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_BLOCKADED]海上封鎖</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_NUM_FOLLOWERS_BELIEF">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num}% 來自追隨者數量（宗教信仰）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_NUM_FOLLOWERS_CITY">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num}% 來自追隨者數量（建築）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_NUM_FOLLOWERS_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num}% 來自追隨者數量（獨特能力）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_NUM_SPECIALISTS">
+			<Text>[NEWLINE][ICON_BULLET]+{1_Num}% 來自專家數量</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_OCCUPIED_POLICY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 給予[ICON_OCCUPIED]佔領的城市（來自政策）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_PLAYER">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自帝國加成</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_PUPPET">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 給予[ICON_PUPPET]傀儡城市</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_PUPPET_POLICY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 給予[ICON_PUPPET]傀儡城市 (政策給予[ICON_PRODUCTION]產能)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_RAILROAD_CONNECTION">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自鐵路連接</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_RESOURCES">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自本地資源</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_SPIES">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自激活的間諜</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_TECHNOLOGIES">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自科技</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_ERA">
+            <Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自時代</Text>
+        </Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_UNHAPPINESS">
+			<Text>[NEWLINE][ICON_BULLET]{1_Num}% 來自[ICON_HAPPINESS_3]不滿度</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_UNIT_PROMOTION">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自單位駐軍</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_WLTKD_BELIEF">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_HAPPINESS_1]「敬王之日」（宗教信仰）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_WLTKD_CITY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_HAPPINESS_1]「敬王之日」（建築）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_WLTKD_PLAYER">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_HAPPINESS_1]「敬王之日」（政策）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_WLTKD_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_HAPPINESS_1]「敬王之日」（獨特能力）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_WORLD_RELIGION">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 給予世界宗教的聖城</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_WORLD_WONDER">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自擁有[ICON_WONDER]世界奇跡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_MULTIPLIER_POLICY">
+			<Text>[NEWLINE][ICON_BULLET]政策致其雙倍</Text>
+		</Row>
+		<!-- Great person points -->
+		<Row Tag="TXT_KEY_GPP_FROM_SPECIALIST">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自專家</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_FROM_BUILDING">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自專家</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_FROM_RELIGION">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自[ICON_RELIGION]主流宗教</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_FROM_MONOPOLY">
+			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自[ICON_MONOPOLY]壟斷</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_BASE">
+			<Text>基礎 {1_IconString} {2_GreatPerson:textkey} 點數：{3: number "#,##0.00"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_BUILDINGS">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自建築</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_CAPITAL">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 給予[ICON_CAPITAL]首都（來自[ICON_RES_MARRIAGE]外交聯姻）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_GA_BELIEF">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_GOLDEN_AGE]黃金時代（宗教信仰）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_GA_POLICY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_GOLDEN_AGE]黃金時代（政策）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_GA_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_GOLDEN_AGE]黃金時代（獨特能力）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_IMPROVEMENT">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自城市已改良的改良設施</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_LEAGUE">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自激活的決議</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_MONOPOLY">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_MONOPOLY]資源壟斷</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_MOD_PLAYER">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自帝國加成</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPP_TOTAL">
+			<Text>轉化為 {1_GreatPerson:textkey}：{2_Progress: number "#,##0.00"}/{3_Cost: number "#,##0.00"} ({4_PerTurn: number "#,##0.00"}{5_IconString} Per Turn, {6_Turns}[ICON_TURNS_REMAINING])</Text>
+		</Row>
+    <!-- City screen/banner -->
+		<Row Tag="TXT_KEY_TOURISM_HELP_INFO">
+			<Text>[ICON_TOURISM]旅遊業績由巨作、奇跡和其他文化成就產生，從而對其他文明施加文化影響力。當你累計的[ICON_TOURISM]旅遊業績超過其他文明的累計[ICON_CULTURE]文化收益時，你就會對他們產生影響力，從而離文化勝利更近一步。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BORDER_GROWTH_HELP_INFO">
+			<Text>[ICON_CULTURE_LOCAL]邊境成長點數產生自城市的文化收益，以及某些建築和信仰。當累積的邊境成長點數超過所需門檻時，你的城市即可獲得一塊新的單元格。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITYVIEW_CORPORATIONS_TEXT">
+			<Text>公司</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_UNKNOWN">
+			<Text>???（需要研究）</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CITY_RANGED_STRENGTH_TT">
+			<Text>城市攻擊力：[ICON_RANGE_STRENGTH] {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA_1">
+			<Text>「敬后之日」! ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA_1">
+			<Text>此城市正處於「敬后之日」，會提高城市的[ICON_FOOD]成長修正值！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA_1">
+			<Text>將此資源連接到您的貿易網絡將使此城市進入「敬后之日」。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER_UA_2">
+			<Text>嘉年華！ ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT_UA_2">
+			<Text>此城市正在慶祝嘉年華，會提高[ICON_FOOD]成長和減少[ICON_HAPPINESS_3]不滿度！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT_UA_2">
+			<Text>將此資源連接到您的貿易網絡將使此城市慶祝嘉年華，會提高[ICON_FOOD]成長和減少[ICON_HAPPINESS_3]不滿度!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_INDUSTRIAL_CONNECTED">
+			<Text>城市與[ICON_CAPITAL]首都有[ICON_INDUSTRIAL_CONNECTED]工業城市連接！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_SAPPED">
+			<Text>由於敵方的間諜任務，城市被封鎖和無法進行遠程攻擊 [COLOR_POSITIVE_TEXT]{1_Turns}[ENDCOLOR] 回合。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FINISHED">
+			<Text>完成：{1_ItemName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AUTOMATE_PRODUCTION_TT">
+			<Text>此城市自動化生產。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESET_SPEC">
+			<Text>重置專家</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESET_SPEC_TT">
+			<Text>點擊此處，讓總督重新指派專家。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MONOPOLY_GP_MOD">
+			<Text>[ICON_BULLET]資源壟斷加成：+{1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENTS_GP_MOD">
+			<Text>[ICON_BULLET]改良設施加成：+{1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGIONS_GP_MOD">
+			<Text>[ICON_BULLET]宗教加成：+{1_num}%</Text>
+		</Row>
+    <Row Tag="TXT_KEY_PRODMOD_UNIT_CLASS">
+      <Text>[NEWLINE][ICON_BULLET]單位等級的修正：{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_PLEDGES_UNIT_DOMAIN">
+      <Text>[NEWLINE][ICON_BULLET]來自誓言承諾的單位領域修正：{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_RELIGION_UNIT">
+      <Text>[NEWLINE][ICON_BULLET]來自宗教的軍事單位修正：{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_UNIT_CORPORATION">
+      <Text>[NEWLINE][ICON_BULLET]來自公司的單位修正：{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_CONQUEST_BUILDINGS_PRIOR_ERAS">
+      <Text>[NEWLINE][ICON_BULLET]時代過時建築修正：{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WONDER_UNITPROMOTION">
+      <Text>[NEWLINE][ICON_BULLET]來自奇跡的單位駐軍修正：{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WONDER_IMPROVEMENT">
+      <Text>[NEWLINE][ICON_BULLET]來自改良設施的奇跡修正：{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_MILITARY_UNITPROMOTION">
+      <Text>[NEWLINE][ICON_BULLET]軍事單位的單位駐軍修正：{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_UNIT_TRAIT">
+      <Text>[NEWLINE][ICON_BULLET]建築物的特色奇跡產能修正(來自單位駐軍)：{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_IMPROVEMENT_TRAIT">
+      <Text>[NEWLINE][ICON_BULLET]建築物的特色奇跡產能修正(來自改良設施)：{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_POLICY_TRAIT">
+      <Text>[NEWLINE][ICON_BULLET]建築物的特色奇跡產能修正(來自政策)：{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_RESOURCE_TRAIT">
+      <Text>[NEWLINE][ICON_BULLET]建築物的特色奇跡產能修正(來自資源)：{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_PLAYER_TRAIT">
+      <Text>[NEWLINE][ICON_BULLET]建築物的特色奇跡產能修正(來自玩家特色)：{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_CITY_TRAIT">
+      <Text>[NEWLINE][ICON_BULLET]建築物的特色奇跡產能修正(來自城市)：{1_Num}%</Text>
+    </Row>
+		<Row Tag="TXT_KEY_SCIENCE_YIELD_FROM_LEAGUE_ART">
+			<Text>{1_Num} [ICON_RESEARCH]添加自[ICON_GREAT_WORK]巨作</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_GENERAL">
+      <Text>{1_Num} 來自城市的[ICON_TOURISM]旅遊業績</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_POLICY_AESTHETICS">
+      <Text>{1_Num} 來自[ICON_WONDER]世界奇跡的[ICON_TOURISM]旅遊業績</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_GA_BONUS">
+      <Text>{1_Num} 來自你[ICON_CAPITAL]首都 {2_Num}% [ICON_CULTURE]文化的[ICON_TOURISM]旅遊業績</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGIOUS_PRESSURE_STRING_EXTENDED">
+      <Text>({1_Pressure} 壓力，每回合 +{2_PressurePerTurn})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_TOOLTIP_EXTENDED">
+      <Text>{1_ReligionIcon} {2_NumFollowers} 追隨者 ({3_TotalPressure} + {4_PressurePerTurn} 來自 {5_Num} 來源城市的壓力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_NO_SUPPLY">
+      <Text>[NEWLINE]不能[ICON_PRODUCTION]訓練這個單位，因為您已達到最大供給上限！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_NO_SUPPLY_PURCHASE">
+      <Text>[NEWLINE]不能[ICON_GOLD]購買這個單位，因為您已達到最大供給上限！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_UNIT_REQUIRES_BUILDING_PURCHASE">
+      <Text>[NEWLINE]如果城市裡沒有建造 {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_BuildingType}}，您就無法[ICON_GOLD]購買此單位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_PLAYER_CITY_COUNT_MAX">
+      <Text>[NEWLINE]每個玩家城市只允許 {1_Num}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_BUILDING_ONE_CORP_ONLY">
+      <Text>[NEWLINE]{1_BuildingName:textkey} 不能被建造，因你在帝國的其他地方正在建造 {2_BuildingName:textkey} </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_PRODUCTION_SPY_BLOCKED">
+      <Text>[NEWLINE]因最近的間諜任務而被封鎖 (剩餘 {1_Num} 回合).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_BUILDING_LOCAL_FEATURE">
+      <Text>[NEWLINE]需要此城市附近有 {1_FeatureName:textkey}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_MONOPOLY">
+      <Text>[NEWLINE]需要[ICON_MONOPOLY]全球壟斷的 {2_ResourceIcon}{1_ResourceName:textkey}。您目前控制 {3_Percent}%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_TENETS_COUNT_NEEDED">
+      <Text>[NEWLINE]你需要至少有 {1_Num} 個原則(達到3級)才能解鎖建造這個。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_NATIONAL_POP">
+      <Text>[NEWLINE]你的帝國需要多 {1_Num} 個公民才能建造這個。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_LOCAL_POP">
+      <Text>[NEWLINE]你的這個城市需要多 {1_Num} 個公民才能建造這個。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_FOLLOWER_POP">
+      <Text>[NEWLINE]你的帝國需要至少有 {1_Num} 個信徒的[ICON_RELIGION]宗教才能建造這個。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_GLOBAL_FOLLOWER_POP">
+      <Text>[NEWLINE]你需要全圖至少有 {1_Num} 個信徒的[ICON_RELIGION]宗教才能建造這個。</Text>
+    </Row>
+	<Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_PRIMARY_RELIGION">
+		<Text>[NEWLINE]你需要有[ICON_RELIGION]主流宗教才可建造這個。</Text>
+	</Row>
+    <Row Tag="TXT_KEY_NO_ACTION_BUILDING_NEED_POLICIES">
+      <Text>[NEWLINE]解鎖所需的附加政策：{1_Num}</Text>
+    </Row>
+	<Row Tag="TXT_KEY_NO_ACTION_UNIT_LACKS_RESOURCES_TOTAL">
+		<Text>[NEWLINE]創造此單位需要獲取 {1_Num} {2_ResourceIcon} {3_ResourceName:textkey}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NO_ACTION_PROJECT_LEVEL_THREE_TENETS_REQUIRED">
+		<Text>[NEWLINE]需要額外的第 3 階意識形態原則：{1_Num}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NO_ACTION_PROJECT_NEED_INFLUENTIAL_ALL_CIVS">
+		<Text>[NEWLINE]你需要對所有文明都擁有影響力才能創建這個。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NO_ACTION_PROJECT_IDEOLOGY_REQUIRED">
+		<Text>[NEWLINE]你需要有意識形態才能創建這個。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NO_ACTION_PROJECT_PUBLIC_OPINION_CONTENT">
+		<Text>[NEWLINE]你的人口必須感到滿意才能創建這個。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NO_ACTION_PROJECT_LACKS_RESOURCES">
+		<Text>[NEWLINE]創建此工程需要 {1_Num} {2_ResourceIcon} {3_ResourceName:textkey}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NO_ACTION_PROJECT_PREREQ_PROJECT_REQUIRED">
+		<Text>[NEWLINE]{1_PrereqProject} 必須已被任意文明創建。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NO_ACTION_PROJECT_NEED_CREATE_MORE_PROJECTS">
+		<Text>[NEWLINE]在你能創建此之前，你必須創建多 {1_Num} {2_Project} 的實例。</Text>
+	</Row>
+    <Row Tag="TXT_KEY_ALREADY_INVESTED">
+      <Text>[NEWLINE]您已經投資[ICON_GOLD]金幣在此建築上。此建築的[ICON_PRODUCTION]生產成本降低 {1_Num}%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALREADY_INVESTED_UNIT">
+      <Text>[NEWLINE]您已經投資[ICON_GOLD]金幣在此單位上。此單位[ICON_PRODUCTION]生產成本降低 {1_Num}%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING">
+      <Text>[NEWLINE]您最近在這個城市進行了[ICON_GOLD]金幣購買，必須等待至少 {1_Num} 回合才能再次購買。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING_FAITH">
+      <Text>[NEWLINE]您最近用[ICON_PEACE]信仰購買了一個[ICON_GREAT_PEOPLE]偉人，必須等待至少 {1_Num} 回合才能再次購買。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COOLDOWN_X_TURNS_REMAINING_FAITH_LOCAL">
+      <Text>[NEWLINE]您最近在這個城市進行了[ICON_PEACE]信仰購買，必須等待至少 {1_Num} 回合才能再次購買。</Text>
+    </Row>
+	
+    <!-- Unit panel -->
+    <Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_GROSS_RESOURCES">
+      <Text>您需要取得 {1_ResourcesString} 才能升級這個單位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_RESOURCES_NET_NEGATIVE">
+      <Text>你需要正數數量 {1_ResourcesString} 才能升級這個單位。</Text>
+    </Row>
+	
+    <!-- Combat simulator -->
+    <Row Tag="TXT_KEY_UNITCOMBAT_DAMAGE_MODIFIER">
+      <Text>單位健康</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_PLAGUE_CHANCE">
+      <Text>[COLOR_CYAN]狀態效果機率({1_Name})[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_ALREADY_PLAGUED">
+      <Text>[COLOR_CYAN]具有 {1_Num} 狀態效果[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_IMMUNE_PLAGUED">
+      <Text>[COLOR_CYAN]免疫 {1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_WITHDRAW_CHANCE">
+      <Text>[COLOR_CYAN]撤退機率[ENDCOLOR]</Text>
+    </Row>
+	<Row Tag="TXT_KEY_EUPANEL_SAME_PROMOTION_ATTACK_BONUS">
+		<Text>加成來自上回合的攻擊</Text>
+	</Row>
+	<Row Tag="TXT_KEY_EUPANEL_VS_UNHAPPY_MOD">
+		<Text>目標帝國不開心</Text>
+	</Row>
+	<Row Tag="TXT_KEY_EUPANEL_RANGED_ATTACK_IN_BONUS">
+		<Text>{1_TerrainType}的攻擊加成</Text>
+	</Row>
+    <Row Tag="TXT_KEY_EUPANEL_WITHDRAW_CHANCE_100_PERCENT">
+      <Text>[COLOR_CYAN]單位將從攻擊中撤退[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_CAPTURE_CHANCE_100_PERCENT">
+      <Text>[COLOR_CYAN]如果被擊敗，單位將被俘虜[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_RANGED_SUPPORT">
+      <Text>[COLOR_CYAN]額外遠程攻擊[ENDCOLOR]</Text>
+    </Row>
+	<Row Tag="TXT_KEY_EUPANEL_GARRISON_RANGED_MODIFIER">
+		<Text>駐軍遠程加成</Text>
+	</Row>
+    <Row Tag="TXT_KEY_UNIT_IGNORE_ZOC">
+      <Text>[COLOR_CYAN]無視控制領域的效果[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_RESISTANCE_POWER">
+      <Text>反暖化狂熱</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_CITY_BLOCKADED">
+      <Text>封鎖</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_TRAIT_SMALL_POP_BONUS">
+      <Text>對抗更高 Pop 的加成</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_VS_FULLY_HEALED_UNITS">
+      <Text>對抗滿血單位的加成</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_VS_MORE_50_HP_UNITS">
+      <Text>目標高於 50% HP</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_VS_LESS_50_HP_UNITS">
+      <Text>目標不高於 50% HP</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_MULTI_ATTACK_BONUS">
+      <Text>多重攻擊加成</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_CS_ALLIANCE_STRENGTH">
+      <Text>希臘聯盟</Text>
+    </Row>
+	<Row Tag="TXT_KEY_EUPANEL_COMBAT_MOD_FROM_UNIT_LEVEL">
+		<Text>單位等級</Text>
+	</Row>
+    <Row Tag="TXT_KEY_EUPANEL_FROM_TERRAIN_BONUS">
+      <Text>地形修正</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_RANGED_DEFENSE_MODIFIER">
+      <Text>遠程防禦修正</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_FRIENDLY_CITY_BELIEF_BONUS_CBP">
+      <Text>信仰衛士</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ENEMY_CITY_BELIEF_BONUS_CBP">
+      <Text>十字軍熱忱</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_CONQUEST_OF_WORLD">
+      <Text>黃金時代征服世界加成</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_BONUS_PER_ADJACENT_UNIT_COMBAT">
+      <Text>遠古單位的加成</Text>
+    </Row>
+	<Row Tag="TXT_KEY_EUPANEL_BONUS_BORDER">
+		<Text>邊界加成</Text>
+	</Row>
+	<Row Tag="TXT_KEY_EUPANEL_BONUS_MARRIAGES">
+		<Text>加成來自聯姻</Text>
+	</Row>
+    <Row Tag="TXT_KEY_EUPANEL_MONOPOLY_POWER_ATTACK">
+      <Text>資源壟斷</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_MONOPOLY_POWER_DEFENSE">
+      <Text>資源壟斷</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_COUNTERSPY_DEFENSE">
+      <Text>反間諜加成</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMBARKATION_DEFENSE">
+      <Text>海運防禦</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_UNITCLASS_NEAR">
+      <Text>鄰近單位</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_NEARBYPROMOTION_COMBAT_BONUS">
+      <Text>鄰近單位的加成</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_NEARBYPROMOTION_CITY_COMBAT_BONUS">
+      <Text>鄰近城市</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_NO_FRIENDLY_UNIT_ADJACENT_BONUS">
+      <Text>無鄰近友好單位</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_PENALTY_VS_DOMAIN">
+      <Text>懲罰 VS 領域</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_BONUS_VS_DOMAIN">
+      <Text>攻擊加成 VS 領域</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_ATTACK_PENALTY_VS_DOMAIN">
+      <Text>攻擊懲罰 VS 領域</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_DEFENSE_BONUS_VS_DOMAIN">
+      <Text>防禦加成 VS 領域</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_DEFENSE_PENALTY_VS_DOMAIN">
+      <Text>防禦懲罰 VS 領域</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_BONUS">
+      <Text>雜項</Text>
+    </Row>
+    <!-- Forced resync button -->
+    <Row Tag="TXT_KEY_MP_FORCE_RESYNC_TITLE">
+      <Text>排程強制重新同步。</Text>
+    </Row>
+    <!-- Cultural overview -->
+    <!-- Tourism/Happiness screen -->
+    <Row Tag="TXT_KEY_IDEOLOGY_INFLUENCE_CIVS_WITH_OTHER_IDEOLOGY">
+      <Text>受到不遵循我們意識形態的文明數量的影響：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IDEOLOGY_INFLUENCE_RECENTLY_ADOPTED">
+      <Text>由於最近才採用/轉換意識形態而產生的影響：</Text>
+    </Row>
+    <!-- CV progress screen -->
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_INSTANT_TT_VALUE">
+      <Text>+{1_Num} 此玩家每回合的[ICON_TOURISM]旅遊業績即時收益(平均)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_SAME_TEAM">
+      <Text>+{1_Num}% 同隊的獎勵[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_LEAGUE">
+      <Text>+{1_Num}% 生效中聯盟提案所產生的獎勵[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_LEAGUE_NEGATIVE">
+      <Text>{1_Num}% 生效中聯盟提案所產生的懲罰[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_CAPITAL_PENALTY">
+      <Text>-{1_Num}% 來自帝國規模 ({2_NumCity} 城市差異)[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_WARSCORE">
+      <Text>+{1_Num}% 加成，來自最高戰爭分數[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_JAPAN_UA">
+      <Text>{1_Num}% 來自缺乏貿易路線（海禁）[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_FRANCHISES">
+      <Text>+{1_Num}% 來自您在他們帝國的公司特許經營權[NEWLINE]</Text>
+    </Row>
+	<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_THEIR_BUILDINGS">
+		<Text>{1: number "'+'##;'-'##"}% 來自他們的建築[NEWLINE]</Text>
+	</Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS">
+      <Text>巡迴演唱會 +100%（{1_NumTurns} 回合）[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TOUR_BONUS_HALF">
+      <Text>巡迴演唱會 +50%（{1_NumTurns} 回合）[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_EXOTIC_THEY">
+      <Text>[NEWLINE][NEWLINE]他們對 {1_Civ} 的[ICON_TOURISM]旅遊業績影響力：[COLOR_CYAN]陌生的[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_FAMILIAR_THEY">
+      <Text>[NEWLINE][NEWLINE]他們對 {1_Civ} 的[ICON_TOURISM]旅遊業績影響力：[COLOR_CYAN]熟知的[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_POPULAR_THEY">
+      <Text>[NEWLINE][NEWLINE]他們對 {1_Civ} 的[ICON_TOURISM]旅遊業績影響力：[COLOR_CYAN]流行的[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENTIAL_THEY">
+      <Text>[NEWLINE][NEWLINE]他們對 {1_Civ} 的[ICON_TOURISM]旅遊業績影響力：[COLOR_CYAN]有影響力的[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_DOMINANT_THEY">
+      <Text>[NEWLINE][NEWLINE]他們對 {1_Civ} 的[ICON_TOURISM]旅遊業績影響力：[COLOR_CYAN]主導的[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_STATIC_THEM">
+      <Text>[NEWLINE][ICON_TOURISM]旅遊影響趨勢：風平浪靜</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_RISING_SLOWLY_THEM">
+      <Text>[NEWLINE][ICON_TOURISM]旅遊影響趨勢：[COLOR_POSITIVE_TEXT]緩慢上升[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_RISING_THEM">
+      <Text>[NEWLINE][ICON_TOURISM]旅遊影響趨勢：[COLOR_POSITIVE_TEXT]上升[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_FALLING_THEM">
+      <Text>[NEWLINE][ICON_TOURISM]旅遊影響趨勢：[COLOR_NEGATIVE_TEXT]下降[ENDCOLOR]</Text>
+    </Row>
+	
+    <!-- Religion overview -->
+	<Row Tag="TXT_KEY_RO_WR_TOTAL_CITIES">
+		<Text>城市</Text>
+	</Row>
+	<Row Tag="TXT_KEY_RO_WR_TOTAL_FOLLOWERS">
+		<Text>追隨者</Text>
+	</Row>
+	<Row Tag="TXT_KEY_RO_WR_YEAR_FOUNDED">
+		<Text>建立</Text>
+	</Row>
+	<Row Tag="TXT_KEY_RO_WR_OWNED_CITIES">
+		<Text>所有城市中 [COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] 追隨 {2_Name}.[NEWLINE][NEWLINE]你的城市中 {3_Num} 以 {4_Name} 作為[ICON_RELIGION]主流宗教。 這在你有主流宗教的城市中佔 [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR]。這些城市也在以 {7_Name} 為主流的城市中佔 [COLOR_POSITIVE_TEXT]{6_Num}%[ENDCOLOR]。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_RO_WR_OWNED_FOLLOWERS">
+		<Text>[COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] 的世界人口追隨 {2_Name}.[NEWLINE][NEWLINE]{3_Num} 你的[ICON_CITIZEN]人口追隨 {4_Name}。他們佔你的[ICON_CITIZEN]人口 [COLOR_POSITIVE_TEXT]{5_Num}%[ENDCOLOR]。他們也在 {7_Name} 的追隨者中佔 [COLOR_POSITIVE_TEXT]{6_Num}%[ENDCOLOR] </Text>
+	</Row>
+	<Row Tag="TXT_KEY_RO_TAB_MAP">
+		<Text>地圖</Text>
+	</Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PROPHET_PARAM">
+      <Text>為 {1_UNITCLASS_PROPHET} 儲備</Text>
+    </Row>
+	<Row Tag="TXT_KEY_RO_DISABLE_AUTO_PURCHASE">
+		<Text>僅通知</Text>
+	</Row>
+	<Row Tag="TXT_KEY_RO_DISABLE_AUTO_PURCHASE_TT">
+		<Text>選取此項後，宗教單位和建築將不會自動購買。而是當信仰值達到一定數量時，您會收到通知。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_FAITH_PURCHASE_AVAILABLE">
+		<Text>你已經累積了足夠的信仰值來購買 {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_Name}}.</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FAITH_PURCHASE_AVAILABLE">
+		<Text>信仰購買可用</Text>
+	</Row>
+	
+    <!-- Espionage overview -->
+    <Row Tag="TXT_KEY_SPY_STATE_UNASSIGNED_TT">
+      <Text>{1_RankName} {2_SpyName} 尚未指定。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CAPITAL_CBP_SPY">
+      <Text>{1_CityName} 是 {@2_CivShortDesc} 的 [ICON_CAPITAL]首都。您可以派遣[ICON_SPY]間諜或[ICON_DIPLOMAT]外交官到這個城市。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_YOUR_CAPITAL_CBP_SPY">
+      <Text>{1_CityName} 是您的[ICON_CAPITAL]首都。它是敵方[ICON_SPY]間諜的高優先目標。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLY_CBP_SPY">
+      <Text>與 {1_Player} 結盟。</Text>
+    </Row>
+    <!-- Intrigue list -->
+    <Row Tag="TXT_KEY_INTRIGUE_BRIBE_WAR_US">
+      <Text>{1_PlayerName} 賄賂 {2_PlayerName} 向您開戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_BRIBE_WAR_OTHER">
+      <Text>{1_PlayerName} 賄賂 {2_PlayerName} 向 {3_PlayerName} 開戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_COOP_WAR_US">
+      <Text>{1_PlayerName} 和 {2_PlayerName} 正準備與您開戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_COOP_WAR_OTHER">
+      <Text>{1_PlayerName} 和 {2_PlayerName} 正準備對 {3_PlayerName} 開戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_MILITARY_MIGHT_RISEN">
+      <Text>{1_PlayerName} 的軍事力量在最近幾個回合強勁上升。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_BOUGHT_VOTES">
+      <Text>{1_PlayerName} 向 {2_PlayerName} 購買了世界議會的選票。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SOLD_VOTES">
+      <Text>{1_PlayerName} 已將世界議會的選票賣給 {2_PlayerName}。</Text>
+    </Row>
+    <!-- World Congress screen -->
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_PATRONAGE_FINISHER_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 來自政策</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RELIGION_REFORMATION_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 來自改革信條</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_TRAIT_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 來自文明特色</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_FAITH_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 來自宗教權威</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_CAPITALS_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 來自征服首都</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DOF_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 來自友誼宣言</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_RA_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 來自研究協議</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DP_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 來自防禦條約</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_IMPROVEMENT_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} 來自城邦大使館</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_GPT_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_Num} 來自每回合金幣</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_NEUTRAL">
+      <Text>文明大多數不受此影響：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_END">
+      <Text>[NEWLINE][NEWLINE]文明會投票幫助自己和朋友，傷害敵人/競爭對手。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_UNKNOWN">
+      <Text>[NEWLINE][ICON_BULLET]未知的：{1_NumDelegates} 代表（{2_NumCivs} 文明）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ATTEMPTED_LAST_SESSION">
+      <Text>上屆會議提出的決議，在下次會議前不能再提出。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CONTRADICTION">
+      <Text>因一項現行或擬議的決議而被阻止。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_PREREQ">
+      <Text>在世界意識形態激活之前不可用。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_VASSALS">
+      <Text>由於沒有附庸而不允許。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CONTRADICTION_CBP">
+      <Text>被執行中或提案中的決議阻止。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_WRONG_SPHERE_PROPOSER">
+      <Text>您必須是城邦的現有盟友才能提出此建議。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_CITY_CSD">
+      <Text>{@1_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PREFIX_PROPOSER">
+      <Text>{1_CivAdj}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_TOURISM">
+      <Text>全球[ICON_TOURISM]旅遊業績修正值調整 {1_UnitMaintenancePercent}%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI">
+      <Text>影響力範圍：{1_CivsList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SOI_ENTRY">
+      <Text>{@1_CivName} (for {@2_CivName})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_OPEN_DOOR">
+      <Text>開門政策：{1_CivsList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_OPEN_DOOR_ENTRY">
+      <Text>{@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_VASSAL_MAINTENANCE">
+      <Text>+{1_VassalMaintenancePercent}% 附庸單位/城市維護的[ICON_GOLD]金幣成本</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SPACESHIP_LIMIT">
+      <Text>{1_Spaceship}% 建造太空船零部件的[ICON_PRODUCTION]產能</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_SPACESHIP_PURCHASE">
+      <Text>+{1_Spaceship}% 購買太空船零部件[ICON_GOLD]金幣成本</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_WAR">
+      <Text>{1_UnitMaintenancePercent}% 單位維護[ICON_GOLD]金幣成本。[ICON_VICTORY_DOMINATION]好戰者懲罰大幅減少。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WAR_PEACE">
+      <Text>+{1_UnitMaintenancePercent}% 單位維護[ICON_GOLD]金幣成本。[ICON_VICTORY_DOMINATION]好戰者懲罰不變。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_IDEOLOGY">
+      <Text>沒有與意識形態對手或非盟友城邦的[ICON_INTERNATIONAL_TRADE]貿易路線。結盟城邦[ICON_INFLUENCE]影響力不會衰減。</Text>
+    </Row>
+    <!-- Diplomacy overview / player icon tooltip -->
+    <Row Tag="TXT_KEY_DIPLO_MY_SCORE_ALLIES">
+      <Text>{1_Num} 來自城邦聯盟</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MY_SCORE_MILITARY">
+      <Text>{1_Num} 來自軍事力量</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DP_WITH_CBP">
+      <Text>[COLOR_POSITIVE_TEXT]與 {1_CivName:textkey} 簽訂防禦協定[ENDCOLOR]</Text>
+    </Row>
+    <!-- Opinion modifiers -->
+    <Row Tag="TXT_KEY_DIPLO_NUCLEAR_GANDHI">
+      <Text>甘地的話有核子武器做後盾！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_COOP_WAR_AGAINST_TURNS">
+      <Text>我們會在 {1_Num} 回合后，向他們宣戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PREVIOUSLY_FRIENDS">
+      <Text>我們之前是他們文明的朋友。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_UNTRUSTWORTHY_FRIEND">
+      <Text>對他們來說，我們完全不可信。</Text>
+    </Row>
+    <!-- Approach indicators -->
+    <Row Tag="TXT_KEY_DIPLO_ELIMINATED_INDICATOR">
+      <Text>這位領袖已被淘汰出局。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_HUMAN_TEAMMATE">
+      <Text>[COLOR_POSITIVE_TEXT]我們是一隊的。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NEUTRAL_FRIENDLY">
+      <Text>他們對我們沒有任何強烈的感覺。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NEUTRAL_HOSTILE">
+      <Text>他們認為我們與他們的利益無關。</Text>
+    </Row>
+    <!-- Base opinion from difficulty -->
+    <Row Tag="TXT_KEY_DIPLO_VERY_GOOD_BASE_OPINION">
+      <Text>外交在您的難度等級上非常容易。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_GOOD_BASE_OPINION">
+      <Text>外交在您的難度等級上較為容易。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BAD_BASE_OPINION">
+      <Text>外交在您的難度等級上較為困難。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VERY_BAD_BASE_OPINION">
+      <Text>外交在您的難度等級上非常困難。</Text>
+    </Row>
+    <!-- Player has done nice stuff, or we share the same position -->
+    <Row Tag="TXT_KEY_DIPLO_MUTUAL_EMBASSY">
+      <Text>我們互相建有大使館。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WE_HAVE_EMBASSY">
+      <Text>我們在他們的首都設有大使館。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DIPLOMAT">
+      <Text>我們在他們的首都有外交官。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_MUTUAL">
+      <Text>我們彼此開放了邊界。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_US">
+      <Text>我們向他們開放了邊界。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_THEM">
+      <Text>他們向我們開放了邊境。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DP">
+      <Text>我們已經簽訂了防禦協定！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DP_WITH_ENEMY">
+      <Text>您與他們的敵人之一訂立了防禦協定！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MADE_RESEARCH_AGREEMENT">
+      <Text>我們已簽訂研究協議！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RETURNED_CAPITAL">
+      <Text>你把原始首都還給了他們。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LIBERATED_HOLY_CITY">
+      <Text>您解放了他們的聖城！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RETURNED_HOLY_CITY">
+      <Text>你把聖城還給了他們！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SAME_PTP">
+      <Text>我們已承諾保護相同的城邦。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DP_MUTUAL">
+      <Text>我們與相同的領袖訂立了防禦協定！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SAME_MASTER">
+      <Text>我們是同一個主人的附庸！</Text>
+    </Row>
+    <!-- Player has done mean stuff -->
+    <Row Tag="TXT_KEY_DIPLO_CAPTURED_HOLY_CITY">
+      <Text>你攻下了他們的聖城！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CULTURE_BOMB_HUMAN">
+      <Text>你偷了他們的領土</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RAZED">
+      <Text>你殺害或俘虜了他們的平民！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RAZED_OTHER">
+      <Text>您殺害或俘虜了其他文明的平民！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_STOLEN_ARTIFACTS">
+      <Text>你發掘了他們的文物！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PLOTTED_AGAINST_US">
+      <Text>你被抓到密謀對付他們</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PERFORMED_COUP">
+      <Text>你的間諜在一次政變中篡奪了他們的城邦聯盟。</Text>
+    </Row>
+    <!-- Disputes -->
+    <Row Tag="TXT_KEY_DIPLO_TECH_BLOCK">
+      <Text>您正在競爭技術的進步。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_TECH_BLOCK_FIERCE">
+      <Text>他們嫉妒我們的卓越技術！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_TECH_BLOCK">
+      <Text>您沒有在競爭技術的進步。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_POLICY_BLOCK">
+      <Text>您正在競爭文化的進步。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_POLICY_BLOCK_FIERCE">
+      <Text>他們嫉妒我們的優越文化！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_POLICY_BLOCK">
+      <Text>您沒有在競爭文化的優越。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WONDER_SPAMMER">
+      <Text>他們認為我們在建造世界奇跡時過於積極！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_WONDER_DISPUTE">
+      <Text>您沒有在競爭世界奇跡。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_MINOR_CIV_DISPUTE">
+      <Text>您沒有在爭奪同一個城邦的青睞。</Text>
+    </Row>
+    <!-- Victory dispute -->
+    <Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_NONE">
+		<Text>他們不認為您對他們的野心構成威脅。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_WEAK">
+      <Text>他們害怕您與他們競爭。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_STRONG">
+      <Text>他們懷疑您在與他們競爭。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE_FIERCE">
+      <Text>他們知道您在和他們競爭，他們討厭這樣！</Text>
+    </Row>
+    <!-- Victory block -->
+    <Row Tag="TXT_KEY_DIPLO_VICTORY_BLOCK_WEAK">
+      <Text>您的成功讓他們擔心。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VICTORY_BLOCK_STRONG">
+      <Text>您的成功激怒了他們。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VICTORY_BLOCK_FIERCE">
+      <Text>您的成功徹底激怒了他們。</Text>
+    </Row>
+    <!-- Denouncing -->
+    <Row Tag="TXT_KEY_DIPLO_MUTUAL_DENOUNCEMENT">
+      <Text>我們互相譴責！</Text>
+    </Row>
+    <!-- Religions / Policies -->
+    <Row Tag="TXT_KEY_DIPLO_SAME_POLICIES">
+      <Text>我們有類似的社會政策。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DIFFERENT_POLICIES">
+      <Text>我們有不同的社會政策。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SAME_LATE_POLICY_TREES_VASSAL">
+      <Text>你們都採納了 {1_PolicyTree} 意識形態。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DIFFERENT_LATE_POLICY_TREES_VASSAL">
+      <Text>您採用 {1_YourPolicyTree} 意識形態，但他們相信 {2_TheirPolicyTree}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELIGIOUS_DIFFERENCES_NEUTRAL">
+      <Text>我們有不同的宗教信仰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELIGIOUS_DIFFERENCES">
+      <Text>宗教差異使您們的關係緊張。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SAME_STATE_RELIGIONS">
+      <Text>我們大部分的城市都採用相同的宗教。</Text>
+    </Row>
+    <!-- Aggressive posture -->
+    <Row Tag="TXT_KEY_DIPLO_AGGRESSIVE_POSTURE_MEDIUM">
+      <Text>您的軍事部署具有威脅性。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_AGGRESSIVE_POSTURE_HIGH">
+      <Text>您的軍事部署極具威脅性。</Text>
+    </Row>
+    <!-- Promises -->
+    <Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_TURNS">
+      <Text>你已承諾至少 {1_Num} 回合不向對方宣戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE_TURNS">
+      <Text>你已承諾至少 {1_Num} 回合不在他們附近定居。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE_TURNS">
+      <Text>你已承諾至少 {1_Num} 回合不在他們附近買地。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_AI_EXPANSION_PROMISE_TURNS">
+      <Text>他們已承諾至少 {1_Num} 回合不在你附近定居。</Text>
+    </Row>
+    <!-- World Congress -->
+    <Row Tag="TXT_KEY_DIPLO_MAINTAINED_THEIR_HOSTING">
+      <Text>我們協助他們繼續主辦世界議會。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL_PREVIOUSLY">
+      <Text>我們之前在世界議會上通過了他們的提案。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL_PREVIOUSLY">
+      <Text>我們之前在世界議會上否決了他們的提案。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_GOOD_VOTING_HISTORY">
+      <Text>您的投票支持了他們公民在世界議會中的利益。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BAD_VOTING_HISTORY">
+      <Text>您的投票在世界議會上反對他們公民的利益。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_SUCCESSFUL">
+      <Text>我們在世界議會上對他們進行了制裁。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_UNSUCCESSFUL">
+      <Text>我們試圖在世界議會上對他們進行制裁。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_SUCCESSFUL">
+      <Text>我們在世界議會上解除了對他們的制裁。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_UNSUCCESSFUL">
+      <Text>我們嘗試在世界議會上讓他們脫離制裁。</Text>
+    </Row>
+    <!-- United Nations -->
+    <Row Tag="TXT_KEY_DIPLO_LIKED_OUR_PROPOSAL_UN">
+      <Text>他們喜歡我們向聯合國提出的建議。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISLIKED_OUR_PROPOSAL_UN">
+      <Text>他們不喜歡我們向聯合國提出的建議。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL_UN">
+      <Text>我們在聯合國通過了他們的提案。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL_UN">
+      <Text>我們在聯合國挫敗了他們的提案。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_HOSTING_UN">
+      <Text>我們幫助他們成為聯合國的主辦國。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAINTAINED_THEIR_HOSTING_UN">
+      <Text>我們幫助他們繼續成為聯合國的主辦囯。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL_PREVIOUSLY_UN">
+      <Text>我們之前在聯合國通過了他們的提案。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL_PREVIOUSLY_UN">
+      <Text>我們之前在聯合國挫敗了他們的提案。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_GOOD_VOTING_HISTORY_UN">
+      <Text>你們的投票支持了他們公民在聯合國的利益。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BAD_VOTING_HISTORY_UN">
+      <Text>您的投票反對他們公民在聯合國的利益。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_SUCCESSFUL_UN">
+      <Text>我們在聯合國對他們實施制裁。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SANCTIONED_THEM_UNSUCCESSFUL_UN">
+      <Text>我們試圖在聯合國對他們實施制裁。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_SUCCESSFUL_UN">
+      <Text>我們解除了聯合國對他們的制裁。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_UNSANCTIONED_THEM_UNSUCCESSFUL_UN">
+      <Text>我們嘗試讓他們在聯合國免受制裁。</Text>
+    </Row>
+    <!-- Backstabs -->
+    <Row Tag="TXT_KEY_DIPLO_BACKSTAB_WARNING_TURNS">
+      <Text>如果您在接下來的 {1_Num} 回合內告發他們或向他們宣戰，其他文明可能會視您為背信棄義的人。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BACKSTAB_WARNING_WAR_ONLY_TURNS">
+      <Text>如果您在接下來的 {1_Num} 回合內向他們宣戰，其他文明可能會視您為背信棄義的人。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BACKSTAB_WARNING_DENOUNCE_ONLY_TURNS">
+      <Text>如果您在接下來的 {1_Num} 回合內告發他們，其他文明可能會視您為背信棄義的人。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ATTACKED_OWN_VASSAL">
+      <Text>你向自己的附庸宣戰</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ATTACKED_RESURRECTED_CIV">
+      <Text>你向你復活的文明宣戰！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RESURRECTOR_ATTACKED_US">
+      <Text>你恢復了他們的文明，然後向他們宣戰！</Text>
+    </Row>
+    <!-- War stuff -->
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_CRITICAL_NUCLEAR">
+      <Text>他們擔心您的好戰政策會讓世界陷入核冬天！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_HATE_MAXIMAL">
+      <Text>(他們對好戰分子深惡痛絕!)。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_HATE_EXTREME">
+      <Text>(他們討厭好戰分子!)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_HATE_MINIMAL">
+      <Text>(他們忽略了大多數的好戰行為)。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_HATE_BLOODTHIRSTY">
+      <Text>(他們是嗜血的好戰分子!)。</Text>
+    </Row>
+    <!-- Debug messages -->
+    <Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_WAR">
+      <Text>真實態度是戰爭。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_PLANNING_WAR">
+      <Text>真實態度是計劃戰爭。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_HOSTILE">
+      <Text>真實態度是敵對的。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_DECEPTIVE">
+      <Text>真實態度是欺騙。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_GUARDED">
+      <Text>真實態度是警惕。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_AFRAID">
+      <Text>真實態度是害怕。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_FRIENDLY">
+      <Text>真實態度是友好。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REAL_APPROACH_NEUTRAL">
+      <Text>真實態度是中立。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_FRIEND">
+      <Text>最要好的朋友：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_ALLY">
+      <Text>Top DP：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_LEAGUE_ALLY">
+      <Text>Top WC 盟友：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_LEAGUE_COMPETITOR">
+      <Text>Top WC 對手：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_LEAGUE_ALLY_UN">
+      <Text>Top UN 盟友：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_LEAGUE_COMPETITOR_UN">
+      <Text>Top UN 對手：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_COMPETITOR">
+      <Text>最強的競爭對手：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_CHOICE_NONE">
+      <Text>無</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEBUG_TOP_CHOICE_YOU">
+      <Text>你</Text>
+    </Row>
+    <!-- Leader screen -->
+    <Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_BLOCKED_THEM_TT">
+      <Text>因為他們與其他玩家達成的協議，他們無法在 {1_Num} 回合内與您進行和平談判。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_BLOCKED_MOD_TT">
+      <Text>您總是在與這位玩家交戰！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAY_NOT_ATTACK_DP">
+      <Text>在與他們盟友(防禦條約或主人)的當前和平條約到期前，不得攻擊該玩家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DECLARE_WAR_VASSAL_BLOCKED_TT">
+      <Text>不得以附庸身份宣戰(當您的主人與此文明宣戰時，會自動宣戰)。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DECLARE_WAR_VASSAL_BLOCKED_MASTER_TT">
+      <Text>在你要求獨立或被解放之前，你不能向你的主人宣戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MAY_NOT_MAKE_PEACE_VASSAL">
+      <Text>不得與其他文明的附庸和談(您必須與他們的主人 {1_CivName} 和談)。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_VASSAL_BLOCKED_TT">
+      <Text>不得以附庸身份求和(當您的主人與此文明求和時，會自動求和)。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEMAND_BUTTON_TT">
+      <Text>向這個文明索要貢品。此選項有外交懲罰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REQUEST_HELP_BUTTON">
+      <Text>請求協助</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REQUEST_HELP_BUTTON_TT">
+      <Text>向與你有友好宣言的玩家請求協助。這個選項不會有外交懲罰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_REQUEST_HELP_DEAL_BUTTON">
+      <Text>請求</Text>
+    </Row>
+    <!-- Warscore tooltip -->
+    <Row Tag="TXT_KEY_WAR_SCORE">
+      <Text>[COLOR_POSITIVE_TEXT]戰爭分數：{1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_SCORE_EXPLANATION">
+      <Text>這個數值表示您的戰爭進行得如何。範圍介於[COLOR_NEGATIVE_TEXT]-100[ENDCOLOR]與[COLOR_POSITIVE_TEXT]100[ENDCOLOR]之間。[NEWLINE][COLOR_POSITIVE_TEXT]目前的戰爭訊息：[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_STRENGTH_PATHETIC">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_STRENGTH]軍事力量：[ENDCOLOR]他們真可悲！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_STRENGTH_WEAK">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_STRENGTH]軍事力量：[ENDCOLOR]他們非常虛弱。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_STRENGTH_POOR">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_STRENGTH]軍事力量：[ENDCOLOR]他們是弱者。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_STRENGTH_AVERAGE">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_STRENGTH]軍事力量：[ENDCOLOR]我們力量對等</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_STRENGTH_STRONG">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_STRENGTH]軍事力量：[ENDCOLOR]他們有點强。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_STRENGTH_POWERFUL">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_STRENGTH]軍事力量：[ENDCOLOR]他們很强大。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_STRENGTH_IMMENSE">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_STRENGTH]軍事力量：[ENDCOLOR]他們勢不可擋！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_ECONOMY_PATHETIC">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_GOLD]經濟力量：[ENDCOLOR]他們一團糟！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_ECONOMY_WEAK">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_GOLD]經濟力量：[ENDCOLOR]他們真可悲。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_ECONOMY_POOR">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_GOLD]經濟力量：[ENDCOLOR]他們很窮。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_ECONOMY_AVERAGE">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_GOLD]經濟力量：[ENDCOLOR]我們是對等的。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_ECONOMY_STRONG">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_GOLD]經濟力量：[ENDCOLOR]他們很穩固。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_ECONOMY_POWERFUL">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_GOLD]經濟力量：[ENDCOLOR]他們很富有。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_ECONOMY_IMMENSE">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_GOLD]經濟力量：[ENDCOLOR]他們非常富有！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_DAMAGE_THEM_MINOR">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_WAR]戰爭狀況：[ENDCOLOR]戰爭走向順利。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_DAMAGE_THEM_MAJOR">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_WAR]戰爭狀況：[ENDCOLOR]我們正在贏。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_DAMAGE_THEM_SERIOUS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_WAR]戰爭狀況：[ENDCOLOR]我們勝利是必然了。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_DAMAGE_THEM_CRIPPLED">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_WAR]戰爭狀況：[ENDCOLOR]他們不堪重負！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_DAMAGE_US_MINOR">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_RAZING]戰爭狀況：[ENDCOLOR]戰爭走向不好。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_DAMAGE_US_MAJOR">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_RAZING]戰爭狀況：[ENDCOLOR]他們正在贏。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_DAMAGE_US_SERIOUS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_RAZING]戰爭狀況：[ENDCOLOR]我們敗局已定。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_DAMAGE_US_CRIPPLED">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_RAZING]戰爭狀況：[ENDCOLOR]我們即將毀滅！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WAR_NO_PEACE_OFFER">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_PEACE]他們的和平提議：[ENDCOLOR]不可能！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OFFER_PEACE_TREATY_WHITE_PEACE">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_PEACE]他們的和平提議：[ENDCOLOR]白色和平。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OFFER_PEACE_TREATY_ARMISTICE">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_PEACE]他們的和平提議：[ENDCOLOR]停戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OFFER_PEACE_TREATY_SETTLEMENT">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_PEACE]他們的和平提議：[ENDCOLOR]小額補償。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OFFER_PEACE_TREATY_BACKDOWN">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_PEACE]他們的和平提議：[ENDCOLOR]大額補償。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OFFER_PEACE_TREATY_SUBMISSION">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_PEACE]他們的和平提議：[ENDCOLOR]輕微讓步。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OFFER_PEACE_TREATY_SURRENDER">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_PEACE]他們的和平提議：[ENDCOLOR]一些讓步。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OFFER_PEACE_TREATY_CESSION">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_PEACE]他們的和平提議：[ENDCOLOR]中等讓步。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OFFER_PEACE_TREATY_CAPITULATION">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_PEACE]他們的和平提議：[ENDCOLOR]巨大讓步。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OFFER_PEACE_TREATY_UNCONDITIONAL_SURRENDER">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_PEACE]他們的和平提議：[ENDCOLOR]完全投降！</Text>
+    </Row>
+    <!-- Declare war popup -->
+    <Row Tag="TXT_KEY_DECLARE_WAR_DPS_CP">
+      <Text>防禦協定</Text>
+    </Row>
+    <!-- Trade screen -->
+    <Row Tag="TXT_KEY_DIPLO_DEF_PACT_NO_LIMIT_TT">
+      <Text>如果任何一方受到另一個主權文明的攻擊，另一方將立即自動與侵略者開戰。此協議持續{1_Num}回合。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_WLTKD_RESOURCE_CITIES">
+      <Text>下列城市目前需要此資源：</Text>
+    </Row>
+    <!-- Deal value (normal) -->
+    <Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR">
+      <Text>他們的交易值：{1_Num}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_ACCEPTABLE">
+      <Text>他們的交易值：可接受</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_IMPOSSIBLE">
+      <Text>他們的交易值：不可能！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_TT">
+      <Text>領袖目前對這筆交易的估價。如果此處的價值為負數或「不可能!」，則表示領袖拒絕交易此交易中的一個或多個項目。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_EMBARGO">
+      <Text>世界議會認可</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR_EMBARGO_TT">
+      <Text>在和平時期，您無法與此文明進行交易，直到制裁解除為止。</Text>
+    </Row>
+    <!-- Deal value (peace deal) -->
+    <Row Tag="TXT_KEY_DIPLO_PEACE_DEAL_VALUE_STR">
+      <Text>和約價值：{1_Num}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_DEAL_VALUE_STR_IMPOSSIBLE">
+      <Text>和約價值：不可能</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_DEAL_VALUE_STR_TT">
+      <Text>領袖目前對該「和約」的估價。如果此處的價值是「不可能!」，則表示領袖拒絕交易和約中的一個或多個項目。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_MAX_STR">
+      <Text>最大值：{1_Num}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_MAX_STR_TT">
+      <Text>和約中物品的最大價值。如果左邊的價值超過此數，領袖會拒絕交易。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_MIN_STR">
+      <Text>最小值 {1_Num}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_MIN_STR_TT">
+      <Text>和約中物品的最低價值。如果此數值超過左邊的值，領袖將拒絕交易。</Text>
+    </Row>
+    <!-- Tooltip for invalid items -->
+    <Row Tag="TXT_KEY_DIPLO_NO_CLEAR_WINNER_TT">
+      <Text>無法加入和平協議中的非投降方。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_AGREEMENT_INSUFFICIENT_FUNDS">
+      <Text>至少有一名玩家缺乏此協議所需的資金。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NOT_BANK_TT">
+      <Text>無法以一次性物品(如金幣)交換長期贈送的物品(如資源)。</Text>
+    </Row>
+	<Row Tag="TXT_KEY_DIPLO_GOLD_ONLY_TRADE_TT">
+		<Text>每回合不能用金幣交換金幣。</Text>
+	</Row>
+    <Row Tag="TXT_KEY_DIPLO_AI_TEAMMATE_TRADE_TT">
+      <Text>人類隊友會阻止此動作。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_WARTIME_TRADE_TT">
+      <Text>和平交易中不允許。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_CAPITAL">
+      <Text>我們沒有首都來接待他們的大使館！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_CAPITAL_THEM">
+      <Text>他們沒有首都來接待我們的大使館！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_DENOUNCEMENT">
+      <Text>如果任何一方文明譴責另一方文明，就不能建立大使館。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEF_PACT_INSUFFICIENT_MAJORS">
+      <Text>目前沒有其他非附庸文明存活。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEF_PACT_DISABLED_BY_OPTIONS">
+      <Text>本遊戲的選項已停用防禦協定。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEF_PACT_EXISTING_VASSALAGE">
+      <Text>附庸不可組成防禦協定。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CONTAINS_INVALID_VASSALAGE">
+      <Text>如果交易包含附庸則不允許。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEFENSIVE_PACT_LIMIT_REACHED">
+      <Text>你不能與超過 {1_Num} 個文明訂立防禦協定。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEFENSIVE_PACT_LIMIT_REACHED_THEM">
+      <Text>他們不能與超過 {1_Num} 個的文明訂立防禦協定。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_US_ALREADY_THEIR_VASSAL">
+      <Text>你已經是他們的附庸了！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_ALREADY_YOUR_VASSAL">
+      <Text>他們已經是你的附庸了！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_ARE_VASSAL">
+      <Text>您是 {1_PlayerName:textkey} 的附庸，無法收養自己的附庸。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_THEY_ARE_VASSAL">
+      <Text>他們是 {1_PlayerName:textkey} 的附庸，不能收養自己的附庸。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_US_NOT_YET_ENABLED">
+      <Text>我們必須到達中世紀才能建立附庸。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_NOT_YET_ENABLED">
+      <Text>他們必須到達中世紀才能建立附庸。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_US_ALREADY_A_VASSAL">
+      <Text>您已經是 {1_CivName} 的附庸！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_ALREADY_A_VASSAL">
+      <Text>他們已經是 {1_CivName} 的附庸！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_TOO_SOON">
+      <Text>你無法在 {1_Num} 回合内成為他們的附庸，因為你的附庸期結束的時間太短了。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_TOO_SOON">
+      <Text>他們無法在 {1_Num} 回合内成為你的附庸，因為他們的附庸期結束的時間太短了。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_YOU_NO_POPULATION">
+      <Text>您不能成為他們的附庸，因為您沒有城市或人口！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_THEM_NO_POPULATION">
+      <Text>他們不能成為您的附庸，因為他們沒有城市或人口！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSALAGE_AND_INVALID_ITEM">
+      <Text>如果交易包含防禦協定或解放，則不允許。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSALAGE_YOU_DECLARE_WAR_REQUIRED">
+      <Text>他們必須能夠向所有與你交戰的人宣戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSALAGE_THEM_DECLARE_WAR_REQUIRED">
+      <Text>您必須能夠向所有與他們交戰的人宣戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_NO_VASSALS">
+      <Text>我們沒有附庸需要解放！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_NO_VASSALS">
+      <Text>他們沒有附庸需要解放！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_YOUR_MASTER">
+      <Text>我們不能要求我們的主人解放他們的附庸！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_THEIR_MASTER">
+      <Text>他們不能要求主人解放附庸！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_US_TOO_SOON">
+      <Text>我們最近附庸了某人，並且在 {1_Num} 回合內無法執行此動作。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VASSAL_REVOKE_THEM_TOO_SOON">
+      <Text>他們最近附庸了某人，並且在 {1_Num} 回合內無法執行此動作。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WAR_NO_PEACE_THIRD_PARTY_TT">
+      <Text>只能將同盟城邦納入和平協議。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CANNOT_PEACE_VASSAL">
+      <Text>附庸閒不能和平</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BLOCKED_LOCKED_INTO_WAR">
+      <Text>與其他領袖簽訂的戰爭協定會阻止此行動。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BLOCKED_DIPLOMACY">
+      <Text>與目標有防禦協定的領袖，同時也與我們其中一人有友誼宣言或防禦協定。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BLOCKED_GAME_RULE">
+      <Text>特殊遊戲規則可防止此動作。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WAR_SCORE">
+      <Text>戰爭分數必須至少為 {1_Num}。目前的戰爭分數：{2_Num}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WAR_SCORE_TEAM">
+      <Text>本隊反對所有文明的戰爭分數必須至少為 {1_Num}。最低戰爭分數：{2_Num}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_WAR_VASSAL">
+      <Text>附庸不能宣戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_WAR_VASSAL_TARGET">
+      <Text>不能促成對附庸的戰爭。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_WAR_OUR_MASTER">
+      <Text>你不能與你的主人開戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_WAR_THEIR_MASTER">
+      <Text>他們不能與他們的主人開戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_WAR_DP">
+      <Text>防禦協定會阻止這個動作。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_WAR_DP_OUR_MASTER">
+      <Text>我們主人的防禦協定會阻止這個動作。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_WAR_DP_THEIR_MASTER">
+      <Text>他們主人的防禦協定會阻止這個動作。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_WAR_DOF">
+      <Text>友好宣言可防止此行為。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_WAR_PTP">
+      <Text>保護誓約可防止此行為。</Text>
+    </Row>
+    <!-- Multiplayer only -->
+    <Row Tag="TXT_KEY_DENOUNCE_HUMAN">
+      <Text>譴責</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DENOUNCE_HUMAN_TT">
+      <Text>按一下此按鈕將[COLOR_NEGATIVE_TEXT]譴責[ENDCOLOR]其他玩家。</Text>
+    </Row>
+    <!-- Discussion/Dialogue options -->
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_APPROACH">
+      <Text>您認為...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DECLARE_WAR_TT">
+      <Text>如果領袖拒絕協助，並決定警告目標玩家，選擇此選項可能會讓目標玩家及其盟友警覺到您的戰爭準備。這可能會造成外交影響！[NEWLINE][NEWLINE]依據領袖的回應，戰爭合作可能會立即開始，或是在 10 個回合過去之後，或是在其中一人與目標開戰之後。[NEWLINE][NEWLINE]如果您過早結束與這位領袖的友誼(包括透過告發或戰爭)，戰爭合作會被取消。[NEWLINE][NEWLINE]如果您與目標交好、與他們簽訂防禦條約或無法向他們宣戰，您與這個領袖的協議也會被取消。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DECLARE_WAR_NOT_FRIENDS_TT">
+      <Text>要討論這個問題，需要一份「友誼宣言」。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DECLARE_WAR_NO_TARGET_TT">
+      <Text>必須至少有一個你們都可以宣戰的文明。注意：目標文明必須至少有一個城市。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_END_DEC_FRIENDSHIP_TT">
+      <Text>這個動作會取消你目前的友誼宣言、破壞你的防禦條約(如果有的話)、並且違反任何與他人開戰的承諾(除非已經開戰)。這個動作肯定會激怒您的朋友，並可能造成嚴重的全球外交影響。[NEWLINE][NEWLINE]如果你在取消友誼宣言後的 [COLOR_NEGATIVE_TEXT]10[ENDCOLOR] 個回合內告密或向這位玩家宣戰，你將會因為背棄他們而受到外交懲罰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS">
+      <Text>請把您的軍隊從我們的邊境遷走。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS_HOSTILE">
+      <Text>要攻擊我們嗎，豬？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_MOVE_TROOPS_TT">
+      <Text>請求領袖從您的邊界移除他們的軍隊。如果領袖同意您的請求，[COLOR_WARNING_TEXT]你們[ENDCOLOR]雙方將保證在20個回合內不會向對方宣戰。如果您違反這個承諾，其他領袖可能會視您為背信棄義者！[NEWLINE][NEWLINE]如果領袖拒絕您的請求，他們可能會選擇向您宣戰，所以要小心！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DURATION_PROMISE">
+      <Text>此承諾將持續 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 回合。如果你在此期間違反此承諾，該玩家將感到被背叛！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DURATION_MILITARY_PROMISE">
+      <Text>選擇此選項將創建一個[COLOR_WARNING_TEXT]相互[ENDCOLOR]承諾，在 [COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] 回合內不互相宣戰。如果你違背了這一承諾，其他領袖可能會把你視為背信棄義者！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DURATION_ATTACK_MINOR_PROMISE">
+      <Text>本承诺[COLOR_WARNING_TEXT]不会过期[ENDCOLOR]。如果您違反此承諾，其他領袖可能會將您視為背信棄義者！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_YOULL_PAY_TT">
+      <Text>選擇此侮辱性回應可能會導致[COLOR_NEGATIVE_TEXT]戰爭[ENDCOLOR]！如果這個侮辱沒有導致戰爭，領袖會感到羞愧，而且他們對您的看法會暫時重設為中立。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_HOW_DARE_YOU_TT">
+      <Text>選擇此選項將會提醒 {2_CivName:textkey} 及其盟友注意 {1_CivName:textkey} 的戰爭準備。這是違反外交機密的行為，這將會激怒 {1_CivName:textkey} 並取悅 {2_CivName:textkey}！</Text>
+    </Row>
+    <!-- Declare war popup -->
+    <Row Tag="TXT_KEY_DIPLO_DEFENSE_PACT_WITH_US">
+      <Text>[COLOR_NEGATIVE_TEXT]我們與他們簽訂了防禦協定！[ENDCOLOR]</Text>
+    </Row>
+    <!-- City-State screen/tooltip -->
+    <Row Tag="TXT_KEY_NEUTRAL_CSTATE">
+      <Text>中立</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEACE_BLOCKED_TURNS">
+      <Text>和平受阻 {1_Num} 回合</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEACE_BLOCKED_CSTATE_TURNS_TT">
+      <Text>您侵略性地攻擊這個城邦，並且在 {1_Num} 回合之內無法求和！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_JERK_STATUS">
+      <Text>[COLOR_NEGATIVE_TEXT]你侵略性地攻擊了這個城邦！[ENDCOLOR][NEWLINE]在接下来的 [COLOR_NEGATIVE_TEXT]{1_JerkRate}[ENDCOLOR] 回合，該城邦不會給你任何任務，你的[ICON_INFLUENCE]影響力也會减少[NEWLINE]如果你在此期間與該城邦[COLOR_POSITIVE_TEXT]成為朋友[ENDCOLOR]，這些懲罰會提前解除。[NEWLINE][NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_RESILIENT_VARIABLE_THRESHOLD">
+      <Text>他們目前是[COLOR_WARNING_TEXT]尚能適應的[ENDCOLOR]，因為您比 [COLOR_CYAN]{2_Threshold}%[ENDCOLOR] 的貢獻臨界值低 {1_FactorScore}%：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_NO_CAPITAL">
+      <Text>無首都</Text>
+    </Row>
+    <!-- Quests -->
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_FORMAL">
+      <Text>他們想要你找到 {@1_CityName} 這個城市。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_EXPLORE_AREA_FORMAL">
+      <Text>探索世界上尚未揭露的區域([COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]% 完成)。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_BUILD_X_BUILDINGS_FORMAL">
+      <Text>在您帝國的非傀儡城市建造 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] {@1_Building} 建築。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_SPY_ON_MAJOR_FORMAL">
+      <Text>對 {1_Civ} 進行一次間諜任務。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_COUP_FORMAL">
+      <Text>在 {1_Civ} 發動一場政變。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_ACQUIRE_CITY_FORMAL">
+      <Text>取得 {1_City} 城市。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_ACQUIRE_CITY_OCC_FORMAL">
+      <Text>他們想讓您征服 {1_City} 這座城市。</Text>
+    </Row>
+
+	<!-- Debug score -->
+	<Row Tag="TXT_KEY_DEBUG_SCORE">
+		<Text>分數：[COLOR_CYAN]{1_Score}[ENDCOLOR]</Text>
+	</Row>
+		
+    <!-- Plot popup -->
+    <Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_PILLAGE">
+      <Text>維京</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE">
+      <Text>區域傷害</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_FORTIFY">
+      <Text>羅馬投矛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_SPLASH">
+      <Text>濺射傷害</Text>
+    </Row>
+	<Row Tag="TXT_KEY_MISC_TILE_DAMAGE_NOT_MOVED">
+		<Text>臥虎</Text>
+	</Row>
+    <Row Tag="TXT_KEY_MISC_YOU_ENEMY_UNITS_DEFECT">
+      <Text>敵人叛逃</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_ON_MOVE">
+      <Text>撕裂</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_BULLIED_POPUP">
+      <Text>被霸凌：</Text>
+    </Row>
+    <!-- Plot tooltip -->
+    <Row Tag="TXT_KEY_CITY_STATE_ACQUIRE_CITY_QUEST_LONG">
+      <Text>{1_Civ} 想要你取得這個城市。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_EXPLORE_AREA_QUEST_LONG">
+      <Text>{1_Civ} 希望您在這地方附近探索。</Text>
+    </Row>
+    <!-- Banner message -->
+    <Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN_IN_CITY">
+      <Text>[SPACE]{@2_CityName} 中的 {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@1_ProdName}} 工作現已開始。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN_IN_CITY_LIMITED">
+      <Text>[SPACE]{@2_CityName} 中的 {@1_ProdName} 工作現已開始。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOMATIC_MISSION_RESULT_NO_GOLD">
+      <Text>您從外交任務獲得 {1_Num} [ICON_INFLUENCE]影響力！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_IMPROVEMENT_DESTROYED_EVENT">
+      <Text>{2_Num} {1_Improvement} 由於事件選擇，{3_City} 附近遭到掠奪！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_STRATEGIC_RESOURCE_PILLAGED_EVENT">
+      <Text>由於事件選擇 {3_City} 附近 {2_Num} {1_Resource} 遭到掠奪！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_BUILDING_DESTROYED_EVENT">
+      <Text>由於事件選擇 {2_City} 的 [COLOR_NEGATIVE_TEXT]{1_Building}[ENDCOLOR] 被摧毀！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_AIR_PATROL_BOMBED_GROUND_TARGETS">
+      <Text>你的{@1_UnitName}沒有遇到任何抵抗，攻擊了地面上的敵方空中和防空部隊！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOU_ATTACKED_CITY_CP">
+      <Text>你的 {@2_UnitName} 轟擊了敵方城市 {@1_CityName}({3_Num} 傷害)！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR_ACTUALLY">
+      <Text>您的 {@1_UnitName} 轟炸了敵方城市 {2_CityName}({3_Num} 傷害)，沒有被攔截！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOU_ATTACK_INTERCEPTED_KILLED">
+      <Text>你的 {@2_UnitName} 在被敵人 {@1_AttUnitName} 攔截時陣亡！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR_INTERCEPTED">
+      <Text>在攻擊 {4_CityName} 時，敵方 {@1_UnitName} 攔截了你的 {@2_DefUnitName}({3_Num} 傷害)！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOU_ATTACK_UNIT_BY_AIR_INTERCEPTED">
+      <Text>敵方 {@1_IntUnitName} 攔截了你的 {@2_AttUnitName}({3_Num} 傷害)！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR_CITY">
+      <Text>{@1_CityName} 城市遭到敵人 {@2_EnUName} 轟炸({3_Num} 傷害)！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_ENEMY_AIR_UNIT_INTERCEPTED_CITY">
+      <Text>感謝您攔截 {@1_UnitName}，我們損毀了攻擊您 {@5_CityName} 城市的 {@2_owner_adjective} {@3_EnUName}({4_Num} 傷害)。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PARADROP_AA_DAMAGED">
+      <Text>您的 {1_Unit} 被敵人 {2_EnUName} 攔截({3_Num} 傷害)！</Text>
+    </Row>
+    <!-- Unused - paradrop units cannot be killed by interceptions -->
+    <Row Tag="TXT_KEY_PARADROP_AA_KILLED">
+      <Text>您的 {1_Unit} 被敵人 {2_EnUName} 擊殺！</Text>
+    </Row>
+
+	<!-- GLOBAL_GRATEFUL_SETTLERS -->
+	<Row Tag="TXT_KEY_GRATEFUL_SETTLERS">
+		<Text>移民決定加入你們的文明！</Text>
+	</Row>
+
+    <!-- End turn blocking message -->
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_CITY_FATE">
+      <Text>選擇城市命運</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_CITY_FATE_TT">
+      <Text>選擇被攻下的城市的命運...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_EVENT">
+      <Text>選擇事件</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_EVENT_TT">
+      <Text>有多個選項的事件已經發生，等待您的決定。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DIPLOMATIC_REQUEST">
+      <Text>待定的外交</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DIPLOMATIC_REQUEST_TT">
+      <Text>來自另一個文明的外交訊息等待您的考量。</Text>
+    </Row>
+
+	<!-- New columns -->
+	<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNHAPPINESS">
+		<Text>[ICON_HAPPINESS_3]不滿度: {2_Sign}{1_Num}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_BUILDINGS_UNHAPPINESS">
+		<Text>建築（{1_Num}）</Text>
+	</Row>
+	<Row Tag="TXT_KEY_BUILDINGS_UNHAPPINESS_TT">
+		<Text>城市中的某些建築物會產生[ICON_HAPPINESS_4]不滿度。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_TP_UNHAPPINESS_BUILDINGS">
+		<Text>{1_Num} 來自建築。</Text>
+	</Row>
+		
+	<!-- Notification Settings -->
+	<Row Tag="TXT_KEY_NOTIFICATION_LOG_TAB">
+		<Text>通知日誌</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_TITLE">
+		<Text>即時收益通知設置</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_TAB">
+		<Text>設置</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_CITY_BUTTON">
+		<Text>城市</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_MILITARY_BUTTON">
+		<Text>軍事單位</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_CIVILIAN_BUTTON">
+		<Text>非戰鬥單位</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_SPIES_BUTTON">
+		<Text>間諜</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_MISC_BUTTON">
+		<Text>其他</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_TURN_OFF_ALL_BUTTON">
+		<Text>關閉所有</Text>
+	</Row>
+	<Row Tag="TXT_KEY_NOTIFICATION_SETTINGS_TURN_ON_ALL_BUTTON">
+		<Text>開啟所有</Text>
+	</Row>
+  </Language_en_US>
+</GameData>

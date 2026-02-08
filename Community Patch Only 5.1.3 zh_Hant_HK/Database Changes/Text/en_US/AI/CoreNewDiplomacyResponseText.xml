@@ -559,16 +559,16 @@
       <Text>來吧，讓我們打開邊界，以示善意和信心。</Text>
     </Row>
     <Row Tag="TXT_KEY_LEADER_ALEXANDER_OPEN_BORDERS_EXCHANGE_2">
-      <Text>即使像我這樣的偉大帝國，也必須向你們這樣的帝國開放邊界。</Text>
+      <Text>即使像我這樣的偉大帝國，也必須向你們這樣的帝國開放邊境。</Text>
     </Row>
     <Row Tag="TXT_KEY_LEADER_WASHINGTON_OPEN_BORDERS_EXCHANGE_2">
-      <Text>美國願意向您開放邊界。您也會這樣做嗎？</Text>
+      <Text>美國願意向您開放邊境。您也會這樣做嗎？</Text>
     </Row>
     <Row Tag="TXT_KEY_LEADER_HARUN_OPEN_BORDERS_EXCHANGE_2">
-      <Text>阿拉伯人民渴望開放邊界。來吧，讓我們達成協議。</Text>
+      <Text>阿拉伯人民渴望開放邊境。來吧，讓我們達成協議。</Text>
     </Row>
     <Row Tag="TXT_KEY_LEADER_MONTEZUMA_OPEN_BORDERS_EXCHANGE_2">
-      <Text>偉大的蒙特祖瑪渴望開放邊界。你會違抗他嗎？</Text>
+      <Text>偉大的蒙特祖瑪渴望開放邊境。你會違抗他嗎？</Text>
     </Row>
     <Row Tag="TXT_KEY_LEADER_WUZETIAN_OPEN_BORDERS_EXCHANGE_2">
       <Text>開放邊境協議將帶來巨大的利益。</Text>
@@ -604,7 +604,7 @@
       <Text>羅馬的榮耀不分國界......除了你的國界。我們可以互相開放國界嗎？</Text>
     </Row>
     <Row Tag="TXT_KEY_LEADER_CATHERINE_OPEN_BORDERS_EXCHANGE_2">
-      <Text>開放邊界對你們的好處遠遠超過對俄羅斯的好處。來吧，現在，這不是一個慷慨的提議嗎？</Text>
+      <Text>開放邊境對你們的好處遠遠超過對俄羅斯的好處。來吧，現在，這不是一個慷慨的提議嗎？</Text>
     </Row>
     <Row Tag="TXT_KEY_LEADER_RAMKHAMHAENG_OPEN_BORDERS_EXCHANGE_2">
       <Text>合作是開悟之門。來吧，讓我們彼此分享我們的土地。</Text>
@@ -623,7 +623,7 @@
       <Text>我需要穿越你們的邊界。你同意嗎？</Text>
     </Row>
     <Row Tag="TXT_KEY_GENERIC_OPEN_BORDERS_OFFER_5">
-      <Text>請考慮我開放邊界的請求。</Text>
+      <Text>請考慮我開放邊境的請求。</Text>
     </Row>
     <!-- Make offer for Defensive Pact -->
     <Row Tag="TXT_KEY_DEFENSE_PACT_OFFER_1">

@@ -74,7 +74,7 @@ C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文
 
 目前 5.x 版本，制作组已经放出，翻译较慢，先放出 CP 的翻译。
 
-在仅安装了 5.1.2 的 CP 后，将 Only for Community Patch 5.1.2 文件夹内文件
+在仅安装了 5.1.3 的 CP 后，将 Community Patch Only 5.1.3 zh_Hant_HK 文件夹内文件
 
 粘贴到 C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\(1) Community Patch 文件夹内, 进行替换，
 

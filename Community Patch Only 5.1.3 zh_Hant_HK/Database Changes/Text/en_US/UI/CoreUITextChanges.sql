@@ -795,11 +795,11 @@ SET Text = '他們沒有建立大使館的科技(書寫)。'
 WHERE Tag = 'TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_TECH_OTHER_PLAYER';
 
 UPDATE Language_en_US
-SET Text = '我們已經允許開放邊界！'
+SET Text = '我們已經允許開放邊境！'
 WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_HAVE';
 
 UPDATE Language_en_US
-SET Text = '他們已經允許開放邊界！'
+SET Text = '他們已經允許開放邊境！'
 WHERE Tag = 'TXT_KEY_DIPLO_OPEN_BORDERS_THEY_HAVE';
 
 UPDATE Language_en_US

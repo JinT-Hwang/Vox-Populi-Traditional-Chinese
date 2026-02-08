@@ -148,6 +148,12 @@
     <Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS_NEEDED">
       <Text>[COLOR_POSITIVE_TEXT]如果您符合本建築的主題要求，即可獲得：[ENDCOLOR] +{1_Num} {2_YieldIcon}{3_YieldName}</Text>
     </Row>
+
+	<!-- Religion picker -->
+	<Row Tag="TXT_KEY_RELIGION_CHOOSER_ADVISOR_RECOMMENDATION">
+		<Text>[COLOR_POSITIVE_TEXT]你的顧問推薦此信條。[ENDCOLOR]</Text>
+	</Row>
+
     <!-- Conquest picker -->
     <Row Tag="TXT_KEY_POPUP_DESTROY_CAPTURED_CITY">
       <Text>摧毀城市！</Text>
@@ -199,7 +205,7 @@
     </Row>
     <!--貿易路線 picker -->
     <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_OPEN_BORDERS_MOD">
-      <Text>開放邊界[ICON_GOLD]金幣加成：+{1_Num}%</Text>
+      <Text>開放邊境[ICON_GOLD]金幣加成：+{1_Num}%</Text>
     </Row>
     <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_DOMAIN_LAND_MODIFIER">
       <Text>陸上商綫：{1_Num}x</Text>
@@ -1433,7 +1439,7 @@
 			<Text>政策數量要求：[COLOR_MAGENTA]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_T3_TENET_NEEDED">
-			<Text>第 3 階意識形態原則數量要求：[COLOR_MAGENTA]{1_Num}[ENDCOLOR]</Text>
+			<Text>第 3 等級意識形態原則數量要求：[COLOR_MAGENTA]{1_Num}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_POPULATION_NATIONAL_NEEDED">
 			<Text>全國人口要求：[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] (已有：{2_Num})</Text>
@@ -1958,7 +1964,7 @@
 		</Row>
 
 		<Row Tag="TXT_KEY_BORDER_GROWTH_HELP_INFO">
-			<Text>[ICON_CULTURE_LOCAL]邊境成長點數產生自城市的文化收益，以及某些建築和信仰。當累積的邊境成長點數超過所需門檻時，你的城市即可獲得一塊新的單元格。</Text>
+			<Text>[ICON_CULTURE_LOCAL]邊界成長點數產生自城市的文化收益，以及某些建築和信仰。當累積的邊界成長點數超過所需門檻時，你的城市即可獲得一塊新的單元格。</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_CITYVIEW_CORPORATIONS_TEXT">
@@ -2124,7 +2130,7 @@
 		<Text>[NEWLINE]創造此單位需要獲取 {1_Num} {2_ResourceIcon} {3_ResourceName:textkey}</Text>
 	</Row>
 	<Row Tag="TXT_KEY_NO_ACTION_PROJECT_LEVEL_THREE_TENETS_REQUIRED">
-		<Text>[NEWLINE]需要額外的第 3 階意識形態原則：{1_Num}</Text>
+		<Text>[NEWLINE]需要額外的第 3 等級意識形態原則：{1_Num}</Text>
 	</Row>
 	<Row Tag="TXT_KEY_NO_ACTION_PROJECT_NEED_INFLUENTIAL_ALL_CIVS">
 		<Text>[NEWLINE]你需要對所有文明都擁有影響力才能創建這個。</Text>

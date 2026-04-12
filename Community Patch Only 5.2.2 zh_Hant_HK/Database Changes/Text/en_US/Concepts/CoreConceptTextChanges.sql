@@ -6,17 +6,10 @@ SET Text = '戰爭分數是玩家間戰爭中不斷變化的狀態。戰爭得�
 WHERE Tag = 'TXT_KEY_DIPLOMACY_PEACE_HEADING3_BODY';
 
 UPDATE Language_en_US
-SET Text = '[COLOR_YELLOW]城市中的戰鬥單位[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_CITIES_COMBATUNITS_HEADING3_TITLE';
-UPDATE Language_en_US
-SET Text = '一次只能有一個陸軍單位及一個海軍單位佔領一座城市。城市中的軍事單位稱為「駐軍」，如果是陸地單位，則會為城市 [COLOR_YELLOW]增加顯著的防禦加成。如果駐軍在城市中時，城市受到攻擊，駐軍會將部分傷害轉移到自己身上，因此可以為城市提供更多的保護。不過要小心，駐軍可能會因此被摧毀。[ENDCOLOR][NEWLINE][NEWLINE]額外的戰鬥單位可以在城市中移動，但不能在那裡結束回合。(因此，如果您在有駐軍的城市中建立戰鬥單位，您必須在結束回合前將兩個單位中的一個移出)。[NEWLINE][NEWLINE][COLOR_YELLOW]另外請注意，海軍單位駐守城市時，無法執行任何攻擊。[ENDCOLOR]'
-WHERE Tag = 'TXT_KEY_CITIES_COMBATUNITS_HEADING3_BODY';
-
-UPDATE Language_en_US
 SET Text = '[COLOR_YELLOW]城市中的駐軍單位[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_TITLE';
 UPDATE Language_en_US
-SET Text = '玩家可以在城內「駐軍」一個軍事單位來加強城防。駐軍部隊的部分戰鬥力會加到城市的强度上。[COLOR_YELLOW]當城市受到攻擊時，駐軍會轉移城市的部分損傷。這可能會摧毀駐軍，所以要小心！[ENDCOLOR] 如果城市被攻陷，駐軍會被摧毀。[NEWLINE][NEWLINE]'
+SET Text = '一座城市一次只能駐紮一個陸軍單位和一個海軍單位。駐紮在城市中的軍事單位稱為「駐軍」該城市，如果是陸軍單位，則該單位的戰鬥力或遠程戰鬥力（以較大者為準）的 [COLOR_YELLOW]50%[ENDCOLOR] 加到該城市的[ICON_STRENGTH]戰鬥力上；如果是海軍單位，則為 [COLOR_YELLOW]25%[ENDCOLOR]。此作用不會增加城市的[ICON_RANGE_STRENGTH]城市攻擊力。[NEWLINE][NEWLINE]如果一座城市在駐軍存在的情況下遭到攻擊，駐軍會將部分傷害轉移到自身，從而為城市提供更多保護。但要小心，駐軍也可能因此被摧毀。[NEWLINE][NEWLINE]如果城市中同時駐紮著陸軍和海軍單位，它們的作用不會疊加；只有更高[ICON_STRENGTH]戰鬥力的單位才能發揮作用，並且是承受來襲傷害的駐軍。[NEWLINE][NEWLINE]額外的戰鬥單位可以穿過城市，但不能在城市結束回合。如果你在有駐軍的城市建造了一個戰鬥單位，新單位將被放置在城市旁邊。[NEWLINE][NEWLINE]駐軍在城內的單位可以攻擊周圍的敵方單位，[COLOR_YELLOW]海軍部隊[ENDCOLOR]除外。'
 WHERE Tag = 'TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_BODY';
 
 UPDATE Language_en_US

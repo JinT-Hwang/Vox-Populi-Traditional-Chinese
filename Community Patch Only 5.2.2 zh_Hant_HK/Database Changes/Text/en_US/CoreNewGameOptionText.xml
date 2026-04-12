@@ -36,6 +36,13 @@
 			<Text>當任何玩家進入原子時代時，系統會隨機啟用一種勝利類型（文化勝利、外交勝利或科技勝利）。所有其他勝利類型均被禁用（注意：時間勝利和征服勝利始終可用）。</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_GAME_OPTION_RANDOMIZE_CITY_NAMES">
+			<Text>隨機城市名稱</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RANDOMIZE_CITY_NAMES_HELP">
+			<Text>首都之後的城市名稱將按隨機順序分配，而不是按照正常的文明命名順序。</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_GAME_OPTION_TRANSPARENT_DIPLOMACY">
 			<Text>透明外交</Text>
 		</Row>
@@ -49,6 +56,28 @@
 		</Row>
 		<Row Tag="TXT_KEY_GAME_OPTION_KEEP_UNMET_PLAYERS_UNKNOWN_HELP">
 			<Text>在遊戲設定中，不顯示其他團隊中其他人類玩家的領袖/文明詳細資訊（如果他們沒有選擇隨機領導者）。[NEWLINE]加載保存遊戲時，不顯示您在遊戲中未相遇的其他團隊的玩家的領袖/文明詳細資訊。</Text>
+		</Row>
+
+		<!-- Tech Trade (invisible in Community Patch) -->
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_RESEARCH_AGREEMENTS">
+			<Text>禁用研究協議</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_RESEARCH_AGREEMENTS_HELP">
+			<Text>研究協議不能與其他文明簽訂。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_ENABLE_TECH_TRADING">
+			<Text>啟用科技交易</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_ENABLE_TECH_TRADING_HELP">
+			<Text>允許文明間進行科技交易。</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING">
+			<Text>無科技中介</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TECH_BROKERING_HELP">
+			<Text>文明除非自己研發出該科技, 否則不能出售。</Text>
 		</Row>
 
 		<!-- Events (invisible in Community Patch) -->

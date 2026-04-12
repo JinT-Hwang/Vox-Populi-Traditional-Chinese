@@ -818,6 +818,9 @@
 	<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_COMBAT_EXPERIENCE_SHORT">
 		<Text>獲得戰鬥經驗</Text>
 	</Row>
+	<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_HEALING_SHORT">
+		<Text>恢復生命值</Text>
+	</Row>
 	<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_CITY_DAMAGE_SHORT">
 		<Text>對城市造成傷害</Text>
 	</Row>

@@ -87,7 +87,7 @@
 		<Text>{2_Sign}{1_Num} [ICON_CARGO_SHIP]海上貿易路線範圍</Text>
 	</Row>
 	<Row Tag="TXT_KEY_TECH_HELP_TOURISM_MODIFIER">
-		<Text>{2_Sign}{1_Num} 所有城市[ICON_TOURISM]旅遊業績</Text>
+		<Text>{2_Sign}{1_Num}% 所有城市[ICON_TOURISM]旅遊業績</Text>
 	</Row>
 	<Row Tag="TXT_KEY_TECH_HELP_BUILDING_BOOST">
 		<Text>{1_Building:textkey}：{2_YieldBoosts}</Text>
@@ -1062,10 +1062,10 @@
 			<Text>從此城市出發的[ICON_CARGO_SHIP]海上國際貿易路線 {2_Sign}{1_Num} [ICON_GOLD]金幣</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ETR_DESTINATION_OUR_GOLD">
-			<Text>目標為此城市的[ICON_INTERNATIONAL_TRADE]國際貿易路線 {2_Sign}{1_Num} [ICON_GOLD]金幣</Text>
+			<Text>目標為此城市的[ICON_INTERNATIONAL_TRADE]國際貿易路線的終點城市 {2_Sign}{1_Num} 基礎[ICON_GOLD]金幣</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ETR_DESTINATION_THEIR_GOLD">
-			<Text>目標為此城市的[ICON_INTERNATIONAL_TRADE]國際貿易路線的擁有者 {2_Sign}{1_Num} [ICON_GOLD]金幣</Text>
+			<Text>目標為此城市的[ICON_INTERNATIONAL_TRADE]國際貿易路線的起始城市 {2_Sign}{1_Num} 基礎[ICON_GOLD]金幣</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_RESOURCE_DIVERSITY_MODIFIER">
 			<Text>[ICON_INTERNATIONAL_TRADE]貿易路線 {2_Sign}{1_Num}% 資源多樣性</Text>

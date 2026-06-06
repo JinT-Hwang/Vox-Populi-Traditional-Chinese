@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GOODY_PRODUCTION">
+			<Text>你發現了一批物資，提升了你最近的城市的[ICON_PRODUCTION]產能！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_GOLDEN_AGE">
+			<Text>你發現了遠古遺跡，加速了你的文明的[ICON_GOLDEN_AGE]黃金時代進度！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_TILES">
+			<Text>你發現了一個遊牧部落想要加入你的文明，並獻予你最近的城市周圍的額外土地！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_SCIENCE">
+			<Text>您發現了古老的文物，激勵您的文明朝著新科技的方向邁進！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_PRODUCTION">
+			<Text>供應[ICON_PRODUCTION]產能到你最近的城市。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_GOLDEN_AGE">
+			<Text>遺留[ICON_GOLDEN_AGE]黃金時代點數。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_FREE_TILES">
+			<Text>一個會給你最近城市周圍土地的部落。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_SCIENCE">
+			<Text>遠古文物的[ICON_RESEARCH]科技。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

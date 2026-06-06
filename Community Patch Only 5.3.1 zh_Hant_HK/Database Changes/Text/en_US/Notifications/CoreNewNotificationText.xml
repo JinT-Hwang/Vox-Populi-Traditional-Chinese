@@ -211,6 +211,9 @@
     <Row Tag="TXT_KEY_TOURISM_EVENT_GOLDEN_AGE">
       <Text>因為你的文明進入了[ICON_GOLDEN_AGE]黃金時期，你與所有已知文明的[ICON_TOURISM]旅遊業績增加了 {1_Num}(在旅遊業績修正計算前)！</Text>
     </Row>
+	<Row Tag="TXT_KEY_TOURISM_EVENT_RELIGION_SPREAD">
+		<Text>因為一個城市首次皈依與你的[ICON_RELIGION]宗教，你對所有已知文明的[ICON_TOURISM]旅遊業績增加了 {1_Num} (旅遊業績修正前)!</Text>
+	</Row>
     <Row Tag="TXT_KEY_NOTIFICATION_UNIT_RETURNED_AI_SUMMARY">
       <Text>{@2_UnitName} 被 {1_Player:textkey} 救下！</Text>
     </Row>
@@ -821,6 +824,9 @@
 	<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_HEALING_SHORT">
 		<Text>恢復生命值</Text>
 	</Row>
+	<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_SCRAP_OR_UPGRADE_SHORT">
+		<Text>解散或者晉升一個單位</Text>
+	</Row>
 	<Row Tag="TXT_KEY_INSTANT_YIELD_TYPE_CITY_DAMAGE_SHORT">
 		<Text>對城市造成傷害</Text>
 	</Row>
@@ -971,7 +977,7 @@
       <Text>{1_Civ} 和 {2_Civ} 之間的和平！</Text>
     </Row>
     <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CS_WAR">
-      <Text>{1_Civ} 和 {2_Civ} 之間的戰爭以白色和平結束。知道戰爭沒有進一步升級，全世界都鬆了一口氣。</Text>
+      <Text>{1_Civ} 和 {2_Civ} 之間的戰爭以白色和平結束。知道戰爭沒有進一步晉升，全世界都鬆了一口氣。</Text>
     </Row>
     <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CS_PEACE_MADE">
       <Text>在您的外交努力下，{1_Civ} 和 {2_Civ} 之間的戰爭結束了。</Text>
@@ -1110,8 +1116,17 @@
     <Row Tag="TXT_KEY_MISC_SOME_MINOR_DECLARED_WAR_DETAILED">
       <Text>{1_PlyrName} 向 {2_PlyrName} 及其盟友和附庸宣戰！{3_SecondPlayerAllies}</Text>
     </Row>
-    <!-- You have made peace with {1_TeamName}! -->
+    <!-- 您已經與 {1_TeamName}! -->
     <Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_DETAILED">
+		<Text>您已經與 {1_TeamName} 和好! 雙方軍隊有 {2_num} 回合從對方領土離開。任何一方的所有盟友和附庸也與對方和好。{3_OurAllies} {4_TheirAllies}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_DETAILED_THEIR_DISENGAGEMENT">
+		<Text>您已經與 {1_TeamName} 和好! 對方軍隊有 {2_num} 回合從你的領土離開。任何一方的所有盟友和附庸也與對方和好。{3_OurAllies} {4_TheirAllies}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_DETAILED_OUR_DISENGAGEMENT">
+		<Text>您已經與 {1_TeamName} 和好! 你的軍隊有 {2_num} 回合從他們的領土離開。任何一方的所有盟友和附庸也與對方和好。{3_OurAllies} {4_TheirAllies}</Text>
+	</Row>
+	<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_DETAILED_NO_DISENGAGEMENT">
       <Text>您已經與 {1_TeamName} 和好！任何一方的所有盟友和附庸也與對方和好。{2_OurAllies} {3_TheirAllies}</Text>
     </Row>
     <Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH_MINOR_DETAILED">

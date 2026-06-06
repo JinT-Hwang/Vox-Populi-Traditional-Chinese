@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Sealift -->
+		<Row Tag="TXT_KEY_INTERFACEMODE_SEALIFT">
+			<Text>運輸</Text>
+    	</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_SEALIFT_HELP">
+			<Text>此指令允許單位重新部署到直接水上[ICON_CONNECTED]連接的友方城市內或與其相鄰的陸地單元格上。目標單元格不能被敵方單位佔據或與其相鄰。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

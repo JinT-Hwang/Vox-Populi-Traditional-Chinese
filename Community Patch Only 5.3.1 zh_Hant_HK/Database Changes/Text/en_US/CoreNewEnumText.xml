@@ -67,5 +67,11 @@
 		<Row Tag="TXT_KEY_ACCOMPLISHMENT_WARS_WON">
 			<Text>贏得戰爭</Text>
 		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_CITY_CONVERTED">
+			<Text>將一座城市皈依你的宗教</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACCOMPLISHMENT_HISTORIC_EVENT">
+			<Text>完成一項歷史事件</Text>
+		</Row>
 	</Language_en_US>
 </GameData>

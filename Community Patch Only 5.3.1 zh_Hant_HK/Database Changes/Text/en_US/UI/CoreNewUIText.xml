@@ -182,6 +182,9 @@
     <Row Tag="TXT_KEY_WARMONGER_PREVIEW_CARE_NIL">
       <Text>[ICON_BULLET] [COLOR_POSITIVE_TEXT]{1_LeaderName}[ENDCOLOR] 幾乎不會注意。</Text>
     </Row>
+	<Row Tag="TXT_KEY_WARMONGER_PREVIEW_CASUS_BELLI_CULTURE_BOMB">
+		<Text>因為他們竊取了你的領土而減少 [COLOR_CYAN]{1_Num}%[ENDCOLOR] (所有者和他們的主人/封臣除外)!</Text>
+	</Row>
     <Row Tag="TXT_KEY_LIBERATOR_PREVIEW_HEADER">
       <Text>[COLOR_POSITIVE_TEXT]解放[ENDCOLOR] 這個城市的獎勵：</Text>
     </Row>
@@ -294,6 +297,9 @@
 		<Row Tag="TXT_KEY_PRODUCTION_COST_PRODUCTION">
 			<Text>{1_Num} [ICON_PRODUCTION]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_COST_PRODUCTION_ADDED_PER_ERA">
+			<Text>{1_Num} [ICON_PRODUCTION] + {2_Num} [ICON_PRODUCTION]每時代</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_COST_GOLD">
 			<Text>{1_Num} [ICON_GOLD]</Text>
 		</Row>
@@ -398,7 +404,7 @@
 			<Text>最大生命值：{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_SIGHT">
-			<Text>[ICON_BULLET]視野：{1_Num}</Text>
+			<Text>[ICON_VISION]視野：{1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_AIR_DEFENSE">
 			<Text>[ICON_AIRSTRIKE_DEFENSE]空襲防禦：{1_Num}</Text>
@@ -425,10 +431,10 @@
 			<Text>購買後可獲得滿經驗值和移動</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_FREE_UPGRADE">
-			<Text>無償自動升級</Text>
+			<Text>無償自動晉升</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_MOVE_AFTER_UPGRADE">
-			<Text>升級後可移動</Text>
+			<Text>晉升後可移動</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_RIVAL_TERRITORY">
 			<Text>可進入敵方領土</Text>
@@ -479,7 +485,7 @@
 			<Text>攻擊時，忽略建築物提供的[ICON_STRENGTH]城市強度</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_CULTURE_ON_DISBAND_UPGRADE">
-			<Text>解散或升級時獲得[ICON_CULTURE]文化</Text>
+			<Text>解散或晉升：獲得等同於 {1_Num}x 總經驗的[ICON_CULTURE]文化</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_GOODY_MODIFIER">
 			<Text>{2_Sign}{1_Num}% 歷史古跡獎勵</Text>
@@ -613,6 +619,12 @@
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_PROMOTION_FROM_ERA">
 			<Text>[COLOR_CYAN]{2_Era:textkey}[ENDCOLOR]或者更晚：[COLOR_POSITIVE_TEXT]{1_Promotions}[ENDCOLOR]</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_UPGRADE">
+			<Text>晉升為：{1_Unit:textkey} ({2_Techs}{3_Cost} [ICON_GOLD])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_UNIT_UPGRADE_NO_COST">
+			<Text>晉升為：{1_Unit:textkey} ({2_Techs})</Text>
+		</Row>
 		<!-- Building -->
 		<Row Tag="TXT_KEY_PRODUCTION_UNIQUE_BUILDING">
 			<Text>{1_CivAdj} 獨特[COLOR_YIELD_FOOD]{2_Building:textkey}[ENDCOLOR]</Text>
@@ -732,7 +744,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]主題獎勵已啟動[ENDCOLOR]時，提升至 {1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_FROM_WONDERS">
-			<Text>城市的每個國家/世界奇觀 +{1_Num} [ICON_STRENGTH]城市強度</Text>
+			<Text>城市的每個國家/世界奇觀 +{1_Num} [ICON_BULLET]城市強度</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_MODIFIER">
 			<Text>{2_Sign}{1_Num}% 來自建築的[ICON_STRENGTH]城市強度</Text>
@@ -740,9 +752,9 @@
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DEFENSE_MODIFIER_TEAM">
 			<Text>你的團隊的所有城市 {2_Sign}{1_Num}% 來自建築的[ICON_STRENGTH]城市強度</Text>
 		</Row>
-    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_DAMAGE_REDUCTION">
-      <Text>[ICON_STRENGTH]傷害減免：{2_Sign}{1_Num}</Text>
-    </Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_DAMAGE_REDUCTION">
+			<Text>[ICON_BULLET]傷害減免：{2_Sign}{1_Num}</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_FREE_RESOURCE">
 			<Text>{2_Sign}{1_Num} {3_ResourceIcon} {4_Resource:textkey}</Text>
 		</Row>
@@ -777,7 +789,7 @@
 			<Text>{2_Sign}{1_Num}% [ICON_GOLDEN_AGE]黃金時代時間</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_UPGRADE_COST_MODIFIER">
-			<Text>{2_Sign}{1_Num}% 單位升級成本</Text>
+			<Text>{2_Sign}{1_Num}% 單位晉升成本</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_ALL">
 			<Text>{2_Sign}{1_Num} 經驗給所有單位</Text>
@@ -847,6 +859,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_AIRLIFT">
 			<Text>允許[ICON_AIRPORT]空運</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SEALIFT">
+			<Text>允許通過水上[ICON_CONNECTED]城市連接[COLOR_POSITIVE_TEXT]運輸[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_ITR_FOOD">
 			<Text>允許城市[ICON_FOOD]食物[ICON_INTERNATIONAL_TRADE]內部貿易路線</Text>
@@ -1083,7 +1098,7 @@
 			<Text>{2_Sign}{1_Num}% 來自此城市的[ICON_INTERNATIONAL_TRADE]貿易路線的持續時間</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_UNIT_EXTRA_SIGHT">
-			<Text>{2_Sign}{1_Num} 貿易單位的視野</Text>
+			<Text>{2_Sign}{1_Num} 貿易單位的[ICON_VISION]視野</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TRADE_UNIT_SPEED_MULTIPLIER">
 			<Text>{1_Num}x 貿易單位速度</Text>
@@ -1164,7 +1179,7 @@
 			<Text>完成時：{2_Sign}{1_Num} 勝利點數</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_SPY_RANK">
-			<Text>完成時：所有的[ICON_SPY]間諜升級 {1: plural 1?1 次; 2?2 次; other?{1_Num} 次;}</Text>
+			<Text>完成時：所有的[ICON_SPY]間諜晉升 {1: plural 1?1 次; 2?2 次; other?{1_Num} 次;}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REFORMATION">
 			<Text>完成時：允許你選擇一個[COLOR_POSITIVE_TEXT]宗教改革信條[ENDCOLOR]</Text>
@@ -1315,6 +1330,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NO_STARVATION_FROM_NON_SPECIALISTS">
 			<Text>非專家的[ICON_FOOD]食物總消耗量不能超過[ICON_FOOD]食物產能</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_MINIMUM_FOOD">
+			<Text>總[ICON_FOOD]食物產出不能低於 {1_Food}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SECONDARY_PANTHEON">
 			<Text>城市享受來自第二大[ICON_RELIGION]宗教的萬神殿加成，前提是其有[ICON_RELIGION]主流宗教</Text>
@@ -1538,6 +1556,9 @@
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_WATER_RESOURCE_BOOST">
 			<Text>{1_YieldBoosts} 給[COLOR_POSITIVE_TEXT]水[ENDCOLOR]裡的資源單元格</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_CITY_CONNECTION_TILE_BOOST">
+			<Text>{1_YieldBoosts} 給 [COLOR_POSITIVE_TEXT]城市連接[ENDCOLOR]單元格</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SPECIALIST_BOOST">
 			<Text>{2_YieldBoosts} 給 {1_Items}</Text>
 		</Row>
@@ -1631,6 +1652,12 @@
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_HAPPINESS_FROM_ACCOMPLISHMENT">
 			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{3_Accomplishment:textkey}[ENDCOLOR]：{2_Sign}{1_Num} [ICON_HAPPINESS_1]幸福度</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_SPIES_FROM_ACCOMPLISHMENT">
+			<Text>[COLOR_WATER_TEXT]{2_Accomplishment:textkey}[ENDCOLOR]: 獲得 {1_Num} [ICON_SPY]間諜</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_SPY_POINTS_FROM_ACCOMPLISHMENT">
+			<Text>[COLOR_WATER_TEXT]{2_Accomplishment:textkey}[ENDCOLOR]: 獲得 {1_Num} [ICON_SPY_POINT]間諜點數</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_XP_FOR_DOMAIN_FROM_ACCOMPLISHMENT">
 			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{3_Accomplishment:textkey}[ENDCOLOR]：{2_Sign}{1_Num} 經驗給[COLOR_YELLOW]{4_Domain:textkey}[ENDCOLOR]</Text>
 		</Row>
@@ -1651,6 +1678,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_ACCOMPLISHMENT">
 			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{1_Accomplishment:textkey}[ENDCOLOR]：{2_YieldBoosts}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_ACCOMPLISHMENT">
+			<Text>[ICON_BULLET][COLOR_WATER_TEXT]{1_Accomplishment:textkey}[ENDCOLOR]: {2_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_PASSING_TR">
 			<Text>[ICON_BULLET]任意貿易路線穿過此城市：{1_YieldBoosts}</Text>
@@ -1786,6 +1816,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_EXCESS_FOOD">
 			<Text>{1: number "'[COLOR_POSITIVE_TEXT]'+#,##0.00;'[COLOR_NEGATIVE_TEXT]-'#,##0.00"}[ENDCOLOR] 剩餘[ICON_FOOD]（在修正之前）[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GROWTH_MINIMUM">
+			<Text>此城市總[ICON_FOOD]不能低於 {1_Num}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GROWTH_MOD_BELIEF">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_RELIGION]宗教信仰</Text>
@@ -1934,9 +1967,6 @@
 		<Row Tag="TXT_KEY_YIELD_MOD_WORLD_WONDER">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自擁有[ICON_WONDER]世界奇跡</Text>
 		</Row>
-		<Row Tag="TXT_KEY_YIELD_MULTIPLIER_POLICY">
-			<Text>[NEWLINE][ICON_BULLET]政策致其雙倍</Text>
-		</Row>
 		<!-- Great person points -->
 		<Row Tag="TXT_KEY_GPP_FROM_SPECIALIST">
 			<Text>[ICON_BULLET]{1_Num} {2_IconString} 來自專家</Text>
@@ -2052,6 +2082,9 @@
     <Row Tag="TXT_KEY_PRODMOD_PLEDGES_UNIT_DOMAIN">
       <Text>[NEWLINE][ICON_BULLET]來自誓言承諾的單位領域修正：{1_Num}%</Text>
     </Row>
+	<Row Tag="TXT_KEY_PRODMOD_RELIGION_UNIT_COMBAT">
+		<Text>[NEWLINE][ICON_BULLET]宗教對單位戰鬥等級的修正：{1_Num}%</Text>
+	</Row>
     <Row Tag="TXT_KEY_PRODMOD_RELIGION_UNIT">
       <Text>[NEWLINE][ICON_BULLET]來自宗教的軍事單位修正：{1_Num}%</Text>
     </Row>
@@ -2193,10 +2226,10 @@
 	
     <!-- Unit panel -->
     <Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_GROSS_RESOURCES">
-      <Text>您需要取得 {1_ResourcesString} 才能升級這個單位。</Text>
+      <Text>您需要取得 {1_ResourcesString} 才能晉升這個單位。</Text>
     </Row>
     <Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_RESOURCES_NET_NEGATIVE">
-      <Text>你需要正數數量 {1_ResourcesString} 才能升級這個單位。</Text>
+      <Text>你需要正數數量 {1_ResourcesString} 才能晉升這個單位。</Text>
     </Row>
 
 	<!-- Heal action disabled tooltips -->
@@ -2230,13 +2263,13 @@
 	</Row>
 	<!-- Upgrade action disabled tooltips -->
 	<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_EMBARKED">
-		<Text>已登船的單位無法升級。</Text>
+		<Text>已登船的單位無法晉升。</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_HAS_CARGO">
-		<Text>搭載其他單位的單位無法升級。</Text>
+		<Text>搭載其他單位的單位無法晉升。</Text>
 	</Row>
 	<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_CARGO_INCOMPATIBLE">
-		<Text>此運輸工具無法運載升級後的機型。</Text>
+		<Text>此運輸工具無法運載晉升後的機型。</Text>
 	</Row>
 	<!-- Paradrop action disabled tooltips -->
 	<Row Tag="TXT_KEY_MISSION_PARADROP_DISABLED_MOVED">
@@ -2957,7 +2990,7 @@
       <Text>他們擔心您的好戰政策會讓世界陷入核冬天！</Text>
     </Row>
     <Row Tag="TXT_KEY_WARMONGER_HATE_MAXIMAL">
-      <Text>(他們對好戰分子深惡痛絕!)。</Text>
+      <Text>(他們極度憎惡好戰分子！)。</Text>
     </Row>
     <Row Tag="TXT_KEY_WARMONGER_HATE_EXTREME">
       <Text>(他們討厭好戰分子!)</Text>
@@ -3172,6 +3205,57 @@
     <Row Tag="TXT_KEY_TRADE_WLTKD_RESOURCE_CITIES">
       <Text>下列城市目前需要此資源：</Text>
     </Row>
+	<Row Tag="TXT_KEY_DIPLO_TRADE_MAP">
+		<Text>世界地圖</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TRADE_MAP_TT">
+		<Text>揭示該文明探索過的所有區域。[NEWLINE][NEWLINE]注意：不會與未曾會面的文明和城邦取得聯繫。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_BOTH">
+		<Text>雙方尚不具備交易此物品所需的科技 ({1_Tech:textkey}).</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_OTHER_PLAYER">
+		<Text>他們尚不具備交易此物品所需的科技 ({1_Tech:textkey}).</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_NO_TECH_PLAYER">
+		<Text>你尚不具備交易此物品所需的科技 ({1_Tech:textkey}).</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_THEY_ALREADY_EXPLORED">
+		<Text>他們已經探索了你的世界地圖上顯示的所有區域。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TRADE_MAPS_WE_ALREADY_EXPLORED">
+		<Text>我們已經探索了他們的世界地圖上顯示的所有區域。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_ITEMS_TECHNOLOGIES">
+		<Text>科技</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TECHNOLOGIES">
+		<Text>科技</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_YES">
+		<Text>我們有可供交易的科技。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_NO">
+		<Text>我們沒有可供交易的科技。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_YES_THEM">
+		<Text>其他領袖有可供交易的科技。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TO_TRADE_TECHNOLOGIES_TRADE_NO_THEM">
+		<Text>其他領袖沒有可供交易的科技。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_RESEARCH_PLAYER">
+		<Text>你必須先建立一座城市才能開始研究工作。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_RESEARCH_OTHER_PLAYER">
+		<Text>他們必須先建立一座城市才能開始研究工作。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_OTHER_PLAYER">
+		<Text>他們尚不具備售出此物品所需的科技（科學理論）。</Text>
+	</Row>
+	<Row Tag="TXT_KEY_DIPLO_TRADE_TECHNOLOGIES_NO_TECH_PLAYER">
+		<Text>你尚不具備售出此物品所需的科技（科學理論）。</Text>
+	</Row>
     <!-- Deal value (normal) -->
     <Row Tag="TXT_KEY_DIPLO_DEAL_VALUE_STR">
       <Text>他們的交易值：{1_Num}。</Text>
@@ -3472,7 +3556,7 @@
       <Text>區域傷害</Text>
     </Row>
     <Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_AOE_STRIKE_FORTIFY">
-      <Text>羅馬投矛</Text>
+      <Text>強化打擊</Text>
     </Row>
     <Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_SPLASH">
       <Text>濺射傷害</Text>
@@ -3503,6 +3587,9 @@
 	</Row>
 	<Row Tag="TXT_KEY_PATHFINDING_AIRLIFT">
 		<Text>[ICON_AIRPORT]空運</Text>
+	</Row>
+	<Row Tag="TXT_KEY_PATHFINDING_SEALIFT">
+		<Text>[ICON_CARGO_SHIP]運輸</Text>
 	</Row>
 	<Row Tag="TXT_KEY_PATHFINDING_CHANGE_PORT">
 		<Text>[ICON_GREAT_ADMIRAL]港口變更</Text>

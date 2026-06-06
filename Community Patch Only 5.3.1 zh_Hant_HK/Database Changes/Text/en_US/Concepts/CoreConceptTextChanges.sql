@@ -33,6 +33,10 @@ UPDATE Language_en_US
 SET Text = '在近戰戰鬥結束時，一個或兩個單位都可能受到傷害，並失去「生命點」。如果一個單位的生命點降至 0，該單位就會被摧毀。如果在近戰戰鬥之後，防守的單位被殲滅，而攻擊的單位還活著，攻擊的單位就會移動到防守者的方格 [COLOR_YELLOW]，除非防守的是要塞、堡壘或城市，在這種情況下，近戰單位會留在原地[ENDCOLOR]。如果它移動，勝方將俘虜該方格中的任何非軍事單位。如果防守單位存活下來，它會保留其所在方格及方格內任何其他單位的管轄權。[NEWLINE][NEWLINE]大多數單位會在攻擊時耗盡所有移動點。然而，有些單位在戰鬥後還可以移動 - 如果他們在戰鬥中存活下來，並且還有移動點可以消耗的話。[NEWLINE][NEWLINE]任何倖存的參戰單位都會獲得「經驗點數」(XP)，這些點數可以用來晉升單位。'
 WHERE Tag = 'TXT_KEY_COMBAT_MELEERESULTS_HEADING3_BODY';
 
+UPDATE Language_en_US
+SET Text = '導彈是一次性武器。它們對目標執行單次空襲任務。然後無論成敗，它們都被摧毀。它們可以被攔截。'
+WHERE Tag = 'TXT_KEY_AIRPOWER_MISSILES_HEADING2_BODY';
+
 -- Map
 UPDATE Language_en_US
 SET Text = '遺蹟會提供距離最近的未揭露的城市的地圖(去除多個單元格的戰爭迷霧)。'

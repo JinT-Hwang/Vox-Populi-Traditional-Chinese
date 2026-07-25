@@ -141,6 +141,10 @@
     <Row Tag="TXT_KEY_ABLTY_CITY_INDIRECT_INCREASE">
       <Text>城市間接攻擊範圍：+1</Text>
     </Row>
+		<Row Tag="TXT_KEY_ALLOWS_EXTRA_LUXURIES">
+			<Text>解鎖增加本地奢侈品副本的項目</Text>
+		</Row>
+		
     <!-- Theming bonus -->
     <Row Tag="TXT_KEY_CO_TOURISM_THEME_BONUS">
       <Text>[COLOR_POSITIVE_TEXT]激活的主題獎勵：[ENDCOLOR]+{1_Num} {2_YieldIcon}{3_YieldName}</Text>
@@ -225,10 +229,55 @@
 	<Row Tag="TXT_KEY_TP_CULTURE_PER_TURN">
 		<Text>每回合 +{1_Num} [ICON_CULTURE]文化。</Text>
 	</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_CITY_COST_DETAIL">
+			<Text>[ICON_BULLET]下一政策成本：{1_Num} [ICON_CULTURE]文化 = {2_Num} [ICON_CULTURE]基礎 + {3_Num} [ICON_CULTURE] (+{5_Str}% 來自 {7_Num} 非首都城市).[NEWLINE][ICON_BULLET]獲得新城市將增加 [COLOR_NEGATIVE_TEXT]+{4_Num}[ENDCOLOR] [ICON_CULTURE] (+{6_Str}% 基礎).</Text>	
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_TENET_PENALTY_EXPLAINER">
+			<Text>每條原則都會增加未來的政策成本：階層1 [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR], 階層2 [COLOR_NEGATIVE_TEXT]+{2_Num}%[ENDCOLOR], 階層3 [COLOR_NEGATIVE_TEXT]+{3_Num}%[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_HEADER">
+			<Text>政策成本變化：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_POLICIES">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] 來自已採納的政策和原則。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_BUILDINGS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] 來自建築。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_MINOR_CIVS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] 來自城邦修正</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_TRAITS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] 來自文明特性。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_TENET_PENALTY">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR] 來自 {2_Num} 已採納的原則。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FORMULA">
+			<Text>調整基礎[ICON_CULTURE]政策成本{1_Num} [ICON_CULTURE]{2_Str}{3_Str}{4_Str} = {5_Num} [ICON_CULTURE].</Text>
+		</Row>
 	<!-- Science -->
 	<Row Tag="TXT_KEY_TP_SCIENCE_PER_TURN">
 		<Text>每回合 +{1_Num} [ICON_RESEARCH]科技值。</Text>
 	</Row>
+		<Row Tag="TXT_KEY_TP_TECH_CITY_COST_DETAIL">
+			<Text>[ICON_BULLET]當前科技成本：{1_Num} [ICON_RESEARCH]科學 = {2_Num} [ICON_RESEARCH]基礎 + {3_Num} [ICON_RESEARCH] (+{5_Str}% 來自 {7_Num} 城市).[NEWLINE][ICON_BULLET]獲得新城市將增加 [COLOR_NEGATIVE_TEXT]+{4_Num}[ENDCOLOR] [ICON_RESEARCH] (+{6_Str}% 基礎).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_HEADER">
+			<Text>科技成本因數：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_CATCHUP_DISCOUNT">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Str}%[ENDCOLOR] 來自 {2_Num}/{3_Num} 已知擁有這項技術的文明。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_PREREQ_DISCOUNT">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Str}%[ENDCOLOR] 來自已知的可選先決條件科技。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_FORMULA_NO_SCHOLAR">
+			<Text>降低基礎[ICON_RESEARCH]科技成本：{1_Num} [ICON_RESEARCH] / [COLOR_POSITIVE_TEXT]{3_Num}%[ENDCOLOR] = {4_Num} [ICON_RESEARCH].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_FORMULA_WITH_SCHOLAR">
+			<Text>降低基礎[ICON_RESEARCH]科技成本：{1_Num} [ICON_RESEARCH] / ([COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] x [COLOR_POSITIVE_TEXT]{3_Num}%[ENDCOLOR]) = {5_Num} [ICON_RESEARCH].</Text>
+		</Row>
 	<!-- Tourism -->
 	<Row Tag="TXT_KEY_TP_TOURISM_PER_TURN">
 		<Text>每回合 +{1_Num} [ICON_TOURISM]旅遊業績。</Text>
@@ -1121,6 +1170,9 @@
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REDUCED_GLOBAL_FOLLOWER_REQUIREMENT">
 			<Text>所有建築 {2_Sign}{1_Num}% 全球追隨者要求</Text>
 		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_LOCAL_FRANCHISE_CHANCE">
+			<Text>每回合有 {2_Sign}{1_Num}% 機率在該城市隨機建立一個符合條件的外國[ICON_FRANCHISE]特許經營權</Text>
+		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_FROM_OTHER_YIELD">
 			<Text>{1_Num}% 的城市 {2_YieldIcon} {3_Yield:textkey} 收益(前置修正)添加到城市 {4_YieldIcon} {5_Yield:textkey} 收益(後置修正)</Text>
 		</Row>
@@ -1233,10 +1285,10 @@
 			<Text>當解鎖政策時：{1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_GOLDEN_AGE_START">
-			<Text>當開始[ICON_GOLDEN_AGE]黃金時代時：{1_InstantYield}</Text>
+			<Text>當開始或延長[ICON_GOLDEN_AGE]黃金時代時：{1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_UNIT_XP_ON_GOLDEN_AGE_START">
-			<Text>當開始[ICON_GOLDEN_AGE]黃金時代時: 此城市未來所有訓練的單位 {2_Sign}{1_Num} 經驗，上限為 {3_Num} 經驗</Text>
+			<Text>當開始或延長[ICON_GOLDEN_AGE]黃金時代時: 此城市未來所有訓練的單位 {2_Sign}{1_Num} 經驗，上限為 {3_Num} 經驗</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INSTANT_YIELD_ON_WLTKD">
 			<Text>當此城市開始[ICON_HAPPINESS_1]「敬王之日」時：{1_InstantYield}</Text>
@@ -1320,7 +1372,7 @@
 			<Text>當殺害敵方[ICON_SPY]間諜時：{1_InstantYield}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_EXTRA_LUXURIES">
-			<Text>+100% 來自此城市的改良單元格的奢侈品資源</Text>
+			<Text>+1 來自此城市的改良單元格的奢侈品資源複製品</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REMOVE_OCCUPIED_UNHAPPINESS">
 			<Text>移除來自[ICON_OCCUPIED]佔領的[ICON_HAPPINESS_3]不滿度</Text>
@@ -1438,6 +1490,15 @@
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_INDUSTRIAL_CONNECTION">
 			<Text>城市必須與[ICON_CAPITAL]首都有[ICON_INDUSTRIAL_CONNECTED]工業城市連接</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PUPPET">
+			<Text>城市必須是[ICON_PUPPET]傀儡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_NUM_FRANCHISES">
+			<Text>需要 {1_Num} 全球[ICON_FRANCHISE]特許經營權</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_PERCENT_MONOPOLIES">
+			<Text>需要控制 {1_Num}% 潛在全球[ICON_MONOPOLY]壟斷</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_REQUIRED_BUILDINGS_GLOBAL">
 			<Text>需要任意城市有建築：[COLOR_YIELD_FOOD]{1_Buildings}[ENDCOLOR]</Text>
@@ -1686,7 +1747,19 @@
 			<Text>[ICON_BULLET]任意貿易路線穿過此城市：{1_YieldBoosts}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_GOLDEN_AGE_START">
-			<Text>[ICON_BULLET]增加[ICON_GOLDEN_AGE]黃金時代回合：{1_YieldBoosts} (上限為 {2_YieldBoostCaps})</Text>
+			<Text>[ICON_BULLET]在建築物建成後，開始或延長的每個[ICON_GOLDEN_AGE]黃金時代，每回合 {1_YieldBoosts}(上限為 {2_YieldBoostCaps})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_DISTANCE_TO_CAPITAL_INCREASING">
+			<Text>[ICON_BULLET]每個遠離首都的單元格 {1_YieldBoosts} (最大值： {2_YieldBoostCaps}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_DISTANCE_TO_CAPITAL_DECREASING">
+			<Text>[ICON_BULLET]每個遠離首都的單元格 {1_YieldBoosts} (最小值：{2_YieldBoostCaps}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_DISTANCE_TO_CAPITAL_INCREASING_WITH_BASE_VALUE">
+			<Text>[ICON_BULLET]{1_YieldBoostsBase}, 每個遠離首都的單元格 +{2_YieldBoosts}% (最大值： {3_YieldBoostCaps}%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_MODIFIER_FROM_DISTANCE_TO_CAPITAL_DECREASING_WITH_BASE_VALUE">
+			<Text>[ICON_BULLET]{1_YieldBoostsBase}, 每個遠離首都的單元格 -{2_YieldBoosts}% (最小值：{3_YieldBoostCaps}%)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_YIELD_BOOST_FROM_THEMES">
 			<Text>[ICON_BULLET]城市內放置的每個已激活的主題獎勵的[ICON_GREAT_WORK]巨作：{1_YieldBoosts}</Text>
@@ -1856,6 +1929,9 @@
 		<Row Tag="TXT_KEY_YIELD_MOD_AREA">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自區域加成</Text>
 		</Row>
+		<Row Tag="TXT_KEY_YIELD_MOD_DISTANCE_CAPITAL">
+			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自與首都的距離</Text>
+		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_BELIEF">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_RELIGION]宗教信仰</Text>
 		</Row>
@@ -1864,9 +1940,6 @@
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_CAPITAL">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 給[ICON_CAPITAL]首都（來自政策）</Text>
-		</Row>
-		<Row Tag="TXT_KEY_YIELD_MOD_CONQUEST">
-			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自城市征服 (剩餘 {2_Num} 回合)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_YIELD_MOD_CORPORATION">
 			<Text>[NEWLINE][ICON_BULLET]{1: number "'+'##;'-'##"}% 來自[ICON_FRANCHISE]已建立的特許經營權的[ICON_INTERNATIONAL_TRADE]貿易路線</Text>
@@ -2091,7 +2164,7 @@
     <Row Tag="TXT_KEY_PRODMOD_UNIT_CORPORATION">
       <Text>[NEWLINE][ICON_BULLET]來自公司的單位修正：{1_Num}%</Text>
     </Row>
-    <Row Tag="TXT_KEY_PRODMOD_CONQUEST_BUILDINGS_PRIOR_ERAS">
+    <Row Tag="TXT_KEY_PRODMOD_BUILDINGS_PRIOR_ERAS">
       <Text>[NEWLINE][ICON_BULLET]時代過時建築修正：{1_Num}%</Text>
     </Row>
     <Row Tag="TXT_KEY_PRODMOD_WONDER_UNITPROMOTION">
@@ -2112,6 +2185,9 @@
     <Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_POLICY_TRAIT">
       <Text>[NEWLINE][ICON_BULLET]建築物的特色奇跡產能修正(來自政策)：{1_Num}%</Text>
     </Row>
+		<Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_RELIGION_TRAIT">
+			<Text>[NEWLINE][ICON_BULLET]宗教建築的特色奇跡產能修正：{1_Num}%</Text>
+		</Row>
     <Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_RESOURCE_TRAIT">
       <Text>[NEWLINE][ICON_BULLET]建築物的特色奇跡產能修正(來自資源)：{1_Num}%</Text>
     </Row>
@@ -2121,7 +2197,10 @@
     <Row Tag="TXT_KEY_PRODMOD_WONDER_TO_BUILDING_FROM_CITY_TRAIT">
       <Text>[NEWLINE][ICON_BULLET]建築物的特色奇跡產能修正(來自城市)：{1_Num}%</Text>
     </Row>
-		<Row Tag="TXT_KEY_SCIENCE_YIELD_FROM_LEAGUE_ART">
+		<Row Tag="TXT_KEY_PRODMOD_CONQUEST">
+			<Text>[NEWLINE][ICON_BULLET]來自近期城市征服的修正：{1: number "'+'##;'-'##"}% ({2_Num} {2: plural 1?Turn; other?Turns;} remaining)</Text>
+		</Row>
+	<Row Tag="TXT_KEY_SCIENCE_YIELD_FROM_LEAGUE_ART">
 			<Text>{1_Num} [ICON_RESEARCH]添加自[ICON_GREAT_WORK]巨作</Text>
     </Row>
     <Row Tag="TXT_KEY_CO_CITY_TOURISM_GENERAL">
@@ -2261,6 +2340,12 @@
 	<Row Tag="TXT_KEY_BUILD_BLOCKED_OTHER_UNIT_WORKING">
 		<Text>另一個單位已經在這裡建造了。</Text>
 	</Row>
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_NOT_IN_ENEMY_TERRITORY">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {@1_ImprovementName}} 不能在敵方領土上建造。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_TILE_IMPROVEMENT">
+			<Text>該單元格上已有的改良設施使得該單元格無法被佔領。</Text>
+		</Row>
 	<!-- Upgrade action disabled tooltips -->
 	<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_EMBARKED">
 		<Text>已登船的單位無法晉升。</Text>
@@ -3521,6 +3606,63 @@
       <Text>無首都</Text>
     </Row>
     <!-- Quests -->
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_WAR_FORMAL">
+			<Text>他們想讓你向 {1_TargetName:textkey} 宣戰。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_NATIONAL_WONDER_FORMAL">
+			<Text>他們想讓你建造 {1_NationalWonderName:textkey}。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_SPECIFIC_UNIT_FORMAL">
+			<Text>他們想讓你送給他們 {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_UnitName}}，至少 {2_XP} 經驗。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_STATE_FORMAL">
+			<Text>他們想讓你找到城邦 {1_CityStateName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_FORMAL">
+			<Text>外交任務在短期內更為有效。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL">
+			<Text>他們會奬勵每回合最高[ICON_TOURISM]旅遊業績的玩家。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_WINNING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} 目前為止，你領先[ICON_TOURISM] [COLOR_POSITIVE_TEXT]每回合 {1_PlayerScore}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TOURISM_LOSING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_INFLUENCE_TOURISM_FORMAL} 目前為止，該領袖每回合[ICON_TOURISM] {1_LeaderScore}，你[ICON_TOURISM] [COLOR_POSITIVE_TEXT]每回合 {2_PlayerScore}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_FORMAL">
+			<Text>他們將獎勵消耗最多的[ICON_GREAT_PEOPLE]大藝術家、大作家、大音樂家和考古學家的玩家。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_WINNING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_FORMAL} 目前為止，你領先[ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_LOSING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_ARTSY_UNITS_FORMAL} 目前為止，該領袖[ICON_GREAT_PEOPLE]{1_LeaderScore}，你[ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_FORMAL">
+			<Text>他們將獎勵消耗最多的[ICON_GREAT_PEOPLE]大科學家、大商業家和大工程師的玩家。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_WINNING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_FORMAL} 目前為止，你領先[ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_LOSING_FORMAL">
+			<Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_SCIENCEY_UNITS_FORMAL} 目前為止，該領袖[ICON_GREAT_PEOPLE]{1_LeaderScore}，你[ICON_GREAT_PEOPLE][COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ARCHAEOLOGY_FORMAL">
+			<Text>派一名考古學家到這座城邦附近的遺址進行考古發掘。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CIRCUMNAVIGATION_FORMAL">
+			<Text>成為第一個環遊世界的人。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_LIBERATION_FORMAL">
+			<Text>他們希望你解放城市 {1_CityName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_HORDE_FORMAL">
+			<Text>保護他們免受蠻族入侵！如果任務結束時城外有蠻族，城市就會被[COLOR_NEGATIVE_TEXT]洗劫[ENDCOLOR]！</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_REBELLION_FORMAL">
+			<Text>一場反對其盟友的革命正在發生！</Text>
+		</Row>
     <Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_CITY_FORMAL">
       <Text>他們想要你找到 {@1_CityName} 這個城市。</Text>
     </Row>
@@ -3530,6 +3672,9 @@
     <Row Tag="TXT_KEY_CITY_STATE_QUEST_BUILD_X_BUILDINGS_FORMAL">
       <Text>在您帝國的非傀儡城市建造 [COLOR_POSITIVE_TEXT]{2_Num}[ENDCOLOR] {@1_Building} 建築。</Text>
     </Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_SPY_MISSION_FORMAL">
+			<Text>對任何文明執行[COLOR_POSITIVE_TEXT]{@1_SpyMission}[ENDCOLOR]間諜任務。</Text>
+		</Row>
     <Row Tag="TXT_KEY_CITY_STATE_QUEST_SPY_ON_MAJOR_FORMAL">
       <Text>對 {1_Civ} 進行一次間諜任務。</Text>
     </Row>

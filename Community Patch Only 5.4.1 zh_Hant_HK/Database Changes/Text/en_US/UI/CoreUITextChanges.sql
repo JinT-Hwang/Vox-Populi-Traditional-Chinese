@@ -647,10 +647,19 @@ UPDATE Language_en_US
 SET Text = '[COLOR_NEGATIVE_TEXT]帝國因為意識形態的改變而進入無政府狀態，持續 {1_Turns} 回合。在無政府狀態期間，帝國不會獲得任何[ICON_RESEARCH]科技值、[ICON_GOLD]金幣、[ICON_CULTURE]文化或[ICON_PEACE]信仰，城市也沒有 [ICON_PRODUCTION]產能來建造任何東西。[ENDCOLOR]'
 WHERE Tag = 'TXT_KEY_TP_ANARCHY';
 
+-- Science
+UPDATE Language_en_US
+SET Text = '每座城市 +{1_Str}% 基礎[ICON_RESEARCH]科技成本。'
+WHERE Tag = 'TXT_KEY_TP_TECH_CITY_COST';
+
 -- Culture
 UPDATE Language_en_US
 SET Text = '下一個政策：{1_Num: number #} 回合'
 WHERE Tag = 'TXT_KEY_NEXT_POLICY_TURN_LABEL';
+
+UPDATE Language_en_US
+SET Text = '除首都以外的每個[ICON_PUPPET]非傀儡城市都會 +{1_Str}% 基礎[ICON_CULTURE]政策成本。政策成本始終向下取整至最接近的 5 的倍數。'
+WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST';
 
 -- Faith
 UPDATE Language_en_US

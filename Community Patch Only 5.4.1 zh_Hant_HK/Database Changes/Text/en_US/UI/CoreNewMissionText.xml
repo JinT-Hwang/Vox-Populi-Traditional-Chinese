@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Sealift -->
+		<Row Tag="TXT_KEY_MISSION_SEALIFT">
+			<Text>運輸</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SEALIFT_HELP">
+			<Text>運輸系統使陸地單位能夠在一回合內跨越水域長途移動。[NEWLINE][NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]運輸規則：[ENDCOLOR]運輸需要消耗陸地單位的全部[ICON_MOVES]移動力，因此如果單位在本回合已經消耗了[ICON_MOVES]移動力，則無法啟動運輸。此外，該單位必須與已啟用運輸的城市位於同一格或相鄰格。由於運輸會消耗單位的全部[ICON_MOVES]移動力，因此必須等到下一回合才能繼續移動。[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]允許的目標：[ENDCOLOR]運輸可以指定目的地城市中上述的單元格（即城市單元格及其相鄰單元格），但僅限於不包含其他陸地單位的可通行陸地單元格。雖然這一點並不明顯，但該規則實際上限制了你在一回合內從任何單一城市運送到該城市的單位數量。只有透過水路與出發城市直接[ICON_CONNECTED]連接的城市才能成為運輸的目的地。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SEALIFT_HELP_DISABLED">
+			<Text>無有效的運輸目標。</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

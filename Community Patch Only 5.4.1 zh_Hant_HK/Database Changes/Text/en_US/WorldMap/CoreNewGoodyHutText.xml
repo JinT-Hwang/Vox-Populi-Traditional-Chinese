@@ -13,6 +13,9 @@
 		<Row Tag="TXT_KEY_GOODY_SCIENCE">
 			<Text>您發現了古老的文物，激勵您的文明朝著新科技的方向邁進！</Text>
 		</Row>
+		<Row Tag="TXT_KEY_GOODY_LOST_PROTOTYPE">
+			<Text>你找回了遺失的原型！你的單位獲得臨時防禦加成，並且下次晉升免費。</Text>
+		</Row>
 		<Row Tag="TXT_KEY_GOODY_CHOOSE_PRODUCTION">
 			<Text>供應[ICON_PRODUCTION]產能到你最近的城市。</Text>
 		</Row>
@@ -24,6 +27,9 @@
 		</Row>
 		<Row Tag="TXT_KEY_GOODY_CHOOSE_SCIENCE">
 			<Text>遠古文物的[ICON_RESEARCH]科技。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_LOST_PROTOTYPE">
+			<Text>遺失的原型，用於未來的免費晉升。</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

@@ -2216,7 +2216,7 @@
       <Text>({1_Pressure} 壓力，每回合 +{2_PressurePerTurn})</Text>
     </Row>
     <Row Tag="TXT_KEY_RELIGION_TOOLTIP_EXTENDED">
-      <Text>{1_ReligionIcon} {2_NumFollowers} 追隨者 ({3_TotalPressure} + {4_PressurePerTurn} 來自 {5_Num} 來源城市的壓力</Text>
+      <Text>{1_ReligionIcon} {2_NumFollowers} 追隨者 ({3_TotalPressure} + {4_PressurePerTurn} 壓力；{5_Num} 源城市</Text>
     </Row>
     <Row Tag="TXT_KEY_NO_ACTION_NO_SUPPLY">
       <Text>[NEWLINE]不能[ICON_PRODUCTION]訓練這個單位，因為您已達到最大供給上限！</Text>
@@ -2647,6 +2647,9 @@
     <Row Tag="TXT_KEY_ALLY_CBP_SPY">
       <Text>與 {1_Player} 結盟。</Text>
     </Row>
+		<Row Tag="TXT_KEY_EO_SPY_ALREADY_IN_CITY">
+			<Text>你的間諜 {2_SpyName} 已經在 {1_CityName}.</Text>
+		</Row>
     <!-- Intrigue list -->
     <Row Tag="TXT_KEY_INTRIGUE_BRIBE_WAR_US">
       <Text>{1_PlayerName} 賄賂 {2_PlayerName} 向您開戰。</Text>
@@ -2971,15 +2974,27 @@
     <Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_TURNS">
       <Text>你已承諾至少 {1_Num} 回合不向對方宣戰。</Text>
     </Row>
+		<Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_EXPIRING">
+			<Text>你承諾過不會互相宣戰。（本回合結束後失效。）</Text>
+		</Row>
     <Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE_TURNS">
       <Text>你已承諾至少 {1_Num} 回合不在他們附近定居。</Text>
     </Row>
+		<Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE_EXPIRING">
+			<Text>你承諾過不會在他們附近定居。（本回合結束後失效。）</Text>
+		</Row>
     <Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE_TURNS">
       <Text>你已承諾至少 {1_Num} 回合不在他們附近買地。</Text>
     </Row>
+		<Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE_EXPIRING">
+			<Text>你承諾過不在他們附近買地。（本回合結束後失效。）</Text>
+		</Row>
     <Row Tag="TXT_KEY_DIPLO_AI_EXPANSION_PROMISE_TURNS">
       <Text>他們已承諾至少 {1_Num} 回合不在你附近定居。</Text>
     </Row>
+		<Row Tag="TXT_KEY_DIPLO_AI_EXPANSION_PROMISE_EXPIRING">
+			<Text>他們承諾過不在你附近定居。（本回合結束後失效。）</Text>
+		</Row>
     <!-- World Congress -->
     <Row Tag="TXT_KEY_DIPLO_MAINTAINED_THEIR_HOSTING">
       <Text>我們協助他們繼續主辦世界議會。</Text>

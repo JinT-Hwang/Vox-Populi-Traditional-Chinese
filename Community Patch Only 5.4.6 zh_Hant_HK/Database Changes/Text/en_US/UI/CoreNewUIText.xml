@@ -229,14 +229,26 @@
 	<Row Tag="TXT_KEY_TP_CULTURE_PER_TURN">
 		<Text>每回合 +{1_Num} [ICON_CULTURE]文化。</Text>
 	</Row>
+		<Row Tag="TXT_KEY_TP_COST_BASE_LABEL">
+			<Text>基礎成本</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_COST_ADJUSTED_LABEL">
+			<Text>調整後成本</Text>
+		</Row>
 		<Row Tag="TXT_KEY_TP_CULTURE_CITY_COST_DETAIL">
-			<Text>[ICON_BULLET]下一政策成本：{1_Num} [ICON_CULTURE]文化 = {2_Num} [ICON_CULTURE]基礎 + {3_Num} [ICON_CULTURE] (+{5_Str}% 來自 {7_Num} 非首都城市).[NEWLINE][ICON_BULLET]獲得新城市將增加 [COLOR_NEGATIVE_TEXT]+{4_Num}[ENDCOLOR] [ICON_CULTURE] (+{6_Str}% 基礎).</Text>	
+			<Text>[ICON_BULLET]下一政策成本：{1_Num} [ICON_CULTURE]文化 = {2_Num} [ICON_CULTURE]{8_Str} + {3_Num} [ICON_CULTURE] (+{5_Str}% 來自 {7_Num} 非首都城市).[NEWLINE][ICON_BULLET]獲得新城市將增加 [COLOR_NEGATIVE_TEXT]+{4_Num}[ENDCOLOR] [ICON_CULTURE] (+{6_Str}% {8_Str}).</Text>	
 		</Row>
 		<Row Tag="TXT_KEY_TP_POLICY_TENET_PENALTY_EXPLAINER">
 			<Text>每條原則都會增加未來的政策成本：階層1 [COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR], 階層2 [COLOR_NEGATIVE_TEXT]+{2_Num}%[ENDCOLOR], 階層3 [COLOR_NEGATIVE_TEXT]+{3_Num}%[ENDCOLOR].</Text>
 		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_COST_BASE">
+			<Text>基礎政策成本：{1_Num} [ICON_CULTURE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_CAPPED">
+			<Text>(上限為 {1_Num}%)</Text>
+		</Row>
 		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_HEADER">
-			<Text>政策成本變化：</Text>
+			<Text>[ICON_BULLET]x {1_Str} 來自政策成本變化{2_Str}：</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FROM_POLICIES">
 			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] 來自已採納的政策和原則。</Text>
@@ -251,20 +263,29 @@
 			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]-{1_Num}%[ENDCOLOR] 來自文明特性。</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_POLICY_TENET_PENALTY">
-			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]+{1_Num}%[ENDCOLOR] 來自 {2_Num} 已採納的原則。</Text>
+			<Text>[ICON_BULLET]x [COLOR_NEGATIVE_TEXT]{1_Num}%[ENDCOLOR] 來自 {2_Num} 已採納的原則。</Text>
 		</Row>
-		<Row Tag="TXT_KEY_TP_POLICY_DISCOUNT_FORMULA">
-			<Text>調整基礎[ICON_CULTURE]政策成本{1_Num} [ICON_CULTURE]{2_Str}{3_Str}{4_Str} = {5_Num} [ICON_CULTURE].</Text>
+		<Row Tag="TXT_KEY_TP_POLICY_DIFFICULTY">
+			<Text>[ICON_BULLET]x {1_Str} 來自難度和時代。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_POLICY_COST_TOTAL">
+			<Text>[ICON_BULLET]= {1_Num} [ICON_CULTURE]調整後政策成本</Text>
 		</Row>
 	<!-- Science -->
 	<Row Tag="TXT_KEY_TP_SCIENCE_PER_TURN">
 		<Text>每回合 +{1_Num} [ICON_RESEARCH]科技值。</Text>
 	</Row>
 		<Row Tag="TXT_KEY_TP_TECH_CITY_COST_DETAIL">
-			<Text>[ICON_BULLET]當前科技成本：{1_Num} [ICON_RESEARCH]科學 = {2_Num} [ICON_RESEARCH]基礎 + {3_Num} [ICON_RESEARCH] (+{5_Str}% 來自 {7_Num} 城市).[NEWLINE][ICON_BULLET]獲得新城市將增加 [COLOR_NEGATIVE_TEXT]+{4_Num}[ENDCOLOR] [ICON_RESEARCH] (+{6_Str}% 基礎).</Text>
+			<Text>[ICON_BULLET]當前科技成本：{1_Num} [ICON_RESEARCH]科學 = {2_Num} [ICON_RESEARCH]{8_Str} + {3_Num} [ICON_RESEARCH] (+{5_Str}% 來自 {7_Num} 城市).[NEWLINE][ICON_BULLET]獲得新城市將增加 [COLOR_NEGATIVE_TEXT]+{4_Num}[ENDCOLOR] [ICON_RESEARCH] (+{6_Str}% {8_Str}).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_COST_BASE">
+			<Text>基礎科技成本：{1_Num} [ICON_RESEARCH]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_HEADER">
-			<Text>科技成本因數：</Text>
+			<Text>[ICON_BULLET]/ {1_Str}{2_Str} 來自科技成本折扣：</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_SCHOLAR_SPLIT">
+			<Text>([COLOR_POSITIVE_TEXT]{1_Num}%[ENDCOLOR] x [COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR])</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TP_TECH_CATCHUP_DISCOUNT">
 			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Str}%[ENDCOLOR] 來自 {2_Num}/{3_Num} 已知擁有這項技術的文明。</Text>
@@ -272,11 +293,8 @@
 		<Row Tag="TXT_KEY_TP_TECH_PREREQ_DISCOUNT">
 			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Str}%[ENDCOLOR] 來自已知的可選先決條件科技。</Text>
 		</Row>
-		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_FORMULA_NO_SCHOLAR">
-			<Text>降低基礎[ICON_RESEARCH]科技成本：{1_Num} [ICON_RESEARCH] / [COLOR_POSITIVE_TEXT]{3_Num}%[ENDCOLOR] = {4_Num} [ICON_RESEARCH].</Text>
-		</Row>
-		<Row Tag="TXT_KEY_TP_TECH_DISCOUNT_FORMULA_WITH_SCHOLAR">
-			<Text>降低基礎[ICON_RESEARCH]科技成本：{1_Num} [ICON_RESEARCH] / ([COLOR_POSITIVE_TEXT]{2_Num}%[ENDCOLOR] x [COLOR_POSITIVE_TEXT]{3_Num}%[ENDCOLOR]) = {5_Num} [ICON_RESEARCH].</Text>
+		<Row Tag="TXT_KEY_TP_TECH_COST_TOTAL">
+			<Text>[ICON_BULLET]= {1_Num} [ICON_RESEARCH]調整後科技成本。</Text>
 		</Row>
 	<!-- Tourism -->
 	<Row Tag="TXT_KEY_TP_TOURISM_PER_TURN">
@@ -413,7 +431,7 @@
 			<Text>{1_String1}，{2_String2}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LIST_COMBINE_FINAL">
-			<Text>{1_String1}，和 {2_String2}</Text>
+			<Text>{1_String1}和{2_String2}</Text>
 		</Row>
 		<!-- Unit -->
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_COMBAT_CLASS">
@@ -435,7 +453,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]無維護成本[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_NO_SUPPLY">
-			<Text>[COLOR_POSITIVE_TEXT]不消耗[ICON_WAR]單位供應上限[ENDCOLOR]</Text>
+			<Text>[COLOR_POSITIVE_TEXT]不消耗[ICON_SILVER_FIST]單位供應上限[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_UNHAPPINESS">
 			<Text>[ICON_HAPPINESS_3] [COLOR_NEGATIVE_TEXT]不滿度：{1_Num}</Text>
@@ -564,7 +582,7 @@
 			<Text>消耗時：+{1_Num} {2_ResIcon} {3_Res:textkey}</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXPEND_SUPPLY">
-			<Text>消耗時：+{1_Num} [ICON_WAR]軍隊供應上限</Text>
+			<Text>消耗時：+{1_Num} [ICON_SILVER_FIST]軍隊供應上限</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_UNIT_EXPEND_COPY_TILE_YIELD">
 			<Text>消耗時：[ICON_CAPITAL]首都單元格的收益增加</Text>
@@ -943,7 +961,7 @@
 			<Text>{2_Sign}{1_Num} 空中單位槽位</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SUPPLY_FLAT">
-			<Text>{2_Sign}{1_Num} [ICON_WAR]軍隊供應上限</Text>
+			<Text>{2_Sign}{1_Num} [ICON_SILVER_FIST]軍隊供應上限</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_SUPPLY_MODIFIER">
 			<Text>{2_Sign}{1_Num}% 來自人口的[ICON_SILVER_FIST]軍隊供應上限</Text>

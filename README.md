@@ -72,9 +72,9 @@ C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\ 文
 
 ------
 
-5.4.3 版本的 Community Patch Only 的翻译。
+5.4.6 版本的 Community Patch Only 的翻译。
 
-在仅安装了 5.4.3 的 CP 后，将 Community Patch Only 5.4.3 zh_Hant_HK 文件夹内文件
+在仅安装了 5.4.6 的 CP 后，将 Community Patch Only 5.4.6 zh_Hant_HK 文件夹内文件
 
 粘贴到 C:\Users\你的用户名\Documents\My Games\Sid Meier's Civilization 5\MODS\(1) Community Patch 文件夹内, 进行替换，
 

@@ -649,7 +649,7 @@ WHERE Tag = 'TXT_KEY_TP_ANARCHY';
 
 -- Science
 UPDATE Language_en_US
-SET Text = '每座城市 +{1_Str}% 基礎[ICON_RESEARCH]科技成本。'
+SET Text = '每座城市 +{1_Str}% [ICON_RESEARCH]科技成本。'
 WHERE Tag = 'TXT_KEY_TP_TECH_CITY_COST';
 
 -- Culture
@@ -658,7 +658,7 @@ SET Text = '下一個政策：{1_Num: number #} 回合'
 WHERE Tag = 'TXT_KEY_NEXT_POLICY_TURN_LABEL';
 
 UPDATE Language_en_US
-SET Text = '除首都以外的每個[ICON_PUPPET]非傀儡城市都會 +{1_Str}% 基礎[ICON_CULTURE]政策成本。政策成本始終向下取整至最接近的 5 的倍數。'
+SET Text = '除首都以外的每個[ICON_PUPPET]非傀儡城市都會 +{1_Str}% [ICON_CULTURE]政策成本。'
 WHERE Tag = 'TXT_KEY_TP_CULTURE_CITY_COST';
 
 -- Faith
